@@ -16,7 +16,7 @@ internal: n
 snippet: y
 ---
 
-# About Journeys{#about-journeys}
+# About Journeys{#concept_nd3_mqt_52b}
 
 Build real-time orchestration use cases leveraging contextual data stored in events or data sources.
 
@@ -49,5 +49,5 @@ _Related topics:_
 * [Experience Cloud XDM field definition](https://www.adobe.io/apis/cloudplatform/dataservices/xdm.html)
 * [Namespace Service](https://www.adobe.io/apis/cloudplatform/dataservices/profile-identity-segmentation/profile-identity-segmentation-services.html#!api-specification/markdown/narrative/technical_overview/identity_namespace_overview/identity_namespace_overview.md)
 * [Streaming Ingestion APIs](https://www.adobe.io/apis/cloudplatform/dataservices/data-ingestion/data-ingestion-services.html#!api-specification/markdown/narrative/technical_overview/streaming_ingest/getting_started_with_platform_streaming_ingestion.md)
-* [Adobe Campaign Standard transactional messaging](https://helpx.adobe.com/campaign/standard/channels/using/about-transactional-messaging.html
+* [Adobe Campaign Standard transactional messaging](https://helpx.adobe.com/campaign/standard/channels/using/about-transactional-messaging.html)
 

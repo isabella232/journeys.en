@@ -16,13 +16,13 @@ internal: n
 snippet: y
 ---
 
-# The Journeys' interface
+# The Journeys' interface{#concept_rcq_lqt_52b}
 
 >[!NOTE]
 >
 >To get the best out of the Journeys feature, we recommend using Chrome as your Internet browser.
 
-## Discovering the interface
+## Discovering the interface{#concept_rcq_lqt_52b}
 
 To access the Journeys' interface, click the **Triggered Journeys** card from the home page of Campaign Standard or click the **Adobe Campaign** logo, in the top left corner, then select **Triggered Journeys**.
 
@@ -32,7 +32,7 @@ The top bar allows you to navigate through the different functionalities of the 
 
 ![](assets/journey2.png)  
 
-## Searching and filtering
+## Searching and filtering{#concept_rcq_lqt_52b}
 
 In the **Journeys**, **Data Sources**, **Events** and **Actions** lists, a search bar allows you to search for an item. Use the left drop-down menu to search in names, descriptions or both. Use the **Filters** drop-down menu to filter the elements according to different criteria. You can choose to only display the elements of a certain type or status, the ones you created, or the ones modified in the last 30 days.
 
@@ -48,7 +48,7 @@ In the different lists, you can perform basic actions on each element. For examp
 
 ![](assets/journey4.png)  
 
-## Using the different shortcuts
+## Using the different shortcuts{#concept_rcq_lqt_52b}
 
 Here are the different shortcuts available in the Journeys' interface.
 

@@ -16,7 +16,7 @@ internal: n
 snippet: y
 ---
 
-# Managing your users' access to Journeys
+# Managing your users' access to Journeys{concept_rfj_wpt_52b}
 
 Define your users' access levels using security groups and roles.
 

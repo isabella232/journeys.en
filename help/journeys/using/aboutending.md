@@ -16,7 +16,7 @@ internal: n
 snippet: y
 ---
 
-# Ending a journey
+# Ending a journey{concept_y4b_4qt_52b}
 
 There are three ways to end a journey:
 

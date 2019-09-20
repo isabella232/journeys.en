@@ -10,7 +10,8 @@ index: y
 + [Product documentation](journeys-home.md)
 + Starting with Journeys {#starting-with-journeys}
   + [About Journeys](journeys/intro.md)
-  + [User Process Panel Releases](journeys/using/aboutprocess.md)
-  + [Release 19.1](journeys/using/aboutinterface.md)
-  + [Release 18.10](journeys/using/usermanagement.md)
-  + [Release 18.6](journeys/using/troubleshooting.md)
+  + [User Process](journeys/using/aboutprocess.md)
+  + [The Journeys' interface](journeys/using/aboutinterface.md)
+  + [Ending a journey](journeys/using/usermanagement.md)
+  + [Managing your users' access to Journeys](journeys/using/troubleshooting.md)
+  + [Troubleshooting](journeys/using/troubleshooting.md)
