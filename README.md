@@ -1,2 +1,3 @@
-# journeys.en
-repo for journeys documentation
+# journeys-docs
+
+Technical documentation for Journeys
