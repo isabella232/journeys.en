@@ -56,7 +56,7 @@ If individuals flow the right way in the journey but don't receive messages, you
 
 ## Testing journeys before publication{section_fhm_gxb_fhb}
 
-Before publishing your journey, you can use the test mode to test your journey's behavior. This will allow you to see how your test profiles flow in the journey, what data is retrieved and if they finish the journey successfully. For more information, refer to [Testing your journey](journeypublication.html#concept_mtc_lrt_52b__section_ctr_lqk_fhb).
+Before publishing your journey, you can use the test mode to test your journey's behavior. This will allow you to see how your test profiles flow in the journey, what data is retrieved and if they finish the journey successfully. For more information, refer to [Testing your journey](journeypublication.dita#concept_mtc_lrt_52b__section_ctr_lqk_fhb).
 
 ## Troubleshooting Streaming Ingestion APIs{section_epp_42s_w3b}
 
