@@ -43,12 +43,17 @@ To use the test mode, follow these steps:
 
 1. Before testing your journey, verify that it is valid and that there is no error. See [Checking for errors](#section_h3q_kqk_fhb). A warning symbol is displayed when there are errors.
 1. To activate the test mode, click on the **Test** toggle, located in the top right corner.
+    
     ![](assets/journeytest1.png)
-1. After the events are received, click the **&lt;/>** button to view the test result.!
-    [](assets/journeytest2.png)
+
+1. After the events are received, click the **&lt;/>** button to view the test result.
+
+    ![](assets/journeytest2.png)
+
 1. Verify the test result. This page displays the journey’s current information in JSON format. A button allows you to copy entire nodes. You need to refresh the page to update the journey’s test results. 
 
 ![](assets/journeytest3.png)
+
 The number of individuals (__instances__) currently inside the journey are displayed. Here are examples of useful information that is displayed for each individual:
 * __Id__: the individual’s internal ID in the journey. This can be used for debugging purposes.
 * __currentstep__: the step where the individual is at in the journey. We recommend adding labels to your activities to identify them more easily.
