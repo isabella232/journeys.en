@@ -36,7 +36,7 @@ The top bar allows you to navigate through the different functionalities of the 
 
 In the **Journeys**, **Data Sources**, **Events** and **Actions** lists, a search bar allows you to search for an item. Use the left drop-down menu to search in names, descriptions or both. Use the **Filters** drop-down menu to filter the elements according to different criteria. You can choose to only display the elements of a certain type or status, the ones you created, or the ones modified in the last 30 days.
 
-In the **Journeys** list, a drop-down menu allows you to only display the journeys that use a particular event, field group or action. See [The journey designer's interface](journeyinterface.dita#concept_m1g_5qt_52b).
+In the **Journeys** list, a drop-down menu allows you to only display the journeys that use a particular event, field group or action. See [The journey designer's interface](journeyinterface.md#concept_m1g_5qt_52b).
 
 ![](assets/journey3.png)  
 

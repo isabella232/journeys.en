@@ -21,13 +21,13 @@ snippet: y
 
 >[!NOTE]
 >
->When creating an event, Journeys automatically generates an ID for this event. The system pushing the event should not generate an ID, it should use the one available in the payload preview. See <xref href="eventpayloadpreview.dita#concept_jgf_4yk_4fb"/>.
+>When creating an event, Journeys automatically generates an ID for this event. The system pushing the event should not generate an ID, it should use the one available in the payload preview. See <xref href="eventpayloadpreview.md#concept_jgf_4yk_4fb"/>.
 
 
 To configure events to be sent to <b>Streaming Ingestion APIs</b> and to be used in Triggered Journeys, you need to follow these steps:
 
 1. Get the inlet URL from the Data Platform APIs (see <xref href="https://www.adobe.io/apis/cloudplatform/dataservices/data-ingestion/data-ingestion-services.html#!api-specification/markdown/narrative/technical_overview/streaming_ingest/getting_started_with_platform_streaming_ingestion.md" format="html" scope="external">Streaming Ingestion APIs</xref>).
-1. Copy the payload from the payload preview in the <b>Event</b> menu. See <xref href="eventpayload.dita#concept_yrw_3qt_52b"/>.
+1. Copy the payload from the payload preview in the <b>Event</b> menu. See <xref href="eventpayload.md#concept_yrw_3qt_52b"/>.
 1. Configure your data system that pushes events to Streaming Ingestion APIs using the payload you copied:<ul id="ul_y4c_41q_y2b">
    1. Set up a POST API call to the Streaming Ingestion APIs URL (called an inlet).
    1. Use the payload you copied from Journeys in the body ("data section") of the API call to Streaming Ingestion APIs. See below for an example
