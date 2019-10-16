@@ -59,7 +59,7 @@ Each table is represented by summary numbers and charts. You can change how the 
 * **Delivery - Open rate**: Total number of opened messages compared to the number of delivered messages.
 * **Delivery - Click rate**: Total number of clicks in a delivery compared to the number of delivered messages.
 
-The Journey flow visualization allows you to see the path of your targeted profiles step-by-step through your journey.
+The Journey flow visualization allows you to see the path of your targeted profiles step-by-step through your journey. This is only available when targeting one journey.
 
         ![](assets/dynamic_report_journey_10.png)
 
