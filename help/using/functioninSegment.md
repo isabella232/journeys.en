@@ -20,26 +20,26 @@ snippet: y
 
 Checks if an individual belongs to a given segment.The segment name must be a string constant. It cannot be a field reference nor an expression.
 
-## Category</title>
+## Category
 
 Adobe Experience Platform
 
-## Function syntax </title>
+## Function syntax
 
 `inSegment(<parameter>)`
 
-## Parameters</title>
+## Parameters
 
 |Parameter|Description|Type|
 |--- |--- |--- |
 |Constant|The segment name |`<string>`|
 
-## Signature and returned type</title>
+## Signature and returned type
 
 `inSegment(<string>)`
 
 Returns a boolean.
 
-## Example</title>
+## Example
 
 `inSegment("men over 50")`
