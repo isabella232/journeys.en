@@ -59,3 +59,12 @@ Returns an integer.
 Returns a decimal.
 
 ## Examples
+
+`sum({@BarBeacon.inventory},5)`
+`sum([10,3,8])`
+
+Returns 21.
+
+`sum([10.5,null,8.1])`
+
+Returns 18.6.
