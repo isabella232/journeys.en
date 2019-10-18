@@ -50,4 +50,4 @@ Returns an integer.
 
 `count([10,2,10,null])`
 
-Returns 3. 
+Returns 3.
