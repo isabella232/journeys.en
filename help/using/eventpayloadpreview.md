@@ -16,8 +16,7 @@ internal: n
 snippet: y
 ---
 
-
-# Previewing the payload {concept_jgf_4yk_4fb}
+# Previewing the payload {#concept_jgf_4yk_4fb}
 
 The payload preview allows you to validate the payload definition.
 

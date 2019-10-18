@@ -16,4 +16,6 @@ internal: n
 snippet: y
 ---
 
+# Use cases
+
 This section will present you several use cases and the different steps required to implement them.

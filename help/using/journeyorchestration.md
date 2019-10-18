@@ -22,7 +22,7 @@ From the palette, on the left-hand side of the screen, the following orchestrati
 
     ![](assets/journey46.png)
 
-# Condition {#section_e2n_pft_dgb}
+## Condition {#section_e2n_pft_dgb}
 
 The **Condition** activity allows you to define a simple or advanced behavioral condition.
 
@@ -73,13 +73,14 @@ When several paths are defined after a condition, only the first eligible path w
 
 You can create another path for audiences that are not eligible to the defined conditions by checking **Show path for other cases than the one(s) above**.
 
-## End {section_vqp_4ft_dgb}
+## End {#section_vqp_4ft_dgb}
 
 The **End** activity allows you to mark the end of each path of the journey. It is not mandatory but recommended for visual clarity and reporting accuracy. Indeed, in the **Reporting** tab (see [Building your Journeys reports](reporting.md#concept_rfj_wpt_52b)), you will have a ratio of the number of people who entered the journey according to the number of people who exited the journey.
 
 ![](assets/journey54.png)
 
 ## Timer {#section_rlm_nft_dgb}
+
 If you want to wait before executing the next activity in the path, you can use a **Timer** activity. It allows you to define the moment when the next activity will be executed. Three options are available:
 
 * **Duration**: select the duration of the wait before the execution of the next activity.![](assets/journey55.png" placement="break" width="800" id="image_kq2_2jn_z2b)
