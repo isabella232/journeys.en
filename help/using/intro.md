@@ -36,9 +36,9 @@ You then create conditions based on:
 * time
 * data coming from the event payload
 * information coming from data sources: Unified Profile data source or custom data sources
-        
+
 You can use the split condition to send people in the journey into different directions.
 
-You can then send real-time personalized SMS, push notifications or emails using Adobe Campaign Standard's Transactional Messaging capabilities using action activities. 
+You can then send real-time personalized SMS, push notifications or emails using Adobe Campaign Standard's Transactional Messaging capabilities using action activities.
 
 As the Journeys feature is multistep, you can create advanced scenarios. For example, after a first event and action, you can drag other events. Then, you can add a second action, place a timer to wait for some time, add a split condition to push people to two different paths and then send different messages.
