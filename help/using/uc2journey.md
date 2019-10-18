@@ -61,6 +61,7 @@ and
 
 ```
 
+
 ![](assets/journeyuc2_30.png)
 
 1. Click the **Add a path** button and create a second path for customers who have not been contacted in the last 24 hours and are not a loyalty member. The syntax of the expression is:
@@ -68,8 +69,8 @@ and
 ```
 
     count(#{ExperiencePlatformDataSource.MarltonExperience.experienceevent.all(
-                    currentDataPackField.directMarketing.sends.value > 0 and
-                    currentDataPackField.timestamp > nowWithDelta(1, "days", "UTC")).timestamp}) == 0
+        currentDataPackField.directMarketing.sends.value > 0 and
+        currentDataPackField.timestamp > nowWithDelta(1, "days", "UTC")).timestamp}) == 0
     and not
         #{ExperiencePlatformDataSource.MarltonProfiles.Profile._customer.marlton.loyaltyMember}
 
@@ -82,7 +83,9 @@ Two paths are created after your condition:
 * _Customers who have not been contacted in the last 24 hours and are loyalty members._
 * _Customers who have not been contacted in the last 24 hours and are not loyalty members._
 
+
 ![](assets/journeyuc2_16.png)
+
 
 ## First path: the customer is a loyalty member {#section_otb_ws1_ffb}
 

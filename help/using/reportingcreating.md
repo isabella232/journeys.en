@@ -34,7 +34,7 @@ This section will present you how to create or use out-of-the-box reports. Combi
 
 ![](assets/dynamic_report_journey_5.png)
 
-1. To have a clearer view of your data, you can add visualizations from the **Visualizations** tab. 
+1. To have a clearer view of your data, you can add visualizations from the **Visualizations** tab.
 
 ![](assets/dynamic_report_journey_6.png)
 
@@ -45,4 +45,3 @@ This section will present you how to create or use out-of-the-box reports. Combi
 Each table cell and visualization can be configured. For more on this, refer to the [Adobe Campaign Standard documentation](https://helpx.adobe.com/campaign/standard/reporting/using/adding-panels.html).
 
 Your reports can also be saved, shared or downloaded. For more on this, refer to the [Adobe Campaign Standard documentation](https://helpx.adobe.com/campaign/standard/reporting/using/reporting-interface.html#toolbar).
-    

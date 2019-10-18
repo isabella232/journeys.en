@@ -80,6 +80,7 @@ The **End** activity allows you to mark the end of each path of the journey. It 
 ![](assets/journey54.png)
 
 ## Timer {#section_rlm_nft_dgb}
+
 If you want to wait before executing the next activity in the path, you can use a **Timer** activity. It allows you to define the moment when the next activity will be executed. Three options are available:
 
 * **Duration**: select the duration of the wait before the execution of the next activity.![](assets/journey55.png" placement="break" width="800" id="image_kq2_2jn_z2b)
