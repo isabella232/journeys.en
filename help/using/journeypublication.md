@@ -72,7 +72,7 @@ Here are the different statuses of an individual's journey:
 * __Error__: the individual is stopped in the journey because of an error.
 * __Timed out__: the individual is stopped in the journey because of a step which took too much time.
 
-# Publishing your journey {#section_w1b_mqk_fhb}
+## Publishing your journey {#section_w1b_mqk_fhb}
 
 1. Before publishing your journey, verify that it is valid and that there is no error. See [Checking for errors](#section_h3q_kqk_fhb). A warning symbol is displayed when there are errors. It is also recommended to test your journey before publication. See [Testing your journey](#section_ctr_lqk_fhb).
 1. To publish the journey, click on the **Publish** option, located in the top right drop-down menu.
