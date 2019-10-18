@@ -32,7 +32,7 @@ Events are POST API calls. Events are sent to the Adobe Experience Cloud Data Pl
 
 After arriving through Streaming Ingestion APIs, events flow into an internal service called Pipeline and then in the Data Platform. If the event schema has the Unified Profile Service flag enabled and a dataset ID that also has the Unified Profile flag, it flows into the Unified Profile Service. The Pipeline filters events which have a payload containing Triggered Journeys eventIDs (see the event creation process below) provided by Journeys and contained in event payload. These events are listened by Journeys and the corresponding journey is triggered.
 
-## Creating a new event {section_tbk_5qt_pgb}
+## Creating a new event {#section_tbk_5qt_pgb}
 
 Here are the main steps to configure a new event:
 

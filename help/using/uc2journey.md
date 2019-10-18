@@ -51,21 +51,21 @@ For additional information on how to build a journey, refer to [Building a journ
 
 1. Click **Advanced mode** and define the following condition based on the _timestamp_ and _metrics._directMarketing.sends.value_ fields coming from the Experience Platform data source. The syntax of the expression is:
 
-   ```
+```
 
 count(#{ExperiencePlatformDataSource.MarltonExperience.experienceevent.all(
-    			currentDataPackField.directMarketing.sends.value > 0 and
-    			currentDataPackField.timestamp > nowWithDelta(1, "days", "UTC")).timestamp}) == 0
-and 
-	#{ExperiencePlatformDataSource.MarltonProfiles.Profile._customer.marlton.loyaltyMember}
-    
-    ```
+    currentDataPackField.directMarketing.sends.value > 0 and
+    currentDataPackField.timestamp > nowWithDelta(1, "days", "UTC")).timestamp}) == 0
+and
+    #{ExperiencePlatformDataSource.MarltonProfiles.Profile._customer.marlton.loyaltyMember}
+
+```
 
 ![](assets/journeyuc2_30.png)
 
 1. Click the **Add a path** button and create a second path for customers who have not been contacted in the last 24 hours and are not a loyalty member. The syntax of the expression is:
 
-   ```
+```
 
     count(#{ExperiencePlatformDataSource.MarltonExperience.experienceevent.all(
                     currentDataPackField.directMarketing.sends.value > 0 and
@@ -73,7 +73,7 @@ and
     and not
         #{ExperiencePlatformDataSource.MarltonProfiles.Profile._customer.marlton.loyaltyMember}
 
-   ```
+```
 
 In our use case, we only want to react to those two conditions, so we don't check the box **Show path for other cases than the one(s) above**.
 
@@ -82,7 +82,7 @@ Two paths are created after your condition:
 * _Customers who have not been contacted in the last 24 hours and are loyalty members._
 * _Customers who have not been contacted in the last 24 hours and are not loyalty members._
 
-        ![](assets/journeyuc2_16.png)
+![](assets/journeyuc2_16.png)
 
 ## First path: the customer is a loyalty member {#section_otb_ws1_ffb}
 
@@ -102,11 +102,12 @@ Two paths are created after your condition:
 
 1. Since we also want to react to customers who do not have a reservation, we need to check the box **Show path for other cases than the one(s) above**.
 
-![](assets/journeyuc2_20.png)
+    ![](assets/journeyuc2_20.png)
 
- Two paths are created: 
-        * _Customers who have booked a room_
-        * _Customers who have not booked a room._
+ Two paths are created:
+
+* _Customers who have booked a room_
+* _Customers who have not booked a room._
 
 ![](assets/journeyuc2_21.png)
 
@@ -116,7 +117,7 @@ Two paths are created after your condition:
 
 1. Define the **Target** fields required by the system to send the push. 
 
- * **Push platform**: select the platform: **Apple Push Notification Server** or (Apple) or **Firebase Cloud Messaging** (Android).
+* **Push platform**: select the platform: **Apple Push Notification Server** or (Apple) or **Firebase Cloud Messaging** (Android).
 
 <!--note type="attention">Quotes are required. </note-->
 

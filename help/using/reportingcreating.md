@@ -16,8 +16,7 @@ internal: n
 snippet: y
 ---
 
-
-## Creating your Journeys reports{#concept_rfj_wpt_52b}
+# Creating your Journeys reports{#concept_rfj_wpt_52b}
 
 This section will present you how to create or use out-of-the-box reports. Combine panels, components and visualizations to better track the success of your journeys.
 

@@ -16,7 +16,7 @@ internal: n
 snippet: y
 ---
 
-# URL configuration {concept_gbg_1f1_2gb}
+# URL configuration {#concept_gbg_1f1_2gb}
 
 When configuring a custom action, you need to define the following **URL Configuration** parameters:
 
