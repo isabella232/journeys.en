@@ -18,7 +18,7 @@ snippet: y
 
 # getBestSendTime {#getBestSendTime}
 
-Provides a predictive time of the best time for delivering an email to an individual.  To use this function, a [namespace](eventnamespace.dita) is needed.
+Provides a predictive time of the best time for delivering an email to an individual.  To use this function, a [namespace](eventnamespace.md) is needed.
 
 ## Category
 

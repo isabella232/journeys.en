@@ -12,10 +12,10 @@ Build real-time orchestration use cases leveraging contextual data stored in eve
 
 ## What's New
 
-* **[List of functions](journeys/using/expressionfunctions.md)**<br/>
+* **[List of functions](using/expressionfunctions.md)**<br/>
 Discover the complete list of functions that you can use in the expression editor to build advanced conditions.
 
-* **[Simple expression editor](journeys/using/journeyorchestration.md#concept_ksq_2rt_52b/section_e2n_pft_dgb)**<br/>
+* **[Simple expression editor](using/journeyorchestration.md#concept_ksq_2rt_52b/section_e2n_pft_dgb)**<br/>
 Learn how to use the expression editor simple mode to perform simple queries based on a combination of fields.
 
 ## Top pages
@@ -23,11 +23,11 @@ Learn how to use the expression editor simple mode to perform simple queries bas
 <table>
 <tr>
   <td>
-    <a href="journeys/using/expressionadvanced.md">
-      <img alt="expression" src="journeys/using/assets/FAQ.png"/>
+    <a href="using/expressionadvanced.md">
+      <img alt="expression" src="using/assets/FAQ.png"/>
     </a>
     <div>
-      <a href="journeys/using/expressionadvanced.md">
+      <a href="using/expressionadvanced.md">
     <strong>Building advanced conditions</strong>
     </a>
     </div>
@@ -36,11 +36,11 @@ Learn how to use the expression editor simple mode to perform simple queries bas
     <p>
   </td>
    <td>
-    <a href="journeys/using/journey.md">
-      <img alt="journey" src="journeys/using/assets/upgrade.png" />
+    <a href="using/journey.md">
+      <img alt="journey" src="using/assets/upgrade.png" />
     </a>
     <div>
-      <a href="journeys/using/journey.md">
+      <a href="using/journey.md">
     <strong>Building your journeys</strong>
     </a>
     </div>
@@ -49,11 +49,11 @@ Learn how to use the expression editor simple mode to perform simple queries bas
     <p>
   </td>
   <td>
-    <a href="journeys/using/troubleshooting.md">
-       <img alt="troubleshooting" src="journeys/using/assets/push.png" />
+    <a href="using/troubleshooting.md">
+       <img alt="troubleshooting" src="using/assets/push.png" />
     </a>
     <div>
-       <a href="journeys/using/troubleshooting.md">
+       <a href="using/troubleshooting.md">
     <strong>Troubleshooting</strong>
     </a>
     </div>

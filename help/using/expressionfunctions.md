@@ -16,11 +16,11 @@ internal: n
 snippet: y
 ---
 
-# Functions{#concept_p1r_qj5_dgb}
+# Functions {#concept_p1r_qj5_dgb}
 
 A function can have different signatures (a different set of ordered parameters). A function signature can have 0-N expressions as ordered parameters.
 
-`<function name>`(`<expression as param 1>`, `<expression as param 2>`, ... ,`<expression as param N>`)`
+`<function name>`(`<expression as param 1>`, `<expression as param 2>`, ... ,`<expression as param N>`)
 Each function has a specific return data type. Here is the list of supported functions.
 
 ## Main functions
@@ -46,7 +46,7 @@ Each function has a specific return data type. Here is the list of supported fun
 | Conversion  | toInteger             |
 | Conversion  | toString              |
 | Conversion  | toTimeZone            |
-| Date        | currentTime​InMillis  |
+| Date        | currentTime​InMillis   |
 | Date        | inLastDays            |
 | Date        | inLastHours           |
 | Date        | inLastMonths          |
