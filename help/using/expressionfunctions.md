@@ -56,12 +56,12 @@ Each function has a specific return data type. Here is the list of supported fun
 | Date        | [inNextMonths](functioninnextmonths.md)|
 | Date        | [inNextYears](functioninnextyears.md)|
 | Date        | [now](functionnow.md)|
-| Date        | [nowWithDelta](functionnowwithdelta.md)
+| Date        | [nowWithDelta](functionnowwithdelta.md)|
 | Date        | [setHours](functionsethours.md)|
 | Date        | [setDays](functionsetdays.md)|
 | Date        | [updateTimeZone](functionupdatetimezone.md)|
 | List        | [distinct](functiondistinct.md)|
-| List        | [distinctWithNull](functiondistinctcount.md)
+| List        | [distinctWithNull](functiondistinctcount.md)|
 | List        | [in](functionin.md)|
 | List        | [listSize](functionlistsize.md)|
 | List        | [serializeList](functionserializelist.md)|
@@ -86,7 +86,7 @@ Each function has a specific return data type. Here is the list of supported fun
 | String      | [replaceAll](functionreplaceall.md)|
 | String      | [startWith](functionstartwith.md)|
 | String      | [startWithIgnoreCase](functionstartwithignorecase.md)|
-| String      | [substr](functionsubstr.md)
+| String      | [substr](functionsubstr.md)|
 | String      | [trim](functiontrim.md)|
 | String      | [upper](functionupper.md)|
 | String      | [uuid](functionuuid.md)|
