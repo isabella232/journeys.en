@@ -51,4 +51,4 @@ Return a boolean.
 
 `toBool("true")`
 
-Returns true
+Returns true.

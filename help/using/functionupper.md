@@ -31,9 +31,11 @@ String
 ## Signature and return type
 
 `upper(<string>)`
+
 Return a string.
 
 ## Example
 
 `upper("b")`
+
 Returns "B"

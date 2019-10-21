@@ -31,9 +31,11 @@ String
 ## Signature and return type
 
 `startWithIgnoreCase(<string>,<string>)`
+
 Return a boolean.
 
 ## Example
 
 `startWith("rowing is great', "RO")`
+
 Returns true.

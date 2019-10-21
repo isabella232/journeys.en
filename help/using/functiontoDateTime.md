@@ -25,7 +25,7 @@ Conversion
 
 ## Function syntax
 
-``
+`toDateTime(<parameters>)`
 
 ## Parameters
 

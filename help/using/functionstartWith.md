@@ -31,12 +31,15 @@ String
 ## Signature and return type
 
 `startWith(<string>,<string>)`
+
 Return a boolean.
 
 ## Example
 
 `startWith("Hello World", "Hello")`
+
 Returns true.
 
 `startWith("Hello World", "World")`
+
 Returns false.
