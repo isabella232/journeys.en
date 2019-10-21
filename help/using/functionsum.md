@@ -1,8 +1,8 @@
 ---
-title: min
-seo-title: min
-description: min
-seo-description: Learn about the function min
+title: sum
+seo-title: sum
+description: sum
+seo-description: Learn about the function sum
 page-status-flag: never-activated
 uuid: 269d590c-5a6d-40b9-a879-02f5033863fc
 contentOwner: sauviat
@@ -16,7 +16,7 @@ internal: n
 snippet: y
 ---
 
-# min {#min}
+# sum {#sum}
 
 Returns the sum of the values of a set of expressions. Null values are ignored.
 
