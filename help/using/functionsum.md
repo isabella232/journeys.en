@@ -60,7 +60,7 @@ Returns a decimal.
 
 ## Examples
 
-```sum({@BarBeacon.inventory},5)```
+<!--```sum({@BarBeacon.inventory},5)```-->
 
 `sum([10,3,8])`
 
