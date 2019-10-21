@@ -18,7 +18,7 @@ snippet: y
 
 # Advanced use case pre-requisites {#concept_xwn_qcy_w2b}
 
-For our use case, we have designed three Adobe Campaign Standard transactional messaging templates. We are using event transactional messaging templates. Refer to this [page](https://helpx.adobe.com/campaign/standard/channels/using/about-transactional-messaging.html).
+For our use case, we have designed three Adobe Campaign Standard transactional messaging templates. We are using event transactional messaging templates. Refer to this [page](https://docs.adobe.com/content/help/en/campaign-standard/using/communication-channels/transactional-messaging/about-transactional-messaging.html).
 
 Adobe Campaign Standard is configured to send emails and push notifications.
 
