@@ -26,38 +26,42 @@ Let's take the example of a weather API service that I want to use to customize 
 
 Here are two examples of the API call:
 
-* __https://api.adobeweather.org/weather?city=London,uk&amp;appid=1234__
-* __https://api.adobeweather.org/weather?lat=35&amp;lon=139&amp;appid=1234__
+* _https://api.adobeweather.org/weather?city=London,uk&amp;appid=1234_
+* _https://api.adobeweather.org/weather?lat=35&amp;lon=139&amp;appid=1234_
 
-The call is composed of a main URL (__https://api.adobeweather.org/weather__), two parameter sets ("city" for the city and "lat/long" for the latitude and longitude) and the API key (appid).
+The call is composed of a main URL (_https://api.adobeweather.org/weather_), two parameter sets ("city" for the city and "lat/long" for the latitude and longitude) and the API key (appid).
 Here are the main steps to create and configure a new external data source:
 
 1. From the list of data sources, Click **Add** to create a new external data source.
 
     ![](assets/journey25.png)
 
-This opens the data source configurator on the right-hand side of the screen.![](assets/journey26.png" placement="break" width="800" id="image_un2_tnm_z2b)
+This opens the data source configurator on the right-hand side of the screen.
+
+![](assets/journey26.png)
+
 1. Enter a name for your data source. Do not use spaces or special characters.
 1. Add a description to your data source. This step is optional.
-1. Add the URL of the external service. In our example: __https://api.adobeweather.org/weather__.
+1. Add the URL of the external service. In our example: _https://api.adobeweather.org/weather_.
 
     >[!CAUTION]
     >
     >We strongly recommend using HTTPS for security reasons. Also note that we don't allow the use of Adobe addresses that are not publicly available and the use of IP addresses.
-    
+
     ![](assets/journey27.png)
 
-1. Configure the authentication depending on the external service configuration: **No authentication**, **Basic**, **Custom** or **API key**. For more information on the custom authentication mode, see [Custom authentication mode](dsexternal.md#concept_t2s_kqt_52b/section_wjp_nl5_nhb). In our example, we choose: 
-        * **Type**: "API key" 
-        * **Value**: "1234" (this is the value of our API key)
-        * **Name**: "appid" (this is the API key parameter name)
-        * **Location**: "Query parameter" (the API key is located in the URL)
-        
-                ![](assets/journey28.png)
+1. Configure the authentication depending on the external service configuration: **No authentication**, **Basic**, **Custom** or **API key**. For more information on the custom authentication mode, see [Custom authentication mode](dsexternal.md#concept_t2s_kqt_52b/section_wjp_nl5_nhb). In our example, we choose:
 
-1. Add a new field group for each API parameter set by clicking **Add a New Field Group**. Do not use spaces or special characters in the field group name. In our example, we need to create two field groups, one for each parameter set (city and long/lat). 
+    * **Type**: "API key"
+    * **Value**: "1234" (this is the value of our API key)
+    * **Name**: "appid" (this is the API key parameter name)
+    * **Location**: "Query parameter" (the API key is located in the URL)
 
-For the "long/lat" parameter set, we create a field group with the following information: 
+    ![](assets/journey28.png)
+
+1. Add a new field group for each API parameter set by clicking **Add a New Field Group**. Do not use spaces or special characters in the field group name. In our example, we need to create two field groups, one for each parameter set (city and long/lat).
+
+For the "long/lat" parameter set, we create a field group with the following information:
 
 * **Used in**: displays the number of journeys that use a field group. You can click the **View journeys** icon to display the list of journeys using this field group.
 * **Method**: select the POST or GET method. In our case, we select the GET method.
@@ -65,17 +69,18 @@ For the "long/lat" parameter set, we create a field group with the following inf
 * **Response Payload**: click inside the **Payload** field and paste an example of the payload returned by the call. For our example, we used a payload found on a weather API website. Verify that the field types are correct. Each time the API is called, the system will retrieve all the fields included in the payload example. Note that you can click on **Paste a new payload** if you want to change the payload currently passed.
 * **Dynamic Values**: enter the different parameters separated by a coma, "long,lat" in our example. Since the parameter values depend on the execution context, they will be defined in the journeys. See [Building advanced conditions](expressionadvanced.md#concept_uyj_trt_52b).
 * **Sent Payload**: this field does not appear in our example. It is only available if you select the POST method. Paste the payload that will be sent to the third-party system.
-    In case of a GET call requiring parameter(s), you enter the parameter(s) in the **Parameters** field and they are automatically added at the end of the call. In case of a POST call, you need to:
-                        
-    * list the parameters to be passed at call time in the **Parameter** field (in the example below: “identifier”).
-    * specify them also with the exact same syntax in the body of the sent payload. To do so, you need to add: "param": “name of your parameter” (in the example below: “identifier”). Follow the syntax below:
-                        
+
+In case of a GET call requiring parameter(s), you enter the parameter(s) in the **Parameters** field and they are automatically added at the end of the call. In case of a POST call, you need to:
+
+* list the parameters to be passed at call time in the **Parameter** field (in the example below: “identifier”).
+* specify them also with the exact same syntax in the body of the sent payload. To do so, you need to add: "param": “name of your parameter” (in the example below: “identifier”). Follow the syntax below:
+
     ```
 
     {“id”:{“param”:“identifier”}}
 
     ```
-                    
+
     ![](assets/journey29.png")
 
 1. Click **Save**.
@@ -84,7 +89,7 @@ The data source is now configured and ready to be used in your journeys, for exa
 
 ## Custom authentication mode{#section_wjp_nl5_nhb}
 
-This authentication mode is used for complex authentication, frequently used to call API wrapping protocols such as OAuth2, to retrieve an access token to be injected in the real HTTP request for the action. 
+This authentication mode is used for complex authentication, frequently used to call API wrapping protocols such as OAuth2, to retrieve an access token to be injected in the real HTTP request for the action.
 
 When you configure the custom authentication, you can click on the button below to check if the custom authentication payload is correctly configured.
 
@@ -110,7 +115,7 @@ With this authentication, the action execution is a two-steps process:
         * 'json': meaning that the content type will be application/json (charset UTF-8) and the key value pairs will be serialized as a json object as is: { "key1": "value1", "key2": "value2", ...}
 
 The definition of the way the access token must be injected in the HTTP request of the action:
-            
+
 * authorizationType: defines how the generated access token must be injected in the HTTP call for the action. The possible values are:
     * bearer: indicates that the access token must be injected in the Authorization header, such as: Authorization: Bearer &lt;access token>
     * header: indicates that the access token must be injected as a header, the header name defined by the property tokenTarget. For instance, if the tokenTarget is myHeader, the access token will be injected as a header as: myHeader: &lt;access token>

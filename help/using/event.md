@@ -27,8 +27,7 @@ If you edit an event used in a draft or live journey, you can only change the na
 
 ## General principle {#section_r1f_xqt_pgb}
 
-Events are POST API calls. Events are sent to the Adobe Experience Cloud Data Platform through Streaming Ingestion APIs. The URL destination of events sent through transactional messaging APIs is called an “inlet”. The payload of events follows XDM formatting. The payload contains information required by Streaming Ingestion APIs to work (in the header) and the information required by Journeys to work (the event ID, part of the payload body) and information to be used in journeys (in the body, for example, the amount of an abandoned cart). There are two modes for the streaming ingestion, authenticated and unauthenticated. For details on Streaming Ingestion APIs, refer to 
-[this link](https://www.adobe.io/apis/experienceplatform/home/data-ingestion/data-ingestion-services.html#!api-specification/markdown/narrative/technical_overview/streaming_ingest/getting_started_with_platform_streaming_ingestion.md).
+Events are POST API calls. Events are sent to the Adobe Experience Cloud Data Platform through Streaming Ingestion APIs. The URL destination of events sent through transactional messaging APIs is called an “inlet”. The payload of events follows XDM formatting. The payload contains information required by Streaming Ingestion APIs to work (in the header) and the information required by Journeys to work (the event ID, part of the payload body) and information to be used in journeys (in the body, for example, the amount of an abandoned cart). There are two modes for the streaming ingestion, authenticated and unauthenticated. For details on Streaming Ingestion APIs, refer to [this link](https://www.adobe.io/apis/experienceplatform/home/data-ingestion/data-ingestion-services.html#!api-specification/markdown/narrative/technical_overview/streaming_ingest/getting_started_with_platform_streaming_ingestion.md).
 
 After arriving through Streaming Ingestion APIs, events flow into an internal service called Pipeline and then in the Data Platform. If the event schema has the Unified Profile Service flag enabled and a dataset ID that also has the Unified Profile flag, it flows into the Unified Profile Service. The Pipeline filters events which have a payload containing Triggered Journeys eventIDs (see the event creation process below) provided by Journeys and contained in event payload. These events are listened by Journeys and the corresponding journey is triggered.
 
@@ -36,13 +35,14 @@ After arriving through Streaming Ingestion APIs, events flow into an internal se
 
 Here are the main steps to configure a new event:
 
-1. In the top bar, click **Events**. The list of events is displayed. See [the Journeys' interface ](aboutinterface.md#concept_rcq_lqt_52b) for more information on the interface.
+1. In the top bar, click **Events**. The list of events is displayed. See [the Journeys' interface](aboutinterface.md#concept_rcq_lqt_52b) for more information on the interface.
 
         ![](assets/journey5.png)
 
 1. Click **Add** to create a new event. The event configurator opens on the right side of the screen.
 
         ![](assets/journey6.png)
+
 1. Enter a name for your event. Do not use spaces or special characters.
 <!-- Select the event type: this is where you define where the event is coming from. See [](eventtype.md#concept_oy4_jqt_52b).-->
 1. Add a description to your event. This step is optional.
@@ -56,4 +56,3 @@ Here are the main steps to configure a new event:
        ![](assets/journey7.png)
 
 The event is now configured and ready to be dropped into a journey. Additional configuration steps are required to receive events. See [ Additional steps to send events to Journeys](eventsteps.md#concept_xrz_n1q_y2b).
- 

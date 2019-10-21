@@ -22,9 +22,9 @@ The namespace allows you to define the type of key used to identify the person a
 
 You can either use one of the predefined ones or create a new one using the Identity Namespace service. Refer to this [page](https://www.adobe.io/apis/cloudplatform/dataservices/profile-identity-segmentation/profile-identity-segmentation-services.html#!api-specification/markdown/narrative/technical_overview/identity_namespace_overview/identity_namespace_overview.md).
 
-If you select a schema that has a primary identity, then the **Key** and **Namespace** fields are pre-filled. If there is no identity defined, we select __identityMap > id__ as the primary key. Then you have to select a namespace and the key will be pre-filled (below the **Namespace** field) using __identityMap > id__.
+If you select a schema that has a primary identity, then the **Key** and **Namespace** fields are pre-filled. If there is no identity defined, we select __identityMap > id__ as the primary key. Then you have to select a namespace and the key will be pre-filled (below the **Namespace** field) using _identityMap > id_.
 
-Select a namespace from the drop-down list. 
+Select a namespace from the drop-down list.
 
       ![](assets/journey17.png)
 

@@ -58,22 +58,21 @@ On the left part of the screen are displayed available fields and functions:
 * **Data Sources**: choose from the list of fields available from your data sources' field groups.
 * **Events**: choose one of the fields received from the inbound event. The displayed list of event fields is contextual and varies according to the event(s) added in the journey.
 * **Functions**: a list of advanced functions are available to carry out complex filtering. Functions are organized by categories.
-            </ul>
 
-            ![](assets/journey65.png)
+![](assets/journey65.png)
 
 An autocompletion mechanism displays contextual suggestions.
 
-            ![](assets/journey68.png)
+![](assets/journey68.png)
 
 A syntax validation mechanism checks the integrity of your code. Errors are displayed on top of the editor.
 
-            ![](assets/journey69.png)
+![](assets/journey69.png)
 
 **Need for parameters when building conditions with the advanced expression editor**
 
 If you select a field from an external data source requiring a parameter to be called (see [External data sources](dsexternal.md#concept_t2s_kqt_52b)), a new tab appears on the right to let you specify this parameter. The parameter value can come from the events positioned in the journey or the Experience Platform data source (and not from other external data sources). For example, in a weather-related data source, a frequently used parameter will be "city". As a result, you must select where you want to get this city parameter. Functions can also be applied to parameters to perform format changes or concatenations. 
 
-            ![](assets/journeyuc2_19.png)
+![](assets/journeyuc2_19.png)
 
 For more complex use cases, if you want to include the parameters of the data source in the main expression, you can define their values using the "params" keyword. See this [page](expressionfields.md#concept_fkj_ll5_dgb).
