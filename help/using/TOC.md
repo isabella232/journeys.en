@@ -54,7 +54,7 @@ index: y
   + [Building your Journeys reports](reporting.md)
   + [Creating your Journeys reports](reportingcreating.md)
   + [Dimensions and metrics available for Journeys](reportingdimensions.md)
-+ [Journeys use cases](#use-cases-journey)
++ Journeys use cases{#use-cases-journey}
   + [Simple use case](uc1.md)
   + [Pre-requisites](uc1prereq.md)
   + [Configuring the event](uc1event.md)
