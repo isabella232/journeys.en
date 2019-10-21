@@ -18,13 +18,13 @@ snippet: y
 
 # getBestSendTime {#getBestSendTime}
 
-Provides a predictive time of the best time for delivering an email to an individual.  To use this function, a <xref href="eventnamespace.dita">namespace</xref> is needed.</p>
+Provides a predictive time of the best time for delivering an email to an individual.  To use this function, a [namespace](eventnamespace.dita) is needed.
 
 ## Category
 
-    Adobe Experience Platform
+Adobe Experience Platform
 
-## Function syntax 
+## Function syntax
 
 `getBestSendTime(&lt;parameters>)`
 
@@ -39,8 +39,8 @@ Provides a predictive time of the best time for delivering an email to an indivi
 ## Signature and returned type
 
 `getBestSendTime(&lt;integer>,&lt;string>,&lt;integer>)`
-            </p>
-    Returns a datetime.</p>
+
+Returns a datetime.
 
 ## Example
 

@@ -43,27 +43,35 @@ List
 ## Signatures and return types
 
 `distinctWithNull(<listInteger>)`
+
 Returns a list of integers.
 
 `distinctWithNull(<listDecimal>)`
+
 Returns a list of decimals.
 
 `distinctWithNull(<listString>)`
+
 Returns a list of strings.
 
 `distinctWithNull(<listDateTimeOnly>)`
+
 Returns a list of datetimes without considering timezone.
 
 `distinctWithNull(<listDateTime>)`
+
 Returns a list of datetimes.
 
 `distinctWithNull(<listBoolean>)`
+
 Returns a list of booleans.
 
 `distinctWithNull(<listDuration>)`
+
 Returns a list of durations.
 
 ## Examples
 
 `distinctWithNull([10,2,10,null])`
+
 Returns [10, 2, null]

@@ -25,7 +25,7 @@ Counts all the elements of the list including null values.
 Aggregation
 
 ## Function syntax
- 
+
 `countWithNull(<listAny>)`
 
 ## Parameters

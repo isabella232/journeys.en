@@ -43,27 +43,35 @@ List
 ## Signatures and return types
 
 `distinct(<listInteger>)`
+
 Returns a list of integers.
 
 `distinct(<listDecimal>)`
+
 Returns a list of decimals.
 
 `distinct(<listString>)`
+
 Returns a list of strings.
 
 `distinct(<listDateTimeOnly>)`
+
 Returns a list of datetimes without considering timezone.
 
 `distinct(<listDateTime>)`
+
 Returns a list of datetimes.
 
 `distinct(<listBoolean>)`
+
 Returns a list of booleans.
 
 `distinct(<listDuration>)`
+
 Returns a list of durations.
 
 ## Examples
 
 `distinct([10,2,10,null])`
-Returns [10, 2]
+
+Returns [10, 2].

@@ -35,8 +35,8 @@ The expressions will be evaluated from left to right. The associativity on arith
 
 Here are the different case sensitivity rules:
 
-* All operators (and, or, etc.) should be written lowercase. For instance, __&lt;expression1> and &lt;expression2>__ is a valid expression whereas the expression __&lt;expression1> AND &lt;expression2>__ is not.
-* All function names should be written lowercase. For instance, __count()__ is valid whereas the function __COUNT()__ is not.
+* All operators (and, or, etc.) should be written lowercase. For instance, _&lt;expression1> and &lt;expression2>_ is a valid expression whereas the expression _&lt;expression1> AND &lt;expression2>_ is not.
+* All function names should be written lowercase. For instance, _count()_ is valid whereas the function _COUNT()_ is not.
 * Field references and constant values are case sensitive: they are not built-in elements of the language (as opposed to operators and functions), they are authored by the end user.
 
 ## Returned expression type{#section_gyc_435_53b}
