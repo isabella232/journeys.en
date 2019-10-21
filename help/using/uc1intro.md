@@ -1,8 +1,8 @@
 ---
-title: Simple use case
-seo-title: Simple use case
-description: Simple use case
-seo-description: Journey simple use case
+title: Simple use-case
+seo-title: Simple use-case
+description: Simple use-case
+seo-description: Journey simple use-case
 page-status-flag: never-activated
 uuid: 269d590c-5a6d-40b9-a879-02f5033863fc
 contentOwner: sauviat

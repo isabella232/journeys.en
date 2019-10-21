@@ -1,8 +1,8 @@
 ---
-title: Advanced use case
-seo-title: Advanced use case
-description: Advanced use case
-seo-description: Journey advanced use case
+title: Advanced use-case
+seo-title: Advanced use-case
+description: Advanced use-case
+seo-description: Journey advanced use-case
 page-status-flag: never-activated
 uuid: 269d590c-5a6d-40b9-a879-02f5033863fc
 contentOwner: sauviat
@@ -33,12 +33,12 @@ We then check two conditions:
 
 ![](assets/journeyuc2_29.png)
 
-For this use case, we will need to create two events (see [](uc2event.md#concept_sbp_5cy_w2b)):
+For this use case, we will need to create two events (see [creating events](uc2event.md):
 
 * The lobby beacon event that will be pushed to the system when a customer enters the hotel.
 * The restaurant beacon event that will be pushed when a customer enters the restaurant.
 
-We will need to configure a connection to two data sources (see [](uc2ds.md#concept_vml_hdy_w2b)):
+We will need to configure a connection to two data sources (see [data sources](uc2ds.md):
 
 * The build-in Experience Platform data source, to retrieve the information for our two conditions (loyalty membership and last contact date) as well and the message personalization information.
 * The hotel reservation system, to retrieve the reservation status information.
