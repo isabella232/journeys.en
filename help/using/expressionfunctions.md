@@ -23,6 +23,74 @@ A function can have different signatures (a different set of ordered parameters)
 `<function name>`(`<expression as param 1>`, `<expression as param 2>`, ... ,`<expression as param N>`)`
 Each function has a specific return data type. Here is the list of supported functions.
 
+## Main functions
+
+| Category    | Function              |
+|-------------|-----------------------|
+| AEP         | getBestSendTime       |
+| AEP         | inSegment             |
+| Aggregation | avg                   |
+| Aggregation | count                 |
+| Aggregation | countOnlyNull         |
+| Aggregation | countWithNull         |
+| Aggregation | discountCount         |
+| Aggregation | discountCountwithNull |
+| Aggregation | Max                   |
+| Aggregation | min                   |
+| Aggregation | Sum                   |
+| Conversion  | toBool                |
+| Conversion  | toDateTime            |
+| Conversion  | toDateTimeOnly        |
+| Conversion  | toDecimal             |
+| Conversion  | toDuration            |
+| Conversion  | toInteger             |
+| Conversion  | toString              |
+| Conversion  | toTimeZone            |
+| Date        | currentTime​InMillis  |
+| Date        | inLastDays            |
+| Date        | inLastHours           |
+| Date        | inLastMonths          |
+| Date        | inLastYears           |
+| Date        | inNextDays            |
+| Date        | inNextHours           |
+| Date        | inNextMonths          |
+| Date        | inNextYears           |
+| Date        | now                   |
+| Date        | nowWithDelta          |
+| Date        | setHours              |
+| Date        | setDays               |
+| Date        | updateTimeZone        |
+| List        | distinct              |
+| List        | distinctWithNull      |
+| List        | in                    |
+| List        | listSize              |
+| List        | serializeList         |
+| List        | sort                  |
+| Math        | random                |
+| Math        | Round                 |
+| String      | concat                |
+| String      | contain               |
+| String      | containWithIgnoreCase |
+| String      | endWith               |
+| String      | endWithIgnorecase     |
+| String      | equalIgnoreCase       |
+| String      | indexOf               |
+| String      | isEmpty               |
+| String      | isNotEmpty            |
+| String      | lastIndexOf           |
+| String      | length                |
+| String      | lower                 |
+| String      | matchRegExp           |
+| String      | notEqualIgnoreCase    |
+| String      | replace               |
+| String      | replaceAll            |
+| String      | startWith             |
+| String      | startWithIgnoreCase   |
+| String      | substr                |
+| String      | trim                  |
+| String      | upper                 |
+| String      | uuid                  |
+
 ## Collection management functions{#section_ig2_hb5_pgb
 
 The expression language also introduces a set of functions to query collections. These functions are explained below. Let’s use the following collection for a few examples:
@@ -89,11 +157,11 @@ Note that when the condition in the **all()** function is empty, the filter will
 In both cases, the result of the expression is**3**.
 
 <!--A query of experience events recorded on the platform may or may not include the current event that triggered the current Journey. This will depend on the relative processing time with which Journeys sees an event and started evaluating conditions, versus the time it takes for that event to be ingested into the platform. For example, when using the .all() syntax to query experience events from the platform, we recommend enforcing the exclusion of the current event (by requiring an
-earlier timestamp) in order to only consider prior events.-->`
+earlier timestamp) in order to only consider prior events.-->
 
 **"All + Count" example 4:** here we use the count function in a boolean expression to see if there is push notification tokens in the collection.
 
-`count(@{LobbyBeacon._experience.campaign.message.profile.pushNotificationTokens.all().application.name}) >`0`
+`count(@{LobbyBeacon._experience.campaign.message.profile.pushNotificationTokens.all().application.name}) > 0`
 
 The result will be:
 
@@ -138,8 +206,7 @@ The **at** function allows you to reference a specific element in a collection a
 
 _`<listExpression>`.at(`<index>`)_
 
-**Example 1:** return the second push notification token of the
-                list.
+**Example 1:** return the second push notification token of the list.
 
 `@{LobbyBeacon._experience.campaign.message.profile.pushNotificationTokens.at(1).token}`
 
@@ -148,7 +215,7 @@ The result will be:
 `"token_2"`
 
 ## Conditional instruction (if, then, else){#section_cdz_lsk_w3b}
-            
+
 The conditional instruction (if, then, else) is supported in the advanced editor. It allows to define more complex conditions. It is composed of the following elements:
 
 * **if**: the **boolean** condition to be evaluated first.`
@@ -157,40 +224,40 @@ The conditional instruction (if, then, else) is supported in the advanced editor
 
 >[!NOTE]
 >
->`Curly brackets are required around all the expressions.</note>`
+>`Curly brackets are required around all the expressions.
 
-```
+   ```
 
-if    (`<expression1>`)
-then
-    (`<expression2>`)
-else
-    (`<expression3>`)
+   if  (`<expression1>`)
+   then
+      (`<expression2>`)
+   else
+      (`<expression3>`)
 
-```
+   ```
 
 `<expression1>` must return a **boolean**.
 
 `<expression2>` and `<expression3>` must have the same type or compatible types. The supported signatures and returned types are:
 
-```
+   ```
 
-`<boolean>``<boolean>` : `<boolean>`
-`<dateTime>``<dateTime>` : `<dateTime>`
-`<dateTimeOnly>``<dateTimeOnly>` : `<dateTimeOnly>`
-`<decimal>``<integer>` : `<decimal>`
-`<integer>``<decimal>` : `<integer>`
-`<integer>``<decimal>` : `<decimal>`
-`<duration>``<duration>` : `<duration>`
-`<string>``<string>` : `<string>`
-`<listBoolean>``<listBoolean>` : `<listBoolean>`
-`<listDateTime>``<listDateTime>` : `<listDateTime>`
-`<listDateTimeOnly>``<listDateTimeOnly>` : `<listDateTimeOnly>`
-`<listDecimal>``<listDecimal>` : `<listDecimal>`
-`<listInteger>``<listInteger>` : `<listInteger>`
-`<listString>``<listString>` : `<listString>`
+   <boolean><boolean> : <boolean>
+   <dateTime><dateTime> : <dateTime>
+   <dateTimeOnly><dateTimeOnly> : <dateTimeOnly>
+   <decimal><integer> : <decimal>
+   <integer><decimal> : <integer>
+   <integer><decimal> : <decimal>
+   <duration><duration> : <duration>
+   <string><string> : <string>
+   <listBoolean><listBoolean> : <listBoolean>
+   <listDateTime><listDateTime> : <listDateTime>
+   <listDateTimeOnly><listDateTimeOnly> : <listDateTimeOnly>
+   <listDecimal><listDecimal> : <listDecimal>
+   <listInteger><listInteger> : <listInteger>
+   <listString><listString> : <listString>
 
-```
+   ```
 
 **Usage**
 
@@ -198,12 +265,12 @@ The conditional instruction allows you to optimize the journey workflow by reduc
 
 Example for an action activity (for a field that expects a string as the result of the conditional instruction):
 
-```
+   ```
 
-if (startWithIgnoreCase(@{eventiOSPushPermissionAllowed.device.model}, 'iPad') or startWithIgnoreCase(@{eventiOSPushPermissionAllowed.device.model}, 'iOS'))
-then
-    ('APNS')
-else
-    ('FCM')
+   if (startWithIgnoreCase(@{eventiOSPushPermissionAllowed.device.model}, 'iPad') or startWithIgnoreCase(@{eventiOSPushPermissionAllowed.device.model}, 'iOS'))
+   then
+      ('APNS')
+   else
+      ('FCM')
 
-```
+   ```
