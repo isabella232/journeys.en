@@ -53,12 +53,15 @@ List
 `serializeList(<listDateTime>,<string>,<boolean>)`
 `serializeList(<listDuration>,<string>,<boolean>)`
 `serializeList(<listPoint>,<string>,<boolean>)`
+
 Return a string.
 
 ## Example
 
 `serializeList(["Hello","World"], " ", false)`
+
 Returns "Hello World".
 
 `serializeList(["Hello", "World"], ",", true)`
+
 Returns ""Hello","World"".

@@ -26,7 +26,7 @@ The **business user** can now build the journey. Our journey will include the fo
 * a **Timer** activity
 * four **End** activities
 
-For additional information on how to build a journey, refer to [Building a journey](journeymd#concept_gq5_sqt_52b).
+For additional information on how to build a journey, refer to [Building a journey](journey.md#concept_gq5_sqt_52b).
 
 ## First steps{#section_ntb_ws1_ffb}
 
@@ -99,7 +99,7 @@ Two paths are created after your condition:
 
 ![](assets/journeyuc2_18.png)
 
-1. When you select a field from an external data source, the right part of the screen displays the list of parameters that were defined when configuring the external data source (see [Configuring the data sources](uc2dsmd#concept_vml_hdy_w2b)). This lets you define the values of the parameters that the system will send to the data source before performing the condition. The external system will then return the payload containing the needed fields. In our case, we have defined one field (the reservation status) and one parameter (the key to identify the customer). Click on the parameter name and define the value of the reservation system key, the Experience Cloud ID, in our example:`@{LobbyBeacon.endUserIDs._experience.mcid.id}`
+1. When you select a field from an external data source, the right part of the screen displays the list of parameters that were defined when configuring the external data source (see [Configuring the data sources](uc2ds.md#concept_vml_hdy_w2b)). This lets you define the values of the parameters that the system will send to the data source before performing the condition. The external system will then return the payload containing the needed fields. In our case, we have defined one field (the reservation status) and one parameter (the key to identify the customer). Click on the parameter name and define the value of the reservation system key, the Experience Cloud ID, in our example:`@{LobbyBeacon.endUserIDs._experience.mcid.id}`
 
 ![](assets/journeyuc2_19.png)
 

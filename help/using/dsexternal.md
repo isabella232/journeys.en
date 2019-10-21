@@ -81,7 +81,7 @@ In case of a GET call requiring parameter(s), you enter the parameter(s) in the 
 
     ```
 
-    ![](assets/journey29.png")
+    ![](assets/journey29.png)
 
 1. Click **Save**.
 

@@ -46,12 +46,12 @@ Returns a duration.
 
 `toDuration("PT10H")`
 
-Returns duration of 10 hours
+Returns duration of 10 hours.
 
 `toDuration("PT4S")`
 
-Returns duration of 4s
+Returns duration of 4s.
 
 `toDuration(4000)`
 
-Returns duration of 4s
+Returns duration of 4s.

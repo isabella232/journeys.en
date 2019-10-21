@@ -39,7 +39,6 @@ The simple mode allows you to perform simple queries based on a combination of f
 >
 >You cannot perform queries on time series (for example a list of purchases, past clicks on messages) with the simple editor. For this you’ll need to use the advanced editor. See [Building advanced conditions](expressionadvanced.md#concept_uyj_trt_52b).
 
-
 Four types of conditions are available:
 
 * **Data Source condition**: this allows you to define a condition based on fields from the data sources or the events. To learn how to use the expression editor, see [Building advanced conditions](expressionadvanced.md#concept_uyj_trt_52b). Using the advanced expression editor, you can define the values of external data source parameters. See [External data sources](dsexternal.md#concept_t2s_kqt_52b) and [Building advanced conditions](expressionadvanced.md#concept_uyj_trt_52b).
@@ -57,9 +56,9 @@ Four types of conditions are available:
 * **Date condition**: this allows you to define a different flow based on the date. For example, if the person enters the step during the "sales" period, you'll send him a push notification. The rest of the year, you'll send an email.
 When you define a date condition, you must specify a timezone. The timezone can be set in different ways. It can be:
 
-        * individualized and taken from the timezone of the profile in the Platform.
-        * the same for all individuals in the journey passing through this step and picked from a dropdown list.
-        * custom and retrieved from an event or a data source. The custom timezone must follow this [format](https://docs.oracle.com/javase/8/docs/api/java/time/ZoneId.html#of-java.lang.String-). If the timezone you want to leverage is a string, you can use the function ‘toTimeZone’ to convert it to the right format.
+* individualized and taken from the timezone of the profile in the Platform.
+* the same for all individuals in the journey passing through this step and picked from a dropdown list.
+* custom and retrieved from an event or a data source. The custom timezone must follow this [format](https://docs.oracle.com/javase/8/docs/api/java/time/ZoneId.html#of-java.lang.String-). If the timezone you want to leverage is a string, you can use the function ‘toTimeZone’ to convert it to the right format.
 
         ![](assets/journey53.png)
 

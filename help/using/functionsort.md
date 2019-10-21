@@ -44,27 +44,35 @@ List
 ## Signature and return type
 
 `sort(<listInteger>,<boolean>)`
+
 Returns a list of integers.
 
 `sort(<listDecimal>,<boolean>)`
+
 Returns a list of decimals.
 
 `sort(<listString>,<boolean>)`
+
 Returns a list of strings.
 
 `sort(<listDateTimeOnly>,<boolean>)`
+
 Returns a list of datetimes without considering timezone.
 
 `sort(<listDateTime>,<boolean>)`
+
 Returns a list of datetimes.
 
 `sort(<listBoolean>,<boolean>)`
+
 Returns a list of booleans.
 
 ## Example
 
 `sort(["A", "C", "B"], true)`
+
 Returns ["A","B","C"]
 
 `sort([1, 3, 2], false)`
+
 Returns [3, 2, 1]

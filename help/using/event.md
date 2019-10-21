@@ -55,4 +55,5 @@ Here are the main steps to configure a new event:
 
        ![](assets/journey7.png)
 
-The event is now configured and ready to be dropped into a journey. Additional configuration steps are required to receive events. See [ Additional steps to send events to Journeys](eventsteps.md#concept_xrz_n1q_y2b).
+The event is now configured and ready to be dropped into a journey. Additional configuration steps are required to receive events. See [Additional steps to send events to Journeys](eventsteps.md#concept_xrz_n1q_y2b).
+

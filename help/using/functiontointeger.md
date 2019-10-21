@@ -51,4 +51,4 @@ Return an integer.
 
 `toInteger(4)`
 
-Returns 4
+Returns 4.

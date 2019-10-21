@@ -16,7 +16,7 @@ internal: n
 snippet: y
 ---
 
-# Dimensions and metrics available for Journeys{#concept_rfj_wpt_52b}
+# Dimensions and metrics available for Journeys {#concept_rfj_wpt_52b}
 
 You can find here the list of every components available in Dynamic reports as well as their definitions.
 
@@ -60,7 +60,6 @@ The table below gives you the list of metrics used in journey reports, their def
 |Executed Orchestration|Total number of orchestration objects (end, timer, condition) executed for a journey.|= Condition executed|
 |Failed|Total number of journeys that were not successfully executed. |= Error in Journey + Journey in timeout|
 |Failed rate|Total number of journeys that were not successfully executed compared to the number of run journeys. |= Error in Journey + Journey in timeout / Journey entered*100 |
-
 
 ## Delivery metrics {#MBE_p_p22_c4j_w2b}
 

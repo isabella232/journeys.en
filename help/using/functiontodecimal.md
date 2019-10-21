@@ -50,4 +50,4 @@ Return a decimal.
 
 `toDecimal("4.0")`
 
-Returns 4.0
+Returns 4.0.

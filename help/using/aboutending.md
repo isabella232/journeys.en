@@ -25,3 +25,4 @@ There are three ways to end a journey:
 * The person arrives at a condition activity (or a timer with a condition) and does not match any of the conditions.
 
 The person can then re-enter the journey if re-entrance is allowed. See [The journey's properties](journeyproperty.md#concept_prq_wqt_52b).
+

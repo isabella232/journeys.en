@@ -31,9 +31,11 @@ String
 ## Signature and return type
 
 `trim(<string>)`
+
 Return a string.
 
 ## Example
 
 `trim("Hello World")`
-Returns "World"
+
+Returns "World".

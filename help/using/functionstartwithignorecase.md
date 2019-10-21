@@ -1,8 +1,8 @@
 ---
-title: startWith
-seo-title: startWith
-description: startWith
-seo-description: Learn about the function startWith
+title: startWithIgnoreCase
+seo-title: startWithIgnoreCase
+description: startWithIgnoreCase
+seo-description: Learn about the function startWithIgnoreCase
 page-status-flag: never-activated
 uuid: 269d590c-5a6d-40b9-a879-02f5033863fc
 contentOwner: sauviat
@@ -16,7 +16,7 @@ internal: n
 snippet: y
 ---
 
-# startWith {#startWith}
+# startWithIgnoreCase {#startWithIgnoreCase}
 
 Returns true if the second parameter is a prefix of the first one.
 
@@ -26,17 +26,16 @@ String
 
 ## Function syntax
 
-`startWith(<parameters>)`
+`startWithIgnoreCase(<parameters>)`
 
 ## Signature and return type
 
-`startWith(<string>,<string>)`
+`startWithIgnoreCase(<string>,<string>)`
+
 Return a boolean.
 
 ## Example
 
-`startWith("Hello World", "Hello")`
-Returns true.
+`startWith("rowing is great', "RO")`
 
-`startWith("Hello World", "World")`
-Returns false.
+Returns true.
