@@ -43,25 +43,25 @@ Here is the list of supported operators:
 
 |Category|Operator|Literal Expression|Example|
 |--- |--- |--- |--- |
-|Logical|and|`<expression1> and <expression2>`<p>Both `<expression1>` and `<expression2>` must be boolean. The result is boolean.</p>|`3.14 > 2 and 3.15 < 1`|
-|Logical|or|`<expression1> or <expression2>`<p>Both `<expression1> and <expression2>` must be boolean. The result is boolean.</p>|3.14 > 2 or 3.15 < 1|
-|Logical|not|`not <expression>``<expression>` must be boolean. The result is boolean.</p>|not 3.15 < 1|
-|Comparison|is null|`<expression> is null`<p>The result is boolean.</p><p>Note that null means the expression has no evaluated value.</p>|`@{BarBeacon.location} is null`|
-|Comparison|is not null|`<expression> is not null`<p>The result is boolean.</p><p>Note that null means the expression has no evaluated value.</p>|@{BarBeacon.location} is not null|
-|Comparison|has null|`<expression> has null``<expression>` must be a list. The result is boolean.</p><p>Useful to identify that a list contains at least one null value.</p>|`["foo", "bar", null] has null`<p>returns true</p>`["foo", "bar", ""] has null`<p>returns false because "" is not considered as null.</p>|
-|Comparison|==|`<expression1> == <expression2>`<p>Both `<expression1>` and `<expression2>` must have the same data type. The result is boolean.</p>|`3.14 == 42``"foo" == "bar"`|
-|Comparison|!=|`<expression1> != <expression2>`<p> Both `<expression1>` and `<expression2>` must have the same data type. The result is boolean.</p>|`3.14 != 42``"foo" != "bar"`|
-|Comparison|>|`<expression1> > <expression2>`<p>Datetime can be compared with Datetime.</p><p>Datetimeonly can be compared with Datetimeonly.</p><p>Both integer or decimal can be compared with both integer or decimal.</p><p>Any other combination is forbidden.</p><p>The result is boolean.</p>|3.14 > 42|
-|Comparison|>=|`<expression1> >= <expression2>`<p>Datetime can be compared with Datetime.</p><p>Datetimeonly can be compared with Datetimeonly.</p><p>Both integer or decimal can be compared with both integer or decimal.</p><p>Any other combination is forbidden.</p><p>The result is boolean.</p>|42 >= 3.14|
-|Comparison|<|`<expression1> < <expression2>`<p>Datetime can be compared with Datetime.</p><p>Datetimeonly can be compared with Datetimeonly.</p><p>Both integer or decimal can be compared with both integer or decimal.</p><p>Any other combination is forbidden.</p><p>The result is boolean.</p>|42 < 3.14|
-|Comparison|<=|`<expression1> <= <expression2>`<p>Datetime can be compared with Datetime.</p><p>Datetimeonly can be compared with Datetimeonly.</p><p>Both integer or decimal can be compared with both integer or decimal.</p><p>Any other combination is forbidden.</p><p>The result is boolean.</p>|42 <= 3.14|
-|Arithmetic|+|`<expression1> + <expression2>`<p> Both expressions must be numeric (integer or decimal). The result is also numeric.</p>|`1 + 2`<p>Returns 3</p>|
-|Arithmetic|-|`<expression1> - <expression2>`<p> Both expressions must be numeric (integer or decimal). The result is also numeric.</p>|`2 - 1`<p>Returns 1</p>|
-|Arithmetic|/|`<expression1> / <expression2>`<p> Both expressions must be numeric (integer or decimal). The result is also numeric.</p> <expression2> must not be equal to 0 (returns 0).|`4 / 2`<p>Returns 2</p>|
-|Arithmetic|*|`<expression1> * <expression2>`<p> Both expressions must be numeric (integer or decimal). The result is also numeric.</p>|`3 * 4`<p>Returns 12</p>|
-|Arithmetic|%|`<expression1> % <expression2>`<p> Both expressions must be numeric (integer or decimal). The result is also numeric.</p>|`3 % 2`<p>Returns 1</p>|
-|Math|is numeric|`<expression> is numeric`<p>The type of the expression is integer or decimal.</p>|@{BarBeacon.location} is numeric.|
-|Math|is integer|`<expression> is integer`<p>The type of the expression is integer.</p>|@{BarBeacon.location} is integer|
-|Math|is decimal|`<expression> is decimal`<p>The type of the expression is decimal.</p>|@{BarBeacon.location} is decimal|
-|String|+|`<string> + <expression>`<expression> + <string><p>It concatenates two expressions or more. The first expression must be a string. The other expressions can be of any type. The result is a string.</p>|`"the current time is " + (now())<p> Returns  "the current time is 2019-09-23T09:30:06.693Z"</p>`(now()) + " is the current time"<p>Returns 2019-09-23T09:30:06.693Z is the current time</p>`"a" + "b" + "c" + 1234 <p>Returns abc1234</p>|
-|Date|+|`<expression + <duration>`<p>Append a duration to a dateTime, a dateTimeOnly or a duration.</p>|`toDateTime("2011-12-03T15:15:30Z") + toDuration("PT15M")`<p>Returns 2011-12-03T15:30:30Z</p>`toDateTimeOnly("2011-12-03T15:15:30") + toDuration("PT15M")`<p>Returns 2011-12-03T15:30:30</p>`now() + toDuration("PT1H")`<p>Returns a dateTime (with UTC timezone) one hour later from current time</p>`toDuration("PT1H") + toDuration("PT1H")`<p>Returns returns PT2H</p>|
+|Logical|and|`<expression1> and <expression2>`Both `<expression1>` and `<expression2>` must be boolean. The result is boolean.|`3.14 > 2 and 3.15 < 1`|
+|Logical|or|`<expression1> or <expression2>`Both `<expression1> and <expression2>` must be boolean. The result is boolean.|3.14 > 2 or 3.15 < 1|
+|Logical|not|`not <expression>``<expression>` must be boolean. The result is boolean.|not 3.15 < 1|
+|Comparison|is null|`<expression> is null`The result is boolean.Note that null means the expression has no evaluated value.|`@{BarBeacon.location} is null`|
+|Comparison|is not null|`<expression> is not null`The result is boolean.Note that null means the expression has no evaluated value.|@{BarBeacon.location} is not null|
+|Comparison|has null|`<expression> has null``<expression>` must be a list. The result is boolean.Useful to identify that a list contains at least one null value.|`["foo", "bar", null] has null`returns true`["foo", "bar", ""] has null`returns false because "" is not considered as null.|
+|Comparison|==|`<expression1> == <expression2>`Both `<expression1>` and `<expression2>` must have the same data type. The result is boolean.|`3.14 == 42``"foo" == "bar"`|
+|Comparison|!=|`<expression1> != <expression2>` Both `<expression1>` and `<expression2>` must have the same data type. The result is boolean.|`3.14 != 42``"foo" != "bar"`|
+|Comparison|>|`<expression1> > <expression2>`Datetime can be compared with Datetime.Datetimeonly can be compared with Datetimeonly.Both integer or decimal can be compared with both integer or decimal.Any other combination is forbidden.The result is boolean.|3.14 > 42|
+|Comparison|>=|`<expression1> >= <expression2>`Datetime can be compared with Datetime.Datetimeonly can be compared with Datetimeonly.Both integer or decimal can be compared with both integer or decimal.Any other combination is forbidden.The result is boolean.|42 >= 3.14|
+|Comparison|<|`<expression1> < <expression2>`Datetime can be compared with Datetime.Datetimeonly can be compared with Datetimeonly.Both integer or decimal can be compared with both integer or decimal.Any other combination is forbidden.The result is boolean.|42 < 3.14|
+|Comparison|<=|`<expression1> <= <expression2>`Datetime can be compared with Datetime.Datetimeonly can be compared with Datetimeonly.Both integer or decimal can be compared with both integer or decimal.Any other combination is forbidden.The result is boolean.|42 <= 3.14|
+|Arithmetic|+|`<expression1> + <expression2>` Both expressions must be numeric (integer or decimal). The result is also numeric.|`1 + 2`Returns 3|
+|Arithmetic|-|`<expression1> - <expression2>` Both expressions must be numeric (integer or decimal). The result is also numeric.|`2 - 1`Returns 1|
+|Arithmetic|/|`<expression1> / <expression2>` Both expressions must be numeric (integer or decimal). The result is also numeric. `<expression2>` must not be equal to 0 (returns 0).|`4 / 2`Returns 2|
+|Arithmetic|*|`<expression1> * <expression2>` Both expressions must be numeric (integer or decimal). The result is also numeric.|`3 * 4`Returns 12|
+|Arithmetic|%|`<expression1> % <expression2>` Both expressions must be numeric (integer or decimal). The result is also numeric.|`3 % 2`Returns 1|
+|Math|is numeric|`<expression> is numeric`The type of the expression is integer or decimal.|@{BarBeacon.location} is numeric.|
+|Math|is integer|`<expression> is integer`The type of the expression is integer.|@{BarBeacon.location} is integer|
+|Math|is decimal|`<expression> is decimal`The type of the expression is decimal.|@{BarBeacon.location} is decimal|
+|String|+|`<string> + <expression>``<expression> + <string>`It concatenates two expressions or more. The first expression must be a string. The other expressions can be of any type. The result is a string.|`"the current time is " + (now()) Returns  "the current time is 2019-09-23T09:30:06.693Z"`(now()) + " is the current time"Returns 2019-09-23T09:30:06.693Z is the current time`"a" + "b" + "c" + 1234 Returns abc1234|
+|Date|+|`<expression + <duration>`Append a duration to a dateTime, a dateTimeOnly or a duration.|`toDateTime("2011-12-03T15:15:30Z") + toDuration("PT15M")`Returns 2011-12-03T15:30:30Z`toDateTimeOnly("2011-12-03T15:15:30") + toDuration("PT15M")`Returns 2011-12-03T15:30:30`now() + toDuration("PT1H")`Returns a dateTime (with UTC timezone) one hour later from current time`toDuration("PT1H") + toDuration("PT1H")`Returns returns PT2H|
