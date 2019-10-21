@@ -36,7 +36,7 @@ The table below gives you the list of dimensions used in journey reports and the
 |Field group|List of field groups (field group name) used to enrich data in journeys e.g. Profile field group, Geometrixx reservation system.|
 |Journey|List of every journey (journey name) in test mode and live e.g. Cart abandonment, Hotel reservation notification.|
 |Journey version|List of every published version of a journey (journey name + version's number) e.g. Cart abandonment v1, Hotel reservation notification v2.|
-|Orchestration|List of every orchestration activity (Condition, End, Timer) defined and used in journeys.</li></ul>|
+|Orchestration|List of every orchestration activity (Condition, End, Timer) defined and used in journeys.|
 
 ## Journey metrics {#MBE_p_p22_c4j_w2b}
 
