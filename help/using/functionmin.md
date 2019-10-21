@@ -86,10 +86,11 @@ Returns an integer.
 ## Examples
 
 `min({@BarBeacon.inventory},5)`
-`min([10,3,8])``
 
-Returns 3
+`min([10,3,8])`
+
+Returns 3.
 
 `min([10,null,8])`
 
-Returns 8
+Returns 8.

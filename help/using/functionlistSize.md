@@ -50,9 +50,11 @@ List
 `listSize(<listDateTime>)`
 `listSize(<listDuration>)`
 `listSize(<listPoint>)`
+
 Return an integer.
 
 ## Example
 
 `listSize([10,2,3])`
+
 Returns 3.

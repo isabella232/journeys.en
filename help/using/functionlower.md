@@ -31,9 +31,11 @@ String
 ## Signature and return type
 
 `lower(<string>)`
+
 Returns a string.
 
 ## Example
 
 `lower("A")`
+
 Returns "a".
