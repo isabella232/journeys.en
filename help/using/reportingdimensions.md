@@ -61,7 +61,7 @@ The table below gives you the list of metrics used in journey reports, their def
 |Failed|Total number of journeys that were not successfully executed. |= Error in Journey + Journey in timeout|
 |Failed rate|Total number of journeys that were not successfully executed compared to the number of run journeys. |= Error in Journey + Journey in timeout / Journey entered*100 |
 
-## Delivery metrics {#MBE_p_p22_c4j_w2b}
+## Delivery metrics {#delivery-metrics}
 
 The table below gives you the list of metrics used in journey
 reports, their definitions and formulas.
