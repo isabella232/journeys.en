@@ -13,7 +13,7 @@ index: y
   + [User Process](aboutprocess.md)
   + [The Journeys' interface](aboutinterface.md)
   + [Ending a journey](usermanagement.md)
-  + [Managing your users' access to Journeys](troubleshooting.md)
+  + [Managing your users' access to Journeys](usermanagement.md)
   + [Troubleshooting](troubleshooting.md)
 + Events in Journeys {#events-journeys}
   + [Configuring an event](event.md)
@@ -25,7 +25,7 @@ index: y
   + [Additional steps to receive events](eventsteps.md)
 + Configuring a datasource {#data-source-journeys}
   + [Configuring a datasource](ds.md)
-  + [Defining the payload fields](dsfields.md)
+  + [Defining the payload fields](dsfield.md)
   + [Adobe Experience Platform data source](dsplatform.md)
   + [External data sources](dsexternal.md)
 + Configuring a custom action {#custom-action-journeys}
@@ -47,7 +47,7 @@ index: y
   + [Building advanced conditions](expressionadvanced.md)
   + [Generalities](expressiongeneralities.md)
   + [Constants](expressionconstants.md)
-  + [Field references](expressionconstants.md)
+  + [Field references](expressionfields.md)
   + [Operators](expressionoperators.md)
   + [Functions](expressionfunctions.md)
 + Building your Journeys reports{#journey-reports}
@@ -56,12 +56,12 @@ index: y
   + [Dimensions and metrics available for Journeys](reportingdimensions.md)
 + Use cases{#journey-use-cases}
   + [Use cases](use-cases.md)
-  + [Simple use case](uc1.md)
+    + [Simple use case](uc1.md)
     + [Pre-requisites](uc1prereq.md)
     + [Configuring the event](uc1event.md)
     + [Configuring the data source](uc1ds.md)
     + [Building the journey](uc1journey.md)
-  + [Advanced use case](uc2.md)
+    + [Advanced use case](uc2.md)
     + [Pre-requisites](uc2prereq.md)
     + [Configuring the events](uc2event.md)
     + [Configuring the data source](uc2ds.md)
