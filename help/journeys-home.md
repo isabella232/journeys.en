@@ -58,12 +58,11 @@ Learn how to use the expression editor simple mode to perform simple queries bas
     </a>
     </div>
     <p>
-    <em>Fond out the various tools that you can use to troubleshoot your journeys.</em>
+    <em>Find out the various tools that you can use to troubleshoot your journeys.</em>
     <p>
   </td>
 </tr>
 </table>
-
 
 ## Additional Resources
 
