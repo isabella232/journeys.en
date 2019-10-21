@@ -54,15 +54,16 @@ index: y
   + [Building your Journeys reports](using/reporting.md)
   + [Creating your Journeys reports](using/reportingcreating.md)
   + [Dimensions and metrics available for Journeys](using/reportingdimensions.md)
-+ Journeys use cases{#use-cases-journey}
-  + [Pre-requisites](using/uc1prereq.md)
-    + [Simple use-case](using/uc1intro.md)
++ Journeys use cases{#use-cases-journeys}
+  + Simple use case{#use-case-simple}
+    + [Simple use case](using/uc1intro.md)
     + [Pre-requisites](using/uc1prereq.md)
     + [Configuring the event](using/uc1event.md)
     + [Configuring the data source](using/uc1ds.md)
     + [Building the journey](using/uc1journey.md)
-  + [Pre-requisites](using/uc2prereq.md)
-    + [Advanced use-case](using/uc2intro.md)
+  + Advanced use case{#use-case-advanced}
+    + [Advanced use case](using/uc2intro.md)
+    + [Pre-requisites](using/uc2prereq.md)
     + [Configuring the events](using/uc2event.md)
     + [Configuring the data source](using/uc2ds.md)
     + [Building the journey](using/uc2journey.md)
