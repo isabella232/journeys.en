@@ -58,12 +58,15 @@ List
 `in(<dateTimeOnly>,<listDateTimeOnly>)`
 `in(<dateTime>,<listDateTime>)`
 `in(<duration>,<listDuration>)`
+
 Return a boolean.
 
 ## Example
 
 `in(4,[4,5,3,4])`
+
 Returns true.
 
 `in(8,[4,5,3,4])`
+
 Returns false.

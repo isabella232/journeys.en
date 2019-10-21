@@ -44,4 +44,4 @@ Returns an integer.
 
 `currentTime​InMillis()`
 
-Returns "1544712617131". 
+Returns "1544712617131".

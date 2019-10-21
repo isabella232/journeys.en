@@ -91,4 +91,4 @@ Returns 10
 
 max([10,null,8])
 
-Returns 10
+Returns 10.

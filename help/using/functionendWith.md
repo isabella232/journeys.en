@@ -31,12 +31,15 @@ String
 ## Signature and return type
 
 `endWith(<string>,<string>)`
+
 Returns a boolean.
 
 ## Example
 
 `endWith("Hello World", "World")`
+
 Returns true
 
 `endWith("Hello World", "Hello")`
+
 Returns false

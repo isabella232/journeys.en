@@ -31,11 +31,13 @@ String
 ## Signature and return type
 
 `indexOf(<string>,<string>)`
+
 Returns an integer.
 
 ## Example
 
 `indexOf("Hello, "l"))`
+
 Returns 2
 
 Explanation: In "Hello", the first occurrence of “l” is at position 2.

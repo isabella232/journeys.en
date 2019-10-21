@@ -25,8 +25,7 @@ The payload preview allows you to validate the payload definition.
 >
 >When you create an event, before viewing the payload preview, save your event and re-open it. This step is needed to generate an event ID in the payload.
 
-
-1. Click the **View payload** icon to preview the payload expected by the system. 
+1. Click the **View payload** icon to preview the payload expected by the system.
 
      ![](assets/journey13.png)
 

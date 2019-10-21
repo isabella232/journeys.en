@@ -22,7 +22,6 @@ Technically, a constant always contains a data type. In the literal expression, 
 
 Here is how constant expressions are represented:
 
-
 |Data Type|Description|Literal Representation|Example|
 |--- |--- |--- |--- |
 |string|<ul><li>Common sequence of characters. It doesn't have any specific size except the implicit one that comes from the environment such as the amount of memory available.</li> <li>JSON format: String</li><li>Serialization format: UTF-8</li>|`"<value>"` `'<value>'`|`"hello world"` `'hello world'`|

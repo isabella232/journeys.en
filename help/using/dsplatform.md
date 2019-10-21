@@ -22,7 +22,8 @@ The Experience Platform data source defines the connection to the Unified Profil
 
 To allow the connection to the Unified Profile Service, we must use a key to identify a person, and a namespace that contextualizes the key. As a result, you can only use this data source if your journeys start with an event containing a key and a namespace. See [Building a journey](journey.md#concept_gq5_sqt_52b).
 
-You can edit the pre-configured field group named “ProfileFieldGroup”, add new ones and remove the ones that are not used in any draft or live journeys. See [Field groups](dsfield.md#concept_ntl_ypt_52b). 
+You can edit the pre-configured field group named “ProfileFieldGroup”, add new ones and remove the ones that are not used in any draft or live journeys. See [Field groups](dsfield.md#concept_ntl_ypt_52b).
+
 Here are the main steps to add field groups to the build-in data source.
 
 1. From the list of data sources, select the build-in Experience Platform data source.

@@ -31,6 +31,7 @@ String
 ## Signature and return type
 
 `lastIndexOf(<string>,<string>)`
+
 Returns an integer.
 
 ## Example

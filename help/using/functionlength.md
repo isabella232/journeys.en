@@ -31,9 +31,11 @@ String
 ## Signature and return type
 
 `length(<string>)`
+
 Returns an integer.
 
 ## Example
 
 `length("Hello World")`
+
 Returns 11.

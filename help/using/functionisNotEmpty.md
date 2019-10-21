@@ -31,12 +31,15 @@ String
 ## Signature and return type
 
 `isNotEmpty(<string>)`
+
 Returns a boolean.
 
 ## Example
 
 `isNotEmpty("")`
+
 Returns false.
 
 `isNotEmpty("hello")`
+
 Returns true.

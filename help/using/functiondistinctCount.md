@@ -44,7 +44,7 @@ Aggregation
 
 `distinctCount(<listAny>)`
 
-Returns an integer. 
+Returns an integer.
 
 ## Example
 

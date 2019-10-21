@@ -31,9 +31,11 @@ String
 ## Signature and return type
 
 `endWithIgnoreCase(<string>,<string>)`
+
 Returns a boolean.
 
 ## Example
 
 `endWithIgnoreCase("rowing is great', "AT")`
+
 Returns true

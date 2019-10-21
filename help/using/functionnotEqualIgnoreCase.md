@@ -31,6 +31,7 @@ String
 ## Signature and return type
 
 `notEqualIgnoreCase(<string>,<string>)`
+
 Returns a boolean.
 
 ## Example

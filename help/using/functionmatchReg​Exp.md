@@ -31,11 +31,13 @@ String
 ## Signature and return type
 
 `matchRegExp(<string>,<string>)`
+
 Returns a string.
 
 ## Example
 
 `matchRegExp("Hello World", "Hello\s+World")`
-Returns true
+
+Returns true.
 
 Explanation: here you check if the string satisfies the regular expression (java syntax): starts with "Hello", then any kind of string and finishes with "World".

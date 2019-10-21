@@ -31,6 +31,6 @@ When configuring a custom action, you need to define the following **URL Configu
 
     **Content-Type** and **Charset** are set by default and cannot be deleted or overridden.
 
->[!NOTE]
->
->Headers are validated according to the following [parsing rules](https://tools.ietf.org/html/rfc7230#section-3.2.4).
+    >[!NOTE]
+    >
+    >Headers are validated according to the following [parsing rules](https://tools.ietf.org/html/rfc7230#section-3.2.4).

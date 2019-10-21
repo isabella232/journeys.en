@@ -29,13 +29,12 @@ If you're using special characters in a field, you need to use double quotes. He
 
 For example if your field is _3h_: _#{OpenWeather.weatherData.rain.'3h'} > 0_
 
-
 ```
 
 // event field
 @{&lt;event name>.&lt;XDM path to the field>}
-@{LobbyBeacon.endUserIDs._experience.emailid.id} 
- 
+@{LobbyBeacon.endUserIDs._experience.emailid.id}
+
 // field group
 #{&lt;data source name>.&lt;field group name>.&lt;path to the field>}
 #{ExperiencePlatformDataSource.ProfileFieldGroup.Profile.personalEmail.address}
@@ -82,7 +81,6 @@ Use the following syntax:
 #{&lt;datasource>.&lt;field group>.fieldName, params: {&lt;params-1-name>: &lt;params-1-value>, &lt;params-2-name>: &lt;params-2-value>}}
 
 ```
-
 
 * **&lt;params-1-name>**: exact name of the first parameter from the data source.
 * **&lt;params-1-value>**: the value of the first parameter. It can be any valid expression.

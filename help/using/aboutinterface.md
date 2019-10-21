@@ -54,35 +54,35 @@ Here are the different shortcuts available in the Journeys' interface.
 
 _When configuring an activity in a journey:_
 
-*   Click outside of the right pane or press **escape** to close the configurator without saving.
-*   Press **enter** to save modifications and close the configurator.
-*   If you click **Delete**, you can then press **enter** to confirm the deletion.
+* Click outside of the right pane or press **escape** to close the configurator without saving.
+* Press **enter** to save modifications and close the configurator.
+* If you click **Delete**, you can then press **enter** to confirm the deletion.
 
 _In pop-ups:_
 
-*   Click outside of the pop-up to close it.
+* Click outside of the pop-up to close it.
 
 _In the event or data source configurator:_
 
-*   Press **escape** to close the configurator without saving.
-*   Press **enter** to save modifications and close the configurator.
+* Press **escape** to close the configurator without saving.
+* Press **enter** to save modifications and close the configurator.
 
 _When browsing through XDM fields:_
 
-*   Press and hold the **shift** key to perform multiple selection.
-*   Checking a "node" will select all the fields of the node.
+* Press and hold the **shift** key to perform multiple selection.
+* Checking a "node" will select all the fields of the node.
 
 _In all text areas:_
 
-*   Use the **Ctrl/Command + A** key combination to select the text. In the payload preview, it selects the payload.
+* Use the **Ctrl/Command + A** key combination to select the text. In the payload preview, it selects the payload.
 
 _In a screen with a search bar:_
 
-*   Use the **Ctrl/Command + F** key combination to select the search bar.
+* Use the **Ctrl/Command + F** key combination to select the search bar.
 
 _In the canvas of a journey:_
 
-*   Use the **Ctrl/Command + S** key combination to save the journey.
-*   Use the **Ctrl/Command + A** key combination to select all activities.
-*   When several activities are selected, press **delete/backspace** to delete them.
-*   Double-click on an activity from the left palette to add it at the first available position (from top to bottom).
+* Use the **Ctrl/Command + S** key combination to save the journey.
+* Use the **Ctrl/Command + A** key combination to select all activities.
+* When several activities are selected, press **delete/backspace** to delete them.
+* Double-click on an activity from the left palette to add it at the first available position (from top to bottom).

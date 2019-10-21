@@ -48,6 +48,6 @@ Returns an integer.
 
 ## Example
 
-count([10,2,10,null])
+`count([10,2,10,null])`
 
 Returns 1.
