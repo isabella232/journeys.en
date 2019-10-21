@@ -7,7 +7,7 @@ index: y
 
 # Journeys Help {#using}
 
-+ [Product documentation](journeys/help/usingjourneys-home.md)
++ [Product documentation](journeys/help/using/journeys-home.md)
 + Starting with Journeys {#starting-with-journeys}
   + [About Journeys](journeys/help/using/intro.md)
   + [User Process](journeys/help/using/aboutprocess.md)
