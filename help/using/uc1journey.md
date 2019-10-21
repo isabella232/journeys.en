@@ -47,11 +47,11 @@ For additional information on how to build a journey, refer to [Building a journ
 
     ![](assets/journeyuc1_11.png)
 
-1. Using the basic expression editor, look for the gender field (<i>person > gender</i>) and drop it to the right to create the following condition: "gender is equal to "Female".
+1. Using the basic expression editor, look for the gender field (_person > gender_) and drop it to the right to create the following condition: "gender is equal to "Female".
 
     ![](assets/journeyuc1_12.png)
 
-1. Drop an **Email** activity and select your "Spa discount" transactional messaging template. This template was designed using Adobe Campaign. Refer to this [page](]https://docs.adobe.com/content/help/en/campaign-standard/using/communication-channels/transactional-messaging/about-transactional-messaging.html).
+1. Drop an **Email** activity and select your "Spa discount" transactional messaging template. This template was designed using Adobe Campaign. Refer to this [page](https://docs.adobe.com/content/help/en/campaign-standard/using/communication-channels/transactional-messaging/about-transactional-messaging.html).
 
     ![](assets/journeyuc1_13.png)
 
