@@ -50,6 +50,7 @@ index: y
   + [Field references](using/expressionfields.md)
   + [Operators](using/expressionoperators.md)
   + [Functions](using/expressionfunctions.md)
+  + Main functions {#main-functions-journey}
     + Adobe Experience Platform {#adobe-experience-platform}
       + [getBestSendTime](using/functiongetbestsendtime.md)
       + [inSegment](using/functioninsegment.md)
@@ -58,10 +59,10 @@ index: y
       + [count](using/functioncount.md)
       + [countOnlyNull](using/functioncountonlynull.md)
       + [countWithNull](using/functioncountwithnull.md)
-      + [discountCount](using/functiondistinctcount.md)
-      + [discountCountwithNull](using/functiondistinctcountwithnull.md)
+      + [distinctCount](using/functiondistinctcount.md)
+      + [distinctCountwithNull](using/functiondistinctcountwithnull.md)
       + [max](using/functionmax.md)
-      + [min](using/functionmax.md)
+      + [min](using/functionmin.md)
       + [sum](using/functionsum.md)
     + Conversion {#conversion}
       + [toBool](using/functiontobool.md)
@@ -89,7 +90,7 @@ index: y
       + [updateTimeZone](using/functionupdatetimezone.md)
     + List {#list}
       + [distinct](using/functiondistinct.md)
-      + [distinctWithNull](using/functiondistinctcount.md)
+      + [distinctWithNull](using/functiondistinctwithnull.md)
       + [in](using/functionin.md)
       + [listSize](using/functionlistsize.md)
       + [serializeList](using/functionserializelist.md)
