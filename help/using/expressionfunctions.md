@@ -80,7 +80,7 @@ Each function has a specific return data type. Here is the list of supported fun
 | String      | [lastIndexOf](functionlastindexof.md)|
 | String      | [length](functionlength.md)|
 | String      | [lower](functionlower.md)|
-| String      | [matchRegExp](functionmatchreg​exp.md)|
+| String      | [matchRegExp](functionmatchreg.md#matchRegExp)|
 | String      | [notEqualIgnoreCase](functionnotequalignorecase.md)|
 | String      | [replace](functionreplace.md)|
 | String      | [replaceAll](functionreplaceall.md)|
