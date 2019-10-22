@@ -223,7 +223,7 @@ The conditional instruction (if, then, else) is supported in the advanced editor
 
 >[!NOTE]
 >
->`Curly brackets are required around all the expressions.
+>Curly brackets are required around all the expressions.
 
    ```
 
