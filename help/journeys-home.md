@@ -15,7 +15,7 @@ Build real-time orchestration use cases leveraging contextual data stored in eve
 * **[List of functions](using/expressionfunctions.md)**<br/>
 Discover the complete list of functions that you can use in the expression editor to build advanced conditions.
 
-* **[Simple expression editor](using/journeyorchestration.md#concept_ksq_2rt_52b/section_e2n_pft_dgb)**<br/>
+* **[Simple expression editor](using/journeyorchestration.md#concept_ksq_2rt_52b)**<br/>
 Learn how to use the expression editor simple mode to perform simple queries based on a combination of fields.
 
 ## Top pages
@@ -58,12 +58,11 @@ Learn how to use the expression editor simple mode to perform simple queries bas
     </a>
     </div>
     <p>
-    <em>Fond out the various tools that you can use to troubleshoot your journeys.</em>
+    <em>Find out the various tools that you can use to troubleshoot your journeys.</em>
     <p>
   </td>
 </tr>
 </table>
-
 
 ## Additional Resources
 

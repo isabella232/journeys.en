@@ -27,69 +27,69 @@ Each function has a specific return data type. Here is the list of supported fun
 
 | Category    | Function              |
 |-------------|-----------------------|
-| AEP         | getBestSendTime       |
-| AEP         | inSegment             |
-| Aggregation | avg                   |
-| Aggregation | count                 |
-| Aggregation | countOnlyNull         |
-| Aggregation | countWithNull         |
-| Aggregation | discountCount         |
-| Aggregation | discountCountwithNull |
-| Aggregation | Max                   |
-| Aggregation | min                   |
-| Aggregation | Sum                   |
-| Conversion  | toBool                |
-| Conversion  | toDateTime            |
-| Conversion  | toDateTimeOnly        |
-| Conversion  | toDecimal             |
-| Conversion  | toDuration            |
-| Conversion  | toInteger             |
-| Conversion  | toString              |
-| Conversion  | toTimeZone            |
-| Date        | currentTime​InMillis   |
-| Date        | inLastDays            |
-| Date        | inLastHours           |
-| Date        | inLastMonths          |
-| Date        | inLastYears           |
-| Date        | inNextDays            |
-| Date        | inNextHours           |
-| Date        | inNextMonths          |
-| Date        | inNextYears           |
-| Date        | now                   |
-| Date        | nowWithDelta          |
-| Date        | setHours              |
-| Date        | setDays               |
-| Date        | updateTimeZone        |
-| List        | distinct              |
-| List        | distinctWithNull      |
-| List        | in                    |
-| List        | listSize              |
-| List        | serializeList         |
-| List        | sort                  |
-| Math        | random                |
-| Math        | Round                 |
-| String      | concat                |
-| String      | contain               |
-| String      | containWithIgnoreCase |
-| String      | endWith               |
-| String      | endWithIgnorecase     |
-| String      | equalIgnoreCase       |
-| String      | indexOf               |
-| String      | isEmpty               |
-| String      | isNotEmpty            |
-| String      | lastIndexOf           |
-| String      | length                |
-| String      | lower                 |
-| String      | matchRegExp           |
-| String      | notEqualIgnoreCase    |
-| String      | replace               |
-| String      | replaceAll            |
-| String      | startWith             |
-| String      | startWithIgnoreCase   |
-| String      | substr                |
-| String      | trim                  |
-| String      | upper                 |
-| String      | uuid                  |
+| AEP         | [getBestSendTime](functiongetbestsendtime.md) |
+| AEP         | [inSegment](functioninsegment.md)|
+| Aggregation | [avg](functionavg.md)|
+| Aggregation | [count](functioncount.md)|
+| Aggregation | [countOnlyNull](functioncountonlynull.md) |
+| Aggregation | [countWithNull](functioncountwithnull.md)|
+| Aggregation | [discountCount](functiondistinctcount.md)|
+| Aggregation | [discountCountwithNull](functiondistinctcountwithnull.md)|
+| Aggregation | [max](functionmax.md)|
+| Aggregation | [min](functionmax.md)|
+| Aggregation | [sum](functionsum.md)|
+| Conversion  | [toBool](functiontobool.md)|
+| Conversion  | [toDateTime](functiontodatetime.md)|
+| Conversion  | [toDateTimeOnly](functiontodatetimeonly.md)|
+| Conversion  | [toDecimal](functiontodecimal.md)|
+| Conversion  | [toDuration](functiontoduration.md)|
+| Conversion  | [toInteger](functiontointeger.md)|
+| Conversion  | [toString](functiontostring.md)|
+| Conversion  | [toTimeZone](functiontotimezone.md)|
+| Date        | [currentTime​InMillis](functioncurrenttimeinmillis.md)|
+| Date        | [inLastDays](functioninlastdays.md)|
+| Date        | [inLastHours](functioninlasthours.md)|
+| Date        | [inLastMonths](functioninlastmonths.md)|
+| Date        | [inLastYears](functioninlastyears.md)|
+| Date        | [inNextDays](functioninnextdays.md)|
+| Date        | [inNextHours](functioninnexthours.md)|
+| Date        | [inNextMonths](functioninnextmonths.md)|
+| Date        | [inNextYears](functioninnextyears.md)|
+| Date        | [now](functionnow.md)|
+| Date        | [nowWithDelta](functionnowwithdelta.md)|
+| Date        | [setHours](functionsethours.md)|
+| Date        | [setDays](functionsetdays.md)|
+| Date        | [updateTimeZone](functionupdatetimezone.md)|
+| List        | [distinct](functiondistinct.md)|
+| List        | [distinctWithNull](functiondistinctcount.md)|
+| List        | [in](functionin.md)|
+| List        | [listSize](functionlistsize.md)|
+| List        | [serializeList](functionserializelist.md)|
+| List        | [sort](functionsort.md)|
+| Math        | [random](functionrandom.md)|
+| Math        | [round](functionround.md)|
+| String      | [concat](functionconcat.md)|
+| String      | [contain](functioncontain.md)|
+| String      | [containWithIgnoreCase](functioncontainwithignorecase.md)|
+| String      | [endWith](functionendwith.md)|
+| String      | [endWithIgnorecase](functionendwithignorecase.md)|
+| String      | [equalIgnoreCase](functionequalignorecase.md)|
+| String      | [indexOf](functionindexof.md)|
+| String      | [isEmpty](functionisempty.md)|
+| String      | [isNotEmpty](functionisnotempty.md)|
+| String      | [lastIndexOf](functionlastindexof.md)|
+| String      | [length](functionlength.md)|
+| String      | [lower](functionlower.md)|
+| String      | [matchRegExp](functionmatchregexp.md)|
+| String      | [notEqualIgnoreCase](functionnotequalignorecase.md)|
+| String      | [replace](functionreplace.md)|
+| String      | [replaceAll](functionreplaceall.md)|
+| String      | [startWith](functionstartwith.md)|
+| String      | [startWithIgnoreCase](functionstartwithignorecase.md)|
+| String      | [substr](functionsubstr.md)|
+| String      | [trim](functiontrim.md)|
+| String      | [upper](functionupper.md)|
+| String      | [uuid](functionuuid.md)|
 
 ## Collection management functions{#section_ig2_hb5_pgb
 
@@ -154,7 +154,7 @@ Note that when the condition in the **all()** function is empty, the filter will
 
 `count(@{LobbyBeacon._experience.campaign.message.profile.pushNotificationTokens.application.name})`
 
-In both cases, the result of the expression is**3**.
+In both cases, the result of the expression is **3**.
 
 <!--A query of experience events recorded on the platform may or may not include the current event that triggered the current Journey. This will depend on the relative processing time with which Journeys sees an event and started evaluating conditions, versus the time it takes for that event to be ingested into the platform. For example, when using the .all() syntax to query experience events from the platform, we recommend enforcing the exclusion of the current event (by requiring an
 earlier timestamp) in order to only consider prior events.-->
@@ -178,9 +178,9 @@ The result will be:
 **The functions "first(`<condition>`)" and "last(`<condition>`)"**
 The **first** and **last** functions enable the definition of a filter on a given collection while returning the first/last element of the list that meets the filter. 
 
-_`<listExpression>`.first(`<condition>`)_
+_`<listExpression>.first(<condition>)`_
 
-_`<listExpression>`.last(`<condition>`) _
+_`<listExpression>.last(<condition>)` _
 
 **Example 1:** return the first push notification token associated to mobile applications for which the version is 1.0.
 
@@ -194,8 +194,7 @@ The result will be:
 
 **Example 2:** return the last push notification token associated to mobile applications for which the version is 1.0.
 
-```@{LobbyBeacon._experience.campaign.message.profile.pushNotificationTokens.last&#8203;(currentEventField.application.version == "1.0").token}
-```
+`@{LobbyBeacon._experience.campaign.message.profile.pushNotificationTokens.last&#8203;(currentEventField.application.version == "1.0").token}`
 
 The result will be:
 
@@ -233,7 +232,6 @@ The conditional instruction (if, then, else) is supported in the advanced editor
       (`<expression2>`)
    else
       (`<expression3>`)
-
    ```
 
 `<expression1>` must return a **boolean**.
@@ -256,7 +254,6 @@ The conditional instruction (if, then, else) is supported in the advanced editor
    <listDecimal><listDecimal> : <listDecimal>
    <listInteger><listInteger> : <listInteger>
    <listString><listString> : <listString>
-
    ```
 
 **Usage**
@@ -272,5 +269,4 @@ Example for an action activity (for a field that expects a string as the result 
       ('APNS')
    else
       ('FCM')
-
    ```
