@@ -1,8 +1,8 @@
 ---
-title: currentTime​InMillis
-seo-title: currentTime​InMillis
-description: currentTime​InMillis
-seo-description: Learn about the function currentTime​InMillis
+title: currentTimeInMillis
+seo-title: currentTimeInMillis
+description: currentTimeInMillis
+seo-description: Learn about the function currentTimeInMillis
 page-status-flag: never-activated
 uuid: 269d590c-5a6d-40b9-a879-02f5033863fc
 contentOwner: sauviat
@@ -16,7 +16,7 @@ internal: n
 snippet: y
 ---
 
-# currentTime​InMillis {#currentTime​InMillis}
+# currentTimeInMillis {#currentTimeInMillis}
 
 Current time in epoch milliseconds.
 
@@ -26,7 +26,7 @@ Date
 
 ## Function syntax
 
-`currentTime​InMillis(<parameter>)`
+`currentTimeInMillis(<parameter>)`
 
 ## Parameters
 
@@ -36,12 +36,12 @@ Date
 
 ## Signatures and return type
 
-`currentTime​InMillis()`
+`currentTimeInMillis()`
 
 Returns an integer.
 
 ## Examples
 
-`currentTime​InMillis()`
+`currentTimeInMillis()`
 
 Returns "1544712617131".
