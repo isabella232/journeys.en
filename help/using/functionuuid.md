@@ -37,4 +37,4 @@ Return a string.
 
 `uuid()`
 
-Returns "79e70b7f-8a85-400b-97a1-9f9826121553"
+Returns "79e70b7f-8a85-400b-97a1-9f9826121553". 

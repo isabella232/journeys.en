@@ -38,8 +38,8 @@ Returns a boolean.
 
 `endWith("Hello World", "World")`
 
-Returns true
+Returns true.
 
 `endWith("Hello World", "Hello")`
 
-Returns false
+Returns false.

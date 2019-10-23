@@ -56,8 +56,8 @@ Returns a decimal.
 <!--```avg({@BarBeacon.inventory},5)```-->
 `avg([10,3,8])`
 
-Returns 7.0
+Returns 7.0.
 
 `avg(10.2, 3)`
 
-Returns 6.6
+Returns 6.6.

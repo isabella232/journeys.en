@@ -39,7 +39,7 @@ Returns a datetime.
 
 `updateTimeZone( toDateTime("2019-08-28T08:15:30.123-07:00"), "Europe/Paris"))`
 
-Returns "2019-08-28T17:15:30.123+02:00"
+Returns "2019-08-28T17:15:30.123+02:00".
 
 `updateTimeZone( toDateTime("2019-08-28T08:15:30.123-07:00"), toTimeZone("Europe/Paris")))`
 

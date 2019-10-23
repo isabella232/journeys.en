@@ -38,4 +38,4 @@ Return a string.
 
 `upper("b")`
 
-Returns "B"
+Returns "B".

@@ -31,10 +31,12 @@ String
 ## Signature and return type
 
 `replace(baseString,sourceString,targetString)`
-`replace(<string>,<string>,<string>)` 
+
+`replace(<string>,<string>,<string>)`
 Return a string.
 
 ## Example
 
 `replace("Hello World", "l", "x")`
+
 Returns "Hexlo World".

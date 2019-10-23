@@ -68,16 +68,16 @@ Return a datetime.
 
 `toDateTime ("2016-08-18T23:17:59.123Z")`
 
-Returns 2016-08-18T23:17:59.123Z
+Returns 2016-08-18T23:17:59.123Z.
 
 `toDateTime ("2016-08-18T23:17:59.123", "UTC")`
 
-Returns 2016-08-18T23:17:59.123Z
+Returns 2016-08-18T23:17:59.123Z.
 
 `toDateTime("Z",2016,8,18,23,17,59)`
 
-Returns 2016-08-18T23:17:59.000Z
+Returns 2016-08-18T23:17:59.000Z.
 
 `toDateTime("Z",2016,8,18)`
 
-Returns 2016-08-18T00:00:00.000Z
+Returns 2016-08-18T00:00:00.000Z.

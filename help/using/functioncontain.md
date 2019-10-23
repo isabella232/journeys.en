@@ -31,9 +31,11 @@ String
 ## Signature and return type
 
 `contain(<string>,<string>)`
+
 Returns a boolean.
 
 ## Example
 
 `contain("rowing is great', "great")`
-Returns true
+
+Returns true.

@@ -38,6 +38,6 @@ Returns an integer.
 
 `lastIndexOf("Hello, "l"))`
 
-Returns 3
+Returns 3.
 
 Explanation: In "Hello", the first occurrence of “l” is at position 3.

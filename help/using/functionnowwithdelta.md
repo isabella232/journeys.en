@@ -47,6 +47,7 @@ Returns a dateTime.
 ## Examples
 
 `nowWithDelta(-2, "hours")`
-`nowWithDelta(-2, "hours", "Europe/Paris")``
+
+`nowWithDelta(-2, "hours", "Europe/Paris")`
 
 Returns a dateTime exactly 2 hours ago.

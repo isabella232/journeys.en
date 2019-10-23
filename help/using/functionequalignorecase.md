@@ -38,4 +38,4 @@ Returns a boolean.
 
 `equalIgnoreCase("rowing is great', "rowing is GREAT")`
 
-Returns true
+Returns true.

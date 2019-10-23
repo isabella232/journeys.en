@@ -31,13 +31,17 @@ String
 ## Signature and return type
 
 `concat(<string>,<string>)`
+
 `concat(<listString>)`
+
 Returns an string.
 
 ## Example
 
 `concat("Hello","World")`
-Returns "HelloWorld"
+
+Returns "HelloWorld".
 
 `concat(["Hello"," ","World"])`
-Returns "Hello World"
+
+Returns "Hello World".
