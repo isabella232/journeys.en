@@ -27,11 +27,11 @@ Each function has a specific return data type. Here is the list of supported fun
 
 | Category    | Function              |
 |-------------|-----------------------|
-| AEP         | [getBestSendTime](functiongetbestsendtime.md) |
+| AEP         | [getBestSendTime](functiongetbestsendtime.md)|
 | AEP         | [inSegment](functioninsegment.md)|
 | Aggregation | [avg](functionavg.md)|
 | Aggregation | [count](functioncount.md)|
-| Aggregation | [countOnlyNull](functioncountonlynull.md) |
+| Aggregation | [countOnlyNull](functioncountonlynull.md)|
 | Aggregation | [countWithNull](functioncountwithnull.md)|
 | Aggregation | [discountCount](functiondistinctcount.md)|
 | Aggregation | [discountCountwithNull](functiondistinctcountwithnull.md)|
