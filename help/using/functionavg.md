@@ -11,7 +11,7 @@ audience: rns
 content-type: reference
 topic-tags: journeys
 discoiquuid: 5df34f55-135a-4ea8-afc2-f9427ce5ae7b
-index: y
+index: n
 internal: n
 snippet: y
 ---
@@ -56,8 +56,8 @@ Returns a decimal.
 <!--```avg({@BarBeacon.inventory},5)```-->
 `avg([10,3,8])`
 
-Returns 7.0
+Returns 7.0.
 
 `avg(10.2, 3)`
 
-Returns 6.6
+Returns 6.6.

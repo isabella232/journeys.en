@@ -11,7 +11,7 @@ audience: rns
 content-type: reference
 topic-tags: journeys
 discoiquuid: 5df34f55-135a-4ea8-afc2-f9427ce5ae7b
-index: y
+index: n
 internal: n
 snippet: y
 ---
@@ -38,10 +38,10 @@ Here are the main data source configuration steps:
 
 1. In the top bar, click **Data Sources**. The list of data sources is displayed. See [The Journeys' interface](aboutinterface.md#concept_rcq_lqt_52b) for more information on the interface.
 
-        ![](assets/journey18.png)
+  ![](assets/journey18.png)
 
 1. Then you can either add field groups to the built-in data source (see [Adobe Experience Platform data source](dsplatform.md#concept_zrb_nqt_52b)) or create a new external data source (see [External data sources](dsexternal.md#concept_t2s_kqt_52b)) and associated field groups (see [Field groups](dsfield.md#concept_ntl_ypt_52b)).
 
-        ![](assets/journey22.png" placement="break" width="800" id="image_tr2_jmm_z2b)
+ ![](assets/journey22.png)
 
 1. Click **Save**. The data source is now configured and ready to be used in your journeys.

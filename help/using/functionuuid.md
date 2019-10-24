@@ -11,7 +11,7 @@ audience: rns
 content-type: reference
 topic-tags: journeys
 discoiquuid: 5df34f55-135a-4ea8-afc2-f9427ce5ae7b
-index: y
+index: n
 internal: n
 snippet: y
 ---
@@ -37,4 +37,4 @@ Return a string.
 
 `uuid()`
 
-Returns "79e70b7f-8a85-400b-97a1-9f9826121553"
+Returns "79e70b7f-8a85-400b-97a1-9f9826121553". 

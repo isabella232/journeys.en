@@ -11,7 +11,7 @@ audience: rns
 content-type: reference
 topic-tags: journeys
 discoiquuid: 5df34f55-135a-4ea8-afc2-f9427ce5ae7b
-index: y
+index: n
 internal: n
 snippet: y
 ---
@@ -28,11 +28,11 @@ Here are the main steps required to configure a custom action:
 
 1. In the top bar, click **Actions**. The list of custom actions is displayed. See [The Journeys' interface ](aboutinterface.md#concept_rcq_lqt_52b) for more information on the interface.
 
-        ![](assets/custom1.png)
+ ![](assets/custom1.png)
 
 1. Click **Add** to create a new action. The action configurator opens on the right side of the screen.
 
-        ![](assets/custom2.png)
+ ![](assets/custom2.png)
 
 1. Enter a name for your action. Do not use spaces or special characters.
 1. Add a description to your action. This step is optional.

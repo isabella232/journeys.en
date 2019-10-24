@@ -11,7 +11,7 @@ audience: rns
 content-type: reference
 topic-tags: journeys
 discoiquuid: 5df34f55-135a-4ea8-afc2-f9427ce5ae7b
-index: y
+index: n
 internal: n
 snippet: y
 ---
@@ -91,7 +91,7 @@ Each function has a specific return data type. Here is the list of supported fun
 | String      | [upper](functionupper.md)|
 | String      | [uuid](functionuuid.md)|
 
-## Collection management functions{#section_ig2_hb5_pgb
+## Collection management functions {#section_ig2_hb5_pgb}
 
 The expression language also introduces a set of functions to query collections. These functions are explained below. Let’s use the following collection for a few examples:
 

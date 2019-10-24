@@ -2,7 +2,7 @@
 product: Journeys
 audience: end-user
 user-guide-title: Journeys Help
-index: y
+index: n
 ---
 
 # Journeys Help {#using}

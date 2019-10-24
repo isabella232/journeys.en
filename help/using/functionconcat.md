@@ -11,7 +11,7 @@ audience: rns
 content-type: reference
 topic-tags: journeys
 discoiquuid: 5df34f55-135a-4ea8-afc2-f9427ce5ae7b
-index: y
+index: n
 internal: n
 snippet: y
 ---
@@ -31,13 +31,17 @@ String
 ## Signature and return type
 
 `concat(<string>,<string>)`
+
 `concat(<listString>)`
+
 Returns an string.
 
 ## Example
 
 `concat("Hello","World")`
-Returns "HelloWorld"
+
+Returns "HelloWorld".
 
 `concat(["Hello"," ","World"])`
-Returns "Hello World"
+
+Returns "Hello World".
