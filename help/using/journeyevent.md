@@ -20,15 +20,15 @@ snippet: y
 
 The events configured by the technical user (see [](event.md#concept_gfj_fqt_52b)) are all displayed in the first category of the palette, on the left side of the screen.
 
-        ![](assets/journey43.png)
+ ![](assets/journey43.png)
 
 Always start your journey by drag and dropping an event activity.
 
-        ![](assets/journey44.png)
+ ![](assets/journey44.png)
 
-When you click on the event activity in the canvas, the activity configurator is displayed. You can use the **Label** field to add a suffix to the event name that will appear under your activity in the canvas. This is useful if you use the same event several times in your journey. 
+When you click on the event activity in the canvas, the activity configurator is displayed. You can use the **Label** field to add a suffix to the event name that will appear under your activity in the canvas. This is useful if you use the same event several times in your journey.
 
-        ![](assets/journey33.png)
+ ![](assets/journey33.png)
 
 ## General events {#section_ofg_jss_dgb}
 
@@ -38,7 +38,7 @@ For this type of event, you can only add a label and a description. The rest of 
 
 Among the different event activities available in the palette, you will find the built-in **Reactions** event. This activity allows you to react to specific tracking data related to a message sent within the same journey. The event can be triggered, for example, if the person clicked on the email, or if the push message failed to be delivered. This allows you to perform additional actions in reaction to the message's success. See [](journeyaction.md#concept_hbj_hrt_52b).
 
-            ![](assets/journey45.png)
+ ![](assets/journey45.png)
 
 Here are the different steps to configure the reaction events:
 
@@ -68,4 +68,4 @@ An event activity positioned in the journey listens to events indefinitely. To l
 
 For example, you sent a welcome first push to a customer and you want to send a meal discount push only if the customer enters the restaurant within the next 6 hours. To do this, you will create a second path (parallel to the restaurant event one) with a 6-hour timer activity followed by and End activity. The first eligible activity will be chosen. If the restaurant event is received less than 6 hours after the welcome push, the meal discount push activity is sent. If no restaurant event is received within the next 6 hours, the timer path is chosen and the flow ends.
 
-            ![](assets/journeyuc2_31.png)
+ ![](assets/journeyuc2_31.png)

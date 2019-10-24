@@ -20,7 +20,7 @@ snippet: y
 
 From the palette, on the left-hand side of the screen, the following orchestration activities are available: **Condition**, **End**, **Timer**.
 
-    ![](assets/journey46.png)
+ ![](assets/journey46.png)
 
 ## Condition {#section_e2n_pft_dgb}
 
@@ -49,7 +49,7 @@ Four types of conditions are available:
 
 ![](assets/journey51.png)
 
-* **Percentage split**: this option allows you to randomly split the audience to define a different action for each group. Define the number of splits and the repartition for each group. The split calculation is statistical as the system cannot anticipate how many people will flow in this activity of the journey. The split has a very low error margin. This function is based on a Java random mechanism (see this [page](https://docs.oracle.com/javase/7/docs/api/java/util/Random.html)page).
+* **Percentage split**: this option allows you to randomly split the audience to define a different action for each group. Define the number of splits and the repartition for each group. The split calculation is statistical as the system cannot anticipate how many people will flow in this activity of the journey. The split has a very low error margin. This function is based on a Java random mechanism (see this [page](https://docs.oracle.com/javase/7/docs/api/java/util/Random.html)).
 
 ![](assets/journey52.png)
 
@@ -60,7 +60,7 @@ When you define a date condition, you must specify a timezone. The timezone can 
 * the same for all individuals in the journey passing through this step and picked from a dropdown list.
 * custom and retrieved from an event or a data source. The custom timezone must follow this [format](https://docs.oracle.com/javase/8/docs/api/java/time/ZoneId.html#of-java.lang.String-). If the timezone you want to leverage is a string, you can use the function ‘toTimeZone’ to convert it to the right format.
 
-        ![](assets/journey53.png)
+ ![](assets/journey53.png)
 
 Click **Add a path** if you want to define several conditions. For each condition, a new path is added in the canvas after the activity.
 

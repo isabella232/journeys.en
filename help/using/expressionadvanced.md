@@ -24,7 +24,7 @@ The advanced expression editor allows you to build conditions in various screens
 
 The advanced expression editor offers a set of built-in functions and operators to let you manipulate values and define an expression that corresponds specifically to your needs with. It is available every time you need define a condition. The advanced expression editor also allows you to define the values of external data source parameters.
 
-    ![](assets/journeyuc2_30.png)
+ ![](assets/journeyuc2_30.png)
 
 The advanced expression editor can be used to:
 

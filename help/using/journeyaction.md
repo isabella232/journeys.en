@@ -88,7 +88,6 @@ In this section, you define the **Push Platform** (iOS or Android) and **Registr
     ```
 
         @{eventName.'_experience'.campaign.message.profileSnapshot.pushNotificationTokens.first().token}
-
     ```
 * **Personalization Data**
 
