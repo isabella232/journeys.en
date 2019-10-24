@@ -11,7 +11,7 @@ audience: rns
 content-type: reference
 topic-tags: journeys
 discoiquuid: 5df34f55-135a-4ea8-afc2-f9427ce5ae7b
-index: y
+index: n
 internal: n
 snippet: y
 ---
@@ -31,7 +31,7 @@ The payload preview allows you to validate the payload definition.
 
 You can notice that the fields selected are displayed.
 
-     ![](assets/journey14.png)
+ ![](assets/journey14.png)
 
 1. Check the preview to validate the payload definition.
 

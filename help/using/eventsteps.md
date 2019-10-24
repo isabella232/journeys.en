@@ -11,7 +11,7 @@ audience: rns
 content-type: reference
 topic-tags: journeys
 discoiquuid: 5df34f55-135a-4ea8-afc2-f9427ce5ae7b
-index: y
+index: n
 internal: n
 snippet: y
 ---
@@ -29,8 +29,10 @@ To configure events to be sent to **Streaming Ingestion APIs** and to be used in
 1. Copy the payload from the payload preview in the **Event** menu. See [Defining the payload fields](eventpayload.md#concept_yrw_3qt_52b).
 1. Configure your data system that pushes events to Streaming Ingestion APIs using the payload you copied:
 
+   1. Set up a POST API call to the Streaming Ingestion APIs URL (called an inlet).
    1. Use the payload you copied from Journeys in the body ("data section") of the API call to Streaming Ingestion APIs. See below for an example
-   1. Determine where to get all the variables present in the payload. Example: if the event if supposed to convey the address, the payload pasted will show "address": "string". "string" should be replaced by the variable that will automatically populate the right value, the email of the person to send a message to. Note that in the payload preview, in the **Header** section, we autofill many values expected to facilitate your work.
+   1. Determine where to get all the variables present in the payload. 
+        Example: if the event if supposed to convey the address, the payload pasted will show "address": "string". "string" should be replaced by the variable that will automatically populate the right value, the email of the person to send a message to. Note that in the payload preview, in the **Header** section, we autofill many values expected to facilitate your work.
    1. Select "application/json" as a body type.
    1. Pass your IMS ORG ID in the header using the key "x-gw-ims-org-id". For the value, use your IMS ORG ID ("XXX@AdobeOrg").
 
@@ -90,7 +92,6 @@ Here is an example of a Streaming Ingestion APIs event:
         }
     }
 }
-
 ```
 
 To facilitate the identification of the place where to paste the "data" part, you can use a JSON visualization tool such as [https://jsonformatter.curiousconcept.com](https://jsonformatter.curiousconcept.com)
