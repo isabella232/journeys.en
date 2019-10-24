@@ -11,7 +11,7 @@ audience: rns
 content-type: reference
 topic-tags: journeys
 discoiquuid: 5df34f55-135a-4ea8-afc2-f9427ce5ae7b
-index: y
+index: n
 internal: n
 snippet: y
 ---
@@ -38,6 +38,6 @@ Returns an integer.
 
 `indexOf("Hello, "l"))`
 
-Returns 2
+Returns 2.
 
 Explanation: In "Hello", the first occurrence of “l” is at position 2.

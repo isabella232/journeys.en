@@ -11,7 +11,7 @@ audience: rns
 content-type: reference
 topic-tags: journeys
 discoiquuid: 5df34f55-135a-4ea8-afc2-f9427ce5ae7b
-index: y
+index: n
 internal: n
 snippet: y
 ---
@@ -42,4 +42,4 @@ The payload definition allows you to choose the information the system expects t
 
 The number of selected fields appears in the **Payload** field.
 
-    ![](assets/journey12.png)
+![](assets/journey12.png)

@@ -11,7 +11,7 @@ audience: rns
 content-type: reference
 topic-tags: journeys
 discoiquuid: 5df34f55-135a-4ea8-afc2-f9427ce5ae7b
-index: y
+index: n
 internal: n
 snippet: y
 ---
@@ -33,12 +33,12 @@ We then check two conditions:
 
 ![](assets/journeyuc2_29.png)
 
-For this use case, we will need to create two events (see [creating events](uc2event.md):
+For this use case, we will need to create two events (see [creating events](uc2event.md)):
 
 * The lobby beacon event that will be pushed to the system when a customer enters the hotel.
 * The restaurant beacon event that will be pushed when a customer enters the restaurant.
 
-We will need to configure a connection to two data sources (see [data sources](uc2ds.md):
+We will need to configure a connection to two data sources (see [data sources](uc2ds.md)):
 
 * The build-in Experience Platform data source, to retrieve the information for our two conditions (loyalty membership and last contact date) as well and the message personalization information.
 * The hotel reservation system, to retrieve the reservation status information.

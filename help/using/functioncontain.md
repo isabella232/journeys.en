@@ -11,7 +11,7 @@ audience: rns
 content-type: reference
 topic-tags: journeys
 discoiquuid: 5df34f55-135a-4ea8-afc2-f9427ce5ae7b
-index: y
+index: n
 internal: n
 snippet: y
 ---
@@ -31,9 +31,11 @@ String
 ## Signature and return type
 
 `contain(<string>,<string>)`
+
 Returns a boolean.
 
 ## Example
 
 `contain("rowing is great', "great")`
-Returns true
+
+Returns true.

@@ -11,7 +11,7 @@ audience: rns
 content-type: reference
 topic-tags: journeys
 discoiquuid: 5df34f55-135a-4ea8-afc2-f9427ce5ae7b
-index: y
+index: n
 internal: n
 snippet: y
 ---
@@ -21,23 +21,21 @@ snippet: y
 
 There are two kinds of operators: unary operators and binary operators. There are left-hand unary operators and right-hand unary operators.
 
-```
+    ```
 
-// left-hand unary operators
-&lt;operator> &lt;operand> // operand is an expression
-not (@{LobbyBeacon.endUserIDs._experience.emailid.id}=="example@adobe.com")
+    // left-hand unary operators
+    &lt;operator> &lt;operand> // operand is an expression
+    not (@{LobbyBeacon.endUserIDs._experience.emailid.id}=="example@adobe.com")
 
-// right-hand unary operators
-&lt;operand> &lt;operator> // operand is an expression
-@{LobbyBeacon.endUserIDs._experience.emailid.id} is not null
+    // right-hand unary operators
+    &lt;operand> &lt;operator> // operand is an expression
+    @{LobbyBeacon.endUserIDs._experience.emailid.id} is not null
 
- 
-// binary operators
-&lt;operand1> &lt;operator> &lt;operand2>
-(@{LobbyBeacon.endUserIDs._experience.emailid.id}=="example1@adobe.com") or 
-(@{LobbyBeacon.endUserIDs._experience.emailid.id}=="example2@adobe.com")
-
-```
+    // binary operators
+    &lt;operand1> &lt;operator> &lt;operand2>
+    (@{LobbyBeacon.endUserIDs._experience.emailid.id}=="example1@adobe.com") or
+    (@{LobbyBeacon.endUserIDs._experience.emailid.id}=="example2@adobe.com")
+    ```
 
 Here is the list of supported operators:
 

@@ -11,7 +11,7 @@ audience: rns
 content-type: reference
 topic-tags: journeys
 discoiquuid: 5df34f55-135a-4ea8-afc2-f9427ce5ae7b
-index: y
+index: n
 internal: n
 snippet: y
 ---
@@ -24,7 +24,7 @@ The advanced expression editor allows you to build conditions in various screens
 
 The advanced expression editor offers a set of built-in functions and operators to let you manipulate values and define an expression that corresponds specifically to your needs with. It is available every time you need define a condition. The advanced expression editor also allows you to define the values of external data source parameters.
 
-    ![](assets/journeyuc2_30.png)
+ ![](assets/journeyuc2_30.png)
 
 The advanced expression editor can be used to:
 
@@ -71,7 +71,7 @@ A syntax validation mechanism checks the integrity of your code. Errors are disp
 
 **Need for parameters when building conditions with the advanced expression editor**
 
-If you select a field from an external data source requiring a parameter to be called (see [External data sources](dsexternal.md#concept_t2s_kqt_52b)), a new tab appears on the right to let you specify this parameter. The parameter value can come from the events positioned in the journey or the Experience Platform data source (and not from other external data sources). For example, in a weather-related data source, a frequently used parameter will be "city". As a result, you must select where you want to get this city parameter. Functions can also be applied to parameters to perform format changes or concatenations. 
+If you select a field from an external data source requiring a parameter to be called (see [External data sources](dsexternal.md#concept_t2s_kqt_52b)), a new tab appears on the right to let you specify this parameter. The parameter value can come from the events positioned in the journey or the Experience Platform data source (and not from other external data sources). For example, in a weather-related data source, a frequently used parameter will be "city". As a result, you must select where you want to get this city parameter. Functions can also be applied to parameters to perform format changes or concatenations.
 
 ![](assets/journeyuc2_19.png)
 
