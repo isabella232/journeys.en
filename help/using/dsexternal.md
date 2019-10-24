@@ -36,9 +36,9 @@ Here are the main steps to create and configure a new external data source:
 
     ![](assets/journey25.png)
 
-This opens the data source configurator on the right-hand side of the screen.
+ This opens the data source configurator on the right-hand side of the screen.
 
-![](assets/journey26.png)
+ ![](assets/journey26.png)
 
 1. Enter a name for your data source. Do not use spaces or special characters.
 1. Add a description to your data source. This step is optional.
@@ -78,7 +78,6 @@ In case of a GET call requiring parameter(s), you enter the parameter(s) in the 
     ```
 
     {“id”:{“param”:“identifier”}}
-
     ```
 
     ![](assets/journey29.png)
@@ -93,11 +92,11 @@ This authentication mode is used for complex authentication, frequently used to 
 
 When you configure the custom authentication, you can click on the button below to check if the custom authentication payload is correctly configured.
 
-    ![](assets/journey29-bis.png)
+![](assets/journey29-bis.png)
 
 If the test is successful, the button turns green.
 
-    ![](assets/journey29-ter.png)
+![](assets/journey29-ter.png)
 
 With this authentication, the action execution is a two-steps process:
 
@@ -147,5 +146,4 @@ The definition of the way the access token must be injected in the HTTP request 
             },
             "tokenInResponse": "&lt;'response' or json selector in format 'json://&lt;field path to access token>'"
         }
-
-```
+    ```
