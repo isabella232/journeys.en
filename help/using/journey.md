@@ -41,7 +41,7 @@ Here are the main steps to create and publish a journey.
 
 1. Start by drag and dropping an event activity from the palette into the canvas.
 
- ![](assets/journey33.png")
+ ![](assets/journey33.png)
 
 1. Drag and drop your other activities and configure them. See [Events activities](journeyevent.md#concept_rws_1rt_52b), [Orchestration activities](journeyorchestration.md#concept_ksq_2rt_52b) and [Action activities](journeyaction.md#concept_hbj_hrt_52b).
 
