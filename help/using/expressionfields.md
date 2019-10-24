@@ -49,16 +49,15 @@ A syntax color is used to visually distinguish events fields (green) from field 
 
 A default value can be associated to a field name. the syntax is as follows:
 
-```
+    ```
 
-// event field
-@{&lt;event name>.&lt;XDM path to the field>, defaultValue: &lt;default value expression>}
-@{LobbyBeacon.endUserIDs._experience.emailid.id, defaultValue: "example@adobe.com"}
- // field group
- #{&lt;data source name>.&lt;field group name>.&lt;path to the field>, defaultValue: &lt;default value expression>}
-#{ExperiencePlatformDataSource.ProfileFieldGroup.Profile.personalEmail.address, defaultValue: "example@adobe.com"}
-
-```
+    // event field
+    @{&lt;event name>.&lt;XDM path to the field>, defaultValue: &lt;default value expression>}
+    @{LobbyBeacon.endUserIDs._experience.emailid.id, defaultValue: "example@adobe.com"}
+    // field group
+    #{&lt;data source name>.&lt;field group name>.&lt;path to the field>, defaultValue: &lt;default value expression>}
+    #{ExperiencePlatformDataSource.ProfileFieldGroup.Profile.personalEmail.address, defaultValue: "example@adobe.com"}
+    ```
 
 >[!NOTE]
 >
@@ -76,20 +75,18 @@ For more complex use cases, if you want to include the parameters of the data so
 
 Use the following syntax:
 
-```
+    ```
 
-#{&lt;datasource>.&lt;field group>.fieldName, params: {&lt;params-1-name>: &lt;params-1-value>, &lt;params-2-name>: &lt;params-2-value>}}
-
-```
+    #{&lt;datasource>.&lt;field group>.fieldName, params: {&lt;params-1-name>: &lt;params-1-value>, &lt;params-2-name>: &lt;params-2-value>}}
+    ```
 
 * **&lt;params-1-name>**: exact name of the first parameter from the data source.
 * **&lt;params-1-value>**: the value of the first parameter. It can be any valid expression.
 
 Example:
 
-```
+    ```
 
-#{Weather.main.temperature, params: {localisation: @{Profile.address.localisation}}}
-#{Weather.main.temperature, params: {localisation: #{GPSLocalisation.main.coordinates, params: {city: @{Profile.address.city}}}}}
-
-```
+    #{Weather.main.temperature, params: {localisation: @{Profile.address.localisation}}}
+    #{Weather.main.temperature, params: {localisation: #{GPSLocalisation.main.coordinates, params: {city: @{Profile.address.city}}}}}
+    ```

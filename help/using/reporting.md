@@ -35,7 +35,7 @@ Reports can be accessed two different ways depending on the data you want to fil
 
 To go back to your deliveries from your report, click your delivery's name in the report title.
 
-    ![](assets/dynamic_report_journey_9.png)
+ ![](assets/dynamic_report_journey_9.png)
 
 For more information on the reporting interface, refer to the [Adobe Campaign Standard documentation.](https://helpx.adobe.com/campaign/standard/reporting/using/reporting-interface.html)
 
@@ -43,7 +43,7 @@ For more information on the reporting interface, refer to the [Adobe Campaign St
 Reports are divided into two categories: an out-of-the-box template and custom reports.
 The out-of-the-box template, **Journey summary**, gives you a clear view of the most important tracking data.
 
-        ![](assets/dynamic_report_journey_8.png)
+ ![](assets/dynamic_report_journey_8.png)
 
 Each table is represented by summary numbers and charts. You can change how the details are shown in their respective visualization settings.
 
@@ -61,7 +61,7 @@ Each table is represented by summary numbers and charts. You can change how the 
 
 The Journey flow visualization allows you to see the path of your targeted profiles step-by-step through your journey. This is only available when targeting one journey.
 
-        ![](assets/dynamic_report_journey_10.png)
+ ![](assets/dynamic_report_journey_10.png)
 
 The **Journey summary** table contains the data available for journeys, such as:
 
@@ -73,7 +73,7 @@ The **Journey summary** table contains the data available for journeys, such as:
 
 The **Top events** table displays the most successful events and the **Top action** the most successful actions in your journeys.
 
-        ![](assets/dynamic_report_journey_11.png)
+ ![](assets/dynamic_report_journey_11.png)
 
 The **Delivery - Sending summary** table contains the data available for your journey's deliveries, such as:
 
@@ -91,6 +91,6 @@ The **Delivery - Tracking summary** table contains the data available to track t
 * **Click**: Number of times a content was clicked in a delivery.
 * **Unsubscribe rate**: Percentage of unsubscriptions by recipient compared to the delivered messages.
 * **Unsubscribed**: Total number of unsubscriptions by recipient compared to the delivered messages.
- 
+
 **Custom reports**
 You can also create custom reports, which are directly created via the **Create a new project** button on the Reporting page. You, then, only need to add panels and drag and drop components or visualizations to your freeform environment. For more information on the reporting interface, refer to the [Adobe Campaign Standard](https://helpx.adobe.com/campaign/standard/reporting/using/reporting-interface.html) documentation.
