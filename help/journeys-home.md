@@ -8,7 +8,7 @@ topic: Premium
 
 # Help Center {#journeys-documentation}
 
-Build real-time orchestration use cases leveraging contextual data stored in events or data sources.
+![](using/assets/bannerjourneys.png) 
 
 ## What's New
 
