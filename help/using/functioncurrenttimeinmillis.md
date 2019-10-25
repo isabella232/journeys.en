@@ -1,0 +1,47 @@
+---
+title: currentTimeInMillis
+seo-title: currentTimeInMillis
+description: currentTimeInMillis
+seo-description: Learn about the function currentTimeInMillis
+page-status-flag: never-activated
+uuid: 269d590c-5a6d-40b9-a879-02f5033863fc
+contentOwner: sauviat
+products: SG_CAMPAIGN/CLASSIC
+audience: rns
+content-type: reference
+topic-tags: journeys
+discoiquuid: 5df34f55-135a-4ea8-afc2-f9427ce5ae7b
+index: n
+internal: n
+snippet: y
+---
+
+# currentTimeInMillis {#currentTimeInMillis}
+
+Current time in epoch milliseconds.
+
+## Category
+
+Date
+
+## Function syntax
+
+`currentTimeInMillis(<parameter>)`
+
+## Parameters
+
+|Parameter|Description|
+|--- |--- |
+|integer|number of milliseconds (epoch milliseconds)|
+
+## Signatures and return type
+
+`currentTimeInMillis()`
+
+Returns an integer.
+
+## Examples
+
+`currentTimeInMillis()`
+
+Returns "1544712617131".
