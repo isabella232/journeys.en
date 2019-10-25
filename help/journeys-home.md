@@ -8,7 +8,7 @@ topic: Premium
 
 # Help Center {#journeys-documentation}
 
-![](using/assets/bannerjourneys.png) 
+![](using/assets/bannerjourney.png) 
 
 ## What's New
 
