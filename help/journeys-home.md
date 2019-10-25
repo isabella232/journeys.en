@@ -37,7 +37,7 @@ Learn how to use the expression editor simple mode to perform simple queries bas
       <img alt="build" src="using/assets/design.png"/>
     </a>
     <div>
-    <a href="designing/using/designing-content-in-adobe-campaign.md"><strong>Building your journeys</strong></a>
+    <a href="using/journey.md"><strong>Building your journeys</strong></a>
     </div>
     <em>Combine your activities to build your multi-step cross-channel scenarios.</em>
     <br>
