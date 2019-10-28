@@ -28,6 +28,12 @@ Maths
 
 `round(<parameters>)`
 
+
+# Parameters 
+
+* decimal
+* integer
+
 ## Signature and return type
 
 `round(<decimal>)`

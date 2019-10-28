@@ -59,4 +59,3 @@ Returns a string.
 `toString(4)`
 
 Returns "4".
-

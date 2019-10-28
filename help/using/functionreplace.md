@@ -28,6 +28,14 @@ String
 
 `replace(<parameters>)`
 
+## Parameters
+
+| Parameter | Type         |
+|-----------|--------------|
+| base      | string       |
+| source    | string       |
+| target    | string       |
+
 ## Signature and return type
 
 `replace(baseString,sourceString,targetString)`
