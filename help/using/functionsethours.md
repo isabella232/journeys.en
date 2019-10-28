@@ -30,9 +30,11 @@ Date
 
 ## Parameters
 
-* dateTime
-* dateTimeOnly
-* integer
+|Parameter|Type|
+|--- |--- |
+|dateTime||
+|dateTimeOnly||
+|hours|integer|
 
 ## Signatures and return type
 
