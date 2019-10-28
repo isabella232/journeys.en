@@ -28,6 +28,15 @@ String
 
 `substr(<parameters>)`
 
+## Parameters
+
+| Parameter  | type              |
+|-------------|-----------------------|
+| string    | string|
+| beginIndex    | integer|
+| endIndex| integer|
+
+
 ## Signature and return type
 
 `substr(<string>,beginIndex<integer>)`

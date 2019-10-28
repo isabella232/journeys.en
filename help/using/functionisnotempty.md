@@ -28,6 +28,10 @@ String
 
 `isNotEmpty(<parameters>)`
 
+## Parameters
+
+* string
+
 ## Signature and return type
 
 `isNotEmpty(<string>)`

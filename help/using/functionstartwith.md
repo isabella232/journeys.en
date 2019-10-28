@@ -28,6 +28,13 @@ String
 
 `startWith(<parameters>)`
 
+## Parameters
+
+| Parameter   | Type  |
+|-------------|--------|
+| string      | string |
+| prefix      | string |
+
 ## Signature and return type
 
 `startWith(<string>,<string>)`

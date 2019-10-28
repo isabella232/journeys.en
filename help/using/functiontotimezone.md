@@ -18,7 +18,7 @@ snippet: y
 
 # toTimeZone {#toTimeZone}
 
-Converts a string value to a timezone. 
+Converts a string value to a timezone.
 
 ## Category
 
@@ -44,6 +44,4 @@ Return a timezone.
 
 `toTimeZone("UTC")`
 
-
 Returns UTC.
-
