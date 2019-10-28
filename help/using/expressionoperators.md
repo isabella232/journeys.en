@@ -41,7 +41,7 @@ Here is the list of supported operators:
 
 |Category|Operator|Literal Expression|Example|
 |--- |--- |--- |--- |
-|Logical|and|`<expression1> and <expression2>`Both `<expression1>` and `<expression2>` must be boolean. The result is boolean.|`3.14 > 2 and 3.15 < 1`|
+|Logical|and|<ul><li>`<expression1> and <expression2>`</li><li>Both `<expression1>` and `<expression2>` must be boolean.</li><li> The result is boolean.</li></ul>|`3.14 > 2 and 3.15 < 1`|
 |Logical|or|`<expression1> or <expression2>`Both `<expression1> and <expression2>` must be boolean. The result is boolean.|3.14 > 2 or 3.15 < 1|
 |Logical|not|`not <expression>``<expression>` must be boolean. The result is boolean.|not 3.15 < 1|
 |Comparison|is null|`<expression> is null`The result is boolean.Note that null means the expression has no evaluated value.|`@{BarBeacon.location} is null`|
