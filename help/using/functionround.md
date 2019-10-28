@@ -28,8 +28,7 @@ Maths
 
 `round(<parameters>)`
 
-
-# Parameters 
+## Parameters
 
 * decimal
 * integer
