@@ -30,10 +30,8 @@ Date
 
 ## Parameters
 
-|Parameter|Description|
-|--- |--- |
-|dateTime||
-|integer||
+* dateTime
+* integer
 
 ## Signatures and return type
 

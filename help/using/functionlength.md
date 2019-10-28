@@ -28,6 +28,10 @@ String
 
 `length(<parameters>)`
 
+## Parameter
+
+* string
+
 ## Signature and return type
 
 `length(<string>)`

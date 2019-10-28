@@ -30,11 +30,11 @@ Date
 
 ## Parameters
 
-|Parameter|Description|
+|Parameter|Type|
 |--- |--- |
 |dateTime||
-|days||
 |dateTimeOnly||
+|days|integer|
 
 ## Signatures and return type
 

@@ -28,6 +28,10 @@ String
 
 `equalIgnoreCase(<parameters>)`
 
+## Parameters
+
+* string
+
 ## Signature and return type
 
 `equalIgnoreCase(<string>,<string>)`

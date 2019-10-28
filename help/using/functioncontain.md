@@ -28,6 +28,10 @@ String
 
 `contain(<parameters>)`
 
+## Parameters
+
+* string
+
 ## Signature and return type
 
 `contain(<string>,<string>)`

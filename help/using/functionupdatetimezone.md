@@ -28,9 +28,16 @@ Date
 
 `updateTimeZone(<parameters>)`
 
+## Parameters
+
+* string
+* timezone
+* dateTime
+
 ## Signature and return type
 
 `updateTimeZone(<dateTime>,<string>)`
+
 `updateTimeZone(<dateTime>,<timeZone>)`
 
 Returns a datetime.

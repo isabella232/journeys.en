@@ -28,6 +28,10 @@ String
 
 `lower(<parameters>)`
 
+## Parameter
+
+* string
+
 ## Signature and return type
 
 `lower(<string>)`

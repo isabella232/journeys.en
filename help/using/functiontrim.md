@@ -36,6 +36,6 @@ Return a string.
 
 ## Example
 
-`trim("Hello World")`
+`trim(" Hello ")`
 
-Returns "World".
+Returns "Hello".

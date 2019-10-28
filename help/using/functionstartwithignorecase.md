@@ -28,6 +28,13 @@ String
 
 `startWithIgnoreCase(<parameters>)`
 
+## Parameters
+
+| Parameter   | Type  |
+|-------------|--------|
+| string      | string |
+| prefix      | string |
+
 ## Signature and return type
 
 `startWithIgnoreCase(<string>,<string>)`

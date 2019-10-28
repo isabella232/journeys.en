@@ -28,6 +28,13 @@ String
 
 `indexOf(<parameters>)`
 
+## Parameters
+
+| Parameter | Type             |
+|-----------|------------------|
+|  calling string | String   |
+|  specified value | String |
+
 ## Signature and return type
 
 `indexOf(<string>,<string>)`
