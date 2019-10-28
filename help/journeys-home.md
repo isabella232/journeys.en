@@ -8,7 +8,7 @@ topic: Premium
 
 # Help Center {#journeys-documentation}
 
-Build real-time orchestration use cases leveraging contextual data stored in events or data sources.
+![](using/assets/bannerjourney.png) 
 
 ## What's New
 
@@ -20,46 +20,37 @@ Learn how to use the expression editor simple mode to perform simple queries bas
 
 ## Top pages
 
-<table>
+ <table>
 <tr>
-  <td>
+  <td valign="top">
     <a href="using/expressionadvanced.md">
-      <img alt="expression" src="using/assets/FAQ.png"/>
+      <img alt="conditions" src="using/assets/dev.png"/>
     </a>
     <div>
-      <a href="using/expressionadvanced.md">
-    <strong>Building advanced conditions</strong>
-    </a>
+    <a href="using/expressionadvanced.md"><strong>Building advanced conditions</strong></a>
     </div>
-    <p>
-    <em>Build complex condition leveraging data coming from the events or additional information retrieved from the data source.</em>
-    <p>
+    <em>Learn how to build complex conditions leveraging data from events and data sources. </em>
+    <br>
   </td>
-   <td>
+  <td valign="top">
     <a href="using/journey.md">
-      <img alt="journey" src="using/assets/upgrade.png" />
+      <img alt="build" src="using/assets/design.png"/>
     </a>
     <div>
-      <a href="using/journey.md">
-    <strong>Building your journeys</strong>
-    </a>
+    <a href="using/journey.md"><strong>Building your journeys</strong></a>
     </div>
-    <p>
     <em>Combine your activities to build your multi-step cross-channel scenarios.</em>
-    <p>
+    <br>
   </td>
-  <td>
-    <a href="using/troubleshooting.md">
-       <img alt="troubleshooting" src="using/assets/push.png" />
-    </a>
+  <td valign="top">
+        <a href="using/troubleshooting.md">
+       <img alt="Developers" src="using/assets/FAQ.png" />
+       </a>
     <div>
-       <a href="using/troubleshooting.md">
-    <strong>Troubleshooting</strong>
-    </a>
+    <a href="using/troubleshooting.md"><strong>Troubleshooting</strong></a>
     </div>
-    <p>
-    <em>Find out the various tools that you can use to troubleshoot your journeys.</em>
-    <p>
+     <em>Find out the various tools that you can use to troubleshoot your journeys</em>
+    <br>
   </td>
 </tr>
 </table>
