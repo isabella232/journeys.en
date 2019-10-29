@@ -23,7 +23,7 @@ Technically, a constant always contains a data type. In the literal expression, 
 Here is how constant expressions are represented:
 
 |Data Type|Description|Literal Representation|Example|
-|--- |--- |--- |--- |
+|---|---|---|---|
 |string|Common sequence of characters.<br/> It doesn't have any specific size except the implicit one that comes from the environment such as the amount of memory available.<br/>JSON format: StringSerialization format: UTF-8|`"<value>"`<br/>`'<value>'`|`"hello world"`<br/> `'hello world'`|
 |integer|Integer value from -2^63 to 2^63-1.<br/>JSON format: Number|`<integer value>`|42|
 |decimal|Decimal number.<br/> It represents a floating value:<br/>largest positive finite value of type double, (2-2^-52)x2^1023<br/>smallest positive normal value of type double, 2-1022<br/>smallest positive nonzero value of type double, 2 p-1074J<br/>SON format: Number<br/>Serialization format: using '.' as the decimal separator.|`<integer value>.<integer value>`|`3.14`|
