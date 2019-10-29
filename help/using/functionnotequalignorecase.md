@@ -1,8 +1,8 @@
 ---
-title: notEqualIgnoreCase
-seo-title: notEqualIgnoreCase
-description: notEqualIgnoreCase
-seo-description: Learn about the function notEqualIgnoreCase
+title: notEqualWithIgnoreCase
+seo-title: notEqualWithIgnoreCase
+description: notEqualWithIgnoreCase
+seo-description: Learn about the function notEqualWithIgnoreCase
 page-status-flag: never-activated
 uuid: 269d590c-5a6d-40b9-a879-02f5033863fc
 contentOwner: sauviat
@@ -16,7 +16,7 @@ internal: n
 snippet: y
 ---
 
-# notEqualIgnoreCase {#notEqualIgnoreCase}
+# notEqualWithIgnoreCase {#notEqualWithIgnoreCase}
 
 Check if the first argument string with the second argument string are different, ignoring case considerations.
 
@@ -26,7 +26,7 @@ String
 
 ## Function syntax
 
-`notEqualIgnoreCase(<parameters>)`
+`notEqualWithIgnoreCase(<parameters>)`
 
 ## Parameters
 
@@ -34,7 +34,7 @@ String
 
 ## Signature and return type
 
-`notEqualIgnoreCase(<string>,<string>)`
+`notEqualWithIgnoreCase(<string>,<string>)`
 
 Returns a boolean.
 

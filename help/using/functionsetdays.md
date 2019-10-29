@@ -38,11 +38,11 @@ Date
 
 ## Signatures and return type
 
-`setDays(<dateTime>,<days>)`
+`setDays(<dateTime>,<integer>)`
 
 Returns a datetime.
 
-`setDays(<dateTimeOnly>,<days>)`
+`setDays(<dateTimeOnly>,<integer>)`
 
 Returns a datetime without considering timezone.
 
