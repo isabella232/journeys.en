@@ -39,8 +39,8 @@ There are two kinds of operators: unary operators and binary operators. There ar
 
 Here is the list of supported operators:
 
-|Category|Operator|Literal Expression|Example|
-|--- |--- |:-------------: |:----------: |
+|Category|Operator|Literal Expression &nbsp; &nbsp; &nbsp; &nbsp;|Example|
+|--- |---|:-------------:|:----------:|
 |Logical|and|<ul><li>`<expression1> and <expression2>`</li><li>Both `<expression1>` and `<expression2>` must be boolean.</li><li> The result is boolean.</li></ul>|`3.14 > 2 and 3.15 < 1`|
 |Logical|or|<ul><li>`<expression1> or <expression2>`</li><li>Both `<expression1> and <expression2>` must be boolean.</li><li> The result is boolean.</li></ul>|3.14 > 2 or 3.15 < 1|
 |Logical|not|<ul><li>`not <expression>``<expression>` must be boolean.</li><li> The result is boolean.</li></ul>|not 3.15 < 1|
