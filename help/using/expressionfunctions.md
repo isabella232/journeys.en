@@ -73,7 +73,7 @@ Each function has a specific return data type. Here is the list of supported fun
 | String      | [containWithIgnoreCase](functioncontainwithignorecase.md)|
 | String      | [endWith](functionendwith.md)|
 | String      | [endWithIgnorecase](functionendwithignorecase.md)|
-| String      | [equalIgnoreCase](functionequalignorecase.md)|
+| String      | [equalWithIgnoreCase](functionequalignorecase.md)|
 | String      | [indexOf](functionindexof.md)|
 | String      | [isEmpty](functionisempty.md)|
 | String      | [isNotEmpty](functionisnotempty.md)|
@@ -81,7 +81,7 @@ Each function has a specific return data type. Here is the list of supported fun
 | String      | [length](functionlength.md)|
 | String      | [lower](functionlower.md)|
 | String      | [matchRegExp](functionmatchregexp.md)|
-| String      | [notEqualIgnoreCase](functionnotequalignorecase.md)|
+| String      | [notEqualWithIgnoreCase](functionnotequalignorecase.md)|
 | String      | [replace](functionreplace.md)|
 | String      | [replaceAll](functionreplaceall.md)|
 | String      | [startWith](functionstartwith.md)|
