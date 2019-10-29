@@ -21,7 +21,7 @@ snippet: y
 
 There are two kinds of operators: unary operators and binary operators. There are left-hand unary operators and right-hand unary operators.
 
-    ```
+```
 
     // left-hand unary operators
     &lt;operator> &lt;operand> // operand is an expression
@@ -35,7 +35,7 @@ There are two kinds of operators: unary operators and binary operators. There ar
     &lt;operand1> &lt;operator> &lt;operand2>
     (@{LobbyBeacon.endUserIDs._experience.emailid.id}=="example1@adobe.com") or
     (@{LobbyBeacon.endUserIDs._experience.emailid.id}=="example2@adobe.com")
-    ```
+```
 
 Here is the list of supported operators:
 
