@@ -36,7 +36,7 @@ For each data source, you define the information to retrieve using field groups.
 
 Here are the main data source configuration steps:
 
-1. In the top bar, click **Data Sources**. The list of data sources is displayed. See [The Journeys' interface](aboutinterface.md#concept_rcq_lqt_52b) for more information on the interface.
+1. In the top bar, click **Data Sources**. The list of data sources is displayed. See [The Journeys' interface](../about/aboutinterface.md#concept_rcq_lqt_52b) for more information on the interface.
 
   ![](assets/journey18.png)
 

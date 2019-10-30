@@ -26,7 +26,7 @@ Limitations are listed here: [Custom action limitations](customlimitations.md#co
 
 Here are the main steps required to configure a custom action:
 
-1. In the top bar, click **Actions**. The list of custom actions is displayed. See [The Journeys' interface ](aboutinterface.md#concept_rcq_lqt_52b) for more information on the interface.
+1. In the top bar, click **Actions**. The list of custom actions is displayed. See [The Journeys' interface ](../about/aboutinterface.md#concept_rcq_lqt_52b) for more information on the interface.
 
  ![](assets/custom1.png)
 

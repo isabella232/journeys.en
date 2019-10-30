@@ -40,7 +40,7 @@ The Pipeline filters events which have a payload containing Triggered Journeys e
 
 Here are the main steps to configure a new event:
 
-1. In the top bar, click **Events**. The list of events is displayed. See [the Journeys' interface](aboutinterface.md#concept_rcq_lqt_52b) for more information on the interface.
+1. In the top bar, click **Events**. The list of events is displayed. See [the Journeys' interface](../about/aboutinterface.md#concept_rcq_lqt_52b) for more information on the interface.
 
  ![](assets/journey5.png)
 
