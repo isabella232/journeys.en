@@ -41,7 +41,7 @@ The simple mode allows you to perform simple queries based on a combination of f
 
 Four types of conditions are available:
 
-* **Data Source condition**: this allows you to define a condition based on fields from the data sources or the events. To learn how to use the expression editor, see [Building advanced conditions](expressionadvanced.md#concept_uyj_trt_52b). Using the advanced expression editor, you can define the values of external data source parameters. See [External data sources](dsexternal.md#concept_t2s_kqt_52b) and [Building advanced conditions](expressionadvanced.md#concept_uyj_trt_52b).
+* **Data Source condition**: this allows you to define a condition based on fields from the data sources or the events. To learn how to use the expression editor, see [Building advanced conditions](expressionadvanced.md#concept_uyj_trt_52b). Using the advanced expression editor, you can define the values of external data source parameters. See [External data sources](../datasource/dsexternal.md#concept_t2s_kqt_52b) and [Building advanced conditions](expressionadvanced.md#concept_uyj_trt_52b).
 
 ![](../assets/journey50.png)
 

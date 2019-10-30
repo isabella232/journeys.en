@@ -18,4 +18,4 @@ snippet: y
 
 # Configuring the authentication {#concept_is4_cf1_2gb}
 
-For this part, refer to [Custom authentication mode](dsexternal.md#concept_t2s_kqt_52b/section_wjp_nl5_nhb).
+For this part, refer to [Custom authentication mode](../datasource/dsexternal.md#concept_t2s_kqt_52b/section_wjp_nl5_nhb).

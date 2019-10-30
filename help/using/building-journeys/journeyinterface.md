@@ -19,7 +19,7 @@ snippet: y
 # The journey designer's interface {#concept_m1g_5qt_52b}
 
 The **journey list** allows you to view all your journeys at once, see their status and perform basic actions. You can duplicate, stop or delete your journeys. Depending on the journey, certain actions might not be available. For example, you can't stop or delete a stopped journey. You can also use the search bar to search for a journey. The **Filters** drop-down menu allows you to filter the displayed journeys according to different criteria (status, the ones you created, the ones modified in the last 30 days). You can also choose to only display the journeys that use a particular event, field group or action.
-All the versions of your journeys appear in the list with the version number. See [Journey versions](journeyversions.md#concept_ldc_k55_zgb).
+All the versions of your journeys appear in the list with the version number. See [Journey versions](../journey/journeyversions.md#concept_ldc_k55_zgb).
 
  ![](../assets/journey37.png)
 
@@ -42,11 +42,11 @@ Depending on the journey's status, you can perform different actions on your jou
 
  ![](../assets/journey41.png)
 
-Several activities (**Condition**, **Email**, **Push**, **SMS**) allow you to define a fallback action in case of an error or timeout. In the activity configurator, check the box: **Add an alternative path in case of a timeout or an error**. A second path is added after the activity. The timeout duration is defined in the journey's properties (see [The journey's properties](journeyproperty.md#concept_prq_wqt_52b)). For example, if an email takes too long to be sent or is in error, you can decide to send an SMS.
+Several activities (**Condition**, **Email**, **Push**, **SMS**) allow you to define a fallback action in case of an error or timeout. In the activity configurator, check the box: **Add an alternative path in case of a timeout or an error**. A second path is added after the activity. The timeout duration is defined in the journey's properties (see [The journey's properties](../journey/journeyproperty.md#concept_prq_wqt_52b)). For example, if an email takes too long to be sent or is in error, you can decide to send an SMS.
 
  ![](../assets/journey42.png)
 
-Various activities (event, action, timer) allow you to add several paths after them. To do this, place your cursor on the activity and click on the "+" symbol. Only events and timers can be set in parallel. If several events are set in parallel, the chosen path will be the one of the first event happening. If you want to listen to an event only during a certain time, you will place an event and a timer in parallel. See [Advanced usage](journeyevent.md#concept_rws_1rt_52b/section_vxv_h25_pgb).
+Various activities (event, action, timer) allow you to add several paths after them. To do this, place your cursor on the activity and click on the "+" symbol. Only events and timers can be set in parallel. If several events are set in parallel, the chosen path will be the one of the first event happening. If you want to listen to an event only during a certain time, you will place an event and a timer in parallel. See [Advanced usage](../journey/journeyevent.md#concept_rws_1rt_52b/section_vxv_h25_pgb).
 To delete the path, place your cursor on it and click the **Delete arrow** icon.
 
  ![](../assets/journey42ter.png)

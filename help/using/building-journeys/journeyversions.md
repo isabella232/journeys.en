@@ -18,7 +18,7 @@ snippet: y
 
 # Journey versions{#concept_ldc_k55_zgb}
 
-In the journey list, all journey versions are displayed with the version number. See [The journey designer's interface](journeyinterface.md#concept_m1g_5qt_52b). When you search for a journey, newest versions appear first.
+In the journey list, all journey versions are displayed with the version number. See [The journey designer's interface](../journey/journeyinterface.md#concept_m1g_5qt_52b). When you search for a journey, newest versions appear first.
 
 ![](../assets/journeyversions1.png)
 

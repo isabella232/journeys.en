@@ -47,7 +47,7 @@ For **Email** and **SMS**, the parameters are identical.
 >
 >For email, if you're using a profiles transactional template, the unsubscription mechanism is handled out-of-the-box by Campaign Standard. You simply add an **Unsubscription link** content block in the template ([learn more](https://docs.adobe.com/content/help/en/campaign-standard/using/communication-channels/transactional-messaging/about-transactional-messaging.html)). If you're using an event-based template (rtEvent), you need to add, in the message, a link passing the person's email in the URL parameter and pointing to an unsubscription landing page. You need to create this landing page and make sure the person's decision to unsubscribe is transmitted to Adobe.
 
-First, you need to choose a transactional messaging template. See [Actions](journeyaction.md#concept_hbj_hrt_52b).
+First, you need to choose a transactional messaging template. See [Actions](../journey/journeyaction.md#concept_hbj_hrt_52b).
 
 Two categories are available: **Address** and **Personalization Data**.
 
@@ -71,7 +71,7 @@ These are the fields used in your Adobe Campaign Standard template to personaliz
 
 Prior to using the push activity, your mobile app needs to be configured along with Campaign Standard to send push notifications. Use this [article](https://helpx.adobe.com/campaign/kb/integrate-mobile-sdk.html) to take the necessary implementation steps for mobile.
 
-First, you need to choose a mobile app from the drop-down list and a transactional messaging template. See [Actions](journeyaction.md#concept_hbj_hrt_52b).
+First, you need to choose a mobile app from the drop-down list and a transactional messaging template. See [Actions](../journey/journeyaction.md#concept_hbj_hrt_52b).
 
 ![](../assets/journey62bis.png)
 

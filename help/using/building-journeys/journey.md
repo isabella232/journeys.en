@@ -27,7 +27,7 @@ Only one namespace is allowed per journey. If you use several events in the same
 
 Here are the main steps to create and publish a journey.
 
-1. In the top bar, click **Journeys**. The list of journeys is displayed. See [The journey designer's interface](journeyinterface.md#concept_m1g_5qt_52b) for more information on the interface.
+1. In the top bar, click **Journeys**. The list of journeys is displayed. See [The journey designer's interface](../journey/journeyinterface.md#concept_m1g_5qt_52b) for more information on the interface.
 
  ![](../assets/journey30.png)
 
@@ -35,7 +35,7 @@ Here are the main steps to create and publish a journey.
 
  ![](../assets/journey31.png)
 
-1. Edit the journey's properties by clicking on the pencil icon. See [The journey's properties](journeyproperty.md#concept_prq_wqt_52b).
+1. Edit the journey's properties by clicking on the pencil icon. See [The journey's properties](../journey/journeyproperty.md#concept_prq_wqt_52b).
 
  ![](../assets/journey32.png)
 
@@ -43,10 +43,10 @@ Here are the main steps to create and publish a journey.
 
  ![](../assets/journey33.png)
 
-1. Drag and drop your other activities and configure them. See [Events activities](journeyevent.md#concept_rws_1rt_52b), [Orchestration activities](journeyorchestration.md#concept_ksq_2rt_52b) and [Action activities](journeyaction.md#concept_hbj_hrt_52b).
+1. Drag and drop your other activities and configure them. See [Events activities](../journey/journeyevent.md#concept_rws_1rt_52b), [Orchestration activities](../journey/journeyorchestration.md#concept_ksq_2rt_52b) and [Action activities](../journey/journeyaction.md#concept_hbj_hrt_52b).
 
  ![](../assets/journey34.png)
 
-1. Your journey is automatically saved. Test your journey and publish it. See [Testing and publishing the journey](journeypublication.md#concept_mtc_lrt_52b).
+1. Your journey is automatically saved. Test your journey and publish it. See [Testing and publishing the journey](../journey/journeypublication.md#concept_mtc_lrt_52b).
 
  ![](../assets/journey36.png)

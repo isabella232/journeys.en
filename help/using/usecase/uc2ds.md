@@ -19,7 +19,7 @@ snippet: y
 # Configuring the data sources{#concept_vml_hdy_w2b}
 
 In our use case, we want to use personalization data for our messages. We also need to check if the person is a loyalty member and has not been contacted in the last 24 hours. This information is stored in the Unified Profile database. The **technical user** needs to configure the Experience Platform data source to retrieve those fields.
-For additional information on data source configuration, refer to [](ds.md#concept_s1s_dqt_52b).
+For additional information on data source configuration, refer to [](../datasource/ds.md#concept_s1s_dqt_52b).
 
 1. In the top bar, click **Data Sources** and select the build-in Experience Platform data source.
 

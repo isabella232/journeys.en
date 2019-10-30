@@ -34,7 +34,7 @@ Then you have to select a namespace and the key will be pre-filled (below the **
 
  ![](../assets/journey20.png)
 
-When the event is received, the value of the key will allow the system to identify the person associated to the event. Associated to a namespace (see [Selecting the namespace](eventnamespace.md#concept_ckb_3qt_52b)), the key can be used to perform queries on the Adobe Experience Platform. See [Orchestration activities](journeyorchestration.md#concept_ksq_2rt_52b).
+When the event is received, the value of the key will allow the system to identify the person associated to the event. Associated to a namespace (see [Selecting the namespace](eventnamespace.md#concept_ckb_3qt_52b)), the key can be used to perform queries on the Adobe Experience Platform. See [Orchestration activities](../journey/journeyorchestration.md#concept_ksq_2rt_52b).
 
 The key is also used to check that a person is in a journey. Indeed, a person cannot be at two different places in the same journey. As a result, the system does not allow the same key, for example the key CRMID=3224, to be at different places in the same journey.
 

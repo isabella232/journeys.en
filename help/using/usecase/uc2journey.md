@@ -26,7 +26,7 @@ The **business user** can now build the journey. Our journey will include the fo
 * a **Timer** activity
 * four **End** activities
 
-For additional information on how to build a journey, refer to [Building a journey](journey.md#concept_gq5_sqt_52b).
+For additional information on how to build a journey, refer to [Building a journey](../journey/journey.md#concept_gq5_sqt_52b).
 
 ## First steps{#section_ntb_ws1_ffb}
 
