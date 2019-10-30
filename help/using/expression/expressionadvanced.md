@@ -34,7 +34,7 @@ The advanced expression editor can be used to:
 * define custom action parameter mapping
 * perform email, SMS and push personalization data mapping
 
-When possible, you can switch between the two modes using the **Advanced mode** / **Simple mode** button. The simple mode is described [here](../journey/journeyorchestration.md#section_e2n_pft_dgb).
+When possible, you can switch between the two modes using the **Advanced mode** / **Simple mode** button. The simple mode is described [here](../building-journeys/journeyorchestration.md#section_e2n_pft_dgb).
 
 ## Accessing the advanced expression editor {#section_fdz_4nj_cjb}
 

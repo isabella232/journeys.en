@@ -41,7 +41,7 @@ Perform the following steps to select the fatigue score fields in the built-in d
 
 ## Building the journey {#section_uzm_pyy_wfb}
 
-To create, validate and publish the journey, follow the steps described in [Building a journey.](../journey/journey.md#concept_gq5_sqt_52b).
+To create, validate and publish the journey, follow the steps described in [Building a journey.](../building-journeys/journey.md#concept_gq5_sqt_52b).
 
 In our use case, we're leveraging the **fatigueLevel** field. You can also use the **fatigueScore** field.
 

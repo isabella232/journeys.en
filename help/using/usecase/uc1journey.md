@@ -25,7 +25,7 @@ The **business user** can now build the journey. Our journey will only include o
 * an **Email** activity
 * an **End** activity
 
-For additional information on how to build a journey, refer to [Building a journey](../journey/journey.md#concept_gq5_sqt_52b).
+For additional information on how to build a journey, refer to [Building a journey](../building-journeys/journey.md#concept_gq5_sqt_52b).
 
 1. In the top bar, click **Journeys** and **Create** to create a new journey.
 

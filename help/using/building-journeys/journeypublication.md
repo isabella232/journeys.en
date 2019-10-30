@@ -80,5 +80,5 @@ Here are the different statuses of an individual's journey:
 ![](../assets/journeyuc1_18.png)
 
 When the journey is published, it is in read-only mode. 
-If you need to make modifications to a published journey, you need to create a new version of your journey. See [Journey versions](../journey/journeyversions.md#concept_ldc_k55_zgb).
+If you need to make modifications to a published journey, you need to create a new version of your journey. See [Journey versions](../building-journeys/journeyversions.md#concept_ldc_k55_zgb).
 If you stop a journey, it will be permanently stopped. If you need to use it again, you need to duplicate it and publish it.

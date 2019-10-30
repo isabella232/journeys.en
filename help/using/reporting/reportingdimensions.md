@@ -34,8 +34,8 @@ The table below gives you the list of dimensions used in journey reports and the
 |Data source|List of data sources (data source name) used to enrich data in a journey e.g. Experience platform, Reservation system.|
 |Event|List of every event (../event/event name - event label) used in journeys e.g. Geometrixx event - Geometrixx check out.|
 |Field group|List of field groups (field group name) used to enrich data in journeys e.g. Profile field group, Geometrixx reservation system.|
-|Journey|List of every journey (../journey/journey name) in test mode and live e.g. Cart abandonment, Hotel reservation notification.|
-|Journey version|List of every published version of a journey (../journey/journey name + version's number) e.g. Cart abandonment v1, Hotel reservation notification v2.|
+|Journey|List of every journey (../building-journeys/journey name) in test mode and live e.g. Cart abandonment, Hotel reservation notification.|
+|Journey version|List of every published version of a journey (../building-journeys/journey name + version's number) e.g. Cart abandonment v1, Hotel reservation notification v2.|
 |Orchestration|List of every orchestration activity (Condition, End, Timer) defined and used in journeys.|
 
 ## Journey metrics {#MBE_p_p22_c4j_w2b}
@@ -46,7 +46,7 @@ The table below gives you the list of metrics used in journey reports, their def
 |--- |--- |--- |
 |Completed|Total number of individuals that ended normally the journey.|= Journey exited|
 |Completion rate|Total number of individuals that ended normally the journey compared to the total number of individuals who entered the journey.|= Journey exited/Journey entered*100|
-|Current|Total number of individuals currently in the journey i.e. how many people entered minus people who exited, errors and timed out.|= Journey Entered - (../journey/journey Exited + Error in Event + Error in Enrichment + Error in Action + Timeout in Action + Timeout in Event + Timeout in Enrichment + Journey in Timeout)|
+|Current|Total number of individuals currently in the journey i.e. how many people entered minus people who exited, errors and timed out.|= Journey Entered - (../building-journeys/journey Exited + Error in Event + Error in Enrichment + Error in Action + Timeout in Action + Timeout in Event + Timeout in Enrichment + Journey in Timeout)|
 |Current rate|Total number of individuals currently in the journey compared to the number of individuals who entered the journey.|= Current/Journey entered*100|
 |Entered|Total number of events that occurred to start an individual entry in the journey.|= Event executed|
 |Error|Total number of errors that occurred during a journey but didn't prevent the journey from being successful.|= Error in Journey + Error in Event + Error in Jump + Error in Enrichment + Error in Action + Journey in Timeout + Timeout in Action + Timeout in Event + Timeout in Enrichment|
