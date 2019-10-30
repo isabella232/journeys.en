@@ -15,7 +15,7 @@ index: n
   + [Ending a journey](using/aboutending.md)
   + [Managing your users' access to Journeys](using/usermanagement.md)
   + [Troubleshooting](using/troubleshooting.md)
-+ Events in Journeys {#events-journeys}
++ About events {#events-journeys}
   + [Configuring an event](using/event.md)
   + [Defining the payload fields](using/eventpayload.md)
   + [Selecting the namespace](using/eventnamespace.md)
@@ -23,18 +23,18 @@ index: n
   + [Adding a condition](using/eventcondition.md)
   + [Previewing the payload](using/eventpayloadpreview.md)
   + [Additional steps to receive events](using/eventsteps.md)
-+ Configuring a datasource {#data-source-journeys}
++ About datasources {#data-source-journeys}
   + [Configuring a datasource](using/ds.md)
   + [Defining the payload fields](using/dsfield.md)
   + [Adobe Experience Platform data source](using/dsplatform.md)
   + [External data sources](using/dsexternal.md)
-+ Configuring a custom action {#custom-action-journeys}
++ About custom actions {#custom-action-journeys}
   + [Configuring a custom action](using/custom.md)
   + [Custom action limitations](using/customlimitations.md)
   + [URL configuration](using/customurl.md)
   + [Configuring the authentication](using/customauthentication.md)
   + [Defining the message parameters](using/customparameters.md)
-+ Building a journey {#building-journeys}
++ About building journeys {#building-journeys}
   + [Building a journey](using/journey.md)
   + [The journey designer's interface](using/journeyinterface.md)
   + [The journey's properties](using/journeyproperty.md)
@@ -121,19 +121,19 @@ index: n
       + [trim](using/functions/functiontrim.md)
       + [upper](using/functions/functionupper.md)
       + [uuid](using/functions/functionuuid.md)
-+ Building your Journeys reports{#journey-reports}
++ About journeys reports{#journey-reports}
   + [Building your Journeys reports](using/reporting.md)
   + [Creating your Journeys reports](using/reportingcreating.md)
   + [Dimensions and metrics available for Journeys](using/reportingdimensions.md)
-+ Journeys use cases{#use-cases-journeys}
++ Use cases{#use-cases-journeys}
   + Simple use case{#use-case-simple}
-    + [Simple use case](using/uc1intro.md)
+    + [Introduction](using/uc1intro.md)
     + [Pre-requisites](using/uc1prereq.md)
     + [Configuring the event](using/uc1event.md)
     + [Configuring the data source](using/uc1ds.md)
     + [Building the journey](using/uc1journey.md)
   + Advanced use case{#use-case-advanced}
-    + [Advanced use case](using/uc2intro.md)
+    + [Introduction](using/uc2intro.md)
     + [Pre-requisites](using/uc2prereq.md)
     + [Configuring the events](using/uc2event.md)
     + [Configuring the data source](using/uc2ds.md)
