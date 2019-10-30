@@ -12,10 +12,10 @@ topic: Premium
 
 ## What's New
 
-* **[List of functions](using/expressionfunctions.md)**<br/>
+* **[List of functions](using/expression/expressionfunctions.md)**<br/>
 Discover the complete list of functions that you can use in the expression editor to build advanced conditions.
 
-* **[Simple expression editor](using/journeyorchestration.md#concept_ksq_2rt_52b)**<br/>
+* **[Simple expression editor](using/building-journeys/journeyorchestration.md#concept_ksq_2rt_52b)**<br/>
 Learn how to use the expression editor simple mode to perform simple queries based on a combination of fields.
 
 ## Top pages
@@ -23,31 +23,31 @@ Learn how to use the expression editor simple mode to perform simple queries bas
  <table>
 <tr>
   <td valign="top">
-    <a href="using/expressionadvanced.md">
+    <a href="using/expression/expressionadvanced.md">
       <img alt="conditions" src="using/assets/dev.png"/>
     </a>
     <div>
-    <a href="using/expressionadvanced.md"><strong>Building advanced conditions</strong></a>
+    <a href="using/expression/expressionadvanced.md"><strong>Building advanced conditions</strong></a>
     </div>
     <em>Learn how to build complex conditions leveraging data from events and data sources. </em>
     <br>
   </td>
   <td valign="top">
-    <a href="using/journey.md">
+    <a href="using/building-journeys/journey.md">
       <img alt="build" src="using/assets/design.png"/>
     </a>
     <div>
-    <a href="using/journey.md"><strong>Building your journeys</strong></a>
+    <a href="using/building-journeys/journey.md"><strong>Building your journeys</strong></a>
     </div>
     <em>Combine your activities to build your multi-step cross-channel scenarios.</em>
     <br>
   </td>
   <td valign="top">
-        <a href="using/troubleshooting.md">
+        <a href="using/about/troubleshooting.md">
        <img alt="Developers" src="using/assets/FAQ.png" />
        </a>
     <div>
-    <a href="using/troubleshooting.md"><strong>Troubleshooting</strong></a>
+    <a href="using/about/troubleshooting.md"><strong>Troubleshooting</strong></a>
     </div>
      <em>Find out the various tools that you can use to troubleshoot your journeys</em>
     <br>
