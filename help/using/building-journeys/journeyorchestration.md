@@ -74,7 +74,7 @@ You can create another path for audiences that are not eligible to the defined c
 
 ## End {#section_vqp_4ft_dgb}
 
-The **End** activity allows you to mark the end of each path of the journey. It is not mandatory but recommended for visual clarity and reporting accuracy. Indeed, in the **Reporting** tab (see [Building your Journeys reports](reporting.md#concept_rfj_wpt_52b)), you will have a ratio of the number of people who entered the journey according to the number of people who exited the journey.
+The **End** activity allows you to mark the end of each path of the journey. It is not mandatory but recommended for visual clarity and reporting accuracy. Indeed, in the **Reporting** tab (see [Building your Journeys reports](../reporting/reporting.md#concept_rfj_wpt_52b)), you will have a ratio of the number of people who entered the journey according to the number of people who exited the journey.
 
 ![](../assets/journey54.png)
 
