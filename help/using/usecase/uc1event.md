@@ -24,17 +24,17 @@ For additional information on event configuration, refer to [Configuring an even
 
 1. In the top bar, click **Events** and click **Add** to create a new event.
 
-    ![](assets/journeyuc1_1.png)
+    ![](../assets/journeyuc1_1.png)
 
 1. We enter the name without spaces or special characters: "SpaBeacon".
 
-    ![](assets/journeyuc1_2.png)
+    ![](../assets/journeyuc1_2.png)
 
-    <!--li>Select the **Mobile - Streaming Ingestion APIs** event type. Events are sent from the customers' mobile phone through the Mobile SDK.![](assets/journeyuc1_4.png" placement="break" width="800" id="image_qgr_2mn_z2b"/></li-->
+    <!--li>Select the **Mobile - Streaming Ingestion APIs** event type. Events are sent from the customers' mobile phone through the Mobile SDK.![](../assets/journeyuc1_4.png" placement="break" width="800" id="image_qgr_2mn_z2b"/></li-->
 
 1. We then select the schema and define the payload expected for this event. We select the fields needed from the XDM normalized model. We need the Experience Cloud ID to identify the person in the Unified Profile database: _endUserIDs > experience > mcid > id_. An ID is automatically generated for this event. This ID is stored in the **eventID** field (_experience > campaign > orchestration > eventID_). The system pushing the event should not generate an ID, it should use the one available in the payload preview. In our use case, this ID is used to identify the beacon location. Each time a person walks near the spa beacon, an event will be sent containing this specific event ID. This allows the system to know which beacon triggered the event sending.
 
-    ![](assets/journeyuc1_3.png)
+    ![](../assets/journeyuc1_3.png)
 
 >[!NOTE]
 >
@@ -42,16 +42,16 @@ For additional information on event configuration, refer to [Configuring an even
 
 1. Since our journey will leverage data coming from the Unified Profile Service, we need to select a namespace. For more information on namespaces, see [Selecting the namespace](eventnamespace.md#concept_ckb_3qt_52b).
 
-    ![](assets/journeyuc1_6.png)
+    ![](../assets/journeyuc1_6.png)
 
 1. Click inside the **Key** field, and select the Experience Cloud ID that was defined in the payload as the key to identify the person. 
 
-    ![](assets/journeyuc1_5.png)
+    ![](../assets/journeyuc1_5.png)
 
 1. Click **Save**.
 
 1. Click the **View payload** icon to preview the payload expected by the system and share it with to the person responsible for the event sending. This payload will need to be configured in the postback of the Mobile Services administration console. 
 
-    ![](assets/journeyuc1_7.png)
+    ![](../assets/journeyuc1_7.png)
 
 The event is ready to be used in your journey. You now need to configure the mobile application so that it can send the expected payload to the Streaming Ingestion APIs endpoint. See [Additional steps to send events to Journeys](eventsteps.md#concept_xrz_n1q_y2b).

@@ -29,11 +29,11 @@ Here are the main steps to add field groups to the build-in data source.
 1. From the list of data sources, select the build-in Experience Platform data source.
     This opens the data source configurator on the right-hand side of the screen.
 
- ![](assets/journey23.png)
+ ![](../assets/journey23.png)
 
 1. Click **Add a New Field Group** to define a new series of fields to retrieve. See [Field groups](dsfield.md#concept_ntl_ypt_52b).
 
- ![](assets/journey24.png)
+ ![](../assets/journey24.png)
 
 1. Select a schema from the **Schema** drop-down. This field lists Profile and Experience Events schemas available in the Platform. Schema creation is not performed in Triggered Journeys. It’s performed in the Data Platform.
 1. Select the fields you want to use.

@@ -29,4 +29,4 @@ Here are the main steps to configure and use this feature:
 
 Here is a schema of an end-to-end scenario:
 
-![](assets/journeydiagram.png) 
+![](../assets/journeydiagram.png) 

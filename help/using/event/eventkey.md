@@ -28,11 +28,11 @@ Then you have to select a namespace and the key will be pre-filled (below the **
 
 1. Click inside the **Key** field or on the pencil icon.
 
- ![](assets/journey16.png)
+ ![](../assets/journey16.png)
 
 1. Select the field chosen as the key in the list of payload fields. You can also switch to the advanced expression editor to create more complex keys (for example, a concatenation of two field of the events). See below, in this section.
 
- ![](assets/journey20.png)
+ ![](../assets/journey20.png)
 
 When the event is received, the value of the key will allow the system to identify the person associated to the event. Associated to a namespace (see [Selecting the namespace](eventnamespace.md#concept_ckb_3qt_52b)), the key can be used to perform queries on the Adobe Experience Platform. See [Orchestration activities](journeyorchestration.md#concept_ksq_2rt_52b).
 

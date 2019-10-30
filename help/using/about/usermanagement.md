@@ -34,7 +34,7 @@ The following out-of-the box roles allow you to give users permission to perform
 
 The set of roles assigned to a security group will define the user's access to the different features.
 
-![](assets/user_management.png)
+![](../assets/user_management.png)
 
 The following out-of-the-box roles are specific and unique to users that need to use the Journeys feature:
 
@@ -47,7 +47,7 @@ The following out-of-the-box roles are specific and unique to users that need to
 
 You can find below the compatibility between roles and **Triggered journeys'** different functionalities:
 
-![](assets/user_management_3.png)
+![](../assets/user_management_3.png)
 
 Additional roles linked to Adobe Campaign Standard use such as prepare deliveries, generic import, etc. are also available. For more on this refer to [Adobe Campaign](https://helpx.adobe.com/campaign/standard/administration/using/list-of-roles.html) documentation.
 
@@ -55,7 +55,7 @@ Additional roles linked to Adobe Campaign Standard use such as prepare deliverie
 
 Security groups are assigned to a set of users that share the same roles and rights within your organization.
 
-![](assets/user_management_2.png)
+![](../assets/user_management_2.png)
 
 You can create your own security group with the different roles needed or you can assign one of the following out-of-the-box security groups to your users:
 

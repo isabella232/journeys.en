@@ -34,11 +34,11 @@ Here are the main steps to create and configure a new external data source:
 
 1. From the list of data sources, Click **Add** to create a new external data source.
 
-    ![](assets/journey25.png)
+    ![](../assets/journey25.png)
 
  This opens the data source configurator on the right-hand side of the screen.
 
- ![](assets/journey26.png)
+ ![](../assets/journey26.png)
 
 1. Enter a name for your data source. Do not use spaces or special characters.
 1. Add a description to your data source. This step is optional.
@@ -48,7 +48,7 @@ Here are the main steps to create and configure a new external data source:
     >
     >We strongly recommend using HTTPS for security reasons. Also note that we don't allow the use of Adobe addresses that are not publicly available and the use of IP addresses.
 
-    ![](assets/journey27.png)
+    ![](../assets/journey27.png)
 
 1. Configure the authentication depending on the external service configuration: **No authentication**, **Basic**, **Custom** or **API key**. For more information on the custom authentication mode, see [Custom authentication mode](dsexternal.md#concept_t2s_kqt_52b/section_wjp_nl5_nhb). In our example, we choose:
 
@@ -57,7 +57,7 @@ Here are the main steps to create and configure a new external data source:
     * **Name**: "appid" (this is the API key parameter name)
     * **Location**: "Query parameter" (the API key is located in the URL)
 
-    ![](assets/journey28.png)
+    ![](../assets/journey28.png)
 
 1. Add a new field group for each API parameter set by clicking **Add a New Field Group**. Do not use spaces or special characters in the field group name. In our example, we need to create two field groups, one for each parameter set (city and long/lat).
 
@@ -80,7 +80,7 @@ In case of a GET call requiring parameter(s), you enter the parameter(s) in the 
     {“id”:{“param”:“identifier”}}
     ```
 
-    ![](assets/journey29.png)
+    ![](../assets/journey29.png)
 
 1. Click **Save**.
 
@@ -92,11 +92,11 @@ This authentication mode is used for complex authentication, frequently used to 
 
 When you configure the custom authentication, you can click on the button below to check if the custom authentication payload is correctly configured.
 
-![](assets/journey29-bis.png)
+![](../assets/journey29-bis.png)
 
 If the test is successful, the button turns green.
 
-![](assets/journey29-ter.png)
+![](../assets/journey29-ter.png)
 
 With this authentication, the action execution is a two-steps process:
 

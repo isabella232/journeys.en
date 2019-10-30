@@ -23,7 +23,7 @@ Click on the pencil icon, in the top right to access the journey's properties.
 
 You can change the name of the journey, add a description, choose start and end dates and define a timeout duration. By default, new journeys allow re-entrance. You can uncheck the option for example if you want to offer a one-time gift when entering a shop. In that case, you don't want the customer to be able to re-enter the journey and receive the offer again.
 
- ![](assets/journey32.png)
+ ![](../assets/journey32.png)
 
 When a journey "ends", it will have the status **Finished**. The journey will stop reacting to events. 
 

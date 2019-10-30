@@ -23,7 +23,7 @@ For additional information on data source configuration, refer to [](ds.md#conce
 
 1. In the top bar, click **Data Sources** and select the build-in Experience Platform data source.
 
-    ![](assets/journey23.png)
+    ![](../assets/journey23.png)
 
 1. In the pre-configured group fields, check that the following fields are selected:
 
@@ -33,11 +33,11 @@ For additional information on data source configuration, refer to [](ds.md#conce
 
 1. Click **Add a New Field Group**, select a **Profiles** schema and add the **Loyalty member** field for our condition. The **Loyalty member** field is a custom field and was added in XDM: __customer > marlton > loyaltyMember_
 
-    ![](assets/journeyuc2_6.png)
+    ![](../assets/journeyuc2_6.png)
 
 1. Click **Add a New Field Group**, select an **ExperienceEvent** schema and choose the fields needed for our condition on the number of messages sent in a given period: _timestamp_ for the date and _directMarketing > sends > value_ for the number of messages sent.
 
-    ![](assets/journeyuc2_7.png)
+    ![](../assets/journeyuc2_7.png)
 
 1. Click **Save**.
 
@@ -45,7 +45,7 @@ We also need to check if the person has a reservation in the hotel reservation s
 
 1. In the list of data sources, click **Add** to add a new external data source to define the connection to your hotel reservation system.
 
-    ![](assets/journeyuc2_9.png)
+    ![](../assets/journeyuc2_9.png)
 
 1. Enter a name for your data source and the URL of the external service, for example: [https://marlton.com/reservation](https://marlton.com/reservation)
 
@@ -55,7 +55,7 @@ We also need to check if the person has a reservation in the hotel reservation s
 
 1. Configure the authentication depending on the external service configuration: **No authentication**, **Basic** or **API key**. In our example, we choose "Basic" for the type and specify the username and password for the API call.
 
-![](assets/journeyuc2_10.png)
+![](../assets/journeyuc2_10.png)
 
 1. Click **Add a New Field Group** to define the information to be retrieved and the API parameters. For our example, there is only one parameter (the id), so we need to create one field group with the following information:
 
@@ -72,6 +72,6 @@ We also need to check if the person has a reservation in the hotel reservation s
 
     * **Dynamic Values**: enter the parameter corresponding to the key used to identify each customer, "id" in our example. The value of this parameter will be defined in the journey.
 
-![](assets/journeyuc2_11.png)
+![](../assets/journeyuc2_11.png)
 
 1. Click **Save**.The data sources are now configured and ready to be used in your journey.

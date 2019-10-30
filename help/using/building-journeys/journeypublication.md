@@ -23,7 +23,7 @@ snippet: y
 Before testing and publishing your journey, verify that all the activities are properly configured.
 Errors appear with a warning symbol displayed on the activities themselves in the canvas. Place your cursor on the exclamation mark to display the error message. For example, if a mandatory field is empty, an error will be displayed.
 
- ![](assets/journey63.png)
+ ![](../assets/journey63.png)
 
 ## Testing your journey {#section_ctr_lqk_fhb}
 
@@ -44,15 +44,15 @@ To use the test mode, follow these steps:
 1. Before testing your journey, verify that it is valid and that there is no error. See [Checking for errors](#section_h3q_kqk_fhb). A warning symbol is displayed when there are errors.
 1. To activate the test mode, click on the **Test** toggle, located in the top right corner.
 
-    ![](assets/journeytest1.png)
+    ![](../assets/journeytest1.png)
 
 1. After the events are received, click the **&lt;/>** button to view the test result.
 
-    ![](assets/journeytest2.png)
+    ![](../assets/journeytest2.png)
 
 1. Verify the test result. This page displays the journey’s current information in JSON format. A button allows you to copy entire nodes. You need to refresh the page to update the journey’s test results. 
 
-    ![](assets/journeytest3.png)
+    ![](../assets/journeytest3.png)
 
 The number of individuals (_instances_) currently inside the journey are displayed. Here are examples of useful information that is displayed for each individual:
 * _Id_: the individual’s internal ID in the journey. This can be used for debugging purposes.
@@ -77,7 +77,7 @@ Here are the different statuses of an individual's journey:
 1. Before publishing your journey, verify that it is valid and that there is no error. See [Checking for errors](#section_h3q_kqk_fhb). A warning symbol is displayed when there are errors. It is also recommended to test your journey before publication. See [Testing your journey](#section_ctr_lqk_fhb).
 1. To publish the journey, click on the **Publish** option, located in the top right drop-down menu.
 
-![](assets/journeyuc1_18.png)
+![](../assets/journeyuc1_18.png)
 
 When the journey is published, it is in read-only mode. 
 If you need to make modifications to a published journey, you need to create a new version of your journey. See [Journey versions](journeyversions.md#concept_ldc_k55_zgb).

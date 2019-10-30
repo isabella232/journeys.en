@@ -29,46 +29,46 @@ For additional information on how to build a journey, refer to [Building a journ
 
 1. In the top bar, click **Journeys** and **Create** to create a new journey.
 
-    ![](assets/journey31.png)
+    ![](../assets/journey31.png)
 
 1. Edit the journey's properties by clicking on the pencil icon. We name it "Spa journey" and set it to last for one month, from the 1st to the 30th of September.
 
-    ![](assets/journeyuc1_8.png)
+    ![](../assets/journeyuc1_8.png)
 
 1. Start designing your journey by drag and dropping the "SpaBeacon" event from the palette to the canvas. 
 
-    ![](assets/journeyuc1_9.png)
+    ![](../assets/journeyuc1_9.png)
 
 1. Let's now add a condition to check that the person is a woman. Drag and drop a condition activity into your journey.
 
-    ![](assets/journeyuc1_10.png)
+    ![](../assets/journeyuc1_10.png)
 
 1. Choose the **Data Source Condition** type and click in the **Expression** field. 
 
-    ![](assets/journeyuc1_11.png)
+    ![](../assets/journeyuc1_11.png)
 
 1. Using the basic expression editor, look for the gender field (_person > gender_) and drop it to the right to create the following condition: "gender is equal to "Female".
 
-    ![](assets/journeyuc1_12.png)
+    ![](../assets/journeyuc1_12.png)
 
 1. Drop an **Email** activity and select your "Spa discount" transactional messaging template. This template was designed using Adobe Campaign. Refer to this [page](https://docs.adobe.com/content/help/en/campaign-standard/using/communication-channels/transactional-messaging/about-transactional-messaging.html).
 
-    ![](assets/journeyuc1_13.png)
+    ![](../assets/journeyuc1_13.png)
 
 1. Click inside the **Email** field and select the email address from the data source.
 
-    ![](assets/journeyuc1_14.png)
+    ![](../assets/journeyuc1_14.png)
 
 1. In the same way, define the first name and last name personalization fields from the data source.
 
-    ![](assets/journeyuc1_15.png)
+    ![](../assets/journeyuc1_15.png)
 
 1. Drop an **End** activity.
 
-    ![](assets/journeyuc1_17.png)
+    ![](../assets/journeyuc1_17.png)
 
 1. Test your journey. If there is any error, deactivate the test mode, modify your journey and test it again. When the test is conclusive, you can publish your journey from the top right drop-down menu.
 
-    ![](assets/journeyuc1_18.png)
+    ![](../assets/journeyuc1_18.png)
 
 Next time a woman walks near the spa beacon, she will immediately receive a "Spa discount" personalized email.

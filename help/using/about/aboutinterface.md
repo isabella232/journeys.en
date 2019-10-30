@@ -26,11 +26,11 @@ snippet: y
 
 To access the Journeys' interface, click the **Triggered Journeys** card from the home page of Campaign Standard or click the **Adobe Campaign** logo, in the top left corner, then select **Triggered Journeys**.
 
-![](assets/journey1.png)  
+![](../assets/journey1.png)  
 
 The top bar allows you to navigate through the different functionalities of the feature: **Journeys**, **Reports**, **Data Sources**, **Events**, **Actions**.
 
-![](assets/journey2.png)  
+![](../assets/journey2.png)  
 
 ## Searching and filtering{#section_lgm_hpz_pgb}
 
@@ -38,15 +38,15 @@ In the **Journeys**, **Data Sources**, **Events** and **Actions** lists, a searc
 
 In the **Journeys** list, a drop-down menu allows you to only display the journeys that use a particular event, field group or action. See [The journey designer's interface](journeyinterface.md#concept_m1g_5qt_52b).
 
-![](assets/journey3.png)  
+![](../assets/journey3.png)  
 
 In the event, data source and action configurators, the **Used in** field displays the number of journeys that use that particular event, field group or action. You can click the **View journeys** button to display the list of corresponding journeys.
 
-![](assets/journey3bis.png)  
+![](../assets/journey3bis.png)  
 
 In the different lists, you can perform basic actions on each element. For example, you can duplicate or delete an item.
 
-![](assets/journey4.png)  
+![](../assets/journey4.png)  
 
 ## Using the different shortcuts{#section_ksq_zr1_ffb}
 

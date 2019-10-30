@@ -30,12 +30,12 @@ Perform the following steps to select the fatigue score fields in the built-in d
 
 1. In the top bar, click **Data Sources** and select the build-in Experience Platform data source.
 
-    ![](assets/journey23.png)
+    ![](../assets/journey23.png)
 
 1. Check that the fields required for your use case are selected.
 1. Click **Add a New Field Group**, select the **Profiles** model and add the **fatigueLevel** and **fatigueScore** fields (under _journeyAI > emailScore > fatigue_).
 
-    ![](assets/journeyuc3_1.png)
+    ![](../assets/journeyuc3_1.png)
 
 1. Click **Save**.
 
@@ -49,15 +49,15 @@ Perform the following steps to leverage the fatigue level in your journey:
 
 1. Add an event and a condition in your journey.
 
-    ![](assets/journeyuc2_14.png)
+    ![](../assets/journeyuc2_14.png)
 
 1. Choose the **Data Source Condition** type and click in the **Expression** field.
 
-    ![](assets/journeyuc3_2.png)
+    ![](../assets/journeyuc3_2.png)
 
 1. Using the basic expression editor, look for the **fatigueLevel** field (_ExperiencePlatformDataSource > JourneyAIScores > Profile > journeyAI > emailScore > fatigue_), drop it to the right and create the following condition: "fatigueLevel is equal to "Low". Click **Ok**.
 
-    ![](assets/journeyuc3_3.png)
+    ![](../assets/journeyuc3_3.png)
 
     >[!NOTE]
     >
@@ -66,8 +66,8 @@ Perform the following steps to leverage the fatigue level in your journey:
 
 1. In the condition, create two other paths for medium and high fatigue levels.
 
-    ![](assets/journeyuc3_4.png)
+    ![](../assets/journeyuc3_4.png)
 
 1. You can now add different actions for each fatigue level.
 
-    ![](assets/journeyuc3_5.png)
+    ![](../assets/journeyuc3_5.png)

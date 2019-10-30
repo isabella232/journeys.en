@@ -37,7 +37,7 @@ The number of journeys that use a field group is displayed in the **Used in** fi
 >
 >Note that if a field group has 0 fields, it won’t be displayed in the expression editor.
 
- ![](assets/journey3bis.png)
+ ![](../assets/journey3bis.png)
 
 ## Field group lifecycle {#section_abk_njd_fjb}
 

@@ -20,17 +20,17 @@ snippet: y
 
 In the journey list, all journey versions are displayed with the version number. See [The journey designer's interface](journeyinterface.md#concept_m1g_5qt_52b). When you search for a journey, newest versions appear first.
 
-![](assets/journeyversions1.png)
+![](../assets/journeyversions1.png)
 
 If you need to modify to a live journey, you need to create a new version of your journey.
 
-1. Open the latest version of your live journey, click **Create a new version** and confirm.![](assets/journeyversions2.png" placement="break" width="800" id="image_j5x_3cc_fhb)
+1. Open the latest version of your live journey, click **Create a new version** and confirm.![](../assets/journeyversions2.png" placement="break" width="800" id="image_j5x_3cc_fhb)
 
 >[!NOTE]
 >
 >You can only create a new version from the latest version of a journey.
 
-1. Make your modifications, click **Publish** and confirm.![](assets/journeyversions3.png" placement="break" width="800" id="image_eq4_rdc_fhb)
+1. Make your modifications, click **Publish** and confirm.![](../assets/journeyversions3.png" placement="break" width="800" id="image_eq4_rdc_fhb)
 
 At publication time, individuals will start to flow into the latest version of the journey. People who have already entered a previous version stay in it until they finish the journey. If they later re-enter the same journey, they will go into the latest version.
 

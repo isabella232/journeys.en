@@ -24,4 +24,4 @@ In this use case, we will see how to send a personalized message in real-time to
 
 We want to send a message only if the person is a woman. The message must be received within seconds.
 
-![](assets/journeyuc1_16.png)
+![](../assets/journeyuc1_16.png)

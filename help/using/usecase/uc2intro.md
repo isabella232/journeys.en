@@ -31,7 +31,7 @@ We then check two conditions:
     * If he doesn't, we send him a push notification with room rates.
     * If he does, we send him a welcome push notification. And if he enters the restaurant within the next 6 hours, we send him a push notification with a discount on a meal.
 
-![](assets/journeyuc2_29.png)
+![](../assets/journeyuc2_29.png)
 
 For this use case, we will need to create two events (see [creating events](uc2event.md)):
 
