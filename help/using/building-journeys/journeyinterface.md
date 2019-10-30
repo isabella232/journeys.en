@@ -46,7 +46,7 @@ Several activities (**Condition**, **Email**, **Push**, **SMS**) allow you to de
 
  ![](../assets/journey42.png)
 
-Various activities (event, action, timer) allow you to add several paths after them. To do this, place your cursor on the activity and click on the "+" symbol. Only events and timers can be set in parallel. If several events are set in parallel, the chosen path will be the one of the first event happening. If you want to listen to an event only during a certain time, you will place an event and a timer in parallel. See [Advanced usage](../journey/journeyevent.md#concept_rws_1rt_52b/section_vxv_h25_pgb).
+Various activities (../event/event, action, timer) allow you to add several paths after them. To do this, place your cursor on the activity and click on the "+" symbol. Only events and timers can be set in parallel. If several events are set in parallel, the chosen path will be the one of the first event happening. If you want to listen to an event only during a certain time, you will place an event and a timer in parallel. See [Advanced usage](../journey/journeyevent.md#concept_rws_1rt_52b/section_vxv_h25_pgb).
 To delete the path, place your cursor on it and click the **Delete arrow** icon.
 
  ![](../assets/journey42ter.png)

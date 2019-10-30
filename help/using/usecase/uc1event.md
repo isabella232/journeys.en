@@ -20,7 +20,7 @@ snippet: y
 
 In our scenario, we need to receive an event each time a person walks near a beacon positioned next to the spa. The **technical user** needs to configure the event the system will listen to in our journey.
 
-For additional information on event configuration, refer to [Configuring an event](event.md#concept_gfj_fqt_52b).
+For additional information on event configuration, refer to [Configuring an event](../event/event.md#concept_gfj_fqt_52b).
 
 1. In the top bar, click **Events** and click **Add** to create a new event.
 
@@ -40,7 +40,7 @@ For additional information on event configuration, refer to [Configuring an even
 >
 >The list of fields varies from one schema to another. According to the schema definition, some fields may be mandatory and pre-selected.
 
-1. Since our journey will leverage data coming from the Unified Profile Service, we need to select a namespace. For more information on namespaces, see [Selecting the namespace](eventnamespace.md#concept_ckb_3qt_52b).
+1. Since our journey will leverage data coming from the Unified Profile Service, we need to select a namespace. For more information on namespaces, see [Selecting the namespace](../event/eventnamespace.md#concept_ckb_3qt_52b).
 
     ![](../assets/journeyuc1_6.png)
 
@@ -54,4 +54,4 @@ For additional information on event configuration, refer to [Configuring an even
 
     ![](../assets/journeyuc1_7.png)
 
-The event is ready to be used in your journey. You now need to configure the mobile application so that it can send the expected payload to the Streaming Ingestion APIs endpoint. See [Additional steps to send events to Journeys](eventsteps.md#concept_xrz_n1q_y2b).
+The event is ready to be used in your journey. You now need to configure the mobile application so that it can send the expected payload to the Streaming Ingestion APIs endpoint. See [Additional steps to send events to Journeys](../event/eventsteps.md#concept_xrz_n1q_y2b).

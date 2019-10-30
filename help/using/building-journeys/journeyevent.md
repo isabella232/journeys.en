@@ -18,7 +18,7 @@ snippet: y
 
 # Events activities {#concept_rws_1rt_52b}
 
-The events configured by the technical user (see [](event.md#concept_gfj_fqt_52b)) are all displayed in the first category of the palette, on the left side of the screen.
+The events configured by the technical user (see [](../event/event.md#concept_gfj_fqt_52b)) are all displayed in the first category of the palette, on the left side of the screen.
 
  ![](../assets/journey43.png)
 
@@ -32,7 +32,7 @@ When you click on the event activity in the canvas, the activity configurator is
 
 ## General events {#section_ofg_jss_dgb}
 
-For this type of event, you can only add a label and a description. The rest of the configuration cannot be edited. It was performed by the technical user. See [](event.md#concept_gfj_fqt_52b). 
+For this type of event, you can only add a label and a description. The rest of the configuration cannot be edited. It was performed by the technical user. See [](../event/event.md#concept_gfj_fqt_52b). 
 
 ## Reaction events {#section_dhx_gss_dgb}
 

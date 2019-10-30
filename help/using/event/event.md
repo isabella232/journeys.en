@@ -49,15 +49,15 @@ Here are the main steps to configure a new event:
  ![](../assets/journey6.png)
 
 1. Enter a name for your event. Do not use spaces or special characters.
-        <!-- Select the event type: this is where you define where the event is coming from. See [](eventtype.md#concept_oy4_jqt_52b).-->
+        <!-- Select the event type: this is where you define where the event is coming from. See [](../event/eventtype.md#concept_oy4_jqt_52b).-->
 1. Add a description to your event. This step is optional.
-1. Define the schema and payload fields: this is where you select the event information (usually called a payload) Triggered Journeys expects to receive. You will then be able to use this information in your journey. See [Defining the payload fields](eventpayload.md#concept_yrw_3qt_52b).
+1. Define the schema and payload fields: this is where you select the event information (usually called a payload) Triggered Journeys expects to receive. You will then be able to use this information in your journey. See [Defining the payload fields](../event/eventpayload.md#concept_yrw_3qt_52b).
 1. The number of journeys that use this event is displayed in the **Used in** field. You can click the **View journeys** icon to display the list of journeys using this event.
-1. Add a namespace. This step is optional but recommended as adding a namespace allows you to leverage information stored in the Unified Profile Service. It defines the type of key the event has. See [Selecting the namespace](eventnamespace.md#concept_ckb_3qt_52b).
-1. Define the key: choose a field from your payload fields or define a formula to identify the person associated to the event. This key is automatically setup (but can still be edited) if you select a namespace. Indeed, Triggered Journeys picks the key that should correspond to the namespace (for example, if you select an email namespace, the email key will be selected). See [Defining the event key](eventkey.md#concept_ond_hqt_52b). 
-1. Add a condition. This step is optional. This allows the system to only process the events that meet the condition. The condition can only be based on information contained in the event. See [Adding a condition](eventcondition.md#concept_rbg_gqt_52b).
+1. Add a namespace. This step is optional but recommended as adding a namespace allows you to leverage information stored in the Unified Profile Service. It defines the type of key the event has. See [Selecting the namespace](../event/eventnamespace.md#concept_ckb_3qt_52b).
+1. Define the key: choose a field from your payload fields or define a formula to identify the person associated to the event. This key is automatically setup (but can still be edited) if you select a namespace. Indeed, Triggered Journeys picks the key that should correspond to the namespace (for example, if you select an email namespace, the email key will be selected). See [Defining the event key](../event/eventkey.md#concept_ond_hqt_52b). 
+1. Add a condition. This step is optional. This allows the system to only process the events that meet the condition. The condition can only be based on information contained in the event. See [Adding a condition](../event/eventcondition.md#concept_rbg_gqt_52b).
 1. Click **Save**.
 
  ![](../assets/journey7.png)
 
-The event is now configured and ready to be dropped into a journey. Additional configuration steps are required to receive events. See [Additional steps to send events to Journeys](eventsteps.md#concept_xrz_n1q_y2b).
+The event is now configured and ready to be dropped into a journey. Additional configuration steps are required to receive events. See [Additional steps to send events to Journeys](../event/eventsteps.md#concept_xrz_n1q_y2b).

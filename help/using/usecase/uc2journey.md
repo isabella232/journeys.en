@@ -145,7 +145,7 @@ Two paths are created after your condition:
 
 ## Second path: the customer is not a loyalty member{#section_ptb_ws1_ffb}
 
-1. In the second path that follows the first condition (customer is not a loyalty member), add an **Email** activity and select your "Loyalty membership" template.
+1. In the second path that follows the first condition (../custom-action/customer is not a loyalty member), add an **Email** activity and select your "Loyalty membership" template.
 
     ![](../assets/journeyuc2_26.png)
 

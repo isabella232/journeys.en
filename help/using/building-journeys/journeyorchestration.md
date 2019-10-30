@@ -37,11 +37,11 @@ The simple mode allows you to perform simple queries based on a combination of f
 
 >[!NOTE]
 >
->You cannot perform queries on time series (for example a list of purchases, past clicks on messages) with the simple editor. For this you’ll need to use the advanced editor. See [Building advanced conditions](expressionadvanced.md#concept_uyj_trt_52b).
+>You cannot perform queries on time series (for example a list of purchases, past clicks on messages) with the simple editor. For this you’ll need to use the advanced editor. See [Building advanced conditions](../expression/expressionadvanced.md#concept_uyj_trt_52b).
 
 Four types of conditions are available:
 
-* **Data Source condition**: this allows you to define a condition based on fields from the data sources or the events. To learn how to use the expression editor, see [Building advanced conditions](expressionadvanced.md#concept_uyj_trt_52b). Using the advanced expression editor, you can define the values of external data source parameters. See [External data sources](../datasource/dsexternal.md#concept_t2s_kqt_52b) and [Building advanced conditions](expressionadvanced.md#concept_uyj_trt_52b).
+* **Data Source condition**: this allows you to define a condition based on fields from the data sources or the events. To learn how to use the expression editor, see [Building advanced conditions](../expression/expressionadvanced.md#concept_uyj_trt_52b). Using the advanced expression editor, you can define the values of external data source parameters. See [External data sources](../datasource/dsexternal.md#concept_t2s_kqt_52b) and [Building advanced conditions](../expression/expressionadvanced.md#concept_uyj_trt_52b).
 
 ![](../assets/journey50.png)
 
@@ -92,7 +92,7 @@ If you want to wait before executing the next activity in the path, you can use 
 
 ![](../assets/journey56.png)
 
-*  **Custom**: this option lets you define a custom date, for example 12 July 2020 at 5pm, using an advanced expression based on a field coming from an event or a data source. It does not let you define a custom duration, for example: 7 days, 2 months. The expression in the expression editor should provide a dateTimeOnly format. See [The advanced editor](expressionadvanced.md#concept_uyj_trt_52b).
+*  **Custom**: this option lets you define a custom date, for example 12 July 2020 at 5pm, using an advanced expression based on a field coming from an event or a data source. It does not let you define a custom duration, for example: 7 days, 2 months. The expression in the expression editor should provide a dateTimeOnly format. See [The advanced editor](../expression/expressionadvanced.md#concept_uyj_trt_52b).
 
 >[!NOTE]
 >

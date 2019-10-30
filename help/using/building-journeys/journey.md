@@ -23,7 +23,7 @@ This step is performed by the **business user**. This is where you create your j
 
 The journey interface allows you to easily drag and drop activities from the palette into the canvas. Each activity has a specific role and place in the process. The activities are sequenced. When an activity is finished, the flow continues and processes the next activity, and so on.
 
-Only one namespace is allowed per journey. If you use several events in the same journey, they need to use the same namespace. When you drop the first event, events with different namespaces will be grayed out. If the first event doesn't have a namespace, then all events with a namespace will be grayed out. See [Selecting the namespace](eventnamespace.md#concept_ckb_3qt_52b). Also, Experience Platform field groups are grayed out if the journey has events without a namespace.
+Only one namespace is allowed per journey. If you use several events in the same journey, they need to use the same namespace. When you drop the first event, events with different namespaces will be grayed out. If the first event doesn't have a namespace, then all events with a namespace will be grayed out. See [Selecting the namespace](../event/eventnamespace.md#concept_ckb_3qt_52b). Also, Experience Platform field groups are grayed out if the journey has events without a namespace.
 
 Here are the main steps to create and publish a journey.
 

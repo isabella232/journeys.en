@@ -20,7 +20,7 @@ snippet: y
 
 From the palette, on the left-hand side of the screen, unfold the **Actions** category.![](../assets/journey58.png" placement="break" width="800" id="image_ayk_prm_z2b)
 
-These activities represent the different available communication channels. You can combine them to create a cross-channel scenario. The following out-of-the-box action activities are available: **Email**, **Push** and **SMS**. If you've configured custom actions, they will also appear here (see [custom actions](custom.md)).
+These activities represent the different available communication channels. You can combine them to create a cross-channel scenario. The following out-of-the-box action activities are available: **Email**, **Push** and **SMS**. If you've configured custom actions, they will also appear here (see [custom actions](../custom-action/custom.md)).
 
 When you drop an action activity in the canvas, you can define a **Label**. This allows you to add a suffix to the action name that will appear under your activity in the canvas. This is useful if you use the same action several times in your journey. You can also add an optional **Description**.![](../assets/journey59bis.png" placement="break" width="800" id="image_kty_lgz_pgb)
 
@@ -95,6 +95,6 @@ In this section, you define the **Push Platform** (iOS or Android) and **Registr
 
 ## Custom actions {#section_f2c_hbg_nhb}
 
-If you're using a custom action, you will see, in read-only, the **URL Configuration** and **Authentication** parameters defined in the action configuration screen (see [custom actions](custom.md)).
+If you're using a custom action, you will see, in read-only, the **URL Configuration** and **Authentication** parameters defined in the action configuration screen (see [custom actions](../custom-action/custom.md)).
 
 In the **Action parameters** section, you'll see the message parameters defined with _"toBeMapped": true_. For these parameters, you can define an expression based on the journey's information.

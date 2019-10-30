@@ -32,7 +32,7 @@ The table below gives you the list of dimensions used in journey reports and the
 |--- |--- |
 |Action|List of every action (action name - action label) used in journeys e.g. Push - Check out confirmation, Email - Rewards fidelity.|
 |Data source|List of data sources (data source name) used to enrich data in a journey e.g. Experience platform, Reservation system.|
-|Event|List of every event (event name - event label) used in journeys e.g. Geometrixx event - Geometrixx check out.|
+|Event|List of every event (../event/event name - event label) used in journeys e.g. Geometrixx event - Geometrixx check out.|
 |Field group|List of field groups (field group name) used to enrich data in journeys e.g. Profile field group, Geometrixx reservation system.|
 |Journey|List of every journey (../journey/journey name) in test mode and live e.g. Cart abandonment, Hotel reservation notification.|
 |Journey version|List of every published version of a journey (../journey/journey name + version's number) e.g. Cart abandonment v1, Hotel reservation notification v2.|
