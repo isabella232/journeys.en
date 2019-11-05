@@ -1,8 +1,6 @@
 ---
 title: serializeList
-seo-title: serializeList
-description: serializeList
-seo-description: Learn about the function serializeList
+description: Learn about the function serializeList
 page-status-flag: never-activated
 uuid: 269d590c-5a6d-40b9-a879-02f5033863fc
 contentOwner: sauviat

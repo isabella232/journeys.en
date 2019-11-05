@@ -1,8 +1,6 @@
 ---
 title: Adobe Experience Platform data source 
-seo-title: Adobe Experience Platform data source 
-description: Adobe Experience Platform data source 
-seo-description: Learn how to configure an Adobe Experience Platform data source 
+description: Learn how to configure an Adobe Experience Platform data source 
 page-status-flag: never-activated
 uuid: 269d590c-5a6d-40b9-a879-02f5033863fc
 contentOwner: sauviat

@@ -1,8 +1,6 @@
 ---
 title: inNextYears
-seo-title: inNextYears
-description: inNextYears
-seo-description: Learn about the function inNextYears
+description: Learn about the function inNextYears
 page-status-flag: never-activated
 uuid: 269d590c-5a6d-40b9-a879-02f5033863fc
 contentOwner: sauviat

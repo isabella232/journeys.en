@@ -1,8 +1,6 @@
 ---
 title: setDays
-seo-title: setDays
-description: setDays
-seo-description: Learn about the function setDays
+description: Learn about the function setDays
 page-status-flag: never-activated
 uuid: 269d590c-5a6d-40b9-a879-02f5033863fc
 contentOwner: sauviat

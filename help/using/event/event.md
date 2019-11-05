@@ -1,8 +1,6 @@
 ---
 title: Configuring an event
-seo-title: Configuring an event
-description: Configuring an event
-seo-description: Learn how to configure an event
+description: Learn how to configure an event
 page-status-flag: never-activated
 uuid: 269d590c-5a6d-40b9-a879-02f5033863fc
 contentOwner: sauviat

@@ -1,8 +1,6 @@
 ---
 title: Dimensions and metrics available for Journeys
-seo-title: Dimensions and metrics available for Journeys
-description: Dimensions and metrics available for Journeys
-seo-description: Learn about dimensions and metrics available for Journeys
+description: Learn about dimensions and metrics available for Journeys
 page-status-flag: never-activated
 uuid: 269d590c-5a6d-40b9-a879-02f5033863fc
 contentOwner: sauviat

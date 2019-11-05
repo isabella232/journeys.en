@@ -1,8 +1,6 @@
 ---
 title: Action activities
-seo-title: Action activities
-description: Action activities
-seo-description: Learn about action activities
+description: Learn about action activities
 page-status-flag: never-activated
 uuid: 269d590c-5a6d-40b9-a879-02f5033863fc
 contentOwner: sauviat

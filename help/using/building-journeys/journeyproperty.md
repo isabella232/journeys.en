@@ -1,8 +1,6 @@
 ---
 title: The journey's properties
-seo-title: The journey's properties
-description: The journey's properties
-seo-description: Learn about the journey's properties
+description: Learn about the journey's properties
 page-status-flag: never-activated
 uuid: 269d590c-5a6d-40b9-a879-02f5033863fc
 contentOwner: sauviat

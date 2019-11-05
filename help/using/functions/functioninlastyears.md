@@ -1,8 +1,6 @@
 ---
 title: inLastYears
-seo-title: inLastYears
-description: inLastYears
-seo-description: Learn about the function inLastYears
+description: Learn about the function inLastYears
 page-status-flag: never-activated
 uuid: 269d590c-5a6d-40b9-a879-02f5033863fc
 contentOwner: sauviat

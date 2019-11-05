@@ -1,8 +1,6 @@
 ---
 title: Defining the message parameters
-seo-title: Defining the message parameters
-description: Defining the message parameters
-seo-description: Learn how to define the message parameters
+description: Learn how to define the message parameters
 page-status-flag: never-activated
 uuid: 269d590c-5a6d-40b9-a879-02f5033863fc
 contentOwner: sauviat

@@ -1,8 +1,6 @@
 ---
 title: Building a journey
-seo-title: Building a journey
-description: Building a journey
-seo-description: Learn how to build a journey
+description: Learn how to build a journey
 page-status-flag: never-activated
 uuid: 269d590c-5a6d-40b9-a879-02f5033863fc
 contentOwner: sauviat
