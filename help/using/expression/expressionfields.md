@@ -30,11 +30,11 @@ For example if your field is _3h_: _#{OpenWeather.weatherData.rain.'3h'} > 0_
  ```
 
 // event field
-@{&lt;event name>.&lt;XDM path to the field>}
+@{<event name>.<XDM path to the field>}
 @{LobbyBeacon.endUserIDs._experience.emailid.id}
 
 // field group
-#{&lt;data source name>.&lt;field group name>.&lt;path to the field>}
+#{<data source name>.<field group name>.<path to the field>}
 #{ExperiencePlatformDataSource.ProfileFieldGroup.Profile.personalEmail.address}
 
  ```
@@ -50,10 +50,10 @@ A default value can be associated to a field name. the syntax is as follows:
     ```
 
     // event field
-    @{&lt;event name>.&lt;XDM path to the field>, defaultValue: &lt;default value expression>}
+    @{<event name>.<XDM path to the field>, defaultValue: <default value expression>}
     @{LobbyBeacon.endUserIDs._experience.emailid.id, defaultValue: "example@adobe.com"}
     // field group
-    #{&lt;data source name>.&lt;field group name>.&lt;path to the field>, defaultValue: &lt;default value expression>}
+    #{<data source name>.<field group name>.<path to the field>, defaultValue: <default value expression>}
     #{ExperiencePlatformDataSource.ProfileFieldGroup.Profile.personalEmail.address, defaultValue: "example@adobe.com"}
     
     ```
@@ -76,12 +76,12 @@ Use the following syntax:
 
     ```
 
-    #{&lt;datasource>.&lt;field group>.fieldName, params: {&lt;params-1-name>: &lt;params-1-value>, &lt;params-2-name>: &lt;params-2-value>}}
+    #{<datasource>.<field group>.fieldName, params: {<params-1-name>: <params-1-value>, <params-2-name>: <params-2-value>}}
     
     ```
 
-* **&lt;params-1-name>**: exact name of the first parameter from the data source.
-* **&lt;params-1-value>**: the value of the first parameter. It can be any valid expression.
+* **<params-1-name>**: exact name of the first parameter from the data source.
+* **<params-1-value>**: the value of the first parameter. It can be any valid expression.
 
 Example:
 

@@ -24,7 +24,7 @@ Adobe Experience Platform
 
 ## Function syntax
 
-`getBestSendTime(&lt;parameters>)`
+`getBestSendTime(<parameters>)`
 
 ## Parameters
 
@@ -36,7 +36,7 @@ Adobe Experience Platform
 
 ## Signature and returned type
 
-`getBestSendTime(&lt;integer>,&lt;string>,&lt;integer>)`
+`getBestSendTime(<integer>,<string>,<integer>)`
 
 Returns a datetime.
 

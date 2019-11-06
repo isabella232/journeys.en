@@ -114,12 +114,12 @@ With this authentication, the action execution is a two-steps process:
 The definition of the way the access token must be injected in the HTTP request of the action:
 
 * authorizationType: defines how the generated access token must be injected in the HTTP call for the action. The possible values are:
-    * bearer: indicates that the access token must be injected in the Authorization header, such as: Authorization: Bearer &lt;access token>
-    * header: indicates that the access token must be injected as a header, the header name defined by the property tokenTarget. For instance, if the tokenTarget is myHeader, the access token will be injected as a header as: myHeader: &lt;access token>
-    * queryParam: indicates that the access token must be injected as a queryParam, the query param name defined by the property tokenTarget. For instance, if the tokenTarget is myQueryParam, the URL of the action call will be: &lt;url>?myQueryParam=&lt;access token>
+    * bearer: indicates that the access token must be injected in the Authorization header, such as: Authorization: Bearer <access token>
+    * header: indicates that the access token must be injected as a header, the header name defined by the property tokenTarget. For instance, if the tokenTarget is myHeader, the access token will be injected as a header as: myHeader: <access token>
+    * queryParam: indicates that the access token must be injected as a queryParam, the query param name defined by the property tokenTarget. For instance, if the tokenTarget is myQueryParam, the URL of the action call will be: <url>?myQueryParam=<access token>
     * tokenInResponse: indicates how to extract the access token from the authentication call. This property can be:
     * 'response': indicates that the HTTP response is the access token
-    * a selector in a json (assuming that the response is a json, we don't support other formats such as XML). The format of this selector is "json://&lt;path to the access token property>". For instance, if the response of the call is: { "access_token": "theToken", "timestamp": 12323445656 }, the tokenInResponse will be: 'json: //access_token'
+    * a selector in a json (assuming that the response is a json, we don't support other formats such as XML). The format of this selector is "json://<path to the access token property>". For instance, if the response of the call is: { "access_token": "theToken", "timestamp": 12323445656 }, the tokenInResponse will be: 'json: //access_token'
 
     The format of this authentication is:
 
@@ -127,21 +127,21 @@ The definition of the way the access token must be injected in the HTTP request 
 
         {
             "type": "customAuthorization",
-            "authorizationType": "&lt;value in 'bearer', 'header' or 'queryParam'>",
-            (optional, mandatory if authorizationType is 'header' or 'queryParam') "tokenTarget": "&lt;name of the header or queryParam if the authorizationType is 'header' or 'queryParam'>",
-            "endpoint": "&lt;URL of the authentication endpoint>",
-            "method": "&lt;HTTP method to call the authentication endpoint, in 'GET' or 'POST'>",
+            "authorizationType": "<value in 'bearer', 'header' or 'queryParam'>",
+            (optional, mandatory if authorizationType is 'header' or 'queryParam') "tokenTarget": "<name of the header or queryParam if the authorizationType is 'header' or 'queryParam'>",
+            "endpoint": "<URL of the authentication endpoint>",
+            "method": "<HTTP method to call the authentication endpoint, in 'GET' or 'POST'>",
             (optional) "headers: {
-                "&lt;header name>": "&lt;header value>",
+                "<header name>": "<header value>",
                 ...
             },
             (optional, mandatory if method is 'POST') "body": {
-                "bodyType": "&lt;'form'or 'json'>,
+                "bodyType": "<'form'or 'json'>,
                 "bodyParams": {
                     "param1": value1,
                     ...
                 }
             },
-            "tokenInResponse": "&lt;'response' or json selector in format 'json://&lt;field path to access token>'"
+            "tokenInResponse": "<'response' or json selector in format 'json://<field path to access token>'"
         }
     ```

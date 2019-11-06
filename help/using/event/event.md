@@ -40,11 +40,11 @@ Here are the main steps to configure a new event:
 
 1. In the top bar, click **Events**. The list of events is displayed. See [the Journeys' interface](../about/aboutinterface.md#concept_rcq_lqt_52b) for more information on the interface.
 
- ![](../assets/journey5.png)
+   ![](../assets/journey5.png)
 
 1. Click **Add** to create a new event. The event configurator opens on the right side of the screen.
 
- ![](../assets/journey6.png)
+    ![](../assets/journey6.png)
 
 1. Enter a name for your event. Do not use spaces or special characters.
         <!-- Select the event type: this is where you define where the event is coming from. See [](../event/eventtype.md#concept_oy4_jqt_52b).-->

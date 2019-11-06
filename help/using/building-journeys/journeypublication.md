@@ -44,7 +44,7 @@ To use the test mode, follow these steps:
 
     ![](../assets/journeytest1.png)
 
-1. After the events are received, click the **&lt;/>** button to view the test result.
+1. After the events are received, click the **</>** button to view the test result.
 
     ![](../assets/journeytest2.png)
 
