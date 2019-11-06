@@ -76,7 +76,7 @@ Here are the different statuses of an individual's journey:
 1. Before publishing your journey, verify that it is valid and that there is no error. See [Checking for errors](#section_h3q_kqk_fhb). A warning symbol is displayed when there are errors. It is also recommended to test your journey before publication. See [Testing your journey](#section_ctr_lqk_fhb).
 1. To publish the journey, click on the **Publish** option, located in the top right drop-down menu.
 
-	![](../assets/journeyuc1_18.png)
+    ![](../assets/journeyuc1_18.png)
 
 When the journey is published, it is in read-only mode. 
 

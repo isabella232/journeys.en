@@ -24,15 +24,15 @@ If you need to modify to a live journey, you need to create a new version of you
 
 1. Open the latest version of your live journey, click **Create a new version** and confirm.
 
-	![](../assets/journeyversions2.png)
+    ![](../assets/journeyversions2.png)
 
-	>[!NOTE]
-	>
-	>You can only create a new version from the latest version of a journey.
+    >[!NOTE]
+    >
+    >You can only create a new version from the latest version of a journey.
 
 1. Make your modifications, click **Publish** and confirm.
 
-	![](../assets/journeyversions3.png)
+    ![](../assets/journeyversions3.png)
 
 At publication time, individuals will start to flow into the latest version of the journey. People who have already entered a previous version stay in it until they finish the journey. If they later re-enter the same journey, they will go into the latest version.
 
