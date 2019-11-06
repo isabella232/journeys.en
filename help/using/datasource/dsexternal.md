@@ -48,7 +48,7 @@ Here are the main steps to create and configure a new external data source:
 
     ![](../assets/journey27.png)
 
-1. Configure the authentication depending on the external service configuration: **No authentication**, **Basic**, **Custom** or **API key**. For more information on the custom authentication mode, see [Custom authentication mode](../datasource/dsexternal.md#concept_t2s_kqt_52b/section_wjp_nl5_nhb). In our example, we choose:
+1. Configure the authentication depending on the external service configuration: **No authentication**, **Basic**, **Custom** or **API key**. For more information on the custom authentication mode, see [Custom authentication mode](../datasource/dsexternal.md). In our example, we choose:
 
     * **Type**: "API key"
     * **Value**: "1234" (this is the value of our API key)
@@ -114,12 +114,12 @@ With this authentication, the action execution is a two-steps process:
 The definition of the way the access token must be injected in the HTTP request of the action:
 
 * authorizationType: defines how the generated access token must be injected in the HTTP call for the action. The possible values are:
-    * bearer: indicates that the access token must be injected in the Authorization header, such as: Authorization: Bearer <access token>
-    * header: indicates that the access token must be injected as a header, the header name defined by the property tokenTarget. For instance, if the tokenTarget is myHeader, the access token will be injected as a header as: myHeader: <access token>
-    * queryParam: indicates that the access token must be injected as a queryParam, the query param name defined by the property tokenTarget. For instance, if the tokenTarget is myQueryParam, the URL of the action call will be: <url>?myQueryParam=<access token>
+    * bearer: indicates that the access token must be injected in the Authorization header, such as: Authorization: Bearer `<access token>`
+    * header: indicates that the access token must be injected as a header, the header name defined by the property tokenTarget. For instance, if the tokenTarget is myHeader, the access token will be injected as a header as: myHeader: `<access token>`
+    * queryParam: indicates that the access token must be injected as a queryParam, the query param name defined by the property tokenTarget. For instance, if the tokenTarget is myQueryParam, the URL of the action call will be: `<url>?myQueryParam=<access token>`
     * tokenInResponse: indicates how to extract the access token from the authentication call. This property can be:
     * 'response': indicates that the HTTP response is the access token
-    * a selector in a json (assuming that the response is a json, we don't support other formats such as XML). The format of this selector is "json://<path to the access token property>". For instance, if the response of the call is: { "access_token": "theToken", "timestamp": 12323445656 }, the tokenInResponse will be: 'json: //access_token'
+    * a selector in a json (assuming that the response is a json, we don't support other formats such as XML). The format of this selector is `"json://<path to the access token property>"`. For instance, if the response of the call is: { "access_token": "theToken", "timestamp": 12323445656 }, the tokenInResponse will be: 'json: //access_token'
 
     The format of this authentication is:
 

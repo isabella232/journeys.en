@@ -80,8 +80,8 @@ Use the following syntax:
     
     ```
 
-* **<params-1-name>**: exact name of the first parameter from the data source.
-* **<params-1-value>**: the value of the first parameter. It can be any valid expression.
+* **`<params-1-name>`**: exact name of the first parameter from the data source.
+* **`<params-1-value>`**: the value of the first parameter. It can be any valid expression.
 
 Example:
 

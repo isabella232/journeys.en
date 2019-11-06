@@ -18,7 +18,7 @@ snippet: y
 
 ## Parenthesis and expression priority{#section_edf_fks_bgb}
 
-Parenthesis can be used to make a complex expression more readable. __(<expression>)__ is the equivalent of __<expression>__. Parenthesis can also be used to define the evaluation order and associativity.
+Parenthesis can be used to make a complex expression more readable. __(`<expression>`)__ is the equivalent of __`<expression>`__. Parenthesis can also be used to define the evaluation order and associativity.
 
 The expressions will be evaluated from left to right. The associativity on arithmetic operators must be applied: multiplications and divisions take priority over additions and subtractions. In order to impose a specific order, parenthesis must be written to delimit the operations. For example:
 
@@ -33,7 +33,7 @@ The expressions will be evaluated from left to right. The associativity on arith
 
 Here are the different case sensitivity rules:
 
-* All operators (and, or, etc.) should be written lowercase. For instance, _<expression1> and <expression2>_ is a valid expression whereas the expression _<expression1> AND <expression2>_ is not.
+* All operators (and, or, etc.) should be written lowercase. For instance, _`<expression1>` and `<expression2>`_ is a valid expression whereas the expression _`<expression1>` AND `<expression2>`_ is not.
 * All function names should be written lowercase. For instance, _count()_ is valid whereas the function _COUNT()_ is not.
 * Field references and constant values are case sensitive: they are not built-in elements of the language (as opposed to operators and functions), they are authored by the end user.
 
