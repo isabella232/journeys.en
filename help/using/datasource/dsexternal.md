@@ -117,7 +117,7 @@ The definition of the way the access token must be injected in the HTTP request 
 * authorizationType: defines how the generated access token must be injected in the HTTP call for the action. The possible values are:
     * bearer: indicates that the access token must be injected in the Authorization header, such as: `Authorization: Bearer <access token>`
     * header: indicates that the access token must be injected as a header, the header name defined by the property tokenTarget. For instance, if the tokenTarget is myHeader, the access token will be injected as a header as: `myHeader: <access token>
-    * queryParam: indicates that the access token must be injected as a queryParam, the query param name defined by the property tokenTarget. For instance, if the tokenTarget is myQueryParam, the URL of the action call will be: `<url>?myQueryParam=<access token>
+    * queryParam: indicates that the access token must be injected as a queryParam, the query param name defined by the property tokenTarget. For instance, if the tokenTarget is myQueryParam, the URL of the action call will be: `&lt;url>?myQueryParam=&lt;access token>`
 * tokenInResponse: indicates how to extract the access token from the authentication call. This property can be:
     * 'response': indicates that the HTTP response is the access token
     * a selector in a json (assuming that the response is a json, we don't support other formats such as XML). The format of this selector is `json://<path to the access token property>`. For instance, if the response of the call is: `{ "access_token": "theToken", "timestamp": 12323445656 }, the tokenInResponse will be: `json: //access_token`
