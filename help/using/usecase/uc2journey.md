@@ -88,7 +88,7 @@ Two paths are created after your condition:
 1. Choose the **Data Source Condition** type, and define the condition based on the reservation status information retrieved from the reservation system:
 
     ```
-#{MarltonReservation.MarltonFieldGroup.reservation} == true
+    #{MarltonReservation.MarltonFieldGroup.reservation} == true
     ```
 
     ![](../assets/journeyuc2_18.png)
