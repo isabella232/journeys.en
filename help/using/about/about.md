@@ -1,8 +1,6 @@
 ---
 title: About Journeys
-seo-title: About Journeys
-description: About Journeys
-seo-description: Learn about journeys
+description: Learn about journeys
 page-status-flag: never-activated
 uuid: 269d590c-5a6d-40b9-a879-02f5033863fc
 contentOwner: sauviat

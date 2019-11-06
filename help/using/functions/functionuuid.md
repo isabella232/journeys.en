@@ -1,8 +1,6 @@
 ---
 title: uuid
-seo-title: uuid
-description: uuid
-seo-description: Learn about the function uuid
+description: Learn about the function uuid
 page-status-flag: never-activated
 uuid: 269d590c-5a6d-40b9-a879-02f5033863fc
 contentOwner: sauviat

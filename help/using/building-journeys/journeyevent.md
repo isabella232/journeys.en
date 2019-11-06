@@ -1,8 +1,6 @@
 ---
 title: Events activities
-seo-title: Events activities
-description: Events activities
-seo-description: Learn about events activities
+description: Learn about events activities
 page-status-flag: never-activated
 uuid: 269d590c-5a6d-40b9-a879-02f5033863fc
 contentOwner: sauviat

@@ -1,8 +1,6 @@
 ---
 title: Advanced use case pre-requisites
-seo-title: Advanced use case pre-requisites
-description: Advanced use case pre-requisites
-seo-description: Learn pre-requisites for journey simple use case
+description: Learn pre-requisites for journey simple use case
 page-status-flag: never-activated
 uuid: 269d590c-5a6d-40b9-a879-02f5033863fc
 contentOwner: sauviat

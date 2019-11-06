@@ -1,6 +1,5 @@
 ---
 keywords: Journeys;home;popular topics
-seo-title: Journeys product documentation
 solution: CJourneys
 title: Journeys product documentation
 topic: Premium

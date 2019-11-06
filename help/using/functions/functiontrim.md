@@ -1,8 +1,6 @@
 ---
 title: trim
-seo-title: trim
-description: trim
-seo-description: Learn about the function trim
+description: Learn about the function trim
 page-status-flag: never-activated
 uuid: 269d590c-5a6d-40b9-a879-02f5033863fc
 contentOwner: sauviat
