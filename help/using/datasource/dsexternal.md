@@ -20,6 +20,7 @@ snippet: y
 External data sources allow you to define a connection to third-party systems, for example if you're using a hotel booking system to check if the person has registered a room. As opposed to the build-in Experience Platform data source, you can create as many external data sources as you need.
 
 REST APIs using POST or GET and returning JSON are supported. API Key, basic and custom authentication modes are supported.
+
 Let's take the example of a weather API service that I want to use to customize my journey's behaviors according to real-time weather data.
 
 Here are two examples of the API call:
@@ -28,6 +29,7 @@ Here are two examples of the API call:
 * _https://api.adobeweather.org/weather?lat=35&amp;lon=139&amp;appid=1234_
 
 The call is composed of a main URL (_https://api.adobeweather.org/weather_), two parameter sets ("city" for the city and "lat/long" for the latitude and longitude) and the API key (appid).
+
 Here are the main steps to create and configure a new external data source:
 
 1. From the list of data sources, Click **Add** to create a new external data source.
@@ -74,11 +76,10 @@ In case of a GET call requiring parameter(s), you enter the parameter(s) in the 
 * specify them also with the exact same syntax in the body of the sent payload. To do so, you need to add: "param": “name of your parameter” (in the example below: “identifier”). Follow the syntax below:
 
     ```
-
     {“id”:{“param”:“identifier”}}
     ```
 
-    ![](../assets/journey29.png)
+![](../assets/journey29.png)
 
 Click **Save**.
 
@@ -110,17 +111,17 @@ The definition of the endpoint to be called to generate the access token:
 * headers: key/value pairs to be injected as headers in this call if required
 * body: describes the body of the call if the method is POST. We support a limited body structure, defined in the bodyParams (key/value pairs). The bodyType describes the format and encoding of the body in the call: 
     * 'form': meaning that the content type will be application/x-www-form-urlencoded (charset UTF-8) and the key/value pairs will be serialized as is: key1=value1&amp;key2=value2&amp;...
-    * 'json': meaning that the content type will be application/json (charset UTF-8) and the key value pairs will be serialized as a json object as is: { "key1": "value1", "key2": "value2", ...}
+    * 'json': meaning that the content type will be application/json (charset UTF-8) and the key value pairs will be serialized as a json object as is: _{ "key1": "value1", "key2": "value2", ...}_
 
 The definition of the way the access token must be injected in the HTTP request of the action:
 
 * authorizationType: defines how the generated access token must be injected in the HTTP call for the action. The possible values are:
-    * bearer: indicates that the access token must be injected in the Authorization header, such as: `Authorization: Bearer &lt;access token>`
-    * header: indicates that the access token must be injected as a header, the header name defined by the property tokenTarget. For instance, if the tokenTarget is myHeader, the access token will be injected as a header as: `myHeader: &lt;access token>
-    * queryParam: indicates that the access token must be injected as a queryParam, the query param name defined by the property tokenTarget. For instance, if the tokenTarget is myQueryParam, the URL of the action call will be: `&lt;url>?myQueryParam=&lt;access token>
+    * bearer: indicates that the access token must be injected in the Authorization header, such as: _Authorization: Bearer &lt;access token>_
+    * header: indicates that the access token must be injected as a header, the header name defined by the property tokenTarget. For instance, if the tokenTarget is myHeader, the access token will be injected as a header as: _myHeader: &lt;access token>_
+    * queryParam: indicates that the access token must be injected as a queryParam, the query param name defined by the property tokenTarget. For instance, if the tokenTarget is myQueryParam, the URL of the action call will be: _&lt;url>?myQueryParam=&lt;access token>_
 * tokenInResponse: indicates how to extract the access token from the authentication call. This property can be:
     * 'response': indicates that the HTTP response is the access token
-    * a selector in a json (assuming that the response is a json, we don't support other formats such as XML). The format of this selector is `json://&lt;path to the access token property>`. For instance, if the response of the call is: `{ "access_token": "theToken", "timestamp": 12323445656 }, the tokenInResponse will be: `json: //access_token`
+    * a selector in a json (assuming that the response is a json, we don't support other formats such as XML). The format of this selector is _json://&lt;path to the access token property>_. For instance, if the response of the call is: _{ "access_token": "theToken", "timestamp": 12323445656 }_, the tokenInResponse will be: _json: //access_token_
 
 The format of this authentication is:
 

@@ -17,7 +17,7 @@ index: n
   + [Troubleshooting](using/about/troubleshooting.md)
 + Configuring an event {#events-journeys}
   + [About events](using/event/event.md)
-  + [Defining the payload fields](using/event/eventpayload.md)
+  + [Field groups](using/event/eventpayload.md)
   + [Selecting the namespace](using/event/eventnamespace.md)
   + [Defining the event key](using/event/eventkey.md)
   + [Adding a condition](using/event/eventcondition.md)

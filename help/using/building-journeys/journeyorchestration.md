@@ -53,11 +53,11 @@ Four types of conditions are available:
 
 * **Date condition**: this allows you to define a different flow based on the date. For example, if the person enters the step during the "sales" period, you'll send him a push notification. The rest of the year, you'll send an email.
 
-When you define a date condition, you must specify a timezone. The timezone can be set in different ways. It can be:
+    When you define a date condition, you must specify a timezone. The timezone can be set in different ways. It can be:
 
-* individualized and taken from the timezone of the profile in the Platform.
-* the same for all individuals in the journey passing through this step and picked from a dropdown list.
-* custom and retrieved from an event or a data source. The custom timezone must follow this [format](https://docs.oracle.com/javase/8/docs/api/java/time/ZoneId.html#of-java.lang.String-). If the timezone you want to leverage is a string, you can use the function ‘toTimeZone’ to convert it to the right format.
+    * individualized and taken from the timezone of the profile in the Platform.
+    * the same for all individuals in the journey passing through this step and picked from a dropdown list.
+    * custom and retrieved from an event or a data source. The custom timezone must follow this [format](https://docs.oracle.com/javase/8/docs/api/java/time/ZoneId.html#of-java.lang.String-). If the timezone you want to leverage is a string, you can use the function ‘toTimeZone’ to convert it to the right format.
 
     ![](../assets/journey53.png)
 
