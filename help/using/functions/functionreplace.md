@@ -38,7 +38,7 @@ String
 
 ## Signature and return type
 
-`replace(baseString,sourceString,targetString)`
+`replace(<baseString>,<sourceString>,<targetString>)`
 
 `replace(<string>,<string>,<string>)`
 Return a string.

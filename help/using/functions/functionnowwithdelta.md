@@ -34,13 +34,13 @@ Date
 |--- |--- |
 |delta|positive or negative integer value|
 |date part|years,months,days,hours,minutes or seconds as a string|
-|timezone id|timeZone value or string representation. For more, see [Constants](../expression/expressionconstants.md).Timezone id must be a string constant. It cannot be a field reference nor an expression.|
+|timezone id|string representation of the timezone value. For more, see [Constants](../expression/expressionconstants.md).Timezone id must be a string constant. It cannot be a field reference nor an expression.|
 
 ## Signatures and return type
 
 `nowWithDelta(<delta>,<date part>`
 
-`nowWithDelta(<delta>,<date part>,<timezone id>)`
+`nowWithDelta(<delta>,<date part>,"<timezone id>")`
 
 Returns a dateTime.
 

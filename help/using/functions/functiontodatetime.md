@@ -31,21 +31,16 @@ Conversion
 
 | Parameter | Type             |
 |-----------|------------------|
-| deserialized dateTime | string |
+| deserialized dateTime in ISO-8601 format| string |
 | timezone | string |
 | dateTimeOnly | dateTimeOnly|
-| Year | integer |
-| Month | integer |
-| Day of month | integer |
-| Hour | integer |
-| Minute | integer |
-| Second | integer |
+| integer value of an epoch in milliseconds| integer |
 
 Timezone id must be a string constant. It cannot be a field reference nor an expression.
 
 ## Signatures and return types
 
-`toDateTime(<year>,<month>,<dayOfMonth>,<hour>,<minute>,<second>)`
+<!--`toDateTime(<year>,<month>,<dayOfMonth>,<hour>,<minute>,<second>)`
 
 Returns a date time with default timezone UTC.
 
@@ -59,8 +54,14 @@ Return a datetime where hour, minute and second set to 0.
 `toDateTime(<string>)`
 `toDateTime(<string>,<integer>)`
 `toDateTime(<stringified timeZone>,<dateTimeOnly)`
-`toDateTime(<integer>)`
+
 `toDateTime(<timeZone>,<integer>)`
+
+Return a datetime.-->
+
+`toDateTime(<integer>)`
+`toDateTime(<stringified timeZone>,<dateTimeOnly)`
+`toDateTime(<string>)`
 
 Return a datetime.
 
@@ -70,7 +71,15 @@ Return a datetime.
 
 Returns 2016-08-18T23:17:59.123Z.
 
-`toDateTime ("2016-08-18T23:17:59.123", "UTC")`
+`toDateTime("UTC", toDateTimeOnly("2016-08-18T23:17:59.123"))`
+
+Returns 2016-08-18T23:17:59.123Z.
+
+`toDateTime(1560762190189)`
+
+Returns 2019-06-17T09:03:10.189Z.
+
+<!--`toDateTime ("2016-08-18T23:17:59.123", "UTC")`
 
 Returns 2016-08-18T23:17:59.123Z.
 
@@ -80,4 +89,4 @@ Returns 2016-08-18T23:17:59.000Z.
 
 `toDateTime("Z",2016,8,18)`
 
-Returns 2016-08-18T00:00:00.000Z.
+Returns 2016-08-18T00:00:00.000Z.-->

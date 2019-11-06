@@ -18,7 +18,7 @@ snippet: y
 
 # inLastYears {#inLastYears}
 
-Function defining if a given date or dateTime is between now and now - delta years.
+Returns true if a given date or dateTime is between now and now - delta years.
 
 ## Category
 
@@ -26,12 +26,12 @@ Date
 
 ## Function syntax
 
-`inLastYears(<parameter>)`
+`inLastYears(<dateTime>,<delta>)`
 
 ## Parameters
 
 * dateTime
-* integer
+* delta: integer
 
 ## Signatures and return type
 

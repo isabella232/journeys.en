@@ -18,7 +18,7 @@ snippet: y
 
 # length {#length}
 
-Returns the position (in the first argument) of the last occurrence of the second parameter. Returns -1 if there is no match.
+Returns the number of characters of the string expression in the parameter.
 
 ## Category
 

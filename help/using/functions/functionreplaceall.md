@@ -38,6 +38,8 @@ String
 
 ## Signature and return type
 
+`replaceAll(<baseString>,<sourceString>,<targetString>)`
+
 `replaceAll(<string>,<string>,<string>)`
 Return a string.
 

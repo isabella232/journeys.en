@@ -36,7 +36,9 @@ Date
 
 ## Signatures and return type
 
-`now(string)`
+`now()`
+
+`now(<timezone id>)`
 
 Returns a dateTime.
 
@@ -44,4 +46,4 @@ Returns a dateTime.
 
 `now()`
 
-Returns "2019-06-03T06:30Z".
+Returns 2019-06-03T06:30Z.

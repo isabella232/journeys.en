@@ -29,7 +29,7 @@ If you're using special characters in a field, you need to use double quotes. He
 
 For example if your field is _3h_: _#{OpenWeather.weatherData.rain.'3h'} > 0_
 
-```
+ ```
 
 // event field
 @{&lt;event name>.&lt;XDM path to the field>}
@@ -39,7 +39,7 @@ For example if your field is _3h_: _#{OpenWeather.weatherData.rain.'3h'} > 0_
 #{&lt;data source name>.&lt;field group name>.&lt;path to the field>}
 #{ExperiencePlatformDataSource.ProfileFieldGroup.Profile.personalEmail.address}
 
-```
+ ```
 
 In the expression, event fields are referenced with "@" and data source fields are referenced with "#".
 
@@ -57,6 +57,7 @@ A default value can be associated to a field name. the syntax is as follows:
     // field group
     #{&lt;data source name>.&lt;field group name>.&lt;path to the field>, defaultValue: &lt;default value expression>}
     #{ExperiencePlatformDataSource.ProfileFieldGroup.Profile.personalEmail.address, defaultValue: "example@adobe.com"}
+    
     ```
 
 >[!NOTE]
@@ -78,6 +79,7 @@ Use the following syntax:
     ```
 
     #{&lt;datasource>.&lt;field group>.fieldName, params: {&lt;params-1-name>: &lt;params-1-value>, &lt;params-2-name>: &lt;params-2-value>}}
+    
     ```
 
 * **&lt;params-1-name>**: exact name of the first parameter from the data source.
@@ -89,4 +91,5 @@ Example:
 
     #{Weather.main.temperature, params: {localisation: @{Profile.address.localisation}}}
     #{Weather.main.temperature, params: {localisation: #{GPSLocalisation.main.coordinates, params: {city: @{Profile.address.city}}}}}
+    
     ```

@@ -72,7 +72,6 @@ index: n
       + [toDuration](using/functions/functiontoduration.md)
       + [toInteger](using/functions/functiontointeger.md)
       + [toString](using/functions/functiontostring.md)
-      + [toTimeZone](using/functions/functiontotimezone.md)
     + Date {#date}
       + [currentTime​InMillis](using/functions/functioncurrenttimeinmillis.md)
       + [inLastDays](using/functions/functioninlastdays.md)
@@ -87,7 +86,6 @@ index: n
       + [nowWithDelta](using/functions/functionnowwithdelta.md)
       + [setHours](using/functions/functionsethours.md)
       + [setDays](using/functions/functionsetdays.md)
-      + [updateTimeZone](using/functions/functionupdatetimezone.md)
     + List {#list}
       + [distinct](using/functions/functiondistinct.md)
       + [distinctWithNull](using/functions/functiondistinctwithnull.md)

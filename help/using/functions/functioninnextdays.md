@@ -18,7 +18,7 @@ snippet: y
 
 # inNextDays {#inNextDays}
 
-Function defining if a given date or dateTime is between now and now + delta days.
+Returns true if a given date or dateTime is between now and now + delta days.
 
 ## Category
 
@@ -26,12 +26,12 @@ Date
 
 ## Function syntax
 
-`inNextDays(<parameter>)`
+`inNextDays(<dateTime>,<delta>)`
 
 ## Parameters
 
 * dateTime
-* integer
+* delta: integer
 
 ## Signatures and return type
 

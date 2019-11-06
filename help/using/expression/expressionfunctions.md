@@ -45,7 +45,6 @@ Each function has a specific return data type. Here is the list of supported fun
 | Conversion  | [toDuration](../functions/functiontoduration.md)|
 | Conversion  | [toInteger](../functions/functiontointeger.md)|
 | Conversion  | [toString](../functions/functiontostring.md)|
-| Conversion  | [toTimeZone](../functions/functiontotimezone.md)|
 | Date        | [currentTime​InMillis](../functions/functioncurrenttimeinmillis.md)|
 | Date        | [inLastDays](../functions/functioninlastdays.md)|
 | Date        | [inLastHours](../functions/functioninlasthours.md)|
@@ -59,7 +58,6 @@ Each function has a specific return data type. Here is the list of supported fun
 | Date        | [nowWithDelta](../functions/functionnowwithdelta.md)|
 | Date        | [setHours](../functions/functionsethours.md)|
 | Date        | [setDays](../functions/functionsetdays.md)|
-| Date        | [updateTimeZone](../functions/functionupdatetimezone.md)|
 | List        | [distinct](../functions/functiondistinct.md)|
 | List        | [distinctWithNull](../functions/functiondistinctcount.md)|
 | List        | [in](../functions/functionin.md)|
