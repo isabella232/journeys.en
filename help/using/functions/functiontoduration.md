@@ -16,7 +16,7 @@ snippet: y
 
 # toDuration {#toDuration}
 
-Converts an argument value to a duration.
+Converts an argument value to a duration.For more informtation on data types, refer to [Constants](../expression/expressionconstants.md).
 
 ## Category
 

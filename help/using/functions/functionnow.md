@@ -16,7 +16,7 @@ snippet: y
 
 # now {#now}
 
-Returns the current date in date time format.
+Returns the current date in date time format.For more informtation on data types, refer to [Constants](../expression/expressionconstants.md).
 
 ## Category
 

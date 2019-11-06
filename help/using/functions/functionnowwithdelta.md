@@ -16,7 +16,7 @@ snippet: y
 
 # nowWithDelta {#nowWithDelta}
 
-Returns the current datetime including an offset. If a time zone id is specified, the time zone offset will be applied.
+Returns the current datetime including an offset. If a time zone id is specified, the time zone offset will be applied. For more informtation on data types, refer to [Constants](../expression/expressionconstants.md).
 
 ## Category
 

@@ -15,7 +15,7 @@ snippet: y
 ---
 # toDateTime {#toDateTime}
 
-Converts an argument value into a date time value, depending on its type.
+Converts an argument value into a date time value, depending on its type. For more informtation on data types, refer to [Constants](../expression/expressionconstants.md).
 
 ## Category
 
