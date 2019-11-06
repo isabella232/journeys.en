@@ -16,7 +16,9 @@ snippet: y
 
 # replace {#replace}
 
-Replaces the first occurrence of the source string by the target string in the base string.
+Replaces the first occurrence matching the target string by the replacement string in the base string.
+
+The replacement proceeds from the beginning of the string to the end, for example, replacing "aa" with "b" in the string "aaa" will result in "ba" rather than "ab".
 
 ## Category
 
@@ -31,14 +33,13 @@ String
 | Parameter | Type         |
 |-----------|--------------|
 | base      | string       |
-| source    | string       |
 | target    | string       |
+| replacement  | string    |
 
 ## Signature and return type
 
-`replace(<baseString>,<sourceString>,<targetString>)`
+`replace(<baseString>,<targetString>,<replacementString>)`
 
-`replace(<string>,<string>,<string>)`
 Return a string.
 
 ## Example

@@ -16,7 +16,7 @@ snippet: y
 
 # toString {#toString}
 
-Converts an argument value into a string value, depending on its type. For more informtation on data types, refer
+Converts an argument value into a string value, depending on its type. For more informtation on data types, refer to [Constants](../expression/expressionconstants.md).
 
 ## Category
 
@@ -50,7 +50,7 @@ Conversion
 `toString(<integer>)`
 `toString(<decimal>)`
 
-Returns a string.
+Return a string.
 
 ## Example
 
