@@ -17,6 +17,7 @@ snippet: y
 # Configuring the data sources{#concept_vml_hdy_w2b}
 
 In our use case, we want to use personalization data for our messages. We also need to check if the person is a loyalty member and has not been contacted in the last 24 hours. This information is stored in the Unified Profile database. The **technical user** needs to configure the Experience Platform data source to retrieve those fields.
+
 For additional information on data source configuration, refer to [](../datasource/ds.md#concept_s1s_dqt_52b).
 
 1. In the top bar, click **Data Sources** and select the build-in Experience Platform data source.
@@ -47,13 +48,13 @@ We also need to check if the person has a reservation in the hotel reservation s
 
 1. Enter a name for your data source and the URL of the external service, for example: [https://marlton.com/reservation](https://marlton.com/reservation)
 
->[!CAUTION]
->
->We strongly recommend using HTTPS for security reasons.
+    >[!CAUTION]
+    >
+    >We strongly recommend using HTTPS for security reasons.
 
 1. Configure the authentication depending on the external service configuration: **No authentication**, **Basic** or **API key**. In our example, we choose "Basic" for the type and specify the username and password for the API call.
 
-![](../assets/journeyuc2_10.png)
+    ![](../assets/journeyuc2_10.png)
 
 1. Click **Add a New Field Group** to define the information to be retrieved and the API parameters. For our example, there is only one parameter (the id), so we need to create one field group with the following information:
 
@@ -61,15 +62,16 @@ We also need to check if the person has a reservation in the hotel reservation s
     * **Cache duration**: this varies according to the frequency of the API calls. In our case, the reservation system is updated every 10 minutes.
     * **Response Payload**: click inside the **Payload** field and paste an example of the payload. Verify that the field types are correct. Each time the API is called, the system will retrieve all the fields included in the payload example. In our example, the payload only contains the reservation status:
 
-    ```
-
-        {
-            "reservation" : true
-            }
-    ```
+        ```
+{
+"reservation" : true
+}
+        ```
 
     * **Dynamic Values**: enter the parameter corresponding to the key used to identify each customer, "id" in our example. The value of this parameter will be defined in the journey.
 
-![](../assets/journeyuc2_11.png)
+    ![](../assets/journeyuc2_11.png)
 
-1. Click **Save**.The data sources are now configured and ready to be used in your journey.
+1. Click **Save**.
+
+    The data sources are now configured and ready to be used in your journey.

@@ -57,10 +57,12 @@ Perform the following steps to leverage the fatigue level in your journey:
 
     ![](../assets/journeyuc3_3.png)
 
-    >[!NOTE]
-    >
-    >The advanced expression is: 
-    `#{ExperiencePlatformDataSource.JourneyAIScores.Profile.journeyAI.emailScore.fatigue.fatigueLevel} == "low"`
+    The advanced expression is: 
+
+    ```
+    #{ExperiencePlatformDataSource.JourneyAIScores.Profile.journeyAI.emailScore.fatigue.fatigueLevel} == "low"
+    ``
+
 
 1. In the condition, create two other paths for medium and high fatigue levels.
 

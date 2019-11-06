@@ -34,15 +34,15 @@ Here are the main steps to create and configure a new external data source:
 
     ![](../assets/journey25.png)
 
- This opens the data source configurator on the right-hand side of the screen.
+    This opens the data source configurator on the right-hand side of the screen.
 
- ![](../assets/journey26.png)
+    ![](../assets/journey26.png)
 
 1. Enter a name for your data source. Do not use spaces or special characters.
 1. Add a description to your data source. This step is optional.
 1. Add the URL of the external service. In our example: _https://api.adobeweather.org/weather_.
 
-    >[!CAUTION]
+     >[!CAUTION]
     >
     >We strongly recommend using HTTPS for security reasons. Also note that we don't allow the use of Adobe addresses that are not publicly available and the use of IP addresses.
 
@@ -57,7 +57,7 @@ Here are the main steps to create and configure a new external data source:
 
     ![](../assets/journey28.png)
 
-1. Add a new field group for each API parameter set by clicking **Add a New Field Group**. Do not use spaces or special characters in the field group name. In our example, we need to create two field groups, one for each parameter set (city and long/lat).
+1. Add a new field group for each API parameter set by clicking **Add a New Field Group**. Do not use spaces or special characters in the field group name. In our example, we need to create two field groups, one for each parameter set (city and long/lat). 
 
 For the "long/lat" parameter set, we create a field group with the following information:
 
@@ -80,7 +80,7 @@ In case of a GET call requiring parameter(s), you enter the parameter(s) in the 
 
     ![](../assets/journey29.png)
 
-1. Click **Save**.
+Click **Save**.
 
 The data source is now configured and ready to be used in your journeys, for example in your conditions or to personalize an email. If the temperature is above 30°C, you can decide to send a specific communication.
 
@@ -101,47 +101,49 @@ With this authentication, the action execution is a two-steps process:
 1. Call the endpoint to generate the access token.
 1. Call the REST API by injecting in the proper way the access token.
 
-    This authentication has two parts:
-    The definition of the endpoint to be called to generate the access token:
+This authentication has two parts.
 
-    * endpoint: URL to use to generate the endpoint
-        * method of the HTTP request on the endpoint (GET or POST)
-        * headers: key/value pairs to be injected as headers in this call if required
-        * body: describes the body of the call if the method is POST. We support a limited body structure, defined in the bodyParams (key/value pairs). The bodyType describes the format and encoding of the body in the call: 
-        * 'form': meaning that the content type will be application/x-www-form-urlencoded (charset UTF-8) and the key/value pairs will be serialized as is: key1=value1&amp;key2=value2&amp;...
-        * 'json': meaning that the content type will be application/json (charset UTF-8) and the key value pairs will be serialized as a json object as is: { "key1": "value1", "key2": "value2", ...}
+The definition of the endpoint to be called to generate the access token:
+
+* endpoint: URL to use to generate the endpoint
+* method of the HTTP request on the endpoint (GET or POST)
+* headers: key/value pairs to be injected as headers in this call if required
+* body: describes the body of the call if the method is POST. We support a limited body structure, defined in the bodyParams (key/value pairs). The bodyType describes the format and encoding of the body in the call: 
+    * 'form': meaning that the content type will be application/x-www-form-urlencoded (charset UTF-8) and the key/value pairs will be serialized as is: key1=value1&amp;key2=value2&amp;...
+    * 'json': meaning that the content type will be application/json (charset UTF-8) and the key value pairs will be serialized as a json object as is: { "key1": "value1", "key2": "value2", ...}
 
 The definition of the way the access token must be injected in the HTTP request of the action:
 
 * authorizationType: defines how the generated access token must be injected in the HTTP call for the action. The possible values are:
-    * bearer: indicates that the access token must be injected in the Authorization header, such as: Authorization: Bearer `<access token>`
-    * header: indicates that the access token must be injected as a header, the header name defined by the property tokenTarget. For instance, if the tokenTarget is myHeader, the access token will be injected as a header as: myHeader: `<access token>`
-    * queryParam: indicates that the access token must be injected as a queryParam, the query param name defined by the property tokenTarget. For instance, if the tokenTarget is myQueryParam, the URL of the action call will be: `<url>?myQueryParam=<access token>`
-    * tokenInResponse: indicates how to extract the access token from the authentication call. This property can be:
+
+    * bearer: indicates that the access token must be injected in the Authorization header, such as: `Authorization: Bearer <access token>`
+    * header: indicates that the access token must be injected as a header, the header name defined by the property tokenTarget. For instance, if the tokenTarget is myHeader, the access token will be injected as a header as: `myHeader: <access token>
+    * queryParam: indicates that the access token must be injected as a queryParam, the query param name defined by the property tokenTarget. For instance, if the tokenTarget is myQueryParam, the URL of the action call will be: `&lt;url>?myQueryParam=&lt;access token>`
+* tokenInResponse: indicates how to extract the access token from the authentication call. This property can be:
     * 'response': indicates that the HTTP response is the access token
-    * a selector in a json (assuming that the response is a json, we don't support other formats such as XML). The format of this selector is `"json://<path to the access token property>"`. For instance, if the response of the call is: { "access_token": "theToken", "timestamp": 12323445656 }, the tokenInResponse will be: 'json: //access_token'
+    * a selector in a json (assuming that the response is a json, we don't support other formats such as XML). The format of this selector is `json://<path to the access token property>`. For instance, if the response of the call is: `{ "access_token": "theToken", "timestamp": 12323445656 }, the tokenInResponse will be: `json: //access_token`
 
-    The format of this authentication is:
+The format of this authentication is:
 
-    ```
+```
+{
+    "type": "customAuthorization",
+    "authorizationType": "&lt;value in 'bearer', 'header' or 'queryParam'>",
+    (optional, mandatory if authorizationType is 'header' or 'queryParam') "tokenTarget": "&lt;name of the header or queryParam if the authorizationType is 'header' or 'queryParam'>",
+    "endpoint": "&lt;URL of the authentication endpoint>",
+    "method": "&lt;HTTP method to call the authentication endpoint, in 'GET' or 'POST'>",
+    (optional) "headers: {
+        "&lt;header name>": "&lt;header value>",
+        ...
+    },
+    (optional, mandatory if method is 'POST') "body": {
+        "bodyType": "&lt;'form'or 'json'>,
+        "bodyParams": {
+            "param1": value1,
+            ...
 
-        {
-            "type": "customAuthorization",
-            "authorizationType": "<value in 'bearer', 'header' or 'queryParam'>",
-            (optional, mandatory if authorizationType is 'header' or 'queryParam') "tokenTarget": "<name of the header or queryParam if the authorizationType is 'header' or 'queryParam'>",
-            "endpoint": "<URL of the authentication endpoint>",
-            "method": "<HTTP method to call the authentication endpoint, in 'GET' or 'POST'>",
-            (optional) "headers: {
-                "<header name>": "<header value>",
-                ...
-            },
-            (optional, mandatory if method is 'POST') "body": {
-                "bodyType": "<'form'or 'json'>,
-                "bodyParams": {
-                    "param1": value1,
-                    ...
-                }
-            },
-            "tokenInResponse": "<'response' or json selector in format 'json://<field path to access token>'"
         }
-    ```
+    },
+    "tokenInResponse": "&lt;'response' or json selector in format 'json://&lt;field path to access token>'"
+}
+```

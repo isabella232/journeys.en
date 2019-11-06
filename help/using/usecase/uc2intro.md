@@ -14,7 +14,7 @@ internal: n
 snippet: y
 ---
 
-# Advanced use case {#concept_vzy_ncy_w2b}
+# About this use case {#concept_vzy_ncy_w2b}
 
 Let's take the example of a hotel brand named Marlton. In their hotels, they have positioned beacon devices near all the strategic areas: lobby, floors, restaurant, gym, pool, etc.
 

@@ -15,27 +15,27 @@ index: n
   + [Ending a journey](using/about/aboutending.md)
   + [Managing your users' access to Journeys](using/about/usermanagement.md)
   + [Troubleshooting](using/about/troubleshooting.md)
-+ About events {#events-journeys}
-  + [Configuring an event](using/event/event.md)
++ Configuring an event {#events-journeys}
+  + [About events](using/event/event.md)
   + [Defining the payload fields](using/event/eventpayload.md)
   + [Selecting the namespace](using/event/eventnamespace.md)
   + [Defining the event key](using/event/eventkey.md)
   + [Adding a condition](using/event/eventcondition.md)
   + [Previewing the payload](using/event/eventpayloadpreview.md)
   + [Additional steps to receive events](using/event/eventsteps.md)
-+ About datasources {#data-source-journeys}
-  + [Configuring a datasource](using/datasource/ds.md)
-  + [Defining the payload fields](using/datasource/dsfield.md)
++ Configuring a data source {#data-source-journeys}
+  + [About data sources](using/datasource/ds.md)
+  + [Defining the field groups](using/datasource/dsfield.md)
   + [Adobe Experience Platform data source](using/datasource/dsplatform.md)
   + [External data sources](using/datasource/dsexternal.md)
-+ About custom actions {#custom-action-journeys}
-  + [Configuring a custom action](using/custom-action/custom.md)
++ Configuring a custom action {#custom-action-journeys}
+  + [About custom actions](using/custom-action/custom.md)
   + [Custom action limitations](using/custom-action/customlimitations.md)
   + [URL configuration](using/custom-action/customurl.md)
   + [Configuring the authentication](using/custom-action/customauthentication.md)
   + [Defining the message parameters](using/custom-action/customparameters.md)
-+ About building journeys {#building-journeys}
-  + [Building a journey](using/building-journeys/journey.md)
++ Building a journey {#building-journeys}
+  + [About journey building](using/building-journeys/journey.md)
   + [The journey designer's interface](using/building-journeys/journeyinterface.md)
   + [The journey's properties](using/building-journeys/journeyproperty.md)
   + [Events activities](using/building-journeys/journeyevent.md)
@@ -44,7 +44,7 @@ index: n
   + [Testing and publishing the journey](using/building-journeys/journeypublication.md)
   + [Journey versions](using/building-journeys/journeyversions.md)
 + Building advanced conditions {#building-advanced-conditions-journeys}
-  + [Building advanced conditions](using/expression/expressionadvanced.md)
+  + [About advanced conditions](using/expression/expressionadvanced.md)
   + [Generalities](using/expression/expressiongeneralities.md)
   + [Constants](using/expression/expressionconstants.md)
   + [Field references](using/expression/expressionfields.md)
@@ -119,9 +119,9 @@ index: n
       + [trim](using/functions/functiontrim.md)
       + [upper](using/functions/functionupper.md)
       + [uuid](using/functions/functionuuid.md)
-+ About journeys reports{#journey-reports}
-  + [Building your Journeys reports](using/reporting/reporting.md)
-  + [Creating your Journeys reports](using/reporting/reportingcreating.md)
++ Building your reports{#journey-reports}
+  + [About journey reports](using/reporting/reporting.md)
+  + [Creating your reports](using/reporting/reportingcreating.md)
   + [Dimensions and metrics available for Journeys](using/reporting/reportingdimensions.md)
 + Use cases{#use-cases-journeys}
   + Simple use case{#use-case-simple}

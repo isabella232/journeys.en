@@ -25,14 +25,14 @@ To configure events to be sent to **Streaming Ingestion APIs** and to be used in
 
 1. Get the inlet URL from the Data Platform APIs (see [Streaming Ingestion APIs](https://www.adobe.io/apis/cloudplatform/dataservices/data-ingestion/data-ingestion-services.html#!api-specification/markdown/narrative/technical_overview/streaming_ingest/getting_started_with_platform_streaming_ingestion.md)).
 1. Copy the payload from the payload preview in the **Event** menu. See [Defining the payload fields](../event/eventpayload.md#concept_yrw_3qt_52b).
-1. Configure your data system that pushes events to Streaming Ingestion APIs using the payload you copied:
 
-   1. Set up a POST API call to the Streaming Ingestion APIs URL (called an inlet).
-   1. Use the payload you copied from Journeys in the body ("data section") of the API call to Streaming Ingestion APIs. See below for an example
-   1. Determine where to get all the variables present in the payload. 
-        Example: if the event if supposed to convey the address, the payload pasted will show "address": "string". "string" should be replaced by the variable that will automatically populate the right value, the email of the person to send a message to. Note that in the payload preview, in the **Header** section, we autofill many values expected to facilitate your work.
-   1. Select "application/json" as a body type.
-   1. Pass your IMS ORG ID in the header using the key "x-gw-ims-org-id". For the value, use your IMS ORG ID ("XXX@AdobeOrg").
+You then need to configure the data system that pushes events to Streaming Ingestion APIs using the payload you copied:
+
+1. Set up a POST API call to the Streaming Ingestion APIs URL (called an inlet).
+1. Use the payload you copied from Journeys in the body ("data section") of the API call to Streaming Ingestion APIs. See below for an example
+1. Determine where to get all the variables present in the payload. Example: if the event if supposed to convey the address, the payload pasted will show "address": "string". "string" should be replaced by the variable that will automatically populate the right value, the email of the person to send a message to. Note that in the payload preview, in the **Header** section, we autofill many values expected to facilitate your work.
+1. Select "application/json" as a body type.
+1. Pass your IMS ORG ID in the header using the key "x-gw-ims-org-id". For the value, use your IMS ORG ID ("XXX@AdobeOrg").
 
 Here is an example of a Streaming Ingestion APIs event:
 

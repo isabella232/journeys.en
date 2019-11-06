@@ -25,11 +25,11 @@ The payload preview allows you to validate the payload definition.
 
 1. Click the **View payload** icon to preview the payload expected by the system.
 
-     ![](../assets/journey13.png)
+    ![](../assets/journey13.png)
 
-You can notice that the fields selected are displayed.
+    You can notice that the fields selected are displayed.
 
- ![](../assets/journey14.png)
+    ![](../assets/journey14.png)
 
 1. Check the preview to validate the payload definition.
 
