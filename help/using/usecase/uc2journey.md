@@ -30,49 +30,44 @@ For additional information on how to build a journey, refer to [Building a journ
 
 1. In the top bar, click **Journeys** and **Create** to create a new journey.
 
- ![](../assets/journey31.png)
+    ![](../assets/journey31.png)
 
 1. Edit the journey's properties by clicking on the pencil icon, add a name and set it to last for one month, from the 1st to the 30th of September.
 
- ![](../assets/journeyuc2_12.png)
+    ![](../assets/journeyuc2_12.png)
 
 1. Start designing your journey by drag and dropping the "LobbyBeacon" event from the palette to the canvas.
 
- ![](../assets/journeyuc2_13.png)
+    ![](../assets/journeyuc2_13.png)
 
 1. Let's now add a condition to check that the person has not been contacted in the last 24 hours and check if he is a loyalty member. Drag and drop a condition activity into your journey.
 
- ![](../assets/journeyuc2_14.png)
+    ![](../assets/journeyuc2_14.png)
 
 1. Choose the **Data Source Condition** type and click in the **Expression** field.
 
- ![](../assets/journeyuc2_15.png)
+    ![](../assets/journeyuc2_15.png)
 
 1. Click **Advanced mode** and define the following condition based on the _timestamp_ and _metrics._directMarketing.sends.value_ fields coming from the Experience Platform data source. The syntax of the expression is:
 
     ```
-
-    count(#{ExperiencePlatformDataSource.MarltonExperience.experienceevent.all(
-        currentDataPackField.directMarketing.sends.value > 0 and
-        currentDataPackField.timestamp > nowWithDelta(1, "days", "UTC")).timestamp}) == 0
-    and
-        #{ExperiencePlatformDataSource.MarltonProfiles.Profile._customer.marlton.loyaltyMember}
-
+count(#{ExperiencePlatformDataSource.MarltonExperience.experienceevent.all(
+    currentDataPackField.directMarketing.sends.value > 0 and
+    currentDataPackField.timestamp > nowWithDelta(1, "days", "UTC")).timestamp}) == 0
+and
+    #{ExperiencePlatformDataSource.MarltonProfiles.Profile._customer.marlton.loyaltyMember}
     ```
 
-
-![](../assets/journeyuc2_30.png)
+    ![](../assets/journeyuc2_30.png)
 
 1. Click the **Add a path** button and create a second path for customers who have not been contacted in the last 24 hours and are not a loyalty member. The syntax of the expression is:
 
     ```
-
-        count(#{ExperiencePlatformDataSource.MarltonExperience.experienceevent.all(
-            currentDataPackField.directMarketing.sends.value > 0 and
-            currentDataPackField.timestamp > nowWithDelta(1, "days", "UTC")).timestamp}) == 0
-        and not
-            #{ExperiencePlatformDataSource.MarltonProfiles.Profile._customer.marlton.loyaltyMember}
-
+count(#{ExperiencePlatformDataSource.MarltonExperience.experienceevent.all(
+    currentDataPackField.directMarketing.sends.value > 0 and
+    currentDataPackField.timestamp > nowWithDelta(1, "days", "UTC")).timestamp}) == 0
+and not
+    #{ExperiencePlatformDataSource.MarltonProfiles.Profile._customer.marlton.loyaltyMember}
     ```
 
 In our use case, we only want to react to those two conditions, so we don't check the box **Show path for other cases than the one(s) above**.
@@ -92,7 +87,9 @@ Two paths are created after your condition:
 
 1. Choose the **Data Source Condition** type, and define the condition based on the reservation status information retrieved from the reservation system:
 
-`#{MarltonReservation.MarltonFieldGroup.reservation} == true`
+    ```
+#{MarltonReservation.MarltonFieldGroup.reservation} == true
+    ```
 
     ![](../assets/journeyuc2_18.png)
 
@@ -104,10 +101,10 @@ Two paths are created after your condition:
 
     ![](../assets/journeyuc2_20.png)
 
- Two paths are created:
+    Two paths are created:
 
-* _Customers who have booked a room_
-* _Customers who have not booked a room._
+        * _Customers who have booked a room_
+        * _Customers who have not booked a room._
 
     ![](../assets/journeyuc2_21.png)
 
@@ -117,11 +114,8 @@ Two paths are created after your condition:
 
 1. Define the **Target** fields required by the system to send the push. 
 
-* **Push platform**: select the platform: **Apple Push Notification Server** or (Apple) or **Firebase Cloud Messaging** (Android).
-
-    <!--note type="attention">Quotes are required. </note-->
-
-* **Registration token**: since the token is included in the event, it is pre-filled.
+    * **Push platform**: select the platform: **Apple Push Notification Server** or (Apple) or **Firebase Cloud Messaging** (Android).
+    * **Registration token**: since the token is included in the event, it is pre-filled.
 
 1. Define the Push notification personalization fields. In our example: first name and last name.
 

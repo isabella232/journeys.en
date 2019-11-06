@@ -52,6 +52,7 @@ Here are the different steps to configure the reaction events:
     >[!NOTE]
     >
     >Reaction events cannot track actions that take place in a different journey. 
+    >
     >Reaction events track clicks on links of the type "tracked" (see this [page](https://docs.adobe.com/content/help/en/campaign-standard/using/designing-content/links.html#about-tracked-urls)). Unsubscription and mirror page links are not taken into account.
 
     >[!CAUTION]

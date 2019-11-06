@@ -36,8 +36,8 @@ The payload definition allows you to choose the information the system expects t
 
 1. When you're done selecting the needed fields, click **Save** or press **Enter**.
 
-    ![](../assets/journey11.png).
+    ![](../assets/journey11.png)
 
-The number of selected fields appears in the **Payload** field.
+    The number of selected fields appears in the **Payload** field.
 
-![](../assets/journey12.png)
+    ![](../assets/journey12.png)

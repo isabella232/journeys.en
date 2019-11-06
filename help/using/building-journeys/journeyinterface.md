@@ -17,11 +17,13 @@ snippet: y
 # The journey designer's interface {#concept_m1g_5qt_52b}
 
 The **journey list** allows you to view all your journeys at once, see their status and perform basic actions. You can duplicate, stop or delete your journeys. Depending on the journey, certain actions might not be available. For example, you can't stop or delete a stopped journey. You can also use the search bar to search for a journey. The **Filters** drop-down menu allows you to filter the displayed journeys according to different criteria (status, the ones you created, the ones modified in the last 30 days). You can also choose to only display the journeys that use a particular event, field group or action.
+
 All the versions of your journeys appear in the list with the version number. See [Journey versions](../building-journeys/journeyversions.md#concept_ldc_k55_zgb).
 
  ![](../assets/journey37.png)
 
 The **journey designer** is made up of the following zones: the palette, the canvas and the activity configurator.
+
 The **palette** is on the left-hand side of the screen. All available activities are sorted into several categories: **Events**, **Orchestration** and **Actions**. You can expand/collapse the different categories by clicking on their name. To use an activity in your journey, drag and drop it from the palette into your canvas. You have to configure each activity added from the palette before publishing the journey.
 
  ![](../assets/journey38.png)
@@ -45,6 +47,7 @@ Several activities (**Condition**, **Email**, **Push**, **SMS**) allow you to de
  ![](../assets/journey42.png)
 
 Various activities (../event/event, action, timer) allow you to add several paths after them. To do this, place your cursor on the activity and click on the "+" symbol. Only events and timers can be set in parallel. If several events are set in parallel, the chosen path will be the one of the first event happening. If you want to listen to an event only during a certain time, you will place an event and a timer in parallel. See [Advanced usage](../building-journeys/journeyevent.md#concept_rws_1rt_52b/section_vxv_h25_pgb).
+
 To delete the path, place your cursor on it and click the **Delete arrow** icon.
 
  ![](../assets/journey42ter.png)

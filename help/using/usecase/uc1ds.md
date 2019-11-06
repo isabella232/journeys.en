@@ -22,7 +22,7 @@ For additional information on data source configuration, refer to [Configuring a
 
 1. In the top bar, click **Data Sources** and select the build-in Experience Platform data source.
 
-![](../assets/journey23.png)
+	![](../assets/journey23.png)
 
 1. In the field groups, check that the following fields are selected:
 

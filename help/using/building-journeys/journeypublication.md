@@ -19,6 +19,7 @@ snippet: y
 ## Checking for errors {#section_h3q_kqk_fhb}
 
 Before testing and publishing your journey, verify that all the activities are properly configured.
+
 Errors appear with a warning symbol displayed on the activities themselves in the canvas. Place your cursor on the exclamation mark to display the error message. For example, if a mandatory field is empty, an error will be displayed.
 
  ![](../assets/journey63.png)
@@ -52,16 +53,16 @@ To use the test mode, follow these steps:
 
     ![](../assets/journeytest3.png)
 
-The number of individuals (_instances_) currently inside the journey are displayed. Here are examples of useful information that is displayed for each individual:
-* _Id_: the individual’s internal ID in the journey. This can be used for debugging purposes.
-* _currentstep_: the step where the individual is at in the journey. We recommend adding labels to your activities to identify them more easily.
-* _currentstep_ > phase: the status of the individual’s journey (running, finished, error or timed out). See below for more information.
-* _currentstep_ > _extraInfo_: description of the error and other contextual information.
-* _externalKeys_: the value for the key formula defined in the event.
-* _enrichedData_: the profile data that the journey has retrieved if the journey uses data sources with field groups.
-* _transitionHistory_: the list of steps that the individual followed. For events, the payload is displayed.
+    The number of individuals (_instances_) currently inside the journey are displayed. Here are examples of useful information that is displayed for each individual:
+	* _Id_: the individual’s internal ID in the journey. This can be used for debugging purposes.
+	* _currentstep_: the step where the individual is at in the journey. We recommend adding labels to your activities to identify them more easily.
+	* _currentstep_ > phase: the status of the individual’s journey (running, finished, error or timed out). See below for more information.
+	* _currentstep_ > _extraInfo_: description of the error and other contextual information.
+	* _externalKeys_: the value for the key formula defined in the event.
+	* _enrichedData_: the profile data that the journey has retrieved if the journey uses data sources with field groups.
+	* _transitionHistory_: the list of steps that the individual followed. For events, the payload is displayed.
 
-If there is any error, deactivate the test mode, modify your journey and test it again. When the test is conclusive, you can publish your journey. See [Publishing your journey](#section_w1b_mqk_fhb).
+1. If there is any error, deactivate the test mode, modify your journey and test it again. When the test is conclusive, you can publish your journey. See [Publishing your journey](#section_w1b_mqk_fhb).
 
 Here are the different statuses of an individual's journey:
 
@@ -75,8 +76,10 @@ Here are the different statuses of an individual's journey:
 1. Before publishing your journey, verify that it is valid and that there is no error. See [Checking for errors](#section_h3q_kqk_fhb). A warning symbol is displayed when there are errors. It is also recommended to test your journey before publication. See [Testing your journey](#section_ctr_lqk_fhb).
 1. To publish the journey, click on the **Publish** option, located in the top right drop-down menu.
 
-![](../assets/journeyuc1_18.png)
+	![](../assets/journeyuc1_18.png)
 
 When the journey is published, it is in read-only mode. 
+
 If you need to make modifications to a published journey, you need to create a new version of your journey. See [Journey versions](../building-journeys/journeyversions.md#concept_ldc_k55_zgb).
+
 If you stop a journey, it will be permanently stopped. If you need to use it again, you need to duplicate it and publish it.

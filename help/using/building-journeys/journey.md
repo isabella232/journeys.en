@@ -25,26 +25,28 @@ Only one namespace is allowed per journey. If you use several events in the same
 
 Here are the main steps to create and publish a journey.
 
-1. In the top bar, click **Journeys**. The list of journeys is displayed. See [The journey designer's interface](../building-journeys/journeyinterface.md#concept_m1g_5qt_52b) for more information on the interface.
+1. In the top bar, click **Journeys**. 
 
- ![](../assets/journey30.png)
+    The list of journeys is displayed. See [The journey designer's interface](../building-journeys/journeyinterface.md#concept_m1g_5qt_52b) for more information on the interface.
+
+    ![](../assets/journey30.png)
 
 1. Click **Create** to create a new journey.
 
- ![](../assets/journey31.png)
+    ![](../assets/journey31.png)
 
 1. Edit the journey's properties by clicking on the pencil icon. See [The journey's properties](../building-journeys/journeyproperty.md#concept_prq_wqt_52b).
 
- ![](../assets/journey32.png)
+    ![](../assets/journey32.png)
 
 1. Start by drag and dropping an event activity from the palette into the canvas.
 
- ![](../assets/journey33.png)
+    ![](../assets/journey33.png)
 
 1. Drag and drop your other activities and configure them. See [Events activities](../building-journeys/journeyevent.md#concept_rws_1rt_52b), [Orchestration activities](../building-journeys/journeyorchestration.md#concept_ksq_2rt_52b) and [Action activities](../building-journeys/journeyaction.md#concept_hbj_hrt_52b).
 
- ![](../assets/journey34.png)
+    ![](../assets/journey34.png)
 
 1. Your journey is automatically saved. Test your journey and publish it. See [Testing and publishing the journey](../building-journeys/journeypublication.md#concept_mtc_lrt_52b).
 
- ![](../assets/journey36.png)
+    ![](../assets/journey36.png)

@@ -16,12 +16,15 @@ snippet: y
 
 # Action activities {#concept_hbj_hrt_52b}
 
-From the palette, on the left-hand side of the screen, unfold the **Actions** category.![](../assets/journey58.png" placement="break" width="800" id="image_ayk_prm_z2b)
+From the palette, on the left-hand side of the screen, unfold the **Actions** category.
+
+![](../assets/journey58.png
 
 These activities represent the different available communication channels. You can combine them to create a cross-channel scenario. The following out-of-the-box action activities are available: **Email**, **Push** and **SMS**. If you've configured custom actions, they will also appear here (see [custom actions](../custom-action/custom.md)).
 
-When you drop an action activity in the canvas, you can define a **Label**. This allows you to add a suffix to the action name that will appear under your activity in the canvas. This is useful if you use the same action several times in your journey. You can also add an optional **Description**.![](../assets/journey59bis.png" placement="break" width="800" id="image_kty_lgz_pgb)
+When you drop an action activity in the canvas, you can define a **Label**. This allows you to add a suffix to the action name that will appear under your activity in the canvas. This is useful if you use the same action several times in your journey. You can also add an optional **Description**.
 
+![](../assets/journey59bis.png)
 
 For each of these channels, you select an Adobe Campaign Standard Transactional Messaging **template**. Indeed, Journeys is not a message sending solution. We rely on Transactional Messaging to execute message sending. It means that if you want to use a certain message template in your journeys, you must publish it in Adobe Campaign Standard. Refer to this [page](https://docs.adobe.com/content/help/en/campaign-standard/using/communication-channels/transactional-messaging/about-transactional-messaging.html) to learn how to use this feature.
 
@@ -75,7 +78,7 @@ First, you need to choose a mobile app from the drop-down list and a transaction
 
 Two categories are available: **Target** and **Personalization Data**.
 
-* **Target**
+**Target**
 
 >[!NOTE]
 >
@@ -83,13 +86,13 @@ Two categories are available: **Target** and **Personalization Data**.
     
 In this section, you define the **Push Platform** (iOS or Android) and **Registration Token**. The registration token needs to be defined in the payload of the nearest event. It is pre-filled as follows:
 
-    ```
+```
+@{eventName.'_experience'.campaign.message.profileSnapshot.pushNotificationTokens.first().token}
+```
 
-        @{eventName.'_experience'.campaign.message.profileSnapshot.pushNotificationTokens.first().token}
-    ```
-* **Personalization Data**
+**Personalization Data**
 
-    These are the fields used in your Adobe Campaign Standard template to personalize your message, apply conditional formatting, or pick a specific message variant. 
+These are the fields used in your Adobe Campaign Standard template to personalize your message, apply conditional formatting, or pick a specific message variant. 
 
 ## Custom actions {#section_f2c_hbg_nhb}
 
