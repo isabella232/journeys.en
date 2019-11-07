@@ -30,7 +30,7 @@ For additional information on data source configuration, refer to [](../datasour
     * _person > name > lastName_
     * _personalEmail > address_
 
-1. Click **Add a New Field Group**, select a **Profiles** schema and add the **Loyalty member** field for our condition. The **Loyalty member** field is a custom field and was added in XDM: __customer > marlton > loyaltyMember_
+1. Click **Add a New Field Group**, select a **Profiles** schema and add the **Loyalty member** field for our condition. The **Loyalty member** field is a custom field and was added in XDM: "_customer > marlton > loyaltyMember"
 
     ![](../assets/journeyuc2_6.png)
 

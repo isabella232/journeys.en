@@ -22,15 +22,15 @@ There are two kinds of operators: unary operators and binary operators. There ar
 ```
 
     // left-hand unary operators
-    &lt;operator> &lt;operand> // operand is an expression
+    <operator> <operand> // operand is an expression
     not (@{LobbyBeacon.endUserIDs._experience.emailid.id}=="example@adobe.com")
 
     // right-hand unary operators
-    &lt;operand> &lt;operator> // operand is an expression
+    <operand> <operator> // operand is an expression
     @{LobbyBeacon.endUserIDs._experience.emailid.id} is not null
 
     // binary operators
-    &lt;operand1> &lt;operator> &lt;operand2>
+    <operand1> <operator> <operand2>
     (@{LobbyBeacon.endUserIDs._experience.emailid.id}=="example1@adobe.com") or
     (@{LobbyBeacon.endUserIDs._experience.emailid.id}=="example2@adobe.com")
 ```

@@ -20,9 +20,9 @@ The key is the field or combination of fields is part of the event payload data 
 
 If you plan to leverage data stored in the Unified Profile database, you must select, as the event key, information you defined as a profile's identity in the [Unified Profile Service](https://www.adobe.io/apis/cloudplatform/dataservices/profile-identity-segmentation/profile-identity-segmentation-services.html#!api-specification/markdown/narrative/technical_overview/unified_profile_architectural_overview/unified_profile_architectural_overview.md).
 
-It will allow the system to perform the reconciliation between the event and the individual's profile. If you select a schema that has a primary identity, then the **Key** and **Namespace** fields are pre-filled. If there is no identity defined, we select __identityMap > id__ as the primary key.
+It will allow the system to perform the reconciliation between the event and the individual's profile. If you select a schema that has a primary identity, then the **Key** and **Namespace** fields are pre-filled. If there is no identity defined, we select _identityMap > id_ as the primary key. Then you have to select a namespace and the key will be pre-filled (below the **Namespace** field) using _identityMap > id_.
 
-Then you have to select a namespace and the key will be pre-filled (below the **Namespace** field) using __identityMap > id__.If you need to use a different key, such as a CRM ID or an email address, you need to add it manually:
+If you need to use a different key, such as a CRM ID or an email address, you need to add it manually:
 
 1. Click inside the **Key** field or on the pencil icon.
 

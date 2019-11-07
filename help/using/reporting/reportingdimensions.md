@@ -28,13 +28,13 @@ The table below gives you the list of dimensions used in journey reports and the
 
 |Dimensions|Definition|
 |--- |--- |
-|Action|List of every action (action name - action label) used in journeys e.g. Push - Check out confirmation, Email - Rewards fidelity.|
-|Data source|List of data sources (data source name) used to enrich data in a journey e.g. Experience platform, Reservation system.|
-|Event|List of every event (../event/event name - event label) used in journeys e.g. Geometrixx event - Geometrixx check out.|
-|Field group|List of field groups (field group name) used to enrich data in journeys e.g. Profile field group, Geometrixx reservation system.|
-|Journey|List of every journey (../building-journeys/journey name) in test mode and live e.g. Cart abandonment, Hotel reservation notification.|
-|Journey version|List of every published version of a journey (../building-journeys/journey name + version's number) e.g. Cart abandonment v1, Hotel reservation notification v2.|
-|Orchestration|List of every orchestration activity (Condition, End, Timer) defined and used in journeys.|
+|Action|List of every action (**action name - action label**) used in journeys e.g. Push - Check out confirmation, Email - Rewards fidelity.|
+|Data source|List of data sources (**data source name**) used to enrich data in a journey e.g. Experience platform, Reservation system.|
+|Event|List of every event (**event name - event label**) used in journeys e.g. Geometrixx event - Geometrixx check out.|
+|Field group|List of field groups (**field group name**) used to enrich data in journeys e.g. Profile field group, Geometrixx reservation system.|
+|Journey|List of every journey (**journey name**) in test mode and live e.g. Cart abandonment, Hotel reservation notification.|
+|Journey version|List of every published version of a journey (**journey name + version's number**) e.g. Cart abandonment v1, Hotel reservation notification v2.|
+|Orchestration|List of every orchestration activity (**Condition, End, Timer**) defined and used in journeys. Condition: Data source condition (condition + number - label) e.g. Condition 1 - No credit card, Condition 2 - credit card holder. Time condition, date condition and split condition (condition number - split number - split details) e.g. Condition - split 1 - 50, Condition 2 - split 2 - 50.|
 
 ## Journey metrics {#MBE_p_p22_c4j_w2b}
 

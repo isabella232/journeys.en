@@ -128,21 +128,21 @@ The format of this authentication is:
 ```
 {
     "type": "customAuthorization",
-    "authorizationType": "&lt;value in 'bearer', 'header' or 'queryParam'>",
-    (optional, mandatory if authorizationType is 'header' or 'queryParam') "tokenTarget": "&lt;name of the header or queryParam if the authorizationType is 'header' or 'queryParam'>",
-    "endpoint": "&lt;URL of the authentication endpoint>",
+    "authorizationType": "<value in 'bearer', 'header' or 'queryParam'>",
+    (optional, mandatory if authorizationType is 'header' or 'queryParam') "tokenTarget": "<name of the header or queryParam if the authorizationType is 'header' or 'queryParam'>",
+    "endpoint": "<URL of the authentication endpoint>",
     "method": "&lt;HTTP method to call the authentication endpoint, in 'GET' or 'POST'>",
     (optional) "headers: {
-        "&lt;header name>": "&lt;header value>",
+        "<header name>": "&lt;header value>",
         ...
     },
     (optional, mandatory if method is 'POST') "body": {
-        "bodyType": "&lt;'form'or 'json'>,
+        "bodyType": "<'form'or 'json'>,
         "bodyParams": {
             "param1": value1,
             ...
         }
     },
-    "tokenInResponse": "&lt;'response' or json selector in format 'json://&lt;field path to access token>'"
+    "tokenInResponse": "<'response' or json selector in format 'json://<field path to access token>'"
 }
 ```
