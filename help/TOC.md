@@ -8,6 +8,9 @@ index: n
 # Journeys Help {#using}
 
 + [Product documentation](journeys-home.md)
++ Release Notes {#release-notes}
+  + [Release Notes](using/rn/release-notes.md)
+  + [Documentation Updates](using/rn/documentation-updates.md)
 + Starting with Journeys {#starting-with-journeys}
   + [About Journeys](using/about/intro.md)
   + [User Process](using/about/aboutprocess.md)
