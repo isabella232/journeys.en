@@ -63,9 +63,9 @@ We also need to check if the person has a reservation in the hotel reservation s
     * **Response Payload**: click inside the **Payload** field and paste an example of the payload. Verify that the field types are correct. Each time the API is called, the system will retrieve all the fields included in the payload example. In our example, the payload only contains the reservation status:
 
         ```
-{
-"reservation" : true
-}
+    {
+        "reservation" : true
+    }
         ```
 
     * **Dynamic Values**: enter the parameter corresponding to the key used to identify each customer, "id" in our example. The value of this parameter will be defined in the journey.

@@ -28,7 +28,6 @@ If you're using special characters in a field, you need to use double quotes. He
 For example if your field is _3h_: _#{OpenWeather.weatherData.rain.'3h'} > 0_
 
 ```
-
 // event field
 @{&lt;event name>.&lt;XDM path to the field>}
 @{LobbyBeacon.endUserIDs._experience.emailid.id}
@@ -36,7 +35,6 @@ For example if your field is _3h_: _#{OpenWeather.weatherData.rain.'3h'} > 0_
 // field group
 #{&lt;data source name>.&lt;field group name>.&lt;path to the field>}
 #{ExperiencePlatformDataSource.ProfileFieldGroup.Profile.personalEmail.address}
-
 ```
 
 In the expression, event fields are referenced with "@" and data source fields are referenced with "#".
@@ -48,7 +46,6 @@ A syntax color is used to visually distinguish events fields (green) from field 
 A default value can be associated to a field name. the syntax is as follows:
 
     ```
-
     // event field
     @{&lt;event name>.&lt;XDM path to the field>, defaultValue: &lt;default value expression>}
     @{LobbyBeacon.endUserIDs._experience.emailid.id, defaultValue: "example@adobe.com"}
@@ -59,7 +56,7 @@ A default value can be associated to a field name. the syntax is as follows:
 
 >[!NOTE]
 >
->The type of the field and the default value must be the same. For example, _@{LobbyBeacon.endUserIDs._experience.emailid.id, defaultValue : 2}_ will be invalid because the default value is an integer whereas the expected value should be a string.
+>The type of the field and the default value must be the same. For example, `@{LobbyBeacon.endUserIDs._experience.emailid.id, defaultValue : 2} will be invalid because the default value is an integer whereas the expected value should be a string.
 
 **Parameter values of a data source (data source dynamic values)**
 
@@ -74,7 +71,6 @@ For more complex use cases, if you want to include the parameters of the data so
 Use the following syntax:
 
     ```
-
     #{&lt;datasource>.&lt;field group>.fieldName, params: {&lt;params-1-name>: &lt;params-1-value>, &lt;params-2-name>: &lt;params-2-value>}}
     ```
 
@@ -84,7 +80,6 @@ Use the following syntax:
 Example:
 
     ```
-
     #{Weather.main.temperature, params: {localisation: @{Profile.address.localisation}}}
     #{Weather.main.temperature, params: {localisation: #{GPSLocalisation.main.coordinates, params: {city: @{Profile.address.city}}}}}
     ```

@@ -54,13 +54,14 @@ To use the test mode, follow these steps:
     ![](../assets/journeytest3.png)
 
     The number of individuals (_instances_) currently inside the journey are displayed. Here are examples of useful information that is displayed for each individual:
-        * _Id_: the individual’s internal ID in the journey. This can be used for debugging purposes.
-        * _currentstep_: the step where the individual is at in the journey. We recommend adding labels to your activities to identify them more easily.
-        * _currentstep_ > phase: the status of the individual’s journey (running, finished, error or timed out). See below for more information.
-        * _currentstep_ > _extraInfo_: description of the error and other contextual information.
-        * _externalKeys_: the value for the key formula defined in the event.
-        * _enrichedData_: the profile data that the journey has retrieved if the journey uses data sources with field groups.
-        * _transitionHistory_: the list of steps that the individual followed. For events, the payload is displayed.
+
+    * _Id_: the individual’s internal ID in the journey. This can be used for debugging purposes.
+    * _currentstep_: the step where the individual is at in the journey. We recommend adding labels to your activities to identify them more easily.
+    * _currentstep_ > phase: the status of the individual’s journey (running, finished, error or timed out). See below for more information.
+    * _currentstep_ > _extraInfo_: description of the error and other contextual information.
+    * _externalKeys_: the value for the key formula defined in the event.
+    * _enrichedData_: the profile data that the journey has retrieved if the journey uses data sources with field groups.
+    * _transitionHistory_: the list of steps that the individual followed. For events, the payload is displayed.
 
 1. If there is any error, deactivate the test mode, modify your journey and test it again. When the test is conclusive, you can publish your journey. See [Publishing your journey](#section_w1b_mqk_fhb).
 

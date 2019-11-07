@@ -27,7 +27,7 @@ Reports can be accessed two different ways depending on the data you want to fil
 
     ![](../assets/dynamic_report_journey.png)
 
-* From your journey dashboard by clicking the ![](../assets/report_icon.png) icon, you can access the report for this specific journey. 
+* From your journey dashboard by clicking the reporting icon, you can access the report for this specific journey. 
 
     ![](../assets/dynamic_report_journey_2.png)
 
