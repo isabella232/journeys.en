@@ -35,13 +35,13 @@ Here is how constant expressions are represented:
     </tr>
     <tr>
         <td>integer</td>
-        <td>Integer value from -2^63 to 2^63-1.<br/>JSON format: Number</td>
+        <td><p>Integer value from -2^63 to 2^63-1.</p><br/><p>JSON format: Number</p></td>
         <td>&lt;integer value&gt;</td>
         <td>42</td>
     </tr>
     <tr>
         <td>decimal</td>
-        <td>Decimal number.<br/> It represents a floating value:<br/>largest positive finite value of type double, (2-2^-52)x2^1023<br/>smallest positive normal value of type double, 2-1022<br/>smallest positive nonzero value of type double, 2 p-1074<br/>JSON format: Number<br/>Serialization format: using '.' as the decimal separator.</td>
+        <td><p>Decimal number.</p><br/><ul> It represents a floating value:<li><br/>largest positive finite value of type double, (2-2^-52)x2^1023</li><br/><li>smallest positive normal value of type double, 2-1022</li><br/><li>smallest positive nonzero value of type double, 2 p-1074</li></ul><br/><p>JSON format: Number</p><br/><p>Serialization format: using '.' as the decimal separator.</p></td>
         <td>&lt;integer value&gt;.&lt;integer value&gt;</td>
         <td>3.14</td>
     </tr>
