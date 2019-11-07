@@ -42,7 +42,7 @@ Here is how constant expressions are represented:
     </tr>
     <tr>
         <td>string</td>
-        <td>Common sequence of characters.<br/>It doesn't have any specific size except the implicit one that comes from the environment such as the amount of memory available.<br/>JSON format: String<br/>Serialization format: UTF-8</td>
+        <td><p>Common sequence of characters.</p><br/><p>It doesn't have any specific size except the implicit one that comes from the environment such as the amount of memory available.</p><br/>JSON format: String<br/>Serialization format: UTF-8</td>
         <td>`"&lt;value&gt;"`<br/>`'&lt;value&gt;'`</td>
         <td>`"hello world"`<br/> `'hello world'`</td>
     </tr>
