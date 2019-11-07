@@ -38,7 +38,9 @@ To go back to your deliveries from your report, click your delivery's name in th
 For more information on the reporting interface, refer to the [Adobe Campaign Standard documentation.](https://helpx.adobe.com/campaign/standard/reporting/using/reporting-interface.html)
 
 **Out-of-the-box template**
+
 Reports are divided into two categories: an out-of-the-box template and custom reports.
+
 The out-of-the-box template, **Journey summary**, gives you a clear view of the most important tracking data.
 
  ![](../assets/dynamic_report_journey_8.png)
