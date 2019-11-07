@@ -97,7 +97,7 @@ Two paths are created after your condition:
 
     ```
     @{LobbyBeacon.endUserIDs._experience.mcid.id}
-    ``
+    ```
 
     ![](../assets/journeyuc2_19.png)
 
