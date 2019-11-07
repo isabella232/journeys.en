@@ -17,6 +17,7 @@ snippet: y
 # Configuring a data source {#concept_s1s_dqt_52b}
 
 The data source configuration is always performed by a **technical user**.
+
 The data source configuration allows you to define a connection to a system to retrieve additional information that will be used in your journeys, for:
 
 * condition definition
@@ -25,6 +26,7 @@ The data source configuration allows you to define a connection to a system to r
 * custom timezone definition
 
 This configuration is not required if your journeys only leverage local data coming from an event payload. For example, if your journey is composed of an event followed by an email activity that only uses data from the event, there is no need to configure a data source.
+
 There are two types of data sources:
 
 * The pre-configured Experience Platform data source that defines the connection to the Unified Profile Service. This is a built-in data source. See [Adobe Experience Platform data source](../datasource/dsplatform.md).

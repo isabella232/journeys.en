@@ -40,7 +40,8 @@ Here are the main steps to configure a new event:
 
 1. In the top bar, click **Events**. The list of events is displayed. See [the Journeys' interface](../about/aboutinterface.md#concept_rcq_lqt_52b) for more information on the interface.
 
-   ![](../assets/journey5.png)
+    ![](../assets/journey5.png)
+
 
 1. Click **Add** to create a new event. The event configurator opens on the right side of the screen.
 
@@ -56,6 +57,6 @@ Here are the main steps to configure a new event:
 1. Add a condition. This step is optional. This allows the system to only process the events that meet the condition. The condition can only be based on information contained in the event. See [Adding a condition](../event/eventcondition.md#concept_rbg_gqt_52b).
 1. Click **Save**.
 
- ![](../assets/journey7.png)
+    ![](../assets/journey7.png)
 
-The event is now configured and ready to be dropped into a journey. Additional configuration steps are required to receive events. See [Additional steps to send events to Journeys](../event/eventsteps.md#concept_xrz_n1q_y2b).
+    The event is now configured and ready to be dropped into a journey. Additional configuration steps are required to receive events. See [Additional steps to send events to Journeys](../event/eventsteps.md#concept_xrz_n1q_y2b).

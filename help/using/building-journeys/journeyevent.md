@@ -49,15 +49,15 @@ Here are the different steps to configure the reaction events:
 
 1. You can define a condition as an optional step. For example, after an email action, you can decide to create two paths, one with a reaction event to track clicks only for VIP customers and one with a reaction event to track clicks performed by women.
 
-    >[!NOTE]
-    >
-    >Reaction events cannot track actions that take place in a different journey. 
-    >
-    >Reaction events track clicks on links of the type "tracked" (see this [page](https://docs.adobe.com/content/help/en/campaign-standard/using/designing-content/links.html#about-tracked-urls)). Unsubscription and mirror page links are not taken into account.
+>[!NOTE]
+>
+>Reaction events cannot track actions that take place in a different journey. 
+>
+>Reaction events track clicks on links of the type "tracked" (see this [page](https://docs.adobe.com/content/help/en/campaign-standard/using/designing-content/links.html#about-tracked-urls)). Unsubscription and mirror page links are not taken into account.
 
-    >[!CAUTION]
-    >
-    >**Warning**: email clients such as Gmail allow image blocking. Emails opens are tracked using a 0-pixel image included in the email. If images are blocked, email opens will not be taken into account.
+>[!CAUTION]
+>
+>Email clients such as Gmail allow image blocking. Emails opens are tracked using a 0-pixel image included in the email. If images are blocked, email opens will not be taken into account.
 
 ## Advanced usage {#section_vxv_h25_pgb}
 

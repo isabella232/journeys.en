@@ -37,7 +37,6 @@ You then need to configure the data system that pushes events to Streaming Inges
 Here is an example of a Streaming Ingestion APIs event:
 
 ```
-
 {
     "header": {
         "msgType": "xdmEntityCreate",
