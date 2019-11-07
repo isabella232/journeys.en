@@ -48,7 +48,7 @@ For additional information on how to build a journey, refer to [Building a journ
 
     ![](../assets/journeyuc2_15.png)
 
-1. Click **Advanced mode** and define the following condition based on the _timestamp_ and _metrics._directMarketing.sends.value_ fields coming from the Experience Platform data source. The syntax of the expression is:
+1. Click **Advanced mode** and define the following condition based on the "timestamp" and "metrics._directMarketing.sends.value" fields coming from the Experience Platform data source. The syntax of the expression is:
 
     ```
     count(#{ExperiencePlatformDataSource.MarltonExperience.experienceevent.all(
@@ -97,7 +97,7 @@ Two paths are created after your condition:
 
     ```
     @{LobbyBeacon.endUserIDs._experience.mcid.id}
-    ```
+    ``
 
     ![](../assets/journeyuc2_19.png)
 

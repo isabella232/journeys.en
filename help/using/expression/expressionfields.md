@@ -23,7 +23,7 @@ If you're using special characters in a field, you need to use double quotes. He
 
 * the field starts with numerical characters
 * the field starts with the "-" character
-* the field contains anything other than: _a_-_z_, _A_-_Z_, _0_-_9_, _, _-_
+* the field contains anything other than: _a_-_z_, _A_-_Z_, _0_-_9_, ___, _-_
 
 For example if your field is _3h_: _#{OpenWeather.weatherData.rain.'3h'} > 0_
 
@@ -47,7 +47,7 @@ A default value can be associated to a field name. the syntax is as follows:
 
 ```
 // event field
-@{<event name>.&lt;XDM path to the field>, defaultValue: <default value expression>}
+@{<event name>.<XDM path to the field>, defaultValue: <default value expression>}
 @{LobbyBeacon.endUserIDs._experience.emailid.id, defaultValue: "example@adobe.com"}
 // field group
 #{<data source name>.<field group name>.<path to the field>, defaultValue: <default value expression>}
@@ -56,7 +56,7 @@ A default value can be associated to a field name. the syntax is as follows:
 
 >[!NOTE]
 >
->The type of the field and the default value must be the same. For example, `@{LobbyBeacon.endUserIDs._experience.emailid.id, defaultValue : 2}` will be invalid because the default value is an integer whereas the expected value should be a string.
+>The type of the field and the default value must be the same. For example, `@{LobbyBeacon.endUserIDs._experience.emailid.id, defaultValue : 2} will be invalid because the default value is an integer whereas the expected value should be a string.
 
 **Parameter values of a data source (data source dynamic values)**
 
