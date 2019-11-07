@@ -41,7 +41,7 @@ Here is how constant expressions are represented:
     </tr>
     <tr>
         <td>decimal</td>
-        <td><p>Decimal number.</p><br/><ul> It represents a floating value:<li><br/>largest positive finite value of type double, (2-2^-52)x2^1023</li><br/><li>smallest positive normal value of type double, 2-1022</li><br/><li>smallest positive nonzero value of type double, 2 p-1074</li></ul><br/><p>JSON format: Number</p><br/><p>Serialization format: using '.' as the decimal separator.</p></td>
+        <td><p>Decimal number.</p><br/>It represents a floating value:<ul><li><br/>largest positive finite value of type double, (2-2^-52)x2^1023</li><br/><li>smallest positive normal value of type double, 2-1022</li><br/><li>smallest positive nonzero value of type double, 2 p-1074</li></ul><br/><p>JSON format: Number</p><br/><p>Serialization format: using '.' as the decimal separator.</p></td>
         <td>&lt;integer value&gt;.&lt;integer value&gt;</td>
         <td>3.14</td>
     </tr>
@@ -53,7 +53,7 @@ Here is how constant expressions are represented:
     </tr>
     <tr>
         <td>dateTimeOnly</td>
-        <td>It represents a date-time without a time-zone, often viewed as year-month-day-hour-minute-second-millisecond.<br/>It does not store or represent a time-zone. <br/>Instead, it is a description of the date, as used for birthdays, combined with the local time as seen on a wall clock. <br/>It cannot represent an instant on the time-line without additional information such as an offset or time-zone.<br/>Serialization format: ISO-8601 extended offset date-time format.<br/> It uses DateTimeFormatter.ISO_LOCAL_DATE_TIME to deserialize and serialize the value.<br/> [Learn more](https://docs.oracle.com/javase/8/docs/api/java/time/format/DateTimeFormatter.html#ISO_LOCAL_DATE_TIME)).</td>
+        <td>It represents a date-time without a time-zone, often viewed as year-month-day-hour-minute-second-millisecond.<br/>It does not store or represent a time-zone. <br/>Instead, it is a description of the date, as used for birthdays, combined with the local time as seen on a wall clock. <br/>It cannot represent an instant on the time-line without additional information such as an offset or time-zone.<br/>Serialization format: ISO-8601 extended offset date-time format.<br/> It uses DateTimeFormatter.ISO_LOCAL_DATE_TIME to deserialize and serialize the value.<br/> <a href="https://docs.oracle.com/javase/8/docs/api/java/time/format/DateTimeFormatter.html#ISO_LOCAL_DATE_TIME">Learn more</a>.</td>
         <td>toDateTimeOnly("&lt;dateTimeOnly in ISO-8601 format&gt;")<br/>toDateTimeOnly(&lt;year&gt;, &lt;month&gt;, &lt;day&gt;, &lt;hour&gt;, &lt;minute&gt;, &lt;second&gt;)</td>
         <td>toDateTimeOnly("1977-04-22T06:00:00")<br/>toDateTimeOnly(1977, 4, 22, 6, 0, 0")<br/>Examples of serialized dateTimeOnly:<br/>2011-12-03T15:15:30<br/>2011-12-03T15:15:30.123</td>
     </tr>
