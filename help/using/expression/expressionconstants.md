@@ -80,6 +80,6 @@ Here is how constant expressions are represented:
         <td>list</td>
         <td>Comma separated list of expressions using square brackets as delimiters. <br />Polymorphism is not supported, hence all the expressions contained in the list should have the same type.</td>
         <td>[&lt;expression&gt;, &lt;expression&gt;, ... ]</td>
-        <td>["value1","value2"]<br />[3,5]<br />[toDuration(500),toDuration(800)]</td>
+        <td><code>["value1","value2"]</code><br /><code>[3,5]</code><br /><code>[toDuration(500),toDuration(800)]</code></td>
     </tr>
 </table>
