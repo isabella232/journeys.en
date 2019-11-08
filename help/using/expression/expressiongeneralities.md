@@ -18,7 +18,9 @@ snippet: y
 
 ## Parenthesis and expression priority{#section_edf_fks_bgb}
 
-Parenthesis can be used to make a complex expression more readable. __(`<expression>`)__ is the equivalent of __`<expression>`__. Parenthesis can also be used to define the evaluation order and associativity.
+
+Parenthesis can be used to make a complex expression more readable. _(&lt;expression>)_ is the equivalent of _&lt;expression>_. Parenthesis can also be used to define the evaluation order and associativity.
+
 
 The expressions will be evaluated from left to right. The associativity on arithmetic operators must be applied: multiplications and divisions take priority over additions and subtractions. In order to impose a specific order, parenthesis must be written to delimit the operations. For example:
 

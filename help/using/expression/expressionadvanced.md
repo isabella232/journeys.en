@@ -40,7 +40,7 @@ You can access the query editor in different ways:
 
 * When you create a data source condition, you can access the advanced editor by clicking on **Advanced mode**.
 
-![](../assets/journeyuc2_33.png)
+    ![](../assets/journeyuc2_33.png)
 
 * When you create a custom timezone or a custom timer, the advanced editor will be directly displayed.
 * When you map custom action parameters and email, SMS, push personalization you can access it by clicking on **Advanced mode**.

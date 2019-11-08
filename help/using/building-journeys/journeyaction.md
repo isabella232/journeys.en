@@ -18,7 +18,7 @@ snippet: y
 
 From the palette, on the left-hand side of the screen, unfold the **Actions** category.
 
-![](../assets/journey58.png
+![](../assets/journey58.png)
 
 These activities represent the different available communication channels. You can combine them to create a cross-channel scenario. The following out-of-the-box action activities are available: **Email**, **Push** and **SMS**. If you've configured custom actions, they will also appear here (see [custom actions](../custom-action/custom.md)).
 

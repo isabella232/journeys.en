@@ -48,14 +48,14 @@ For additional information on how to build a journey, refer to [Building a journ
 
     ![](../assets/journeyuc2_15.png)
 
-1. Click **Advanced mode** and define the following condition based on the _timestamp_ and _metrics._directMarketing.sends.value_ fields coming from the Experience Platform data source. The syntax of the expression is:
+1. Click **Advanced mode** and define the following condition based on the "timestamp" and "metrics._directMarketing.sends.value" fields coming from the Experience Platform data source. The syntax of the expression is:
 
     ```
-count(#{ExperiencePlatformDataSource.MarltonExperience.experienceevent.all(
-    currentDataPackField.directMarketing.sends.value > 0 and
-    currentDataPackField.timestamp > nowWithDelta(1, "days", "UTC")).timestamp}) == 0
-and
-    #{ExperiencePlatformDataSource.MarltonProfiles.Profile._customer.marlton.loyaltyMember}
+    count(#{ExperiencePlatformDataSource.MarltonExperience.experienceevent.all(
+        currentDataPackField.directMarketing.sends.value > 0 and
+        currentDataPackField.timestamp > nowWithDelta(1, "days", "UTC")).timestamp}) == 0
+    and
+        #{ExperiencePlatformDataSource.MarltonProfiles.Profile._customer.marlton.loyaltyMember}
     ```
 
     ![](../assets/journeyuc2_30.png)
@@ -63,11 +63,11 @@ and
 1. Click the **Add a path** button and create a second path for customers who have not been contacted in the last 24 hours and are not a loyalty member. The syntax of the expression is:
 
     ```
-count(#{ExperiencePlatformDataSource.MarltonExperience.experienceevent.all(
-    currentDataPackField.directMarketing.sends.value > 0 and
-    currentDataPackField.timestamp > nowWithDelta(1, "days", "UTC")).timestamp}) == 0
-and not
-    #{ExperiencePlatformDataSource.MarltonProfiles.Profile._customer.marlton.loyaltyMember}
+    count(#{ExperiencePlatformDataSource.MarltonExperience.experienceevent.all(
+        currentDataPackField.directMarketing.sends.value > 0 and
+        currentDataPackField.timestamp > nowWithDelta(1, "days", "UTC")).timestamp}) == 0
+    and not
+        #{ExperiencePlatformDataSource.MarltonProfiles.Profile._customer.marlton.loyaltyMember}
     ```
 
 In our use case, we only want to react to those two conditions, so we don't check the box **Show path for other cases than the one(s) above**.
@@ -93,7 +93,11 @@ Two paths are created after your condition:
 
     ![](../assets/journeyuc2_18.png)
 
-1. When you select a field from an external data source, the right part of the screen displays the list of parameters that were defined when configuring the external data source (see [Configuring the data sources](uc2ds.md#concept_vml_hdy_w2b)). This lets you define the values of the parameters that the system will send to the data source before performing the condition. The external system will then return the payload containing the needed fields. In our case, we have defined one field (the reservation status) and one parameter (the key to identify the customer). Click on the parameter name and define the value of the reservation system key, the Experience Cloud ID, in our example:`@{LobbyBeacon.endUserIDs._experience.mcid.id}`
+1. When you select a field from an external data source, the right part of the screen displays the list of parameters that were defined when configuring the external data source (see [Configuring the data sources](uc2ds.md#concept_vml_hdy_w2b)). This lets you define the values of the parameters that the system will send to the data source before performing the condition. The external system will then return the payload containing the needed fields. In our case, we have defined one field (the reservation status) and one parameter (the key to identify the customer). Click on the parameter name and define the value of the reservation system key, the Experience Cloud ID, in our example:
+
+    ```
+    @{LobbyBeacon.endUserIDs._experience.mcid.id}
+    ```
 
     ![](../assets/journeyuc2_19.png)
 
@@ -103,8 +107,8 @@ Two paths are created after your condition:
 
     Two paths are created:
 
-        * _Customers who have booked a room_
-        * _Customers who have not booked a room._
+    * _Customers who have booked a room_
+    * _Customers who have not booked a room._
 
     ![](../assets/journeyuc2_21.png)
 
@@ -137,7 +141,7 @@ Two paths are created after your condition:
 
 ## Second path: the customer is not a loyalty member{#section_ptb_ws1_ffb}
 
-1. In the second path that follows the first condition (../custom-action/customer is not a loyalty member), add an **Email** activity and select your "Loyalty membership" template.
+1. In the second path that follows the first condition (customer is not a loyalty member), add an **Email** activity and select your "Loyalty membership" template.
 
     ![](../assets/journeyuc2_26.png)
 

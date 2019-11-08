@@ -27,7 +27,8 @@ If you're using special characters in a field, you need to use double quotes. He
 
 For example if your field is _3h_: _#{OpenWeather.weatherData.rain.'3h'} > 0_
 
- ```
+
+```
 
 // event field
 @{<event name>.<XDM path to the field>}
@@ -37,7 +38,8 @@ For example if your field is _3h_: _#{OpenWeather.weatherData.rain.'3h'} > 0_
 #{<data source name>.<field group name>.<path to the field>}
 #{ExperiencePlatformDataSource.ProfileFieldGroup.Profile.personalEmail.address}
 
- ```
+```
+
 
 In the expression, event fields are referenced with "@" and data source fields are referenced with "#".
 
@@ -47,21 +49,20 @@ A syntax color is used to visually distinguish events fields (green) from field 
 
 A default value can be associated to a field name. the syntax is as follows:
 
- ```
 
+```
 // event field
 @{<event name>.<XDM path to the field>, defaultValue: <default value expression>}
 @{LobbyBeacon.endUserIDs._experience.emailid.id, defaultValue: "example@adobe.com"}
-
 // field group
 #{<data source name>.<field group name>.<path to the field>, defaultValue: <default value expression>}
 #{ExperiencePlatformDataSource.ProfileFieldGroup.Profile.personalEmail.address, defaultValue: "example@adobe.com"}
-    
- ```
+```
+
 
 >[!NOTE]
 >
->The type of the field and the default value must be the same. For example, _@{LobbyBeacon.endUserIDs._experience.emailid.id, defaultValue : 2}_ will be invalid because the default value is an integer whereas the expected value should be a string.
+>The type of the field and the default value must be the same. For example, `@{LobbyBeacon.endUserIDs._experience.emailid.id, defaultValue : 2} will be invalid because the default value is an integer whereas the expected value should be a string.
 
 **Parameter values of a data source (data source dynamic values)**
 
@@ -75,20 +76,20 @@ For more complex use cases, if you want to include the parameters of the data so
 
 Use the following syntax:
 
- ```
 
+```
 #{<datasource>.<field group>.fieldName, params: {<params-1-name>: <params-1-value>, <params-2-name>: <params-2-value>}}
-    
- ```
+```
+
 
 * **`<params-1-name>`**: exact name of the first parameter from the data source.
 * **`<params-1-value>`**: the value of the first parameter. It can be any valid expression.
 
 Example:
 
- ```
 
+```
 #{Weather.main.temperature, params: {localisation: @{Profile.address.localisation}}}
 #{Weather.main.temperature, params: {localisation: #{GPSLocalisation.main.coordinates, params: {city: @{Profile.address.city}}}}}
-    
- ```
+```
+

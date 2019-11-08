@@ -22,23 +22,23 @@ This section will present you how to create or use out-of-the-box reports. Combi
 
 1. Click the **Create new project** if you want to create your report from scratch. 
 
-![](../assets/dynamic_report_journey_3.png)
+    ![](../assets/dynamic_report_journey_3.png)
 
 1. From the **Panels** tab, drag and drop as many panels or freeform tables as needed. 
 
-![](../assets/dynamic_report_journey_4.png)
+    ![](../assets/dynamic_report_journey_4.png)
 
 1. You can then start filtering your data by drag and dropping dimensions and metrics from the **Components** tab to your freeform table. 
 
-![](../assets/dynamic_report_journey_5.png)
+    ![](../assets/dynamic_report_journey_5.png)
 
 1. To have a clearer view of your data, you can add visualizations from the **Visualizations** tab.
 
-![](../assets/dynamic_report_journey_6.png)
+    ![](../assets/dynamic_report_journey_6.png)
 
 1. If you are building your report on one journey, you can simply go back to your journey by clicking your journey's name in your report's title.
 
-![](../assets/dynamic_report_journey_7.png)
+    ![](../assets/dynamic_report_journey_7.png)
 
 Each table cell and visualization can be configured. For more on this, refer to the [Adobe Campaign Standard documentation](https://helpx.adobe.com/campaign/standard/reporting/using/adding-panels.html).
 

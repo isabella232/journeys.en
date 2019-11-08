@@ -27,7 +27,7 @@ Reports can be accessed two different ways depending on the data you want to fil
 
     ![](../assets/dynamic_report_journey.png)
 
-* From your journey dashboard by clicking the ![](../assets/report_icon.png) icon, you can access the report for this specific journey. 
+* From your journey dashboard by clicking the reporting icon, you can access the report for this specific journey. 
 
     ![](../assets/dynamic_report_journey_2.png)
 
@@ -38,7 +38,9 @@ To go back to your deliveries from your report, click your delivery's name in th
 For more information on the reporting interface, refer to the [Adobe Campaign Standard documentation.](https://helpx.adobe.com/campaign/standard/reporting/using/reporting-interface.html)
 
 **Out-of-the-box template**
+
 Reports are divided into two categories: an out-of-the-box template and custom reports.
+
 The out-of-the-box template, **Journey summary**, gives you a clear view of the most important tracking data.
 
  ![](../assets/dynamic_report_journey_8.png)
@@ -91,4 +93,5 @@ The **Delivery - Tracking summary** table contains the data available to track t
 * **Unsubscribed**: Total number of unsubscriptions by recipient compared to the delivered messages.
 
 **Custom reports**
+
 You can also create custom reports, which are directly created via the **Create a new project** button on the Reporting page. You, then, only need to add panels and drag and drop components or visualizations to your freeform environment. For more information on the reporting interface, refer to the [Adobe Campaign Standard](https://helpx.adobe.com/campaign/standard/reporting/using/reporting-interface.html) documentation.

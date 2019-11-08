@@ -30,7 +30,7 @@ For additional information on data source configuration, refer to [](../datasour
     * _person > name > lastName_
     * _personalEmail > address_
 
-1. Click **Add a New Field Group**, select a **Profiles** schema and add the **Loyalty member** field for our condition. The **Loyalty member** field is a custom field and was added in XDM: __customer > marlton > loyaltyMember_
+1. Click **Add a New Field Group**, select a **Profiles** schema and add the **Loyalty member** field for our condition. The **Loyalty member** field is a custom field and was added in XDM: "_customer > marlton > loyaltyMember"
 
     ![](../assets/journeyuc2_6.png)
 
@@ -62,11 +62,11 @@ We also need to check if the person has a reservation in the hotel reservation s
     * **Cache duration**: this varies according to the frequency of the API calls. In our case, the reservation system is updated every 10 minutes.
     * **Response Payload**: click inside the **Payload** field and paste an example of the payload. Verify that the field types are correct. Each time the API is called, the system will retrieve all the fields included in the payload example. In our example, the payload only contains the reservation status:
 
-        ```
-{
-"reservation" : true
-}
-        ```
+    ```
+    {
+        "reservation" : true
+    }
+    ```
 
     * **Dynamic Values**: enter the parameter corresponding to the key used to identify each customer, "id" in our example. The value of this parameter will be defined in the journey.
 

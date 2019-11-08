@@ -20,7 +20,7 @@ index: n
   + [Troubleshooting](using/about/troubleshooting.md)
 + Configuring an event {#events-journeys}
   + [About events](using/event/event.md)
-  + [Field groups](using/event/eventpayload.md)
+  + [Defining the payload fields](using/event/eventpayload.md)
   + [Selecting the namespace](using/event/eventnamespace.md)
   + [Defining the event key](using/event/eventkey.md)
   + [Adding a condition](using/event/eventcondition.md)
@@ -28,7 +28,7 @@ index: n
   + [Additional steps to receive events](using/event/eventsteps.md)
 + Configuring a data source {#data-source-journeys}
   + [About data sources](using/datasource/ds.md)
-  + [Defining the field groups](using/datasource/dsfield.md)
+  + [Field groups](using/datasource/dsfield.md)
   + [Adobe Experience Platform data source](using/datasource/dsplatform.md)
   + [External data sources](using/datasource/dsexternal.md)
 + Configuring a custom action {#custom-action-journeys}
