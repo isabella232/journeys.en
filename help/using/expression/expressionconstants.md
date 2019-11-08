@@ -31,26 +31,26 @@ Here is how constant expressions are represented:
         <td>string</td>
         <td><p>Common sequence of characters.</p><br /><p>It doesn't have any specific size except the implicit one that comes from the environment such as the amount of memory available.</p><br /><p>JSON format: String</p><br /><p>Serialization format: UTF-8</p></td>
         <td>"&lt;value&gt;"<br />'&lt;value&gt;'</td>
-        <td>"hello world"<br /> 'hello world'</td>
+        <td><code>"hello world"</code><br /><code>'hello world'</code></td>
     </tr>
     <tr>
         <td>integer</td>
         <td><p>Integer value from -2^63 to 2^63-1.</p><br /><p>JSON format: Number</p></td>
         <td>&lt;integer value&gt;</td>
-        <td>42</td>
+        <td><code>42</code></td>
     </tr>
     <tr>
         <td>decimal</td>
         <td><p>Decimal number.</p><br />It represents a floating value:<ul><li><br />largest positive finite value of type double, (2-2^-52)x2^1023</li><br /><li>smallest positive normal value of type double, 2-1022</li><br /><li>smallest positive nonzero value of type double, 2 p-1074</li></ul><br /><p>JSON format: Number</p><br /><p>Serialization format: using '.' as the decimal separator.</p></td>
         <td>&lt;integer value&gt;.&lt;integer value&gt;</td>
-        <td>3.14</td>
+        <td><code>3.14</code></td>
     </tr>
     <tr>
         <td>boolean</td>
         <td>Boolean value written lowercase: true or false<br />JSON format: Boolean</td>
         <td>true
         <br />false</td>
-        <td>true</td>
+        <td><code>true</code></td>
     </tr>
     <tr>
         <td>dateTimeOnly</td>
