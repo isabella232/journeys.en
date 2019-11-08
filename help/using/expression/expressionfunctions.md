@@ -186,8 +186,8 @@ Here we use the count function in a condition to see if an individual has not re
 
 ```
 count(#{ExperiencePlatformDataSource.MarltonExperience.experienceevent.all(
-    	currentDataPackField.directMarketing.sends.value > 0 and
-    	currentDataPackField.timestamp > nowWithDelta(-1, "days")).timestamp}) == 0
+   currentDataPackField.directMarketing.sends.value > 0 and
+   currentDataPackField.timestamp > nowWithDelta(-1, "days")).timestamp}) == 0
 ```
 
 The result will be true if there is no experience event matching the two conditions.
