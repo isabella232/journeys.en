@@ -317,7 +317,7 @@ Example for an action activity (for a field that expects a string as the result 
    ```
    if (startWithIgnoreCase(@{eventiOSPushPermissionAllowed.device.model}, 'iPad') or startWithIgnoreCase(@{eventiOSPushPermissionAllowed.device.model}, 'iOS'))
    then
-      ('apns')
+      ('APNS')
    else
-      ('gcm')
+      ('FCM')
    ```
