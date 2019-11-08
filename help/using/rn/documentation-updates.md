@@ -15,3 +15,7 @@ snippet: y
 ---
 
 # Documentation Updates
+
+Learn about all the latest updates for Journeys documentation.
+This page lists all the new features and documentation updates for Journeys.
+You can also consult the Journeys [Release Notes](release-notes.md).
