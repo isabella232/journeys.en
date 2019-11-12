@@ -36,7 +36,7 @@ Here are the main steps to create and configure a new external data source:
 
     ![](../assets/journey25.png)
 
-    This opens the data source configurator on the right-hand side of the screen.
+    This opens the data source configuration pane on the right-hand side of the screen.
 
     ![](../assets/journey26.png)
 

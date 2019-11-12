@@ -42,7 +42,7 @@ Here are the main steps to configure a new event:
 
     ![](../assets/journey5.png)
 
-1. Click **Add** to create a new event. The event configurator opens on the right side of the screen.
+1. Click **Add** to create a new event. The event configuration pane opens on the right side of the screen.
 
     ![](../assets/journey6.png)
 

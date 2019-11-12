@@ -22,19 +22,19 @@ All the versions of your journeys appear in the list with the version number. Se
 
  ![](../assets/journey37.png)
 
-The **journey designer** is made up of the following zones: the palette, the canvas and the activity configurator.
+The **journey designer** is made up of the following zones: the palette, the canvas and the activity configuration pane.
 
 The **palette** is on the left-hand side of the screen. All available activities are sorted into several categories: **Events**, **Orchestration** and **Actions**. You can expand/collapse the different categories by clicking on their name. To use an activity in your journey, drag and drop it from the palette into your canvas. You have to configure each activity added from the palette before publishing the journey.
 
  ![](../assets/journey38.png)
 
-The **canvas** is the central zone in the journey designer. It is in this zone that you can drop your activities and configure them. Click on an activity in the canvas to configure it. This opens the activity configurator on the right-hand side. You can zoom in and out by using the "+" and "-" buttons on the top right.
+The **canvas** is the central zone in the journey designer. It is in this zone that you can drop your activities and configure them. Click on an activity in the canvas to configure it. This opens the activity configuration pane on the right-hand side. You can zoom in and out by using the "+" and "-" buttons on the top right.
 
  ![](../assets/journey39.png)
 
-The **activity configurator** appears when you click on an activity in the palette. Fill in the required fields. Click on the **Delete** icon to delete the activity. Click on **Cancel** to cancel the modifications or **Ok** to confirm. 
+The **activity configuration pane** appears when you click on an activity in the palette. Fill in the required fields. Click on the **Delete** icon to delete the activity. Click on **Cancel** to cancel the modifications or **Ok** to confirm. 
 
-In the canvas, your action and event activities are represented by an icon with the name of the event or action displayed underneath. In the activity configurator, you can use the **Label** field to add a suffix to the activity name. These labels will help you contextualize the use of events and actions, especially when you use the same event or action several times in your journey. You will also be able to see the labels you added in the Journeys reporting.
+In the canvas, your action and event activities are represented by an icon with the name of the event or action displayed underneath. In the activity configuration pane, you can use the **Label** field to add a suffix to the activity name. These labels will help you contextualize the use of events and actions, especially when you use the same event or action several times in your journey. You will also be able to see the labels you added in the Journeys reporting.
 
  ![](../assets/journey59bis.png)
 
@@ -42,7 +42,7 @@ Depending on the journey's status, you can perform different actions on your jou
 
  ![](../assets/journey41.png)
 
-Several activities (**Condition**, **Email**, **Push**, **SMS**) allow you to define a fallback action in case of an error or timeout. In the activity configurator, check the box: **Add an alternative path in case of a timeout or an error**. A second path is added after the activity. The timeout duration is defined in the journey's properties (see [The journey's properties](../building-journeys/journeyproperty.md#concept_prq_wqt_52b)). For example, if an email takes too long to be sent or is in error, you can decide to send an SMS.
+Several activities (**Condition**, **Email**, **Push**, **SMS**) allow you to define a fallback action in case of an error or timeout. In the activity configuration pane, check the box: **Add an alternative path in case of a timeout or an error**. A second path is added after the activity. The timeout duration is defined in the journey's properties (see [The journey's properties](../building-journeys/journeyproperty.md#concept_prq_wqt_52b)). For example, if an email takes too long to be sent or is in error, you can decide to send an SMS.
 
  ![](../assets/journey42.png)
 
