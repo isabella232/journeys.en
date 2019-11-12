@@ -1,5 +1,5 @@
 ---
-title: The Journeys' interface
+title: The Journey orchestration' interface
 description: 
 page-status-flag: never-activated
 uuid: 269d590c-5a6d-40b9-a879-02f5033863fc
@@ -18,11 +18,11 @@ snippet: y
 
 >[!NOTE]
 >
->To get the best out of the Journeys feature, we recommend using Chrome as your Internet browser.
+>To get the best out of the Journey orchestration feature, we recommend using Chrome as your Internet browser.
 
 ## Discovering the interface{#section_jsq_zr1_ffb}
 
-To access the Journeys' interface, click the **Triggered Journeys** card from the home page of Campaign Standard or click the **Adobe Campaign** logo, in the top left corner, then select **Triggered Journeys**.
+To access the Journey orchestration' interface, click the **Triggered Journeys** card from the home page of Campaign Standard or click the **Adobe Campaign** logo, in the top left corner, then select **Triggered Journeys**.
 
 ![](../assets/journey1.png)  
 

@@ -1,7 +1,7 @@
 ---
 keywords: Journeys;home;popular topics
 solution: CJourneys
-title: Journeys product documentation
+title: Journey orchestration product documentation
 topic: Premium
 ---
 

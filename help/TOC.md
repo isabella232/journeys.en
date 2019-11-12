@@ -1,22 +1,22 @@
 ---
 product: Journeys
 audience: end-user
-user-guide-title: Journeys Help
+user-guide-title: Journey Orchestration Help
 index: n
 ---
 
-# Journeys Help {#using}
+# Journey orchestration Help {#using}
 
 + [Product documentation](journeys-home.md)
 + Release Notes {#release-notes}
   + [Release Notes](using/rn/release-notes.md)
   + [Documentation Updates](using/rn/documentation-updates.md)
-+ Starting with Journeys {#starting-with-journeys}
-  + [About Journeys](using/about/intro.md)
++ Starting with Journey orchestration {#starting-with-journeys}
+  + [About Journey orchestration](using/about/intro.md)
   + [User Process](using/about/aboutprocess.md)
-  + [The Journeys' interface](using/about/aboutinterface.md)
+  + [Journey orchestration's interface](using/about/aboutinterface.md)
   + [Ending a journey](using/about/aboutending.md)
-  + [Managing your users' access to Journeys](using/about/usermanagement.md)
+  + [Managing your users' access to Journey orchestration](using/about/usermanagement.md)
   + [Troubleshooting](using/about/troubleshooting.md)
 + Configuring an event {#events-journeys}
   + [About events](using/event/event.md)

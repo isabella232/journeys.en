@@ -52,4 +52,4 @@ For additional information on event configuration, refer to [Configuring an even
 
     ![](../assets/journeyuc1_7.png)
 
-    The event is ready to be used in your journey. You now need to configure the mobile application so that it can send the expected payload to the Streaming Ingestion APIs endpoint. See [Additional steps to send events to Journeys](../event/eventsteps.md#concept_xrz_n1q_y2b).
+    The event is ready to be used in your journey. You now need to configure the mobile application so that it can send the expected payload to the Streaming Ingestion APIs endpoint. See [Additional steps to send events to Journey orchestration](../event/eventsteps.md#concept_xrz_n1q_y2b).

@@ -26,7 +26,7 @@ You can check if the API call you send through these tools is sent correctly or 
 
 ## Tracking if people enter the journey{#section_x4v_zzs_dgb}
 
-Journeys reporting measures people's entrances in journeys in real-time.
+Journey orchestration reporting measures people's entrances in journeys in real-time.
 
 If you're successfully sending the event but see no entrance in the journey, it means that something goes wrong between the event sending and the event reception in the journey.
 
@@ -38,7 +38,7 @@ Here are a few things and administrator should double-check:
 
 ## Tracking how people navigate through the journey{#section_l5y_yzs_dgb}
 
-Journeys reporting measures the progress of individuals inside journeys. It's easy to identify where and why a person got stopped.
+Journey orchestration reporting measures the progress of individuals inside journeys. It's easy to identify where and why a person got stopped.
 
 Here are a few things to check:
 

@@ -1,6 +1,6 @@
 ---
-title: Additional steps to send events to Journeys
-description: Learn about additional steps to send events to Journeys
+title: Additional steps to send events to Journey orchestration
+description: Learn about additional steps to send events to Journey orchestration
 page-status-flag: never-activated
 uuid: 269d590c-5a6d-40b9-a879-02f5033863fc
 contentOwner: sauviat
@@ -15,13 +15,13 @@ snippet: y
 ---
 
 
-# Additional steps to send events to Journeys {#concept_xrz_n1q_y2b}
+# Additional steps to send events to Journey orchestration {#concept_xrz_n1q_y2b}
 
 >[!NOTE]
 >
->When creating an event, Journeys automatically generates an ID for this event. The system pushing the event should not generate an ID, it should use the one available in the payload preview. See [Previewing the payload](../event/eventpayloadpreview.md#concept_jgf_4yk_4fb).
+>When creating an event, Journey orchestration automatically generates an ID for this event. The system pushing the event should not generate an ID, it should use the one available in the payload preview. See [Previewing the payload](../event/eventpayloadpreview.md#concept_jgf_4yk_4fb).
 
-To configure events to be sent to **Streaming Ingestion APIs** and to be used in Triggered Journeys, you need to follow these steps:
+To configure events to be sent to **Streaming Ingestion APIs** and to be used in Journey orchestration, you need to follow these steps:
 
 1. Get the inlet URL from the Data Platform APIs (see [Streaming Ingestion APIs](https://www.adobe.io/apis/cloudplatform/dataservices/data-ingestion/data-ingestion-services.html#!api-specification/markdown/narrative/technical_overview/streaming_ingest/getting_started_with_platform_streaming_ingestion.md)).
 1. Copy the payload from the payload preview in the **Event** menu. See [Defining the payload fields](../event/eventpayload.md#concept_yrw_3qt_52b).
@@ -29,7 +29,7 @@ To configure events to be sent to **Streaming Ingestion APIs** and to be used in
 You then need to configure the data system that pushes events to Streaming Ingestion APIs using the payload you copied:
 
 1. Set up a POST API call to the Streaming Ingestion APIs URL (called an inlet).
-1. Use the payload you copied from Journeys in the body ("data section") of the API call to Streaming Ingestion APIs. See below for an example
+1. Use the payload you copied from Journey orchestration in the body ("data section") of the API call to Streaming Ingestion APIs. See below for an example
 1. Determine where to get all the variables present in the payload. Example: if the event if supposed to convey the address, the payload pasted will show "address": "string". "string" should be replaced by the variable that will automatically populate the right value, the email of the person to send a message to. Note that in the payload preview, in the **Header** section, we autofill many values expected to facilitate your work.
 1. Select "application/json" as a body type.
 1. Pass your IMS ORG ID in the header using the key "x-gw-ims-org-id". For the value, use your IMS ORG ID ("XXX@AdobeOrg").

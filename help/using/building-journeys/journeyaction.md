@@ -26,7 +26,7 @@ When you drop an action activity in the canvas, you can define a **Label**. This
 
 ![](../assets/journey59bis.png)
 
-For each of these channels, you select an Adobe Campaign Standard Transactional Messaging **template**. Indeed, Journeys is not a message sending solution. We rely on Transactional Messaging to execute message sending. It means that if you want to use a certain message template in your journeys, you must publish it in Adobe Campaign Standard. Refer to this [page](https://docs.adobe.com/content/help/en/campaign-standard/using/communication-channels/transactional-messaging/about-transactional-messaging.html) to learn how to use this feature.
+For each of these channels, you select an Adobe Campaign Standard Transactional Messaging **template**. Indeed, Journey orchestration is not a message sending solution. We rely on Transactional Messaging to execute message sending. It means that if you want to use a certain message template in your journeys, you must publish it in Adobe Campaign Standard. Refer to this [page](https://docs.adobe.com/content/help/en/campaign-standard/using/communication-channels/transactional-messaging/about-transactional-messaging.html) to learn how to use this feature.
 
 ![](../assets/journey59.png)
 

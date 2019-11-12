@@ -39,7 +39,7 @@ Here are the main data source configuration steps:
 
 1. In the top bar, click **Data Sources**. 
 
-    The list of data sources is displayed. See [The Journeys' interface](../about/aboutinterface.md) for more information on the interface.
+    The list of data sources is displayed. See [The Journey orchestration' interface](../about/aboutinterface.md) for more information on the interface.
 
     ![](../assets/journey18.png)
 

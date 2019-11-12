@@ -1,3 +1,3 @@
-# Documentation for Journeys
+# Documentation for Journey orchestration
 
-Technical documentation for Journeys. Currently organized by Admin and End User.
+Technical documentation for Journey orchestration. Currently organized by Admin and End User.
