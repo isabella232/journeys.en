@@ -36,7 +36,7 @@ You can use an event or profile transactional messaging template.
 >
 >When we send real-time transactional messages (rtEvent) or when we route messages with a third-party system thanks to a custom action, a specific setup is required for fatigue, blacklist, profile deletion or unsubscription management. For example, if an attribute "blacklist" or "unsubscribe" is stored in the Platform or in a third-party system, a condition will have to be added before the message sending to check this condition.
 
-When you select a template, all the fields expected in the message payload are displayed in the activity configurator. You need to map each of these fields with the field you want to use, either from the event or from the data source.
+When you select a template, all the fields expected in the message payload are displayed in the activity configuration pane. You need to map each of these fields with the field you want to use, either from the event or from the data source.
 
 ![](../assets/journey60.png)
 

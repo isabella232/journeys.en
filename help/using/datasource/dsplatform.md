@@ -26,7 +26,7 @@ Here are the main steps to add field groups to the build-in data source.
 
 1. From the list of data sources, select the build-in Experience Platform data source.
 
-    This opens the data source configurator on the right-hand side of the screen.
+    This opens the data source configuration pane on the right-hand side of the screen.
 
     ![](../assets/journey23.png)
 

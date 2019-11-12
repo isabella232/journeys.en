@@ -24,7 +24,7 @@ Always start your journey by drag and dropping an event activity.
 
  ![](../assets/journey44.png)
 
-When you click on the event activity in the canvas, the activity configurator is displayed. You can use the **Label** field to add a suffix to the event name that will appear under your activity in the canvas. This is useful if you use the same event several times in your journey.
+When you click on the event activity in the canvas, the activity configuration pane is displayed. You can use the **Label** field to add a suffix to the event name that will appear under your activity in the canvas. This is useful if you use the same event several times in your journey.
 
  ![](../assets/journey33.png)
 

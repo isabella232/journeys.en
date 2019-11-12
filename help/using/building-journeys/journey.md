@@ -23,6 +23,8 @@ The journey interface allows you to easily drag and drop activities from the pal
 
 Only one namespace is allowed per journey. If you use several events in the same journey, they need to use the same namespace. When you drop the first event, events with different namespaces will be grayed out. If the first event doesn't have a namespace, then all events with a namespace will be grayed out. See [Selecting the namespace](../event/eventnamespace.md#concept_ckb_3qt_52b). Also, Experience Platform field groups are grayed out if the journey has events without a namespace.
 
+## Ending a journey {#section_asc_51g_nhb}
+
 Here are the main steps to create and publish a journey.
 
 1. In the top bar, click **Journeys**. 
@@ -50,3 +52,35 @@ Here are the main steps to create and publish a journey.
 1. Your journey is automatically saved. Test your journey and publish it. See [Testing and publishing the journey](../building-journeys/journeypublication.md#concept_mtc_lrt_52b).
 
     ![](../assets/journey36.png)
+
+## Ending a journey{#ending_a_journey}
+
+There are three ways to end a journey:
+
+* The person arrives at an **End** activity.
+* The person arrives at the last activity of a path.
+* The person arrives at a condition activity (or a timer with a condition) and does not match any of the conditions.
+
+The person can then re-enter the journey if re-entrance is allowed. See [The journey's properties](../building-journeys/journeyproperty.md#concept_prq_wqt_52b).
+
+## Timezone management {#timezone_management}
+
+Timezone definition is available in the following activities:
+
+* time conditions
+* date conditions
+* custom wait
+* fixed date wait
+
+If the entry event of the journey has a namespace, meaning that the journey can reach the Unified Profile Service of the Data Platform, the timezone is pre-defined with the one specified in the profile of the individual flowing in the journey. If the individual's profile does not contain a timezone, the instance's timezone is used. You can reach your administrator to know what is the instance timezone.
+
+![](../assets/journey73.png)
+
+The timezone can also be fixed. Clear the pre-defined timezone and pick one from the drop-down list. If you use a fixed timezone, it will be the same for all individuals entering the journey. 
+
+![](../assets/journey72.png)
+
+Finally, the timezone can be dynamic for each person entering the step. In this case, you will use the expression editor to select where you want the system to get this information (it can be from an event or a data source). The custom timezone must follow this format. If the timezone you want to leverage is a string, you can use the function ‘toTimeZone’ to convert it to the right format.
+
+The start and end dates of a journey cannot be linked to a specific timezone. They are automatically associated to the instance's timezone.
+

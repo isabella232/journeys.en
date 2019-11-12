@@ -30,7 +30,7 @@ Here are the main steps required to configure a custom action:
 
     ![](../assets/custom1.png)
 
-1. Click **Add** to create a new action. The action configurator opens on the right side of the screen.
+1. Click **Add** to create a new action. The action configuration pane opens on the right side of the screen.
 
     ![](../assets/custom2.png)
 

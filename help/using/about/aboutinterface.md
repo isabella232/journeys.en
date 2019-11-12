@@ -38,7 +38,7 @@ In the **Journeys** list, a drop-down menu allows you to only display the journe
 
 ![](../assets/journey3.png)  
 
-In the event, data source and action configurators, the **Used in** field displays the number of journeys that use that particular event, field group or action. You can click the **View journeys** button to display the list of corresponding journeys.
+In the event, data source and action configuration panes, the **Used in** field displays the number of journeys that use that particular event, field group or action. You can click the **View journeys** button to display the list of corresponding journeys.
 
 ![](../assets/journey3bis.png)  
 
@@ -52,18 +52,18 @@ Here are the different shortcuts available in the Journeys' interface.
 
 _When configuring an activity in a journey:_
 
-* Click outside of the right pane or press **escape** to close the configurator without saving.
-* Press **enter** to save modifications and close the configurator.
+* Click outside of the right pane or press **escape** to close the configuration pane without saving.
+* Press **enter** to save modifications and close the configuration pane.
 * If you click **Delete**, you can then press **enter** to confirm the deletion.
 
 _In pop-ups:_
 
 * Click outside of the pop-up to close it.
 
-_In the event or data source configurator:_
+_In the event or data source configuration pane:_
 
-* Press **escape** to close the configurator without saving.
-* Press **enter** to save modifications and close the configurator.
+* Press **escape** to close the configuration pane without saving.
+* Press **enter** to save modifications and close the configuration pane.
 
 _When browsing through XDM fields:_
 
