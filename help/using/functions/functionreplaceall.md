@@ -16,7 +16,9 @@ snippet: y
 
 # replaceAll {#replaceAll}
 
-Replaces all occurrences of the source string by the target string in the base string.
+Replaces all occurrences matching the target string by the replacement string in the base string.
+
+The replacement proceeds from the beginning of the string to the end, for example, replacing "aa" with "b" in the string "aaa" will result in "ba" rather than "ab".
 
 ## Category
 
@@ -31,13 +33,14 @@ String
 | Parameter | Type         |
 |-----------|--------------|
 | base      | string       |
-| source    | string       |
-| target    | string       |
+| target  | string       |
+| replacement    | string       |
 
 ## Signature and return type
 
-`replaceAll(<string>,<string>,<string>)`
-Return a string.
+`replaceAll(<baseString>,<sourceString>,<replacementString>)`
+
+Returns a string.
 
 ## Example
 

@@ -16,7 +16,7 @@ snippet: y
 
 # inLastMonths {#inLastMonths}
 
-Function defining if a given date or dateTime is between now and now - delta months.
+Returns true if a given date or dateTime is between now and now - delta months.
 
 ## Category
 
@@ -24,12 +24,12 @@ Date
 
 ## Function syntax
 
-`inLastMonths(<parameter>)`
+`inLastMonths(<dateTime>,<delta>)`
 
 ## Parameters
 
 * dateTime
-* integer
+* delta: integer
 
 ## Signatures and return type
 

@@ -52,6 +52,7 @@ Here are the main steps to create and configure a new external data source:
 
 1. Configure the authentication depending on the external service configuration: **No authentication**, **Basic**, **Custom** or **API key**. For more information on the custom authentication mode, see [Custom authentication mode](../datasource/dsexternal.md#section_wjp_nl5_nhb). In our example, we choose:
 
+
     * **Type**: "API key"
     * **Value**: "1234" (this is the value of our API key)
     * **Name**: "appid" (this is the API key parameter name)
@@ -116,9 +117,11 @@ The definition of the endpoint to be called to generate the access token:
 The definition of the way the access token must be injected in the HTTP request of the action:
 
 * authorizationType: defines how the generated access token must be injected in the HTTP call for the action. The possible values are:
+
     * bearer: indicates that the access token must be injected in the Authorization header, such as: _Authorization: Bearer &lt;access token>_
     * header: indicates that the access token must be injected as a header, the header name defined by the property tokenTarget. For instance, if the tokenTarget is myHeader, the access token will be injected as a header as: _myHeader: &lt;access token>_
     * queryParam: indicates that the access token must be injected as a queryParam, the query param name defined by the property tokenTarget. For instance, if the tokenTarget is myQueryParam, the URL of the action call will be: _&lt;url>?myQueryParam=&lt;access token>_
+
 * tokenInResponse: indicates how to extract the access token from the authentication call. This property can be:
     * 'response': indicates that the HTTP response is the access token
     * a selector in a json (assuming that the response is a json, we don't support other formats such as XML). The format of this selector is _json://&lt;path to the access token property>_. For instance, if the response of the call is: _{ "access_token": "theToken", "timestamp": 12323445656 }_, the tokenInResponse will be: _json: //access_token_
@@ -141,6 +144,7 @@ The format of this authentication is:
         "bodyParams": {
             "param1": value1,
             ...
+
         }
     },
     "tokenInResponse": "<'response' or json selector in format 'json://<field path to access token>'"

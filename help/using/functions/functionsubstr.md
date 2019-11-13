@@ -28,12 +28,11 @@ String
 
 ## Parameters
 
-| Parameter  | type              |
-|-------------|-----------------------|
-| string    | string|
-| beginIndex    | integer|
-| endIndex| integer|
-
+| Parameter  | type |
+|-------------|----------|
+| string | string |
+| beginIndex | integer |
+| endIndex | integer |
 
 ## Signature and return type
 
@@ -46,4 +45,8 @@ Return a string.
 
 `substr("Hello World",6)`
 
-Returns "World"
+Returns "World".
+
+`substr("Hello World", 0, 5)`
+
+Returns "Hello".

@@ -16,7 +16,7 @@ snippet: y
 
 # inNextHours {#inNextHours}
 
-Function defining if a given date or dateTime is between now and now + delta hours.
+Returns true if a given date or dateTime is between now and now + delta hours.
 
 ## Category
 
@@ -24,12 +24,12 @@ Date
 
 ## Function syntax
 
-`inNextHours(<parameter>)`
+`inNextHours(<dateTime>,<delta>)`
 
 ## Parameters
 
 * dateTime
-* integer
+* delta: integer
 
 ## Signatures and return type
 

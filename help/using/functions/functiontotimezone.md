@@ -30,7 +30,7 @@ Conversion
 
 |Parameter|Description|
 |--- |--- |
-|string|The string value must contain the zone id.|
+|string|The string value must contain the zone id. It can be a field reference or an expression|
 
 ## Signatures and return types
 

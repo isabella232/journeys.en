@@ -41,10 +41,10 @@ Conversion
 
 ## Signatures and return types
 
-`toDateTimeOnly(<integer>,<integer>,<integer>)`
 `toDateTimeOnly(<dateTime>)`
 `toDateTimeOnly(<string>)`
-`toDateTimeOnly(<integer>,<integer>,<integer>,<integer>,<integer>,<integer>)`
+<!--`toDateTimeOnly(<integer>,<integer>,<integer>)`
+`toDateTimeOnly(<integer>,<integer>,<integer>,<integer>,<integer>,<integer>)`-->
 
 Return a datetime without considering timezone.
 
@@ -54,10 +54,10 @@ Return a datetime without considering timezone.
 
 Returns 2016-08-18T23:17:59.123.
 
-`toDateTimeOnly(2016,8,18,23,17,59)`
+<!--`toDateTimeOnly(2016,8,18,23,17,59)`
 
 Returns 2016-08-18T23:17:59.000.
 
 `toDateTimeOnly(2016,8,18)`
 
-Returns 2016-08-18T00:00:00.000.
+Returns 2016-08-18T00:00:00.000.-->

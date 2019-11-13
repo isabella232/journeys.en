@@ -24,7 +24,7 @@ String
 
 ## Function syntax
 
-`lower(<parameters>)`
+`lower(<parameter>)`
 
 ## Parameter
 

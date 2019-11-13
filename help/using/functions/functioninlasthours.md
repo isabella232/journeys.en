@@ -16,7 +16,7 @@ snippet: y
 
 # inLastHours {#inLastHours}
 
-Function defining if a given date or dateTime is between now and now - delta hours. It always returns a boolean.
+Returns true if the given date time is between now and now - delta hours. 
 
 ## Category
 
@@ -24,12 +24,12 @@ Date
 
 ## Function syntax
 
-`inLastHours(<parameter>)`
+`inLastHours(<dateTime>,<delta>)`
 
 ## Parameters
 
 * dateTime
-* integer
+* delta: integer
 
 ## Signatures and return type
 
@@ -40,5 +40,9 @@ Returns a boolean.
 ## Examples
 
 `inLastHours(toDateTime('2010-12-12T01:11:00Z'), 4))`
+
+Returns true.
+
+`inLastHours(@{MyEvent.timestamp}, 4)`
 
 Returns true.

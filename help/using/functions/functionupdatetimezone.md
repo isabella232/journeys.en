@@ -28,15 +28,12 @@ Date
 
 ## Parameters
 
-* string
-* timezone
+* timezone id: string
 * dateTime
 
 ## Signature and return type
 
-`updateTimeZone(<dateTime>,<string>)`
-
-`updateTimeZone(<dateTime>,<timeZone>)`
+`updateTimeZone(<dateTime>,<timeZone id>)`
 
 Returns a datetime.
 
@@ -44,8 +41,8 @@ Returns a datetime.
 
 `updateTimeZone( toDateTime("2019-08-28T08:15:30.123-07:00"), "Europe/Paris"))`
 
-Returns "2019-08-28T17:15:30.123+02:00".
+Returns 2019-08-28T17:15:30.123+02:00.
 
-`updateTimeZone( toDateTime("2019-08-28T08:15:30.123-07:00"), toTimeZone("Europe/Paris")))`
+<!--`updateTimeZone( toDateTime("2019-08-28T08:15:30.123-07:00"), toTimeZone("Europe/Paris")))`
 
-Returns "2019-08-28T17:15:30.123+02:00".
+Returns "2019-08-28T17:15:30.123+02:00".-->

@@ -43,7 +43,6 @@ Each function has a specific return data type. Here is the list of supported fun
 | Conversion  | [toDuration](../functions/functiontoduration.md)|
 | Conversion  | [toInteger](../functions/functiontointeger.md)|
 | Conversion  | [toString](../functions/functiontostring.md)|
-| Conversion  | [toTimeZone](../functions/functiontotimezone.md)|
 | Date        | [currentTime​InMillis](../functions/functioncurrenttimeinmillis.md)|
 | Date        | [inLastDays](../functions/functioninlastdays.md)|
 | Date        | [inLastHours](../functions/functioninlasthours.md)|
@@ -57,7 +56,6 @@ Each function has a specific return data type. Here is the list of supported fun
 | Date        | [nowWithDelta](../functions/functionnowwithdelta.md)|
 | Date        | [setHours](../functions/functionsethours.md)|
 | Date        | [setDays](../functions/functionsetdays.md)|
-| Date        | [updateTimeZone](../functions/functionupdatetimezone.md)|
 | List        | [distinct](../functions/functiondistinct.md)|
 | List        | [distinctWithNull](../functions/functiondistinctcount.md)|
 | List        | [in](../functions/functionin.md)|
@@ -91,7 +89,9 @@ Each function has a specific return data type. Here is the list of supported fun
 
 ## Collection management functions {#section_ig2_hb5_pgb}
 
-The expression language also introduces a set of functions to query collections. These functions are explained below. Let’s use the following collection for a few examples:
+The expression language also introduces a set of functions to query collections.
+
+These functions are explained below. Let’s use the following event payload containing a collection for a few examples:
 
 ```
 
@@ -137,16 +137,39 @@ The expression language also introduces a set of functions to query collections.
 
 **The function "all(`<condition>`)"**
 
-The **all** function enables the definition of a filter on a given collection. For example, among all the app users, you can get the ones using IOS 13 (boolean expression “app used = IOS 13"). The result of this function is the filtered list containing items matching the boolean expression (example: app user 1, app user 34, app user 432).
-You can then use this in a condition to check if the result of the **all** function is null or not. You can also combine this **all** function with other functions such as **count**.
+The **all** function enables the definition of a filter on a given collection by using a boolean expression.
 
-**"All + Count" condition example 1:** we want to check if a user has installed a specific version of an application. For this we get all the push notification tokens associated to mobile applications for which the version is 1.0. Then, we perform a condition with the count function to check that the returned list of tokens contains at least one element.
+ For example, among all the app users, you can get the ones using IOS 13 (boolean expression “app used == IOS 13"). The result of this function is the filtered list containing items matching the boolean expression (example: app user 1, app user 34, app user 432).
+
+You can then use this in a condition activity to check if the result of the **all** function is null or not. You can also combine this **all** function with other functions such as **count**.
+
+**"All + Count" condition example 1:**
+
+We want to check if a user has installed a specific version of an application. For this we get all the push notification tokens associated to mobile applications for which the version is 1.0. Then, we perform a condition with the count function to check that the returned list of tokens contains at least one element.
 
 `count(@{LobbyBeacon._experience.campaign.message.profile.pushNotificationTokens.all&#8203;(currentEventField.application.version == "1.0").token}) > 0`
 
-**"All + Count" example 2:** here we use the count function to count the number of push notification tokens in the event.
+The result is true.
 
-`count(@{LobbyBeacon._experience.campaign.message.profile.pushNotificationTokens.all().application.name})`
+**"All + Count" example 2:** 
+
+Here we use the count function in a condition to see if there is push notification tokens in the collection.
+
+`count(@{LobbyBeacon._experience.campaign.message.profile.pushNotificationTokens.all().token}) > 0`
+
+The result will be true.
+
+Alternatively, you can check if there is no token in the collection:
+
+`count(@{LobbyBeacon._experience.campaign.message.profile.pushNotificationTokens.all().token}) == 0`
+
+The result will be false.
+
+<!--Here we use the count function in a condition to count the number of push notification tokens in the event.
+
+`count(@{LobbyBeacon._experience.campaign.message.profile.pushNotificationTokens.all().token})`
+
+The result is true.
 
 Note that when the condition in the **all()** function is empty, the filter will return all the elements in the list. Hence, the expression above is equivalent to:
 
@@ -154,10 +177,35 @@ Note that when the condition in the **all()** function is empty, the filter will
 
 In both cases, the result of the expression is **3**.
 
-<!--A query of experience events recorded on the platform may or may not include the current event that triggered the current Journey. This will depend on the relative processing time with which Journeys sees an event and started evaluating conditions, versus the time it takes for that event to be ingested into the platform. For example, when using the .all() syntax to query experience events from the platform, we recommend enforcing the exclusion of the current event (by requiring an
+A query of experience events recorded on the platform may or may not include the current event that triggered the current Journey. This will depend on the relative processing time with which Journey orchestration sees an event and started evaluating conditions, versus the time it takes for that event to be ingested into the platform. For example, when using the .all() syntax to query experience events from the platform, we recommend enforcing the exclusion of the current event (by requiring an
 earlier timestamp) in order to only consider prior events.-->
 
-**"All + Count" example 4:** here we use the count function in a boolean expression to see if there is push notification tokens in the collection.
+**"All + Count" example 3:**
+
+Here we use the count function in a condition to see if an individual has not received any communication within the last 24 hours. We filter the collection of experience events retrieved from the ExperiencePlatform datasource, using two expressions based on two elements of the collection.
+
+```
+count(#{ExperiencePlatformDataSource.MarltonExperience.experienceevent.all(
+   currentDataPackField.directMarketing.sends.value > 0 and
+   currentDataPackField.timestamp > nowWithDelta(-1, "days")).timestamp}) == 0
+```
+
+The result will be true if there is no experience event matching the two conditions.
+
+**"All + Count" example 4:**
+
+Here we want to check if an individual has launched at least once an application in the last 7 days, in order for instance to trigger a push notification inviting him to start a tutorial.
+
+```
+count(
+ #{ExperiencePlatformDataSource.AnalyticsData.experienceevent.all(
+ nowWithDelta(-7,"days") <= currentDataPackField.timestamp
+ and currentDataPackField.application.firstLaunches.value > 0
+)._id}) > 0
+```
+
+
+<!--**"All + Count" example 4:** here we use the count function in a boolean expression to see if there is push notification tokens in the collection.
 
 `count(@{LobbyBeacon._experience.campaign.message.profile.pushNotificationTokens.all().application.name}) > 0`
 
@@ -171,10 +219,26 @@ Alternatively, you can check if there is NO token in the collection:
 
 The result will be:
 
-`false`
+`false`-->
+
+>[!NOTE]
+>
+>**currentEventField** is only available when manipulating event collections and **currentDataPackField** 
+>when manipulating data source collections. When processing collections with all, first and last, we
+>loop on each element of the collection one by one. **currentEventField** and **currentDataPackField**
+>correspond to the element being looped.
+>
+>Note also that when the filtering condition in the all() function is empty, the filter will return all the elements in the list. However, in order to count the number of elements of a collection, the all function is not required.
+
+```
+count(@{LobbyBeacon._experience.campaign.message.profile.pushNotificationTokens.application.name})
+```
+
+The result of the expression is **3**.
 
 **The functions "first(`<condition>`)" and "last(`<condition>`)"**
-The **first** and **last** functions enable the definition of a filter on a given collection while returning the first/last element of the list that meets the filter. 
+
+The **first** and **last** functions also enable the definition of a filter on the collection while returning the first/last element of the list that meets the filter.
 
 _`<listExpression>.first(<condition>)`_
 
@@ -182,54 +246,45 @@ _`<listExpression>.last(<condition>)` _
 
 **Example 1:** return the first push notification token associated to mobile applications for which the version is 1.0.
 
-`@{LobbyBeacon._experience.campaign.message.profile.pushNotificationTokens.last&#8203;(currentEventField.application.version == "1.0").token`
+`@{LobbyBeacon._experience.campaign.message.profile.pushNotificationTokens.first(currentEventField.application.version == "1.0").token`
 
-The result will be:
-
-`"token_1"`
-
-**currentEventField** is only available when manipulating event collections and **currentDataPackField** when manipulating data source collections. When processing collections with all, first and last, we loop on each element of the collection one by one. **currentEventField** and **currentDataPackField** correspond to the element being looped.
+The result will be "token_1".
 
 **Example 2:** return the last push notification token associated to mobile applications for which the version is 1.0.
 
 `@{LobbyBeacon._experience.campaign.message.profile.pushNotificationTokens.last&#8203;(currentEventField.application.version == "1.0").token}`
 
-The result will be:
-
-`"token_2"`
-
 **The function "at(`<index>`)"**
-The **at** function allows you to reference a specific element in a collection according to an index. 
+
+The **at** function allows you to reference a specific element in a collection according to an index.
+Index 0 is the first index of the collection. 
 
 _`<listExpression>`.at(`<index>`)_
 
-**Example 1:** return the second push notification token of the list.
+**Example:** return the second push notification token of the list.
 
 `@{LobbyBeacon._experience.campaign.message.profile.pushNotificationTokens.at(1).token}`
 
-The result will be:
-
-`"token_2"`
+The result will be "token_2".
 
 ## Conditional instruction (if, then, else){#section_cdz_lsk_w3b}
 
-The conditional instruction (if, then, else) is supported in the advanced editor. It allows to define more complex conditions. It is composed of the following elements:
+The conditional instruction (if, then, else) is supported in the advanced editor. It allows to define more complex expressions. It is composed of the following elements:
 
-* **if**: the **boolean** condition to be evaluated first.`
-* **then**: the expression to be evaluated in case the result of the boolean condition evaluation is true.`
-* **else**: the expression to be evaluated in case the result of the boolean condition evaluation is false.`
+* **if**: the condition to be evaluated first.`
+* **then**: the expression to be evaluated in case the result of the condition evaluation is true.`
+* **else**: the expression to be evaluated in case the result of the condition evaluation is false.`
 
 >[!NOTE]
 >
->Curly brackets are required around all the expressions.
+>Parentheses are required around all the expressions.
 
    ```
-
-   if  (`<expression1>`)
+   if  (<expression1>)
    then
-      (`<expression2>`)
+      (<expression2>)
    else
-      (`<expression3>`)
+      (<expression3>)
    ```
 
 `<expression1>` must return a **boolean**.
@@ -237,31 +292,29 @@ The conditional instruction (if, then, else) is supported in the advanced editor
 `<expression2>` and `<expression3>` must have the same type or compatible types. The supported signatures and returned types are:
 
    ```
-
-   <boolean><boolean> : <boolean>
-   <dateTime><dateTime> : <dateTime>
-   <dateTimeOnly><dateTimeOnly> : <dateTimeOnly>
-   <decimal><integer> : <decimal>
-   <integer><decimal> : <integer>
-   <integer><decimal> : <decimal>
-   <duration><duration> : <duration>
-   <string><string> : <string>
-   <listBoolean><listBoolean> : <listBoolean>
-   <listDateTime><listDateTime> : <listDateTime>
-   <listDateTimeOnly><listDateTimeOnly> : <listDateTimeOnly>
-   <listDecimal><listDecimal> : <listDecimal>
-   <listInteger><listInteger> : <listInteger>
-   <listString><listString> : <listString>
+   boolean,boolean : boolean
+   dateTime,dateTime : dateTime
+   dateTimeOnly,dateTimeOnly : dateTimeOnly
+   decimal,integer : decimal
+   integer,decimal : integer
+   integer,decimal : decimal
+   duration,duration : duration
+   string,string : string
+   listBoolean,listBoolean : listBoolean
+   listDateTime,listDateTime : listDateTime
+   listDateTimeOnly,listDateTimeOnly : listDateTimeOnly
+   listDecimal,listDecimal : listDecimal
+   listInteger,listInteger : listInteger
+   listString,listString : listString
    ```
 
 **Usage**
 
-The conditional instruction allows you to optimize the journey workflow by reducing the number of condition activities. For example, within the same action activity, you can specify two alternatives for a field using only one condition expression.
+The conditional instruction allows you to optimize the journey workflow by reducing the number of condition activities. For example, within the same action activity, you can specify two alternatives for a field definition using only one condition expression.
 
 Example for an action activity (for a field that expects a string as the result of the conditional instruction):
 
    ```
-
    if (startWithIgnoreCase(@{eventiOSPushPermissionAllowed.device.model}, 'iPad') or startWithIgnoreCase(@{eventiOSPushPermissionAllowed.device.model}, 'iOS'))
    then
       ('APNS')

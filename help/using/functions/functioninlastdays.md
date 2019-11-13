@@ -16,7 +16,7 @@ snippet: y
 
 # inLastDays {#inLastDays}
 
-Function defining if a given date or dateTime is between now and now - delta days.
+Returns true if a given date or dateTime is between now and now - delta days.
 
 ## Category
 
@@ -24,12 +24,12 @@ Date
 
 ## Function syntax
 
-`inLastDays(<parameter>)`
+`inLastDays(<dateTime>,<delta>)`
 
 ## Parameters
 
 * dateTime
-* integer
+* delta: integer
 
 ## Signatures and return type
 

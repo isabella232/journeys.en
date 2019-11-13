@@ -16,7 +16,7 @@ snippet: y
 
 # toString {#toString}
 
-Converts an argument value into a string value, depending on its type.
+Converts an argument value into a string value, depending on its type. For more informtation on data types, refer to [Constants](../expression/expressionconstants.md).
 
 ## Category
 
@@ -30,14 +30,14 @@ Conversion
 
 |Parameter|Description|
 |--- |--- |
-|date|converts the date in UTC date format|
-|dateTime|converts to ISO-8601 format|
-|dateTimeOnly|converts to ISO-8601 format|
-|duration|converts to ISO-8601 format|
-|timezone|converts into the zone id|
+|string|idempotent|
+|dateTime|converts the date in UTC date format|
+|dateTimeOnly|converts the date in UTC date format|
+|duration|convert into the corresponding number of milliseconds as a string|
+|timezone|convert into the time zone id string representation (JODA id)|
 |integer|converts to string representation of the value (1 becomes “1”)|
 |decimal|converts to string representation of the value (1.5 becomes “1.5”)|
-|boolean|converts the boolean value to a quoted value (true becomes “true”)|
+|boolean|convert the boolean value as 'true' if true, 'false' if false|
 
 ## Signatures and return type
 
@@ -50,7 +50,7 @@ Conversion
 `toString(<integer>)`
 `toString(<decimal>)`
 
-Returns a string.
+Return a string.
 
 ## Example
 
