@@ -25,6 +25,29 @@ Four types of conditions are available:
 * [Percentage split](#percentage_split) 
 * [Date condition](#date_condition) 
 
+## About the Condition activity {#about_condition}
+
+Click **Add a path** if you want to define several conditions. For each condition, a new path is added in the canvas after the activity.
+
+![](../assets/journey47.png)
+
+Note that the design of journeys has functional impacts. When several paths are defined after a condition, only the first eligible path will be executed. It means that you can vary the prioritization of paths by placing them above or below one another. For example, if the first path's condition is "The person is a VIP" and the second path's condition is "The person is a male". If a person meeting both conditions (a male who is a VIP) passes this step, the first path will be chosen even if he's also eligible to the second one, because the first path is "above". To change this priority, move your activities in another vertical order.
+
+![](../assets/journey48.png)
+
+You can create another path for audiences that are not eligible to the defined conditions by checking **Show path for other cases than the one(s) above**. Note that this option is not available in split conditions. See the split section above.
+
+The simple mode allows you to perform simple queries based on a combination of fields. All the available fields are displayed on the left side of the screen. Drag and drop fields into the main zone. To combine the different elements, interlock them into one another to create different groups and/or group levels. You can then select a logical operator to combine elements on the same level:
+
+* AND: an intersection of two criteria. Only the elements matching all criteria are taken into account. 
+* OR: a union of two criteria. Elements matching at least one of the two criteria are taken into account.
+
+![](../assets/journey64.png)
+
+>[!NOTE]
+>
+>You cannot perform queries on time series (for example a list of purchases, past clicks on messages) with the simple editor. For this you’ll need to use the advanced editor. See [Building advanced conditions](../expression/expressionadvanced.md#concept_uyj_trt_52b).
+
 ## Data Source condition {#data_source_condition}
 
 This allows you to define a condition based on fields from the data sources or the events previously positioned in the journey. To learn how to use the expression editor, see [Building advanced conditions](../expression/expressionadvanced.md#concept_uyj_trt_52b). Using the advanced expression editor, you can setup more advanced conditions manipulating collections or using data sources requiring the passing of parameters. See [External data sources](../datasource/dsexternal.md#concept_t2s_kqt_52b) and [Building advanced conditions](../expression/expressionadvanced.md#concept_uyj_trt_52b).
@@ -54,27 +77,5 @@ This allows you to define a different flow based on the date. For example, if th
 
 ![](../assets/journey53.png)
 
-## Condition usage {#condition_usage}
-
-Click **Add a path** if you want to define several conditions. For each condition, a new path is added in the canvas after the activity.
-
-![](../assets/journey47.png)
-
-Note that the design of journeys has functional impacts. When several paths are defined after a condition, only the first eligible path will be executed. It means that you can vary the prioritization of paths by placing them above or below one another. For example, if the first path's condition is "The person is a VIP" and the second path's condition is "The person is a male". If a person meeting both conditions (a male who is a VIP) passes this step, the first path will be chosen even if he's also eligible to the second one, because the first path is "above". To change this priority, move your activities in another vertical order.
-
-![](../assets/journey48.png)
-
-You can create another path for audiences that are not eligible to the defined conditions by checking **Show path for other cases than the one(s) above**. Note that this option is not available in split conditions. See the split section above.
-
-The simple mode allows you to perform simple queries based on a combination of fields. All the available fields are displayed on the left side of the screen. Drag and drop fields into the main zone. To combine the different elements, interlock them into one another to create different groups and/or group levels. You can then select a logical operator to combine elements on the same level:
-
-* AND: an intersection of two criteria. Only the elements matching all criteria are taken into account. 
-* OR: a union of two criteria. Elements matching at least one of the two criteria are taken into account.
-
-![](../assets/journey64.png)
-
->[!NOTE]
->
->You cannot perform queries on time series (for example a list of purchases, past clicks on messages) with the simple editor. For this you’ll need to use the advanced editor. See [Building advanced conditions](../expression/expressionadvanced.md#concept_uyj_trt_52b).
 
 You can also define a timezone and a condition if you want to restrict the wait to a certain population.

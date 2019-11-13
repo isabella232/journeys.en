@@ -23,6 +23,14 @@ If you want to wait before executing the next activity in the path, you can use 
 * [Custom](#custom) 
 * [Email send time optimization](#email_send_time_optimization) 
 
+## About the Wait activity{#about_wait}
+
+Here is how waits are prioritized when you use several waits in parallel. If they have the same time configuration and a different but overlapping condition, the wait positioned above will be the one prioritized. For example, the condition of the first wait is “being a woman” and the condition of the second wait in parallel is “being a VIP”. The first wait activity will be prioritized
+
+Also note that if a two different waits are in parallel, the one occurring first will be prioritized, regardless of its vertical position. For example, if a 1-hour wait is above and a 30-minute wait is below, after 30 minutes, the 30-minute wait will be processed.
+
+You can define a timezone and a condition if you want to restrict the wait to a certain population.
+
 ## Duration{#duration}
 
 Select the duration of the wait before the execution of the next activity.
@@ -51,11 +59,3 @@ This option lets you define a custom date, for example 12 July 2020 at 5pm, usin
 ## Email send time optimization{#email_send_time_optimization}
 
 This type of wait uses a score calculated in the Platform. The score calculates the propensity to click or open an email in the future based on past behavior. Note that the algorithm calculating the score needs a certain amount of data to work. As a result, when it does not have enough data, the default wait time will apply. At publication time, you’ll be notified that the default time applies.
-
-## Wait usage{#wait_usage}
-
-You can also define a timezone and a condition if you want to restrict the wait to a certain population.
-
-Here is how waits are prioritized when you use several waits in parallel. If they have the same time configuration and a different but overlapping condition, the wait positioned above will be the one prioritized. For example, the condition of the first wait is “being a woman” and the condition of the second wait in parallel is “being a VIP”. The first wait activity will be prioritized
-
-Also note that if a two different waits are in parallel, the one occurring first will be prioritized, regardless of its vertical position. For example, if a 1-hour wait is above and a 30-minute wait is below, after 30 minutes, the 30-minute wait will be processed.
