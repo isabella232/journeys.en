@@ -42,11 +42,6 @@ index: n
   + [The journey designer's interface](using/building-journeys/journeyinterface.md)
   + [The journey's properties](using/building-journeys/journeyproperty.md)
   + [Events activities](using/building-journeys/journeyevent.md)
-  + Orchestration activities {#orchestration-activities}
-    [About orchestration activities](using/building-journeys/journeyorchestration.md)
-    [Condition activity](using/building-journeys/condition.md)
-    [End activity](using/building-journeys/end.md)
-    [Wait activity](using/building-journeys/wait.md)
   + [Action activities](using/building-journeys/journeyaction.md)
   + [Testing and publishing the journey](using/building-journeys/journeypublication.md)
   + [Journey versions](using/building-journeys/journeyversions.md)
