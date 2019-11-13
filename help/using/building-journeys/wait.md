@@ -1,6 +1,6 @@
 ---
-title: Orchestration activities
-description: Learn about orchestration activities
+title: Wait activities
+description: Learn about wait activity
 page-status-flag: never-activated
 uuid: 269d590c-5a6d-40b9-a879-02f5033863fc
 contentOwner: sauviat
@@ -58,5 +58,4 @@ You can also define a timezone and a condition if you want to restrict the wait 
 
 Here is how waits are prioritized when you use several waits in parallel. If they have the same time configuration and a different but overlapping condition, the wait positioned above will be the one prioritized. For example, the condition of the first wait is “being a woman” and the condition of the second wait in parallel is “being a VIP”. The first wait activity will be prioritized
 
-Also note that if a 2 different timers are in parallel, the one occurring first will be prioritized, whatever its vertical position. For example, if a 1-hour timer is above and a 30-minutes timer is below, after 30 minutes, the 30-minutes timer will apply
-
+Also note that if a two different waits are in parallel, the one occurring first will be prioritized, regardless of its vertical position. For example, if a 1-hour wait is above and a 30-minute wait is below, after 30 minutes, the 30-minute wait will be processed.
