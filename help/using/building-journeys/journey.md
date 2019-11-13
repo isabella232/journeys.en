@@ -61,7 +61,7 @@ There are three ways to end a journey:
 
 * The person arrives at an **End** activity.
 * The person arrives at the last activity of a path.
-* The person arrives at a condition activity (or a timer with a condition) and does not match any of the conditions.
+* The person arrives at a condition activity (or a wait activity with a condition) and does not match any of the conditions.
 
 The person can then re-enter the journey if re-entrance is allowed. See [The journey's properties](../building-journeys/journeyproperty.md#concept_prq_wqt_52b).
 
@@ -82,7 +82,7 @@ The timezone can also be fixed. Clear the pre-defined timezone and pick one from
 
 ![](../assets/journey72.png)
 
-Finally, the timezone can be dynamic for each person entering the step. In this case, you will use the expression editor to select where you want the system to get this information (it can be from an event or a data source). See [Building advanced conditions](../expression/expressionadvanced.md#concept_uyj_trt_52b)The custom timezone must follow this format. If the timezone you want to leverage is a string, you can use the function ‘toTimeZone’ to convert it to the right format. See [Wait](../functions/functiontotimezone.md#toTimeZone)
+Finally, the timezone can be dynamic for each person entering the step. In this case, you will use the expression editor to select where you want the system to get this information (it can be from an event or a data source). See [Building advanced conditions](../expression/expressionadvanced.md#concept_uyj_trt_52b)The custom timezone must follow this [format](https://docs.oracle.com/javase/8/docs/api/java/time/ZoneId.html#of-java.lang.String-). If the timezone you want to leverage is a string, you can use the function ‘toTimeZone’ to convert it to the right format. See [Wait](../functions/functiontotimezone.md#toTimeZone)
 
 The start and end dates of a journey cannot be linked to a specific timezone. They are automatically associated to the instance's timezone.
 

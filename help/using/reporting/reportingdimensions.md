@@ -34,7 +34,7 @@ The table below gives you the list of dimensions used in journey reports and the
 |Field group|List of field groups (**field group name**) used to enrich data in journeys e.g. Profile field group, Geometrixx reservation system.|
 |Journey|List of every journey (**journey name**) in test mode and live e.g. Cart abandonment, Hotel reservation notification.|
 |Journey version|List of every published version of a journey (**journey name + version's number**) e.g. Cart abandonment v1, Hotel reservation notification v2.|
-|Orchestration|List of every orchestration activity (**Condition, End, Timer**) defined and used in journeys. Condition: Data source condition (condition + number - label) e.g. Condition 1 - No credit card, Condition 2 - credit card holder. Time condition, date condition and split condition (condition number - split number - split details) e.g. Condition - split 1 - 50, Condition 2 - split 2 - 50.|
+|Orchestration|List of every orchestration activity (**Condition, End, Wait**) defined and used in journeys. Condition: Data source condition (condition + number - label) e.g. Condition 1 - No credit card, Condition 2 - credit card holder. Time condition, date condition and split condition (condition number - split number - split details) e.g. Condition - split 1 - 50, Condition 2 - split 2 - 50.|
 
 ## Journey metrics {#MBE_p_p22_c4j_w2b}
 
@@ -55,7 +55,7 @@ The table below gives you the list of metrics used in journey reports, their def
 |Executed Action|Total number of actions executed for a journey.|= Executed action|
 |Executed Enrichment|Total number of enrichments executed by calling a data source to get specific field groups.|= Executed enrichment|
 |Executed Event|Total number of actions executed for a journey.|= Executed event|
-|Executed Orchestration|Total number of orchestration objects (end, timer, condition) executed for a journey.|= Condition executed|
+|Executed Orchestration|Total number of orchestration objects (end, wait, condition) executed for a journey.|= Condition executed|
 |Failed|Total number of journeys that were not successfully executed. |= Error in Journey + Journey in timeout|
 |Failed rate|Total number of journeys that were not successfully executed compared to the number of run journeys. |= Error in Journey + Journey in timeout / Journey entered*100 |
 

@@ -21,7 +21,7 @@ The **business user** can now build the journey. Our journey will include the fo
 * two **Event** activities: "LobbyBeacon" and "RestaurantBeacon"
 * two **Condition** activities
 * three **Push** activities and one **Email** activity
-* a **Timer** activity
+* a **Wait** activity
 * four **End** activities
 
 For additional information on how to build a journey, refer to [Building a journey](../building-journeys/journey.md#concept_gq5_sqt_52b).
@@ -131,7 +131,7 @@ Two paths are created after your condition:
 
     ![](../assets/journeyuc2_24.png)
 
-1. We want to send a meal discount push notification only if the person enters the restaurant within the next 6 hours after the welcome push. To do this, we need to use a timer activity. Place your cursor on the welcome push activity and click on the "+" symbol. In the new path, add a timer activity and define a duration of 6 hours. The first eligible activity will be chosen. If the restaurant event is received less than 6 hours after the welcome push, the push activity is sent. If no restaurant event is received within the next 6 hours, the timer is chosen. Place an **End** activity after the timer activity.
+1. We want to send a meal discount push notification only if the person enters the restaurant within the next 6 hours after the welcome push. To do this, we need to use a wait activity. Place your cursor on the welcome push activity and click on the "+" symbol. In the new path, add a wait activity and define a duration of 6 hours. The first eligible activity will be chosen. If the restaurant event is received less than 6 hours after the welcome push, the push activity is sent. If no restaurant event is received within the next 6 hours, the wait is chosen. Place an **End** activity after the wait activity.
 
     ![](../assets/journeyuc2_31.png)
 
