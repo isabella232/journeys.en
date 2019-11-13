@@ -32,7 +32,7 @@ The payload definition allows you to choose the information the system expects t
 
     >[!NOTE]
     >
-    >The **eventID** field is automatically added in the list of fields selected so that Journey orchestration can identify the event. The system pushing the event should not generate an ID, it should use the one available in the payload preview. See [Previewing the payload](../event/eventpayloadpreview.md#concept_jgf_4yk_4fb).
+    >The **eventID** field is automatically added in the list of fields selected so that Journey Orchestration can identify the event. The system pushing the event should not generate an ID, it should use the one available in the payload preview. See [Previewing the payload](../event/eventpayloadpreview.md#concept_jgf_4yk_4fb).
 
 1. When you're done selecting the needed fields, click **Save** or press **Enter**.
 

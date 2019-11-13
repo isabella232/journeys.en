@@ -1,5 +1,5 @@
 ---
-title: About Journey orchestration
+title: About Journey Orchestration
 description: Learn about journeys
 page-status-flag: never-activated
 uuid: 269d590c-5a6d-40b9-a879-02f5033863fc
@@ -14,7 +14,7 @@ internal: n
 snippet: y
 ---
 
-# About Journey orchestration {#concept_rfj_wpt_52b}
+# About Journey Orchestration {#concept_rfj_wpt_52b}
 
 This section will present you the main steps for building journeys and a description of the main interface elements.
 

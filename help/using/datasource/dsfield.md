@@ -23,7 +23,7 @@ For each data source, you can define several field groups, each of them with a s
 
 For example, you can create a field group with the telephone number, the email, the first name and the address of the profile. You will then be able to use this data in your journey to create conditions. For example, you can decide to send an SMS only if the profile's telephone number is not empty. If it is empty, you can send an email.
 
-Even though a default name is automatically added, we recommend that you give a name to  your field group. Indeed, the field group name will be visible to other users in Journey orchestration. Giving a relevant name to field groups is a best practice.
+Even though a default name is automatically added, we recommend that you give a name to  your field group. Indeed, the field group name will be visible to other users in Journey Orchestration. Giving a relevant name to field groups is a best practice.
 
 When a data source field is used in a journey, the system will retrieve all the fields defined for that field group. Therefore, selecting only the fields that you need for your journeys is a best practice. This will reduce the request latency in your journeys thus increasing performance. Note that you can easily add more fields in field groups later.
 

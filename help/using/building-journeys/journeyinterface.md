@@ -42,7 +42,7 @@ The **canvas** is the central zone in the journey designer. It is in this zone t
 
 The **activity configuration pane** appears when you click on an activity in the palette. Fill in the required fields. Click on the **Delete** icon to delete the activity. Click on **Cancel** to cancel the modifications or **Ok** to confirm. To delete activities, you can also select one activities (or more) and press the backspace key. Pressing the escape key will close the activity configuration pane.
 
-In the canvas, your action and event activities are represented by an icon with the name of the event or action displayed underneath. In the activity configuration pane, you can use the **Label** field to add a suffix to the activity name. These labels will help you contextualize the use of events and actions, especially when you use the same event or action several times in your journey. You will also be able to see the labels you added in the Journey orchestration reporting.
+In the canvas, your action and event activities are represented by an icon with the name of the event or action displayed underneath. In the activity configuration pane, you can use the **Label** field to add a suffix to the activity name. These labels will help you contextualize the use of events and actions, especially when you use the same event or action several times in your journey. You will also be able to see the labels you added in the Journey Orchestration reporting.
 
 
  ![](../assets/journey59bis.png)

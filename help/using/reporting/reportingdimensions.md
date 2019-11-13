@@ -1,6 +1,6 @@
 ---
-title: Dimensions and metrics available for Journey orchestration
-description: Learn about dimensions and metrics available for Journey orchestration
+title: Dimensions and metrics available for Journey Orchestration
+description: Learn about dimensions and metrics available for Journey Orchestration
 page-status-flag: never-activated
 uuid: 269d590c-5a6d-40b9-a879-02f5033863fc
 contentOwner: sauviat
@@ -14,11 +14,11 @@ internal: n
 snippet: y
 ---
 
-# Dimensions and metrics available for Journey orchestration {#concept_rfj_wpt_52b}
+# Dimensions and metrics available for Journey Orchestration {#concept_rfj_wpt_52b}
 
 You can find here the list of every components available in Dynamic reports as well as their definitions.
 
-**Segments** and **Profiles** components are not available for Journey orchestration reports.
+**Segments** and **Profiles** components are not available for Journey Orchestration reports.
 
 Please note that if two components are not compatible, the cell will display the value **None**. To learn more on compatibility between dimensions and metrics, refer to this [table](https://docs.campaign.adobe.com/doc/standard/en/Technotes/dynamic_report_compatibility_journey.pdf).
 

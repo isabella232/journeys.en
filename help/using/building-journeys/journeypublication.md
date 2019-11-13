@@ -30,7 +30,7 @@ You have the possibility to test your journey before its publication, using test
 
 **Important notes:**
 
-* Events need to be sent to Journey orchestration.
+* Events need to be sent to Journey Orchestration.
 * Only individuals flagged as "test profiles" in the Unified Profile Service will be allowed to enter the tested journey.
 * The test mode is only available in draft journeys that use namespaces.
 * The maximum number of test profiles than can enter a journey is 100.

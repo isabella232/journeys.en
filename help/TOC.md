@@ -5,18 +5,18 @@ user-guide-title: Journey Orchestration Help
 index: n
 ---
 
-# Journey orchestration Help {#using}
+# Journey Orchestration Help {#using}
 
 + [Product documentation](journey-orchestration-home.md)
 + Release Notes {#release-notes}
   + [Release Notes](using/rn/release-notes.md)
   + [Documentation Updates](using/rn/documentation-updates.md)
-+ Starting with Journey orchestration {#starting-with-journeys}
-  + [About Journey orchestration](using/about/intro.md)
++ Starting with Journey Orchestration {#starting-with-journeys}
+  + [About Journey Orchestration](using/about/intro.md)
   + [User Process](using/about/aboutprocess.md)
-  + [Journey orchestration's interface](using/about/aboutinterface.md)
+  + [Journey Orchestration's interface](using/about/aboutinterface.md)
   + [Ending a journey](using/about/aboutending.md)
-  + [Managing your users' access to Journey orchestration](using/about/usermanagement.md)
+  + [Managing your users' access to Journey Orchestration](using/about/usermanagement.md)
   + [Troubleshooting](using/about/troubleshooting.md)
 + Configuring an event {#events-journeys}
   + [About events](using/event/event.md)
