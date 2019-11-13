@@ -22,11 +22,11 @@ snippet: y
 
 ## Discovering the interface{#section_jsq_zr1_ffb}
 
-To access the Journey orchestration' interface, click the **Triggered Journeys** card from the home page of Campaign Standard or click the **Adobe Campaign** logo, in the top left corner, then select **Triggered Journeys**.
+To access the Journey orchestration' interface, click the **Journey Orchestration** shortcut in the Experience Cloud's solution switcher. It is displayed on the left, below "Experience Cloud".
 
 ![](../assets/journey1.png)  
 
-The top bar allows you to navigate through the different functionalities of the feature: Journeys under **Home**, **Reports**, **Data Sources**, **Events**, **Actions**.
+The top bar allows you to navigate through the different functionalities of the feature: Journeys under **Home**, **Data Sources**, **Events**, **Actions**.
 
 ![](../assets/journey2.png)  
 
@@ -34,7 +34,11 @@ The top bar allows you to navigate through the different functionalities of the 
 
 In the **Home**, **Data Sources**, **Events** and **Actions** lists, a search bar allows you to search for an item. Use the left drop-down menu to search in names, descriptions or both. Use the **Filters** drop-down menu to filter the elements according to different criteria. You can choose to only display the elements of a certain type or status, the ones you created, or the ones modified in the last 30 days.
 
-In the **Home**, the list of journeys is displayed. A drop-down menu allows you to only display the journeys that use a particular event, field group or action. See [The journey designer's interface](../building-journeys/journeyinterface.md#concept_m1g_5qt_52b).
+In the **Home** menu, the list of journeys is displayed. A drop-down menu allows you to only display the journeys that use a particular event, field group or action. See [The journey designer's interface](../building-journeys/journeyinterface.md#concept_m1g_5qt_52b).
+
+>[!NOTE]
+>
+>Note that columns displayed can be personalized using the configuration button on the top right of the lists. Personalization is saved for each user.
 
 ![](../assets/journey3.png)  
 
@@ -51,6 +55,8 @@ In the different lists, you can perform basic actions on each element. For examp
 Here are the different shortcuts available in the Journey orchestration's interface.
 
 _When configuring an activity in a journey:_
+
+The canvas is automatically saved. You can see on the top left of the canvas the saving status.
 
 * Click outside of the right pane or press **escape** to close the configuration pane without saving.
 * Press **enter** to save modifications and close the configuration pane.

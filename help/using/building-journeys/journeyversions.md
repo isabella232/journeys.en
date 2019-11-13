@@ -16,7 +16,7 @@ snippet: y
 
 # Journey versions{#concept_ldc_k55_zgb}
 
-In the journey list, all journey versions are displayed with the version number. See [The journey designer's interface](../building-journeys/journeyinterface.md#concept_m1g_5qt_52b). When you search for a journey, newest versions appear first.
+In the journey list, all journey versions are displayed with the version number. See [The journey designer's interface](../building-journeys/journeyinterface.md#concept_m1g_5qt_52b). When you search for a journey, newest versions appear at the top of the list the first time the application opens. Then, you can define the sorting you want and the application will keep it as a user preference. The journey's version is also display at the top of the journey edition interface, above the canvas.
 
 ![](../assets/journeyversions1.png)
 
@@ -34,10 +34,10 @@ If you need to modify to a live journey, you need to create a new version of you
 
     ![](../assets/journeyversions3.png)
 
-At publication time, individuals will start to flow into the latest version of the journey. People who have already entered a previous version stay in it until they finish the journey. If they later re-enter the same journey, they will go into the latest version.
+From the moment the journey is published, individuals will start to flow into the latest version of the journey. People who have already entered a previous version stay in it until they finish the journey. If they later re-enter the same journey, they will go into the latest version.
 
 Journey versions can be stopped individually. All versions of journeys have the same name.
 
 >[!NOTE]
 >
->If you have several live versions and you stop the latest one, people will not fall back to a previous live version.
+>If you have several live versions and you stop the latest one, people will not fall back to a previous live version. No entrance in the journey will happen.

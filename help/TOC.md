@@ -7,7 +7,7 @@ index: n
 
 # Journey orchestration Help {#using}
 
-+ [Product documentation](journeys-home.md)
++ [Product documentation](journeys-orchestration-home.md)
 + Release Notes {#release-notes}
   + [Release Notes](using/rn/release-notes.md)
   + [Documentation Updates](using/rn/documentation-updates.md)
@@ -42,6 +42,11 @@ index: n
   + [The journey designer's interface](using/building-journeys/journeyinterface.md)
   + [The journey's properties](using/building-journeys/journeyproperty.md)
   + [Events activities](using/building-journeys/journeyevent.md)
+  + Orchestration activities {#orchestration-activities2}
+    [About orchestration activities](using/building-journeys/journeyorchestration.md)
+    [Condition activity](using/building-journeys/condition.md)
+    [End activity](using/building-journeys/end.md)
+    [Wait activity](using/building-journeys/wait.md)
   + [Action activities](using/building-journeys/journeyaction.md)
   + [Testing and publishing the journey](using/building-journeys/journeypublication.md)
   + [Journey versions](using/building-journeys/journeyversions.md)

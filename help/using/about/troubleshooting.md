@@ -18,6 +18,14 @@ snippet: y
 
 Here are various tools that you can use to troubleshoot your journeys.
 
+## Checking for errors {#section_h3q_kqk_fhb}
+
+Before testing and publishing your journey, verify that all the activities are properly configured.
+
+Errors appear with a warning symbol displayed on the activities themselves in the canvas. Place your cursor on the exclamation mark to display the error message. For example, if a mandatory field is empty, an error will be displayed.
+
+ ![](../assets/journey63.png)
+
 ## Checking that events are properly sent{#section_rqz_11t_dgb}
 
 The starting point of a journey is always an event. You can perform tests using tools such as Postman.

@@ -36,7 +36,7 @@ You can use an event (also known as real-time) or profile transactional messagin
 >
 >When we send real-time transactional messages (rtEvent) or when we route messages with a third-party system thanks to a custom action, a specific setup is required for fatigue, blacklist or unsubscription management. For example, if an attribute "blacklist" or "unsubscribe" is stored in the Platform or in a third-party system, a condition will have to be added before the message sending to check this condition.
 
-When you select a template, all the fields expected in the message payload are displayed in the activity configuration pane under **Address** and **Personalization data**. You need to map each of these fields with the field you want to use, either from the event or from the data source.
+When you select a template, all the fields expected in the message payload are displayed in the activity configuration pane under **Address** and **Personalization data**. You need to map each of these fields with the field you want to use, either from the event or from the data source. You can also use the advanced expression editor to pass a value manually, perform data manipulation on retrieved information (for example converting a string to uppercase) or use functions such as "if, then, else". See [Building advanced conditions](../expression/expressionadvanced.md#concept_uyj_trt_52b).
 
 ![](../assets/journey60.png)
 
@@ -52,19 +52,25 @@ First, you need to choose a transactional messaging template. See [Actions](../b
 
 Two categories are available: **Address** and **Personalization Data**.
 
+You can easily define where to retrieve the **Address** or the **Personalization Data** using the interface. You can browse through events and available data source’s fields. You can also use the advanced expression editor for more advanced use cases such as using a data source that require the passing of parameters or performing manipulations. See [Building advanced conditions](../expression/expressionadvanced.md#concept_uyj_trt_52b). 
+
 **Address**
 
 >[!NOTE]
 >
->This category is only visible if you select an event template. For profile templates, the **Address** fields are automatically retrieved by the system using the reconciliation performed by Adobe Campaign Standard.
-    
+>This category is only visible if you select an "event" transactional messaging template. For "profile" messages, the **Address** field is automatically retrieved from Adobe Campaign Standard by the system.
+
 These are the fields the system requires to know where to send the message. For an email template, it's the email address. For an SMS, it's the mobile phone number.
 
 ![](../assets/journey61.png)
 
 **Personalization data**
 
-These are the fields used in your Adobe Campaign Standard template to personalize your message, apply conditional formatting, or pick a specific message variant. 
+>[!NOTE]
+>
+>You cannot pass a collection in personalization data. If the transactional email or SMS expects collections, it will not work. Also note that the personalization data has an expected format (example: string, decimal, etc.). You must be careful to respect these expected formats. 
+
+These are the fields expected by the Adobe Campaign Standard message. These fields can be used to personalize the message, apply conditional formatting, or pick a specific message variant. 
 
 ![](../assets/journey62.png)
 
@@ -72,7 +78,7 @@ These are the fields used in your Adobe Campaign Standard template to personaliz
 
 Prior to using the push activity, your mobile app needs to be configured along with Campaign Standard to send push notifications. Use this [article](https://helpx.adobe.com/campaign/kb/integrate-mobile-sdk.html) to take the necessary implementation steps for mobile.
 
-First, you need to choose a mobile app from the drop-down list and a transactional messaging template. See [Actions](../building-journeys/journeyaction.md#concept_hbj_hrt_52b).
+First, you need to choose a mobile app from the drop-down list and a transactional message. See [Actions](../building-journeys/journeyaction.md#concept_hbj_hrt_52b).
 
 ![](../assets/journey62bis.png)
 
@@ -82,7 +88,7 @@ Two categories are available: **Target** and **Personalization Data**.
 
 >[!NOTE]
 >
->This category is only visible if you select an event template. For profile templates, the **Target** fields are automatically retrieved by the system using the reconciliation performed by Adobe Campaign Standard.
+>This category is only visible if you select an event message. For profile messages, the **Target** fields are automatically retrieved by the system using the reconciliation performed by Adobe Campaign Standard.
     
 In this section, you define the **Push Platform** (iOS or Android) and **Registration Token**. The registration token needs to be defined in the payload of the nearest event. It is pre-filled as follows:
 
@@ -92,10 +98,18 @@ In this section, you define the **Push Platform** (iOS or Android) and **Registr
 
 **Personalization Data**
 
+>[!NOTE]
+>
+>You cannot pass a collection in personalization data. If the transactional push expects collections, it will not work. Also note that the personalization data has an expected format (example: string, decimal, etc.). You must be careful to respect these expected formats. 
+
 These are the fields used in your Adobe Campaign Standard template to personalize your message, apply conditional formatting, or pick a specific message variant. 
 
 ## Custom actions {#section_f2c_hbg_nhb}
 
 If you're using a custom action, you will see, in read-only, the **URL Configuration** and **Authentication** parameters defined in the action configuration screen (see [custom actions](../custom-action/custom.md)).
 
-In the **Action parameters** section, you'll see the message parameters defined with _"toBeMapped": true_. For these parameters, you can define an expression based on the journey's information.
+>[!NOTE]
+>
+>You cannot pass a collection in action parameters. If the custom action expects collections, it will not work. Also note that the personalization data has an expected format (example: string, decimal, etc.). You must be careful to respect these expected formats. 
+
+In the **Action parameters** section, you'll see the message parameters defined as _"Variable"_. For these parameters, you can define where to get this information (example: events, data sources), pass values manually or use the advanced expression editor for advanced use cases. Advanced uses cases can be data manipulation and other function usage.
