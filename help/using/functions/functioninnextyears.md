@@ -16,7 +16,7 @@ snippet: y
 
 # inNextYears {#inNextYears}
 
-Function defining if a given date or dateTime is between now and now + delta years.
+Returns true if a given date or dateTime is between now and now + delta years.
 
 ## Category
 
@@ -24,12 +24,12 @@ Date
 
 ## Function syntax
 
-`inNextYears(<parameter>)`
+`inNextYears(<dateTime>,<delta>)`
 
 ## Parameters
 
 * dateTime
-* integer
+* delta: integer
 
 ## Signatures and return type
 

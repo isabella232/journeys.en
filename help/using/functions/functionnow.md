@@ -16,7 +16,7 @@ snippet: y
 
 # now {#now}
 
-Returns the current date in date time format.
+Returns the current date in date time format.For more informtation on data types, refer to [Constants](../expression/expressionconstants.md).
 
 ## Category
 
@@ -34,7 +34,9 @@ Date
 
 ## Signatures and return type
 
-`now(string)`
+`now()`
+
+`now(<timezone id>)`
 
 Returns a dateTime.
 
@@ -42,4 +44,4 @@ Returns a dateTime.
 
 `now()`
 
-Returns "2019-06-03T06:30Z".
+Returns 2019-06-03T06:30Z.

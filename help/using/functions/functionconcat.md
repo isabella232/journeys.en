@@ -16,7 +16,7 @@ snippet: y
 
 # concat {#concat}
 
-Concatenates the two parameters.
+Concatenates two string parameters or a list of strings.
 
 ## Category
 

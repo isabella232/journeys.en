@@ -56,4 +56,4 @@ For additional information on event configuration, refer to [Configuring an even
 
     ![](../assets/journeyuc2_5.png)
 
-In the same way, create the "RestaurantBeacon" event. Your two beacon events are created and can now be used in our journey. You now need to configure the mobile application so that it can send the expected payload to the Streaming Ingestion APIs endpoint. See [Additional steps to send events to Journeys](../event/eventsteps.md#concept_xrz_n1q_y2b).
+In the same way, create the "RestaurantBeacon" event. Your two beacon events are created and can now be used in our journey. You now need to configure the mobile application so that it can send the expected payload to the Streaming Ingestion APIs endpoint. See [Additional steps to send events to Journey orchestration](../event/eventsteps.md#concept_xrz_n1q_y2b).

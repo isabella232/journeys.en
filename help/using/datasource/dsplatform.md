@@ -34,7 +34,7 @@ Here are the main steps to add field groups to the build-in data source.
 
     ![](../assets/journey24.png)
 
-1. Select a schema from the **Schema** drop-down. This field lists Profile and Experience Events schemas available in the Platform. Schema creation is not performed in Triggered Journeys. It’s performed in the Data Platform.
+1. Select a schema from the **Schema** drop-down. This field lists Profile and Experience Events schemas available in the Platform. Schema creation is not performed in Journey orchestration. It’s performed in the Data Platform.
 1. Select the fields you want to use.
 1. Define the cache duration.
 1. Click on **Save**.

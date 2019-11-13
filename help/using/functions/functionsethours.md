@@ -49,3 +49,7 @@ Returns a datetime without considering timezone.
 `setHours(toDateTime('2010-12-12T01:11:00Z'), 4))`
 
 Returns 2010-12-12T04:11:00Z.
+
+`setHours(nowWithDelta(1, "days"), 20)`
+
+Returns tomorrow at 8 PM.

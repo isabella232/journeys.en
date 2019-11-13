@@ -1,5 +1,5 @@
 ---
-title: Managing your users' access to Journeys
+title: Managing your users' access to Journey orchestration
 description: 
 page-status-flag: never-activated
 uuid: 269d590c-5a6d-40b9-a879-02f5033863fc
@@ -14,7 +14,7 @@ internal: n
 snippet: y
 ---
 
-# Managing your users' access to Journeys{#concept_rfj_wpt_52b}
+# Managing your users' access to Journey orchestration{#concept_rfj_wpt_52b}
 
 Define your users' access levels using security groups and roles.
 
@@ -34,7 +34,7 @@ The set of roles assigned to a security group will define the user's access to t
 
 ![](../assets/user_management.png)
 
-The following out-of-the-box roles are specific and unique to users that need to use the Journeys feature:
+The following out-of-the-box roles are specific and unique to users that need to use the Journey orchestration feature:
 
 * **Manage and execute journeys**
 * **Read journeys**
@@ -43,7 +43,7 @@ The following out-of-the-box roles are specific and unique to users that need to
 * **Manage reports**
 * **Read reports**
 
-You can find below the compatibility between roles and **Triggered journeys'** different functionalities:
+You can find below the compatibility between roles and Journeys orchestration's different functionalities:
 
 ![](../assets/user_management_3.png)
 
@@ -58,7 +58,7 @@ Security groups are assigned to a set of users that share the same roles and rig
 You can create your own security group with the different roles needed or you can assign one of the following out-of-the-box security groups to your users:
 
 *   **Limited Access User**: User with read only access to journeys, events and reports. This security group includes the following roles:
-    *   Read Journeys
+    *   Read journeys
     *   Read events and resources
     *   Read reports
 *   **Administrators**: User with access to the administration menus with the possibility to manage journeys, events and reports. This security group includes the following roles:
@@ -70,19 +70,19 @@ You can create your own security group with the different roles needed or you ca
     *   Prepare deliveries
     *   Start deliveries
     *   Workflow
-    *   Manage and execute Journeys
+    *   Manage and execute journeys
     *   Manage events, resources, and keys
     *   Manage reports
 
     >[!NOTE]
     >
-    >**Administrators** is the only security group allowing creation, edition and publication of transactional messaging which allows message sending for triggered journeys.
+    >**Administrators** is the only security group allowing creation, edition and publication of transactional messaging which allows message sending for Journey orchestration.
 
 *   **Standard User**: User with basics access to Adobe Campaign with the possibility to manage journeys. This security group includes the following roles:
     *   Prepare deliveries
     *   Start deliveries
     *   Workflow
-    *   Manage and execute Journeys
+    *   Manage and execute journeys
     *   Read events and resources
     *   Manage reports
 

@@ -1,19 +1,22 @@
 ---
 product: Journeys
 audience: end-user
-user-guide-title: Journeys Help
+user-guide-title: Journey Orchestration Help
 index: n
 ---
 
-# Journeys Help {#using}
+# Journey orchestration Help {#using}
 
 + [Product documentation](journey-orchestration-home.md)
-+ Starting with Journeys {#starting-with-journeys}
-  + [About Journeys](using/about/intro.md)
++ Release Notes {#release-notes}
+  + [Release Notes](using/rn/release-notes.md)
+  + [Documentation Updates](using/rn/documentation-updates.md)
++ Starting with Journey orchestration {#starting-with-journeys}
+  + [About Journey orchestration](using/about/intro.md)
   + [User Process](using/about/aboutprocess.md)
-  + [The Journeys' interface](using/about/aboutinterface.md)
+  + [Journey orchestration's interface](using/about/aboutinterface.md)
   + [Ending a journey](using/about/aboutending.md)
-  + [Managing your users' access to Journeys](using/about/usermanagement.md)
+  + [Managing your users' access to Journey orchestration](using/about/usermanagement.md)
   + [Troubleshooting](using/about/troubleshooting.md)
 + Configuring an event {#events-journeys}
   + [About events](using/event/event.md)
@@ -72,7 +75,6 @@ index: n
       + [toDuration](using/functions/functiontoduration.md)
       + [toInteger](using/functions/functiontointeger.md)
       + [toString](using/functions/functiontostring.md)
-      + [toTimeZone](using/functions/functiontotimezone.md)
     + Date {#date}
       + [currentTime​InMillis](using/functions/functioncurrenttimeinmillis.md)
       + [inLastDays](using/functions/functioninlastdays.md)
@@ -87,7 +89,6 @@ index: n
       + [nowWithDelta](using/functions/functionnowwithdelta.md)
       + [setHours](using/functions/functionsethours.md)
       + [setDays](using/functions/functionsetdays.md)
-      + [updateTimeZone](using/functions/functionupdatetimezone.md)
     + List {#list}
       + [distinct](using/functions/functiondistinct.md)
       + [distinctWithNull](using/functions/functiondistinctwithnull.md)

@@ -30,7 +30,7 @@ You have the possibility to test your journey before its publication, using test
 
 **Important notes:**
 
-* Events need to be sent to Journeys.
+* Events need to be sent to Journey orchestration.
 * Only individuals flagged as "test profiles" in the Unified Profile Service will be allowed to enter the tested journey.
 * The test mode is only available in draft journeys that use namespaces.
 * The maximum number of test profiles than can enter a journey is 100.
@@ -45,11 +45,11 @@ To use the test mode, follow these steps:
 
     ![](../assets/journeytest1.png)
 
-1. After the events are received, click the **&lt;/>** button to view the test result.
+1. After the events are received, click the **</>** button to view the test result.
 
     ![](../assets/journeytest2.png)
 
-1. Verify the test result. This page displays the journey’s current information in JSON format. A button allows you to copy entire nodes. You need to refresh the page to update the journey’s test results. 
+1. Verify the test result. This page displays the journey’s current information in JSON format. A button allows you to copy entire nodes. You need to refresh the page to update the journey’s test results.
 
     ![](../assets/journeytest3.png)
 
