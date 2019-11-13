@@ -50,7 +50,8 @@ Here are the main steps to create and configure a new external data source:
 
     ![](../assets/journey27.png)
 
-1. Configure the authentication depending on the external service configuration: **No authentication**, **Basic**, **Custom** or **API key**. For more information on the custom authentication mode, see [Custom authentication mode](../datasource/dsexternal.md). In our example, we choose:
+1. Configure the authentication depending on the external service configuration: **No authentication**, **Basic**, **Custom** or **API key**. For more information on the custom authentication mode, see [Custom authentication mode](../datasource/dsexternal.md#section_wjp_nl5_nhb). In our example, we choose:
+
 
     * **Type**: "API key"
     * **Value**: "1234" (this is the value of our API key)
