@@ -16,27 +16,27 @@ snippet: y
 
 # Action activities {#concept_hbj_hrt_52b}
 
-From the palette, on the left-hand side of the screen, unfold the **Actions** category.
+From the palette, on the left-hand side of the screen, below **Events** and **Orchestration**, you will find the **Actions** category.
 
 ![](../assets/journey58.png)
 
 These activities represent the different available communication channels. You can combine them to create a cross-channel scenario. The following out-of-the-box action activities are available: **Email**, **Push** and **SMS**. If you've configured custom actions, they will also appear here (see [custom actions](../custom-action/custom.md)).
 
-When you drop an action activity in the canvas, you can define a **Label**. This allows you to add a suffix to the action name that will appear under your activity in the canvas. This is useful if you use the same action several times in your journey. You can also add an optional **Description**.
+When you drop an action activity in the canvas, you can define a **Label**. This allows you to add a suffix to the action name that will appear under your activity in the canvas. This is useful if you use the same action several times in your journey and want to identify them more easily. Reports will also be easier to read. You can also add an optional **Description**.
 
 ![](../assets/journey59bis.png)
 
-For each of these channels, you select an Adobe Campaign Standard Transactional Messaging **template**. Indeed, Journey orchestration is not a message sending solution. We rely on Transactional Messaging to execute message sending. It means that if you want to use a certain message template in your journeys, you must publish it in Adobe Campaign Standard. Refer to this [page](https://docs.adobe.com/content/help/en/campaign-standard/using/communication-channels/transactional-messaging/about-transactional-messaging.html) to learn how to use this feature.
+For each of these channels, you select an Adobe Campaign Standard Transactional Messaging **template**. Indeed, Journey orchestration is not a message sending solution. For the built-in Email, SMS and push channels, we rely on Transactional Messaging to execute message sending. It means that if you want to use a certain message template in your journeys, you must publish it in Adobe Campaign Standard. Refer to this [page](https://docs.adobe.com/content/help/en/campaign-standard/using/communication-channels/transactional-messaging/about-transactional-messaging.html) to learn how to use this feature.
 
 ![](../assets/journey59.png)
 
-You can use an event or profile transactional messaging template.
+You can use an event (also known as real-time) or profile transactional messaging template.
 
 >[!NOTE]
 >
->When we send real-time transactional messages (rtEvent) or when we route messages with a third-party system thanks to a custom action, a specific setup is required for fatigue, blacklist, profile deletion or unsubscription management. For example, if an attribute "blacklist" or "unsubscribe" is stored in the Platform or in a third-party system, a condition will have to be added before the message sending to check this condition.
+>When we send real-time transactional messages (rtEvent) or when we route messages with a third-party system thanks to a custom action, a specific setup is required for fatigue, blacklist or unsubscription management. For example, if an attribute "blacklist" or "unsubscribe" is stored in the Platform or in a third-party system, a condition will have to be added before the message sending to check this condition.
 
-When you select a template, all the fields expected in the message payload are displayed in the activity configuration pane. You need to map each of these fields with the field you want to use, either from the event or from the data source.
+When you select a template, all the fields expected in the message payload are displayed in the activity configuration pane under **Address** and **Personalization data**. You need to map each of these fields with the field you want to use, either from the event or from the data source.
 
 ![](../assets/journey60.png)
 
