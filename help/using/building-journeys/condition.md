@@ -14,7 +14,7 @@ internal: n
 snippet: y
 ---
 
-# Condition {#section_e2n_pft_dgb}
+# Condition activity{#section_e2n_pft_dgb}
 
 ![](../assets/journey49.png)
 

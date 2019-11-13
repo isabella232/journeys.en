@@ -1,5 +1,5 @@
 ---
-title: Wait activities
+title: Wait activity
 description: Learn about wait activity
 page-status-flag: never-activated
 uuid: 269d590c-5a6d-40b9-a879-02f5033863fc
@@ -14,7 +14,7 @@ internal: n
 snippet: y
 ---
 
-# Wait {#section_rlm_nft_dgb}
+# Wait activity{#section_rlm_nft_dgb}
 
 If you want to wait before executing the next activity in the path, you can use a **Wait** activity. It allows you to define the moment when the next activity will be executed. Four options are available:
 
