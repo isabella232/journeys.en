@@ -58,8 +58,8 @@ _When configuring an activity in a journey:_
 
 The canvas is automatically saved. You can see on the top left of the canvas the saving status.
 
-* Click outside of the right pane or press **escape** to close the configuration pane without saving.
-* Press **enter** to save modifications and close the configuration pane.
+* Press **escape** to close the configuration pane and discard the changes made. This is the equivalent of the **Cancel** button.
+* Press **enter** or click outside the pane to close the configuration pane. Changes are saved. This is the equivalent of the **OK** button.
 * If you click **Delete**, you can then press **enter** to confirm the deletion.
 
 _In pop-ups:_
