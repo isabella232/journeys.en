@@ -60,16 +60,18 @@ The canvas is automatically saved. You can see on the top left of the canvas the
 
 * Press **escape** to close the configuration pane and discard the changes made. This is the equivalent of the **Cancel** button.
 * Press **enter** or click outside the pane to close the configuration pane. Changes are saved. This is the equivalent of the **OK** button.
-* If you click **Delete**, you can then press **enter** to confirm the deletion.
+* If you click **backspace**, you can then press **enter** to confirm the deletion.
 
 _In pop-ups:_
 
-* Click outside of the pop-up to close it.
+* Press **escape** to close it (equivalent of the **Cancel** button).
+* Press **enter** to save or coonfirm (equivalent of the **OK** or **Save** button).
 
-_In the event or data source configuration pane:_
+_In the event, data source or action configuration pane:_
 
 * Press **escape** to close the configuration pane without saving.
 * Press **enter** to save modifications and close the configuration pane.
+* Press **tab** to jump between the different fields to configure.
 
 _When browsing through XDM fields:_
 
@@ -86,7 +88,6 @@ _In a screen with a search bar:_
 
 _In the canvas of a journey:_
 
-* Use the **Ctrl/Command + S** key combination to save the journey.
 * Use the **Ctrl/Command + A** key combination to select all activities.
-* When several activities are selected, press **delete/backspace** to delete them.
+* When one or several activities are selected, press **delete/backspace** to delete them. Then you can press **enter** to confirm in the confirmation pop-up.
 * Double-click on an activity from the left palette to add it at the first available position (from top to bottom).
