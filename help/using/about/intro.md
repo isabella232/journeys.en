@@ -18,7 +18,7 @@ snippet: y
 
 Build real-time orchestration use cases leveraging contextual data stored in events or data sources.
 
-The Journey orchestration feature allows real-time orchestration powered by contextual data from events, information from the Adobe Experience Platform, or data from third-party API services. Actions in these individualized triggered journeys currently include Email, Push Messaging, and SMS. You can also add custom actions if you're using a third-party system to send your messages.
+The Journey orchestration feature allows real-time orchestration powered by contextual data from events, information from the Adobe Experience Platform, or data from third-party API services. Actions in these individualized journeys currently include Email, Push Messaging, and SMS. You can also add custom actions if you're using a third-party system to send your messages.
 
 In the event configuration tab, a **technical user** configures events expected in the journeys. The incoming events' data is normalized following the Adobe Experience Data Model (XDM). Events come from Streaming Ingestion APIs for authenticated and unauthenticated events (such as Adobe Mobile SDK events).
 

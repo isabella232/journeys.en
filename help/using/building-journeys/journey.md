@@ -27,7 +27,7 @@ Only one namespace is allowed per journey. If you use several events in the same
 
 Here are the main steps to create and publish a journey.
 
-1. In the top bar, click **Journeys**. 
+1. In the top bar, click **Home**. 
 
     The list of journeys is displayed. See [The journey designer's interface](../building-journeys/journeyinterface.md#concept_m1g_5qt_52b) for more information on the interface.
 

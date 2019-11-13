@@ -30,11 +30,11 @@ When you click on the event activity in the canvas, the activity configuration p
 
 ## General events {#section_ofg_jss_dgb}
 
-For this type of event, you can only add a label and a description. The rest of the configuration cannot be edited. It was performed by the technical user. See [](../event/event.md#concept_gfj_fqt_52b). 
+For this type of event, you can only add a label and a description. The rest of the configuration cannot be edited. It was performed by the technical user. See [](../event/event.md#concept_gfj_fqt_52b).
 
 ## Reaction events {#section_dhx_gss_dgb}
 
-Among the different event activities available in the palette, you will find the built-in **Reactions** event. This activity allows you to react to specific tracking data related to a message sent within the same journey. The event can be triggered, for example, if the person clicked on the email, or if the push message failed to be delivered. This allows you to perform additional actions in reaction to the message's success. See [](../building-journeys/journeyaction.md#concept_hbj_hrt_52b).
+Among the different event activities available in the palette, you will find the built-in **Reactions** event. This activity allows you to react to specific tracking data related to a message sent within the same journey. The event can be triggered, for example, if the person clicked on the email, or if the push message failed to be delivered. This allows you to perform additional actions in reaction to the message's success. See [Action activities](../building-journeys/journeyaction.md#concept_hbj_hrt_52b).
 
  ![](../assets/journey45.png)
 

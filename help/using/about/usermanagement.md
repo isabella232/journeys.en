@@ -43,7 +43,7 @@ The following out-of-the-box roles are specific and unique to users that need to
 * **Manage reports**
 * **Read reports**
 
-You can find below the compatibility between roles and **Triggered journeys'** different functionalities:
+You can find below the compatibility between roles and Journeys orchestration's different functionalities:
 
 ![](../assets/user_management_3.png)
 
@@ -58,7 +58,7 @@ Security groups are assigned to a set of users that share the same roles and rig
 You can create your own security group with the different roles needed or you can assign one of the following out-of-the-box security groups to your users:
 
 *   **Limited Access User**: User with read only access to journeys, events and reports. This security group includes the following roles:
-    *   Read Journeys
+    *   Read journeys
     *   Read events and resources
     *   Read reports
 *   **Administrators**: User with access to the administration menus with the possibility to manage journeys, events and reports. This security group includes the following roles:
@@ -70,7 +70,7 @@ You can create your own security group with the different roles needed or you ca
     *   Prepare deliveries
     *   Start deliveries
     *   Workflow
-    *   Manage and execute Journeys
+    *   Manage and execute journeys
     *   Manage events, resources, and keys
     *   Manage reports
 
@@ -82,7 +82,7 @@ You can create your own security group with the different roles needed or you ca
     *   Prepare deliveries
     *   Start deliveries
     *   Workflow
-    *   Manage and execute Journeys
+    *   Manage and execute journeys
     *   Read events and resources
     *   Manage reports
 

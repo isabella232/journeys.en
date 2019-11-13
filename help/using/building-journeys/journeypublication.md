@@ -49,7 +49,7 @@ To use the test mode, follow these steps:
 
     ![](../assets/journeytest2.png)
 
-1. Verify the test result. This page displays the journey’s current information in JSON format. A button allows you to copy entire nodes. You need to refresh the page to update the journey’s test results. 
+1. Verify the test result. This page displays the journey’s current information in JSON format. A button allows you to copy entire nodes. You need to refresh the page to update the journey’s test results.
 
     ![](../assets/journeytest3.png)
 
