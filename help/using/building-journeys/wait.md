@@ -56,7 +56,7 @@ This type of wait uses a score calculated in the Platform. The score calculates 
 
 You can also define a timezone and a condition if you want to restrict the wait to a certain population.
 
-You can use several waits with the same time configuration in parallel with a different but overlapping condition. For example, the condition of the first wait is “being a woman” and the condition of the second wait in parallel is “being a VIP”). The wait positioned above will be the one prioritized.
+Here is how waits are prioritized when you use several waits in parallel. If they have the same time configuration and a different but overlapping condition, the wait positioned above will be the one prioritized. For example, the condition of the first wait is “being a woman” and the condition of the second wait in parallel is “being a VIP”. The first wait activity will be prioritized
 
 Also note that if a 2 different timers are in parallel, the one occurring first will be prioritized, whatever its vertical position. For example, if a 1-hour timer is above and a 30-minutes timer is below, after 30 minutes, the 30-minutes timer will apply
 
