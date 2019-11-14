@@ -16,14 +16,14 @@ snippet: y
 
 # Condition activity{#section_e2n_pft_dgb}
 
-![](../assets/journey49.png)
-
 Four types of conditions are available:
 
 * [Data Source condition](#data_source_condition) 
 * [Time condition](#time_condition) 
 * [Percentage split](#percentage_split) 
 * [Date condition](#date_condition) 
+
+![](../assets/journey49.png)
 
 ## About the Condition activity {#about_condition}
 
@@ -35,7 +35,7 @@ Note that the design of journeys has functional impacts. When several paths are 
 
 ![](../assets/journey48.png)
 
-You can create another path for audiences that are not eligible to the defined conditions by checking **Show path for other cases than the one(s) above**. Note that this option is not available in split conditions. See the split section above.
+You can create another path for audiences that are not eligible to the defined conditions by checking **Show path for other cases than the one(s) above**. Note that this option is not available in split conditions. See [Percentage split](#percentage_split).
 
 The simple mode allows you to perform simple queries based on a combination of fields. All the available fields are displayed on the left side of the screen. Drag and drop fields into the main zone. To combine the different elements, interlock them into one another to create different groups and/or group levels. You can then select a logical operator to combine elements on the same level:
 
@@ -62,11 +62,11 @@ This allows you to perform different actions according to the hour of the day an
 
 ## Percentage split {#percentage_split}
 
-This option allows you to randomly split the audience to define a different action for each path. Define the number of splits and the repartition for each group. The split calculation is statistical as the system cannot anticipate how many people will flow in this activity of the journey. As a result, the split has a very low error margin. This function is based on a Java random mechanism (see this [page](https://docs.oracle.com/javase/7/docs/api/java/util/Random.html)). 
+This option allows you to randomly split the audience to define a different action for each group. Define the number of splits and the repartition for each path. The split calculation is statistical as the system cannot anticipate how many people will flow in this activity of the journey. As a result, the split has a very low error margin. This function is based on a Java random mechanism (see this [page](https://docs.oracle.com/javase/7/docs/api/java/util/Random.html)). 
 
 >[!NOTE]
 >
->Note that there is no button to add a path in the percentage split condition. The number of paths will depend on the number of splits. In split conditions, you can not add a path for other cases as it cannot happen. People will always go into one of the split paths.
+>Note that there is no button to add a path in the percentage split condition. The number of paths will depend on the number of splits. In split conditions, you cannot add a path for other cases as it cannot happen. People will always go into one of the split paths.
 
 
 ![](../assets/journey52.png)
@@ -76,6 +76,3 @@ This option allows you to randomly split the audience to define a different acti
 This allows you to define a different flow based on the date. For example, if the person enters the step during the "sales" period, you'll send him a specific message. The rest of the year, you'll send another message. When you define a date condition, you must specify a timezone. See [Time zone management](../building-journeys/journey.md#timezone_management).
 
 ![](../assets/journey53.png)
-
-
-You can also define a timezone and a condition if you want to restrict the wait to a certain population.

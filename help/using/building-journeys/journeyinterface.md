@@ -32,7 +32,7 @@ The **palette** is on the left-hand side of the screen. All available activities
 
 >[!NOTE]
 >
->Note that there are rules when setting up a journey. Unallowed configuration will be discarded. For example, you cannot place actions in parallel, link an activity to a previous step to create a loop, start a journey with something else than an event etc.
+>Note that there are rules when setting up a journey. Unallowed configuration will be discarded. For example, you cannot place actions in parallel, link an activity to a previous step to create a loop, start a journey with something else than an event, etc.
 
  ![](../assets/journey38.png)
 

@@ -21,3 +21,5 @@ From the palette, on the left-hand side of the screen, the following orchestrati
 * [Condition activity](../building-journeys/condition.md)
 * [End activity](../building-journeys/end.md) 
 * [Wait activity](../building-journeys/wait.md) 
+
+![](../assets/journey49.png)

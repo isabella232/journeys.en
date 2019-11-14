@@ -29,7 +29,7 @@ Here is how waits are prioritized when you use several waits in parallel. If the
 
 Also note that if a two different waits are in parallel, the one occurring first will be prioritized, regardless of its vertical position. For example, if a 1-hour wait is above and a 30-minute wait is below, after 30 minutes, the 30-minute wait will be processed.
 
-You can define a timezone and a condition if you want to restrict the wait to a certain population.
+You can define a condition if you want to restrict the wait to a certain population.
 
 ## Duration{#duration}
 
