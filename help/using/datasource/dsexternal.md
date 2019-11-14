@@ -40,7 +40,12 @@ Here are the main steps to create and configure a new external data source:
 
     ![](../assets/journey26.png)
 
-1. Enter a name for your data source. Do not use spaces or special characters.
+1. Enter a name for your data source.
+
+    >[!NOTE]
+    >
+    >Do not use spaces or special characters. Do not use more than 30 characters.
+
 1. Add a description to your data source. This step is optional.
 1. Add the URL of the external service. In our example: _https://api.adobeweather.org/weather_.
 
