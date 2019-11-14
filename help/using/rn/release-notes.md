@@ -33,4 +33,4 @@ Journey Orchestration allows real-time orchestration powered by contextual data 
 
 Journey Orchestration leverages data stored on the Experience Platform, data stored in any third party service that can be queried through an API call, and contextual information shared through the payload of the event triggering the journeys.
 
-[Learn more](../about/event.md#intro.md)) on Journey Orchestration.
+[Learn more](../about/event/intro.md) on Journey Orchestration.
