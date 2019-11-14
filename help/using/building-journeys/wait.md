@@ -31,6 +31,10 @@ Also note that if a two different waits are in parallel, the one occurring first
 
 You can define a condition if you want to restrict the wait to a certain population.
 
+>[!NOTE]
+>
+>The maximum wait duration is 30 days.
+
 ## Duration{#duration}
 
 Select the duration of the wait before the execution of the next activity.
@@ -59,3 +63,7 @@ This option lets you define a custom date, for example 12 July 2020 at 5pm, usin
 ## Email send time optimization{#email_send_time_optimization}
 
 This type of wait uses a score calculated in the Platform. The score calculates the propensity to click or open an email in the future based on past behavior. Note that the algorithm calculating the score needs a certain amount of data to work. As a result, when it does not have enough data, the default wait time will apply. At publication time, you’ll be notified that the default time applies.
+
+1. In the **Amount of time** field, define the number of hours to consider to optimize email sending.
+1. In the **Optimization type** field, choose if the optimization should increase clicks or opens.
+1. In the **Default time** field, define the default time to wait if the predictive send time score is not available.
