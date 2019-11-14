@@ -67,10 +67,10 @@ The person can then re-enter the journey if re-entrance is allowed. See [The jou
 
 Timezone definition is available in the following activities:
 
-* time conditions, see [Condition](../building-journeys/journeyorchestration.md#section_e2n_pft_dgb)
-* date conditions, see [Condition](../building-journeys/journeyorchestration.md#section_e2n_pft_dgb)
-* custom wait, see [Wait](../building-journeys/journeyorchestration.md#section_rlm_nft_dgb)
-* fixed date wait, see [Wait](../building-journeys/journeyorchestration.md#section_rlm_nft_dgb)
+* time conditions, see [Condition activity](../building-journeys/condition.md#time_condition)
+* date conditions, see [Condition activity](../building-journeys/condition.md#date_condition)
+* custom wait, see [Wait activity](../building-journeys/wait.md#custom)
+* fixed date wait, see [Wait activity](../building-journeys/#custom.md#fixed_date)
 
 If the entry event of the journey has a namespace, meaning that the journey can reach the Unified Profile Service of the Data Platform, the timezone is pre-defined with the one specified in the profile of the individual flowing in the journey. If the individual's profile does not contain a timezone, the instance's timezone is used. You can contact your administrator to know the instance timezone.
 
@@ -80,7 +80,7 @@ The timezone can also be fixed. Clear the pre-defined timezone and pick one from
 
 ![](../assets/journey72.png)
 
-Finally, the timezone can be dynamic for each person entering the step. In this case, you will use the expression editor to select where you want the system to get this information (it can be from an event or a data source). See [Building advanced conditions](../expression/expressionadvanced.md#concept_uyj_trt_52b)The custom timezone must follow this [format](https://docs.oracle.com/javase/8/docs/api/java/time/ZoneId.html#of-java.lang.String-). If the timezone you want to leverage is a string, you can use the function ‘toTimeZone’ to convert it to the right format. See [Wait](../functions/functiontotimezone.md#toTimeZone)
+Finally, the timezone can be dynamic for each person entering the step. In this case, you will use the expression editor to select where you want the system to get this information (it can be from an event or a data source). See [Building advanced conditions](../expression/expressionadvanced.md#concept_uyj_trt_52b).The custom timezone must follow this [format](https://docs.oracle.com/javase/8/docs/api/java/time/ZoneId.html#of-java.lang.String-). If the timezone you want to leverage is a string, you can use the function ‘toTimeZone’ to convert it to the right format. See [toTimeZone](../functions/functiontotimezone.md).
 
 The start and end dates of a journey cannot be linked to a specific timezone. They are automatically associated to the instance's timezone.
 

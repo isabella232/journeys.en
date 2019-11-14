@@ -36,7 +36,7 @@ The **palette** is on the left-hand side of the screen. All available activities
 
  ![](../assets/journey38.png)
 
-The **canvas** is the central zone in the journey designer. It is in this zone that you can drop your activities and configure them. Click on an activity in the canvas to configure it. This opens the activity configuration pane on the right-hand side. You can zoom in and out by using the "+" and "-" buttons on the top right. In the canvas, all activities allow you to add a next step after them, except **End** activities (see [End](../building-journeys/journeyorchestration.md#section_vqp_4ft_dgb)). 
+The **canvas** is the central zone in the journey designer. It is in this zone that you can drop your activities and configure them. Click on an activity in the canvas to configure it. This opens the activity configuration pane on the right-hand side. You can zoom in and out by using the "+" and "-" buttons on the top right. In the canvas, all activities allow you to add a next step after them, except **End** activities (see [End](../building-journeys/end.md)). 
 
  ![](../assets/journey39.png)
 
@@ -47,7 +47,7 @@ In the canvas, your action and event activities are represented by an icon with 
 
  ![](../assets/journey59bis.png)
 
-Depending on the journey's status, you can perform different actions on your journey using the buttons available in the top right corner: **Publish**, **Duplicate**, **Delete**, **Journey properties**, **Test**. These buttons appear when no activity is selected. Some buttons will appear contextually. The test mode log button appears when test mode is activated (see [Testing your journey](../building-journeys/journeyorchestration.md#section_ctr_lqk_fhb)). The reporting button appears when the journey is live, stopped or finished.
+Depending on the journey's status, you can perform different actions on your journey using the buttons available in the top right corner: **Publish**, **Duplicate**, **Delete**, **Journey properties**, **Test**. These buttons appear when no activity is selected. Some buttons will appear contextually. The test mode log button appears when test mode is activated (see [Testing your journey](../building-journeys/journeypublication.md#section_ctr_lqk_fhb)). The reporting button appears when the journey is live, stopped or finished.
 
  ![](../assets/journey41.png)
 
