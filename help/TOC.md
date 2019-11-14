@@ -7,7 +7,7 @@ index: n
 
 # Journey orchestration Help {#using}
 
-+ [Product documentation](journeys-home.md)
++ [Product documentation](journey-orchestration-home.md)
 + Release Notes {#release-notes}
   + [Release Notes](using/rn/release-notes.md)
   + [Documentation Updates](using/rn/documentation-updates.md)
