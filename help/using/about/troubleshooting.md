@@ -30,6 +30,8 @@ Next to the **Test** toggle and the **Publish** button, a warning sign can be di
 
  ![](../assets/journey75.png)
 
+The system detects two kinds of issues: errors and warnings. Errors block publication and test activation. Warnings list potential issues that are not blocking test activation or publication. You will see a description of the issue and an issue log ID of the type ERR_XXX_XXX. This will help technical support identify the issue.
+
 ## Checking that events are properly sent{#section_rqz_11t_dgb}
 
 The starting point of a journey is always an event. You can perform tests using tools such as Postman.
