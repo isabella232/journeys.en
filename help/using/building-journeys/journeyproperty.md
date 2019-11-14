@@ -42,3 +42,5 @@ Note that there is also a global journey timeout which is not displayed in the i
 >[!NOTE]
 >
 >Journey Orchestration does not directly react to privacy opt-out, access or delete requests. However, the global timeout ensures that individuals never stay more than 30 days in any journey. 
+
+Be aware that this global timeout erases all data on individuals including journey entrance information. This impacts journeys that do not allow re-entrance. When a person enters and finishes a journey, he cannot re-enter it during a period of 30 days. After that, the system erases all the individual's data and cannot forbid re-entrance.
