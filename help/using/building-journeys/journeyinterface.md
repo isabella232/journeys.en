@@ -26,6 +26,10 @@ All the versions of your journeys appear in the list with the version number. Se
 
 ![](../assets/journey37.png)
 
+>[!NOTE]
+>
+>To open a journey's canvas in a different browser tab, hold the **Control** or **Command key** and click on the journey.
+
 The **journey designer's interface** is made up of the following zones: the palette, the canvas and the activity configuration pane.
 
 The **palette** is on the left-hand side of the screen. All available activities are sorted into several categories: **Events**, **Orchestration** and **Actions**. You can expand/collapse the different categories by clicking on their name. To use an activity in your journey, drag and drop it from the palette into your canvas. You can also double-click on an activity in the palette to add it to the canvas, at the next step available. You have to configure each activity added from the palette before publishing the journey. If you drop an activity in the canvas and do not finish its configuration, it will stay in the canvas but a red warning will indicate that the configuration is not finished for this activity.
