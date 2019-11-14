@@ -57,7 +57,7 @@ Here are the different shortcuts available in the Journey Orchestration's interf
 
 _When configuring an activity in a journey:_
 
-The canvas is automatically saved. You can see on the top left of the canvas the saving status.
+The canvas is automatically saved. You can see, on the top left of the canvas, the saving status.
 
 * Press **escape** to close the configuration pane and discard the changes made. This is the equivalent of the **Cancel** button.
 * Press **enter** or click outside the pane to close the configuration pane. Changes are saved. This is the equivalent of the **OK** button.
@@ -66,7 +66,7 @@ The canvas is automatically saved. You can see on the top left of the canvas the
 _In pop-ups:_
 
 * Press **escape** to close it (equivalent of the **Cancel** button).
-* Press **enter** to save or coonfirm (equivalent of the **OK** or **Save** button).
+* Press **enter** to save or confirm (equivalent of the **OK** or **Save** button).
 
 _In the event, data source or action configuration pane:_
 
