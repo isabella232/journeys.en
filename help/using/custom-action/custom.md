@@ -34,7 +34,12 @@ Here are the main steps required to configure a custom action:
 
     ![](../assets/custom2.png)
 
-1. Enter a name for your action. Do not use spaces or special characters.
+1. Enter a name for your action.
+
+   >[!NOTE]
+    >
+    >Do not use spaces or special characters. Do not use more than 30 characters.
+
 1. Add a description to your action. This step is optional.
 1. The number of journeys that use this action is displayed in the **Used in** field. You can click the **View journeys** button to display the list of  journeys using this action.
 1. Define the different **URL Configuration** parameters. See [URL configuration](../custom-action/customurl.md#concept_gbg_1f1_2gb).
