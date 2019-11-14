@@ -23,8 +23,7 @@ The journey interface allows you to easily drag and drop activities from the pal
 
 Only one namespace is allowed per journey. When you drop the first event, events with different namespaces will be grayed out. If the first event doesn't have a namespace, then all events with a namespace will be grayed out. See [Selecting the namespace](../event/eventnamespace.md#concept_ckb_3qt_52b). Also, Experience Platform field groups are grayed out if the journey has events without a namespace. And finally, if you use several events in the same journey, they need to use the same namespace.
 
-
-## Ending a journey {#section_asc_51g_nhb}
+## Creating a journey {#creating_journey}
 
 Here are the main steps to create and publish a journey.
 
@@ -59,9 +58,8 @@ Here are the main steps to create and publish a journey.
 
 There are three ways to end a journey:
 
-* The person arrives at an **End** activity.
-* The person arrives at the last activity of a path.
-* The person arrives at a condition activity (or a timer with a condition) and does not match any of the conditions.
+* The person arrives at the last activity of a path. This last activity can be an end activity or another activity. There is no obligation to end a path with an end activity. See [End activity](../building-journeys/end.md).
+* The person arrives at a condition activity (or a wait activity with a condition) and does not match any of the conditions.
 
 The person can then re-enter the journey if re-entrance is allowed. See [The journey's properties](../building-journeys/journeyproperty.md#concept_prq_wqt_52b).
 
@@ -82,7 +80,7 @@ The timezone can also be fixed. Clear the pre-defined timezone and pick one from
 
 ![](../assets/journey72.png)
 
-Finally, the timezone can be dynamic for each person entering the step. In this case, you will use the expression editor to select where you want the system to get this information (it can be from an event or a data source). See [Building advanced conditions](../expression/expressionadvanced.md#concept_uyj_trt_52b)The custom timezone must follow this format. If the timezone you want to leverage is a string, you can use the function ‘toTimeZone’ to convert it to the right format. See [Wait](../functions/functiontotimezone.md#toTimeZone)
+Finally, the timezone can be dynamic for each person entering the step. In this case, you will use the expression editor to select where you want the system to get this information (it can be from an event or a data source). See [Building advanced conditions](../expression/expressionadvanced.md#concept_uyj_trt_52b)The custom timezone must follow this [format](https://docs.oracle.com/javase/8/docs/api/java/time/ZoneId.html#of-java.lang.String-). If the timezone you want to leverage is a string, you can use the function ‘toTimeZone’ to convert it to the right format. See [Wait](../functions/functiontotimezone.md#toTimeZone)
 
 The start and end dates of a journey cannot be linked to a specific timezone. They are automatically associated to the instance's timezone.
 

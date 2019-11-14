@@ -27,8 +27,8 @@ The advanced expression editor offers a set of built-in functions and operators 
 The advanced expression editor can be used to:
 
 * create advanced data source conditions
-* define custom timezones in date conditions, fixed date timers, custom timers
-* define custom timers
+* define custom timezones in date conditions, fixed date wait activities, custom wait activities
+* define custom wait activities
 * define custom action parameter mapping
 * perform email, SMS and push personalization data mapping
 

@@ -16,35 +16,30 @@ snippet: y
 
 # Testing and publishing the journey{#concept_mtc_lrt_52b}
 
-## Checking for errors {#section_h3q_kqk_fhb}
-
-Before testing and publishing your journey, verify that all the activities are properly configured.
-
-Errors appear with a warning symbol displayed on the activities themselves in the canvas. Place your cursor on the exclamation mark to display the error message. For example, if a mandatory field is empty, an error will be displayed.
-
- ![](../assets/journey63.png)
-
 ## Testing your journey {#section_ctr_lqk_fhb}
+
+Before being able to test your journey, you must resolved all errors if any. See [Trou versions](../about/troubleshooting.md#section_h3q_kqk_fhb).
 
 You have the possibility to test your journey before its publication, using test profiles. This allows you to analyze how individuals flow in the journey and troubleshoot before publication.
 
 **Important notes:**
 
-* Events need to be sent to Journey Orchestration.
-* Only individuals flagged as "test profiles" in the Unified Profile Service will be allowed to enter the tested journey.
-* The test mode is only available in draft journeys that use namespaces.
-* The maximum number of test profiles than can enter a journey is 100.
+* Events need to be sent to Journey orchestration.
+* Only individuals flagged as "test profiles" in the Unified Profile Service will be allowed to enter the tested journey. The process to create a test profile is the same as the process to create a Profile in the Data Platform. You just have to make sure the test profile flag is true. You can use the Segments section in the Data Platform interface to create a segment of test profiles in your Data Platform and see a non-exhaustive list. The exhaustive can not be dispayed for now.
+* The test mode is only available in draft journeys that use a namespace. Indeed, the test mode needs to check if a person entering in the journey is a test profile or not and thus must be able to reach the Data Platform.
+* The maximum number of test profiles than can enter a journey during a test session is 100.
 * When you disable the test mode, it empties the journeys from all people who entered it in the past or who are currently in it.
 * You can enable/disable the test mode as many times as needed.
 * You cannot modify your journey when the test mode is activated. When in test mode, you can directly publish the journey, no need to deactivate the test mode before.
 
 To use the test mode, follow these steps:
 
-1. Before testing your journey, verify that it is valid and that there is no error. See [Checking for errors](#section_h3q_kqk_fhb). A warning symbol is displayed when there are errors.
+1. Before testing your journey, verify that it is valid and that there is no error. You won’t be able to launch a test of a journey with errors. See [Checking for errors](#section_h3q_kqk_fhb). A warning symbol is displayed when there are errors.
 1. To activate the test mode, click on the **Test** toggle, located in the top right corner.
 
     ![](../assets/journeytest1.png)
 
+1. Send events to the journey. Make sure to send events related to test profiles.
 1. After the events are received, click the **</>** button to view the test result.
 
     ![](../assets/journeytest2.png)
@@ -53,14 +48,14 @@ To use the test mode, follow these steps:
 
     ![](../assets/journeytest3.png)
 
-    The number of individuals (_instances_) currently inside the journey are displayed. Here are examples of useful information that is displayed for each individual:
+    The number of individuals (technically they are named instances) currently inside the journey are displayed. Here are examples of useful information that is displayed for each individual:
 
     * _Id_: the individual’s internal ID in the journey. This can be used for debugging purposes.
     * _currentstep_: the step where the individual is at in the journey. We recommend adding labels to your activities to identify them more easily.
     * _currentstep_ > phase: the status of the individual’s journey (running, finished, error or timed out). See below for more information.
     * _currentstep_ > _extraInfo_: description of the error and other contextual information.
     * _externalKeys_: the value for the key formula defined in the event.
-    * _enrichedData_: the profile data that the journey has retrieved if the journey uses data sources with field groups.
+    * _enrichedData_: the data that the journey has retrieved if the journey uses data sources.
     * _transitionHistory_: the list of steps that the individual followed. For events, the payload is displayed.
 
 1. If there is any error, deactivate the test mode, modify your journey and test it again. When the test is conclusive, you can publish your journey. See [Publishing your journey](#section_w1b_mqk_fhb).
@@ -74,13 +69,14 @@ Here are the different statuses of an individual's journey:
 
 ## Publishing your journey {#section_w1b_mqk_fhb}
 
-1. Before publishing your journey, verify that it is valid and that there is no error. See [Checking for errors](#section_h3q_kqk_fhb). A warning symbol is displayed when there are errors. It is also recommended to test your journey before publication. See [Testing your journey](#section_ctr_lqk_fhb).
+1. Before publishing your journey, verify that it is valid and that there is no error. You won't be able to publish a journey with errors. See [Checking for errors](#section_h3q_kqk_fhb). It is also recommended to test your journey before publication. See [Testing your journey](#section_ctr_lqk_fhb).
 1. To publish the journey, click on the **Publish** option, located in the top right drop-down menu.
 
     ![](../assets/journeyuc1_18.png)
 
 When the journey is published, it is in read-only mode. 
 
-If you need to make modifications to a published journey, you need to create a new version of your journey. See [Journey versions](../building-journeys/journeyversions.md#concept_ldc_k55_zgb).
+If you need to make modifications to a published journey, you need to create a new version of your journey. See [Journey versions](../building-journeys/journeyversions.md#concept_ldc_k55_zgb). When a journey is read-only, you can only modify the activity labels and descriptions, the journey's name and the journey's descripton.
 
-If you stop a journey, it will be permanently stopped. If you need to use it again, you need to duplicate it and publish it.
+
+If you stop a journey, it will be permanently stopped. All the persons flowing in the journey will be permanently stopped and the journey will stop allowing new entrances. If you need to use the journey again, you need to duplicate it and publish it.
