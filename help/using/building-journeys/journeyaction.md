@@ -89,18 +89,20 @@ Two categories are available: **Target** and **Personalization Data**.
 >[!NOTE]
 >
 >This category is only visible if you select an event message. For profile messages, the **Target** fields are automatically retrieved by the system using the reconciliation performed by Adobe Campaign Standard.
-    
-In this section, you define the **Push Platform** (iOS or Android) and **Registration Token**. The registration token needs to be defined in the payload of the nearest event. It is pre-filled as follows:
+
+In this section, you need to define the **Push platform**. The drop-down list allows you to select **Apple Push Notification Server** (iOS) or **Firebase Cloud Messaging** (Android). You can alternatively select a specific field from an event or a data source, or define an advanced expression.
+
+You also need to define the **Registration Token**. The expression depends on how the token is defined in the event payload or in other Journey Orchestration information. It can be a simple field or a more complex expression in case the token is defined in a collection for instance:
 
 ```
-@{eventName.'_experience'.campaign.message.profileSnapshot.pushNotificationTokens.first().token}
+@{eventName._experience.campaign.message.profileSnapshot.pushNotificationTokens.first().token}
 ```
 
 **Personalization Data**
 
 >[!NOTE]
 >
->You cannot pass a collection in personalization data. If the transactional push expects collections, it will not work. Also note that the personalization data has an expected format (example: string, decimal, etc.). You must be careful to respect these expected formats. 
+>You cannot pass a collection in personalization data. If the transactional push expects collections, it will not work. Also note that the personalization data has an expected format (example: string, decimal, etc.). You must be careful to respect these expected formats.
 
 These are the fields used in your Adobe Campaign Standard template to personalize your message, apply conditional formatting, or pick a specific message variant. 
 
