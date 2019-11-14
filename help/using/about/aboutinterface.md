@@ -22,12 +22,11 @@ snippet: y
 
 ## Discovering the interface{#section_jsq_zr1_ffb}
 
-
-To access the Journey orchestration' interface, click the **Journey Orchestration** shortcut in the Experience Cloud's solution switcher. It is displayed on the left, below "Experience Cloud".
+To access the Journey orchestration' interface, click the **Journey Orchestration** shortcut in the Experience Cloud's solution switcher. It is displayed on the right side, below "Experience Platform".
 
 ![](../assets/journey1.png)  
 
-The top bar allows you to navigate through the different functionalities of the feature: Journeys under **Home**, **Data Sources**, **Events**, **Actions**.
+The top bar allows you to navigate through the different functionalities of the feature: **Home** (the journeys), **Data Sources**, **Events**, **Actions**.
 
 ![](../assets/journey2.png)  
 
@@ -40,8 +39,6 @@ The **Filters** can be accessed by clicking on the filter icon on the top left o
 In the **Data Sources**, **Events** and **Actions** lists, use the **Creation filters** to filter on the creation date and user. You can choose, for example, to only display the events that you created in the past 30 days.
 
 In the journey list (under **Home**), in addition to the **Creation filters**, you can also filter the displayed journeys according to their status and version (**Status and version filters**). You can also choose to only display the journeys that use a particular event, field group or action (**Activity filters** and **Data filters**). The **Publication filters** let you select a publication date or user. You can choose, for example, to only display the latest versions of live journeys that were published yesterday. See [The journey designer's interface](../building-journeys/journeyinterface.md#concept_m1g_5qt_52b).
-
-tatus, the ones you created, the ones modified in the last 30 days, latest versions only etc.). You can also choose to only display the journeys that use a particular event, field group or action. Columns displayed on the list can be configured. All filters and columns are saved per user.
 
 >[!NOTE]
 >
