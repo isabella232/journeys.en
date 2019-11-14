@@ -66,7 +66,7 @@ Here is how constant expressions are represented:
     </tr>
     <tr>
         <td>timeZone</td>
-        <td>Id of a time zone using the java implementation such as "Europe/Paris".<br />JSON format: String.<br /> It must be encapsulated in a TimeZone function.<br />Serialization format: to deserialize a time zone ID, it uses the java function java.time.ZoneId.of. <br /><a href="https://docs.oracle.com/javase/8/docs/api/java/time/ZoneId.html#of-java.lang.String-">Read more</a>.</td>
+        <td>Id of a time zone using the java implementation such as "Europe/Paris".<br />JSON format: String.<br /> It must be encapsulated in a <b>toTimeZone</b> function.<br />Serialization format: to deserialize a time zone ID, it uses the java function java.time.ZoneId.of. <br /><a href="https://docs.oracle.com/javase/8/docs/api/java/time/ZoneId.html#of-java.lang.String-">Read more</a>.</td>
         <td>toTimeZone("&lt;time zone id&gt;")</td>
         <td><code>toTimeZone("Europe/Paris")</code></td>
     </tr>

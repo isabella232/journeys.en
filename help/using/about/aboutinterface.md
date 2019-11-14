@@ -1,5 +1,5 @@
 ---
-title: The Journey orchestration' interface
+title: The Journey Orchestration' interface
 description: 
 page-status-flag: never-activated
 uuid: 269d590c-5a6d-40b9-a879-02f5033863fc
@@ -18,9 +18,10 @@ snippet: y
 
 >[!NOTE]
 >
->To get the best out of the Journey orchestration feature, we recommend using Chrome as your Internet browser.
+>To get the best out of the Journey Orchestration feature, we recommend using Chrome as your Internet browser.
 
 ## Discovering the interface{#section_jsq_zr1_ffb}
+
 
 To access the Journey orchestration' interface, click the **Journey Orchestration** shortcut in the Experience Cloud's solution switcher. It is displayed on the left, below "Experience Cloud".
 
@@ -52,7 +53,7 @@ In the different lists, you can perform basic actions on each element. For examp
 
 ## Using the different shortcuts{#section_ksq_zr1_ffb}
 
-Here are the different shortcuts available in the Journey orchestration's interface.
+Here are the different shortcuts available in the Journey Orchestration's interface.
 
 _When configuring an activity in a journey:_
 

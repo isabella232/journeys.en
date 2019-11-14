@@ -1,6 +1,6 @@
 ---
-title: Creating your Journey orchestration reports
-description: Learn how to create your Journey orchestration reports
+title: Creating your Journey Orchestration reports
+description: Learn how to create your Journey Orchestration reports
 page-status-flag: never-activated
 uuid: 269d590c-5a6d-40b9-a879-02f5033863fc
 contentOwner: sauviat
@@ -14,7 +14,7 @@ internal: n
 snippet: y
 ---
 
-# Creating your Journey orchestration reports{#concept_rfj_wpt_52b}
+# Creating your Journey Orchestration reports{#concept_rfj_wpt_52b}
 
 This section will present you how to create or use out-of-the-box reports. Combine panels, components and visualizations to better track the success of your journeys.
 
