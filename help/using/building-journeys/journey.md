@@ -70,7 +70,7 @@ Timezone definition is available in the following activities:
 * time conditions, see [Condition activity](../building-journeys/condition.md#time_condition)
 * date conditions, see [Condition activity](../building-journeys/condition.md#date_condition)
 * custom wait, see [Wait activity](../building-journeys/wait.md#custom)
-* fixed date wait, see [Wait activity](../building-journeys/#custom.md#fixed_date)
+* fixed date wait, see [Wait activity](../building-journeys/custom.md#fixed_date)
 
 If the entry event of the journey has a namespace, meaning that the journey can reach the Unified Profile Service of the Data Platform, the timezone is pre-defined with the one specified in the profile of the individual flowing in the journey. If the individual's profile does not contain a timezone, the instance's timezone is used. You can contact your administrator to know the instance timezone.
 
