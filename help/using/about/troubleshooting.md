@@ -38,7 +38,7 @@ Events are not pushed directly from the source to Journey Orchestration. Indeed,
 
 ## Checking if people enter the journey{#section_x4v_zzs_dgb}
 
-Journey orchestration reporting measures people's entrances in a journey in real-time.
+Journey Orchestration reporting measures people's entrances in a journey in real-time.
 
 If you're successfully sending the event but see no entrance in the journey, it means that something goes wrong between the event sending and the event reception in the journey.
 
@@ -58,7 +58,7 @@ Here are a few things and administrator should check:
 
 ## Checking how people navigate through the journey{#section_l5y_yzs_dgb}
 
-Journey orchestration reporting measures the progress of individuals inside a journey. It's easy to identify where and why a person got stopped.
+Journey Orchestration reporting measures the progress of individuals inside a journey. It's easy to identify where and why a person got stopped.
 
 Here are a few things to check:
 

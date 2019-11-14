@@ -16,6 +16,6 @@ snippet: y
 
 # Documentation Updates
 
-Learn about all the latest updates for Journey orchestration documentation.
-This page lists all the new features and documentation updates for Journey orchestration.
-You can also consult the Journey orchestration [Release Notes](release-notes.md).
+Learn about all the latest updates for Journey Orchestration documentation.
+This page lists all the new features and documentation updates for Journey Orchestration.
+You can also consult the Journey Orchestration [Release Notes](release-notes.md).

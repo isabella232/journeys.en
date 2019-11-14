@@ -1,5 +1,5 @@
 ---
-title: Managing your users' access to Journey orchestration
+title: Managing your users' access to Journey Orchestration
 description: 
 page-status-flag: never-activated
 uuid: 269d590c-5a6d-40b9-a879-02f5033863fc
@@ -14,7 +14,7 @@ internal: n
 snippet: y
 ---
 
-# Managing your users' access to Journey orchestration{#concept_rfj_wpt_52b}
+# Managing your users' access to Journey Orchestration{#concept_rfj_wpt_52b}
 
 Define your users' access levels using security groups and roles.
 
@@ -34,7 +34,7 @@ The set of roles assigned to a security group will define the user's access to t
 
 ![](../assets/user_management.png)
 
-The following out-of-the-box roles are specific and unique to users that need to use the Journey orchestration feature:
+The following out-of-the-box roles are specific and unique to users that need to use the Journey Orchestration feature:
 
 * **Manage and execute journeys**
 * **Read journeys**
@@ -43,7 +43,7 @@ The following out-of-the-box roles are specific and unique to users that need to
 * **Manage reports**
 * **Read reports**
 
-You can find below the compatibility between roles and Journeys orchestration's different functionalities:
+You can find below the compatibility between roles and Journey Orchestration's different functionalities:
 
 ![](../assets/user_management_3.png)
 
@@ -76,7 +76,7 @@ You can create your own security group with the different roles needed or you ca
 
     >[!NOTE]
     >
-    >**Administrators** is the only security group allowing creation, edition and publication of transactional messaging which allows message sending for Journey orchestration.
+    >**Administrators** is the only security group allowing creation, edition and publication of transactional messaging which allows message sending for Journey Orchestration.
 
 *   **Standard User**: User with basics access to Adobe Campaign with the possibility to manage journeys. This security group includes the following roles:
     *   Prepare deliveries

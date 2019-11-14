@@ -1,6 +1,6 @@
 ---
-title: Building your Journey orchestration reports
-description: Learn how to build your Journey orchestration reports
+title: Building your Journey Orchestration reports
+description: Learn how to build your Journey Orchestration reports
 page-status-flag: never-activated
 uuid: 269d590c-5a6d-40b9-a879-02f5033863fc
 contentOwner: sauviat
@@ -15,7 +15,7 @@ snippet: y
 ---
 
 
-# Building your Journey orchestration reports{#concept_rfj_wpt_52b}
+# Building your Journey Orchestration reports{#concept_rfj_wpt_52b}
 
 This section will present you how to access and use reports to measure your journeys' effectiveness.
 
