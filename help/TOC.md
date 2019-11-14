@@ -15,7 +15,6 @@ index: n
   + [About Journey Orchestration](using/about/intro.md)
   + [User Process](using/about/aboutprocess.md)
   + [Journey Orchestration's interface](using/about/aboutinterface.md)
-  + [Ending a journey](using/about/aboutending.md)
   + [Managing your users' access to Journey Orchestration](using/about/usermanagement.md)
   + [Troubleshooting](using/about/troubleshooting.md)
 + Configuring an event {#events-journeys}
