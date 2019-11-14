@@ -15,7 +15,7 @@ snippet: y
 ---
 # toDateTime {#toDateTime}
 
-Converts an argument value into a date time value, depending on its type. For more informtation on data types, refer to [Constants](../expression/expressionconstants.md).
+Converts parameters into a date time value, depending on their types.
 
 ## Category
 
@@ -29,14 +29,24 @@ Conversion
 
 | Parameter | Type             |
 |-----------|------------------|
-| deserialized dateTime in ISO-8601 format| string |
-| timezone | string |
-| dateTimeOnly | dateTimeOnly|
+| date time in ISO-8601 format| string |
+| time zone id | string |
+| date time without time zone | dateTimeOnly|
 | integer value of an epoch in milliseconds| integer |
 
-Timezone id must be a string constant. It cannot be a field reference nor an expression.
+>[!NOTE]
+>
+>Time zone id must be a string constant. It cannot be a field reference nor an expression. For more informtation on data types, refer to [Constants](../expression/expressionconstants.md).
 
 ## Signatures and return types
+
+`toDateTime(<string>)`
+
+`toDateTime(<dateTimeOnly>,<stringified time zone id>)`
+
+`toDateTime(<integer>)`
+
+Return a **dateTime**.
 
 <!--`toDateTime(<year>,<month>,<dayOfMonth>,<hour>,<minute>,<second>)`
 
@@ -55,27 +65,23 @@ Return a datetime where hour, minute and second set to 0.
 
 `toDateTime(<timeZone>,<integer>)`
 
-Return a datetime.-->
-
-`toDateTime(<integer>)`
-`toDateTime(<stringified timeZone>,<dateTimeOnly)`
-`toDateTime(<string>)`
-
 Return a datetime.
+
+-->
 
 ## Examples
 
 `toDateTime ("2016-08-18T23:17:59.123Z")`
 
-Returns 2016-08-18T23:17:59.123Z.
+Returns 2016-08-18T23:17:59.123Z
 
-`toDateTime("UTC", toDateTimeOnly("2016-08-18T23:17:59.123"))`
+`toDateTime(toDateTimeOnly("2016-08-18T23:17:59.123"),"UTC")`
 
-Returns 2016-08-18T23:17:59.123Z.
+Returns 2016-08-18T23:17:59.123Z
 
 `toDateTime(1560762190189)`
 
-Returns 2019-06-17T09:03:10.189Z.
+Returns 2019-06-17T09:03:10.189Z
 
 <!--`toDateTime ("2016-08-18T23:17:59.123", "UTC")`
 
