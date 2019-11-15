@@ -22,26 +22,29 @@ snippet: y
 
 ## Discovering the interface{#section_jsq_zr1_ffb}
 
-
-To access the Journey orchestration' interface, click the **Journey Orchestration** shortcut in the Experience Cloud's solution switcher. It is displayed on the left, below "Experience Cloud".
+To access the Journey orchestration' interface, click the **Journey Orchestration** shortcut in the Experience Cloud's solution switcher. It is displayed on the right side, below "Experience Platform".
 
 ![](../assets/journey1.png)  
 
-The top bar allows you to navigate through the different functionalities of the feature: Journeys under **Home**, **Data Sources**, **Events**, **Actions**.
+The top bar allows you to navigate through the different functionalities of the feature: **Home** (the journeys), **Data Sources**, **Events**, **Actions**.
 
 ![](../assets/journey2.png)  
 
 ## Searching and filtering{#section_lgm_hpz_pgb}
 
-In the **Home**, **Data Sources**, **Events** and **Actions** lists, a search bar allows you to search for an item. Use the left drop-down menu to search in names, descriptions or both. Use the **Filters** drop-down menu to filter the elements according to different criteria. You can choose to only display the elements of a certain type or status, the ones you created, or the ones modified in the last 30 days.
+In the **Home**, **Data Sources**, **Events** and **Actions** lists, a search bar allows you to search for an item. 
 
-In the **Home** menu, the list of journeys is displayed. A drop-down menu allows you to only display the journeys that use a particular event, field group or action. See [The journey designer's interface](../building-journeys/journeyinterface.md#concept_m1g_5qt_52b).
+The **Filters** can be accessed by clicking on the filter icon on the top left of the list. The filters menu allows you to filter the displayed elements according to different criteria. You can choose to only display the elements of a certain type or status, the ones you created, or the ones modified in the last 30 days.
+
+In the **Data Sources**, **Events** and **Actions** lists, use the **Creation filters** to filter on the creation date and user. You can choose, for example, to only display the events that you created in the past 30 days.
+
+In the journey list (under **Home**), in addition to the **Creation filters**, you can also filter the displayed journeys according to their status and version (**Status and version filters**). You can also choose to only display the journeys that use a particular event, field group or action (**Activity filters** and **Data filters**). The **Publication filters** let you select a publication date or user. You can choose, for example, to only display the latest versions of live journeys that were published yesterday. See [The journey designer's interface](../building-journeys/journeyinterface.md#concept_m1g_5qt_52b).
 
 >[!NOTE]
 >
 >Note that columns displayed can be personalized using the configuration button on the top right of the lists. Personalization is saved for each user.
 
-![](../assets/journey3.png)  
+![](../assets/journey74.png)  
 
 In the event, data source and action configuration panes, the **Used in** field displays the number of journeys that use that particular event, field group or action. You can click the **View journeys** button to display the list of corresponding journeys.
 
@@ -57,7 +60,7 @@ Here are the different shortcuts available in the Journey Orchestration's interf
 
 _When configuring an activity in a journey:_
 
-The canvas is automatically saved. You can see on the top left of the canvas the saving status.
+The canvas is automatically saved. You can see, on the top left of the canvas, the saving status.
 
 * Press **escape** to close the configuration pane and discard the changes made. This is the equivalent of the **Cancel** button.
 * Press **enter** or click outside the pane to close the configuration pane. Changes are saved. This is the equivalent of the **OK** button.
@@ -66,7 +69,7 @@ The canvas is automatically saved. You can see on the top left of the canvas the
 _In pop-ups:_
 
 * Press **escape** to close it (equivalent of the **Cancel** button).
-* Press **enter** to save or coonfirm (equivalent of the **OK** or **Save** button).
+* Press **enter** to save or confirm (equivalent of the **OK** or **Save** button).
 
 _In the event, data source or action configuration pane:_
 

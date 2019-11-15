@@ -18,7 +18,7 @@ snippet: y
 
 In this section, you will find how to troubleshoot journeys before testing or publishing. All the checks listed below can be performed when the journey is in test mode or when the journey is live. The recommendation is to make all the checks below in test mode and then proceed to publication. See [Testing your journey](../building-journeys/journeypublication.md).
 
-## Checking for errors {#section_h3q_kqk_fhb}
+## Checking for errors before testing{#section_h3q_kqk_fhb}
 
 Before testing and publishing your journey, verify that all the activities are properly configured. You cannot perform tests or publications if errors are still detected by the system.
 
@@ -26,7 +26,11 @@ Errors appear with a warning symbol displayed on the activities themselves on th
 
  ![](../assets/journey63.png)
 
-Next to the **Test** toggle and the **Publish** button, a warning sign can be displayed. This warning sign displays errors detected by the system and prevents test mode activation or journey publication. Most of the time, errors detected by the system are linked to errors visible on the activities but sometimes they are linked to other issues. In this case, you can display them, try to identify the issue thanks to the error description. If you can’t identify the issue, you can copy the details and send them to the administrator or to support. Note that errors blocking the test and errors blocking the publication are similar.
+Next to the **Test** toggle and the **Publish** button, a warning sign can be displayed. This warning sign displays errors detected by the system and prevents test mode activation or journey publication. Most of the time, errors detected by the system are linked to errors visible on the activities but sometimes they are linked to other issues. In this case, you can display them, try to identify the issue using to the error description. If you can’t identify the issue, you can copy the details and send them to the administrator or to support. Note that errors blocking the test and errors blocking the publication are similar.
+
+ ![](../assets/journey75.png)
+
+The system detects two kinds of issues: errors and warnings. Errors block publication and test activation. Warnings list potential issues that are not blocking test activation or publication. You will see a description of the issue and an issue log ID of the type ERR_XXX_XXX. This will help technical support identify the issue.
 
 ## Checking that events are properly sent{#section_rqz_11t_dgb}
 
@@ -72,5 +76,5 @@ If individuals flow the right way in the journey but don't receive messages they
 * Transactional Messaging has correctly taken into account the request to send the message. A business user can access the transactional message supposed to be sent and check if the time of the latest execution corresponds to the execution time of your journey. He can also check the latest API calls/events received by transactional messaging.
 * Transactional messaging has successfully sent the message. In the sending logs of the transactional message, you can see the status of each execution. You can see if it's green, red and what was the issue. A business user can access this screen and send the logs to an administrator for further investigations.
 
-In case of a message sent via a custom action, the only thing that can be checked during journey test is the fact that the call of the custom action’s system leads to an error or not. If the call to the external system associated with the custom action does not lead to an error but do not lead to a message sending, some investigations should be done on the external system’s side.
+In case of a message sent via a custom action, the only thing that can be checked during journey test is the fact that the call of the custom action’s system leads to an error or not. If the call to the external system associated with the custom action does not lead to an error but does not lead to a message sending, some investigations should be done on the external system’s side.
 

@@ -24,6 +24,10 @@ The payload definition allows you to choose the information the system expects t
 
     All the fields defined in the schema are displayed. The list of fields varies from one schema to another. You can search for a specific field or use the filters to display all nodes and fields or only the selected fields. According to the schema definition, some fields may be mandatory and pre-selected. You cannot unselect them. 
 
+    >[!NOTE]
+    >
+    >Make sure that you have added the "orchestration" mixin to the XDM schema. This will ensure that your schema contains all the required nodes to work with Journey Orchestration.
+
     ![](../assets/journey9.png)
 
 1. Select the fields you expect to receive from the event. These are the fields which the business user will leverage in the journey. They must also include the key that will be used to identify the person associated to the event (see [Defining the event key](../event/eventkey.md#concept_ond_hqt_52b)). An example of field that can be used in the journey is the phone model (__device > model__).

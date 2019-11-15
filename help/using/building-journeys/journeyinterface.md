@@ -26,17 +26,21 @@ All the versions of your journeys appear in the list with the version number. Se
 
 ![](../assets/journey37.png)
 
+>[!NOTE]
+>
+>To open a journey's canvas in a different browser tab, hold the **Control** or **Command key** and click on the journey.
+
 The **journey designer's interface** is made up of the following zones: the palette, the canvas and the activity configuration pane.
 
 The **palette** is on the left-hand side of the screen. All available activities are sorted into several categories: **Events**, **Orchestration** and **Actions**. You can expand/collapse the different categories by clicking on their name. To use an activity in your journey, drag and drop it from the palette into your canvas. You can also double-click on an activity in the palette to add it to the canvas, at the next step available. You have to configure each activity added from the palette before publishing the journey. If you drop an activity in the canvas and do not finish its configuration, it will stay in the canvas but a red warning will indicate that the configuration is not finished for this activity.
 
 >[!NOTE]
 >
->Note that there are rules when setting up a journey. Unallowed configuration will be discarded. For example, you cannot place actions in parallel, link an activity to a previous step to create a loop, start a journey with something else than an event etc.
+>Note that there are rules when setting up a journey. Unallowed configuration will be discarded. For example, you cannot place actions in parallel, link an activity to a previous step to create a loop, start a journey with something else than an event, etc.
 
  ![](../assets/journey38.png)
 
-The **canvas** is the central zone in the journey designer. It is in this zone that you can drop your activities and configure them. Click on an activity in the canvas to configure it. This opens the activity configuration pane on the right-hand side. You can zoom in and out by using the "+" and "-" buttons on the top right. In the canvas, all activities allow you to add a next step after them, except **End** activities (see [End](../building-journeys/journeyorchestration.md#section_vqp_4ft_dgb)). 
+The **canvas** is the central zone in the journey designer. It is in this zone that you can drop your activities and configure them. Click on an activity in the canvas to configure it. This opens the activity configuration pane on the right-hand side. You can zoom in and out by using the "+" and "-" buttons on the top right. In the canvas, all activities allow you to add a next step after them, except **End** activities (see [End](../building-journeys/end.md)). 
 
  ![](../assets/journey39.png)
 
@@ -47,7 +51,7 @@ In the canvas, your action and event activities are represented by an icon with 
 
  ![](../assets/journey59bis.png)
 
-Depending on the journey's status, you can perform different actions on your journey using the buttons available in the top right corner: **Publish**, **Duplicate**, **Delete**, **Journey properties**, **Test**. These buttons appear when no activity is selected. Some buttons will appear contextually. The test mode log button appears when test mode is activated (see [Testing your journey](../building-journeys/journeyorchestration.md#section_ctr_lqk_fhb)). The reporting button appears when the journey is live, stopped or finished.
+Depending on the journey's status, you can perform different actions on your journey using the buttons available in the top right corner: **Publish**, **Duplicate**, **Delete**, **Journey properties**, **Test**. These buttons appear when no activity is selected. Some buttons will appear contextually. The test mode log button appears when test mode is activated (see [Testing your journey](../building-journeys/journeypublication.md#section_ctr_lqk_fhb)). The reporting button appears when the journey is live, stopped or finished.
 
  ![](../assets/journey41.png)
 

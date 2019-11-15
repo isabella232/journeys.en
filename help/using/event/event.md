@@ -47,8 +47,12 @@ Here are the main steps to configure a new event:
 
     ![](../assets/journey6.png)
 
-1. Enter a name for your event. Do not use spaces or special characters.
-        <!-- Select the event type: this is where you define where the event is coming from. See [](../event/eventtype.md#concept_oy4_jqt_52b).-->
+1. Enter a name for your event. 
+
+    >[!NOTE]
+    >
+    >Do not use spaces or special characters. Do not use more than 30 characters.
+
 1. Add a description to your event. This step is optional.
 1. Define the schema and payload fields: this is where you select the event information (usually called a payload) Journey Orchestration expects to receive. You will then be able to use this information in your journey. See [Defining the payload fields](../event/eventpayload.md#concept_yrw_3qt_52b).
 1. The number of journeys that use this event is displayed in the **Used in** field. You can click the **View journeys** icon to display the list of journeys using this event.
