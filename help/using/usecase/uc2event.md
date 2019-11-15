@@ -20,7 +20,7 @@ In our scenario, we need to receive an event each time a person enters the Marlt
 
 For additional information on event configuration, refer to [Configuring an event](../event/event.md#concept_gfj_fqt_52b).
 
-1. In the top bar, click **Events** and click **Add** to create a new event.
+1. In the top menu, click the **Events** tab and click **Add** to create a new event.
 
     ![](../assets/journeyuc1_1.png)
 
