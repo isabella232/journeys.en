@@ -28,7 +28,7 @@ For additional information on how to build a journey, refer to [Building a journ
 
 ## First steps{#section_ntb_ws1_ffb}
 
-1. In the top bar, click **Journeys** and **Create** to create a new journey.
+1. In the top menu, click the **Home** tab and **Create** to create a new journey.
 
     ![](../assets/journey31.png)
 
