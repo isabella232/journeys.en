@@ -95,7 +95,7 @@ In this section, you need to define the **Push platform**. The drop-down list al
 You also need to define the **Registration Token**. The expression depends on how the token is defined in the event payload or in other Journey Orchestration information. It can be a simple field or a more complex expression in case the token is defined in a collection for instance:
 
 ```
-@{eventName._experience.campaign.message.profileSnapshot.pushNotificationTokens.first().token}
+@{Event_push._experience.campaign.message.profileSnapshot.pushNotificationTokens.first().token}
 ```
 
 **Personalization Data**
