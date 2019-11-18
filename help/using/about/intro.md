@@ -39,7 +39,6 @@ You can use the split condition to send people in the journey into different dir
 
 You can then send real-time personalized SMS, push notifications or emails using Adobe Campaign Standard's Transactional Messaging capabilities using action activities.
 
-
 As the Journey orchestration feature is multistep, you can create advanced scenarios. For example, after a first event and action, you can drag other events. Then, you can add a second action, place a wait activity to wait for some time, add a split condition to push people to two different paths and then send different messages.
 
 
