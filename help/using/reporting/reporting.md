@@ -23,7 +23,7 @@ This section will present you how to access and use reports to measure your jour
 
 The top toolbar allows you, for example, to modify, save or print your report.
 
-![](/help/assets/dynamic_report_toolbar.png)
+![](../assets/dynamic_report_toolbar.png)
 
 Use the **[!UICONTROL Project]** tab to:
 
@@ -50,10 +50,11 @@ To access your journeys' reports and start tracking the success of your deliveri
 
 1. From the homepage, select the journey you want to report on.
 
-    ![](assets/dynamic_report_journey.png)
+    ![](../assets/dynamic_report_journey.png)
 
 1. Click the **[!UICONTROL Report]** icon on the top right of your screen.
-    ![](assets/dynamic_report_journey_2.png)
+
+    ![](../assets/dynamic_report_journey_2.png)
 
 1. The **[!UICONTROL Journey summary]** out-of-the box report appears on screen. To access custom report, click the Close button.
 
@@ -64,7 +65,7 @@ To access your journeys' reports and start tracking the success of your deliveri
 Reports are divided into two categories: an out-of-the-box template and custom reports.
 The out-of-the-box template, **[!UICONTROL Journey summary]**, gives you a clear view of the most important tracking data.
 
- ![](assets/dynamic_report_journey_8.png)
+ ![](../assets/dynamic_report_journey_8.png)
 
 Each table is represented by summary numbers and charts. You can change how the details are shown in their respective visualization settings.
 
@@ -83,7 +84,7 @@ Each table is represented by summary numbers and charts. You can change how the 
 
 The Journey flow visualization allows you to see the path of your targeted profiles step-by-step through your journey. This is only available when targeting one journey.
 
- ![](assets/dynamic_report_journey_10.png)
+ ![](../assets/dynamic_report_journey_10.png)
 
 The **[!UICONTROL Journey summary]** table contains the data available for journeys, such as:
 
@@ -95,7 +96,7 @@ The **[!UICONTROL Journey summary]** table contains the data available for journ
 
 The **[!UICONTROL Top events]** table displays the most successful events and the **[!UICONTROL Top action]** the most successful actions in your journeys.
 
- ![](assets/dynamic_report_journey_11.png)
+ ![](../assets/dynamic_report_journey_11.png)
 
 The **[!UICONTROL Delivery - Sending summary]** table contains the data available for your journey's deliveries, such as:
 
