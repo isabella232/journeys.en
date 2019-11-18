@@ -19,6 +19,8 @@ snippet: y
 >[!NOTE]
 >
 >To get the best out of the Journey Orchestration feature, we recommend using Chrome as your Internet browser.
+>
+>This documentation is frequently updated to reflect recent changes in the product. However, screenshots can slightly differ from the product's interface.
 
 ## Discovering the interface{#section_jsq_zr1_ffb}
 
