@@ -58,7 +58,7 @@ To access your journeys' reports and start tracking the success of your deliveri
 
 1. The **[!UICONTROL Journey summary]** out-of-the box report appears on screen. To access custom report, click the Close button.
 
-1. Click **[!UICONTROL Create new project]** to start your report from scratch.  You, then, only need to add panels and drag and drop components or visualizations to your freeform environment.
+1. Click **[!UICONTROL Create new project]** to start your report from scratch.  You, then, only need to add panels and drag and drop components or visualizations to your freeform environment. For more information on how to create your custom report, refer to this [page](../reporting/reportingcreating.md).
 
 ## Journey summary template {#ootb-template}
 
@@ -114,8 +114,4 @@ The **[!UICONTROL Delivery - Tracking summary]** table contains the data availab
 * **[!UICONTROL Click]**: Number of times a content was clicked in a delivery.
 * **[!UICONTROL Unsubscribe rate]**: Percentage of unsubscriptions by recipient compared to the delivered messages.
 * **[!UICONTROL Unsubscribed]**: Total number of unsubscriptions by recipient compared to the delivered messages.
-
-## Creating your custom reports {#custom-reports}
-
-You can also create custom reports, which are directly created via the **Create a new project** button on the Reporting page. You, then, only need to add panels and drag and drop components or visualizations to your freeform environment. For more information on the reporting interface, refer to the [Adobe Campaign Standard](https://helpx.adobe.com/campaign/standard/reporting/using/reporting-interface.html) documentation.
 
