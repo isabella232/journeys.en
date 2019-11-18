@@ -56,7 +56,7 @@ Here are the main steps to create and publish a journey.
 
 ## Ending a journey{#ending_a_journey}
 
-There are three ways to end a journey:
+There are two ways to end a journey:
 
 * The person arrives at the last activity of a path. This last activity can be an end activity or another activity. There is no obligation to end a path with an end activity. See [End activity](../building-journeys/end.md).
 * The person arrives at a condition activity (or a wait activity with a condition) and does not match any of the conditions.
