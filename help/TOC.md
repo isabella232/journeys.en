@@ -78,6 +78,7 @@ index: n
       + [toDuration](using/functions/functiontoduration.md)
       + [toInteger](using/functions/functiontointeger.md)
       + [toString](using/functions/functiontostring.md)
+      + [toTimeZone](using/functions/functiontotimezone.md)
     + Date {#date}
       + [currentTime​InMillis](using/functions/functioncurrenttimeinmillis.md)
       + [inLastDays](using/functions/functioninlastdays.md)

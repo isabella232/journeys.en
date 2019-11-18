@@ -36,7 +36,7 @@ Conversion
 
 `toTimeZone(<string>)`
 
-Return a timezone.
+Returns a timezone.
 
 ## Examples
 

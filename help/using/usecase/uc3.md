@@ -26,7 +26,7 @@ Follow the steps described in [Configuring an event](../event/event.md#concept_g
 
 Perform the following steps to select the fatigue score fields in the built-in data source:
 
-1. In the top bar, click **Data Sources** and select the build-in Experience Platform data source.
+1. In the top menu, click the **Data Sources** tab and select the build-in Experience Platform data source.
 
     ![](../assets/journey23.png)
 

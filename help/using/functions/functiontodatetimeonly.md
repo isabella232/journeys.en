@@ -16,7 +16,7 @@ snippet: y
 
 # toDateTimeOnly{#toDateTimeOnly}
 
-Converts an argument value into a date time only value, depending on its type.
+Converts an argument value into a date time only value.
 
 ## Category
 
@@ -30,18 +30,13 @@ Conversion
 
 | Parameter | Type             |
 |-----------|------------------|
-| deserialized dateTime | string |
-| dateTimeOnly | dateTimeOnly|
-| Year | integer |
-| Month | integer |
-| Day of month | integer |
-| Hour | integer |
-| Minute | integer |
-| Second | integer |
+| date time without time zone in ISO-8601 format | string |
+| dateTime | dateTime|
 
 ## Signatures and return types
 
 `toDateTimeOnly(<dateTime>)`
+
 `toDateTimeOnly(<string>)`
 <!--`toDateTimeOnly(<integer>,<integer>,<integer>)`
 `toDateTimeOnly(<integer>,<integer>,<integer>,<integer>,<integer>,<integer>)`-->
@@ -53,6 +48,8 @@ Return a datetime without considering timezone.
 `toDateTimeOnly ("2016-08-18T23:17:59.123")`
 
 Returns 2016-08-18T23:17:59.123.
+
+`toDateTimeOnly(now())`
 
 <!--`toDateTimeOnly(2016,8,18,23,17,59)`
 

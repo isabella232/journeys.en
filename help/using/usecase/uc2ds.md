@@ -20,7 +20,7 @@ In our use case, we want to use personalization data for our messages. We also n
 
 For additional information on data source configuration, refer to [](../datasource/ds.md#concept_s1s_dqt_52b).
 
-1. In the top bar, click **Data Sources** and select the build-in Experience Platform data source.
+1. In the top menu, click the **Data Sources** tab and select the build-in Experience Platform data source.
 
     ![](../assets/journey23.png)
 

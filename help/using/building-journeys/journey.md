@@ -27,7 +27,7 @@ Only one namespace is allowed per journey. When you drop the first event, events
 
 Here are the main steps to create and publish a journey.
 
-1. In the top bar, click **Home**. 
+1. In the top menu, click the **Home** tab. 
 
     The list of journeys is displayed. See [The journey designer's interface](../building-journeys/journeyinterface.md#concept_m1g_5qt_52b) for more information on the interface.
 
@@ -81,5 +81,6 @@ The timezone can also be fixed. Clear the pre-defined timezone and pick one from
 ![](../assets/journey72.png)
 
 Finally, the timezone can be dynamic for each person entering the step. In this case, you will use the expression editor to select where you want the system to get this information (it can be from an event or a data source). See [Building advanced conditions](../expression/expressionadvanced.md#concept_uyj_trt_52b).The custom timezone must follow this [format](https://docs.oracle.com/javase/8/docs/api/java/time/ZoneId.html#of-java.lang.String-). If the timezone you want to leverage is a string, you can use the function ‘toTimeZone’ to convert it to the right format. See [toTimeZone](../functions/functiontotimezone.md).
+
 
 The start and end dates of a journey cannot be linked to a specific timezone. They are automatically associated to the instance's timezone.
