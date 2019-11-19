@@ -31,14 +31,14 @@ index: n
   + [Adobe Experience Platform data source](using/datasource/dsplatform.md)
   + [External data sources](using/datasource/dsexternal.md)
 + Configuring an action {#action-journeys}
-  + [About actions](using/custom-action/action.md)
-  + [Using Adobe Campaign Standard](using/custom-action/actioncampaign.md)
+  + [About actions](using/action/action.md)
+  + [Using Adobe Campaign Standard](using/action/actioncampaign.md)
   + Using a third-party system {#action-third-party}
-    + [About custom actions](using/custom-action/customabout.md)
-    + [Custom action limitations](using/custom-action/customlimitations.md)
-    + [URL configuration](using/custom-action/customurl.md)
-    + [Configuring the authentication](using/custom-action/customauthentication.md)
-    + [Defining the message parameters](using/custom-action/customparameters.md)
+    + [About custom actions](using/action/customabout.md)
+    + [Custom action limitations](using/action/customlimitations.md)
+    + [URL configuration](using/action/customurl.md)
+    + [Configuring the authentication](using/action/customauthentication.md)
+    + [Defining the message parameters](using/action/customparameters.md)
 + Building a journey {#building-journeys}
   + [About journey building](using/building-journeys/journey.md)
   + [The journey designer's interface](using/building-journeys/journeyinterface.md)
@@ -49,7 +49,8 @@ index: n
     + [Condition activity](using/building-journeys/condition.md)
     + [End activity](using/building-journeys/end.md)
     + [Wait activity](using/building-journeys/wait.md)
-  + [Action activities](using/building-journeys/journeyaction.md)
+  + Building advanced conditions {#building-advanced-conditions-journeys}
+    + [Action activities](using/building-journeys/journeyaction.md)
   + [Testing and publishing the journey](using/building-journeys/journeypublication.md)
   + [Journey versions](using/building-journeys/journeyversions.md)
 + Building advanced conditions {#building-advanced-conditions-journeys}

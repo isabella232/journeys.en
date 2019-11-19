@@ -20,7 +20,7 @@ From the palette, on the left-hand side of the screen, below **Events** and **Or
 
 ![](../assets/journey58.png)
 
-These activities represent the different available communication channels. You can combine them to create a cross-channel scenario. The following out-of-the-box action activities are available: **Email**, **Push** and **SMS**. If you've configured custom actions, they will also appear here (see [custom actions](../custom-action/custom.md)).
+These activities represent the different available communication channels. You can combine them to create a cross-channel scenario. The following out-of-the-box action activities are available: **Email**, **Push** and **SMS**. If you've configured custom actions, they will also appear here (see [custom actions](../action/custom.md)).
 
 When you drop an action activity in the canvas, you can define a **Label**. This allows you to add a suffix to the action name that will appear under your activity in the canvas. This is useful if you use the same action several times in your journey and want to identify them more easily. Reports will also be easier to read. You can also add an optional **Description**.
 
@@ -108,7 +108,7 @@ These are the fields expected by the transactional template used in your Adobe C
 
 ## Custom actions {#section_f2c_hbg_nhb}
 
-If you're using a custom action, you will see, in read-only, the **URL Configuration** and **Authentication** parameters defined in the action configuration screen (see [custom actions](../custom-action/custom.md)).
+If you're using a custom action, you will see, in read-only, the **URL Configuration** and **Authentication** parameters defined in the action configuration screen (see [custom actions](../action/custom.md)).
 
 >[!NOTE]
 >
