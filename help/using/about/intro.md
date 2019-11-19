@@ -41,6 +41,9 @@ You can then send real-time personalized SMS, push notifications or emails using
 
 As the Journey orchestration feature is multistep, you can create advanced scenarios. For example, after a first event and action, you can drag other events. Then, you can add a second action, place a wait activity to wait for some time, add a split condition to push people to two different paths and then send different messages.
 
+>[!NOTE]
+>
+>This documentation is frequently updated to reflect recent changes in the product. However, some screenshots can slightly differ from the product's interface. 
 
 **Related topics** 
 

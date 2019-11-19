@@ -32,11 +32,11 @@ For additional information on how to build a journey, refer to [Building a journ
 
     ![](../assets/journey31.png)
 
-1. Edit the journey's properties by clicking on the pencil icon, add a name and set it to last for one month, from the 1st to the 30th of September.
+1. Edit the journey's properties in the configuration pane displayed on the right side. Add a name and set it to last for one month, from the 1st to the 31st of December.
 
     ![](../assets/journeyuc2_12.png)
 
-1. Start designing your journey by drag and dropping the "LobbyBeacon" event from the palette to the canvas.
+1. Start designing your journey by drag and dropping the "LobbyBeacon" event from the palette to the canvas. You can also double-click on the event in the palette to add it to the canvas.
 
     ![](../assets/journeyuc2_13.png)
 
@@ -44,31 +44,37 @@ For additional information on how to build a journey, refer to [Building a journ
 
     ![](../assets/journeyuc2_14.png)
 
-1. Choose the **Data Source Condition** type and click in the **Expression** field.
+1. Choose the **Data Source Condition** type and click in the **Expression** field. You can also define a condition label that will appear on the arrow, in the canvas. In our example, we replace "Condition 1" with "Loyalty member".
 
     ![](../assets/journeyuc2_15.png)
 
-1. Click **Advanced mode** and define the following condition based on the "timestamp" and "metrics._directMarketing.sends.value" fields coming from the Experience Platform data source. The syntax of the expression is:
+1. Click **Advanced mode** and define the following condition based on the "timestamp" and "directMarketing.sends.value" fields coming from the Experience Platform data source. The syntax of the expression is:
 
     ```
     count(#{ExperiencePlatformDataSource.MarltonExperience.experienceevent.all(
         currentDataPackField.directMarketing.sends.value > 0 and
-        currentDataPackField.timestamp > nowWithDelta(1, "days", "UTC")).timestamp}) == 0
+        currentDataPackField.timestamp > nowWithDelta(-1, "days")).timestamp}) == 0
     and
         #{ExperiencePlatformDataSource.MarltonProfiles.Profile._customer.marlton.loyaltyMember}
     ```
 
     ![](../assets/journeyuc2_30.png)
 
-1. Click the **Add a path** button and create a second path for customers who have not been contacted in the last 24 hours and are not a loyalty member. The syntax of the expression is:
+1. Click the **Add a path** button and create a second path for customers who have not been contacted in the last 24 hours and are not a loyalty member. Name the path "Not loyalty member". The syntax of the expression is:
 
     ```
     count(#{ExperiencePlatformDataSource.MarltonExperience.experienceevent.all(
         currentDataPackField.directMarketing.sends.value > 0 and
-        currentDataPackField.timestamp > nowWithDelta(1, "days", "UTC")).timestamp}) == 0
+        currentDataPackField.timestamp > nowWithDelta(-1, "days").timestamp}) == 0
     and not
         #{ExperiencePlatformDataSource.MarltonProfiles.Profile._customer.marlton.loyaltyMember}
     ```
+
+    >[!NOTE]
+    >
+    >In the second part of expression, "Profile" is optional.
+
+1. We need to select a namespace. A namespace is preselected based on schema properties. You can keep the one preselected. For more information on namespaces, see [Selecting the namespace](../event/eventnamespace.md#concept_ckb_3qt_52b).
 
 In our use case, we only want to react to those two conditions, so we don't check the box **Show path for other cases than the one(s) above**.
 
@@ -118,8 +124,12 @@ Two paths are created after your condition:
 
 1. Define the **Target** fields required by the system to send the push. 
 
-    * **Push platform**: select the platform: **Apple Push Notification Server** or (Apple) or **Firebase Cloud Messaging** (Android).
-    * **Registration token**: since the token is included in the event, it is pre-filled.
+    * **Push platform**: select the platform: **Apple Push Notification Server** (Apple) or **Firebase Cloud Messaging** (Android).
+    * **Registration token**: add the following expression (based on the configured event) using the advanced mode:
+
+        ```
+        @{LobbyBeacon._experience.campaign.message.profileSnapshot.pushNotificationTokens.first().token}
+        ``
 
 1. Define the Push notification personalization fields. In our example: first name and last name.
 
@@ -155,6 +165,10 @@ Two paths are created after your condition:
 
 1. Add an **End** activity.
 
-Test your journey. If there is any error, deactivate the test mode, modify your journey and test it again. When the test is conclusive, you can publish your journey from the top right drop-down menu.
+Click on the **Test** toggle and test your journey. If there is any error, deactivate the test mode, modify your journey and test it again. For more information on the test mode, refer to [Testing your journey](../building-journeys/journeypublication.md#section_ctr_lqk_fhb). 
+
+![](../assets/journeyuc2_32bis.png)
+
+When the test is conclusive, you can publish your journey from the top right drop-down menu.
 
 ![](../assets/journeyuc2_32.png)
