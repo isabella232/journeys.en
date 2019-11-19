@@ -56,9 +56,15 @@ To access your journeys' reports and start tracking the success of your deliveri
 
     ![](../assets/dynamic_report_journey_2.png)
 
-1. The **[!UICONTROL Journey summary]** out-of-the box report appears on screen. To access custom report, click the Close button.
+1. The **[!UICONTROL Journey summary]** out-of-the box report appears on screen. To access custom report, click the **[!UICONTROL Close]** button.
 
-1. Click **[!UICONTROL Create new project]** to start your report from scratch.  You, then, only need to add panels and drag and drop components or visualizations to your freeform environment. For more information on how to create your custom report, refer to this [page](../reporting/reportingcreating.md).
+    ![](../assets/dynamic_report_journey_12.png)
+
+1. Click **[!UICONTROL Create new project]** to start your report from scratch.  
+
+    ![](../assets/dynamic_report_journey_13.png)
+
+You, then, only need to add panels and drag and drop components or visualizations to your freeform environment. For more information on how to create your custom report, refer to this [page](../reporting/reportingcreating.md).
 
 ## Journey summary template {#ootb-template}
 
