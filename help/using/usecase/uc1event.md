@@ -38,11 +38,11 @@ For additional information on event configuration, refer to [Configuring an even
     >
     >The list of fields varies from one schema to another. According to the schema definition, some fields may be mandatory and pre-selected.
 
-1. Since our journey will leverage data coming from the Unified Profile Service, we need to select a namespace. For more information on namespaces, see [Selecting the namespace](../event/eventnamespace.md#concept_ckb_3qt_52b).
+1. We need to select a namespace. A namespace is preselected based on schema properties. You can keep the one preselected. For more information on namespaces, see [Selecting the namespace](../event/eventnamespace.md#concept_ckb_3qt_52b).
 
     ![](../assets/journeyuc1_6.png)
 
-1. Click inside the **Key** field, and select the Experience Cloud ID that was defined in the payload as the key to identify the person. 
+1. A key is preselected based on schema properties and the namespace selected. You can keep it.
 
     ![](../assets/journeyuc1_5.png)
 

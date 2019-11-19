@@ -52,7 +52,7 @@ We also need to check if the person has a reservation in the hotel reservation s
     >
     >We strongly recommend using HTTPS for security reasons.
 
-1. Configure the authentication depending on the external service configuration: **No authentication**, **Basic** or **API key**. In our example, we choose "Basic" for the type and specify the username and password for the API call.
+1. Configure the authentication depending on the external service configuration: **No authentication**, **Basic**, **Custom** or **API key**. In our example, we choose "Basic" for the type and specify the username and password for the API call.
 
     ![](../assets/journeyuc2_10.png)
 
