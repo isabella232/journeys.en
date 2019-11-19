@@ -35,15 +35,11 @@ You can stop a journey by clicking **Finish** in the list of journeys.
 You can also:
 
 1. In Home, click on the journey you want to stop.
-
-1. Top right click on the down arrow.
+1. On the top-right, click on the down arrow.
 
   ![](../assets/finish_drop_down_list.png)
 
 1. Click **Finish**. A dialog box appears.
-
-  ![](../assets/journey_finish_pop_up.png)
-
 1. Click **Finish** to confirm.
 
 >[!Warning]
@@ -67,15 +63,11 @@ You can stop a journey by clicking **Stop** in the list of journeys.
 You can also:
 
 1. Click on the journey.
-
-1. Top right click on the down arrow.
+1. On the top-right, click on the down arrow.
 
   ![](../assets/finish_drop_down_list.png)
 
 1. Click **Stop**. A dialog box appears.
-
-  ![](../assets/journey_finish_pop_up.png)
-
 1. Click **Stop** to confirm.
 
 >[!Warning]
