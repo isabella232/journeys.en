@@ -34,7 +34,7 @@ You can stop a journey by clicking **Finish** in the list of journeys.
 
 You can also:
 
-1. In Home, click on the journey you want to stop.
+1. In Home, click on the journey you want to finish.
 1. On the top-right, click on the down arrow.
 
   ![](../assets/finish_drop_down_list.png)
@@ -42,7 +42,7 @@ You can also:
 1. Click **Finish**. A dialog box appears.
 1. Click **Finish** to confirm.
 
->[!Warning]
+>[!WARNING]
 >
 >When a version of a journey is manually finished, any new entrance on events for new users is forbidden.
 
@@ -50,7 +50,7 @@ You can also:
 
 You can stop a journey when an emergency occured and all processing needs to be ended immediately on a journey.
 
-A stopped journey version cannot be restarted or manually deleted. 
+A stopped journey version cannot be restarted or manually deleted.
 
 >[!NOTE]
 >
@@ -62,7 +62,7 @@ You can stop a journey by clicking **Stop** in the list of journeys.
 
 You can also:
 
-1. Click on the journey.
+1. Click on the journey you want to stop.
 1. On the top-right, click on the down arrow.
 
   ![](../assets/finish_drop_down_list.png)
@@ -70,6 +70,6 @@ You can also:
 1. Click **Stop**. A dialog box appears.
 1. Click **Stop** to confirm.
 
->[!Warning]
+>[!WARNING]
 >
 >When a version of a journey is manually stopped, any new entrance on events for new users is forbidden and the journey ends for all customers for which the journey has started.
