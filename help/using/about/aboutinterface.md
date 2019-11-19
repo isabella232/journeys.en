@@ -18,17 +18,17 @@ snippet: y
 
 >[!NOTE]
 >
->To get the best out of the Journey Orchestration feature, we recommend using Chrome as your Internet browser.
+>To get the best out of Journey Orchestration, we recommend using Chrome as your Internet browser.
 >
 >This documentation is frequently updated to reflect recent changes in the product. However, some screenshots can slightly differ from the product's interface.
 
 ## Discovering the interface{#section_jsq_zr1_ffb}
 
-To access the Journey orchestration' interface, click the **Journey Orchestration** shortcut in the Experience Cloud's solution switcher. It is displayed on the right side, below "Experience Platform".
+To access the Journey Orchestration' interface, click the **Journey Orchestration** shortcut in the Experience Cloud's solution switcher. It is displayed on the right side, below "Experience Platform".
 
 ![](../assets/journey1.png)  
 
-The top bar allows you to navigate through the different functionalities of the feature: **Home** (the journeys), **Data Sources**, **Events**, **Actions**.
+The top bar allows you to navigate through the different functionalities of Journey Orchestration: **Home** (the journeys), **Data Sources**, **Events**, **Actions**.
 
 ![](../assets/journey2.png)  
 

@@ -34,7 +34,7 @@ The set of roles assigned to a security group will define the user's access to t
 
 ![](../assets/user_management.png)
 
-The following out-of-the-box roles are specific and unique to users that need to use the Journey Orchestration feature:
+The following out-of-the-box roles are specific and unique to users that need to use Journey Orchestration:
 
 * **Manage and execute journeys**
 * **Read journeys**

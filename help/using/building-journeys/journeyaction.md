@@ -20,7 +20,7 @@ From the palette, on the left-hand side of the screen, below **Events** and **Or
 
 ![](../assets/journey58.png)
 
-These activities represent the different available communication channels. You can combine them to create a cross-channel scenario. The following out-of-the-box action activities are available, if you have Adobe Campaign Standard: **Email**, **Push** and **SMS**. If you've configured custom actions, they will also appear here (see [custom actions](../action/custom.md)).
+These activities represent the different available communication channels. You can combine them to create a cross-channel scenario. The following out-of-the-box action activities are available, if you have Adobe Campaign Standard: **Email**, **Push** and **SMS**. If you've configured custom actions, they will also appear here (see [Custom action configuration](../action/custom.md) and [Custom actions](../building-journeys/actioncustom.md)).
 
 When you drop an action activity in the canvas, you can define a **Label**. This allows you to add a suffix to the action name that will appear under your activity in the canvas. This is useful if you use the same action several times in your journey and want to identify them more easily. Reports will also be easier to read. You can also add an optional **Description**.
 

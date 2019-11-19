@@ -16,6 +16,8 @@ snippet: y
 
 # About custom action configuration {#concept_sxy_bzs_dgb}
 
+The configuration of custom actions is always performed by a technical user .
+
 If you're using a third-party system to send messages or if you want Journey Orchestration to send API calls to a third-party system, this is where you configure its connection to Journey Orchestration. The custom action defined by technical users will then be available in the left palette of your journey, in the **Action** category (see [Action activities](../building-journeys/journeyaction.md#concept_hbj_hrt_52b)). Here are a few examples of systems that you can connect to with custom actions: Epsilon, Facebook, Adobe.io, Firebase, etc.
 Limitations are listed here: [Custom action limitations](../action/customlimitations.md#concept_lh2_df1_2gb).
 

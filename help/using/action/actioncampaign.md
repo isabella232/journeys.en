@@ -14,10 +14,12 @@ internal: n
 snippet: y
 ---
 
-# Using Adobe Campaign Standard (#using_adobe_campaign_standard)
+# Using Adobe Campaign Standard {#using_adobe_campaign_standard}
 
-If you have Adobe Campaign Standard, you don't need to add and configure an action,  the connection is pre-configured. Journey Orchestration comes with an out-of-the-box action which allows the connection to Adobe Campaign Standard. This allows you to send emails, push notifications and SMS using the Adobe Campaign Standard's Transactional Messaging capabilities. 
+If you have Adobe Campaign Standard, you don't need to add and configure an action, the connection is pre-configured. Journey Orchestration comes with an out-of-the-box action which allows the connection to Adobe Campaign Standard. This allows you to send emails, push notifications and SMS using the Adobe Campaign Standard's Transactional Messaging capabilities. 
 
 When designing your journey, three actions are available in the **Action** category: **Email**, **Push**, **SMS** (see [Action activities](../building-journeys/journeyactioncampaign.md)).
+
+![](../assets/journey58.png)
 
 If you're using a third-party system to send messages, you need to add and configure a custom action. Refer to [Using a third-party system](../action/custom.md).
