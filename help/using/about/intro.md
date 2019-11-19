@@ -18,7 +18,7 @@ snippet: y
 
 Build real-time orchestration use cases leveraging contextual data stored in events or data sources.
 
-Journey Orchestration allows real-time orchestration powered by contextual data from events, information from the Adobe Experience Platform, or data from third-party API services. You can configure a custom action if you're using a third-party system to send your messages. If you have Adobe Campaign Standard, the connection is pre-configured. Send emails, push notifications and SMS using the Adobe Campaign Standard's Transactional Messaging capabilities. 
+Journey Orchestration allows real-time orchestration powered by contextual data from events, information from the Adobe Experience Platform, or data from third-party API services. You can configure a custom action if you're using a third-party system to send your messages. If you have Adobe Campaign Standard, you will be able to send emails, push notifications and SMS using the Adobe Campaign Standard's Transactional Messaging capabilities. 
 
 In the event configuration tab, a **technical user** configures events expected in the journeys. The incoming events' data is normalized following the Adobe Experience Data Model (XDM). Events come from Streaming Ingestion APIs for authenticated and unauthenticated events (such as Adobe Mobile SDK events).
 

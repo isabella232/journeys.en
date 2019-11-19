@@ -71,3 +71,7 @@ This type of wait uses a score calculated in the Platform. The score calculates 
 1. In the **Amount of time** field, define the number of hours to consider to optimize email sending.
 1. In the **Optimization type** field, choose if the optimization should increase clicks or opens.
 1. In the **Default time** field, define the default time to wait if the predictive send time score is not available.
+
+    >[!NOTE]
+    >
+    >Note that the send time score can be unavailable because there is not enough data to perform the calculation. In this case, you will be informed, at publication time, that the default time will apply.
