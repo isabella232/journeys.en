@@ -28,7 +28,7 @@ A finished journey version cannot be restarted or manually deleted. You can crea
 >
 >To perform a manual finish on a journey, it must be in live status.
 
-You can stop a journey by clicking **Finish** in the list of journeys.
+You can stop a journey by clicking **Finish** while hovering over a journey in the list of journeys.
 
 ![](../assets/journey-finish-quick-action.png)
 
@@ -56,7 +56,7 @@ A stopped journey version cannot be restarted or manually deleted.
 >
 >To perform a manual stop on a journey, it must be in live status.
 
-You can stop a journey by clicking **Stop** in the list of journeys.
+You can stop a journey by clicking **Stop** while hovering over a journey in the list of journeys.
 
 ![](../assets/journey-stop-quick-action.png)
 
