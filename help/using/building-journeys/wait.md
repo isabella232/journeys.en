@@ -64,6 +64,10 @@ This option lets you define a custom date, for example 12 July 2020 at 5pm, usin
 
 This type of wait uses a score calculated in the Platform. The score calculates the propensity to click or open an email in the future based on past behavior. Note that the algorithm calculating the score needs a certain amount of data to work. As a result, when it does not have enough data, the default wait time will apply. At publication time, you’ll be notified that the default time applies.
 
+>[!NOTE]
+>
+>This capbility is only available after an **Email** activity. You need to have Adobe Campaign Standard.
+
 1. In the **Amount of time** field, define the number of hours to consider to optimize email sending.
 1. In the **Optimization type** field, choose if the optimization should increase clicks or opens.
 1. In the **Default time** field, define the default time to wait if the predictive send time score is not available.

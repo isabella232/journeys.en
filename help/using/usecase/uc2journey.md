@@ -20,9 +20,13 @@ The **business user** can now build the journey. Our journey will include the fo
 
 * two **Event** activities: "LobbyBeacon" and "RestaurantBeacon"
 * two **Condition** activities
-* three **Push** activities and one **Email** activity
+* three **Push** activities and one **Email** activity (using Adobe Campaign Standard)
 * a **Wait** activity
 * four **End** activities
+
+>[!NOTE]
+>
+>The **Push** and **Email** activities are only available in the palette if you have Adobe Campaign Standard.
 
 For additional information on how to build a journey, refer to [Building a journey](../building-journeys/journey.md#concept_gq5_sqt_52b).
 

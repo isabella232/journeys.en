@@ -30,12 +30,15 @@ index: n
   + [Field groups](using/datasource/dsfield.md)
   + [Adobe Experience Platform data source](using/datasource/dsplatform.md)
   + [External data sources](using/datasource/dsexternal.md)
-+ Configuring a custom action {#custom-action-journeys}
-  + [About custom actions](using/custom-action/custom.md)
-  + [Custom action limitations](using/custom-action/customlimitations.md)
-  + [URL configuration](using/custom-action/customurl.md)
-  + [Configuring the authentication](using/custom-action/customauthentication.md)
-  + [Defining the message parameters](using/custom-action/customparameters.md)
++ Configuring an action {#action-journeys}
+  + [About actions](using/custom-action/action.md)
+  + [Using Adobe Campaign Standard](using/custom-action/actioncampaign.md)
+  + Using a third-party system {#action-third-party}
+    + [About custom actions](using/custom-action/customabout.md)
+    + [Custom action limitations](using/custom-action/customlimitations.md)
+    + [URL configuration](using/custom-action/customurl.md)
+    + [Configuring the authentication](using/custom-action/customauthentication.md)
+    + [Defining the message parameters](using/custom-action/customparameters.md)
 + Building a journey {#building-journeys}
   + [About journey building](using/building-journeys/journey.md)
   + [The journey designer's interface](using/building-journeys/journeyinterface.md)
