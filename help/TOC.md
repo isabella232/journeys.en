@@ -48,7 +48,7 @@ index: n
     + [Wait activity](using/building-journeys/wait.md)
   + [Action activities](using/building-journeys/journeyaction.md)
   + [Testing and publishing the journey](using/building-journeys/journeypublication.md)
-  + [Interrupting a journey](using/building-journeys/journeystop.md)
+  + [Terminating a journey](using/building-journeys/journeystop.md)
   + [Journey versions](using/building-journeys/journeyversions.md)
 + Building advanced conditions {#building-advanced-conditions-journeys}
   + [About advanced conditions](using/expression/expressionadvanced.md)

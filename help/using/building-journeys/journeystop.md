@@ -1,6 +1,6 @@
 ---
-title: Interrupting a journey
-description: Learn how to interrupt a journey
+title: Terminating a journey
+description: Learn how to terminate a journey
 page-status-flag: never-activated
 uuid: 269d590c-5a6d-40b9-a879-02f5033863fc
 contentOwner: sauviat
@@ -14,9 +14,9 @@ internal: n
 snippet: y
 ---
 
-# Interrupting a journey
+# Terminating a journey
 
-The **Stop** and **Finish** options allow you to terminate journeys.
+The **Stop** and **Finish** options allow you to terminate journeys. Finishing a journey involves that the customers who already started in the journey are able to experience it to the end. Stopping a journey involves that journeys already started by users are immediately terminated.
 
 ## Finishing a journey
 
