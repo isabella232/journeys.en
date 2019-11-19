@@ -34,7 +34,7 @@ index: n
   + [About actions](using/action/action.md)
   + [Using Adobe Campaign Standard](using/action/actioncampaign.md)
   + Using a third-party system {#action-third-party}
-    + [About custom actions](using/action/customabout.md)
+    + [About custom actions](using/action/custom.md)
     + [Custom action limitations](using/action/customlimitations.md)
     + [URL configuration](using/action/customurl.md)
     + [Configuring the authentication](using/action/customauthentication.md)
