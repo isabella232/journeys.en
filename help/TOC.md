@@ -49,8 +49,10 @@ index: n
     + [Condition activity](using/building-journeys/condition.md)
     + [End activity](using/building-journeys/end.md)
     + [Wait activity](using/building-journeys/wait.md)
-  + Building advanced conditions {#building-advanced-conditions-journeys}
-    + [Action activities](using/building-journeys/journeyaction.md)
+  + Action activities {#action-activities}
+    + [About action activities](using/building-journeys/journeyaction.md)
+    + [Using Adobe Campaign Standard actions](using/building-journeys/journeyactioncampaign.md)
+    + [Using a custom action](using/building-journeys/journeyactioncustom.md)
   + [Testing and publishing the journey](using/building-journeys/journeypublication.md)
   + [Journey versions](using/building-journeys/journeyversions.md)
 + Building advanced conditions {#building-advanced-conditions-journeys}
