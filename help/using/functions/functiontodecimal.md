@@ -38,8 +38,11 @@ Conversion
 ## Signatures and return types
 
 `toDecimal(<integer>)`
+
 `toDecimal(<decimal>)`
+
 `toDecimal(<string>)`
+
 `toDecimal(<boolean>)`
 
 Return a decimal.

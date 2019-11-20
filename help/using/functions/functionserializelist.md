@@ -44,12 +44,19 @@ List
 ## Signature and return type
 
 `serializeList(<listInteger>,<string>,<boolean>)`
+
 `serializeList(<listDecimal>,<string>,<boolean>)`
+
 `serializeList(<listString>,<string>,<boolean>)`
+
 `serializeList(<listBoolean>,<string>,<boolean>)`
+
 `serializeList(<listDateTimeOnly>,<string>,<boolean>)`
+
 `serializeList(<listDateTime>,<string>,<boolean>)`
+
 `serializeList(<listDuration>,<string>,<boolean>)`
+
 `serializeList(<listPoint>,<string>,<boolean>)`
 
 Return a string.

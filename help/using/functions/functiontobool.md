@@ -40,8 +40,11 @@ Conversion
 ## Signatures and return types
 
 `toBool(<decimal>)`
+
 `toBool(<boolean>)`
+
 `toBool(<string>)`
+
 `toBool(<integer>)`
 
 Return a boolean.

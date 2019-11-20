@@ -147,7 +147,9 @@ You can then use this in a condition activity to check if the result of the **al
 
 We want to check if a user has installed a specific version of an application. For this we get all the push notification tokens associated to mobile applications for which the version is 1.0. Then, we perform a condition with the count function to check that the returned list of tokens contains at least one element.
 
-`count(@{LobbyBeacon._experience.campaign.message.profile.pushNotificationTokens.all&#8203;(currentEventField.application.version == "1.0").token}) > 0`
+   ```
+   count(@{LobbyBeacon._experience.campaign.message.profile.pushNotificationTokens.all&#8203;(currentEventField.application.version == "1.0").token}) > 0
+   ```
 
 The result is true.
 
@@ -155,13 +157,17 @@ The result is true.
 
 Here we use the count function in a condition to see if there is push notification tokens in the collection.
 
-`count(@{LobbyBeacon._experience.campaign.message.profile.pushNotificationTokens.all().token}) > 0`
+   ```
+   count(@{LobbyBeacon._experience.campaign.message.profile.pushNotificationTokens.all().token}) > 0
+   ```
 
 The result will be true.
 
 Alternatively, you can check if there is no token in the collection:
 
-`count(@{LobbyBeacon._experience.campaign.message.profile.pushNotificationTokens.all().token}) == 0`
+   ```
+   count(@{LobbyBeacon._experience.campaign.message.profile.pushNotificationTokens.all().token}) == 0
+   ```
 
 The result will be false.
 
@@ -246,13 +252,17 @@ _`<listExpression>.last(<condition>)` _
 
 **Example 1:** return the first push notification token associated to mobile applications for which the version is 1.0.
 
-`@{LobbyBeacon._experience.campaign.message.profile.pushNotificationTokens.first(currentEventField.application.version == "1.0").token`
+   ```
+   @{LobbyBeacon._experience.campaign.message.profile.pushNotificationTokens.first(currentEventField.application.version == "1.0").token
+   ```
 
 The result will be "token_1".
 
 **Example 2:** return the last push notification token associated to mobile applications for which the version is 1.0.
 
-`@{LobbyBeacon._experience.campaign.message.profile.pushNotificationTokens.last&#8203;(currentEventField.application.version == "1.0").token}`
+   ```
+   @{LobbyBeacon._experience.campaign.message.profile.pushNotificationTokens.last&#8203;(currentEventField.application.version == "1.0").token}
+   ```
 
 **The function "at(`<index>`)"**
 
@@ -263,7 +273,9 @@ _`<listExpression>`.at(`<index>`)_
 
 **Example:** return the second push notification token of the list.
 
-`@{LobbyBeacon._experience.campaign.message.profile.pushNotificationTokens.at(1).token}`
+   ```
+   @{LobbyBeacon._experience.campaign.message.profile.pushNotificationTokens.at(1).token}
+   ```
 
 The result will be "token_2".
 

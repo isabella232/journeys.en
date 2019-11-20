@@ -54,6 +54,7 @@ index: n
     + [Using Adobe Campaign Standard actions](using/building-journeys/journeyactioncampaign.md)
     + [Using a custom action](using/building-journeys/journeyactioncustom.md)
   + [Testing and publishing the journey](using/building-journeys/journeypublication.md)
+  + [Terminating a journey](using/building-journeys/journeystop.md)
   + [Journey versions](using/building-journeys/journeyversions.md)
 + Building advanced conditions {#building-advanced-conditions-journeys}
   + [About advanced conditions](using/expression/expressionadvanced.md)
@@ -84,7 +85,6 @@ index: n
       + [toDuration](using/functions/functiontoduration.md)
       + [toInteger](using/functions/functiontointeger.md)
       + [toString](using/functions/functiontostring.md)
-      + [toTimeZone](using/functions/functiontotimezone.md)
     + Date {#date}
       + [currentTime​InMillis](using/functions/functioncurrenttimeinmillis.md)
       + [inLastDays](using/functions/functioninlastdays.md)
