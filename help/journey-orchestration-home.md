@@ -9,7 +9,7 @@ topic: Premium
 
 ![](using/assets/bannerjourney.png) 
 
-td valign="top">
+<td valign="top">
     <a href="using/expression/expressionadvanced.md">
       <img alt="conditions" src="using/assets/dev.png"/>
     </a>
@@ -59,7 +59,7 @@ Learn how to design and publish your journeys.
     <div>
     <a href="using/about/troubleshooting.md"><strong>Troubleshooting</strong></a>
     </div>
-     <em>Find out the various tools that you can use to troubleshoot your journeys.</em>
+    <em>Find out the various tools that you can use to troubleshoot your journeys.</em>
     <br>
   </td>
   <td valign="top">
