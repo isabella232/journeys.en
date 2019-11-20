@@ -37,6 +37,7 @@ String
 ## Signature and return type
 
 `substr(<string>,beginIndex<integer>)`
+
 `substr(<string>,beginIndex<integer>,endIndex<integer>)`
 
 Return a string.

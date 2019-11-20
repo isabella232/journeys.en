@@ -23,7 +23,7 @@ If you're using special characters in a field, you need to use double quotes. He
 
 * the field starts with numerical characters
 * the field starts with the "-" character
-* the field contains anything other than: _a_-_z_, _A_-_Z_, _0_-_9_, ___, _-_
+* the field contains anything other than: _a_-_z_, _A_-_Z_, _0_-_9_, _ , _-_
 
 For example if your field is _3h_: _#{OpenWeather.weatherData.rain.'3h'} > 0_
 

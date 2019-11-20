@@ -41,12 +41,19 @@ List
 ## Signature and return type
 
 `listSize(<listInteger>)`
+
 `listSize(<listDecimal>)`
+
 `listSize(<listString>)`
+
 `listSize(<listBoolean>)`
+
 `listSize(<listDateTimeOnly>)`
+
 `listSize(<listDateTime>)`
+
 `listSize(<listDuration>)`
+
 `listSize(<listPoint>)`
 
 Return an integer.
