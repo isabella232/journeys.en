@@ -16,7 +16,7 @@ snippet: y
 
 # Constants {#concept_gp3_rj5_dgb}
 
-Technically, a constant always contains a data type. In the literal expression, we only specify the value. The data type can be inferred from the value (for example string, integer, decimal, etc.). For specific cases such as time zones, we use dedicated functions for the representation: _toTimeZone("Europe/Paris")_.
+Technically, a constant always contains a data type. In the literal expression, we only specify the value. The data type can be inferred from the value (for example string, integer, decimal, etc.). For specific cases such as time zones, we use dedicated functions for the representation.
 
 Here is how constant expressions are represented:
 
