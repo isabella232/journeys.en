@@ -9,29 +9,6 @@ topic: Premium
 
 ![](using/assets/bannerjourney.png) 
 
-<table>
-<td valign="top">
-    <a href="using/expression/expressionadvanced.md">
-      <img alt="conditions" src="using/assets/dev.png"/>
-    </a>
-    <div>
-    <a href="using/about/aboutprocess.md"><strong>Global user process</strong></a>
-    </div>
-    <em> </em>
-    <br>
-  </td>
-  <td valign="top">
-    <a href="using/event/event.md#section_tbk_5qt_pgb">
-      <img alt="build" src="using/assets/design.png"/>
-    </a>
-    <div>
-    <a href="using/building-journeys/journey.md"><strong></strong></a>
-    </div>
-    <em>Combine your activities to build your multi-step cross-channel scenarios.</em>
-    <br>
-  </td>
-  </table>
-
 ## Get started
 
 * **[Global user process](using/expression/expressionadvanced.md)**<br/>
