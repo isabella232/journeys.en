@@ -74,4 +74,4 @@ This type of wait uses a score calculated in the Platform. The score calculates 
 
     >[!NOTE]
     >
-    >Note that the send time score can be unavailable because there is not enough data to perform the calculation. In this case, you will be informed, at publication time, that the default time will apply.
+    >Note that the send time score can be unavailable because there is not enough data to perform the calculation. In this case, you will be informed, at publication time, that the default time applies.
