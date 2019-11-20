@@ -23,6 +23,6 @@ Here are a few limitations regarding the use of custom actions:
 * The built-in **Reaction** event allows you to react to out-of-the-box actions (see [Events activities](../building-journeys/journeyevent.md#concept_rws_1rt_52b)). If you want to react to a message sent via a custom action, you need to configure a dedicated event.
 * The custom action URL does not support dynamic parameters.
 * Only POST and PUT call methods are supported.
-* The name of the query parameter or header must not start with "$".
+* The name of the query parameter or header must not start with "." or "$".
 * IP addresses are not allowed.
 * Internal Adobe addresses (.adobe.) are not allowed.
