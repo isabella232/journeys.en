@@ -14,8 +14,7 @@ internal: n
 snippet: y
 ---
 
-
-# Building your Journey Orchestration reports{#concept_rfj_wpt_52b}
+# Building your Journey Orchestration reports {#concept_rfj_wpt_52b}
 
 This section will present you how to access and use reports to measure your journeys' effectiveness.
 
@@ -44,27 +43,15 @@ The **[!UICONTROL Insert]** table lets you customize your reports by adding grap
 * **[!UICONTROL New Line]**: Adds a new line graph to your dashboard.
 * **[!UICONTROL New Bar]**: Adds a new bar graph to your dashboard.
 
-## Accessing your reports {#accessing-reports}
+The left tabs let you build your report and filter your data as needed.
 
-To access your journeys' reports and start tracking the success of your deliveries:
+![](assets/dynamic_report_interface.png)
 
-1. From the homepage, select the journey you want to report on.
+These tabs give you access to the following items:
 
-    ![](../assets/dynamic_report_journey.png)
-
-1. Click the **[!UICONTROL Report]** icon on the top right of your screen.
-
-    ![](../assets/dynamic_report_journey_2.png)
-
-1. The **[!UICONTROL Journey summary]** out-of-the box report appears on screen. To access custom report, click the **[!UICONTROL Close]** button.
-
-    ![](../assets/dynamic_report_journey_12.png)
-
-1. Click **[!UICONTROL Create new project]** to start your report from scratch.  
-
-    ![](../assets/dynamic_report_journey_13.png)
-
-You, then, only need to add panels and drag and drop components or visualizations to your freeform environment. For more information on how to create your custom report, refer to this [page](../reporting/reportingcreating.md).
+* **[!UICONTROL Panels]**: add a blank panel or freeform to your report to start filtering your data. For more on this, refer to the Adding panels section
+* **[!UICONTROL Visualizations]**: drag and drop a selection of visualization items to give your report a graphical dimension. For more on this, refer to the Adding visualizations section.
+* **[!UICONTROL Components]**: customize your reports with different dimensions, metrics, segments and time periods.
 
 ## Journey summary template {#ootb-template}
 
@@ -120,4 +107,3 @@ The **[!UICONTROL Delivery - Tracking summary]** table contains the data availab
 * **[!UICONTROL Click]**: Number of times a content was clicked in a delivery.
 * **[!UICONTROL Unsubscribe rate]**: Percentage of unsubscriptions by recipient compared to the delivered messages.
 * **[!UICONTROL Unsubscribed]**: Total number of unsubscriptions by recipient compared to the delivered messages.
-
