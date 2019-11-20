@@ -65,12 +65,6 @@ Here is how constant expressions are represented:
         <td><code>toDateTime("1977-04-22T06:00:00Z")</code><br /><code>toDateTime("2011-12-03T15:15:30Z")</code><br /><code>toDateTime("2011-12-03T15:15:30.123Z")</code><br /><code>toDateTime("2011-12-03T15:15:30.123+02:00")</code><br /><code>toDateTime("2011-12-03T15:15:30.123-00:20")</code><br /><code> toDateTime(1560762190189)</code></td>
     </tr>
     <tr>
-        <td>timeZone</td>
-        <td>Id of a time zone using the java implementation such as "Europe/Paris".<br />JSON format: String.<br /> It must be encapsulated in a <b>toTimeZone</b> function.<br />Serialization format: to deserialize a time zone ID, it uses the java function java.time.ZoneId.of. <br /><a href="https://docs.oracle.com/javase/8/docs/api/java/time/ZoneId.html#of-java.lang.String-">Read more</a>.</td>
-        <td>toTimeZone("&lt;time zone id&gt;")</td>
-        <td><code>toTimeZone("Europe/Paris")</code></td>
-    </tr>
-    <tr>
         <td>duration</td>
         <td>It represents a time-based amount of time, such as '34.5 seconds'.<br /> It models a quantity or amount of time in terms of milliseconds.<br />The supported temporal units are:milliseconds,seconds,minutes, hours, days with one day equals to 24 hours.<br /> Years and months are not supported since they're not a fixed amount of time.<br /> JSON format: String. It must be encapsulated in a toDuration function.<br />Serialization format: To deserialize a time zone ID, it uses the java function java.time.<br />Duration.parse: the formats accepted are based on the ISO-8601 duration format PnDTnHnMn.nS with days considered to be exactly 24 hours.<a href="https://docs.oracle.com/javase/8/docs/api/java/time/Duration.html#parse-java.lang.CharSequence-">Learn more</a>.</td>
         <td><code>toDuration("&lt;duration in ISO-8601 format&gt;")</code><br /><code>toDuration(&lt;duration in milliseconds&gt;)</code></td>
