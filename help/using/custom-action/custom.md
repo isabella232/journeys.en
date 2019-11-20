@@ -24,7 +24,7 @@ Limitations are listed here: [Custom action limitations](../custom-action/custom
 
 Here are the main steps required to configure a custom action:
 
-1. In the top bar, click **Actions**.
+1. In the top menu, click the **Actions** tab.
 
     The list of custom actions is displayed. See [The Journey Orchestration' interface](../about/aboutinterface.md#concept_rcq_lqt_52b) for more information on the interface.
 
@@ -45,6 +45,6 @@ Here are the main steps required to configure a custom action:
 1. Define the different **URL Configuration** parameters. See [URL configuration](../custom-action/customurl.md#concept_gbg_1f1_2gb).
 1. Configure the **Authentication** section. See [Configuring the authentication](../custom-action/customauthentication.md#concept_is4_cf1_2gb).
 1. Define the **Message parameters**. See [Defining the message parameters](../custom-action/customparameters.md#concept_wy4_bf1_2gb).
-1. Click **Save**. 
+1. Click **Save**.
 
     The custom action is now configured and ready to be used in your journeys. See [Action activities](../building-journeys/journeyaction.md#concept_hbj_hrt_52b).
