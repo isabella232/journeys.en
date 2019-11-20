@@ -20,8 +20,12 @@ The **business user** can now build the journey. Our journey will only include o
 
 * the "SpaBeacon" **event**: when a person walks near the spa beacon, the system will receive an event and the journey will start for that person.
 * a **Condition** activity to check that the person is a woman
-* an **Email** activity
+* an **Email** activity (using Adobe Campaign Standard)
 * an **End** activity
+
+>[!NOTE]
+>
+>The **Push** and **Email** activities are only available in the palette if you have Adobe Campaign Standard.
 
 For additional information on how to build a journey, refer to [Building a journey](../building-journeys/journey.md#concept_gq5_sqt_52b).
 
@@ -29,11 +33,11 @@ For additional information on how to build a journey, refer to [Building a journ
 
     ![](../assets/journey31.png)
 
-1. Edit the journey's properties by clicking on the pencil icon. We name it "Spa journey" and set it to last for one month, from the 1st to the 30th of September.
+1. Edit the journey's properties in the configuration pane displayed on the right side. We name it "Spa journey" and set it to last for one month, from the 1st to the 31st of December.
 
     ![](../assets/journeyuc1_8.png)
 
-1. Start designing your journey by drag and dropping the "SpaBeacon" event from the palette to the canvas. 
+1. Start designing your journey by drag and dropping the "SpaBeacon" event from the palette to the canvas. You can also double-click on the event in the palette to add it to the canvas.
 
     ![](../assets/journeyuc1_9.png)
 
@@ -41,11 +45,11 @@ For additional information on how to build a journey, refer to [Building a journ
 
     ![](../assets/journeyuc1_10.png)
 
-1. Choose the **Data Source Condition** type and click in the **Expression** field. 
+1. Choose the **Data Source Condition** type and click in the **Expression** field. You can also define a condition label that will appear on the arrow, in the canvas.
 
     ![](../assets/journeyuc1_11.png)
 
-1. Using the basic expression editor, look for the gender field (_person > gender_) and drop it to the right to create the following condition: "gender is equal to "Female".
+1. Using the simple expression editor, look for the gender field (_person > gender_) and drop it to the right to create the following condition: "gender is equal to "Female".
 
     ![](../assets/journeyuc1_12.png)
 
@@ -65,7 +69,11 @@ For additional information on how to build a journey, refer to [Building a journ
 
     ![](../assets/journeyuc1_17.png)
 
-1. Test your journey. If there is any error, deactivate the test mode, modify your journey and test it again. When the test is conclusive, you can publish your journey from the top right drop-down menu.
+1. Click on the **Test** toggle and test your journey using test profiles. If there is any error, deactivate the test mode, modify your journey and test it again. For more information on the test mode, refer to [Testing your journey](../building-journeys/journeypublication.md#section_ctr_lqk_fhb). 
+
+    ![](../assets/journeyuc1_18bis.png)
+
+1. When the test is conclusive, you can publish your journey from the top right drop-down menu.
 
     ![](../assets/journeyuc1_18.png)
 

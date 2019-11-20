@@ -53,7 +53,7 @@ Perform the following steps to leverage the fatigue level in your journey:
 
     ![](../assets/journeyuc3_2.png)
 
-1. Using the basic expression editor, look for the **fatigueLevel** field (_ExperiencePlatformDataSource > JourneyAIScores > Profile > journeyAI > emailScore > fatigue_), drop it to the right and create the following condition: "fatigueLevel is equal to "Low". Click **Ok**.
+1. Using the simple expression editor, look for the **fatigueLevel** field (_ExperiencePlatformDataSource > JourneyAIScores > Profile > journeyAI > emailScore > fatigue_), drop it to the right and create the following condition: "fatigueLevel is equal to "Low". Click **Ok**.
 
     ![](../assets/journeyuc3_3.png)
 

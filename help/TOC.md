@@ -30,12 +30,15 @@ index: n
   + [Field groups](using/datasource/dsfield.md)
   + [Adobe Experience Platform data source](using/datasource/dsplatform.md)
   + [External data sources](using/datasource/dsexternal.md)
-+ Configuring a custom action {#custom-action-journeys}
-  + [About custom actions](using/custom-action/custom.md)
-  + [Custom action limitations](using/custom-action/customlimitations.md)
-  + [URL configuration](using/custom-action/customurl.md)
-  + [Configuring the authentication](using/custom-action/customauthentication.md)
-  + [Defining the message parameters](using/custom-action/customparameters.md)
++ Configuring an action {#action-journeys}
+  + [About actions](using/action/action.md)
+  + [Using Adobe Campaign Standard](using/action/actioncampaign.md)
+  + Using a third-party system {#action-third-party}
+    + [About custom actions](using/action/custom.md)
+    + [Custom action limitations](using/action/customlimitations.md)
+    + [URL configuration](using/action/customurl.md)
+    + [Configuring the authentication](using/action/customauthentication.md)
+    + [Defining the message parameters](using/action/customparameters.md)
 + Building a journey {#building-journeys}
   + [About journey building](using/building-journeys/journey.md)
   + [The journey designer's interface](using/building-journeys/journeyinterface.md)
@@ -46,7 +49,10 @@ index: n
     + [Condition activity](using/building-journeys/condition.md)
     + [End activity](using/building-journeys/end.md)
     + [Wait activity](using/building-journeys/wait.md)
-  + [Action activities](using/building-journeys/journeyaction.md)
+  + Action activities {#action-activities}
+    + [About action activities](using/building-journeys/journeyaction.md)
+    + [Using Adobe Campaign Standard actions](using/building-journeys/journeyactioncampaign.md)
+    + [Using a custom action](using/building-journeys/journeyactioncustom.md)
   + [Testing and publishing the journey](using/building-journeys/journeypublication.md)
   + [Journey versions](using/building-journeys/journeyversions.md)
 + Building advanced conditions {#building-advanced-conditions-journeys}

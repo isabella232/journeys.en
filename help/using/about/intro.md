@@ -18,7 +18,7 @@ snippet: y
 
 Build real-time orchestration use cases leveraging contextual data stored in events or data sources.
 
-The Journey Orchestration feature allows real-time orchestration powered by contextual data from events, information from the Adobe Experience Platform, or data from third-party API services. Actions in these individualized journeys currently include Email, Push Messaging, and SMS. You can also add custom actions if you're using a third-party system to send your messages.
+Journey Orchestration allows real-time orchestration powered by contextual data from events, information from the Adobe Experience Platform, or data from third-party API services. You can configure a custom action if you're using a third-party system to send your messages. If you have Adobe Campaign Standard, you will be able to send emails, push notifications and SMS using the Adobe Campaign Standard's Transactional Messaging capabilities. 
 
 In the event configuration tab, a **technical user** configures events expected in the journeys. The incoming events' data is normalized following the Adobe Experience Data Model (XDM). Events come from Streaming Ingestion APIs for authenticated and unauthenticated events (such as Adobe Mobile SDK events).
 
@@ -37,10 +37,13 @@ You then create conditions based on:
 
 You can use the split condition to send people in the journey into different directions.
 
-You can then send real-time personalized SMS, push notifications or emails using Adobe Campaign Standard's Transactional Messaging capabilities using action activities.
+Using action activities, you can then send a message via a third-party system. If you have Adobe Campaign Standard, send real-time personalized SMS, push notifications or emails.
 
-As the Journey orchestration feature is multistep, you can create advanced scenarios. For example, after a first event and action, you can drag other events. Then, you can add a second action, place a wait activity to wait for some time, add a split condition to push people to two different paths and then send different messages.
+As Journey Orchestration is multistep, you can create advanced scenarios. For example, after a first event and action, you can drag other events. Then, you can add a second action, place a wait activity to wait for some time, add a split condition to push people to two different paths and then send different messages.
 
+>[!NOTE]
+>
+>This documentation is frequently updated to reflect recent changes in the product. However, some screenshots can slightly differ from the product's interface. 
 
 **Related topics** 
 
