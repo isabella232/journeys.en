@@ -84,15 +84,11 @@ Each table and visualization is resizable and can be moved to better customize y
 
    ![](assets/dynamic_report_panel_2.png)
 
-1. Starting Campaign 19.4 release, the **[!UICONTROL Exclude proof]** will already be selected by default. If needed, you can change it by drag and dropping one of the **[!UICONTROL Segments]** from the **[!UICONTROL Components]** tab into the top bar.
-
-   ![](assets/dynamic_report_panel_3.png)
-
-1. Drag and drop items from the **Components** tab into the columns and rows to build your table.
+1. Drag and drop items from the **[!UICONTROL Components]** tab into the columns and rows to build your table.
 
    ![](assets/dynamic_report_freeform_3.png)
 
-1. Click the **Settings** icon to change how the data is displayed in your columns.
+1. Click the **[!UICONTROL Settings]** icon to change how the data is displayed in your columns.
 
    ![](assets/dynamic_report_freeform_4.png)
 
@@ -104,7 +100,7 @@ Each table and visualization is resizable and can be moved to better customize y
     * **[!UICONTROL Background]**: lets you show or hide the horizontal progress bar in cells.
     * **[!UICONTROL Include retries]**: lets you include retries in the result. This is only available for **[!UICONTROL Sent]** and **[!UICONTROL Bounces + Errors]**.
 
-1. Select one or multiple rows and click the **Visualize** icon. A visualization is added to reflect the rows you have selected.
+1. Select one or multiple rows and click the **[!UICONTROL Visualize]** icon. A visualization is added to reflect the rows you have selected.
 
    ![](assets/dynamic_report_freeform_5.png)
 
@@ -122,13 +118,9 @@ Components help you customize your reports with different dimensions, metrics, a
 
    The components table is divided into four categories:
 
-    * **Dimensions**: Get details from the deliveries log, such as the recipient's browser or domain, or the success of a delivery.
-    * **Metrics**: Get details on the status of a message. For example, if a message was delivered and did the user open it. 
-    * **[!UICONTROL Segments]**: Filter data depending on the recipient's age range. **[!UICONTROL Segments]** can be dragged and dropped directly in a freeform table or in the top bar of the panel. Starting Campaign 19.4 release, the **[!UICONTROL Exclude proof]** will already be selected by default but can be changed if needed.
-
-      This category is only available once the administrator approved the terms and conditions of the Dynamic Reporting Usage Agreement that will be displayed on screen. If the administrator declines the agreement, the segments will not be visible in the **[!UICONTROL Components]** tab and data will not be collected.
-    
-    * **Time**: Set a time period for your table.
+    * **[!UICONTROL Dimensions]**: Get details from the deliveries log, such as the recipient's browser or domain, or the success of a delivery.
+    * **[!UICONTROL Metrics]**: Get details on the status of a message. For example, if a message was delivered and did the user open it.
+    * **[!UICONTROL Time]**: Set a time period for your table.
 
 1. Drag and drop components in a panel to start filtering your data.
 
@@ -136,21 +128,21 @@ You can drag and drop as many components as needed and compare them to one anoth
 
 ## Adding visualizations{#adding-visualizations}
 
-The **Visualizations** tab lets you drag and drop visualization items, such as area, donut and graph. Visualizations give you graphical representations of your data.
+The **[!UICONTROL Visualizations]** tab lets you drag and drop visualization items, such as area, donut and graph. Visualizations give you graphical representations of your data.
 
 1. In the **[!UICONTROL Visualizations]** tab, drag and drop a visualization item in a panel.
 
    ![](assets/dynamic_report_visualization_1.png)
 
-1. After adding a visualization to your panel, Dynamic reports automatically detects the data in your freeform table. Select the settings for your visualization.
-1. If you have more than one freeform table, choose the available data source to add in your graph in the **Data Source Settings** window. This window is also available by clicking on the colored dot next to your visualization title.
+1. After adding a visualization to your panel, your reports will automatically detects the data in your freeform table. Select the settings for your visualization.
+1. If you have more than one freeform table, choose the available data source to add in your graph in the **[!UICONTROL Data Source Settings** window. This window is also available by clicking on the colored dot next to your visualization title.
 
    ![](assets/dynamic_report_visualization_2.png)
 
 1. Click the **[!UICONTROL Visualization]** settings button to directly change the graph type or what is displayed on it, such as:
 
-    * **Percentages**: Displays the values in percentage. 
-    * **Anchor Y Axis at Zero**: Forces the y axis to zero even if values range above zero. 
+    * **[!UICONTROL Percentages]**: Displays the values in percentage. 
+    * **[!UICONTROL Anchor Y Axis at Zero**: Forces the y axis to zero even if values range above zero. 
     * **Legend visible**: Lets you hide the legend.
     * **Normalization**: Forces values to match.
     * **Display Dual Axis**: Adds another axis to your graph.
