@@ -9,6 +9,7 @@ topic: Premium
 
 ![](using/assets/bannerjourney.png) 
 
+<table>
 <td valign="top">
     <a href="using/expression/expressionadvanced.md">
       <img alt="conditions" src="using/assets/dev.png"/>
@@ -29,7 +30,7 @@ topic: Premium
     <em>Combine your activities to build your multi-step cross-channel scenarios.</em>
     <br>
   </td>
-  <td valign="top">
+  </table>
 
 ## Get started
 
