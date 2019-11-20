@@ -24,7 +24,7 @@ You have the possibility to test your journey before its publication, using test
 
 **Important notes:**
 
-* Events need to be sent to Journey orchestration.
+* Events need to be sent to Journey Orchestration.
 * Only individuals flagged as "test profiles" in the Unified Profile Service will be allowed to enter the tested journey. The process to create a test profile is the same as the process to create a Profile in the Data Platform. You just have to make sure the test profile flag is true. You can use the Segments section in the Data Platform interface to create a segment of test profiles in your Data Platform and see a non-exhaustive list. The exhaustive list cannot be dispayed for now.
 * The test mode is only available in draft journeys that use a namespace. Indeed, the test mode needs to check if a person entering the journey is a test profile or not and thus must be able to reach the Data Platform.
 * The maximum number of test profiles than can enter a journey during a test session is 100.

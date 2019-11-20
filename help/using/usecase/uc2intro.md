@@ -18,6 +18,10 @@ snippet: y
 
 Let's take the example of a hotel brand named Marlton. In their hotels, they have positioned beacon devices near all the strategic areas: lobby, floors, restaurant, gym, pool, etc.
 
+>[!NOTE]
+>
+>In this use case, we use Adobe Campaign Standard to send messages.
+
 In this use case, we will see how to send personalized messages in real-time to customers when they walk near a specific beacon.
 
 First of all, we want to send a message as soon as a person enters a Marlton hotel. We want to send a message only if the person has not received any communication from us within the last 24 hours.

@@ -20,8 +20,12 @@ The **business user** can now build the journey. Our journey will only include o
 
 * the "SpaBeacon" **event**: when a person walks near the spa beacon, the system will receive an event and the journey will start for that person.
 * a **Condition** activity to check that the person is a woman
-* an **Email** activity
+* an **Email** activity (using Adobe Campaign Standard)
 * an **End** activity
+
+>[!NOTE]
+>
+>The **Push** and **Email** activities are only available in the palette if you have Adobe Campaign Standard.
 
 For additional information on how to build a journey, refer to [Building a journey](../building-journeys/journey.md#concept_gq5_sqt_52b).
 

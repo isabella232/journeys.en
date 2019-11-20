@@ -18,4 +18,4 @@ snippet: y
 
 This section will present you the main steps for building journeys and a description of the main interface elements.
 
-This section also includes information on the specific rights needed to configure and use the feature.
+This section also includes information on the specific rights needed to configure and use Journey Orchestration.
