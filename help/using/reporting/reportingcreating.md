@@ -132,7 +132,7 @@ The **[!UICONTROL Visualizations]** tab lets you drag and drop visualization ite
 
    ![](../assets/dynamic_report_visualization_1.png)
 
-1. After adding a visualization to your panel, your reports will automatically detects the data in your freeform table. Select the settings for your visualization.
+1. After adding a visualization to your panel, your reports will automatically detect the data in your freeform table. Select the settings for your visualization.
 1. If you have more than one freeform table, choose the available data source to add in your graph in the **[!UICONTROL Data Source Settings** window. This window is also available by clicking on the colored dot next to your visualization title.
 
    ![](../assets/dynamic_report_visualization_2.png)

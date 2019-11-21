@@ -40,7 +40,7 @@ In the Admin console, you can assign one of the following out-of-the-box securit
     *   Read events and resources
     *   Manage reports
     
-You can find below the compatibility between roles and Journey Orchestration's different functionalities:
+You can find [here](../assets/acs_rights_journey.pdf) the compatibility between roles and Journey Orchestration's different functionalities.
 
 ## Assigning a security group {#assigning-security-group}
 
@@ -50,20 +50,20 @@ To assign a security group for a user to access Journey Orchestration:
 
 1. In the Admin Console, select **[!UICONTROL Journey orchestration]**.
 
-    ![](../assets/usermanagement.png)
+    ![](../assets/user_management.png)
 
 1. Select the security group to which your new user will be linked to.
 
-    ![](../assets/usermanagement_2.png)
+    ![](../assets/user_management_2.png)
 
 1. Click **[!UICONTROL Add user]**.
    
    You can also add your new user to a user groups to fine tune the shared set of permissions. For more on this, refer to this [page](https://helpx.adobe.com/enterprise/using/user-groups.html).
 
-    ![](../assets/usermanagement_3.png)
+    ![](../assets/user_management_3.png)
 
 1. Type in the email address of your new user then click **[!UICONTROL Save]**.
 
-    ![](../assets/usermanagement_4.png)
+    ![](../assets/user_management_4.png)
 
 Your user should then receive an email redirecting him to your Journey orchestration instance.
