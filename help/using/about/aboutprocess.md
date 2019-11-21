@@ -26,11 +26,15 @@ Here are the main steps to configure and use Journey Orchestration:
 
     For more on this, refer to [Configuring an event](../event/event.md#concept_gfj_fqt_52b).
 
+    ![](../assets/journey7.png)  
+
 1. Configure the data source
 
     You need to define a connection to a system to retrieve additional information that will be used in your journeys, for example in your conditions. A built-in Experience Platform data source is also configured at provisioning time. This step is not required if you only leverage data from the events in your journey. This step is performed by a **technical user**. 
 
     For more on this, refer to [Configuring a data source](../datasource/ds.md#concept_s1s_dqt_52b).
+    
+    ![](../assets/journey22.png)  
 
 1. Configure an action
 
@@ -40,11 +44,15 @@ Here are the main steps to configure and use Journey Orchestration:
 
     These steps are performed by a **technical user**. 
 
+    ![](../assets/custom2.png)  
+
 1. Design your journey
 
      You can create, define and publish your journey use cases. This step is performed by a **business user**. 
 
      For more on this, see [Building journeys](../building-journeys/journey.md#concept_gq5_sqt_52b).
+
+     ![](../assets/journeyuc2_24.png)
 
 1. Test and publish the journey
 
@@ -52,12 +60,13 @@ Here are the main steps to configure and use Journey Orchestration:
 
     For more on this, see [Testing and publishing the journey](../building-journeys/journeypublication.md#concept_mtc_lrt_52b).
 
+    ![](../assets/journeyuc2_32bis.png)
+
 1. Monitor your journey
 
     Use the dedicated reporting tools to measure your journey's effectiveness. This step is performed by a **business user**. 
 
     For more on this, see [Built-in reports](../reporting/reporting.md#concept_rfj_wpt_52b).
 
-Here is a schema of an end-to-end scenario which uses Adobe Campaign Standard for message sending:
+    ![](../assets/dynamic_report_journey_12.png)
 
-![](../assets/journeydiagram.png) 
