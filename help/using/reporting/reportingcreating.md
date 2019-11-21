@@ -48,8 +48,6 @@ To access your journeys' reports and start tracking the success of your deliveri
 
 1. To have a clearer view of your data, you can add visualizations from the **[!UICONTROL Visualizations]** tab.
 
-    ![](../assets/dynamic_report_journey_6.png)
-
 ## Adding panels{#adding-panels}
 
 ### Adding a blank panel {#adding-a-blank-panel}
@@ -60,11 +58,11 @@ This panel allows you to build your reports as needed. You can add as many panel
 
 1. Click the **[!UICONTROL Panels]** icon. You can also add a panel by clicking the **[!UICONTROL Insert tab]** and selecting **[!UICONTROL New Blank Panel]**.
 
-   ![](assets/dynamic_report_panel_1.png)
+   ![](../assets/dynamic_report_panel_1.png)
 
 1. Drag and drop the **[!UICONTROL Blank Panel]** into your dashboard.
 
-   ![](assets/dynamic_report_panel.png)
+   ![](../assets/dynamic_report_panel.png)
 
 You can now add a freeform table to your panel to start targeting data.
 
@@ -76,21 +74,21 @@ Each table and visualization is resizable and can be moved to better customize y
 
 1. Click the **[!UICONTROL Panels]** icon.
 
-   ![](assets/dynamic_report_panel_1.png)
+   ![](../assets/dynamic_report_panel_1.png)
 
 1. Drag and drop the **[!UICONTROL Freeform]** item into your dashboard.
 
    You can also add a table by clicking the **[!UICONTROL Insert]** tab and selecting **[!UICONTROL New Freeform]** or by clicking **[!UICONTROL Add a freeform table]** in an empty panel. 
 
-   ![](assets/dynamic_report_panel_2.png)
+   ![](../assets/dynamic_report_panel_2.png)
 
 1. Drag and drop items from the **[!UICONTROL Components]** tab into the columns and rows to build your table.
 
-   ![](assets/dynamic_report_freeform_3.png)
+   ![](../assets/dynamic_report_freeform_3.png)
 
 1. Click the **[!UICONTROL Settings]** icon to change how the data is displayed in your columns.
 
-   ![](assets/dynamic_report_freeform_4.png)
+   ![](../assets/dynamic_report_freeform_4.png)
 
    The **[!UICONTROL Column settings]** is composed of:
 
@@ -102,7 +100,7 @@ Each table and visualization is resizable and can be moved to better customize y
 
 1. Select one or multiple rows and click the **[!UICONTROL Visualize]** icon. A visualization is added to reflect the rows you have selected.
 
-   ![](assets/dynamic_report_freeform_5.png)
+   ![](../assets/dynamic_report_freeform_5.png)
 
 You can now add as many components as you need and also add visualizations to give graphical representations of your data.
 
@@ -112,7 +110,7 @@ Components help you customize your reports with different dimensions, metrics, a
 
 1. Click the **[!UICONTROL Components]** tab to access the list of components.
 
-   ![](assets/dynamic_report_components.png)
+   ![](../assets/dynamic_report_components.png)
 
 1. Each category presented in the **[!UICONTROL Components]** tab displays the five most used items, click the name of a category to access its full list of components.
 
@@ -132,12 +130,12 @@ The **[!UICONTROL Visualizations]** tab lets you drag and drop visualization ite
 
 1. In the **[!UICONTROL Visualizations]** tab, drag and drop a visualization item in a panel.
 
-   ![](assets/dynamic_report_visualization_1.png)
+   ![](../assets/dynamic_report_visualization_1.png)
 
 1. After adding a visualization to your panel, your reports will automatically detects the data in your freeform table. Select the settings for your visualization.
 1. If you have more than one freeform table, choose the available data source to add in your graph in the **[!UICONTROL Data Source Settings** window. This window is also available by clicking on the colored dot next to your visualization title.
 
-   ![](assets/dynamic_report_visualization_2.png)
+   ![](../assets/dynamic_report_visualization_2.png)
 
 1. Click the **[!UICONTROL Visualization]** settings button to directly change the graph type or what is displayed on it, such as:
 
@@ -149,6 +147,6 @@ The **[!UICONTROL Visualizations]** tab lets you drag and drop visualization ite
     * **Limit Max Items**: Limits the number of graphs displayed.
     * **Threshold**: Let you set a threshold to your graph. It appears as a black dotted line.
 
-   ![](assets/dynamic_report_visualization_3.png)
+   ![](../assets/dynamic_report_visualization_3.png)
 
 This visualization allows you to have a clearer view of your data in your reports.
