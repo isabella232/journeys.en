@@ -1,5 +1,5 @@
 ---
-title: Building your Journey Orchestration reports
+title: Building your reports
 description: Learn how to build your Journey Orchestration reports
 page-status-flag: never-activated
 uuid: 269d590c-5a6d-40b9-a879-02f5033863fc
