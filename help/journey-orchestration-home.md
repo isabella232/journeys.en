@@ -11,7 +11,7 @@ topic: Premium
 
 ## Get started
 
-* **[Global user process](using/expression/expressionadvanced.md)**<br/>
+* **[Global user process](using/about/aboutprocess.md)**<br/>
 Discover the main steps to set up and use Journey Orchestration.
 
 * **[Configuring your events](using/event/event.md#section_tbk_5qt_pgb)**<br/>
