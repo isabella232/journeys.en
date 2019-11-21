@@ -39,7 +39,7 @@ Here is the list of supported operators:
 
 <table>
 <thead>
-<tr ><th  >Category</th><th  >Operator</th><th  >Literal Expression        </th><th  >Example</th></tr>
+<tr ><th  >Category</th><th  >Operator</th><th  >Literal Expression</th><th  >Example</th></tr>
 </thead>
 <tbody>
 <tr ><td>Logical</td><td>and</td><td><p>&lt;expression1&gt; and &lt;expression2&gt;</p><p>Both &lt;expression1&gt; and &lt;expression2&gt; must be boolean.</p><p> The result is boolean.</p></td><td>3.14 &gt; 2 and 3.15 &lt; 1</td></tr>
@@ -74,7 +74,7 @@ Here is the list of supported operators:
 <tr ><th  >Operator</th><th  >Literal Expression        </th><th  >Example</th></tr>
 </thead>
 <tbody>
-<tr >><td>and</td><td><p>&lt;expression1&gt; and &lt;expression2&gt;</p><p>Both &lt;expression1&gt; and &lt;expression2&gt; must be boolean.</p><p> The result is boolean.</p></td><td>3.14 &gt; 2 and 3.15 &lt; 1</td></tr>
+<tr >><td>and</td><td><p><pre>&lt;expression1&gt; and &lt;expression2&gt;</pre></p><p>Both &lt;expression1&gt; and &lt;expression2&gt; must be boolean.</p><p> The result is boolean.</p></td><td>3.14 &gt; 2 and 3.15 &lt; 1</td></tr>
 <tr ><td>or</td><td><p>&lt;expression1&gt; or &lt;expression2&gt;</p><p>Both &lt;expression1&gt; and &lt;expression2&gt; must be boolean.</p><p> The result is boolean.</p></td><td>3.14 &gt; 2 or 3.15 &lt; 1</td></tr>
 <tr ><td>not</td><td><p>not &lt;expression&gt;``&lt;expression&gt; must be boolean.</p><p> The result is boolean.</p></td><td>not 3.15 &lt; 1</td></tr>
 </tbody>
@@ -104,7 +104,7 @@ Here is the list of supported operators:
 <thead>
 <tr ><th  >Operator</th><th  >Literal Expression </th><th  >Example</th></tr>
 </thead>
-<tbody><tr ><td>+</td><td><p>&lt;expression1&gt; + &lt;expression2&gt;</p><p>Both expressions must be numeric (integer or decimal). </p><p>The result is also numeric.</p></td><td><code>1 + 2</code><br />Returns 3</td></tr>
+<tbody><tr ><td>+</td><td><p>&lt;expression1&gt; + &lt;expression2&gt;</p><p>Both expressions must be numeric (integer or decimal). </p><p>The result is also numeric.</p></td><td><p><pre>1 + 2</pre></p><br /><p>Returns 3</p></td></tr>
 <tr ><td>-</td><td><p>&lt;expression1&gt; - &lt;expression2&gt;</p><p> Both expressions must be numeric (integer or decimal).</p><p> The result is also numeric.</p></td><td><code>2 - 1</code>Returns 1</td></tr>
 <tr ><td>/</td><td><p>&lt;expression1&gt; / &lt;expression2&gt;</p><p>Both expressions must be numeric (integer or decimal). </p><p>The result is also numeric.</p><p>&lt;expression2&gt; must not be equal to 0 (returns 0).</p></td><td><code>4 / 2</code>Returns 2</td></tr>
 <tr ><td>*</td><td><p>&lt;expression1&gt; * &lt;expression2&gt;</p><p> Both expressions must be numeric (integer or decimal). </p><p>The result is also numeric.</p></td><td><code>3 * 4</code>Returns 12</td></tr>
