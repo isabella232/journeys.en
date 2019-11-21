@@ -13,8 +13,8 @@ index: n
   + [Documentation Updates](using/rn/documentation-updates.md)
 + Starting with Journey Orchestration {#starting-with-journeys}
   + [About Journey Orchestration](using/about/intro.md)
-  + [User Process](using/about/aboutprocess.md)
-  + [Journey Orchestration's interface](using/about/aboutinterface.md)
+  + [Get started](using/about/aboutprocess.md)
+  + [User interface](using/about/aboutinterface.md)
   + [Managing your users' access to Journey Orchestration](using/about/usermanagement.md)
   + [Troubleshooting](using/about/troubleshooting.md)
 + Configuring an event {#events-journeys}
@@ -32,7 +32,7 @@ index: n
   + [External data sources](using/datasource/dsexternal.md)
 + Configuring an action {#action-journeys}
   + [About actions](using/action/action.md)
-  + [Using Adobe Campaign Standard](using/action/actioncampaign.md)
+  + [Working with Adobe Campaign Standard](using/action/actioncampaign.md)
   + Using a third-party system {#action-third-party}
     + [About custom action configuration](using/action/custom.md)
     + [Custom action limitations](using/action/customlimitations.md)
@@ -41,8 +41,8 @@ index: n
     + [Defining the message parameters](using/action/customparameters.md)
 + Building a journey {#building-journeys}
   + [About journey building](using/building-journeys/journey.md)
-  + [The journey designer's interface](using/building-journeys/journeyinterface.md)
-  + [The journey's properties](using/building-journeys/journeyproperty.md)
+  + [Using the journey designer](using/building-journeys/journeyinterface.md)
+  + [Changing properties](using/building-journeys/journeyproperty.md)
   + [Events activities](using/building-journeys/journeyevent.md)
   + Orchestration activities {#orchestration-activities}
     + [About orchestration activities](using/building-journeys/journeyorchestration.md)

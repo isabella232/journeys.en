@@ -14,9 +14,9 @@ internal: n
 snippet: y
 ---
 
-# Using Adobe Campaign Standard {#using_adobe_campaign_standard}
+# Working with Adobe Campaign Standard {#using_adobe_campaign_standard}
 
-If you have Adobe Campaign Standard, you can send emails, push notifications and SMS using the Adobe Campaign Standard's Transactional Messaging capabilities. 
+You can send emails, push notifications and SMS using the Adobe Campaign Standard's Transactional Messaging capabilities. 
 
 Journey Orchestration comes with an out-of-the-box action which allows the connection to Adobe Campaign Standard. Here are the steps to configure it:
 
