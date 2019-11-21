@@ -30,10 +30,12 @@ Use the **[!UICONTROL Project]** tab to:
 * **[!UICONTROL Save As]**: Duplicates templates to be able to modify them.
 * **[!UICONTROL Refresh project]**: Updates your report based upon new data and changes to filters.
 * **[!UICONTROL Download CSV]**: Exports your reports to a CSV file.
+* **[!UICONTROL Print]**: Print your report.
 
 The **[!UICONTROL Edit]** tab allows you to:
 
 * **[!UICONTROL Undo]**: Cancels your last action on your dashboard.
+* **[!UICONTROL Redo]**: Cancels your last **[!UICONTROL Undo]** action on your dashboard.
 * **[!UICONTROL Clear all]**: Deletes every panel on your dashboard.
 
 The **[!UICONTROL Insert]** table lets you customize your reports by adding graphs and tables to your dashboard:
