@@ -134,8 +134,8 @@ index: n
       + [uuid](using/functions/functionuuid.md)
 + Building your reports{#journey-reports}
   + [About journey reports](using/reporting/reporting.md)
-  + [Creating your reports](using/reporting/reportingcreating.md)
-  + [Dimensions and metrics available for Journeys](using/reporting/reportingdimensions.md)
+  + [Creating your journey reports](using/reporting/reportingcreating.md)
+  + [Metrics and dimensions](using/reporting/reportingdimensions.md)
 + Use cases{#use-cases-journeys}
   + Simple use case{#use-case-simple}
     + [Introduction](using/usecase/uc1intro.md)
