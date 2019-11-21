@@ -22,11 +22,13 @@ This section will present you how to create or use out-of-the-box reports. Combi
 
 To access your journeys' reports and start tracking the success of your deliveries:
 
-1. From the homepage, select the journey you want to report on.
+1. In the top menu, click the **[!UICONTROL Home]** tab.
+
+1. Select the journey you want to report on.
 
     ![](../assets/dynamic_report_journey.png)
 
-1. Click the **[!UICONTROL Report]** icon on the top right of your screen.
+1. Click the **[!UICONTROL Report]** icon at the top right of your screen.
 
     ![](../assets/dynamic_report_journey_2.png)
 
