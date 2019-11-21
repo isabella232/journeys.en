@@ -21,12 +21,12 @@ Technically, a constant always contains a data type. In the literal expression, 
 Here is how constant expressions are represented:
 
 <table>
-    <theader>
+    <thead>
         <td>Data Type</td>
         <td>Description</td>
         <td>Literal Representation</td>
         <td>Example</td>
-    </theader>
+    </thead>
     <tbody>
     <tr>
         <td>string</td>
@@ -60,7 +60,7 @@ Here is how constant expressions are represented:
     </tr>
     <tr>
         <td>dateTime</td>
-        <td><p>Date time constant that also considers time zone.</p><br /><p>It represents a date-time with an offset from UTC. It can be viewed as an instant in time with the additional information of the offset. </p><br /><p>It is a way to represent a specific “moment” at a certain place of the world.</p><br /><p>JSON format: String.</p><br /><p>JSON format: String.</p><br /><p> It must be encapsulated in a toDateTime function.</p><br /><p>
+        <td><p>Date time constant that also considers time zone.</p><br /><p>It represents a date-time with an offset from UTC. It can be viewed as an instant in time with the additional information of the offset. </p><br /><p>It is a way to represent a specific “moment” at a certain place of the world.</p><br /><p>JSON format: String.</p><br /><p> It must be encapsulated in a toDateTime function.</p><br /><p>
         Serialization format: ISO-8601 extended offset date-time format.</p><br /><p> It uses DateTimeFormatter.ISO_OFFSET_DATE_TIME to deserialize and serialize the value.</p> <br /><a href="https://docs.oracle.com/javase/8/docs/api/java/time/format/DateTimeFormatter.html#ISO_OFFSET_DATE_TIME">Learn more</a>. 
         <p>You can also pass an integer passing an epoch value.</p> <br /><a href="https://www.epochconverter.com/">Read more</a>.</p><br />
         <p>Timezone can be specified by an offset or a timezone code (example: Europe/Paris, Z - meaning UTC).</p></td>
