@@ -53,17 +53,15 @@ Here is how constant expressions are represented:
     </tr>
     <tr>
         <td>dateTimeOnly</td>
-        <td><p>It represents a date-time without a time-zone, often viewed as year-month-day-hour-minute-second-millisecond.</p><br /><p>It does not store or represent a time-zone.</p><br /><p>Instead, it is a description of the date, as used for birthdays, combined with the local time as seen on a wall clock.</p><br /><p>It cannot represent an instant on the time-line without additional information such as an offset or time-zone.</p><br /><p>Serialization format: ISO-8601 extended offset date-time format.</p><br /><p>It uses DateTimeFormatter.ISO_LOCAL_DATE_TIME to deserialize and serialize the value.</p><br /> <a href="https://docs.oracle.com/javase/8/docs/api/java/time/format/DateTimeFormatter.html#ISO_LOCAL_DATE_TIME">Learn more</a>.</td>
+        <td><p>Represents a date time without a time-zone, viewed as year-month-day-hour-minute-second-millisecond.</p><br /><p>It does not store or represent a time zone.</p><br /><p>Instead, it is a description of the date, as used for birthdays, combined with the local time as seen on a wall clock.</p><br /><p>It cannot represent an instant on the time-line without additional information such as an offset or time-zone.</p><br /><p>Serialization format: ISO-8601 extended offset date-time format.</p><br /><p>It uses DateTimeFormatter.ISO_LOCAL_DATE_TIME to deserialize and serialize the value.</p><br /> <a href="https://docs.oracle.com/javase/8/docs/api/java/time/format/DateTimeFormatter.html#ISO_LOCAL_DATE_TIME">Learn more</a>.</td>
         <td><p>toDateTimeOnly("&lt;dateTimeOnly in ISO-8601 format&gt;")</p></td>
         <td><code>toDateTimeOnly("1977-04-22T06:00:00")</code><br /><p>Example of serialized dateTimeOnly:</p><br /><p>2011-12-03T15:15:30</p><br /></td>
     </tr>
     <tr>
         <td>dateTime</td>
-        <td>Date time constant that also considers time zone.<br />
-        It represents a date-time with an offset from UTC. It can be viewed as an instant in time with the additional information of the offset. <br />
-        It is a way to represent a specific “moment” at a certain place of the world.<br />JSON format: String.<br /> It must be encapsulated in a toDateTime function.<br />
-        Serialization format: ISO-8601 extended offset date-time format. It uses DateTimeFormatter.ISO_OFFSET_DATE_TIME to deserialize and serialize the value. <br /><a href="https://docs.oracle.com/javase/8/docs/api/java/time/format/DateTimeFormatter.html#ISO_OFFSET_DATE_TIME">Learn more</a>. 
-        <p>You can also pass an integer passing an epoch value. <br /><a href="https://www.epochconverter.com/">Read more</a>.</p><br />
+        <td><p>Date time constant that also considers time zone.</p><br /><p>It represents a date-time with an offset from UTC. It can be viewed as an instant in time with the additional information of the offset. </p><br /><p>It is a way to represent a specific “moment” at a certain place of the world.</p><br /><p>JSON format: String.</p><br /><p>JSON format: String.</p><br /><p> It must be encapsulated in a toDateTime function.</p><br /><p>
+        Serialization format: ISO-8601 extended offset date-time format.</p><br /><p> It uses DateTimeFormatter.ISO_OFFSET_DATE_TIME to deserialize and serialize the value.</p> <br /><a href="https://docs.oracle.com/javase/8/docs/api/java/time/format/DateTimeFormatter.html#ISO_OFFSET_DATE_TIME">Learn more</a>. 
+        <p>You can also pass an integer passing an epoch value.</p> <br /><a href="https://www.epochconverter.com/">Read more</a>.</p><br />
         <p>Timezone can be specified by an offset or a timezone code (example: Europe/Paris, Z - meaning UTC).</p></td>
         <td><p>toDateTime("&lt;dateTime in ISO-8601 format&gt;")</p>
         <p>toDateTime(&lt;integer value of an epoch in milliseconds&gt;)</p></td>
