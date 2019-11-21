@@ -129,7 +129,6 @@ Here is the list of supported operators:
 <tr ><th  >Operator</th><th  >Literal Expression </th><th  >Example</th></tr>
 </thead>
 <tbody><tr ><td>+</td><td><p>&lt;string&gt; + &lt;expression&gt;</p><p>&lt;expression&gt; + &lt;string&gt;</p><p>It concatenates two expressions or more. </p><p>The first expression must be a string.</p><p> The other expressions can be of any type.</p><p> The result is a string.</p></td><td><code>&#34;the current time is &#34; + (now())</code> Returns  &#34;the current time is 2019-09-23T09:30:06.693Z&#34;<code>(now()) + &#34; is the current time&#34;</code>Returns 2019-09-23T09:30:06.693Z is the current time<code>`&#34;a&#34; + &#34;b&#34; + &#34;c&#34; + 1234</code> Returns abc1234</td></tr>
-<tr ><td>Date</td><td>+</td><td><p>&lt;expression + &lt;duration&gt;</p><p>Append a duration to a dateTime, a dateTimeOnly or a duration.</p></td><td><code>toDateTime(&#34;2011-12-03T15:15:30Z&#34;) + toDuration(&#34;PT15M&#34;)</code>Returns 2011-12-03T15:30:30Z<code>toDateTimeOnly(&#34;2011-12-03T15:15:30&#34;) + toDuration(&#34;PT15M&#34;)</code>Returns 2011-12-03T15:30:30<code>now() + toDuration(&#34;PT1H&#34;)</code>Returns a dateTime (with UTC timezone) one hour later from current time<code>toDuration(&#34;PT1H&#34;) + toDuration(&#34;PT1H&#34;)</code>Returns  PT2H</td></tr>
 </tbody>
   </table>
 
