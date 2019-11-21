@@ -21,12 +21,13 @@ Technically, a constant always contains a data type. In the literal expression, 
 Here is how constant expressions are represented:
 
 <table>
-    <th>
+    <theader>
         <td>Data Type</td>
         <td>Description</td>
         <td>Literal Representation</td>
         <td>Example</td>
-    </th>
+    </theader>
+    <tbody>
     <tr>
         <td>string</td>
         <td><p>Common sequence of characters.</p><br /><p>It doesn't have any specific size except the implicit one that comes from the environment such as the amount of memory available.</p><br /><p>JSON format: String</p><br /><p>Serialization format: UTF-8</p></td>
@@ -79,4 +80,5 @@ Here is how constant expressions are represented:
         <td>[&lt;expression&gt;, &lt;expression&gt;, ... ]</td>
         <td><code>["value1","value2"]</code><br /><code>[3,5]</code><br /><code>[toDuration(500),toDuration(800)]</code></td>
     </tr>
+    </tbody>
 </table>
