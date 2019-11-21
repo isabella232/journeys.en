@@ -1,5 +1,5 @@
 ---
-title: Managing your users' access to Journey Orchestration
+title: Access management
 description: 
 page-status-flag: never-activated
 uuid: 269d590c-5a6d-40b9-a879-02f5033863fc
@@ -14,7 +14,7 @@ internal: n
 snippet: y
 ---
 
-# Managing your users' access to Journey Orchestration{#concept_rfj_wpt_52b}
+# Access management{#concept_rfj_wpt_52b}
 
 ## About access management {#about-access-management}
 

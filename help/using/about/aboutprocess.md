@@ -66,7 +66,7 @@ Here are the main steps to configure and use Journey Orchestration:
 
     Use the dedicated reporting tools to measure your journey's effectiveness. This step is performed by a **business user**. 
 
-    For more on this, see [Built-in reports](../reporting/reporting.md#concept_rfj_wpt_52b).
+    For more on this, see [Building your reports](../reporting/reporting.md#concept_rfj_wpt_52b).
 
     ![](../assets/dynamic_report_journey_12.png)
 

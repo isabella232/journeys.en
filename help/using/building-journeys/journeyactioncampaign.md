@@ -1,6 +1,6 @@
 ---
-title: Action activities
-description: Learn about action activities
+title: Adobe Campaign actions
+description: Learn about Adobe Campaign actions
 page-status-flag: never-activated
 uuid: 269d590c-5a6d-40b9-a879-02f5033863fc
 contentOwner: sauviat
@@ -14,7 +14,7 @@ internal: n
 snippet: y
 ---
 
-# Using Adobe Campaign action {#using_campaign_action}
+# Using Adobe Campaign actions {#using_campaign_action}
 
 If you have Adobe Campaign Standard, the following out-of-the-box action activities are available: **Email**, **Push** and **SMS**. 
 

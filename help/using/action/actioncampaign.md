@@ -1,6 +1,6 @@
 ---
-title: Using Adobe Campaign Standard
-description: Learn about Adobe Campaign Standard action
+title: Working with Adobe Campaign
+description: Learn about Adobe Campaign action
 page-status-flag: never-activated
 uuid: 269d590c-5a6d-40b9-a879-02f5033863fc
 contentOwner: sauviat
@@ -14,7 +14,7 @@ internal: n
 snippet: y
 ---
 
-# Working with Adobe Campaign Standard {#using_adobe_campaign_standard}
+# Working with Adobe Campaign {#using_adobe_campaign_standard}
 
 You can send emails, push notifications and SMS using the Adobe Campaign Standard's Transactional Messaging capabilities. 
 

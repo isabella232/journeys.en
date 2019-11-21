@@ -15,7 +15,7 @@ index: n
   + [About Journey Orchestration](using/about/intro.md)
   + [Get started](using/about/aboutprocess.md)
   + [User interface](using/about/aboutinterface.md)
-  + [Managing your users' access to Journey Orchestration](using/about/usermanagement.md)
+  + [Access management](using/about/usermanagement.md)
   + [Troubleshooting](using/about/troubleshooting.md)
 + Configuring an event {#events-journeys}
   + [About events](using/event/event.md)
@@ -32,7 +32,7 @@ index: n
   + [External data sources](using/datasource/dsexternal.md)
 + Configuring an action {#action-journeys}
   + [About actions](using/action/action.md)
-  + [Working with Adobe Campaign Standard](using/action/actioncampaign.md)
+  + [Working with Adobe Campaign](using/action/actioncampaign.md)
   + Using a third-party system {#action-third-party}
     + [About custom action configuration](using/action/custom.md)
     + [Custom action limitations](using/action/customlimitations.md)
@@ -51,7 +51,7 @@ index: n
     + [Wait activity](using/building-journeys/wait.md)
   + Action activities {#action-activities}
     + [About action activities](using/building-journeys/journeyaction.md)
-    + [Using Adobe Campaign Standard actions](using/building-journeys/journeyactioncampaign.md)
+    + [Using Adobe Campaign actions](using/building-journeys/journeyactioncampaign.md)
     + [Using a custom action](using/building-journeys/journeyactioncustom.md)
   + [Testing and publishing the journey](using/building-journeys/journeypublication.md)
   + [Terminating a journey](using/building-journeys/journeystop.md)
