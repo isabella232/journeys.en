@@ -36,6 +36,10 @@ Here are the main steps required to configure a custom action:
 1. Define the different **URL Configuration** parameters. See [URL configuration](../action/customurl.md#concept_gbg_1f1_2gb).
 1. Configure the **Authentication** section. See [Configuring the authentication](../action/customauthentication.md#concept_is4_cf1_2gb).
 1. Define the **Message parameters**. See [Defining the message parameters](../action/customparameters.md#concept_wy4_bf1_2gb).
-1. Click **Save**. 
+1. Click **Save**.
 
     The custom action is now configured and ready to be used in your journeys. See [Action activities](../building-journeys/journeyaction.md#concept_hbj_hrt_52b).
+
+    >[!NOTE]
+    >
+    >When a custom action is used in a journey version, most parameters are read-only. You can only modify the Name and Description fields.

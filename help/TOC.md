@@ -34,7 +34,7 @@ index: n
   + [About actions](using/action/action.md)
   + [Using Adobe Campaign Standard](using/action/actioncampaign.md)
   + Using a third-party system {#action-third-party}
-    + [About custom actions](using/action/custom.md)
+    + [About custom action configuration](using/action/custom.md)
     + [Custom action limitations](using/action/customlimitations.md)
     + [URL configuration](using/action/customurl.md)
     + [Configuring the authentication](using/action/customauthentication.md)
@@ -54,6 +54,7 @@ index: n
     + [Using Adobe Campaign Standard actions](using/building-journeys/journeyactioncampaign.md)
     + [Using a custom action](using/building-journeys/journeyactioncustom.md)
   + [Testing and publishing the journey](using/building-journeys/journeypublication.md)
+  + [Terminating a journey](using/building-journeys/journeystop.md)
   + [Journey versions](using/building-journeys/journeyversions.md)
 + Building advanced conditions {#building-advanced-conditions-journeys}
   + [About advanced conditions](using/expression/expressionadvanced.md)
@@ -84,7 +85,6 @@ index: n
       + [toDuration](using/functions/functiontoduration.md)
       + [toInteger](using/functions/functiontointeger.md)
       + [toString](using/functions/functiontostring.md)
-      + [toTimeZone](using/functions/functiontotimezone.md)
     + Date {#date}
       + [currentTime​InMillis](using/functions/functioncurrenttimeinmillis.md)
       + [inLastDays](using/functions/functioninlastdays.md)

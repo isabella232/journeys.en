@@ -6,7 +6,7 @@ solution-image: assets/campaign-icon-24.png
 getting-started-title: Community
 getting-started-url: http://www.adobe.com/go/journeyorchestrationcommunity
 tutorials-title: Tutorials
-tutorials-url: https://docs.adobe.com/content/help/en/platform-learn/tutorials/journey-orchestration/journey-orchestration-introduction.html
+tutorials-url: https://docs.adobe.com/content/help/en/platform-learn/tutorials/journey-orchestration/introduction.html
 git-repo: https://github.com/AdobeDocs/journeys.en
 index: no
 

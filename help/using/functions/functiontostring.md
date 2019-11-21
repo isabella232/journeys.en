@@ -42,12 +42,19 @@ Conversion
 ## Signatures and return type
 
 `toString(<dateTimeOnly>)`
+
 `toString(<dateTime>)`
+
 `toString(<duration>)`
+
 `toString(<timeZone>)`
+
 `toString(<string>)`
+
 `toString(<boolean>)`
+
 `toString(<integer>)`
+
 `toString(<decimal>)`
 
 Return a string.

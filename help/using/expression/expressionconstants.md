@@ -16,7 +16,7 @@ snippet: y
 
 # Constants {#concept_gp3_rj5_dgb}
 
-Technically, a constant always contains a data type. In the literal expression, we only specify the value. The data type can be inferred from the value (for example string, integer, decimal, etc.). For specific cases such as time zones, we use dedicated functions for the representation: _toTimeZone("Europe/Paris")_.
+Technically, a constant always contains a data type. In the literal expression, we only specify the value. The data type can be inferred from the value (for example string, integer, decimal, etc.). For specific cases such as time zones, we use dedicated functions for the representation.
 
 Here is how constant expressions are represented:
 
@@ -63,12 +63,6 @@ Here is how constant expressions are represented:
         <td>Date time constant that also considers time zone.<br />It represents a date-time with an offset from UTC. It can be viewed as an instant in time with the additional information of the offset. <br />It is a way to represent a specific “moment” at a certain place of the world.<br />JSON format: String.&lt;/br&gt; It must be encapsulated in a toDateTime function.<br />Serialization format: ISO-8601 extended offset date-time format. It uses DateTimeFormatter.ISO_OFFSET_DATE_TIME to deserialize and serialize the value. <br /><a href="https://docs.oracle.com/javase/8/docs/api/java/time/format/DateTimeFormatter.html#ISO_OFFSET_DATE_TIME">Learn more</a>. You can also pass an integer passing an epoch value. <br /><a href="https://www.epochconverter.com/">Read more</a>.<br />Timezone can be specified by an offset or a timezone code (example: Europe/Paris, Z - meaning UTC).</td>
         <td>toDateTime("&lt;dateTime in ISO-8601 format&gt;")<br />toDateTime(&lt;integer value of an epoch in milliseconds&gt;)</td>
         <td><code>toDateTime("1977-04-22T06:00:00Z")</code><br /><code>toDateTime("2011-12-03T15:15:30Z")</code><br /><code>toDateTime("2011-12-03T15:15:30.123Z")</code><br /><code>toDateTime("2011-12-03T15:15:30.123+02:00")</code><br /><code>toDateTime("2011-12-03T15:15:30.123-00:20")</code><br /><code> toDateTime(1560762190189)</code></td>
-    </tr>
-    <tr>
-        <td>timeZone</td>
-        <td>Id of a time zone using the java implementation such as "Europe/Paris".<br />JSON format: String.<br /> It must be encapsulated in a <b>toTimeZone</b> function.<br />Serialization format: to deserialize a time zone ID, it uses the java function java.time.ZoneId.of. <br /><a href="https://docs.oracle.com/javase/8/docs/api/java/time/ZoneId.html#of-java.lang.String-">Read more</a>.</td>
-        <td>toTimeZone("&lt;time zone id&gt;")</td>
-        <td><code>toTimeZone("Europe/Paris")</code></td>
     </tr>
     <tr>
         <td>duration</td>

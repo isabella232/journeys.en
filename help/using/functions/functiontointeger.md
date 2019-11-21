@@ -38,9 +38,13 @@ Conversion
 ## Signatures and return type
 
 `toInteger(<dateTime>)`
+
 `toInteger(<decimal>)`
+
 `toInteger(<integer>)`
+
 `toInteger(<string>)`
+
 `toInteger(<boolean>)`
 
 Return an integer.

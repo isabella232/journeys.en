@@ -9,26 +9,35 @@ topic: Premium
 
 ![](using/assets/bannerjourney.png) 
 
-## What's New
+## Get started
 
-* **[List of functions](using/expression/expressionfunctions.md)**<br/>
-Discover the complete list of functions that you can use in the expression editor to build advanced conditions.
+* **[Global user process](using/expression/expressionadvanced.md)**<br/>
+Discover the main steps to set up and use Journey Orchestration.
 
-* **[Simple expression editor](using/building-journeys/journeyorchestration.md#concept_ksq_2rt_52b)**<br/>
-Learn how to use the expression editor simple mode to perform simple queries based on a combination of fields.
+* **[Configuring your events](using/event/event.md#section_tbk_5qt_pgb)**<br/>
+Learn how to configure the events that your journeys will listen to.
+
+* **[Configuring your data sources](using/datasource/ds.md)**<br/>
+Define the additional data that your journeys will use. 
+
+* **[Configuring your actions](using/action/action.md)**<br/>
+Set up the connection to the system that will send messages.
+
+* **[Building your journeys](using/building-journeys/journey.md)**<br/>
+Learn how to design and publish your journeys.
 
 ## Top pages
 
  <table>
 <tr>
-  <td valign="top">
-    <a href="using/expression/expressionadvanced.md">
-      <img alt="conditions" src="using/assets/dev.png"/>
-    </a>
+    <td valign="top">
+        <a href="using/about/troubleshooting.md">
+       <img alt="Developers" src="using/assets/FAQ.png" />
+       </a>
     <div>
-    <a href="using/expression/expressionadvanced.md"><strong>Building advanced conditions</strong></a>
+    <a href="using/about/troubleshooting.md"><strong>Troubleshooting</strong></a>
     </div>
-    <em>Learn how to build complex conditions leveraging data from events and data sources. </em>
+    <em>Find out the various tools that you can use to troubleshoot your journeys.</em>
     <br>
   </td>
   <td valign="top">
@@ -36,19 +45,19 @@ Learn how to use the expression editor simple mode to perform simple queries bas
       <img alt="build" src="using/assets/design.png"/>
     </a>
     <div>
-    <a href="using/building-journeys/journey.md"><strong>Building your journeys</strong></a>
+    <a href="using/usecase/uc2intro.md"><strong>Use case</strong></a>
     </div>
-    <em>Combine your activities to build your multi-step cross-channel scenarios.</em>
+    <em>Learn how to create an advanced journey step-by-step.</em>
     <br>
   </td>
   <td valign="top">
-        <a href="using/about/troubleshooting.md">
-       <img alt="Developers" src="using/assets/FAQ.png" />
-       </a>
+    <a href="using/expression/expressionadvanced.md">
+      <img alt="conditions" src="using/assets/dev.png"/>
+    </a>
     <div>
-    <a href="using/about/troubleshooting.md"><strong>Troubleshooting</strong></a>
+    <a href="using/expression/expressionadvanced.md"><strong>Building advanced expression</strong></a>
     </div>
-     <em>Find out the various tools that you can use to troubleshoot your journeys</em>
+    <em>Learn how to build complex expressions leveraging data from events and data sources. </em>
     <br>
   </td>
 </tr>

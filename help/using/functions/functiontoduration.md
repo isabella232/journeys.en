@@ -40,6 +40,7 @@ The string starts with an optional sign, denoted by the ASCII negative or positi
 ## Signatures and return type
 
 `toDuration(<string>)`
+
 `toDuration(<integer>)`
 
 Returns a duration.

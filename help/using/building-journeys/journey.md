@@ -56,7 +56,7 @@ Here are the main steps to create and publish a journey.
 
 ## Ending a journey{#ending_a_journey}
 
-There are three ways to end a journey:
+There are two ways to end a journey:
 
 * The person arrives at the last activity of a path. This last activity can be an end activity or another activity. There is no obligation to end a path with an end activity. See [End activity](../building-journeys/end.md).
 * The person arrives at a condition activity (or a wait activity with a condition) and does not match any of the conditions.
@@ -80,7 +80,7 @@ The timezone can also be fixed. Clear the pre-defined timezone and pick one from
 
 ![](../assets/journey72.png)
 
-Finally, the timezone can be dynamic for each person entering the step. In this case, you will use the expression editor to select where you want the system to get this information (it can be from an event or a data source). See [Building advanced conditions](../expression/expressionadvanced.md#concept_uyj_trt_52b).The custom timezone must follow this [format](https://docs.oracle.com/javase/8/docs/api/java/time/ZoneId.html#of-java.lang.String-).
+Finally, the timezone can be dynamic for each person entering the step. In this case, you will use the expression editor to select where you want the system to get this information (it can be from an event or a data source). See [Building advanced conditions](../expression/expressionadvanced.md#concept_uyj_trt_52b). The custom timezone must follow this [format](https://docs.oracle.com/javase/8/docs/api/java/time/ZoneId.html#of-java.lang.String-).
 
 
 The start and end dates of a journey cannot be linked to a specific timezone. They are automatically associated to the instance's timezone.

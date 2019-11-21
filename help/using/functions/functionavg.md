@@ -40,11 +40,17 @@ Supported types:
 ## Signatures and return type
 
 `avg(<listInteger>)`
+
 `avg(<listInteger>)`
+
 `avg(<listDecimal>)`
+
 `avg(<decimal>,<decimal>)`
+
 `avg(<decimal>,<integer>)`
+
 `avg(<integer>,<decimal>)`
+
 `avg(<integer>,<integer>)`
 
 Returns a decimal.

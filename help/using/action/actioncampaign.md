@@ -20,7 +20,7 @@ If you have Adobe Campaign Standard, you can send emails, push notifications and
 
 Journey Orchestration comes with an out-of-the-box action which allows the connection to Adobe Campaign Standard. Here are the steps to configure it:
 
-1. From the **Actions** list, click the built-in **AdobeCampaignStandard** action. This opens the action configuration pane. The action configuration pane opens on the right side of the screen.
+1. From the **Actions** list, click the built-in **AdobeCampaignStandard** action. The action configuration pane opens on the right side of the screen.
 
 ![](../assets/actioncampaign.png)
 
