@@ -20,7 +20,7 @@ All Journey Orchestration releases are listed in this page.
  
 Additional resources:
 
-* [Tutorials](https://docs.adobe.com/content/help/en/platform-learn/tutorials/journey-orchestration/journey-orchestration-introduction.html)
+* [Tutorials](https://docs.adobe.com/content/help/en/platform-learn/tutorials/journey-orchestration/introduction.html)
 * [Community](https://www.adobe.com/go/journeyorchestrationcommunity)
 
 ## GA Release - December 2019 {#ga-release---december-2019}
