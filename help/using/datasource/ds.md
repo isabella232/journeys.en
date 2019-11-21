@@ -44,7 +44,7 @@ Here are the main data source configuration steps:
 
 1. Then you can either add field groups to the built-in data source (see [Adobe Experience Platform data source](../datasource/dsplatform.md#concept_zrb_nqt_52b)) or create a new external data source (see [External data sources](../datasource/dsexternal.md)) and associated field groups (see [Field groups](../datasource/dsfield.md)).
 
-    ![](../assets/journey22.png)
+    ![](../assets/journey23.png)
 
 1. Click **Save**. 
 

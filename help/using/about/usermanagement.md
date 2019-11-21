@@ -16,62 +16,54 @@ snippet: y
 
 # Managing your users' access to Journey Orchestration{#concept_rfj_wpt_52b}
 
-Define your users' access levels using security groups and roles.
-
-Permissions can be given to users of your instance to authorize or deny access to certain functionalities or objects in the interface. These permissions can be divided into three concepts:
-
-* **Permissions**: set of rights to define what users can or cannot work on in the interface. These roles are assigned through security groups.
-* **Product profiles**: set of users that share the same roles and rights within an organization.
-
-These concepts can be found under the advanced menu **Administration > Users & Security**.
-
-**Roles**
-
-The following out-of-the box roles allow you to give users permission to perform specific tasks and to restrict access to some functionalities. They are only available in Adobe Campaign Standard by selecting **Administration** > **Users & security** > **Roles**.
-
-The set of roles assigned to a security group will define the user's access to the different features.
-
-![](../assets/user_management.png)
-
-The following out-of-the-box roles are specific and unique to users that need to use Journey Orchestration:
-
-* **Manage and execute journeys**
-* **Read journeys**
-* **Manage events, resources and keys**
-* **Read events and resources**
-* **Manage reports**
-* **Read reports**
-
-You can find below the compatibility between roles and Journey Orchestration's different functionalities:
-
-![](../assets/user_management_3.png)
-
-Additional roles linked to Adobe Campaign Standard use such as prepare deliveries, generic import, etc. are also available. For more on this refer to [Adobe Campaign](https://helpx.adobe.com/campaign/standard/administration/using/list-of-roles.html) documentation.
-
-**Security group**
+## About access management {#about-access-management}
 
 Security groups are assigned to a set of users that share the same roles and rights within your organization.
 
-![](../assets/user_management_2.png)
+In the Admin console, you can assign one of the following out-of-the-box security groups to your users:
 
-You can create your own security group with the different roles needed or you can assign one of the following out-of-the-box security groups to your users:
-
-*   **Limited Access User**: User with read only access to journeys, events and reports. This security group includes the following roles:
+*   **[!UICONTROL Limited Access User]**: User with read only access to journeys, events and reports. This security group includes the following roles:
     *   Read journeys
     *   Read events and resources
     *   Read reports
-*   **Administrators**: User with access to the administration menus with the possibility to manage journeys, events and reports. This security group includes the following roles:
+*   **[!UICONTROL Administrators]**: User with access to the administration menus with the possibility to manage journeys, events and reports. This security group includes the following roles:
     *   Manage and execute journeys
     *   Manage events, resources, and keys
     *   Manage reports
 
     >[!NOTE]
     >
-    >**Administrators** is the only security group allowing creation, edition and publication of transactional messaging which allows message sending for Journey Orchestration.
+    >**[!UICONTROL Administrators]** is the only security group allowing creation, edition and publication of transactional messaging which allows message sending for Journey Orchestration.
 
-*   **Standard User**: User with basics access to Adobe Campaign with the possibility to manage journeys. This security group includes the following roles:
+*   **[!UICONTROL Standard User]**: User with basics access such as manage journeys. This security group includes the following roles:
     *   Manage and execute journeys
     *   Read events and resources
     *   Manage reports
+    
+You can find [here](../assets/acs_rights_journey.pdf) the compatibility between roles and Journey Orchestration's different functionalities.
 
-Other security groups linked to Adobe Campaign Standard roles are available. For more on this refer to [Adobe Campaign](https://helpx.adobe.com/campaign/standard/administration/using/managing-groups-and-users.html) documentation.
+## Assigning a security group {#assigning-security-group}
+
+Security groups are managed in the Admin console. For more on this, refer to the [Admin Console documentation](https://helpx.adobe.com/enterprise/managing/user-guide.html).
+
+To assign a security group for a user to access Journey Orchestration:
+
+1. In the Admin Console, select **[!UICONTROL Journey orchestration]**.
+
+    ![](../assets/user_management.png)
+
+1. Select the security group to which your new user will be linked to.
+
+    ![](../assets/user_management_2.png)
+
+1. Click **[!UICONTROL Add user]**.
+   
+   You can also add your new user to a user groups to fine tune the shared set of permissions. For more on this, refer to this [page](https://helpx.adobe.com/enterprise/using/user-groups.html).
+
+    ![](../assets/user_management_3.png)
+
+1. Type in the email address of your new user then click **[!UICONTROL Save]**.
+
+    ![](../assets/user_management_4.png)
+
+Your user should then receive an email redirecting to your Journey orchestration instance.

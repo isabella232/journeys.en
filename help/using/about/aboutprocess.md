@@ -22,7 +22,7 @@ Here are the main steps to configure and use Journey Orchestration:
 
 1. Configure an event
 
-    You need to define the expected information and how to process it. This configuration is mandatory. This step is performed by a **technical user**. 
+    You need to define the expected information and how to process it. This configuration is mandatory. This step is performed by a **technical user**.
 
     For more on this, refer to [Configuring an event](../event/event.md#concept_gfj_fqt_52b).
 
