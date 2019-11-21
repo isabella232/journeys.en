@@ -47,7 +47,7 @@ The **[!UICONTROL Insert]** table lets you customize your reports by adding grap
 
 The left tabs let you build your report and filter your data as needed.
 
-![](assets/dynamic_report_interface.png)
+![](../assets/dynamic_report_interface.png)
 
 These tabs give you access to the following items:
 
