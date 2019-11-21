@@ -16,7 +16,7 @@ snippet: y
 
 # Constants {#concept_gp3_rj5_dgb}
 
-Technically, a constant always contains a data type. In the literal expression, we only specify the value. The data type can be inferred from the value (for example string, integer, decimal, etc.). For specific cases such as time zones, we use dedicated functions for the representation.
+Technically, a constant always contains a data type. In the literal expression, we only specify the value. The data type can be inferred from the value (for example string, integer, decimal, etc.). For specific cases such as time zones, we use dedicated functions for the representation. &#160 
 
 Here is how constant expressions are represented:
 
@@ -54,7 +54,7 @@ Here is how constant expressions are represented:
     </tr>
     <tr>
         <td>dateTimeOnly</td>
-        <td><p>Represents a date time without a time-zone, viewed as year-month-day-hour-minute-second-millisecond.</p><br /><p>It does not store or represent a time zone.</p><br /><p>Instead, it is a description of the date, as used for birthdays, combined with the local time as seen on a wall clock.</p><br /><p>It cannot represent an instant on the time-line without additional information such as an offset or time-zone.</p><br /><p>Serialization format: ISO-8601 extended offset date-time format.</p><br /><p>It uses DateTimeFormatter.ISO_LOCAL_DATE_TIME to deserialize and serialize the value.</p><br /> <a href="https://docs.oracle.com/javase/8/docs/api/java/time/format/DateTimeFormatter.html#ISO_LOCAL_DATE_TIME">Learn more</a>.</td>
+        <td><p>Represents a date time without a time-zone, viewed as year-month-day-hour-minute-second-millisecond.</p><br /><p>It does not store or represent a time zone.</p><br /><p>Instead, it is a description of the date, as used for birthdays, combined with the local time as seen on a wall clock.</p><br /><p>It cannot represent an instant on the time-line without additional information such as an offset or time-zone.</p><br /><p>Serialization format: ISO-8601 extended offset date-time format.</p><br /><p>It uses DateTimeFormatter.</p><br /><p>ISO_LOCAL_DATE_TIME to deserialize and serialize the value.</p><br /> <a href="https://docs.oracle.com/javase/8/docs/api/java/time/format/DateTimeFormatter.html#ISO_LOCAL_DATE_TIME">Learn more</a>.</td>
         <td><p>toDateTimeOnly("&lt;dateTimeOnly in ISO-8601 format&gt;")</p></td>
         <td><code>toDateTimeOnly("1977-04-22T06:00:00")</code><br /><p>Example of serialized dateTimeOnly:</p><br /><p>2011-12-03T15:15:30</p><br /></td>
     </tr>
@@ -70,7 +70,7 @@ Here is how constant expressions are represented:
     </tr>
     <tr>
         <td>duration</td>
-        <td>It represents a time-based amount of time, such as '34.5 seconds'.<br /> It models a quantity or amount of time in terms of milliseconds.<br />The supported temporal units are: milliseconds,seconds,minutes, hours, days with one day equals to 24 hours.<br /> Years and months are not supported since they're not a fixed amount of time.<br /> JSON format: String. It must be encapsulated in a toDuration function.<br />Serialization format: To deserialize a time zone ID, it uses the java function java.time.<br />Duration.parse: the formats accepted are based on the ISO-8601 duration format PnDTnHnMn.nS with days considered to be exactly 24 hours.<a href="https://docs.oracle.com/javase/8/docs/api/java/time/Duration.html#parse-java.lang.CharSequence-">Learn more</a>.</td>
+        <td><p>It represents a time-based amount of time, such as '34.5 seconds'.</p><br /><p> It models a quantity or amount of time in terms of milliseconds.</p><br /><p>The supported temporal units are: milliseconds,seconds,minutes, hours, days with one day equals to 24 hours.</p><br /><p> Years and months are not supported since they're not a fixed amount of time.</p><br /><p>JSON format: String. It must be encapsulated in a toDuration function.</p><br /><p>Serialization format: To deserialize a time zone ID, it uses the java function java.time.</p><br /><p>Duration.parse: the formats accepted are based on the ISO-8601 duration format PnDTnHnMn.nS with days considered to be exactly 24 hours.</p><a href="https://docs.oracle.com/javase/8/docs/api/java/time/Duration.html#parse-java.lang.CharSequence-">Learn more</a>.</td>
         <td><code>toDuration("&lt;duration in ISO-8601 format&gt;")</code><p></p><br /><p></p><code>toDuration(&lt;duration in milliseconds&gt;)</code></td>
         <td><code>toDuration("PT5S") // 5 seconds</code><br /><code>toDuration(500) // 500mstoDuration("PT20.345S") -- parses as "20.345 seconds"</code><br /><code>toDuration("PT15M") -- parses as "15 minutes" (where a minute is 60 seconds)</code><br /><code>toDuration("PT10H") -- parses as "10 hours" (where an hour is 3600 seconds)</code><br /><code>toDuration("P2D") -- parses as "2 days" (where a day is 24 hours or 86400 seconds)</code><br /><code>toDuration("P2DT3H4M") -- parses as "2 days, 3 hours and 4 minutes"</code><br /><code>toDuration("P-6H3M") -- parses as "-6 hours and +3 minutes"</code><br /><code>toDuration("-P6H3M") -- parses as "-6 hours and -3 minutes"</code><br /><code>toDuration("-P-6H+3M") -- parses as "+6 hours and -3 minutes"</code></td>
     </tr>
