@@ -74,7 +74,7 @@ Here is the list of supported operators:
 <tr ><th  >Operator</th><th  >Literal Expression        </th><th  >Example</th></tr>
 </thead>
 <tbody>
-<tr >><td>and</td><td><p><pre>&lt;expression1&gt; and &lt;expression2&gt;</pre></p><ul><li>Both &lt;expression1&gt; and &lt;expression2&gt; must be boolean.</li><li> The result is boolean.</li><ul></td><td>3.14 &gt; 2 and 3.15 &lt; 1</td></tr>
+<tr >><td>and</td><td><p><pre>&lt;expression1&gt; and &lt;expression2&gt;</pre></p>Both &lt;expression1&gt; and &lt;expression2&gt; must be boolean. The result is boolean.</td><td>3.14 &gt; 2 and 3.15 &lt; 1</td></tr>
 <tr ><td>or</td><td><p><pre>&lt;expression1&gt; or &lt;expression2&gt;</pre></p><p>Both &lt;expression1&gt; and &lt;expression2&gt; must be boolean.</p><p> The result is boolean.</p></td><pre>3.14 &gt; 2 or 3.15 &lt; 1</pre></td></tr>
 <tr ><td>not</td><td><p>not &lt;expression&gt;``&lt;expression&gt; must be boolean.</p><p> The result is boolean.</p></td><td><pre>not 3.15 &lt; 1</pre></td></tr>
 </tbody>
@@ -128,7 +128,7 @@ Here is the list of supported operators:
 <thead>
 <tr ><th  >Operator</th><th  >Literal Expression </th><th  >Example</th></tr>
 </thead>
-<tbody><tr ><td>+</td><td><p><pre>&lt;string&gt; + &lt;expression&gt;</pre></p><p>&lt;expression&gt; + &lt;string&gt;</p><p>It concatenates two expressions or more. </p><p>The first expression must be a string.</p><p> The other expressions can be of any type.</p><p> The result is a string.</p></td><td><p><pre>&#34;the current time is &#34; + (now())</pre></p> Returns  &#34;the current time is 2019-09-23T09:30:06.693Z&#34;<p><pre>(now()) + &#34; is the current time&#34;</pre></p>Returns 2019-09-23T09:30:06.693Z is the current time<p><pre>`&#34;a&#34; + &#34;b&#34; + &#34;c&#34; + 1234</pre></p> Returns abc1234</td></tr>
+<tbody><tr ><td>+</td><td><p><pre>&lt;string&gt; + &lt;expression&gt;</pre></p><p>&lt;expression&gt; + &lt;string&gt;</p><p>It concatenates two expressions or more. </p><p>The first expression must be a string.</p><p> The other expressions can be of any type.</p><p> The rest is a string.</p></td><td><p><pre>&#34;the current time is &#34; + (now())</pre></p> Returns  &#34;the current time is 2019-09-23T09:30:06.693Z&#34;<p><pre>(now()) + &#34; is the current time&#34;</pre></p>Returns 2019-09-23T09:30:06.693Z is the current time<p><pre>`&#34;a&#34; + &#34;b&#34; + &#34;c&#34; + 1234</pre></p> Returns abc1234</td></tr>
 </tbody>
 </table>
 
