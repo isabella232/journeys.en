@@ -16,7 +16,7 @@ snippet: y
 
 # Managing your users' access to Journey Orchestration{#concept_rfj_wpt_52b}
 
-## About user management {#about-user-management}
+## About access management {#about-access-management}
 
 Security groups are assigned to a set of users that share the same roles and rights within your organization.
 
@@ -66,4 +66,4 @@ To assign a security group for a user to access Journey Orchestration:
 
     ![](../assets/user_management_4.png)
 
-Your user should then receive an email redirecting him to your Journey orchestration instance.
+Your user should then receive an email redirecting to your Journey orchestration instance.

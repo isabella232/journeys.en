@@ -14,7 +14,7 @@ internal: n
 snippet: y
 ---
 
-# Creating your Journey Orchestration reports {#concept_rfj_wpt_52b}
+# Creating your journey reports {#concept_rfj_wpt_52b}
 
 ## Accessing and creating your reports {#accessing-reports}
 

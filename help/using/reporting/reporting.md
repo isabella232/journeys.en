@@ -14,7 +14,7 @@ internal: n
 snippet: y
 ---
 
-# Building your Journey Orchestration reports {#concept_rfj_wpt_52b}
+# About journey reports {#concept_rfj_wpt_52b}
 
 This section will present you how to access and use reports to measure your journeys' effectiveness.
 
