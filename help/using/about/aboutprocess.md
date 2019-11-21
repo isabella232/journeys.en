@@ -23,7 +23,7 @@ Here are the main steps to configure and use Journey Orchestration:
 1. Configuring an action: this step is performed by a **technical user**. If you're using a third-party system to send your messages, this is where you will configure its connection to Journey Orchestration. See [About custom action configuration](../action/custom.md). If you use Adobe Campaign Standard to send messages, you need to configure the built-in action. See [Using Adobe Campaign Standard](../action/actioncampaign.md). 
 1. Creating and defining the journey: this is performed by a **business user**. This is where you create, define and publish your scenarios. See [Building a journey](../building-journeys/journey.md#concept_gq5_sqt_52b).
 1. Testing and publishing the journey: this is performed by a **business user**. This validates and activates the journey. See [Testing and publishing the journey](../building-journeys/journeypublication.md#concept_mtc_lrt_52b).
-1. Analyzing the journey via the dedicated reporting tools. This is performed by a **business user**. See [Building your Journey Orchestration reports](../reporting/reporting.md#concept_rfj_wpt_52b).
+1. Analyzing the journey via the dedicated reporting tools. This is performed by a **business user**. See [Building your reports](../reporting/reporting.md#concept_rfj_wpt_52b).
 
 Here is a schema of an end-to-end scenario which uses Adobe Campaign Standard for message sending:
 

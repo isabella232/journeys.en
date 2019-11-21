@@ -14,7 +14,7 @@ internal: n
 snippet: y
 ---
 
-# Creating your Journey Orchestration reports {#concept_rfj_wpt_52b}
+# Creating your journey reports {#concept_rfj_wpt_52b}
 
 ## Accessing and creating your reports {#accessing-reports}
 
@@ -22,11 +22,13 @@ This section will present you how to create or use out-of-the-box reports. Combi
 
 To access your journeys' reports and start tracking the success of your deliveries:
 
-1. From the homepage, select the journey you want to report on.
+1. In the top menu, click the **[!UICONTROL Home]** tab.
+
+1. Select the journey you want to report on.
 
     ![](../assets/dynamic_report_journey.png)
 
-1. Click the **[!UICONTROL Report]** icon on the top right of your screen.
+1. Click the **[!UICONTROL Report]** icon at the top right of your screen.
 
     ![](../assets/dynamic_report_journey_2.png)
 
@@ -38,15 +40,15 @@ To access your journeys' reports and start tracking the success of your deliveri
 
     ![](../assets/dynamic_report_journey_3.png)
 
-1. From the **[!UICONTROL Panels]** tab, drag and drop as many panels or freeform tables as needed.
+1. From the **[!UICONTROL Panels]** tab, drag and drop as many panels or freeform tables as needed. For more information, refer to this [section](#adding-panels).
 
     ![](../assets/dynamic_report_journey_4.png)
 
-1. You can then start filtering your data by drag and dropping dimensions and metrics from the **[!UICONTROL Components]** tab to your freeform table.
+1. You can then start filtering your data by drag and dropping dimensions and metrics from the **[!UICONTROL Components]** tab to your freeform table. For more information, refer to this [section](#adding-components).
 
     ![](../assets/dynamic_report_journey_5.png)
 
-1. To have a clearer view of your data, you can add visualizations from the **[!UICONTROL Visualizations]** tab.
+1. To have a clearer view of your data, you can add visualizations from the **[!UICONTROL Visualizations]** tab. For more information, refer to this [section](#adding-visualizations).
 
 ## Adding panels{#adding-panels}
 
@@ -132,7 +134,7 @@ The **[!UICONTROL Visualizations]** tab lets you drag and drop visualization ite
 
    ![](../assets/dynamic_report_visualization_1.png)
 
-1. After adding a visualization to your panel, your reports will automatically detects the data in your freeform table. Select the settings for your visualization.
+1. After adding a visualization to your panel, your reports will automatically detect the data in your freeform table. Select the settings for your visualization.
 1. If you have more than one freeform table, choose the available data source to add in your graph in the **[!UICONTROL Data Source Settings** window. This window is also available by clicking on the colored dot next to your visualization title.
 
    ![](../assets/dynamic_report_visualization_2.png)
