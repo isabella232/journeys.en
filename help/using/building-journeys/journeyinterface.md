@@ -1,6 +1,6 @@
 ---
-title: The journey designer's interface
-description: Learn about the journey designer's interface
+title: Using the journey designer
+description: Learn on using the journey designer
 page-status-flag: never-activated
 uuid: 269d590c-5a6d-40b9-a879-02f5033863fc
 contentOwner: sauviat
@@ -14,7 +14,7 @@ internal: n
 snippet: y
 ---
 
-# The journey designer's interface {#concept_m1g_5qt_52b}
+# Using the journey designer {#concept_m1g_5qt_52b}
 
 The **journey list** allows you to view all your journeys at once, see their status and perform basic actions. You can duplicate, stop or delete your journeys. Depending on the journey, certain actions might not be available. For example, you can't stop or delete a stopped journey. You can also use the search bar to search for a journey.
 
@@ -54,7 +54,7 @@ Depending on the journey's status, you can perform different actions on your jou
 
  ![](../assets/journey41.png)
 
-Several activities (**Condition**, **Action** activities) allow you to define a fallback action in case of an error or timeout. In the activity configuration pane, check the box: **Add an alternative path in case of a timeout or an error**. Another path is added after the activity. The timeout duration is defined in the journey's properties (see [The journey's properties](../building-journeys/journeyproperty.md#concept_prq_wqt_52b)) by an admin user. For example, if an email takes too long to be sent or is in error, you can decide to send an SMS.
+Several activities (**Condition**, **Action** activities) allow you to define a fallback action in case of an error or timeout. In the activity configuration pane, check the box: **Add an alternative path in case of a timeout or an error**. Another path is added after the activity. The timeout duration is defined in the journey's properties (see [Changing properties](../building-journeys/journeyproperty.md#concept_prq_wqt_52b)) by an admin user. For example, if an email takes too long to be sent or is in error, you can decide to send an SMS.
 
  ![](../assets/journey42.png)
 

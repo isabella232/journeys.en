@@ -12,12 +12,16 @@ topic: Premium
 ## Get started
 
 * **[What is Journey Orchestration?](using/about/intro.md)**<br/>
+Learn more on Journey Orchestration.
 
 * **[Build your first journey](using/about/aboutprocess.md)**<br/>
+Discover the main steps to set up Journey Orchestration and build your first journey.
 
 * **[Configure an event](using/event/event.md#section_tbk_5qt_pgb)**<br/>
+Learn how to configure the events that your journeys will listen to.
 
 * **[Grant access to Journey Orchestration](using/about/usermanagement.md)**<br/>
+Find out how to manage your users' access with security groups and roles. 
 
 ## Top pages
 

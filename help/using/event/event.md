@@ -38,7 +38,7 @@ The Pipeline filters events which have a payload containing Journey Orchestratio
 
 Here are the main steps to configure a new event:
 
-1. In the top menu, click on the **Events** tab. The list of events is displayed. See [the Journey Orchestration' interface](../about/aboutinterface.md#concept_rcq_lqt_52b) for more information on the interface.
+1. In the top menu, click on the **Events** tab. The list of events is displayed. See [User interface](../about/aboutinterface.md#concept_rcq_lqt_52b) for more information on the interface.
 
     ![](../assets/journey5.png)
 

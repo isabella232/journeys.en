@@ -29,7 +29,7 @@ Here are the main steps to create and publish a journey.
 
 1. In the top menu, click the **Home** tab. 
 
-    The list of journeys is displayed. See [The journey designer's interface](../building-journeys/journeyinterface.md#concept_m1g_5qt_52b) for more information on the interface.
+    The list of journeys is displayed. See [Using the journey designer](../building-journeys/journeyinterface.md#concept_m1g_5qt_52b) for more information on the interface.
 
     ![](../assets/journey30.png)
 
@@ -37,7 +37,7 @@ Here are the main steps to create and publish a journey.
 
     ![](../assets/journey31.png)
 
-1. Edit the journey's properties in the configuration pane displayed on the right side. See [The journey's properties](../building-journeys/journeyproperty.md#concept_prq_wqt_52b).
+1. Edit the journey's properties in the configuration pane displayed on the right side. See [Changing properties](../building-journeys/journeyproperty.md#concept_prq_wqt_52b).
 
     ![](../assets/journey32.png)
 
@@ -61,7 +61,7 @@ There are two ways to end a journey:
 * The person arrives at the last activity of a path. This last activity can be an end activity or another activity. There is no obligation to end a path with an end activity. See [End activity](../building-journeys/end.md).
 * The person arrives at a condition activity (or a wait activity with a condition) and does not match any of the conditions.
 
-The person can then re-enter the journey if re-entrance is allowed. See [The journey's properties](../building-journeys/journeyproperty.md#concept_prq_wqt_52b).
+The person can then re-enter the journey if re-entrance is allowed. See [Changing properties](../building-journeys/journeyproperty.md#concept_prq_wqt_52b).
 
 ## Timezone management {#timezone_management}
 

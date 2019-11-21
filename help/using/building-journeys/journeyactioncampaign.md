@@ -20,7 +20,7 @@ If you have Adobe Campaign Standard, the following out-of-the-box action activit
 
 >[!NOTE]
 >
->For this, you need to configure the built-in action. Refer to [Using Adobe Campaign Standard](../action/actioncampaign.md).
+>For this, you need to configure the built-in action. Refer to [Working with Adobe Campaign Standard](../action/actioncampaign.md).
 
 For each of these channels, you select an Adobe Campaign Standard Transactional Messaging **template**. Indeed, Journey Orchestration is not a message sending solution. For the built-in email, SMS and push channels, we rely on Transactional Messaging to execute message sending. It means that if you want to use a certain message template in your journeys, you must publish it in Adobe Campaign Standard. Refer to this [page](https://docs.adobe.com/content/help/en/campaign-standard/using/communication-channels/transactional-messaging/about-transactional-messaging.html) to learn how to use this feature.
 
