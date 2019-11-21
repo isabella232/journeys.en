@@ -56,7 +56,7 @@ Here is how constant expressions are represented:
         <td>dateTimeOnly</td>
         <td><p>Represents a date time without a time-zone, viewed as year-month-day-hour-minute-second-millisecond.</p><br /><p>It does not store or represent a time zone.</p><br /><p>Instead, it is a description of the date, as used for birthdays, combined with the local time as seen on a wall clock.</p><br /><p>It cannot represent an instant on the time-line without additional information such as an offset or time-zone.</p><br /><p>Serialization format: ISO-8601 extended offset date-time format.</p><br /><p>It uses DateTimeFormatter.</p><br /><p>ISO_LOCAL_DATE_TIME to deserialize and serialize the value.</p><br /> <a href="https://docs.oracle.com/javase/8/docs/api/java/time/format/DateTimeFormatter.html#ISO_LOCAL_DATE_TIME">Learn more</a>.</td>
         <td><p>toDateTimeOnly("&lt;dateTimeOnly in ISO-8601 format&gt;")</p></td>
-        <td><code>toDateTimeOnly("1977-04-22T06:00:00")</code><br /><p>Example of serialized dateTimeOnly:</p><br /><p>2011-12-03T15:15:30</p><br /></td>
+        <td><code>toDateTimeOnly("1977-04-22T06:00:00")</code><br /><p>Example of serialized dateTimeOnly:</p><br /><p>2011-12-03T15:15:30</p></td>
     </tr>
     <tr>
         <td>dateTime</td>
