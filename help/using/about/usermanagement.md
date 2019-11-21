@@ -20,9 +20,8 @@ Define your users' access levels using security groups and roles.
 
 Permissions can be given to users of your instance to authorize or deny access to certain functionalities or objects in the interface. These permissions can be divided into three concepts:
 
-* **Organizational units**: objects and users are linked to organizational units which allow a hierarchical structure and a filtered view of your interface. For more on how to create and manage organizational units, refer to the [Adobe Campaign](https://helpx.adobe.com/campaign/standard/administration/using/organizational-and-geographical-units.html) documentation.
-* **Roles**: set of rights to define what users can or cannot work on in the interface. These roles are assigned through security groups.
-* **Security groups**: set of users that share the same roles and rights within an organization.
+* **Permissions**: set of rights to define what users can or cannot work on in the interface. These roles are assigned through security groups.
+* **Product profiles**: set of users that share the same roles and rights within an organization.
 
 These concepts can be found under the advanced menu **Administration > Users & Security**.
 
@@ -62,14 +61,6 @@ You can create your own security group with the different roles needed or you ca
     *   Read events and resources
     *   Read reports
 *   **Administrators**: User with access to the administration menus with the possibility to manage journeys, events and reports. This security group includes the following roles:
-    *   Administration
-    *   Data model
-    *   Generic import
-    *   Export
-    *   File access
-    *   Prepare deliveries
-    *   Start deliveries
-    *   Workflow
     *   Manage and execute journeys
     *   Manage events, resources, and keys
     *   Manage reports
@@ -79,9 +70,6 @@ You can create your own security group with the different roles needed or you ca
     >**Administrators** is the only security group allowing creation, edition and publication of transactional messaging which allows message sending for Journey Orchestration.
 
 *   **Standard User**: User with basics access to Adobe Campaign with the possibility to manage journeys. This security group includes the following roles:
-    *   Prepare deliveries
-    *   Start deliveries
-    *   Workflow
     *   Manage and execute journeys
     *   Read events and resources
     *   Manage reports
