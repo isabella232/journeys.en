@@ -37,7 +37,7 @@ There are two kinds of operators: unary operators and binary operators. There ar
 
 Here is the list of supported operators:
 
-  <table>
+<table>
 <thead>
 <tr ><th  >Category</th><th  >Operator</th><th  >Literal Expression        </th><th  >Example</th></tr>
 </thead>
@@ -64,5 +64,18 @@ Here is the list of supported operators:
 <tr ><td>Math</td><td>is decimal</td><td><ul><li>&lt;expression&gt; is decimal</li><li>The type of the expression is decimal.</li></ul></td><td>@ is decimal</td></tr>
 <tr ><td>String</td><td>+</td><td><ul><li>&lt;string&gt; + &lt;expression&gt;</li><li>&lt;expression&gt; + &lt;string&gt;</li><li>It concatenates two expressions or more. </li><li>The first expression must be a string.</li><li> The other expressions can be of any type.</li><li> The result is a string.</li></ul></td><td><code>&#34;the current time is &#34; + (now())</code> Returns  &#34;the current time is 2019-09-23T09:30:06.693Z&#34;<code>(now()) + &#34; is the current time&#34;</code>Returns 2019-09-23T09:30:06.693Z is the current time<code>`&#34;a&#34; + &#34;b&#34; + &#34;c&#34; + 1234</code> Returns abc1234</td></tr>
 <tr ><td>Date</td><td>+</td><td><ul><li>&lt;expression + &lt;duration&gt;</li><li>Append a duration to a dateTime, a dateTimeOnly or a duration.</li></ul></td><td><code>toDateTime(&#34;2011-12-03T15:15:30Z&#34;) + toDuration(&#34;PT15M&#34;)</code>Returns 2011-12-03T15:30:30Z<code>toDateTimeOnly(&#34;2011-12-03T15:15:30&#34;) + toDuration(&#34;PT15M&#34;)</code>Returns 2011-12-03T15:30:30<code>now() + toDuration(&#34;PT1H&#34;)</code>Returns a dateTime (with UTC timezone) one hour later from current time<code>toDuration(&#34;PT1H&#34;) + toDuration(&#34;PT1H&#34;)</code>Returns  PT2H</td></tr>
+</tbody>
+  </table>
+
+## Logical 
+
+  <table>
+<thead>
+<tr ><th  >Operator</th><th  >Literal Expression        </th><th  >Example</th></tr>
+</thead>
+<tbody>
+<tr >><td>and</td><td><ul><li>&lt;expression1&gt; and &lt;expression2&gt;</li><li>Both &lt;expression1&gt; and &lt;expression2&gt; must be boolean.</li><li> The result is boolean.</li></ul></td><td>3.14 &gt; 2 and 3.15 &lt; 1</td></tr>
+<tr ><td>or</td><td><ul><li>&lt;expression1&gt; or &lt;expression2&gt;</li><li>Both &lt;expression1&gt; and &lt;expression2&gt; must be boolean.</li><li> The result is boolean.</li></ul></td><td>3.14 &gt; 2 or 3.15 &lt; 1</td></tr>
+<tr ><td>not</td><td><ul><li>not &lt;expression&gt;``&lt;expression&gt; must be boolean.</li><li> The result is boolean.</li></ul></td><td>not 3.15 &lt; 1</td></tr>
 </tbody>
   </table>
