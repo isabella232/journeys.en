@@ -11,20 +11,13 @@ topic: Premium
 
 ## Get started
 
-* **[Global user process](using/about/aboutprocess.md)**<br/>
-Discover the main steps to set up and use Journey Orchestration.
+* **[What is Journey Orchestration?](using/about/intro.md)**<br/>
 
-* **[Configuring your events](using/event/event.md#section_tbk_5qt_pgb)**<br/>
-Learn how to configure the events that your journeys will listen to.
+* **[Build your first journey](using/about/aboutprocess.md)**<br/>
 
-* **[Configuring your data sources](using/datasource/ds.md)**<br/>
-Define the additional data that your journeys will use. 
+* **[Configure an event](using/event/event.md#section_tbk_5qt_pgb)**<br/>
 
-* **[Configuring your actions](using/action/action.md)**<br/>
-Set up the connection to the system that will send messages.
-
-* **[Building your journeys](using/building-journeys/journey.md)**<br/>
-Learn how to design and publish your journeys.
+* **[Grant access to Journey Orchestration](using/about/usermanagement.md)**<br/>
 
 ## Top pages
 
