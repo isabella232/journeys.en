@@ -27,7 +27,7 @@ If you want to wait before executing the next activity in the path, you can use 
 
 Here is how waits are prioritized when you use several waits in parallel. If they have the same time configuration and a different but overlapping condition, the wait positioned above will be the one prioritized. For example, the condition of the first wait is “being a woman” and the condition of the second wait in parallel is “being a VIP”. The first wait activity will be prioritized
 
-Also note that if a two different waits are in parallel, the one occurring first will be prioritized, regardless of its vertical position. For example, if a 1-hour wait is above and a 30-minute wait is below, after 30 minutes, the 30-minute wait will be processed.
+Also note that if two different waits are in parallel, the one occurring first will be prioritized, regardless of its vertical position. For example, if a 1-hour wait is above and a 30-minute wait is below, after 30 minutes, the 30-minute wait will be processed.
 
 You can define a condition if you want to restrict the wait to a certain population.
 
@@ -66,7 +66,7 @@ This type of wait uses a score calculated in the Platform. The score calculates 
 
 >[!NOTE]
 >
->This capbility is only available after an **Email** activity. You need to have Adobe Campaign Standard.
+>This capability is only available after an **Email** activity. You need to have Adobe Campaign Standard.
 
 1. In the **Amount of time** field, define the number of hours to consider to optimize email sending.
 1. In the **Optimization type** field, choose if the optimization should increase clicks or opens.
