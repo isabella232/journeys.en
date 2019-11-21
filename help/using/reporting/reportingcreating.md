@@ -40,15 +40,15 @@ To access your journeys' reports and start tracking the success of your deliveri
 
     ![](../assets/dynamic_report_journey_3.png)
 
-1. From the **[!UICONTROL Panels]** tab, drag and drop as many panels or freeform tables as needed.
+1. From the **[!UICONTROL Panels]** tab, drag and drop as many panels or freeform tables as needed. For more information, refer to this [section](#adding-panels).
 
     ![](../assets/dynamic_report_journey_4.png)
 
-1. You can then start filtering your data by drag and dropping dimensions and metrics from the **[!UICONTROL Components]** tab to your freeform table.
+1. You can then start filtering your data by drag and dropping dimensions and metrics from the **[!UICONTROL Components]** tab to your freeform table. For more information, refer to this [section](#adding-components).
 
     ![](../assets/dynamic_report_journey_5.png)
 
-1. To have a clearer view of your data, you can add visualizations from the **[!UICONTROL Visualizations]** tab.
+1. To have a clearer view of your data, you can add visualizations from the **[!UICONTROL Visualizations]** tab. For more information, refer to this [section](#adding-visualizations).
 
 ## Adding panels{#adding-panels}
 

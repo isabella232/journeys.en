@@ -18,10 +18,6 @@ snippet: y
 
 You can find here the list of every components available in Dynamic reports as well as their definitions.
 
-**Segments** and **Profiles** components are not available for Journey Orchestration reports.
-
-Please note that if two components are not compatible, the cell will display the value **None**. To learn more on compatibility between dimensions and metrics, refer to this [table](../assets/dynamic_report_compatibility_journey.pdf).
-
 The table below gives you the list of dimensions used in journey reports and their definitions.
 
 ## Dimensions {#MBE_table_wk4_bnj_w2b}
