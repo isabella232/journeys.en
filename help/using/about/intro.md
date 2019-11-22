@@ -18,6 +18,10 @@ snippet: y
 
 Build real-time orchestration use cases leveraging contextual data stored in events or data sources.
 
+Journey Orchestration is an application service integrated with the Experience Patform.
+
+![](../assets/journeydiagram.png)
+
 Journey Orchestration allows real-time orchestration powered by contextual data from events, information from the Adobe Experience Platform, or data from third-party API services. You can configure a custom action if you're using a third-party system to send your messages. If you have Adobe Campaign Standard, you will be able to send emails, push notifications and SMS using the Adobe Campaign Standard's Transactional Messaging capabilities. 
 
 In the event configuration tab, a **technical user** configures events expected in the journeys. The incoming events' data is normalized following the Adobe Experience Data Model (XDM). Events come from Streaming Ingestion APIs for authenticated and unauthenticated events (such as Adobe Mobile SDK events).
@@ -44,3 +48,4 @@ As Journey Orchestration is multistep, you can create advanced scenarios. For ex
 >[!NOTE]
 >
 >This documentation is frequently updated to reflect recent changes in the product. However, some screenshots can slightly differ from the product's interface. 
+
