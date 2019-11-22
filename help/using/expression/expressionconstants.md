@@ -32,55 +32,55 @@ Here is how data type expressions are represented:
     <tbody>
     <tr>
         <td>string</td>
-        <td><p>Common sequence of characters.</p><br /><p>It doesn't have any specific size except the implicit one that comes from the environment such as the amount of memory available.</p><br /><p>JSON format: String</p><br /><p>Serialization format: UTF-8</p></td>
-        <td><p>"&lt;value&gt;"</p><br /><p>'&lt;value&gt;'</p></td>
-        <td><p><pre>"hello world"</pre></p><br /><p><pre>'hello world'</pre></p></td>
+        <td><p>Common sequence of characters.</p><p>It doesn't have any specific size except the implicit one that comes from the environment such as the amount of memory available.</p><p>JSON format: String</p><p>Serialization format: UTF-8</p></td>
+        <td><p>"&lt;value&gt;"</p><p>'&lt;value&gt;'</p></td>
+        <td><p><pre>"hello world"</pre></p><p><pre>'hello world'</pre></p></td>
     </tr>
     <tr>
         <td>integer</td>
-        <td><p>Integer value from -2^63 to 2^63-1.</p><br /><p>JSON format: Number</p></td>
+        <td><p>Integer value from -2^63 to 2^63-1.</p><p>JSON format: Number</p></td>
         <td>&lt;integer value&gt;</td>
         <td><p><pre>42</pre></p></td>
     </tr>
     <tr>
         <td>decimal</td>
-        <td><p>Decimal number.</p><br />It represents a floating value:<ul><li><br />largest positive finite value of type double, (2-2^-52)x2^1023</li><br /><li>smallest positive normal value of type double, 2-1022</li><br /><li>smallest positive nonzero value of type double, 2 p-1074</li></ul><br /><p>JSON format: Number</p><br /><p>Serialization format: using '.' as the decimal separator.</p></td>
+        <td><p>Decimal number.</p>It represents a floating value:<ul><li>largest positive finite value of type double, (2-2^-52)x2^1023</li><li>smallest positive normal value of type double, 2-1022</li><li>smallest positive nonzero value of type double, 2 p-1074</li></ul><p>JSON format: Number</p><p>Serialization format: using '.' as the decimal separator.</p></td>
         <td>&lt;integer value&gt;.&lt;integer value&gt;</td>
         <td><p><pre>3.14</pre></p></td>
     </tr>
     <tr>
         <td>boolean</td>
-        <td>Boolean value written lowercase: true or false<br />JSON format: Boolean</td>
-        <td><p>true</p><br /><p>false</p></td>
+        <td>Boolean value written lowercase: true or falseJSON format: Boolean</td>
+        <td><p>true</p><p>false</p></td>
         <td><p><pre>true</pre></p></td>
     </tr>
     <tr>
         <td>dateTimeOnly</td>
-        <td><p>Represents a date time without a time-zone, viewed as year-month-day-hour-minute-second-millisecond.</p><br /><p>It does not store or represent a time zone.</p><br /><p>Instead, it is a description of the date, as used for birthdays, combined with the local time as seen on a wall clock.</p><br /><p>It cannot represent an instant on the time-line without additional information such as an offset or time-zone.</p><br /><p>Serialization format: ISO-8601 extended offset date-time format.</p><br /><p>It uses DateTimeFormatter.</p><br /><p>ISO_LOCAL_DATE_TIME to deserialize and serialize the value.</p><br /> <a href="https://docs.oracle.com/javase/8/docs/api/java/time/format/DateTimeFormatter.html#ISO_LOCAL_DATE_TIME">Learn more</a>.</td>
+        <td><p>Represents a date time without a time-zone, viewed as year-month-day-hour-minute-second-millisecond.</p><p>It does not store or represent a time zone.</p><p>Instead, it is a description of the date, as used for birthdays, combined with the local time as seen on a wall clock.</p><p>It cannot represent an instant on the time-line without additional information such as an offset or time-zone.</p><p>Serialization format: ISO-8601 extended offset date-time format.</p><p>It uses DateTimeFormatter.</p><p>ISO_LOCAL_DATE_TIME to deserialize and serialize the value.</p> <a href="https://docs.oracle.com/javase/8/docs/api/java/time/format/DateTimeFormatter.html#ISO_LOCAL_DATE_TIME">Learn more</a>.</td>
         <td><p>toDateTimeOnly("&lt;dateTimeOnly in ISO-8601 format&gt;")</p></td>
-        <td><p><pre>toDateTimeOnly("1977-04-22T06:00:00")</pre></p><br /><p>Example of serialized dateTimeOnly:</p><br /><p>2011-12-03T15:15:30</p></td>
+        <td><p><pre>toDateTimeOnly("1977-04-22T06:00:00")</pre></p><p>Example of serialized dateTimeOnly:</p><p>2011-12-03T15:15:30</p></td>
     </tr>
     <tr>
         <td>dateTime</td>
-        <td><p>Date time constant that also considers time zone.</p><br /><p>It represents a date-time with an offset from UTC. It can be viewed as an instant in time with the additional information of the offset. </p><br /><p>It is a way to represent a specific “moment” at a certain place of the world.</p><br /><p>JSON format: String.</p><br /><p> It must be encapsulated in a toDateTime function.</p><br /><p>
-        Serialization format: ISO-8601 extended offset date-time format.</p><br /><p> It uses DateTimeFormatter.ISO_OFFSET_DATE_TIME to deserialize and serialize the value.</p> <br /><a href="https://docs.oracle.com/javase/8/docs/api/java/time/format/DateTimeFormatter.html#ISO_OFFSET_DATE_TIME">Learn more</a>. 
-        <p>You can also pass an integer passing an epoch value.</p> <br /><a href="https://www.epochconverter.com/">Read more</a>.</p><br />
+        <td><p>Date time constant that also considers time zone.</p><p>It represents a date-time with an offset from UTC. It can be viewed as an instant in time with the additional information of the offset. </p><p>It is a way to represent a specific “moment” at a certain place of the world.</p><p>JSON format: String.</p><p> It must be encapsulated in a toDateTime function.</p><p>
+        Serialization format: ISO-8601 extended offset date-time format.</p><p> It uses DateTimeFormatter.ISO_OFFSET_DATE_TIME to deserialize and serialize the value.</p> <a href="https://docs.oracle.com/javase/8/docs/api/java/time/format/DateTimeFormatter.html#ISO_OFFSET_DATE_TIME">Learn more</a>. 
+        <p>You can also pass an integer passing an epoch value.</p> <a href="https://www.epochconverter.com/">Read more</a>.</p>
         <p>Timezone can be specified by an offset or a timezone code (example: Europe/Paris, Z - meaning UTC).</p></td>
         <td><p>toDateTime("&lt;dateTime in ISO-8601 format&gt;")</p>
         <p>toDateTime(&lt;integer value of an epoch in milliseconds&gt;)</p></td>
-        <td><p><pre>toDateTime("1977-04-22T06:00:00Z")</pre></p><br /><p><pre>toDateTime("2011-12-03T15:15:30Z")</pre></p><br /><p><pre>toDateTime("2011-12-03T15:15:30.123Z")</pre></p><br /><p><pre>toDateTime("2011-12-03T15:15:30.123+02:00")</pre></p><br /><p><pre>toDateTime("2011-12-03T15:15:30.123-00:20")</pre></p><br /><p><pre> toDateTime(1560762190189)</pre></p></td>
+        <td><p><pre>toDateTime("1977-04-22T06:00:00Z")</pre></p><p><pre>toDateTime("2011-12-03T15:15:30Z")</pre></p><p><pre>toDateTime("2011-12-03T15:15:30.123Z")</pre></p><p><pre>toDateTime("2011-12-03T15:15:30.123+02:00")</pre></p><p><pre>toDateTime("2011-12-03T15:15:30.123-00:20")</pre></p><p><pre> toDateTime(1560762190189)</pre></p></td>
     </tr>
     <tr>
         <td>duration</td>
-        <td><p>It represents a time-based amount of time, such as '34.5 seconds'.</p><br /><p> It models a quantity or amount of time in terms of milliseconds.</p><br /><p>The supported temporal units are: milliseconds,seconds,minutes, hours, days with one day equals to 24 hours.</p><br /><p> Years and months are not supported since they're not a fixed amount of time.</p><br /><p>JSON format: String. It must be encapsulated in a toDuration function.</p><br /><p>Serialization format: To deserialize a time zone ID, it uses the java function java.time.</p><br /><p>Duration.parse: the formats accepted are based on the ISO-8601 duration format PnDTnHnMn.nS with days considered to be exactly 24 hours.</p><a href="https://docs.oracle.com/javase/8/docs/api/java/time/Duration.html#parse-java.lang.CharSequence-">Learn more</a>.</td>
-        <td><p><pre>toDuration("&lt;duration in ISO-8601 format&gt;")</pre></p></p><br /><p></p><p><pre>toDuration(&lt;duration in milliseconds&gt;)</pre></p></td>
-        <td><p><pre>toDuration("PT5S") // 5 seconds</pre></p><br /><p><pre>toDuration(500) // 500mstoDuration("PT20.345S") -- parses as "20.345 seconds"</pre></p><br /><p><pre>toDuration("PT15M") -- parses as "15 minutes" (where a minute is 60 seconds)</pre></p><br /><p><pre>toDuration("PT10H") -- parses as "10 hours" (where an hour is 3600 seconds)</pre></p><br /><p><pre>toDuration("P2D") -- parses as "2 days" (where a day is 24 hours or 86400 seconds)</pre></p><br /><p><pre>toDuration("P2DT3H4M") -- parses as "2 days, 3 hours and 4 minutes"</pre></p><br /><p><pre>toDuration("P-6H3M") -- parses as "-6 hours and +3 minutes"</pre></p><br /><p><pre>toDuration("-P6H3M") -- parses as "-6 hours and -3 minutes"</pre></p><br /><p><pre>toDuration("-P-6H+3M") -- parses as "+6 hours and -3 minutes"</pre></p></td>
+        <td><p>It represents a time-based amount of time, such as '34.5 seconds'.</p><p> It models a quantity or amount of time in terms of milliseconds.</p><p>The supported temporal units are: milliseconds,seconds,minutes, hours, days with one day equals to 24 hours.</p><p> Years and months are not supported since they're not a fixed amount of time.</p><p>JSON format: String. It must be encapsulated in a toDuration function.</p><p>Serialization format: To deserialize a time zone ID, it uses the java function java.time.</p><p>Duration.parse: the formats accepted are based on the ISO-8601 duration format PnDTnHnMn.nS with days considered to be exactly 24 hours.</p><a href="https://docs.oracle.com/javase/8/docs/api/java/time/Duration.html#parse-java.lang.CharSequence-">Learn more</a>.</td>
+        <td><p><pre>toDuration("&lt;duration in ISO-8601 format&gt;")</pre></p></p><p></p><p><pre>toDuration(&lt;duration in milliseconds&gt;)</pre></p></td>
+        <td><p><pre>toDuration("PT5S") // 5 seconds</pre></p><p><pre>toDuration(500) // 500mstoDuration("PT20.345S") -- parses as "20.345 seconds"</pre></p><p><pre>toDuration("PT15M") -- parses as "15 minutes" (where a minute is 60 seconds)</pre></p><p><pre>toDuration("PT10H") -- parses as "10 hours" (where an hour is 3600 seconds)</pre></p><p><pre>toDuration("P2D") -- parses as "2 days" (where a day is 24 hours or 86400 seconds)</pre></p><p><pre>toDuration("P2DT3H4M") -- parses as "2 days, 3 hours and 4 minutes"</pre></p><p><pre>toDuration("P-6H3M") -- parses as "-6 hours and +3 minutes"</pre></p><p><pre>toDuration("-P6H3M") -- parses as "-6 hours and -3 minutes"</pre></p><p><pre>toDuration("-P-6H+3M") -- parses as "+6 hours and -3 minutes"</pre></p></td>
     </tr>
     <tr>
         <td>list</td>
-        <td>Comma separated list of expressions using square brackets as delimiters. <br />Polymorphism is not supported, hence all the expressions contained in the list should have the same type.</td>
+        <td>Comma separated list of expressions using square brackets as delimiters. Polymorphism is not supported, hence all the expressions contained in the list should have the same type.</td>
         <td>[&lt;expression&gt;, &lt;expression&gt;, ... ]</td>
-        <td><p><pre>["value1","value2"]</pre></p><br /><p><pre>[3,5]</pre></p><br /><p><pre>[toDuration(500),toDuration(800)]</pre></p></td>
+        <td><p><pre>["value1","value2"]</pre></p><p><pre>[3,5]</pre></p><p><pre>[toDuration(500),toDuration(800)]</pre></p></td>
     </tr>
     </tbody>
 </table>
