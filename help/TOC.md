@@ -56,10 +56,10 @@ index: n
   + [Testing and publishing the journey](using/building-journeys/journeypublication.md)
   + [Terminating a journey](using/building-journeys/journeystop.md)
   + [Journey versions](using/building-journeys/journeyversions.md)
-+ Building advanced conditions {#building-advanced-conditions-journeys}
++ Using the advanced expression editor {#building-advanced-conditions-journeys}
   + [About advanced conditions](using/expression/expressionadvanced.md)
   + [Generalities](using/expression/expressiongeneralities.md)
-  + [Constants](using/expression/expressionconstants.md)
+  + [Data types](using/expression/expressionconstants.md)
   + [Field references](using/expression/expressionfields.md)
   + [Operators](using/expression/expressionoperators.md)
   + [Functions](using/expression/expressionfunctions.md)

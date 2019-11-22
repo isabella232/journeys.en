@@ -66,7 +66,7 @@ A default value can be associated to a field name. the syntax is as follows:
 
 **Parameter values of a data source (data source dynamic values)**
 
-If you select a field from an external data source requiring a parameter to be called, a new tab appears on the right to let you specify this parameter. See [Building advanced conditions](../expression/expressionadvanced.md#concept_uyj_trt_52b).
+If you select a field from an external data source requiring a parameter to be called, a new tab appears on the right to let you specify this parameter. See [Using the advanced expression editor](../expression/expressionadvanced.md#concept_uyj_trt_52b).
 
 For more complex use cases, if you want to include the parameters of the data source in the main expression, you can define their values using the keyword _params_. A parameter can be any valid expression even from another data source that also include another parameter.
 

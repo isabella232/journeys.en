@@ -1,5 +1,5 @@
 ---
-title: Building advanced conditions
+title: Using the advanced expression editor
 description: Learn how to build advanced conditions
 page-status-flag: never-activated
 uuid: 269d590c-5a6d-40b9-a879-02f5033863fc
@@ -14,7 +14,7 @@ internal: n
 snippet: y
 ---
 
-# Building advanced conditions {#concept_uyj_trt_52b}
+# Using the advanced expression editor {#concept_uyj_trt_52b}
 
 ## About advanced conditions {#section_llg_vnj_cjb}
 
@@ -24,13 +24,15 @@ The advanced expression editor offers a set of built-in functions and operators 
 
  ![](../assets/journeyuc2_30.png)
 
+_The advanced expression editor interface_
+
 The advanced expression editor can be used to:
 
-* create advanced data source conditions
+* create advanced data sources and event information
 * define custom timezones in date conditions, fixed date wait activities, custom wait activities
 * define custom wait activities
-* define custom action parameter mapping
 * perform email, SMS and push personalization data mapping
+* define action parameter mapping
 
 When possible, you can switch between the two modes using the **Advanced mode** / **Simple mode** button. The simple mode is described [here](../building-journeys/condition.md#about_condition).
 
@@ -43,7 +45,7 @@ You can access the query editor in different ways:
     ![](../assets/journeyuc2_33.png)
 
 * When you create a custom timezone or a custom timer, the advanced editor will be directly displayed.
-* When you map custom action parameters and email, SMS, push personalization you can access it by clicking on **Advanced mode**.
+* When you map action parameters and email, SMS, push personalization you can access it by clicking on **Advanced mode**.
 
 ## Discovering the interface{#section_otq_tnj_cjb}
 
@@ -53,8 +55,8 @@ This screen allows you to manually write your expressions.
 
 On the left part of the screen are displayed available fields and functions:
 
-* **Data Sources**: choose from the list of fields available from your data sources' field groups.
 * **Events**: choose one of the fields received from the inbound event. The displayed list of event fields is contextual and varies according to the event(s) added in the journey.
+* **Data Sources**: choose from the list of fields available from your data sources' field groups.
 * **Functions**: a list of advanced functions are available to carry out complex filtering. Functions are organized by categories.
 
 ![](../assets/journey65.png)

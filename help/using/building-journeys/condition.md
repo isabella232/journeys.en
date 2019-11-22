@@ -46,11 +46,11 @@ The simple mode allows you to perform simple queries based on a combination of f
 
 >[!NOTE]
 >
->You cannot perform queries on time series (for example a list of purchases, past clicks on messages) with the simple editor. For this you’ll need to use the advanced editor. See [Building advanced conditions](../expression/expressionadvanced.md#concept_uyj_trt_52b).
+>You cannot perform queries on time series (for example a list of purchases, past clicks on messages) with the simple editor. For this you’ll need to use the advanced editor. See [Using the advanced expression editor](../expression/expressionadvanced.md#concept_uyj_trt_52b).
 
 ## Data Source condition {#data_source_condition}
 
-This allows you to define a condition based on fields from the data sources or the events previously positioned in the journey. To learn how to use the expression editor, see [Building advanced conditions](../expression/expressionadvanced.md#concept_uyj_trt_52b). Using the advanced expression editor, you can setup more advanced conditions manipulating collections or using data sources requiring the passing of parameters. See [External data sources](../datasource/dsexternal.md#concept_t2s_kqt_52b) and [Building advanced conditions](../expression/expressionadvanced.md#concept_uyj_trt_52b).
+This allows you to define a condition based on fields from the data sources or the events previously positioned in the journey. To learn how to use the expression editor, see [Using the advanced expression editor](../expression/expressionadvanced.md#concept_uyj_trt_52b). Using the advanced expression editor, you can setup more advanced conditions manipulating collections or using data sources requiring the passing of parameters. See [External data sources](../datasource/dsexternal.md#concept_t2s_kqt_52b) and [Using the advanced expression editor](../expression/expressionadvanced.md#concept_uyj_trt_52b).
 
 ![](../assets/journey50.png)
 

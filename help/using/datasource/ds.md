@@ -36,7 +36,7 @@ For each data source, you define the information to retrieve using field groups.
 
 Here are the main data source configuration steps:
 
-1. In the top menu, click the **Data Sources** tab. 
+1. In the top menu, click the **Data Sources** tab.
 
     The list of data sources is displayed. See [User interface](../about/aboutinterface.md) for more information on the interface.
 

@@ -26,7 +26,7 @@ Learn how to use the expression editor simple mode to perform simple queries bas
       <img alt="conditions" src="using/assets/dev.png"/>
     </a>
     <div>
-    <a href="using/expression/expressionadvanced.md"><strong>Building advanced conditions</strong></a>
+    <a href="using/expression/expressionadvanced.md"><strong>Using the advanced expression editor</strong></a>
     </div>
     <em>Learn how to build complex conditions leveraging data from events and data sources. </em>
     <br>
