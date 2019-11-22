@@ -48,7 +48,7 @@ Here are the main steps to configure and use Journey Orchestration:
 
 1. Design your journey
 
-     You then create, define and publish your journeys. This step is performed by a **business user**. Combine the different event, orchestration and action activities to build your multi-step cross-channel scenarios.
+     Combine the different event, orchestration and action activities to build your multi-step cross-channel scenarios. This step is performed by a **business user**. 
 
      For more on this, see [Building journeys](../building-journeys/journey.md#concept_gq5_sqt_52b).
 
