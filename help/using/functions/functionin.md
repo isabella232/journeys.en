@@ -68,3 +68,5 @@ Returns true.
 `in(8,[4,5,3,4])`
 
 Returns false.
+
+`in(#{ExperiencePlatform.ProfileFieldGroup.profile.person.gender}, ["male"])`
