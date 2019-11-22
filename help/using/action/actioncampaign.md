@@ -22,7 +22,7 @@ Journey Orchestration comes with an out-of-the-box action which allows the conne
 
 1. From the **Actions** list, click the built-in **AdobeCampaignStandard** action. The action configuration pane opens on the right side of the screen.
 
-![](../assets/actioncampaign.png)
+    ![](../assets/actioncampaign.png)
 
 1. Copy your Adobe Campaign Standard instance URL and paste it in the **URL** field. 
 
