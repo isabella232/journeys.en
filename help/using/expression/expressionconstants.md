@@ -85,7 +85,7 @@ Here is how data type expressions are represented:
     </tbody>
 </table>
 
-<table>
+<!--<table>
     <thead>
         <tr>
         <td id="tbl5">Data Type</td>
@@ -148,4 +148,4 @@ Here is how data type expressions are represented:
         <td headers="tbl8"><p></p><pre>["value1","value2"]</pre><p></p><p></p><pre>[3,5]</pre><p></p><p></p><pre>[toDuration(500),toDuration(800)]</pre><p></p></td>
     </tr>
     </tbody>
-</table>
+</table>-->
