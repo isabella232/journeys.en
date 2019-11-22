@@ -64,13 +64,17 @@ In the different lists, you can perform basic actions on each element. For examp
 
 Here are the different shortcuts available in the Journey Orchestration's interface.
 
+_In the list of journeys_
+
+* Press **c** to create a new journey.
+
 _When configuring an activity in a journey:_
 
 The canvas is automatically saved. You can see, on the top left of the canvas, the saving status.
 
 * Press **escape** to close the configuration pane and discard the changes made. This is the equivalent of the **Cancel** button.
 * Press **enter** or click outside the pane to close the configuration pane. Changes are saved. This is the equivalent of the **OK** button.
-* If you click **backspace**, you can then press **enter** to confirm the deletion.
+* If you press **delete** or **backspace**, you can then press **enter** to confirm the deletion.
 
 _In pop-ups:_
 
@@ -83,9 +87,12 @@ _In the event, data source or action configuration pane:_
 * Press **enter** to save modifications and close the configuration pane.
 * Press **tab** to jump between the different fields to configure.
 
+_In the simple expression editor_
+
+* Double-click on a field, on the ledt, to add a query (equivalent to drag & drop).
+
 _When browsing through XDM fields:_
 
-* Press and hold the **shift** key to perform multiple selection.
 * Checking a "node" will select all the fields of the node.
 
 _In all text areas:_
@@ -99,5 +106,5 @@ _In a screen with a search bar:_
 _In the canvas of a journey:_
 
 * Use the **Ctrl/Command + A** key combination to select all activities.
-* When one or several activities are selected, press **delete/backspace** to delete them. Then you can press **enter** to confirm in the confirmation pop-up.
+* When one or several activities are selected, press **delete** or **backspace** to delete them. Then you can press **enter** to confirm in the confirmation pop-up.
 * Double-click on an activity from the left palette to add it at the first available position (from top to bottom).
