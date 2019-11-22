@@ -36,6 +36,12 @@ The advanced expression editor can be used to:
 
 When possible, you can switch between the two modes using the **Advanced mode** / **Simple mode** button. The simple mode is described [here](../building-journeys/condition.md#about_condition).
 
+>[!NOTE]
+>
+>Conditions can be defined in the simple or advanced expression editor. They always return a boolean type.  
+>
+>Actions parameters can be defined via the simple picker or the advanced expression editor. They return a specific data type according to their expression.  
+
 ## Accessing the advanced expression editor {#section_fdz_4nj_cjb}
 
 You can access the query editor in different ways:
