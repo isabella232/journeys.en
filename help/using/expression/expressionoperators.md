@@ -139,6 +139,6 @@ Here is the list of supported operators:
 <tr ><th  >Operator</th><th  >Literal Expression </th><th  >Example</th></tr>
 </thead>
 <tbody>
-<tr ><td>+</td><td><p><pre>&lt;expression + &lt;duration&gt;</pre></p><p>Append a duration to a dateTime, a dateTimeOnly or a duration.</p></td><td><p><pre>toDateTime(&#34;2011-12-03T15:15:30Z&#34;) + toDuration(&#34;PT15M&#34;)</pre></p>Returns 2011-12-03T15:30:30Z<p><pre>toDateTimeOnly(&#34;2011-12-03T15:15:30&#34;) + toDuration(&#34;PT15M&#34;)</pre></p>Returns 2011-12-03T15:30:30<p><pre>now() + toDuration(&#34;PT1H&#34;)</pre></p>Returns a dateTime (with UTC timezone) one hour later from current time<p><pre>toDuration(&#34;PT1H&#34;) + toDuration(&#34;PT1H&#34;)</pre></p>Returns  PT2H</td></tr>
+<tr ><td>+</td><td><p><pre>&lt;expression + &lt;duration&gt;</pre></p><p>Append a duration to a dateTime, a dateTimeOnly or a duration.</p></td><td><p><pre>toDateTime(&#34;2011-12-03T15:15:30Z&#34;)</pre></p><p><pre> + toDuration(&#34;PT15M&#34;)</pre></p><p>Returns 2011-12-03T15:30:30Z</p><p><pre>toDateTimeOnly(&#34;2011-12-03T15:15:30&#34;)</pre></p><p><pre> + toDuration(&#34;PT15M&#34;)</pre></p>Returns 2011-12-03T15:30:30<p><pre>now() + toDuration(&#34;PT1H&#34;)</pre></p><p>Returns a dateTime (with UTC timezone) one hour later from current time</p><p><pre>toDuration(&#34;PT1H&#34;) + toDuration(&#34;PT1H&#34;)</pre></p><p>Returns  PT2H</p></td></tr>
 </tbody>
 </table>
