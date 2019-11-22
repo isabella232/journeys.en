@@ -20,7 +20,7 @@ In Journey Orchestration, there are two types of users, each of them performing 
 
 Here are the main steps to configure and use Journey Orchestration:
 
-1. Configure an event
+1. **Configure an event**
 
     You need to define the expected information and how to process it. This configuration is mandatory. This step is performed by a **technical user**.
 
@@ -28,7 +28,7 @@ Here are the main steps to configure and use Journey Orchestration:
 
     ![](../assets/journey7.png)  
 
-1. Configure the data source
+1. **Configure the data source**
 
     You need to define a connection to a system to retrieve additional information that will be used in your journeys, for example in your conditions. A built-in Experience Platform data source is also configured at provisioning time. This step is not required if you only leverage data from the events in your journey. This step is performed by a **technical user**. 
 
@@ -36,7 +36,7 @@ Here are the main steps to configure and use Journey Orchestration:
     
     ![](../assets/journey22.png)  
 
-1. Configure an action
+1. **Configure an action**
 
     If you're using a third-party system to send your messages, you need to configure its connection with Journey Orchestration. See [Custom action configuration](../action/custom.md). 
 
@@ -46,7 +46,7 @@ Here are the main steps to configure and use Journey Orchestration:
 
     ![](../assets/custom2.png)  
 
-1. Design your journey
+1. **Design your journey**
 
      Combine the different event, orchestration and action activities to build your multi-step cross-channel scenarios. This step is performed by a **business user**. 
 
@@ -54,7 +54,7 @@ Here are the main steps to configure and use Journey Orchestration:
 
      ![](../assets/journeyuc2_24.png)
 
-1. Test and publish the journey
+1. **Test and publish the journey**
 
     You need to validate and activate the journey. This step is performed by a **business user**. 
 
@@ -62,7 +62,7 @@ Here are the main steps to configure and use Journey Orchestration:
 
     ![](../assets/journeyuc2_32bis.png)
 
-1. Monitor your journey
+1. **Monitor your journey**
 
     Use the dedicated reporting tools to measure your journey's effectiveness. This step is performed by a **business user**. 
 
