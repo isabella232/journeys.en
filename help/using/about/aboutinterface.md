@@ -1,5 +1,5 @@
 ---
-title: The Journey Orchestration' interface
+title: The user interface
 description: 
 page-status-flag: never-activated
 uuid: 269d590c-5a6d-40b9-a879-02f5033863fc
@@ -14,7 +14,7 @@ internal: n
 snippet: y
 ---
 
-# The Journeys' interface{#concept_rcq_lqt_52b}
+# User interface {#concept_rcq_lqt_52b}
 
 >[!NOTE]
 >
@@ -24,11 +24,15 @@ snippet: y
 
 ## Discovering the interface{#section_jsq_zr1_ffb}
 
-To access the Journey Orchestration' interface, click the **Journey Orchestration** shortcut in the Experience Cloud's solution switcher. It is displayed on the right side, below "Experience Platform".
+To access the Journey Orchestration's interface, click the **App selector** icon, in the top right. Then click **Journey Orchestration**, on the right side, below "Experience Platform".
 
 ![](../assets/journey1.png)  
 
-The top bar allows you to navigate through the different functionalities of Journey Orchestration: **Home** (the journeys), **Data Sources**, **Events**, **Actions**.
+You can also access Journey Orchestration from the Experience Cloud home page, in the **Quick access** section.
+
+![](../assets/journey1bis.png)  
+
+The top menus allows you to navigate through the different functionalities of Journey Orchestration: **Home** (the journeys), **Data Sources**, **Events**, **Actions**.
 
 ![](../assets/journey2.png)  
 
@@ -40,7 +44,7 @@ The **Filters** can be accessed by clicking on the filter icon on the top left o
 
 In the **Data Sources**, **Events** and **Actions** lists, use the **Creation filters** to filter on the creation date and user. You can choose, for example, to only display the events that you created in the past 30 days.
 
-In the journey list (under **Home**), in addition to the **Creation filters**, you can also filter the displayed journeys according to their status and version (**Status and version filters**). You can also choose to only display the journeys that use a particular event, field group or action (**Activity filters** and **Data filters**). The **Publication filters** let you select a publication date or user. You can choose, for example, to only display the latest versions of live journeys that were published yesterday. See [The journey designer's interface](../building-journeys/journeyinterface.md#concept_m1g_5qt_52b).
+In the journey list (under **Home**), in addition to the **Creation filters**, you can also filter the displayed journeys according to their status and version (**Status and version filters**). You can also choose to only display the journeys that use a particular event, field group or action (**Activity filters** and **Data filters**). The **Publication filters** let you select a publication date or user. You can choose, for example, to only display the latest versions of live journeys that were published yesterday. See [Using the journey designer](../building-journeys/journeyinterface.md#concept_m1g_5qt_52b).
 
 >[!NOTE]
 >
@@ -60,13 +64,17 @@ In the different lists, you can perform basic actions on each element. For examp
 
 Here are the different shortcuts available in the Journey Orchestration's interface.
 
+_In the list of journeys_
+
+* Press **c** to create a new journey.
+
 _When configuring an activity in a journey:_
 
 The canvas is automatically saved. You can see, on the top left of the canvas, the saving status.
 
 * Press **escape** to close the configuration pane and discard the changes made. This is the equivalent of the **Cancel** button.
 * Press **enter** or click outside the pane to close the configuration pane. Changes are saved. This is the equivalent of the **OK** button.
-* If you click **backspace**, you can then press **enter** to confirm the deletion.
+* If you press **delete** or **backspace**, you can then press **enter** to confirm the deletion.
 
 _In pop-ups:_
 
@@ -79,9 +87,12 @@ _In the event, data source or action configuration pane:_
 * Press **enter** to save modifications and close the configuration pane.
 * Press **tab** to jump between the different fields to configure.
 
+_In the simple expression editor_
+
+* Double-click on a field, on the ledt, to add a query (equivalent to drag & drop).
+
 _When browsing through XDM fields:_
 
-* Press and hold the **shift** key to perform multiple selection.
 * Checking a "node" will select all the fields of the node.
 
 _In all text areas:_
@@ -95,5 +106,5 @@ _In a screen with a search bar:_
 _In the canvas of a journey:_
 
 * Use the **Ctrl/Command + A** key combination to select all activities.
-* When one or several activities are selected, press **delete/backspace** to delete them. Then you can press **enter** to confirm in the confirmation pop-up.
+* When one or several activities are selected, press **delete** or **backspace** to delete them. Then you can press **enter** to confirm in the confirmation pop-up.
 * Double-click on an activity from the left palette to add it at the first available position (from top to bottom).

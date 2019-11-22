@@ -29,22 +29,22 @@ This configuration is not required if your journeys only leverage local data com
 
 There are two types of data sources:
 
-* The pre-configured Experience Platform data source that defines the connection to the Unified Profile Service. This is a built-in data source. See [Adobe Experience Platform data source](../datasource/dsplatform.md).
+* The pre-configured Experience Platform data source that defines the connection to the Real-time Customer Profile Service. This is a built-in data source. See [Adobe Experience Platform data source](../datasource/dsplatform.md).
 * The external data sources that allow you to define a connection to external systems. These are the ones you can create. See [External data sources](../datasource/dsexternal.md).
 
 For each data source, you define the information to retrieve using field groups. See [Field groups](../datasource/dsfield.md).
 
 Here are the main data source configuration steps:
 
-1. In the top menu, click the **Data Sources** tab. 
+1. In the top menu, click the **Data Sources** tab.
 
-    The list of data sources is displayed. See [The Journey Orchestration' interface](../about/aboutinterface.md) for more information on the interface.
+    The list of data sources is displayed. See [User interface](../about/aboutinterface.md) for more information on the interface.
 
     ![](../assets/journey18.png)
 
 1. Then you can either add field groups to the built-in data source (see [Adobe Experience Platform data source](../datasource/dsplatform.md#concept_zrb_nqt_52b)) or create a new external data source (see [External data sources](../datasource/dsexternal.md)) and associated field groups (see [Field groups](../datasource/dsfield.md)).
 
-    ![](../assets/journey22.png)
+    ![](../assets/journey23.png)
 
 1. Click **Save**. 
 

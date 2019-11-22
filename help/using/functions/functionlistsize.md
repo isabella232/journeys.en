@@ -38,7 +38,7 @@ List
 | List      | listDateTime     |
 | List      | listDateTimeOnly |
 
-## Signature and return type
+## Signatures and return type
 
 `listSize(<listInteger>)`
 

@@ -29,7 +29,7 @@ Here are the main steps to create and publish a journey.
 
 1. In the top menu, click the **Home** tab. 
 
-    The list of journeys is displayed. See [The journey designer's interface](../building-journeys/journeyinterface.md#concept_m1g_5qt_52b) for more information on the interface.
+    The list of journeys is displayed. See [Using the journey designer](../building-journeys/journeyinterface.md#concept_m1g_5qt_52b) for more information on the interface.
 
     ![](../assets/journey30.png)
 
@@ -37,7 +37,7 @@ Here are the main steps to create and publish a journey.
 
     ![](../assets/journey31.png)
 
-1. Edit the journey's properties in the configuration pane displayed on the right side. See [The journey's properties](../building-journeys/journeyproperty.md#concept_prq_wqt_52b).
+1. Edit the journey's properties in the configuration pane displayed on the right side. See [Changing properties](../building-journeys/journeyproperty.md#concept_prq_wqt_52b).
 
     ![](../assets/journey32.png)
 
@@ -50,7 +50,7 @@ Here are the main steps to create and publish a journey.
 
     ![](../assets/journey34.png)
 
-1. Your journey is automatically saved. Test your journey and publish it. See [Testing and publishing the journey](../building-journeys/journeypublication.md#concept_mtc_lrt_52b).
+1. Your journey is automatically saved. Test your journey and publish it. See [Testing the journey](../building-journeys/journeytesting.md) and [Publishing the journey](../building-journeys/journeypublication.md).
 
     ![](../assets/journey36.png)
 
@@ -61,7 +61,7 @@ There are two ways to end a journey:
 * The person arrives at the last activity of a path. This last activity can be an end activity or another activity. There is no obligation to end a path with an end activity. See [End activity](../building-journeys/end.md).
 * The person arrives at a condition activity (or a wait activity with a condition) and does not match any of the conditions.
 
-The person can then re-enter the journey if re-entrance is allowed. See [The journey's properties](../building-journeys/journeyproperty.md#concept_prq_wqt_52b).
+The person can then re-enter the journey if re-entrance is allowed. See [Changing properties](../building-journeys/journeyproperty.md#concept_prq_wqt_52b).
 
 ## Timezone management {#timezone_management}
 
@@ -72,7 +72,7 @@ Timezone definition is available in the following activities:
 * [custom wait](../building-journeys/wait.md#custom)
 * [fixed date wait](../building-journeys/wait.md#fixed_date)
 
-If the entry event of the journey has a namespace, meaning that the journey can reach the Unified Profile Service of the Data Platform, the timezone is pre-defined with the one specified in the profile of the individual flowing in the journey. If the individual's profile does not contain a timezone, the instance's timezone is used. You can contact your administrator to know the instance timezone.
+If the entry event of the journey has a namespace, meaning that the journey can reach the Real-time Customer Profile service of the Data Platform, the timezone is pre-defined with the one specified in the profile of the individual flowing in the journey. If the individual's profile does not contain a timezone, the instance's timezone is used. You can contact your administrator to know the instance timezone.
 
 ![](../assets/journey73.png)
 
@@ -80,7 +80,7 @@ The timezone can also be fixed. Clear the pre-defined timezone and pick one from
 
 ![](../assets/journey72.png)
 
-Finally, the timezone can be dynamic for each person entering the step. In this case, you will use the expression editor to select where you want the system to get this information (it can be from an event or a data source). See [Building advanced conditions](../expression/expressionadvanced.md#concept_uyj_trt_52b). The custom timezone must follow this [format](https://docs.oracle.com/javase/8/docs/api/java/time/ZoneId.html#of-java.lang.String-).
+Finally, the timezone can be dynamic for each person entering the step. In this case, you will use the expression editor to select where you want the system to get this information (it can be from an event or a data source). See [Using the advanced expression editor](../expression/expressionadvanced.md#concept_uyj_trt_52b). The custom timezone must follow this [format](https://docs.oracle.com/javase/8/docs/api/java/time/ZoneId.html#of-java.lang.String-).
 
 
 The start and end dates of a journey cannot be linked to a specific timezone. They are automatically associated to the instance's timezone.

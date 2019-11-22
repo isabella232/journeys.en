@@ -16,7 +16,7 @@ snippet: y
 
 # Troubleshooting{#concept_nlv_bcv_2fb}
 
-In this section, you will find how to troubleshoot journeys before testing or publishing. All the checks listed below can be performed when the journey is in test mode or when the journey is live. The recommendation is to make all the checks below in test mode and then proceed to publication. See [Testing your journey](../building-journeys/journeypublication.md).
+In this section, you will find how to troubleshoot journeys before testing or publishing. All the checks listed below can be performed when the journey is in test mode or when the journey is live. The recommendation is to make all the checks below in test mode and then proceed to publication. See [Testing your journey](../building-journeys/journeytesting.md).
 
 ## Checking for errors before testing{#section_h3q_kqk_fhb}
 

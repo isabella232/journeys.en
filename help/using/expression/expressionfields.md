@@ -19,14 +19,13 @@ snippet: y
 
 A field reference can be attached to an event or a field group. The only meaningful information is the name of the field and its path. 
 
-If you're using special characters in a field, you need to use double quotes. Here are the cases when quotes are needed:
+If you're using special characters in a field, you need to use double quotes or simple quotes. Here are the cases when quotes are needed:
 
 * the field starts with numerical characters
 * the field starts with the "-" character
 * the field contains anything other than: _a_-_z_, _A_-_Z_, _0_-_9_, _ , _-_
 
 For example if your field is _3h_: _#{OpenWeather.weatherData.rain.'3h'} > 0_
-
 
 ```
 
@@ -66,7 +65,7 @@ A default value can be associated to a field name. the syntax is as follows:
 
 **Parameter values of a data source (data source dynamic values)**
 
-If you select a field from an external data source requiring a parameter to be called, a new tab appears on the right to let you specify this parameter. See [Building advanced conditions](../expression/expressionadvanced.md#concept_uyj_trt_52b).
+If you select a field from an external data source requiring a parameter to be called, a new tab appears on the right to let you specify this parameter. See [Using the advanced expression editor](../expression/expressionadvanced.md#concept_uyj_trt_52b).
 
 For more complex use cases, if you want to include the parameters of the data source in the main expression, you can define their values using the keyword _params_. A parameter can be any valid expression even from another data source that also include another parameter.
 

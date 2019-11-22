@@ -1,6 +1,6 @@
 ---
-title: Action activities
-description: Learn about action activities
+title: Adobe Campaign actions
+description: Learn about Adobe Campaign actions
 page-status-flag: never-activated
 uuid: 269d590c-5a6d-40b9-a879-02f5033863fc
 contentOwner: sauviat
@@ -14,13 +14,13 @@ internal: n
 snippet: y
 ---
 
-# Using Adobe Campaign action {#using_campaign_action}
+# Using Adobe Campaign actions {#using_campaign_action}
 
 If you have Adobe Campaign Standard, the following out-of-the-box action activities are available: **Email**, **Push** and **SMS**. 
 
 >[!NOTE]
 >
->For this, you need to configure the built-in action. Refer to [Using Adobe Campaign Standard](../action/actioncampaign.md).
+>For this, you need to configure the built-in action. Refer to [Working with Adobe Campaign Standard](../action/actioncampaign.md).
 
 For each of these channels, you select an Adobe Campaign Standard Transactional Messaging **template**. Indeed, Journey Orchestration is not a message sending solution. For the built-in email, SMS and push channels, we rely on Transactional Messaging to execute message sending. It means that if you want to use a certain message template in your journeys, you must publish it in Adobe Campaign Standard. Refer to this [page](https://docs.adobe.com/content/help/en/campaign-standard/using/communication-channels/transactional-messaging/about-transactional-messaging.html) to learn how to use this feature.
 
@@ -32,7 +32,7 @@ You can use an event (also known as real-time) or profile transactional messagin
 >
 >When we send real-time transactional messages (rtEvent) or when we route messages with a third-party system thanks to a custom action, a specific setup is required for fatigue, blacklist or unsubscription management. For example, if an attribute "blacklist" or "unsubscribe" is stored in the Platform or in a third-party system, a condition will have to be added before the message sending to check this condition.
 
-When you select a template, all the fields expected in the message payload are displayed in the activity configuration pane under **Address** and **Personalization data**. You need to map each of these fields with the field you want to use, either from the event or from the data source. You can also use the advanced expression editor to pass a value manually, perform data manipulation on retrieved information (for example convert a string to uppercase) or use functions such as "if, then, else". See [Building advanced conditions](../expression/expressionadvanced.md#concept_uyj_trt_52b).
+When you select a template, all the fields expected in the message payload are displayed in the activity configuration pane under **Address** and **Personalization data**. You need to map each of these fields with the field you want to use, either from the event or from the data source. You can also use the advanced expression editor to pass a value manually, perform data manipulation on retrieved information (for example convert a string to uppercase) or use functions such as "if, then, else". See [Using the advanced expression editor](../expression/expressionadvanced.md#concept_uyj_trt_52b).
 
 ![](../assets/journey60.png)
 
@@ -48,7 +48,7 @@ First, you need to choose a transactional messaging template. See [Actions](../b
 
 Two categories are available: **Address** and **Personalization Data**.
 
-You can easily define where to retrieve the **Address** or the **Personalization Data** using the interface. You can browse through events and available data source’s fields. You can also use the advanced expression editor for more advanced use cases such as using a data source that requires the passing of parameters or performing manipulations. See [Building advanced conditions](../expression/expressionadvanced.md#concept_uyj_trt_52b). 
+You can easily define where to retrieve the **Address** or the **Personalization Data** using the interface. You can browse through events and available data source’s fields. You can also use the advanced expression editor for more advanced use cases such as using a data source that requires the passing of parameters or performing manipulations. See [Using the advanced expression editor](../expression/expressionadvanced.md#concept_uyj_trt_52b). 
 
 **Address**
 

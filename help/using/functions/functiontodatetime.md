@@ -36,7 +36,7 @@ Conversion
 
 >[!NOTE]
 >
->Time zone id must be a string constant. It cannot be a field reference nor an expression. For more informtation on data types, refer to [Constants](../expression/expressionconstants.md).
+>Time zone id must be a string constant. It cannot be a field reference nor an expression. For more informtation on data types, refer to [Data types](../expression/expressionconstants.md).
 
 ## Signatures and return types
 

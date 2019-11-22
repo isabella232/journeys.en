@@ -1,6 +1,6 @@
 ---
-title: The journey's properties
-description: Learn about the journey's properties
+title: changing properties
+description: Learn on how to change properties
 page-status-flag: never-activated
 uuid: 269d590c-5a6d-40b9-a879-02f5033863fc
 contentOwner: sauviat
@@ -15,7 +15,7 @@ snippet: y
 ---
 
 
-# The journey's properties {#concept_prq_wqt_52b}
+# Changing properties {#concept_prq_wqt_52b}
 
 Click on the pencil icon, in the top right to access the journey's properties.
 
@@ -43,4 +43,4 @@ Note that there is also a global journey timeout which is not displayed in the i
 >
 >Journey Orchestration does not directly react to privacy opt-out, access or delete requests. However, the global timeout ensures that individuals never stay more than 30 days in any journey. 
 
-Be aware that this global timeout erases all data on individuals including journey entrance information. This impacts journeys that do not allow re-entrance. When a person enters and finishes a journey, he cannot re-enter it during a period of 30 days. After that, the system erases all the individual's data and cannot forbid re-entrance.
+Due to the 30-day journey timeout, when journey re-entrance is not allowed, we cannot make sure the re-entrance blocking will work more than 30 days. Indeed, as we remove all information about persons who entered the journey 30 days after they enter, we cannot know the person entered previously, more than 30 days ago.

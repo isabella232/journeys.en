@@ -16,7 +16,13 @@ snippet: y
 
 # getBestSendTime {#getBestSendTime}
 
-Provides a predictive time of the best time for delivering an email to an individual.  To use this function, a [namespace](../event/eventnamespace.md) is needed.
+Provides a predictive time of the best time for delivering an email to an individual. 
+
+To use this function, a [namespace](../event/eventnamespace.md) is needed.
+
+>[!NOTE]
+>
+>Note that the  best send time score can be unavailable if there is not enough data to perform the calculation. In this case, you will be informed, at publication time, that the default time applies.
 
 ## Category
 

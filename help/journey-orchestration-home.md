@@ -11,20 +11,17 @@ topic: Premium
 
 ## Get started
 
-* **[Global user process](using/expression/expressionadvanced.md)**<br/>
-Discover the main steps to set up and use Journey Orchestration.
+* **[What is Journey Orchestration?](using/about/intro.md)**<br/>
+Learn more on Journey Orchestration.
 
-* **[Configuring your events](using/event/event.md#section_tbk_5qt_pgb)**<br/>
+* **[Build your first journey](using/about/aboutprocess.md)**<br/>
+Discover the main steps to set up Journey Orchestration and build your first journey.
+
+* **[Configure an event](using/event/event.md#section_tbk_5qt_pgb)**<br/>
 Learn how to configure the events that your journeys will listen to.
 
-* **[Configuring your data sources](using/datasource/ds.md)**<br/>
-Define the additional data that your journeys will use. 
-
-* **[Configuring your actions](using/action/action.md)**<br/>
-Set up the connection to the system that will send messages.
-
-* **[Building your journeys](using/building-journeys/journey.md)**<br/>
-Learn how to design and publish your journeys.
+* **[Grant access to Journey Orchestration](using/about/usermanagement.md)**<br/>
+Find out how to manage your users' access with security groups and roles. 
 
 ## Top pages
 
@@ -65,7 +62,8 @@ Learn how to design and publish your journeys.
 
 ## Additional Resources
 
-* [Unified Profile Service (UPS)](https://www.adobe.io/apis/cloudplatform/dataservices/profile-identity-segmentation/profile-identity-segmentation-services.html#!api-specification/markdown/narrative/technical_overview/unified_profile_architectural_overview/unified_profile_architectural_overview.md)
+* [Experience Platform](https://www.adobe.com/experience-platform/documentation-and-developer-resources.html)
+* [Real-time Customer Profile](https://www.adobe.io/apis/cloudplatform/dataservices/profile-identity-segmentation/profile-identity-segmentation-services.html#!api-specification/markdown/narrative/technical_overview/unified_profile_architectural_overview/unified_profile_architectural_overview.md)
 * [Experience Cloud XDM field definition](https://www.adobe.io/apis/cloudplatform/dataservices/xdm.html)
 * [Namespace Service](https://www.adobe.io/apis/cloudplatform/dataservices/profile-identity-segmentation/profile-identity-segmentation-services.html#!api-specification/markdown/narrative/technical_overview/identity_namespace_overview/identity_namespace_overview.md)
 * [Streaming Ingestion APIs](https://www.adobe.io/apis/cloudplatform/dataservices/data-ingestion/data-ingestion-services.html#!api-specification/markdown/narrative/technical_overview/streaming_ingest/getting_started_with_platform_streaming_ingestion.md)
