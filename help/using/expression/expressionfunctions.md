@@ -153,7 +153,7 @@ We want to check if a user has installed a specific version of an application. F
 
 The result is true.
 
-**"All + Count" example 2:** 
+**"All + Count" example 2:**
 
 Here we use the count function in a condition to see if there is push notification tokens in the collection.
 
@@ -329,7 +329,7 @@ Example for an action activity (for a field that expects a string as the result 
    ```
    if (startWithIgnoreCase(@{eventiOSPushPermissionAllowed.device.model}, 'iPad') or startWithIgnoreCase(@{eventiOSPushPermissionAllowed.device.model}, 'iOS'))
    then
-      ('APNS')
+      ('apns')
    else
-      ('FCM')
+      ('fcm')
    ```
