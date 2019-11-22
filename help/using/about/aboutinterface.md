@@ -24,11 +24,15 @@ snippet: y
 
 ## Discovering the interface{#section_jsq_zr1_ffb}
 
-To access the Journey Orchestration' interface, click the **Journey Orchestration** shortcut in the Experience Cloud's solution switcher. It is displayed on the right side, below "Experience Platform".
+To access the Journey Orchestration's interface, click the **App selector** icon, in the top right. Then click **Journey Orchestration**, on the right side, below "Experience Platform".
 
 ![](../assets/journey1.png)  
 
-The top bar allows you to navigate through the different functionalities of Journey Orchestration: **Home** (the journeys), **Data Sources**, **Events**, **Actions**.
+You can also access Journey Orchestration from the Experience Cloud home page, in the **Quick access** section.
+
+![](../assets/journey1bis.png)  
+
+The top menus allows you to navigate through the different functionalities of Journey Orchestration: **Home** (the journeys), **Data Sources**, **Events**, **Actions**.
 
 ![](../assets/journey2.png)  
 
