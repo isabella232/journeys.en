@@ -53,7 +53,8 @@ index: n
     + [About action activities](using/building-journeys/journeyaction.md)
     + [Using Adobe Campaign actions](using/building-journeys/journeyactioncampaign.md)
     + [Using a custom action](using/building-journeys/journeyactioncustom.md)
-  + [Testing and publishing the journey](using/building-journeys/journeypublication.md)
+  + [Testing the journey](using/building-journeys/journeytesting.md)
+  + [Publishing the journey](using/building-journeys/journeypublication.md)
   + [Terminating a journey](using/building-journeys/journeystop.md)
   + [Journey versions](using/building-journeys/journeyversions.md)
 + Using the advanced expression editor {#building-advanced-conditions-journeys}

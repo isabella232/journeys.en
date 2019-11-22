@@ -50,7 +50,7 @@ In the canvas, your action and event activities are represented by an icon with 
 
  ![](../assets/journey59bis.png)
 
-Depending on the journey's status, you can perform different actions on your journey using the buttons available in the top right corner: **Publish**, **Duplicate**, **Delete**, **Journey properties**, **Test**. These buttons appear when no activity is selected. Some buttons will appear contextually. The test mode log button appears when test mode is activated (see [Testing your journey](../building-journeys/journeypublication.md#section_ctr_lqk_fhb)). The reporting button appears when the journey is live, stopped or finished.
+Depending on the journey's status, you can perform different actions on your journey using the buttons available in the top right corner: **Publish**, **Duplicate**, **Delete**, **Journey properties**, **Test**. These buttons appear when no activity is selected. Some buttons will appear contextually. The test mode log button appears when test mode is activated (see [Testing your journey](../building-journeys/journeytesting.md)). The reporting button appears when the journey is live, stopped or finished.
 
  ![](../assets/journey41.png)
 

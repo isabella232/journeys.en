@@ -1,6 +1,6 @@
 ---
-title: Testing and publishing the journey
-description: Learn about testing and publishing the journey
+title: Publishing the journey
+description: Learn about publishing the journey
 page-status-flag: never-activated
 uuid: 269d590c-5a6d-40b9-a879-02f5033863fc
 contentOwner: sauviat
@@ -14,62 +14,9 @@ internal: n
 snippet: y
 ---
 
-# Testing and publishing the journey{#concept_mtc_lrt_52b}
+# Publishing the journey{#concept_mtc_lrt_52b}
 
-## Testing your journey {#section_ctr_lqk_fhb}
-
-Before being able to test your journey, you must resolve all errors if any. See [Checking for errors](../about/troubleshooting.md#section_h3q_kqk_fhb).
-
-You have the possibility to test your journey before its publication, using test profiles. This allows you to analyze how individuals flow in the journey and troubleshoot before publication.
-
-**Important notes:**
-
-* Events need to be sent to Journey Orchestration.
-* Only individuals flagged as "test profiles" in the Real-time Customer Profile Service will be allowed to enter the tested journey. The process to create a test profile is the same as the process to create a Profile in the Data Platform. You just have to make sure the test profile flag is true. You can use the Segments section in the Data Platform interface to create a segment of test profiles in your Data Platform and see a non-exhaustive list. The exhaustive list cannot be displayed for now.
-* The test mode is only available in draft journeys that use a namespace. Indeed, the test mode needs to check if a person entering the journey is a test profile or not and thus must be able to reach the Data Platform.
-* The maximum number of test profiles than can enter a journey during a test session is 100.
-* When you disable the test mode, it empties the journeys from all people who entered it in the past or who are currently in it.
-* You can enable/disable the test mode as many times as needed.
-* You cannot modify your journey when the test mode is activated. When in test mode, you can directly publish the journey, no need to deactivate the test mode before.
-
-To use the test mode, follow these steps:
-
-1. Before testing your journey, verify that it is valid and that there is no error. You won’t be able to launch a test of a journey with errors. See [Checking for errors](../about/troubleshooting.md#section_h3q_kqk_fhb). A warning symbol is displayed when there are errors.
-1. To activate the test mode, click on the **Test** toggle, located in the top right corner.
-
-    ![](../assets/journeytest1.png)
-
-1. Send events to the journey. Make sure to send events related to test profiles.
-1. After the events are received, click the **</>** button to view the test result.
-
-    ![](../assets/journeytest2.png)
-
-1. Verify the test result. This page displays the journey’s current information in JSON format. A button allows you to copy entire nodes. You need to refresh the page to update the journey’s test results.
-
-    ![](../assets/journeytest3.png)
-
-    The number of individuals (technically they are called instances) currently inside the journey are displayed. Here are examples of useful information that is displayed for each individual:
-
-    * _Id_: the individual’s internal ID in the journey. This can be used for debugging purposes.
-    * _currentstep_: the step where the individual is at in the journey. We recommend adding labels to your activities to identify them more easily.
-    * _currentstep_ > phase: the status of the individual’s journey (running, finished, error or timed out). See below for more information.
-    * _currentstep_ > _extraInfo_: description of the error and other contextual information.
-    * _externalKeys_: the value for the key formula defined in the event.
-    * _enrichedData_: the data that the journey has retrieved if the journey uses data sources.
-    * _transitionHistory_: the list of steps that the individual followed. For events, the payload is displayed.
-
-1. If there is any error, deactivate the test mode, modify your journey and test it again. When the test is conclusive, you can publish your journey. See [Publishing your journey](#section_w1b_mqk_fhb).
-
-Here are the different statuses of an individual's journey:
-
-* _Running_: the individual is currently in the journey.
-* _Finished_: the individual is at the end of the journey.
-* _Error_: the individual is stopped in the journey because of an error.
-* _Timed out_: the individual is stopped in the journey because of a step which took too much time.
-
-## Publishing your journey {#section_w1b_mqk_fhb}
-
-1. Before publishing your journey, verify that it is valid and that there is no error. You won't be able to publish a journey with errors. See [Checking for errors](../about/troubleshooting.md#section_h3q_kqk_fhb). It is also recommended to test your journey before publication. See [Testing your journey](#section_ctr_lqk_fhb).
+1. Before publishing your journey, verify that it is valid and that there is no error. You won't be able to publish a journey with errors. See [Checking for errors](../about/troubleshooting.md#section_h3q_kqk_fhb). It is also recommended to test your journey before publication. See [Testing the journey](../building-journeys/journeytesting.md).
 1. To publish the journey, click on the **Publish** option, located in the top right drop-down menu.
 
     ![](../assets/journeyuc1_18.png)
@@ -78,5 +25,11 @@ When the journey is published, it is in read-only mode.
 
 If you need to make modifications to a published journey, you need to create a new version of your journey. See [Journey versions](../building-journeys/journeyversions.md#concept_ldc_k55_zgb). When a journey is read-only, you can only modify the activity labels and descriptions, the journey's name and the journey's description.
 
-
 If you stop a journey, it will be permanently stopped. All the persons flowing in the journey will be permanently stopped and the journey will stop allowing new entrances. If you need to use the journey again, you need to duplicate it and publish it.
+
+Here are the different statuses of an individual's journey:
+
+* _Running_: the individual is currently in the journey.
+* _Finished_: the individual is at the end of the journey.
+* _Error_: the individual is stopped in the journey because of an error.
+* _Timed out_: the individual is stopped in the journey because of a step which took too much time.

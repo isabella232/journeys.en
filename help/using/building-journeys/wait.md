@@ -66,6 +66,8 @@ This type of wait uses a score calculated in the Platform. The score calculates 
 
 >[!NOTE]
 >
+>The first event of jour journey must have a namespace.
+>
 >This capability is only available after an **Email** activity. You need to have Adobe Campaign Standard.
 
 1. In the **Amount of time** field, define the number of hours to consider to optimize email sending.

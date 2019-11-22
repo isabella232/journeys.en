@@ -50,7 +50,7 @@ Here are the main steps to create and publish a journey.
 
     ![](../assets/journey34.png)
 
-1. Your journey is automatically saved. Test your journey and publish it. See [Testing and publishing the journey](../building-journeys/journeypublication.md#concept_mtc_lrt_52b).
+1. Your journey is automatically saved. Test your journey and publish it. See [Testing the journey](../building-journeys/journeytesting.md) and [Publishing the journey](../building-journeys/journeypublication.md).
 
     ![](../assets/journey36.png)
 
