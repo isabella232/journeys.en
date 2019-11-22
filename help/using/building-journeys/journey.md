@@ -72,7 +72,7 @@ Timezone definition is available in the following activities:
 * [custom wait](../building-journeys/wait.md#custom)
 * [fixed date wait](../building-journeys/wait.md#fixed_date)
 
-If the entry event of the journey has a namespace, meaning that the journey can reach the Unified Profile Service of the Data Platform, the timezone is pre-defined with the one specified in the profile of the individual flowing in the journey. If the individual's profile does not contain a timezone, the instance's timezone is used. You can contact your administrator to know the instance timezone.
+If the entry event of the journey has a namespace, meaning that the journey can reach the Real-time Customer Profile service of the Data Platform, the timezone is pre-defined with the one specified in the profile of the individual flowing in the journey. If the individual's profile does not contain a timezone, the instance's timezone is used. You can contact your administrator to know the instance timezone.
 
 ![](../assets/journey73.png)
 

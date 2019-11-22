@@ -29,7 +29,7 @@ This configuration is not required if your journeys only leverage local data com
 
 There are two types of data sources:
 
-* The pre-configured Experience Platform data source that defines the connection to the Unified Profile Service. This is a built-in data source. See [Adobe Experience Platform data source](../datasource/dsplatform.md).
+* The pre-configured Experience Platform data source that defines the connection to the Real-time Customer Profile Service. This is a built-in data source. See [Adobe Experience Platform data source](../datasource/dsplatform.md).
 * The external data sources that allow you to define a connection to external systems. These are the ones you can create. See [External data sources](../datasource/dsexternal.md).
 
 For each data source, you define the information to retrieve using field groups. See [Field groups](../datasource/dsfield.md).

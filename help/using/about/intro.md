@@ -33,7 +33,7 @@ You then create conditions based on:
 
 * time
 * data coming from the event payload
-* information coming from data sources: Unified Profile data source or custom data sources
+* information coming from data sources: Real-time Customer Profile data source or custom data sources
 
 You can use the split condition to send people in the journey into different directions.
 
@@ -44,11 +44,3 @@ As Journey Orchestration is multistep, you can create advanced scenarios. For ex
 >[!NOTE]
 >
 >This documentation is frequently updated to reflect recent changes in the product. However, some screenshots can slightly differ from the product's interface. 
-
-**Related topics** 
-
-* [Unified Profile Service (UPS)](https://www.adobe.io/apis/cloudplatform/dataservices/profile-identity-segmentation/profile-identity-segmentation-services.html#!api-specification/markdown/narrative/technical_overview/unified_profile_architectural_overview/unified_profile_architectural_overview.md)
-* [Experience Cloud XDM field definition](https://www.adobe.io/apis/cloudplatform/dataservices/xdm.html)
-* [Namespace Service](https://www.adobe.io/apis/cloudplatform/dataservices/profile-identity-segmentation/profile-identity-segmentation-services.html#!api-specification/markdown/narrative/technical_overview/identity_namespace_overview/identity_namespace_overview.md)
-* [Streaming Ingestion APIs](https://www.adobe.io/apis/cloudplatform/dataservices/data-ingestion/data-ingestion-services.html#!api-specification/markdown/narrative/technical_overview/streaming_ingest/getting_started_with_platform_streaming_ingestion.md)
-* [Adobe Campaign Standard transactional messaging](https://docs.adobe.com/content/help/en/campaign-standard/using/communication-channels/transactional-messaging/about-transactional-messaging.html)
