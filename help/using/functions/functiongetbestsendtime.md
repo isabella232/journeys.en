@@ -18,7 +18,7 @@ snippet: y
 
 Provides a predictive time of the best time for delivering an email to an individual. 
 
-This function uses a score calculated in the Platform. The score calculates the propensity to click or open an email in the future based on past behavior. Note that the algorithm calculating the score needs a certain amount of data to work. As a result, when it does not have enough data, the default time will apply. For more information, see [Wait activity](../building-journeys/wait.md)
+This function uses a score calculated in the Platform. The score calculates the propensity to click or open an email in the future based on past behavior. Note that the algorithm calculating the score needs a certain amount of data to work. As a result, when it does not have enough data, the default time will apply. For more information, see [Wait activity](../building-journeys/wait.md).
 
 To use this function, a [namespace](../event/eventnamespace.md) is needed.
 
