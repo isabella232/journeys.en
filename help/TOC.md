@@ -38,23 +38,25 @@ index: n
     + [Configuring the authentication](using/action/customauthentication.md)
     + [Defining the message parameters](using/action/customparameters.md)
 + Building a journey {#building-journeys}
-  + [About journey building](using/building-journeys/journey.md)
-  + [Using the journey designer](using/building-journeys/journeyinterface.md)
-  + [Changing properties](using/building-journeys/journeyproperty.md)
-  + [Events activities](using/building-journeys/journeyevent.md)
-  + Orchestration activities {#orchestration-activities}
-    + [About orchestration activities](using/building-journeys/journeyorchestration.md)
-    + [Condition activity](using/building-journeys/condition.md)
-    + [End activity](using/building-journeys/end.md)
-    + [Wait activity](using/building-journeys/wait.md)
-  + Action activities {#action-activities}
-    + [About action activities](using/building-journeys/journeyaction.md)
-    + [Using Adobe Campaign actions](using/building-journeys/journeyactioncampaign.md)
-    + [Using custom actions](using/building-journeys/journeyactioncustom.md)
+  + About journey building {#about-journey-building}
+    + [Quick start](using/building-journeys/journey.md)
+    + [Using the journey designer](using/building-journeys/journeyinterface.md)
+    + [Changing properties](using/building-journeys/journeyproperty.md)
+    + [Journey versions](using/building-journeys/journeyversions.md)
+    + [Terminating a journey](using/building-journeys/journeystop.md)
+  + Activities {#about-journey-building}
+    + [Events activities](using/building-journeys/journeyevent.md)
+    + Orchestration activities {#orchestration-activities}
+      + [About orchestration activities](using/building-journeys/journeyorchestration.md)
+      + [Condition activity](using/building-journeys/condition.md)
+      + [End activity](using/building-journeys/end.md)
+      + [Wait activity](using/building-journeys/wait.md)
+    + Action activities {#action-activities}
+      + [About action activities](using/building-journeys/journeyaction.md)
+      + [Using Adobe Campaign actions](using/building-journeys/journeyactioncampaign.md)
+      + [Using custom actions](using/building-journeys/journeyactioncustom.md)
   + [Testing the journey](using/building-journeys/journeytesting.md)
   + [Publishing the journey](using/building-journeys/journeypublication.md)
-  + [Terminating a journey](using/building-journeys/journeystop.md)
-  + [Journey versions](using/building-journeys/journeyversions.md)
 + Using the advanced expression editor {#building-advanced-conditions-journeys}
   + [About advanced expressions](using/expression/expressionadvanced.md)
   + [Generalities](using/expression/expressiongeneralities.md)
