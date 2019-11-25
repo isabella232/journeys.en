@@ -38,7 +38,7 @@ Date
 
 `nowWithDelta(<delta>,<date part>`
 
-`nowWithDelta(<delta>,<date part>,"<timezone id>")`
+`nowWithDelta(<delta>,<date part>,"<timeZone id>")`
 
 Returns a dateTime.
 
