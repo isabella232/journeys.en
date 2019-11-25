@@ -18,41 +18,40 @@ snippet: y
 
 ## About access management {#about-access-management}
 
-Security groups are assigned to a set of users that share the same roles and rights within your organization.
+Product profiles are assigned to a set of users that share the same rights within your organization.
 
-In the Admin console, you can assign one of the following out-of-the-box security groups to your users:
+In the Admin console, you can assign one of the following out-of-the-box product profiles to your users:
 
-*   **[!UICONTROL Limited Access User]**: User with read only access to journeys, events and reports. This security group includes the following roles:
+*   **[!UICONTROL Limited Access User]**: User with read only access to journeys and reports. This product profile includes the following rights:
     *   Read journeys
-    *   Read events and resources
     *   Read reports
-*   **[!UICONTROL Administrators]**: User with access to the administration menus with the possibility to manage journeys, events and reports. This security group includes the following roles:
+
+*   **[!UICONTROL Administrators]**: User with access to the administration menus with the possibility to manage journeys, events and reports. This product profile includes the following rights:
     *   Manage and execute journeys
-    *   Manage events, resources, and keys
+    *   Manage events, data sources and action
     *   Manage reports
 
     >[!NOTE]
     >
-    >**[!UICONTROL Administrators]** is the only security group allowing creation, edition and publication of transactional messaging which allows message sending for Journey Orchestration.
+    >**[!UICONTROL Administrators]** is the only product profile allowing creation, edition and publication of transactional messaging which allows message sending for Journey Orchestration.
 
-*   **[!UICONTROL Standard User]**: User with basics access such as manage journeys. This security group includes the following roles:
+*   **[!UICONTROL Standard User]**: User with basics access such as manage journeys. This product profile includes the following rights:
     *   Manage and execute journeys
-    *   Read events and resources
     *   Manage reports
     
-You can find [](../assets/acs_rights_journeys.pdf) the compatibility between roles and Journey Orchestration's different functionalities.
+You can find [](../assets/acs_rights_journeys.pdf) the compatibility between rights and Journey Orchestration's different functionalities.
 
-## Assigning a security group {#assigning-security-group}
+## Assigning a product profile {#assigning-product-profile}
 
-Security groups are managed in the Admin console. For more on this, refer to the [Admin Console documentation](https://helpx.adobe.com/enterprise/managing/user-guide.html).
+Product profiles are managed in the Admin console. For more on this, refer to the [Admin Console documentation](https://helpx.adobe.com/enterprise/managing/user-guide.html).
 
-To assign a security group for a user to access Journey Orchestration:
+To assign a product profile for a user to access Journey Orchestration:
 
 1. In the Admin Console, select **[!UICONTROL Journey orchestration]**.
 
     ![](../assets/user_management.png)
 
-1. Select the security group to which your new user will be linked to.
+1. Select the product profile to which your new user will be linked to.
 
     ![](../assets/user_management_2.png)
 
