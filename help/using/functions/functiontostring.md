@@ -30,7 +30,6 @@ Conversion
 
 |Parameter|Description|
 |--- |--- |
-|string|idempotent|
 |dateTime|converts the date in UTC date format|
 |dateTimeOnly|converts the date in UTC date format|
 |duration|convert into the corresponding number of milliseconds as a string|
@@ -48,8 +47,6 @@ Conversion
 `toString(<duration>)`
 
 `toString(<timeZone>)`
-
-`toString(<string>)`
 
 `toString(<boolean>)`
 
