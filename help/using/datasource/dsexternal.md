@@ -139,9 +139,9 @@ The format of this authentication is:
     "authorizationType": "<value in 'bearer', 'header' or 'queryParam'>",
     (optional, mandatory if authorizationType is 'header' or 'queryParam') "tokenTarget": "<name of the header or queryParam if the authorizationType is 'header' or 'queryParam'>",
     "endpoint": "<URL of the authentication endpoint>",
-    "method": "&lt;HTTP method to call the authentication endpoint, in 'GET' or 'POST'>",
+    "method": "<HTTP method to call the authentication endpoint, in 'GET' or 'POST'>",
     (optional) "headers: {
-        "<header name>": "&lt;header value>",
+        "<header name>": "<header value>",
         ...
     },
     (optional, mandatory if method is 'POST') "body": {
