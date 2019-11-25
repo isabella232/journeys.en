@@ -8,6 +8,7 @@ index: n
 # Journey Orchestration Help {#using}
 
 + [Product documentation](journey-orchestration-home.md)
++ [Release Notes](using/release-notes/release-notes.md)
 + Starting with Journey Orchestration {#starting-with-journeys}
   + [About Journey Orchestration](using/about/intro.md)
   + [Get started](using/about/aboutprocess.md)
