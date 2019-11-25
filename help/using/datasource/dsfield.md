@@ -33,7 +33,7 @@ The number of journeys that use a field group is displayed in the **Used in** fi
 
 >[!NOTE]
 >
->Note that if a field group has 0 fields, it won’t be displayed in the expression editor.
+>Note that if a field group has no field, it won’t be displayed in the expression editor.
 
  ![](../assets/journey3bis.png)
 
