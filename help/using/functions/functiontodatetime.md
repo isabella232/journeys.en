@@ -50,7 +50,7 @@ Return a **dateTime**.
 
 <!--`toDateTime(<year>,<month>,<dayOfMonth>,<hour>,<minute>,<second>)`
 
-Returns a date time with default timezone UTC.
+Returns a date time with default time zone UTC.
 
 `toDateTime(<year>,<month>,<dayOfMonth>)`
 `toDateTime(<stringified timeZone>,<year>,<month>,<dayOfMonth>)`

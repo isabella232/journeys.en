@@ -42,7 +42,7 @@ Returns a datetime.
 
 `setHours(<dateTimeOnly>,<integer>)`
 
-Returns a datetime without considering timezone.
+Returns a datetime without considering time zone.
 
 ## Examples
 

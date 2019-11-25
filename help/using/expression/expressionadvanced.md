@@ -30,7 +30,7 @@ _The advanced expression editor interface_
 The advanced expression editor can be used to:
 
 * create advanced conditions on data sources and event information
-* define custom timezones in date conditions, fixed date wait activities, custom wait activities
+* define custom time zones in date conditions, fixed date wait activities, custom wait activities
 * define custom wait activities
 * define action parameters mapping
 
@@ -50,7 +50,7 @@ You can access the query editor in different ways:
 
     ![](../assets/journeyuc2_33.png)
 
-* When you create a custom timezone or a custom timer, the advanced editor will be directly displayed.
+* When you create a custom time zone or a custom timer, the advanced editor will be directly displayed.
 * When you map action parameters you can access it by clicking on **Advanced mode**.
 
 ## Discovering the interface{#section_otq_tnj_cjb}

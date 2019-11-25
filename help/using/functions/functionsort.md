@@ -55,7 +55,7 @@ Returns a list of strings.
 
 `sort(<listDateTimeOnly>,<boolean>)`
 
-Returns a list of datetimes without considering timezone.
+Returns a list of datetimes without considering time zone.
 
 `sort(<listDateTime>,<boolean>)`
 

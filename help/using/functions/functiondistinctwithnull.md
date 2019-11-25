@@ -54,7 +54,7 @@ Returns a list of strings.
 
 `distinctWithNull(<listDateTimeOnly>)`
 
-Returns a list of datetimes without considering timezone.
+Returns a list of datetimes without considering time zone.
 
 `distinctWithNull(<listDateTime>)`
 

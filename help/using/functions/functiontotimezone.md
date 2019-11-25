@@ -16,7 +16,7 @@ snippet: y
 
 # toTimeZone {#toTimeZone}
 
-Converts a string value to a timezone.
+Converts a string value to a time zone.
 
 ## Category
 
@@ -36,7 +36,7 @@ Conversion
 
 `toTimeZone(<string>)`
 
-Returns a timezone.
+Returns a time zone.
 
 ## Examples
 

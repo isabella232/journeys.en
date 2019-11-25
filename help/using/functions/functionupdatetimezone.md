@@ -28,7 +28,7 @@ Date
 
 ## Parameters
 
-* timezone id: string
+* time zone id: string
 * dateTime
 
 ## Signature and return type
