@@ -1,6 +1,6 @@
 ---
 title: Configuring the events
-description: Learn how to configure the events for journey advanced use case
+description: Learn how to configure the events for the journey advanced use case
 page-status-flag: never-activated
 uuid: 269d590c-5a6d-40b9-a879-02f5033863fc
 contentOwner: sauviat

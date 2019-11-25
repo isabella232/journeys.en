@@ -1,6 +1,6 @@
 ---
 title: Working with Adobe Campaign
-description: Learn about Adobe Campaign action
+description: Learn about Adobe Campaign actions
 page-status-flag: never-activated
 uuid: 269d590c-5a6d-40b9-a879-02f5033863fc
 contentOwner: sauviat

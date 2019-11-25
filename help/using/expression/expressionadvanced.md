@@ -1,6 +1,6 @@
 ---
 title: Using the advanced expression editor
-description: Learn how to build advanced conditions
+description: Learn how to build advanced expressions
 page-status-flag: never-activated
 uuid: 269d590c-5a6d-40b9-a879-02f5033863fc
 contentOwner: sauviat

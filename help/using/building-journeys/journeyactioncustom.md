@@ -1,5 +1,5 @@
 ---
-title: Action activities
+title: Using custom actions
 description: Learn about action activities
 page-status-flag: never-activated
 uuid: 269d590c-5a6d-40b9-a879-02f5033863fc
@@ -14,7 +14,7 @@ internal: n
 snippet: y
 ---
 
-# Custom actions {#section_f2c_hbg_nhb}
+# Using custom actions {#section_f2c_hbg_nhb}
 
 If you're using a custom action, you will see, in read-only, the **URL Configuration** and **Authentication** parameters defined in the action configuration screen (see [](../action/custom.md)).
 

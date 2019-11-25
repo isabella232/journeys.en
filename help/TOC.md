@@ -22,7 +22,7 @@ index: n
   + [Defining the event key](using/event/eventkey.md)
   + [Adding a condition](using/event/eventcondition.md)
   + [Previewing the payload](using/event/eventpayloadpreview.md)
-  + [Additional steps to receive events](using/event/eventsteps.md)
+  + [Additional steps to send events](using/event/eventsteps.md)
 + Configuring a data source {#data-source-journeys}
   + [About data sources](using/datasource/ds.md)
   + [Field groups](using/datasource/dsfield.md)
@@ -50,19 +50,19 @@ index: n
   + Action activities {#action-activities}
     + [About action activities](using/building-journeys/journeyaction.md)
     + [Using Adobe Campaign actions](using/building-journeys/journeyactioncampaign.md)
-    + [Using a custom action](using/building-journeys/journeyactioncustom.md)
+    + [Using custom actions](using/building-journeys/journeyactioncustom.md)
   + [Testing the journey](using/building-journeys/journeytesting.md)
   + [Publishing the journey](using/building-journeys/journeypublication.md)
   + [Terminating a journey](using/building-journeys/journeystop.md)
   + [Journey versions](using/building-journeys/journeyversions.md)
 + Using the advanced expression editor {#building-advanced-conditions-journeys}
-  + [About advanced conditions](using/expression/expressionadvanced.md)
+  + [About advanced expressions](using/expression/expressionadvanced.md)
   + [Generalities](using/expression/expressiongeneralities.md)
   + [Data types](using/expression/expressionconstants.md)
   + [Field references](using/expression/expressionfields.md)
   + [Operators](using/expression/expressionoperators.md)
   + [Functions](using/expression/expressionfunctions.md)
-  + Main functions {#main-functions-journey}
+  + Function details {#main-functions-journey}
     + Adobe Experience Platform {#adobe-experience-platform}
       + [getBestSendTime](using/functions/functiongetbestsendtime.md)
       + [inSegment](using/functions/functioninsegment.md)
@@ -137,16 +137,16 @@ index: n
   + [Metrics and dimensions](using/reporting/reportingdimensions.md)
 + Use cases{#use-cases-journeys}
   + Simple use case{#use-case-simple}
-    + [Introduction](using/usecase/uc1intro.md)
-    + [Pre-requisites](using/usecase/uc1prereq.md)
+    + [About the simple use case](using/usecase/uc1intro.md)
+    + [Simple use case pre-requisites](using/usecase/uc1prereq.md)
     + [Configuring the event](using/usecase/uc1event.md)
     + [Configuring the data source](using/usecase/uc1ds.md)
     + [Building the journey](using/usecase/uc1journey.md)
   + Advanced use case{#use-case-advanced}
-    + [Introduction](using/usecase/uc2intro.md)
-    + [Pre-requisites](using/usecase/uc2prereq.md)
+    + [About the advanced use case](using/usecase/uc2intro.md)
+    + [Advanced use case Pre-requisites](using/usecase/uc2prereq.md)
     + [Configuring the events](using/usecase/uc2event.md)
-    + [Configuring the data source](using/usecase/uc2ds.md)
+    + [Configuring the data sources](using/usecase/uc2ds.md)
     + [Building the journey](using/usecase/uc2journey.md)
   + [Leveraging fatigue scores](using/usecase/uc3.md)
   

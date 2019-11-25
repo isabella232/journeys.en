@@ -1,5 +1,5 @@
 ---
-title: Dimensions and metrics available for Journey Orchestration
+title: Metrics and dimensions
 description: Learn about dimensions and metrics available for Journey Orchestration
 page-status-flag: never-activated
 uuid: 269d590c-5a6d-40b9-a879-02f5033863fc

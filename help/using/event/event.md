@@ -1,5 +1,5 @@
 ---
-title: Configuring an event
+title: About events
 description: Learn how to configure an event
 page-status-flag: never-activated
 uuid: 269d590c-5a6d-40b9-a879-02f5033863fc
@@ -14,7 +14,7 @@ internal: n
 snippet: y
 ---
 
-# Configuring an event {#concept_gfj_fqt_52b}
+# About events {#concept_gfj_fqt_52b}
 
 An event is linked to a person. It relates to the behavior of a person (for example, a person bought a product, visited a shop, exited a website, etc.) or something happening linked to a person (for example, a person reached 10 000 loyalty points). This is what Journey Orchestration will listen to in journeys to orchestrate the best next actions.
 

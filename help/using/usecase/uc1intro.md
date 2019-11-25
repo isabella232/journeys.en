@@ -1,6 +1,6 @@
 ---
-title: Simple use-case
-description: Journey simple use-case
+title: About the simple use case
+description: Lean more on the journey simple use-case
 page-status-flag: never-activated
 uuid: 269d590c-5a6d-40b9-a879-02f5033863fc
 contentOwner: sauviat
@@ -14,7 +14,7 @@ internal: n
 snippet: y
 ---
 
-# About this use case {#concept_grh_vby_w2b}
+# About the simple use case {#concept_grh_vby_w2b}
 
 Let's take the example of a hotel brand named Marlton. In their hotels, they have positioned beacon devices near all the strategic areas: lobby, floors, restaurant, gym, pool, etc.
 

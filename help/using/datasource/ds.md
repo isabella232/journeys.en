@@ -1,5 +1,5 @@
 ---
-title: Configuring a data source 
+title: About data sources
 description: Learn how to configure a data source 
 page-status-flag: never-activated
 uuid: 269d590c-5a6d-40b9-a879-02f5033863fc
@@ -14,7 +14,7 @@ internal: n
 snippet: y
 ---
 
-# Configuring a data source {#concept_s1s_dqt_52b}
+# About data sources {#concept_s1s_dqt_52b}
 
 The data source configuration is always performed by a **technical user**.
 

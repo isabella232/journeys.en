@@ -1,6 +1,6 @@
 ---
-title: Testing and publishing the journey
-description: Learn about testing and publishing the journey
+title: Testing the journey
+description: Learn about journey testing 
 page-status-flag: never-activated
 uuid: 269d590c-5a6d-40b9-a879-02f5033863fc
 contentOwner: sauviat

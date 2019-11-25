@@ -1,5 +1,5 @@
 ---
-title: Action activities
+title: About action activities
 description: Learn about action activities
 page-status-flag: never-activated
 uuid: 269d590c-5a6d-40b9-a879-02f5033863fc
@@ -14,7 +14,7 @@ internal: n
 snippet: y
 ---
 
-# Action activities {#concept_hbj_hrt_52b}
+# About action activities {#concept_hbj_hrt_52b}
 
 From the palette, on the left-hand side of the screen, below **Events** and **Orchestration**, you will find the **Actions** category.
 

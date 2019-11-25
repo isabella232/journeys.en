@@ -1,5 +1,5 @@
 ---
-title: Building a journey
+title: About journey building
 description: Learn how to build a journey
 page-status-flag: never-activated
 uuid: 269d590c-5a6d-40b9-a879-02f5033863fc
@@ -15,7 +15,7 @@ snippet: y
 ---
 
 
-# Building a journey {#concept_gq5_sqt_52b}
+# About journey building {#concept_gq5_sqt_52b}
 
 This step is performed by the **business user**. This is where you create your journeys. Combine the different event, orchestration and action activities to build your multi-step cross-channel scenarios.
 
