@@ -16,7 +16,7 @@ snippet: y
 
 # nowWithDelta {#nowWithDelta}
 
-Returns the current datetime including an offset. If a time zone id is specified, the time zone offset will be applied. For more informtation on data types, refer to [Data types](../expression/expressionconstants.md).
+Returns the current datetime including an offset. If a time zone id is specified, the time zone offset will be applied. For more informtation on data types, refer to [](../expression/expressionconstants.md).
 
 ## Category
 
@@ -32,7 +32,7 @@ Date
 |--- |--- |
 |delta|positive or negative integer value|
 |date part|years,months,days,hours,minutes or seconds as a string|
-|timezone id|string representation of the timezone value. For more, see [Data types](../expression/expressionconstants.md).Timezone id must be a string constant. It cannot be a field reference nor an expression.|
+|timezone id|string representation of the timezone value. For more, see [](../expression/expressionconstants.md).Timezone id must be a string constant. It cannot be a field reference nor an expression.|
 
 ## Signatures and return type
 

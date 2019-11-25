@@ -44,7 +44,7 @@ The **Filters** can be accessed by clicking on the filter icon on the top left o
 
 In the **Data Sources**, **Events** and **Actions** lists, use the **Creation filters** to filter on the creation date and user. You can choose, for example, to only display the events that you created in the past 30 days.
 
-In the journey list (under **Home**), in addition to the **Creation filters**, you can also filter the displayed journeys according to their status and version (**Status and version filters**). You can also choose to only display the journeys that use a particular event, field group or action (**Activity filters** and **Data filters**). The **Publication filters** let you select a publication date or user. You can choose, for example, to only display the latest versions of live journeys that were published yesterday. See [Using the journey designer](../building-journeys/journeyinterface.md#concept_m1g_5qt_52b).
+In the journey list (under **Home**), in addition to the **Creation filters**, you can also filter the displayed journeys according to their status and version (**Status and version filters**). You can also choose to only display the journeys that use a particular event, field group or action (**Activity filters** and **Data filters**). The **Publication filters** let you select a publication date or user. You can choose, for example, to only display the latest versions of live journeys that were published yesterday. See [](../building-journeys/journeyinterface.md#concept_m1g_5qt_52b).
 
 >[!NOTE]
 >

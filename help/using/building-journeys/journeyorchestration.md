@@ -18,8 +18,8 @@ snippet: y
 
 From the palette, on the left-hand side of the screen, the following orchestration activities are available: 
 
-* [Condition activity](../building-journeys/condition.md)
-* [End activity](../building-journeys/end.md) 
-* [Wait activity](../building-journeys/wait.md) 
+* [](../building-journeys/condition.md)
+* [](../building-journeys/end.md) 
+* [](../building-journeys/wait.md) 
 
 ![](../assets/journey49.png)

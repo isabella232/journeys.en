@@ -27,7 +27,7 @@ The **business user** can now build the journey. Our journey will only include o
 >
 >The **Push** and **Email** activities are only available in the palette if you have Adobe Campaign Standard.
 
-For additional information on how to build a journey, refer to [Building a journey](../building-journeys/journey.md#concept_gq5_sqt_52b).
+For additional information on how to build a journey, refer to [](../building-journeys/journey.md#concept_gq5_sqt_52b).
 
 1. In the top menu, click the **Home** tab and **Create** to create a new journey.
 
@@ -69,7 +69,7 @@ For additional information on how to build a journey, refer to [Building a journ
 
     ![](../assets/journeyuc1_17.png)
 
-1. Click on the **Test** toggle and test your journey using test profiles. If there is any error, deactivate the test mode, modify your journey and test it again. For more information on the test mode, refer to [Testing your journey](../building-journeys/journeytesting.md). 
+1. Click on the **Test** toggle and test your journey using test profiles. If there is any error, deactivate the test mode, modify your journey and test it again. For more information on the test mode, refer to [](../building-journeys/journeytesting.md). 
 
     ![](../assets/journeyuc1_18bis.png)
 

@@ -16,7 +16,7 @@ snippet: y
 
 # Events activities {#concept_rws_1rt_52b}
 
-The events configured by the technical user (see [Configuring an event](../event/event.md#concept_gfj_fqt_52b)) are all displayed in the first category of the palette, on the left side of the screen.
+The events configured by the technical user (see [](../event/event.md#concept_gfj_fqt_52b)) are all displayed in the first category of the palette, on the left side of the screen.
 
  ![](../assets/journey43.png)
 
@@ -30,7 +30,7 @@ When you click on the event activity in the canvas, the activity configuration p
 
 ## General events {#section_ofg_jss_dgb}
 
-For this type of event, you can only add a label and a description. The rest of the configuration cannot be edited. It was performed by the technical user. See [Configuring an event](../event/event.md#concept_gfj_fqt_52b). 
+For this type of event, you can only add a label and a description. The rest of the configuration cannot be edited. It was performed by the technical user. See [](../event/event.md#concept_gfj_fqt_52b). 
 
 ## Reaction events {#section_dhx_gss_dgb}
 
@@ -40,7 +40,7 @@ You can also use this mechanism to perform an action when there is no reaction t
 
 Note that you can only use a reaction activity in the canvas if there is an email, push or SMS activity before.
 
-See [Action activities](../building-journeys/journeyaction.md#concept_hbj_hrt_52b).
+See [](../building-journeys/journeyaction.md#concept_hbj_hrt_52b).
 
  ![](../assets/journey45.png)
 

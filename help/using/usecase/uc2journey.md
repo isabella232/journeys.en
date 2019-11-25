@@ -28,7 +28,7 @@ The **business user** can now build the journey. Our journey will include the fo
 >
 >The **Push** and **Email** activities are only available in the palette if you have Adobe Campaign Standard.
 
-For additional information on how to build a journey, refer to [Building a journey](../building-journeys/journey.md#concept_gq5_sqt_52b).
+For additional information on how to build a journey, refer to [](../building-journeys/journey.md#concept_gq5_sqt_52b).
 
 ## First steps{#section_ntb_ws1_ffb}
 
@@ -78,7 +78,7 @@ For additional information on how to build a journey, refer to [Building a journ
     >
     >In the second part of expression, "Profile" is optional.
 
-1. We need to select a namespace. A namespace is preselected based on schema properties. You can keep the one preselected. For more information on namespaces, see [Selecting the namespace](../event/eventnamespace.md#concept_ckb_3qt_52b).
+1. We need to select a namespace. A namespace is preselected based on schema properties. You can keep the one preselected. For more information on namespaces, see [](../event/eventnamespace.md#concept_ckb_3qt_52b).
 
 In our use case, we only want to react to those two conditions, so we don't check the box **Show path for other cases than the one(s) above**.
 
@@ -169,7 +169,7 @@ Two paths are created after your condition:
 
 1. Add an **End** activity.
 
-Click on the **Test** toggle and test your journey. If there is any error, deactivate the test mode, modify your journey and test it again. For more information on the test mode, refer to [Testing your journey](../building-journeys/journeytesting.md). 
+Click on the **Test** toggle and test your journey. If there is any error, deactivate the test mode, modify your journey and test it again. For more information on the test mode, refer to [](../building-journeys/journeytesting.md). 
 
 ![](../assets/journeyuc2_32bis.png)
 

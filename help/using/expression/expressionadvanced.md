@@ -34,7 +34,7 @@ The advanced expression editor can be used to:
 * define custom wait activities
 * define action parameters mapping
 
-When possible, you can switch between the two modes using the **Advanced mode** / **Simple mode** button. The simple mode is described [here](../building-journeys/condition.md#about_condition).
+When possible, you can switch between the two modes using the **Advanced mode** / **Simple mode** button. The simple mode is described [](../building-journeys/condition.md#about_condition).
 
 >[!NOTE]
 >
@@ -77,8 +77,8 @@ A syntax validation mechanism checks the integrity of your code. Errors are disp
 
 **Need for parameters when building conditions with the advanced expression editor**
 
-If you select a field from an external data source requiring a parameter to be called (see [External data sources](../datasource/dsexternal.md#concept_t2s_kqt_52b)), a new tab appears on the right to let you specify this parameter. The parameter value can come from the events positioned in the journey or the Experience Platform data source (and not from other external data sources). For example, in a weather-related data source, a frequently used parameter will be "city". As a result, you must select where you want to get this city parameter. Functions can also be applied to parameters to perform format changes or concatenations.
+If you select a field from an external data source requiring a parameter to be called (see [](../datasource/dsexternal.md#concept_t2s_kqt_52b)), a new tab appears on the right to let you specify this parameter. The parameter value can come from the events positioned in the journey or the Experience Platform data source (and not from other external data sources). For example, in a weather-related data source, a frequently used parameter will be "city". As a result, you must select where you want to get this city parameter. Functions can also be applied to parameters to perform format changes or concatenations.
 
 ![](../assets/journeyuc2_19.png)
 
-For more complex use cases, if you want to include the parameters of the data source in the main expression, you can define their values using the "params" keyword. See this [page](../expression/expressionfields.md).
+For more complex use cases, if you want to include the parameters of the data source in the main expression, you can define their values using the "params" keyword. See this [](../expression/expressionfields.md).
