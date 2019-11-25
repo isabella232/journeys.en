@@ -24,7 +24,7 @@ index: n
   + [Previewing the payload](using/event/eventpayloadpreview.md)
   + [Additional steps to receive events](using/event/eventsteps.md)
 + Configuring a data source {#data-source-journeys}
-  + [About data sources](using/datasource/ds.md)
+  + [](using/datasource/ds.md)
   + [Field groups](using/datasource/dsfield.md)
   + [Adobe Experience Platform data source](using/datasource/dsplatform.md)
   + [External data sources](using/datasource/dsexternal.md)

@@ -40,7 +40,7 @@ The table below gives you the list of metrics used in journey reports, their def
 |--- |--- |--- |
 |Completed|Total number of individuals that ended normally the journey.|= Journey exited|
 |Completion rate|Total number of individuals that ended normally the journey compared to the total number of individuals who entered the journey.|= Journey exited/Journey entered*100|
-|Current|Total number of individuals currently in the journey i.e. how many people entered minus people who exited, errors and timed out.|= Journey Entered - + Journey Exited + Error in Event + Error in Enrichment + Error in Action + Timeout in Action + Timeout in Event + Timeout in Enrichment + Journey in Timeout)|
+|Current|Total number of individuals currently in the journey i.e. how many people entered minus people who exited, errors and timed out.|= Journey Entered - Journey Exited + Error in Event + Error in Enrichment + Error in Action + Timeout in Action + Timeout in Event + Timeout in Enrichment + Journey in Timeout)|
 |Current rate|Total number of individuals currently in the journey compared to the number of individuals who entered the journey.|= Current/Journey entered*100|
 |Entered|Total number of events that occurred to start an individual entry in the journey.|= Event executed|
 |Error|Total number of errors that occurred during a journey but didn't prevent the journey from being successful.|= Error in Journey + Error in Event + Error in Jump + Error in Enrichment + Error in Action + Journey in Timeout + Timeout in Action + Timeout in Event + Timeout in Enrichment|
