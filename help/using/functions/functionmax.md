@@ -50,7 +50,7 @@ Returns a duration.
 
 `max(<listDateTimeOnly>)`
 
-Returns a datetime without considering timezone.
+Returns a datetime without considering time zone.
 
 `max(<listDateTime>)`
 
@@ -74,7 +74,7 @@ Returns a datetime.
 
 `max(<dateTimeOnly>,<dateTimeOnly>)`
 
-Returns a datetime without considering timezone.
+Returns a datetime without considering time zone.
 
 `max(<integer>,<integer>)`
 

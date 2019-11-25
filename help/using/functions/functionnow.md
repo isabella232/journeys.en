@@ -36,7 +36,7 @@ Date
 
 `now()`
 
-`now(<timezone id>)`
+`now(<timeZone id>)`
 
 Returns a dateTime.
 

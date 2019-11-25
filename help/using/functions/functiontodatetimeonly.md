@@ -41,7 +41,7 @@ Conversion
 <!--`toDateTimeOnly(<integer>,<integer>,<integer>)`
 `toDateTimeOnly(<integer>,<integer>,<integer>,<integer>,<integer>,<integer>)`-->
 
-Return a datetime without considering timezone.
+Return a datetime without considering time zone.
 
 ## Examples
 
