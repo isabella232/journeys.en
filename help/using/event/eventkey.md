@@ -32,7 +32,7 @@ If you need to use a different key, such as a CRM ID or an email address, you ne
 
     ![](../assets/journey20.png)
 
-When the event is received, the value of the key will allow the system to identify the person associated to the event. Associated to a namespace (see [](../building-journeys/journeyorchestration.md#concept_ksq_2rt_52b).
+When the event is received, the value of the key will allow the system to identify the person associated to the event. Associated to a namespace (see [](../building-journeys/journeyorchestration.md#concept_ksq_2rt_52b)).
 
 The key is also used to check that a person is in a journey. Indeed, a person cannot be at two different places in the same journey. As a result, the system does not allow the same key, for example the key CRMID=3224, to be at different places in the same journey.
 

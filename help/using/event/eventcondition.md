@@ -24,3 +24,5 @@ The condition on events can only be based on data passed in the event payload. T
 You can use the simple expression editor or the advanced expression editor to setup conditions on events. See [](../expression/expressionadvanced.md#concept_uyj_trt_52b).
 
 For example, you can define a condition to only process the events of a specific event type and ignore the other types. Or if your event is a cart abandonment and the payload includes the cart value field, you can define an event condition to process the events only if the cart value is greater than 100 dollars.
+
+![](../assets/journey78.png)
