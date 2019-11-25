@@ -139,23 +139,27 @@ These functions are explained below. Let’s use the following event payload con
 
 The **all** function enables the definition of a filter on a given collection by using a boolean expression.
 
- For example, among all the app users, you can get the ones using IOS 13 (boolean expression “app used == IOS 13"). The result of this function is the filtered list containing items matching the boolean expression (example: app user 1, app user 34, app user 432).
+   ```
+   <listExpression>.all(<condition>)
+   ```
 
-You can then use this in a condition activity to check if the result of the **all** function is null or not. You can also combine this **all** function with other functions such as **count**.
+For example, among all the app users, you can get the ones using IOS 13 (boolean expression “app used == IOS 13"). The result of this function is the filtered list containing items matching the boolean expression (example: app user 1, app user 34, app user 432).
 
-**"All + Count" condition example 1:**
+In a Data Source Condition activity you can check if the result of the **all** function is null or not. You can also combine this **all** function with other functions such as **count**.
 
-We want to check if a user has installed a specific version of an application. For this we get all the push notification tokens associated to mobile applications for which the version is 1.0. Then, we perform a condition with the count function to check that the returned list of tokens contains at least one element.
+**Example 1:**
+
+We want to check if a user has installed a specific version of an application. For this we get all the push notification tokens associated to mobile applications for which the version is 1.0. Then, we perform a condition with the **count** function to check that the returned list of tokens contains at least one element.
 
    ```
-   count(@{LobbyBeacon._experience.campaign.message.profile.pushNotificationTokens.all&#8203;(currentEventField.application.version == "1.0").token}) > 0
+   count(@{LobbyBeacon._experience.campaign.message.profile.pushNotificationTokens.all(currentEventField.application.version == "1.0").token}) > 0
    ```
 
 The result is true.
 
-**"All + Count" example 2:**
+**Example 2:**
 
-Here we use the count function in a condition to see if there is push notification tokens in the collection.
+Here we use the **count** function to check if there are push notification tokens in the collection.
 
    ```
    count(@{LobbyBeacon._experience.campaign.message.profile.pushNotificationTokens.all().token}) > 0
@@ -163,7 +167,7 @@ Here we use the count function in a condition to see if there is push notificati
 
 The result will be true.
 
-Alternatively, you can check if there is no token in the collection:
+<!--Alternatively, you can check if there is no token in the collection:
 
    ```
    count(@{LobbyBeacon._experience.campaign.message.profile.pushNotificationTokens.all().token}) == 0
@@ -171,7 +175,7 @@ Alternatively, you can check if there is no token in the collection:
 
 The result will be false.
 
-<!--Here we use the count function in a condition to count the number of push notification tokens in the event.
+Here we use the count function in a condition to count the number of push notification tokens in the event.
 
 `count(@{LobbyBeacon._experience.campaign.message.profile.pushNotificationTokens.all().token})`
 
@@ -186,25 +190,36 @@ In both cases, the result of the expression is **3**.
 A query of experience events recorded on the platform may or may not include the current event that triggered the current Journey. This will depend on the relative processing time with which Journey Orchestration sees an event and started evaluating conditions, versus the time it takes for that event to be ingested into the platform. For example, when using the .all() syntax to query experience events from the platform, we recommend enforcing the exclusion of the current event (by requiring an
 earlier timestamp) in order to only consider prior events.-->
 
-**"All + Count" example 3:**
+   >[!NOTE]
+   >
+   >When the filtering condition in the **all()** function is empty, the filter will return all the elements in the list. However, in order to count the number of elements of a collection, the all function is not required.
 
-Here we use the count function in a condition to see if an individual has not received any communication within the last 24 hours. We filter the collection of experience events retrieved from the ExperiencePlatform datasource, using two expressions based on two elements of the collection.
+
+   ```
+   count(@{LobbyBeacon._experience.campaign.message.profile.pushNotificationTokens.token})
+   ```
+
+   The result of the expression is **3**.
+
+**Example 3:**
+
+Here we check if an individual has not received any communication within the last 24 hours. We filter the collection of experience events retrieved from the ExperiencePlatform datasource, using two expressions based on two elements of the collection. In particular, the timestamp of the event is compared to the dateTime returned by the **nowWithDelta** function.
 
 ```
-count(#{ExperiencePlatformDataSource.MarltonExperience.experienceevent.all(
+count(#{ExperiencePlatform.MarltonExperience.experienceevent.all(
    currentDataPackField.directMarketing.sends.value > 0 and
    currentDataPackField.timestamp > nowWithDelta(-1, "days")).timestamp}) == 0
 ```
 
 The result will be true if there is no experience event matching the two conditions.
 
-**"All + Count" example 4:**
+**Example 4:**
 
 Here we want to check if an individual has launched at least once an application in the last 7 days, in order for instance to trigger a push notification inviting him to start a tutorial.
 
 ```
 count(
- #{ExperiencePlatformDataSource.AnalyticsData.experienceevent.all(
+ #{ExperiencePlatform.AnalyticsData.experienceevent.all(
  nowWithDelta(-7,"days") <= currentDataPackField.timestamp
  and currentDataPackField.application.firstLaunches.value > 0
 )._id}) > 0
@@ -233,14 +248,6 @@ The result will be:
 >when manipulating data source collections. When processing collections with all, first and last, we
 >loop on each element of the collection one by one. **currentEventField** and **currentDataPackField**
 >correspond to the element being looped.
->
->Note also that when the filtering condition in the all() function is empty, the filter will return all the elements in the list. However, in order to count the number of elements of a collection, the all function is not required.
-
-```
-count(@{LobbyBeacon._experience.campaign.message.profile.pushNotificationTokens.application.name})
-```
-
-The result of the expression is **3**.
 
 **The functions "first(`<condition>`)" and "last(`<condition>`)"**
 
@@ -248,20 +255,41 @@ The **first** and **last** functions also enable the definition of a filter on t
 
 _`<listExpression>.first(<condition>)`_
 
-_`<listExpression>.last(<condition>)` _
+_`<listExpression>.last(<condition>)`_
 
-**Example 1:** return the first push notification token associated to mobile applications for which the version is 1.0.
+**Example 1:** 
+
+This expression returns the first push notification token associated to mobile applications for which the version is 1.0.
 
    ```
    @{LobbyBeacon._experience.campaign.message.profile.pushNotificationTokens.first(currentEventField.application.version == "1.0").token
    ```
 
-The result will be "token_1".
+The result is "token_1".
 
-**Example 2:** return the last push notification token associated to mobile applications for which the version is 1.0.
+**Example 2:** 
+
+This expression returns the last push notification token associated to mobile applications for which the version is 1.0.
 
    ```
    @{LobbyBeacon._experience.campaign.message.profile.pushNotificationTokens.last&#8203;(currentEventField.application.version == "1.0").token}
+   ```
+
+   The result is "token_2".
+
+   >[!NOTE]
+   >
+   >The experience events are retrieved from the Experience Platform as a collection in reverse chronological order, hence :
+   >* **first** function will return the most recent event,
+   >* **last** function will return the oldest one.
+
+**Example 3:**
+
+We check whether the first (most recent) Adobe Analytics event with a non-zero value for DMA ID has a value equal to 602.
+
+   ```
+   #{ExperiencePlatform.AnalyticsProd_EvarsProps.experienceevent.first(
+   currentDataPackField.placeContext.geo.dmaID > 0).placeContext.geo.dmaID} == 602
    ```
 
 **The function "at(`<index>`)"**
@@ -271,13 +299,15 @@ Index 0 is the first index of the collection.
 
 _`<listExpression>`.at(`<index>`)_
 
-**Example:** return the second push notification token of the list.
+**Example:** 
+
+This expression returns the second push notification token of the list.
 
    ```
    @{LobbyBeacon._experience.campaign.message.profile.pushNotificationTokens.at(1).token}
    ```
 
-The result will be "token_2".
+The result is "token_2".
 
 ## Conditional instruction (if, then, else){#section_cdz_lsk_w3b}
 

@@ -35,7 +35,7 @@ For example if your field is _3h_: _#{OpenWeather.weatherData.rain.'3h'} > 0_
 
 // field group
 #{<data source name>.<field group name>.<path to the field>}
-#{ExperiencePlatformDataSource.ProfileFieldGroup.Profile.personalEmail.address}
+#{ExperiencePlatform.ProfileFieldGroup.profile.personalEmail.address}
 
 ```
 
@@ -55,7 +55,7 @@ A default value can be associated to a field name. the syntax is as follows:
 @{LobbyBeacon.endUserIDs._experience.emailid.id, defaultValue: "example@adobe.com"}
 // field group
 #{<data source name>.<field group name>.<path to the field>, defaultValue: <default value expression>}
-#{ExperiencePlatformDataSource.ProfileFieldGroup.Profile.personalEmail.address, defaultValue: "example@adobe.com"}
+#{ExperiencePlatform.ProfileFieldGroup.profile.personalEmail.address, defaultValue: "example@adobe.com"}
 ```
 
 
