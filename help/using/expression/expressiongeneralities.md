@@ -16,9 +16,9 @@ snippet: y
 
 # Generalities {#concept_rcy_qj5_dgb}
 
-## Parenthesis and expression priority{#section_edf_fks_bgb}
+## Parentheses and expression priority{#section_edf_fks_bgb}
 
-Parenthesis can be used to make a complex expression more readable. _(&lt;expression>)_ is the equivalent of _&lt;expression>_. Parenthesis can also be used to define the evaluation order and associativity.
+Parentheses can be used to make a complex expression more readable. _(&lt;expression>)_ is the equivalent of _&lt;expression>_. Parenthesis can also be used to define the evaluation order and associativity.
 
 The expressions will be evaluated from left to right. The associativity on arithmetic operators must be applied: multiplications and divisions take priority over additions and subtractions. In order to impose a specific order, parenthesis must be written to delimit the operations. For example:
 
@@ -39,11 +39,11 @@ Here are the different case sensitivity rules:
 
 ## Returned expression type{#section_gyc_435_53b}
 
-Depending on the context of use, the expression editor can be used to return different values.
+Depending on the context of use, the expression editor can return different values.
 
 |Advanced expression editor usage|Expected returned expression type|
 |--- |--- |
-|Condition (data source condition, date condition)|Boolean|
-|Custom timer|datetimeonly|
+|Condition (data source condition, date condition)|boolean|
+|Custom timer|dateTimeOnly|
 |Custom timezone|timezone type or string (e.g: Europe/Paris)|
-|Action mapping|Any|
+|Action parameters mapping|Any|

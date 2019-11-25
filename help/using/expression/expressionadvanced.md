@@ -16,11 +16,12 @@ snippet: y
 
 # Using the advanced expression editor {#concept_uyj_trt_52b}
 
-## About advanced conditions {#section_llg_vnj_cjb}
+## About the advanced expression editor {#section_llg_vnj_cjb}
 
-The advanced expression editor allows you to build conditions in various screens of the interface, for example, when defining a data source condition. You can leverage data coming from the events or additional information retrieved from the data source. In a journey, the displayed list of event fields is contextual and varies according to the event(s) added in the journey.
+The advanced expression editor allows you to build advanced conditions in various screens of the interface, for example, when defining a data source condition.
+It is also available every time you need to define action parameters that require specific data manipulations. You can leverage data coming from the events or additional information retrieved from the data source. In a journey, the displayed list of event fields is contextual and varies according to the event(s) added in the journey.
 
-The advanced expression editor offers a set of built-in functions and operators to let you manipulate values and define an expression that corresponds specifically to your needs with. It is available every time you need define a condition. The advanced expression editor also allows you to define the values of external data source parameters.
+The advanced expression editor offers a set of built-in functions and operators to let you manipulate values and define an expression that fits specifically your needs.The advanced expression editor also allows you to define the values of external data source parameter, manipulate map fields and collections, such as experience events.
 
  ![](../assets/journeyuc2_30.png)
 
@@ -28,11 +29,10 @@ _The advanced expression editor interface_
 
 The advanced expression editor can be used to:
 
-* create advanced data sources and event information
+* create advanced conditions on data sources and event information
 * define custom timezones in date conditions, fixed date wait activities, custom wait activities
 * define custom wait activities
-* perform email, SMS and push personalization data mapping
-* define action parameter mapping
+* define action parameters mapping
 
 When possible, you can switch between the two modes using the **Advanced mode** / **Simple mode** button. The simple mode is described [here](../building-journeys/condition.md#about_condition).
 
@@ -51,11 +51,11 @@ You can access the query editor in different ways:
     ![](../assets/journeyuc2_33.png)
 
 * When you create a custom timezone or a custom timer, the advanced editor will be directly displayed.
-* When you map action parameters and email, SMS, push personalization you can access it by clicking on **Advanced mode**.
+* When you map action parameters you can access it by clicking on **Advanced mode**.
 
 ## Discovering the interface{#section_otq_tnj_cjb}
 
-This screen allows you to manually write your expressions.
+This screen allows you to manually write your expression.
 
 ![](../assets/journey70.png)
 

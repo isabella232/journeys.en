@@ -16,7 +16,7 @@ snippet: y
 
 # Data types {#concept_gp3_rj5_dgb}
 
-Technically, a constant always contains a data type. In the literal expression, we only specify the value. The data type can be inferred from the value (for example string, integer, decimal, etc.). For specific cases such as time zones, we use dedicated functions for the representation. 
+Technically, a constant always contains a data type. In the literal expression, we only specify the value. The data type can be inferred from the value (for example string, integer, decimal, etc.). For specific cases such as date tile, we use dedicated functions for the representation.
 
 Here is how data type expressions are represented:
 
@@ -58,7 +58,7 @@ Here is how data type expressions are represented:
         <td>dateTimeOnly</td>
         <td><p>Represents a date time without a time-zone, viewed as year-month-day-hour-minute-second-millisecond.</p><p>It does not store or represent a time zone.</p><p>Instead, it is a description of the date, as used for birthdays, combined with the local time as seen on a wall clock.</p><p>It cannot represent an instant on the time-line without additional information such as an offset or time-zone.</p><p>Serialization format: ISO-8601 extended offset date-time format.</p><p>It uses DateTimeFormatter.</p><p>ISO_LOCAL_DATE_TIME to deserialize and serialize the value.</p> <a href="https://docs.oracle.com/javase/8/docs/api/java/time/format/DateTimeFormatter.html#ISO_LOCAL_DATE_TIME">Learn more</a>.</td>
         <td><p>toDateTimeOnly("&lt;dateTimeOnly in ISO-8601 format&gt;")</p></td>
-        <td><p><pre>toDateTimeOnly("1977-04-22T06:00:00")</pre></p><p>Example of serialized dateTimeOnly:</p><p>2011-12-03T15:15:30</p></td>
+        <td></td>
     </tr>
     <tr>
         <td>dateTime</td>
@@ -74,7 +74,7 @@ Here is how data type expressions are represented:
         <td>duration</td>
         <td><p>It represents a time-based amount of time, such as '34.5 seconds'.</p><p> It models a quantity or amount of time in terms of milliseconds.</p><p>The supported temporal units are: milliseconds,seconds,minutes, hours, days with one day equals to 24 hours.</p><p> Years and months are not supported since they're not a fixed amount of time.</p><p>JSON format: String. It must be encapsulated in a toDuration function.</p><p>Serialization format: To deserialize a time zone ID, it uses the java function java.time.</p><p>Duration.parse: the formats accepted are based on the ISO-8601 duration format PnDTnHnMn.nS with days considered to be exactly 24 hours.</p><a href="https://docs.oracle.com/javase/8/docs/api/java/time/Duration.html#parse-java.lang.CharSequence-">Learn more</a>.</td>
         <td><p>toDuration("&lt;duration in ISO-8601 format&gt;")</p><p>toDuration(&lt;duration in milliseconds&gt;)</p></td>
-        <td><code>toDuration("PT5S") // 5 seconds</code><code>toDuration(500) // 500mstoDuration("PT20.345S") -- parses as "20.345 seconds"</code><code>toDuration("PT15M") -- parses as "15 minutes" (where a minute is 60 seconds)</code><code>toDuration("PT10H") -- parses as "10 hours" (where an hour is 3600 seconds)</code><code>toDuration("P2D") -- parses as "2 days" (where a day is 24 hours or 86400 seconds)</code><code>toDuration("P2DT3H4M") -- parses as "2 days, 3 hours and 4 minutes"</code><code>toDuration("P-6H3M") -- parses as "-6 hours and +3 minutes"</code><code>toDuration("-P6H3M") -- parses as "-6 hours and -3 minutes"</code><code>toDuration("-P-6H+3M") -- parses as "+6 hours and -3 minutes"</code></td>
+        <td><p><pre>toDuration("PT5S") // 5 seconds</pre></p><p><pre>toDuration(500) // 500mstoDuration("PT20.345S") -- parses as "20.345 seconds"</pre></p><p><pre>toDuration("PT15M") -- parses as "15 minutes" (where a minute is 60 seconds)</pre></p><p><pre>toDuration("PT10H") -- parses as "10 hours" (where an hour is 3600 seconds)</pre></p><p><pre>toDuration("P2D") -- parses as "2 days" (where a day is 24 hours or 86400 seconds)</pre></p><p><pre>toDuration("P2DT3H4M") -- parses as "2 days, 3 hours and 4 minutes"</pre></p><p><pre>toDuration("P-6H3M") -- parses as "-6 hours and +3 minutes"</pre></p><p><pre>toDuration("-P6H3M") -- parses as "-6 hours and -3 minutes"</pre></p><p><pre>toDuration("-P-6H+3M") -- parses as "+6 hours and -3 minutes"</pre></p></td>
     </tr>
     <tr>
         <td>list</td>

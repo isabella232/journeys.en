@@ -49,14 +49,13 @@ Select the date for the execution of the next activity. When you define a fixed 
 
 ## Custom{#custom}
 
-This option lets you define a custom date, for example 12 July 2020 at 5pm, using an advanced expression based on a field coming from an event or a data source. It does not let you define a custom duration, for example, 7 days. The expression in the expression editor should provide a dateTimeOnly format. See [The advanced editor](../expression/expressionadvanced.md#concept_uyj_trt_52b).
+This option lets you define a custom date, for example 12 July 2020 at 5pm, using an advanced expression based on a field coming from an event or a data source. It does not let you define a custom duration, for example, 7 days. The expression in the expression editor should provide a dateTimeOnly format. See [The advanced editor](../expression/expressionadvanced.md#concept_uyj_trt_52b). For more information on dateTimeOnly format, see [Data Types](../expression/expressionconstants.md)
 
 >[!NOTE]
 >
->You can leverage a dateTimeOnly field or use a function to convert to dateTimeOnly. For example: toDateTimeOnly(@{myEvent.xxx.yyy}), the
->field in the event being of the form 2016-08-12T09:46:06.
+>You can leverage a dateTimeOnly expression or use a function to convert to a dateTimeOnly. For example: toDateTimeOnly(@{Event.offerOpened.activity.endTime}), the field in the event being of the form 2016-08-12T09:46:06.
 >
->The **timezone** is expected in another place in the custom wait configuration pane. As a result, it is not possible today from the interface to directly point at a full ISO-8601 timestamp mixing time and timezone like 2016-08-12T09:46:06.982-05. See [Time zone management](../building-journeys/journey.md#timezone_management).
+>The **timezone** is expected in another place in the custom wait configuration pane. As a result, it is not possible today from the interface to directly point at a full ISO-8601 timestamp mixing time and timezone offset like 2016-08-12T09:46:06.982-05. See [Time zone management](../building-journeys/journey.md#timezone_management).
 
 ![](../assets/journey57.png)
 
