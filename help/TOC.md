@@ -35,15 +35,15 @@ index: n
     + [About custom action configuration](using/action/custom.md)
     + [Custom action limitations](using/action/customlimitations.md)
     + [URL configuration](using/action/customurl.md)
-    + [Configuring the authentication](using/action/customauthentication.md)
     + [Defining the message parameters](using/action/customparameters.md)
 + Building a journey {#building-journeys}
   + About journey building {#about-journey-building}
-    + [Quick start](using/building-journeys/journey.md)
+    + [Creating a journey](using/building-journeys/journey.md)
     + [Using the journey designer](using/building-journeys/journeyinterface.md)
     + [Changing properties](using/building-journeys/journeyproperty.md)
     + [Journey versions](using/building-journeys/journeyversions.md)
     + [Terminating a journey](using/building-journeys/journeystop.md)
+    + [Time zone management](using/building-journeys/timezone.md)
   + Activities {#about-journey-building}
     + [Events activities](using/building-journeys/journeyevent.md)
     + Orchestration activities {#orchestration-activities}

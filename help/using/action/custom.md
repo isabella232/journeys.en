@@ -34,7 +34,7 @@ Here are the main steps required to configure a custom action:
 1. Add a description to your action. This step is optional.
 1. The number of journeys that use this action is displayed in the **Used in** field. You can click the **View journeys** button to display the list of  journeys using this action.
 1. Define the different **URL Configuration** parameters. See [](../action/customurl.md#concept_gbg_1f1_2gb).
-1. Configure the **Authentication** section. See [](../action/customauthentication.md#concept_is4_cf1_2gb).
+1. Configure the **Authentication** section. This configuation the same as for data sources.  See [](using/action/customauthentication.md).
 1. Define the **Message parameters**. See [](../action/customparameters.md#concept_wy4_bf1_2gb).
 1. Click **Save**.
 
