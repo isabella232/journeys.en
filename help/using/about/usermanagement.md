@@ -40,7 +40,7 @@ In the Admin console, you can assign one of the following out-of-the-box securit
     *   Read events and resources
     *   Manage reports
     
-You can find [here](../assets/acs_rights_journey.pdf) the compatibility between roles and Journey Orchestration's different functionalities.
+You can find [here](../assets/acs_rights_journeys.pdf) the compatibility between roles and Journey Orchestration's different functionalities.
 
 ## Assigning a security group {#assigning-security-group}
 
