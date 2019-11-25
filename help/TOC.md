@@ -9,7 +9,7 @@ index: n
 
 + [Product documentation](journey-orchestration-home.md)
 + Release Notes {#release-notes}
-  + [QA release](using/rn/release-notes.md)
+  + [GA Release](using/rn/release-notes.md)
 + Starting with Journey Orchestration {#starting-with-journeys}
   + [About Journey Orchestration](using/about/intro.md)
   + [Get started](using/about/aboutprocess.md)
