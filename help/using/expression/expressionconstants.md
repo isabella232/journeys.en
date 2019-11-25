@@ -87,7 +87,8 @@ Here is how data type expressions are represented:
         <p><pre>(where an hour is 3600 seconds)</pre></p>
         <p><pre>toDuration("P2D") </pre></p>
         <p><pre>-- parses as "2 days"</pre></p>
-        <p><pre>(where a day is 24 hours or 86400 seconds)</pre></p>
+        <p><pre>(where a day is </pre></p>
+        <p><pre>24 hours or 86400 seconds)</pre></p>
         <p><pre>toDuration("P2DT3H4M") </pre></p>
         <p><pre>-- parses as</pre></p>
         <p><pre>"2 days, 3 hours and 4 minutes"</pre></p>
