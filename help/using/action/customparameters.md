@@ -16,9 +16,14 @@ snippet: y
 
 # Defining the message parameters {#concept_wy4_bf1_2gb}
 
+![](../assets/messageparameterssection.png)
+
 In the **Message parameters** section, paste an example of the JSON payload to send to the external service.
 
-You will be able to define if the type of the parameter is right (e.g. string, integer, etc.).
+
+![](../assets/customactionpayloadmessage.png)
+
+You will be able to define if the type of the parameter is right (e.g.: string, integer, etc.).
 
 You will also have a choice between specifying a parameter is a constant or a variable:
 
