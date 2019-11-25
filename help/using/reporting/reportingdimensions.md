@@ -20,6 +20,8 @@ You can find here the list of every components available in Dynamic reports as w
 
 The table below gives you the list of dimensions used in journey reports and their definitions.
 
+To learn more on compatibility between dimensions and metrics, refer to this [table](/help/assets/dynamic_report_compatibility_journey.pdf).
+
 ## Dimensions {#MBE_table_wk4_bnj_w2b}
 
 |Dimensions|Definition|
