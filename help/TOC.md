@@ -10,7 +10,6 @@ index: n
 + [Product documentation](journey-orchestration-home.md)
 + Release Notes {#release-notes}
   + [Release Notes](using/rn/release-notes.md)
-  + [Documentation Updates](using/rn/documentation-updates.md)
 + Starting with Journey Orchestration {#starting-with-journeys}
   + [About Journey Orchestration](using/about/intro.md)
   + [Get started](using/about/aboutprocess.md)
