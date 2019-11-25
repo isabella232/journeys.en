@@ -14,7 +14,7 @@ internal: n
 snippet: y
 ---
 
-# GA Release {#release-notes}
+# Release Notes {#release-notes}
 
 All Journey Orchestration releases are listed in this page.
  
