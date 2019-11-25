@@ -68,36 +68,39 @@ Here is how data type expressions are represented:
         <p>Timezone can be specified by an offset or a timezone code (example: Europe/Paris, Z - meaning UTC).</p></td>
         <td><p>toDateTime("&lt;dateTime in ISO-8601 format&gt;")</p>
         <p>toDateTime(&lt;integer value of an epoch in milliseconds&gt;)</p></td>
-        <td><p><pre>toDateTime("1977-04-22T06:00:00Z")</pre></p><p><pre>toDateTime("2011-12-03T15:15:30Z")</pre></p><p><pre>toDateTime("2011-12-03T15:15:30.123Z")</pre></p><p><pre>toDateTime("2011-12-03T15:15:30.123+02:00")</pre></p><p><pre>toDateTime("2011-12-03T15:15:30.123-00:20")</pre></p><p><pre>toDateTime(1560762190189)</pre></p></td>
+        <td><p><pre>toDateTime("1977-04-22T06:00:00Z")</pre></p><p><pre>toDateTime</pre></p><p><pre>("2011-12-03T15:15:30Z")</pre></p><p><pre>toDateTime</pre></p><p><pre>("2011-12-03T15:15:30.123Z")</pre></p><p><pre>toDateTime</pre></p><p><pre>("2011-12-03T15:15:30.123+02:00")</pre></p>
+        <p><pre>toDateTime</pre></p><p><pre>("2011-12-03T15:15:30.123-00:20")</pre></p><p><pre>toDateTime(1560762190189)</pre></p></td>
     </tr>
     <tr>
         <td>duration</td>
         <td><p>It represents a time-based amount of time, such as '34.5 seconds'.</p><p> It models a quantity or amount of time in terms of milliseconds.</p><p>The supported temporal units are: milliseconds, seconds, minutes, hours, days with one day equals to 24 hours.</p><p> Years and months are not supported since they're not a fixed amount of time.</p><p>JSON format: String. It must be encapsulated in a toDuration function.</p><p>Serialization format: To deserialize a time zone ID, it uses the java function java.time.</p><p>Duration.parse: the formats accepted are based on the ISO-8601 duration format PnDTnHnMn.nS with days considered to be exactly 24 hours.</p><a href="https://docs.oracle.com/javase/8/docs/api/java/time/Duration.html#parse-java.lang.CharSequence-">Learn more</a>.</td>
         <td><p>toDuration("&lt;duration in ISO-8601 format&gt;")</p><p>toDuration(&lt;duration in milliseconds&gt;)</p></td>
         <td><p><pre>toDuration("PT5S") // 5 seconds</pre></p>
-        <p><pre>toDuration(500) // 500mstoDuration("PT20.345S") </pre></p>
+        <p><pre>toDuration(500) // </pre></p>
+        <p><pre>500mstoDuration("PT20.345S") </pre></p>
         <p><pre>-- parses as "20.345 seconds"</pre></p>
         <p><pre>toDuration("PT15M") </pre></p>
-        <p><pre> -- parses as "15 minutes" 
-        </pre></p>(where a minute is 60 seconds)</pre></p>
+        <p><pre> -- parses as "15 minutes"</pre></p>
+        <p><pre>(where a minute is 60 seconds)</pre></p>
         <p><pre>toDuration("PT10H") </pre></p>
-        <p><pre>-- parses as "10 hours" 
-        </pre></p>(where an hour is 3600 seconds)</pre></p>
+        <p><pre>-- parses as "10 hours"</pre></p>
+        <p><pre>(where an hour is 3600 seconds)</pre></p>
         <p><pre>toDuration("P2D") </pre></p>
-        <p><pre>-- parses as "2 days" 
-        </pre></p>(where a day is 24 hours or 86400 seconds)</pre></p>
+        <p><pre>-- parses as "2 days"</pre></p>
+        <p><pre>(where a day is </pre></p>
+        <p><pre>24 hours or 86400 seconds)</pre></p>
         <p><pre>toDuration("P2DT3H4M") </pre></p>
-        <p><pre>-- parses as 
-        </pre></p>"2 days, 3 hours and 4 minutes"</pre></p>
+        <p><pre>-- parses as</pre></p>
+        <p><pre>"2 days, 3 hours and 4 minutes"</pre></p>
         <p><pre>toDuration("P-6H3M") </pre></p>
-        <p><pre>-- parses as 
-        </pre></p>"-6 hours and +3 minutes"</pre></p>
+        <p><pre>-- parses as</pre></p>
+        <p><pre>"-6 hours and +3 minutes"</pre></p>
         <p><pre>toDuration("-P6H3M") </pre></p>
-        <p><pre>-- parses as 
-        </pre></p>"-6 hours and -3 minutes"</pre></p>
+        <p><pre>-- parses as</pre></p>
+        <p><pre>"-6 hours and -3 minutes"</pre></p>
         <p><pre>toDuration("-P-6H+3M") </pre></p>
-        <p><pre>-- parses as 
-        </pre></p>"+6 hours and -3 minutes"</pre></p></td>
+        <p><pre>-- parses as</pre></p>
+        <p><pre>"+6 hours and -3 minutes"</pre></p></td>
     </tr>
     <tr>
         <td>list</td>

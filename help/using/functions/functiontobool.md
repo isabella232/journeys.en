@@ -20,7 +20,6 @@ Converts an argument value into a boolean value, depending on its type.
 
 * From string: try to convert the string value as a boolean, from "true" if the string value is "true", false otherwise
 * From numerical: true if the numerical value is not equal to 0, false otherwise
-* From boolean: idempotent
 
 ## Category
 

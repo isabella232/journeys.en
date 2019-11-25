@@ -63,7 +63,7 @@ On the left part of the screen are displayed available fields and functions:
 
 * **Events**: choose one of the fields received from the inbound event. The displayed list of event fields is contextual and varies according to the event(s) added in the journey.
 * **Data Sources**: choose from the list of fields available from your data sources' field groups.
-* **Functions**: a list of advanced functions are available to carry out complex filtering. Functions are organized by categories.
+* **Functions**: a list of built-in functions that allow to carry out complex filtering. Functions are organized by categories.
 
 ![](../assets/journey65.png)
 
