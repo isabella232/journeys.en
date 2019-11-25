@@ -29,7 +29,7 @@ By default, new journeys allow re-entrance. You can uncheck the option for “on
 
 When a journey "ends", it will have the status **Finished**. The journey will stop letting new individuals enter the journey. Persons already in the journey will finish the journey normally.
 
-## Timeout and error{#timeout_and_error}
+## Timeout and error in journey activitites {#timeout_and_error}
 
 When editing an action or condition activity, you can define an alternative path in case of error or timeout. If the processing of the activity interrogating a third-party system exceeds the timeout duration defined in the journey's properties (**Timeout and  error** field), the second path will be chosen to perform a potential fallback action. 
 
@@ -37,7 +37,11 @@ Authorized values are between 1 and 30 seconds.
 
 We recommend that you define a very short **Timeout and error** value if your journey is time sensitive (example: reacting to the real-time location of a person) because you cannot delay your action for more than a few seconds. If your journey is less time sensitive, you can use a longer value to give more time to the system called to send a valid response.
 
-Note that there is also a global journey timeout which is not displayed in the interface and cannot be changed. This timeout will stop the progress of individuals in the journey 30 days after they enter. This means that an individual's journey cannot last longer than 30 days. After the 30 day timeout period, the individual's data is deleted. Individuals still flowing in the journey at the end of the timeout period will be stopped and they will be taken into account as errors in reporting.
+Journey Orchestration also uses a global timeout. See the [next section](#global_timeout).
+
+## Global journey timeout {#global_timeout}
+
+In addition to the [timeout and error used in journey activitites](#timeout_and_error), there is also a global journey timeout which is not displayed in the interface and cannot be changed. This timeout will stop the progress of individuals in the journey 30 days after they enter. This means that an individual's journey cannot last longer than 30 days. After the 30 day timeout period, the individual's data is deleted. Individuals still flowing in the journey at the end of the timeout period will be stopped and they will be taken into account as errors in reporting.
 
 >[!NOTE]
 >

@@ -21,7 +21,7 @@ Discover the main steps to set up Journey Orchestration and build your first jou
 Learn how to configure the events that your journeys will listen to.
 
 * **[Grant access to Journey Orchestration](using/about/usermanagement.md)**<br/>
-Find out how to manage your users' access with security groups and roles. 
+Find out how to manage your users' access with product profiles and rights. 
 
 ## Top pages
 
@@ -65,6 +65,6 @@ Find out how to manage your users' access with security groups and roles.
 * [Experience Platform](https://www.adobe.com/experience-platform/documentation-and-developer-resources.html)
 * [Real-time Customer Profile](https://www.adobe.io/apis/cloudplatform/dataservices/profile-identity-segmentation/profile-identity-segmentation-services.html#!api-specification/markdown/narrative/technical_overview/unified_profile_architectural_overview/unified_profile_architectural_overview.md)
 * [Experience Cloud XDM field definition](https://www.adobe.io/apis/cloudplatform/dataservices/xdm.html)
-* [Namespace Service](https://www.adobe.io/apis/cloudplatform/dataservices/profile-identity-segmentation/profile-identity-segmentation-services.html#!api-specification/markdown/narrative/technical_overview/identity_namespace_overview/identity_namespace_overview.md)
+* [Identity Namespace](https://www.adobe.io/apis/cloudplatform/dataservices/profile-identity-segmentation/profile-identity-segmentation-services.html#!api-specification/markdown/narrative/technical_overview/identity_namespace_overview/identity_namespace_overview.md)
 * [Streaming Ingestion APIs](https://www.adobe.io/apis/cloudplatform/dataservices/data-ingestion/data-ingestion-services.html#!api-specification/markdown/narrative/technical_overview/streaming_ingest/getting_started_with_platform_streaming_ingestion.md)
 * [Adobe Campaign Standard transactional messaging](https://docs.adobe.com/content/help/en/campaign-standard/using/communication-channels/transactional-messaging/about-transactional-messaging.html)
