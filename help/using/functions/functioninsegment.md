@@ -45,3 +45,6 @@ Returns a boolean.
 ## Example
 
 `inSegment("men over 50")`
+
+Explanation :
+the function will return **true** if the individual within the journey instance is part of the platform segment named “men over 50”, **false** otherwise.
