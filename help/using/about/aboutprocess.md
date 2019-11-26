@@ -16,7 +16,7 @@ snippet: y
 
 # Get started{#concept_y4b_4qt_52b}
 
-In Journey Orchestration, there are two types of users, each of them performing specific tasks: the **technical user** and the **business user**. User access is managed via product profiles and rights. Refer to this [](../about/usermanagement.md) to learn how to configure user access.
+In Journey Orchestration, there are two types of users, each of them performing specific tasks: the **technical user** and the **business user**. User access is managed via product profiles and rights. Refer to [](../about/usermanagement.md) to learn how to configure user access.
 
 Here are the main steps to configure and use Journey Orchestration:
 
