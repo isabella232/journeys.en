@@ -46,7 +46,7 @@ We also need to check if the person has a reservation in the hotel reservation s
 
     ![](../assets/journeyuc2_9.png)
 
-1. Enter a name for your data source and the URL of the external service, for example: [https://marlton.com/reservation](https://marlton.com/reservation)
+1. Enter a name for your data source and the URL of the external service, for example: _https://marlton.com/reservation_
 
     >[!CAUTION]
     >
