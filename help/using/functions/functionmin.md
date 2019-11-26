@@ -83,7 +83,7 @@ Returns an integer.
 
 ## Examples
 
-`min({@BarBeacon.inventory},5)`
+```min({@BarBeacon.inventory},5)```
 
 `min([10,3,8])`
 
