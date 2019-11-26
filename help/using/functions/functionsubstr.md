@@ -4,12 +4,10 @@ description: Learn about the function substr
 page-status-flag: never-activated
 uuid: 269d590c-5a6d-40b9-a879-02f5033863fc
 contentOwner: sauviat
-products: SG_CAMPAIGN/CLASSIC
 audience: rns
 content-type: reference
 topic-tags: journeys
 discoiquuid: 5df34f55-135a-4ea8-afc2-f9427ce5ae7b
-index: n
 internal: n
 snippet: y
 ---
@@ -51,10 +49,3 @@ Returns "World".
 `substr("Hello World", 0, 5)`
 
 Returns "Hello".
-
-`substr(@{MobileAppLaunch._myorganization.identification.crmid}, 1, lastIndexOf(@{MobileAppLaunch._myorganization.identification.crmid}, "}"))`
-
-Explanation:
-
-This expression uses substr and lastIndexOf functions to remove curly braces that enclose the CRM ID passed with a mobile app launch event.
-It can be used for instance in an action personalization field.
