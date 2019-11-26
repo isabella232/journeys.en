@@ -30,7 +30,7 @@ Use the **[!UICONTROL Project]** tab to:
 * **[!UICONTROL Save As]**: Duplicates templates to be able to modify them.
 * **[!UICONTROL Refresh project]**: Updates your report based upon new data and changes to filters.
 * **[!UICONTROL Download CSV]**: Exports your reports to a CSV file.
-* **[!UICONTROL Print]**: Print your report.
+* **[!UICONTROL Print]**: Prints your report.
 
 The **[!UICONTROL Edit]** tab allows you to:
 
