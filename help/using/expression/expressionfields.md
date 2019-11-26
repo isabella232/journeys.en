@@ -39,14 +39,13 @@ For example if your field is _3h_: _#{OpenWeather.weatherData.rain.'3h'} > 0_
 
 ```
 
-
 In the expression, event fields are referenced with "@" and data source fields are referenced with "#".
 
 A syntax color is used to visually distinguish events fields (green) from field groups (blue).
 
 **Default values for field references**
 
-A default value can be associated to a field name. the syntax is as follows:
+A default value can be associated to a field name. The syntax is as follows:
 
 
 ```
@@ -58,16 +57,15 @@ A default value can be associated to a field name. the syntax is as follows:
 #{ExperiencePlatform.ProfileFieldGroup.profile.personalEmail.address, defaultValue: "example@adobe.com"}
 ```
 
-
 >[!NOTE]
 >
->The type of the field and the default value must be the same. For example, `@{LobbyBeacon.endUserIDs._experience.emailid.id, defaultValue : 2} will be invalid because the default value is an integer whereas the expected value should be a string.
+>The type of the field and the default value must be the same. For example, @{LobbyBeacon.endUserIDs._experience.emailid.id, defaultValue : 2} will be invalid because the default value is an integer whereas the expected value should be a string.
 
 **Parameter values of a data source (data source dynamic values)**
 
 If you select a field from an external data source requiring a parameter to be called, a new tab appears on the right to let you specify this parameter. See [](../expression/expressionadvanced.md).
 
-For more complex use cases, if you want to include the parameters of the data source in the main expression, you can define their values using the keyword _params_. A parameter can be any valid expression even from another data source that also include another parameter.
+For more complex use cases, if you want to include the parameters of the data source in the main expression, you can define their values using the keyword _params_. A parameter can be any valid expression even from another data source that also includes another parameter.
 
 >[!NOTE]
 >

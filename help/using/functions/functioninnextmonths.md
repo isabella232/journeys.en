@@ -31,7 +31,7 @@ Date
 * dateTime
 * delta: integer
 
-## Signatures and return type
+## Signatures and returned type
 
 `inNextMonths(<dateTime>,<integer>)`
 

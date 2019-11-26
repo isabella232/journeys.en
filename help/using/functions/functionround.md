@@ -31,7 +31,7 @@ Maths
 * decimal
 * integer
 
-## Signature and return type
+## Signature and returned type
 
 `round(<decimal>)`
 

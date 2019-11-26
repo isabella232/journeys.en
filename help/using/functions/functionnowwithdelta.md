@@ -34,7 +34,7 @@ Date
 |date part|years,months,days,hours,minutes or seconds as a string|
 |time zone id|string representation of the time zone value. For more, see [](../expression/expressionconstants.md).Time zone id must be a string constant. It cannot be a field reference nor an expression.|
 
-## Signatures and return type
+## Signatures and returned type
 
 `nowWithDelta(<delta>,<date part>`
 

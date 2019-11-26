@@ -34,7 +34,7 @@ Date
 |dateTimeOnly||
 |days|integer|
 
-## Signatures and return type
+## Signatures and returned type
 
 `setDays(<dateTime>,<integer>)`
 

@@ -38,7 +38,7 @@ Aggregation
 | List      | listDateTime     |
 | List      | listDateTimeOnly |
 
-## Signature and return type
+## Signature and returned type
 
 `countOnlyNull(<listAny>)`
 

@@ -35,7 +35,7 @@ Conversion
 |boolean|converts the boolean value as 1 if true, 0 if false|
 |integer|converts to a decimal (example.: 1 becomes 1.0)|
 
-## Signatures and return types
+## Signatures and returned types
 
 `toDecimal(<integer>)`
 

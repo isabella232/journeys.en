@@ -36,7 +36,7 @@ Conversion
 * string
 * integer
 
-## Signatures and return types
+## Signatures and returned types
 
 `toBool(<decimal>)`
 

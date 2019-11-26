@@ -38,7 +38,7 @@ Conversion
 >
 >Time zone id must be a string constant. It cannot be a field reference nor an expression. For more informtation on data types, refer to [](../expression/expressionconstants.md).
 
-## Signatures and return types
+## Signatures and returned types
 
 `toDateTime(<string>)`
 
