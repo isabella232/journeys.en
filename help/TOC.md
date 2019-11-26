@@ -140,13 +140,11 @@ index: n
 + Use cases{#use-cases-journeys}
   + Simple use case{#use-case-simple}
     + [About the simple use case](using/usecase/uc1intro.md)
-    + [Simple use case pre-requisites](using/usecase/uc1prereq.md)
     + [Configuring the event](using/usecase/uc1event.md)
     + [Configuring the data source](using/usecase/uc1ds.md)
     + [Building the journey](using/usecase/uc1journey.md)
   + Advanced use case{#use-case-advanced}
     + [About the advanced use case](using/usecase/uc2intro.md)
-    + [Advanced use case Pre-requisites](using/usecase/uc2prereq.md)
     + [Configuring the events](using/usecase/uc2event.md)
     + [Configuring the data sources](using/usecase/uc2ds.md)
     + [Building the journey](using/usecase/uc2journey.md)

@@ -22,20 +22,20 @@ Product profiles are assigned to a set of users that share the same rights withi
 
 In the Admin console, you can assign one of the following out-of-the-box product profiles to your users:
 
-*   **[!UICONTROL Limited Access User]**: User with read only access to journeys and reports. This product profile includes the following rights:
+*   **[!UICONTROL Limited Access User]**: user with read-only access to journeys and reports. This product profile includes the following rights:
     *   Read journeys
     *   Read reports
 
-*   **[!UICONTROL Administrators]**: User with access to the administration menus with the possibility to manage journeys, events and reports. This product profile includes the following rights:
+*   **[!UICONTROL Administrators]**: user with access to the administration menus with the possibility to manage journeys, events and reports. This product profile includes the following rights:
     *   Manage and execute journeys
-    *   Manage events, data sources and action
+    *   Manage events, data sources and actions
     *   Manage reports
 
     >[!NOTE]
     >
-    >**[!UICONTROL Administrators]** is the only product profile allowing creation, edition and publication of transactional messaging which allows message sending for Journey Orchestration.
+    >**[!UICONTROL Administrators]** is the only product profile which allows creation, edition and publication of transactional messaging (or messaging templates) in Adobe Campaign Standard. This product profile is needed if you use Adobe Campaign Standard to send messages in your journeys.
 
-*   **[!UICONTROL Standard User]**: User with basics access such as manage journeys. This product profile includes the following rights:
+*   **[!UICONTROL Standard User]**: user with basic access such as journey management. This product profile includes the following rights:
     *   Manage and execute journeys
     *   Manage reports
     
@@ -57,7 +57,7 @@ To assign a product profile for a user to access Journey Orchestration:
 
 1. Click **[!UICONTROL Add user]**.
    
-   You can also add your new user to a user groups to fine tune the shared set of permissions. For more on this, refer to this [page](https://helpx.adobe.com/enterprise/using/user-groups.html).
+   You can also add your new user to a user group to fine-tune the shared set of permissions. For more on this, refer to this [page](https://helpx.adobe.com/enterprise/using/user-groups.html).
 
     ![](../assets/user_management_3.png)
 
@@ -65,4 +65,4 @@ To assign a product profile for a user to access Journey Orchestration:
 
     ![](../assets/user_management_4.png)
 
-Your user should then receive an email redirecting to your Journey orchestration instance.
+Your user should then receive an email redirecting to your Journey orchestration.
