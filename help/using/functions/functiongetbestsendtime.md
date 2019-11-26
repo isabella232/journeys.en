@@ -40,7 +40,7 @@ Adobe Experience Platform
 |--- |--- |--- |
 |amount of time|Number of hours to consider from the current time (max : 168) to optimize email sending|`<integer>`|
 |interaction type|"open" or "click"|`<string>`|
-|default time in hours to wait|in case the predictive send time scores are not available|`<integer>`|
+|default time in hours to wait|In case the predictive send time scores are not available|`<integer>`|
 
 ## Signature and returned type
 
@@ -54,4 +54,4 @@ getBestSendTime(12,"open",8)
 
 Explanation :
 
-The function will return the best time to send a message in the next 12 hours, in order to optimize the probability for the individual in the journey instance to open it. In case there is not enough data to perform the calculation, the returned time will be in 8 hours from the current time.
+The function will return the best time to send a message in the next 12 hours, in order to optimize the probability for the individual in the journey instance to open it. In case there is not enough data to perform the calculation, the returned time is in 8 hours from the current time.

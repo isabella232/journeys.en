@@ -34,7 +34,7 @@ The advanced expression editor can be used to:
 * define custom [wait activities](../building-journeys/wait.md#custom)
 * define action parameters mapping
 
-When possible, you can switch between the two modes using the **Advanced mode** / **Simple mode** button. The simple mode is described [](../building-journeys/condition.md#about_condition).
+When possible, you can switch between the two modes using the **Advanced mode** / **Simple mode** button. The simple mode is described [here](../building-journeys/condition.md#about_condition).
 
 >[!NOTE]
 >

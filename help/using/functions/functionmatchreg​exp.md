@@ -16,7 +16,7 @@ snippet: y
 
 # matchRegExp {#matchRegExp}
 
-Returns true if the string in the first parameter matches the regular expression in the second parameter.For more information, see[this page](https://docs.oracle.com/javase/7/docs/api/java/util/regex/Pattern.html).
+Returns true if the string in the first parameter matches the regular expression in the second parameter. For more information, see [this page](https://docs.oracle.com/javase/7/docs/api/java/util/regex/Pattern.html).
 
 ## Category
 

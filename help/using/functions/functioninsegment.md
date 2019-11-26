@@ -20,7 +20,7 @@ Checks if an individual belongs to a given segment.
 
 The segment name must be a string constant. It cannot be a field reference nor an expression.
 
-Segments are defined in the [Adobe Experience Platform](https://platform.adobe.com/segment/overview). The expression editor provides an autocomplete list of segments.
+Segments are defined in the [Adobe Experience Platform](https://platform.adobe.com/segment/overview). The expression editor provides an autocompleted list of segments.
 
 ## Category
 

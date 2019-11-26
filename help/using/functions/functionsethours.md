@@ -30,8 +30,8 @@ Date
 
 |Parameter|Type|
 |--- |--- |
-|dateTime||
-|dateTimeOnly||
+|date time|dateTime|
+|date time without considering time zone|dateTimeOnly|
 |hours|integer|
 
 ## Signatures and returned type

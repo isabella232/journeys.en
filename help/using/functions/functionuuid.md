@@ -16,7 +16,7 @@ snippet: y
 
 # uuid {#uuid}
 
-Generates a random UUID (Universal Unique Identifier).
+Generates a random UUID (Universal Unique IDentifier).
 
 ## Category
 
