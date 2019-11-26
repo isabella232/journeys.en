@@ -35,19 +35,19 @@ You can define a condition if you want to restrict the wait to a certain populat
 >
 >The maximum wait duration is 30 days.
 
-## Duration{#duration}
+## Duration wait{#duration}
 
 Select the duration of the wait before the execution of the next activity.
 
 ![](../assets/journey55.png)
 
-## Fixed date{#fixed_date}
+## Fixed date wait{#fixed_date}
 
 Select the date for the execution of the next activity. When you define a fixed date, you must specify a time zone. See [](../building-journeys/timezone.md).
 
 ![](../assets/journey56.png)
 
-## Custom{#custom}
+## Custom wait{#custom}
 
 This option lets you define a custom date, for example 12 July 2020 at 5pm, using an advanced expression based on a field coming from an event or a data source. It does not let you define a custom duration, for example, 7 days. The expression in the expression editor should provide a dateTimeOnly format. See [](../expression/expressionconstants.md).
 
