@@ -12,9 +12,7 @@ internal: n
 snippet: y
 ---
 
-# Release Notes {#release-notes}
-
-## GA Release - December 2019 {#ga-release---december-2019}
+# GA Release {#release-notes}
 
 Journey Orchestration is now GA. 
 
