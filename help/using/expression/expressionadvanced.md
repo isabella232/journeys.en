@@ -23,7 +23,7 @@ It is also available every time you need to define action parameters that requir
 
 The advanced expression editor offers a set of built-in functions and operators to let you manipulate values and define an expression that fits specifically your needs.The advanced expression editor also allows you to define the values of external data source parameter, manipulate map fields and collections, such as experience events.
 
- ![](../assets/journeyuc2_30.png)
+ ![](../assets/journey65.png)
 
 _The advanced expression editor interface_
 
