@@ -38,7 +38,7 @@ Conversion
 |decimal|converts to string representation of the value (1.5 becomes “1.5”)|
 |boolean|convert the boolean value as 'true' if true, 'false' if false|
 
-## Signatures and return type
+## Signatures and returned type
 
 `toString(<dateTimeOnly>)`
 

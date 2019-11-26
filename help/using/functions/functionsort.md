@@ -39,7 +39,7 @@ List
 | List      | listDateTimeOnly |
 | Boolean   | Boolean |
 
-## Signature and return type
+## Signature and returned type
 
 `sort(<listInteger>,<boolean>)`
 

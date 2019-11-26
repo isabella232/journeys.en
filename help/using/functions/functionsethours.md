@@ -34,7 +34,7 @@ Date
 |dateTimeOnly||
 |hours|integer|
 
-## Signatures and return type
+## Signatures and returned type
 
 `setHours(<dateTime>,<integer>)`
 

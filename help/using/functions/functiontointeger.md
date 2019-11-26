@@ -35,7 +35,7 @@ Conversion
 |decimal|converts into integer by removing the decimal part (example: 1.5 becomes 1)|
 |boolean|converts the boolean value as 1 if true, 0 if false|
 
-## Signatures and return type
+## Signatures and returned type
 
 `toInteger(<dateTime>)`
 

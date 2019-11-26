@@ -32,7 +32,7 @@ Date
 |--- |--- |
 |string|current date|
 
-## Signatures and return type
+## Signatures and returned type
 
 `now()`
 

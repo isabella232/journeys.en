@@ -38,7 +38,7 @@ Aggregation
 * dateTime
 * dateTimeOnly
 
-## Signatures and return types
+## Signatures and returned types
 
 `max(<listDuration>)`
 

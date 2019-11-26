@@ -98,7 +98,7 @@ Here is the list of supported operators:
 <thead>
 <tr ><th  >Operator</th><th  >Literal Expression </th><th  >Example</th></tr>
 </thead>
-<tbody><tr ><td>+</td><td><p><pre>&lt;string&gt; + &lt;expression&gt;</pre></p><p><pre>&lt;expression&gt; + &lt;string&gt;</pre></p><p>It concatenates two expressions or more. </p><p>The first expression must be a string.</p><p> The other expressions can be of any type.</p><p> The rest is a string.</p></td><td><p><pre>&#34;the current time is &#34; + (now())</pre></p> Returns  &#34;the current time is 2019-09-23T09:30:06.693Z&#34;<p><pre>(now()) + &#34; is the current time&#34;</pre></p>Returns 2019-09-23T09:30:06.693Z is the current time<p><pre>`&#34;a&#34; + &#34;b&#34; + &#34;c&#34; + 1234</pre></p> Returns abc1234.</td></tr>
+<tbody><tr ><td>+</td><td><p><pre>&lt;string&gt; + &lt;expression&gt;</pre></p><p><pre>&lt;expression&gt; + &lt;string&gt;</pre></p><p>It concatenates two expressions or more. </p><p>The first expression must be a string.</p><p> The other expressions can be of any type.</p><p> The rest is a string.</p></td><td><p><pre>&#34;the current time is &#34; + (now())</pre></p> Returns  &#34;the current time is 2019-09-23T09:30:06.693Z&#34;<p><pre>(now()) + &#34; is the current time&#34;</pre></p>Returns "2019-09-23T09:30:06.693Z is the current time"<p><pre>&#34;a&#34; + &#34;b&#34; + &#34;c&#34; + 1234</pre></p> Returns abc1234.</td></tr>
 </tbody>
 </table>
 

@@ -20,7 +20,9 @@ A function can have different signatures (a different set of ordered parameters)
 
 `<function name>`(`<expression as param 1>`, `<expression as param 2>`, ... ,`<expression as param N>`)
 
-Each function has a specific return data type. Here is the list of supported functions.
+Each function has a specific returned type. 
+
+Here is the list of supported functions.
 
 ## Main functions
 
@@ -92,7 +94,7 @@ Each function has a specific return data type. Here is the list of supported fun
 
 The expression language also introduces a set of functions to query collections.
 
-These functions are explained below. Let’s use the following event payload containing a collection for a few examples:
+These functions are explained below. In the following examples, let’s use the event payload containing a collection:
 
 ```
 
@@ -146,7 +148,7 @@ The **all** function enables the definition of a filter on a given collection by
 
 For example, among all the app users, you can get the ones using IOS 13 (boolean expression “app used == IOS 13"). The result of this function is the filtered list containing items matching the boolean expression (example: app user 1, app user 34, app user 432).
 
-In a Data Source Condition activity you can check if the result of the **all** function is null or not. You can also combine this **all** function with other functions such as **count**.
+In a Data Source Condition activity you can check if the result of the **all** function is null or not. You can also combine this **all** function with other functions such as **count**. For more information, see [Data Source Condition activity](../building-journeys/condition.md#data_source_condition).
 
 **Example 1:**
 
@@ -193,7 +195,7 @@ earlier timestamp) in order to only consider prior events.-->
 
    >[!NOTE]
    >
-   >When the filtering condition in the **all()** function is empty, the filter will return all the elements in the list. However, in order to count the number of elements of a collection, the all function is not required.
+   >When the filtering condition in the **all()** function is empty, the filter will return all the elements in the list. **However, in order to count the number of elements of a collection, the all function is not required.**
 
 
    ```
@@ -246,7 +248,7 @@ The result will be:
 >[!NOTE]
 >
 >**currentEventField** is only available when manipulating event collections and **currentDataPackField** 
->when manipulating data source collections. When processing collections with all, first and last, we
+>when manipulating data source collections. When processing collections with **all**, **first** and **last**, we
 >loop on each element of the collection one by one. **currentEventField** and **currentDataPackField**
 >correspond to the element being looped.
 

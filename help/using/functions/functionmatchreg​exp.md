@@ -33,7 +33,7 @@ String
 |string|string|
 |regexp|string|
 
-## Signature and return type
+## Signature and returned type
 
 `matchRegExp(<string>,<string>)`
 

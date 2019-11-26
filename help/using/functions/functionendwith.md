@@ -26,7 +26,7 @@ String
 
 `endWith(<parameters>)`
 
-## Signature and return type
+## Signature and returned type
 
 `endWith(<string>,<string>)`
 

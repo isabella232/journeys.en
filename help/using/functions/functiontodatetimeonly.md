@@ -33,7 +33,7 @@ Conversion
 | date time without time zone in ISO-8601 format | string |
 | dateTime | dateTime|
 
-## Signatures and return types
+## Signatures and returned types
 
 `toDateTimeOnly(<dateTime>)`
 

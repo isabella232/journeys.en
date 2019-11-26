@@ -33,7 +33,7 @@ String
 |  calling string | String   |
 |  specified value | String |
 
-## Signature and return type
+## Signature and returned type
 
 `lastIndexOf(<string>,<string>)`
 

@@ -34,7 +34,7 @@ String
 | beginIndex | integer |
 | endIndex | integer |
 
-## Signature and return type
+## Signature and returned type
 
 `substr(<string>,beginIndex<integer>)`
 

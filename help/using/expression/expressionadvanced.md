@@ -18,10 +18,10 @@ snippet: y
 
 ## About the advanced expression editor {#section_llg_vnj_cjb}
 
-The advanced expression editor allows you to build advanced conditions in various screens of the interface, for example, when defining a data source condition.
+The advanced expression editor allows you to build advanced expressions in various screens of the interface, for example, when defining a data source condition.
 It is also available every time you need to define action parameters that require specific data manipulations. You can leverage data coming from the events or additional information retrieved from the data source. In a journey, the displayed list of event fields is contextual and varies according to the event(s) added in the journey.
 
-The advanced expression editor offers a set of built-in functions and operators to let you manipulate values and define an expression that fits specifically your needs.The advanced expression editor also allows you to define the values of external data source parameter, manipulate map fields and collections, such as experience events.
+The advanced expression editor offers a set of built-in functions and operators to let you manipulate values and define an expression that fits specifically your needs. The advanced expression editor also allows you to define the values of the external data source parameter, manipulate map fields and collections, such as experience events.
 
  ![](../assets/journey65.png)
 
@@ -29,9 +29,9 @@ _The advanced expression editor interface_
 
 The advanced expression editor can be used to:
 
-* create advanced conditions on data sources and event information
-* define custom time zones in date conditions, fixed date wait activities, custom wait activities
-* define custom wait activities
+* create [advanced conditions](../building-journeys/condition.md#about_condition) on data sources and event information
+* define custom [time zones](../building-journeys/timezone.md) in date conditions, fixed date wait activities, custom wait activities
+* define custom [wait activities](../building-journeys/wait.md#custom)
 * define action parameters mapping
 
 When possible, you can switch between the two modes using the **Advanced mode** / **Simple mode** button. The simple mode is described [](../building-journeys/condition.md#about_condition).
@@ -40,18 +40,18 @@ When possible, you can switch between the two modes using the **Advanced mode** 
 >
 >Conditions can be defined in the simple or advanced expression editor. They always return a boolean type.  
 >
->Actions parameters can be defined via the simple picker or the advanced expression editor. They return a specific data type according to their expression.  
+>Actions parameters can be defined by selecting fields or via the advanced expression editor. They return a specific data type according to their expression.  
 
 ## Accessing the advanced expression editor {#section_fdz_4nj_cjb}
 
-You can access the query editor in different ways:
+You can access the advanced expression editor in different ways:
 
 * When you create a data source condition, you can access the advanced editor by clicking on **Advanced mode**.
 
     ![](../assets/journeyuc2_33.png)
 
 * When you create a custom time zone or a custom timer, the advanced editor will be directly displayed.
-* When you map action parameters you can access it by clicking on **Advanced mode**.
+* When you map action parameter, click on **Advanced mode**.
 
 ## Discovering the interface{#section_otq_tnj_cjb}
 
@@ -63,7 +63,7 @@ On the left part of the screen are displayed available fields and functions:
 
 * **Events**: choose one of the fields received from the inbound event. The displayed list of event fields is contextual and varies according to the event(s) added in the journey.
 * **Data Sources**: choose from the list of fields available from your data sources' field groups.
-* **Functions**: a list of built-in functions that allow to carry out complex filtering. Functions are organized by categories.
+* **Functions**: choose from the a list of built-in functions that allow to carry out complex filtering. Functions are organized by categories.
 
 ![](../assets/journey65.png)
 

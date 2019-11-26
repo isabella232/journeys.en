@@ -36,7 +36,7 @@ String
 | target  | string       |
 | replacement    | string       |
 
-## Signature and return type
+## Signature and returned type
 
 `replaceAll(<baseString>,<sourceString>,<replacementString>)`
 

@@ -39,7 +39,7 @@ Aggregation
 * dateTime
 * dateTimeOnly
 
-## Signatures and return types
+## Signatures and returned types
 
 `min(<listDuration>)`
 

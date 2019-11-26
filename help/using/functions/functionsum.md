@@ -34,7 +34,7 @@ Aggregation
 * integer
 * decimal
 
-## Signatures and return types
+## Signatures and returned types
 
 `sum(<listDecimal>)`
 

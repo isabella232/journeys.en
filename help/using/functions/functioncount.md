@@ -38,7 +38,7 @@ Aggregation
 | List      | listDateTime     |
 | List      | listDateTimeOnly |
 
-## Signatures and return type
+## Signatures and returned type
 
 `count(<listAny>)`
 

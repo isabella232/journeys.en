@@ -32,7 +32,7 @@ Date
 |--- |--- |
 |integer|number of milliseconds (epoch milliseconds)|
 
-## Signatures and return type
+## Signatures and returned type
 
 `currentTimeInMillis()`
 

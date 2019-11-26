@@ -38,7 +38,7 @@ List
 | List      | listDateTime     |
 | List      | listDateTimeOnly |
 
-## Signatures and return types
+## Signatures and returned types
 
 `distinctWithNull(<listInteger>)`
 

@@ -26,7 +26,7 @@ Maths
 
 `random(<parameters>)`
 
-## Signature and return type
+## Signature and returned type
 
 `random()`
 

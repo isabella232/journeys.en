@@ -33,7 +33,7 @@ String
 | string      | string |
 | prefix      | string |
 
-## Signature and return type
+## Signature and returned type
 
 `startWithIgnoreCase(<string>,<string>)`
 

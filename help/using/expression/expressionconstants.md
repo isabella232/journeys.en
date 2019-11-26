@@ -16,7 +16,7 @@ snippet: y
 
 # Data types {#concept_gp3_rj5_dgb}
 
-Technically, a constant always contains a data type. In the literal expression, we only specify the value. The data type can be inferred from the value (for example string, integer, decimal, etc.). For specific cases such as date tile, we use dedicated functions for the representation.
+Technically, a constant always contains a data type. In the literal expression, we only specify the value. The data type can be inferred from the value (for example string, integer, decimal, etc.). For specific cases such as date time, we use dedicated functions for the representation.
 
 Here is how data type expressions are represented:
 
@@ -73,7 +73,7 @@ Here is how data type expressions are represented:
     </tr>
     <tr>
         <td>duration</td>
-        <td><p>It represents a time-based amount of time, such as '34.5 seconds'.</p><p> It models a quantity or amount of time in terms of milliseconds.</p><p>The supported temporal units are: milliseconds, seconds, minutes, hours, days with one day equals to 24 hours.</p><p> Years and months are not supported since they're not a fixed amount of time.</p><p>JSON format: String. It must be encapsulated in a toDuration function.</p><p>Serialization format: To deserialize a time zone ID, it uses the java function java.time.</p><p>Duration.parse: the formats accepted are based on the ISO-8601 duration format PnDTnHnMn.nS with days considered to be exactly 24 hours.</p><a href="https://docs.oracle.com/javase/8/docs/api/java/time/Duration.html#parse-java.lang.CharSequence-">Learn more</a>.</td>
+        <td><p>It represents a time-based amount of time, such as '34.5 seconds'.</p><p> It models a quantity or amount of time in terms of milliseconds.</p><p>The supported temporal units are: milliseconds, seconds, minutes, hours, days where a dayequals to 24 hours.</p><p> Years and months are not supported since they're not a fixed amount of time.</p><p>JSON format: String. It must be encapsulated in a toDuration function.</p><p>Serialization format: To deserialize a time zone ID, it uses the java function java.time.</p><p>Duration.parse: the formats accepted are based on the ISO-8601 duration format PnDTnHnMn.nS with days considered to be exactly 24 hours.</p><a href="https://docs.oracle.com/javase/8/docs/api/java/time/Duration.html#parse-java.lang.CharSequence-">Learn more</a>.</td>
         <td><p>toDuration("&lt;duration in ISO-8601 format&gt;")</p><p>toDuration(&lt;duration in milliseconds&gt;)</p></td>
         <td><p><pre>toDuration("PT5S") // 5 seconds</pre></p>
         <p><pre>toDuration(500) // </pre></p>
