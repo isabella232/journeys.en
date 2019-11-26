@@ -15,7 +15,7 @@ snippet: y
 ---
 
 
-# About journey building {#concept_gq5_sqt_52b}
+# Creating a journey {#concept_gq5_sqt_52b}
 
 This step is performed by the **business user**. This is where you create your journeys. Combine the different event, orchestration and action activities to build your multi-step cross-channel scenarios.
 
@@ -23,7 +23,7 @@ The journey interface allows you to easily drag and drop activities from the pal
 
 Only one namespace is allowed per journey. When you drop the first event, events with different namespaces will be grayed out. If the first event doesn't have a namespace, then all events with a namespace will be grayed out. See [](../event/eventnamespace.md#concept_ckb_3qt_52b). Also, Experience Platform field groups are grayed out if the journey has events without a namespace. And finally, if you use several events in the same journey, they need to use the same namespace.
 
-## Creating a journey {#creating_journey}
+## Quick start {#creating_journey}
 
 Here are the main steps to create and publish a journey.
 
@@ -63,24 +63,3 @@ There are two ways to end a journey:
 
 The person can then re-enter the journey if re-entrance is allowed. See [](../building-journeys/journeyproperty.md#concept_prq_wqt_52b).
 
-## Time zone management {#timezone_management}
-
-Time zone definition is available in the following activities:
-
-* [](../building-journeys/condition.md#time_condition)
-* [](../building-journeys/condition.md#date_condition)
-* [](../building-journeys/wait.md#custom)
-* [](../building-journeys/wait.md#fixed_date)
-
-If the entry event of the journey has a namespace, meaning that the journey can reach the Real-time Customer Profile service of the Data Platform, the time zone is pre-defined with the one specified in the profile of the individual flowing in the journey. If the individual's profile does not contain a time zone, the instance's time zone is used. You can contact your administrator to know the instance time zone.
-
-![](../assets/journey73.png)
-
-The time zone can also be fixed. Clear the pre-defined time zone and pick one from the drop-down list. If you use a fixed time zone, it will be the same for all individuals entering the journey. 
-
-![](../assets/journey72.png)
-
-Finally, the time zone can be dynamic for each person entering the step. In this case, you will use the expression editor to select where you want the system to get this information (it can be from an event or a data source). See [](../expression/expressionadvanced.md#concept_uyj_trt_52b). The custom time zone must follow this [format](https://docs.oracle.com/javase/8/docs/api/java/time/ZoneId.html#of-java.lang.String-).
-
-
-The start and end dates of a journey cannot be linked to a specific time zone. They are automatically associated to the instance's time zone.
