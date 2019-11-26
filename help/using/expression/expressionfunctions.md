@@ -19,6 +19,7 @@ snippet: y
 A function can have different signatures (a different set of ordered parameters). A function signature can have 0-N expressions as ordered parameters.
 
 `<function name>`(`<expression as param 1>`, `<expression as param 2>`, ... ,`<expression as param N>`)
+
 Each function has a specific return data type. Here is the list of supported functions.
 
 ## Main functions
@@ -280,7 +281,7 @@ This expression returns the last push notification token associated to mobile ap
    >[!NOTE]
    >
    >The experience events are retrieved from the Experience Platform as a collection in reverse chronological order, hence :
-   >* **first** function will return the most recent event,
+   >* **first** function will return the most recent event
    >* **last** function will return the oldest one.
 
 **Example 3:**
@@ -313,9 +314,9 @@ The result is "token_2".
 
 The conditional instruction (if, then, else) is supported in the advanced editor. It allows to define more complex expressions. It is composed of the following elements:
 
-* **if**: the condition to be evaluated first.`
-* **then**: the expression to be evaluated in case the result of the condition evaluation is true.`
-* **else**: the expression to be evaluated in case the result of the condition evaluation is false.`
+* **if**: the condition to be evaluated first.
+* **then**: the expression to be evaluated in case the result of the condition evaluation is true.
+* **else**: the expression to be evaluated in case the result of the condition evaluation is false.
 
 >[!NOTE]
 >
