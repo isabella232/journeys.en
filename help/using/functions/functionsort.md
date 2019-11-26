@@ -69,8 +69,8 @@ Returns a list of booleans.
 
 `sort(["A", "C", "B"], true)`
 
-Returns ["A","B","C"]
+Returns `["A","B","C"]`.
 
 `sort([1, 3, 2], false)`
 
-Returns [3, 2, 1]
+Returns `[3, 2, 1]`.

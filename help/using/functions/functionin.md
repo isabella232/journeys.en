@@ -50,11 +50,17 @@ List
 ## Signature and return type
 
 `in(<integer>,<listInteger>)`
+
 `in(<decimal>,<listDecimal>)`
+
 `in(<string>,<listString>)`
+
 `in(<boolean>,<listBoolean>)`
+
 `in(<dateTimeOnly>,<listDateTimeOnly>)`
+
 `in(<dateTime>,<listDateTime>)`
+
 `in(<duration>,<listDuration>)`
 
 Return a boolean.

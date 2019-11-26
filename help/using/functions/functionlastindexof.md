@@ -45,4 +45,6 @@ Returns an integer.
 
 Returns 3.
 
-Explanation: In "Hello", the last occurrence of “l” is at position 3.
+Explanation:
+
+In "Hello", the last occurrence of “l” is at position 3.

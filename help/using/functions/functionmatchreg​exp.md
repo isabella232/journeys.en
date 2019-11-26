@@ -45,4 +45,5 @@ Returns a true.
 
 Returns true.
 
-Explanation: here you check if the string satisfies the regular expression (java syntax): starts with "Hello", then any kind of string and finishes with "World".
+Explanation: 
+Here you check if the string satisfies the regular expression (java syntax): starts with "Hello", then any kind of string and finishes with "World".

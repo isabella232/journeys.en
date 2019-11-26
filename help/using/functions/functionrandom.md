@@ -29,6 +29,7 @@ Maths
 ## Signature and return type
 
 `random()`
+
 Returns a decimal.
 
 ## Example

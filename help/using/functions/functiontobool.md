@@ -51,6 +51,7 @@ Return a boolean.
 ## Examples
 
 `toBool("true")`
+
 `toBool(1)`
 
 Returns true.

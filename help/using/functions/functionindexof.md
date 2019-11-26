@@ -45,4 +45,6 @@ Returns an integer.
 
 Returns 2.
 
-Explanation: In "Hello", the first occurrence of “l” is at position 2.
+Explanation: 
+
+In "Hello", the first occurrence of “l” is at position 2.

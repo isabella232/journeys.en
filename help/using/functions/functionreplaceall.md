@@ -45,4 +45,5 @@ Returns a string.
 ## Example
 
 `replaceAll("Hello World", "l", "x")`
+
 Returns "Hexxo Worxd".
