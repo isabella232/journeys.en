@@ -39,7 +39,7 @@ List
 | List      | listDateTimeOnly |
 | Boolean   | Boolean |
 
-## Signature and return type
+## Signature and returned type
 
 `sort(<listInteger>,<boolean>)`
 
@@ -55,7 +55,7 @@ Returns a list of strings.
 
 `sort(<listDateTimeOnly>,<boolean>)`
 
-Returns a list of datetimes without considering timezone.
+Returns a list of datetimes without considering time zone.
 
 `sort(<listDateTime>,<boolean>)`
 
@@ -69,8 +69,8 @@ Returns a list of booleans.
 
 `sort(["A", "C", "B"], true)`
 
-Returns ["A","B","C"]
+Returns `["A","B","C"]`.
 
 `sort([1, 3, 2], false)`
 
-Returns [3, 2, 1]
+Returns `[3, 2, 1]`.

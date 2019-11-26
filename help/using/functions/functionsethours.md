@@ -30,11 +30,11 @@ Date
 
 |Parameter|Type|
 |--- |--- |
-|dateTime||
-|dateTimeOnly||
+|date time|dateTime|
+|date time without considering time zone|dateTimeOnly|
 |hours|integer|
 
-## Signatures and return type
+## Signatures and returned type
 
 `setHours(<dateTime>,<integer>)`
 
@@ -42,7 +42,7 @@ Returns a datetime.
 
 `setHours(<dateTimeOnly>,<integer>)`
 
-Returns a datetime without considering timezone.
+Returns a datetime without considering time zone.
 
 ## Examples
 

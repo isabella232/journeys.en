@@ -1,6 +1,6 @@
 ---
 title: Building the journey
-description: Learn how to build the journey in advanced use case
+description: Learn how to build the advanced use case journey 
 page-status-flag: never-activated
 uuid: 269d590c-5a6d-40b9-a879-02f5033863fc
 contentOwner: sauviat
@@ -28,7 +28,7 @@ The **business user** can now build the journey. Our journey will include the fo
 >
 >The **Push** and **Email** activities are only available in the palette if you have Adobe Campaign Standard.
 
-For additional information on how to build a journey, refer to [Building a journey](../building-journeys/journey.md#concept_gq5_sqt_52b).
+For additional information on how to build a journey, refer to [](../building-journeys/journey.md).
 
 ## First steps{#section_ntb_ws1_ffb}
 
@@ -78,7 +78,7 @@ For additional information on how to build a journey, refer to [Building a journ
     >
     >In the second part of expression, "Profile" is optional.
 
-1. We need to select a namespace. A namespace is preselected based on schema properties. You can keep the one preselected. For more information on namespaces, see [Selecting the namespace](../event/eventnamespace.md#concept_ckb_3qt_52b).
+1. We need to select a namespace. A namespace is preselected based on schema properties. You can keep the one preselected. For more information on namespaces, see [](../event/eventnamespace.md).
 
 In our use case, we only want to react to those two conditions, so we don't check the box **Show path for other cases than the one(s) above**.
 
@@ -103,7 +103,7 @@ Two paths are created after your condition:
 
     ![](../assets/journeyuc2_18.png)
 
-1. When you select a field from an external data source, the right part of the screen displays the list of parameters that were defined when configuring the external data source (see [Configuring the data sources](uc2ds.md#concept_vml_hdy_w2b)). This lets you define the values of the parameters that the system will send to the data source before performing the condition. The external system will then return the payload containing the needed fields. In our case, we have defined one field (the reservation status) and one parameter (the key to identify the customer). Click on the parameter name and define the value of the reservation system key, the Experience Cloud ID, in our example:
+1. When you select a field from an external data source, the right part of the screen displays the list of parameters that were defined when configuring the external data source (see [](../usecase/uc2ds.md)). Click on the parameter name and define the value of the reservation system key, the Experience Cloud ID, in our example:
 
     ```
     @{LobbyBeacon.endUserIDs._experience.mcid.id}
@@ -169,7 +169,7 @@ Two paths are created after your condition:
 
 1. Add an **End** activity.
 
-Click on the **Test** toggle and test your journey. If there is any error, deactivate the test mode, modify your journey and test it again. For more information on the test mode, refer to [Testing your journey](../building-journeys/journeytesting.md). 
+Click on the **Test** toggle and test your journey. If there is any error, deactivate the test mode, modify your journey and test it again. For more information on the test mode, refer to [](../building-journeys/journeytesting.md). 
 
 ![](../assets/journeyuc2_32bis.png)
 

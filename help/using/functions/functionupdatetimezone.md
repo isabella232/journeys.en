@@ -28,10 +28,10 @@ Date
 
 ## Parameters
 
-* timezone id: string
+* time zone id: string
 * dateTime
 
-## Signature and return type
+## Signature and returned type
 
 `updateTimeZone(<dateTime>,<timeZone id>)`
 

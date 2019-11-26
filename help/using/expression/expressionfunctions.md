@@ -1,6 +1,6 @@
 ---
 title: Functions
-description: Learn about the function Functions
+description: Learn about functions
 page-status-flag: never-activated
 uuid: 269d590c-5a6d-40b9-a879-02f5033863fc
 contentOwner: sauviat
@@ -19,79 +19,82 @@ snippet: y
 A function can have different signatures (a different set of ordered parameters). A function signature can have 0-N expressions as ordered parameters.
 
 `<function name>`(`<expression as param 1>`, `<expression as param 2>`, ... ,`<expression as param N>`)
-Each function has a specific return data type. Here is the list of supported functions.
+
+Each function has a specific returned type. 
+
+Here is the list of supported functions.
 
 ## Main functions
 
 | Category    | Function              |
 |-------------|-----------------------|
-| AEP         | [getBestSendTime](../functions/functiongetbestsendtime.md)|
-| AEP         | [inSegment](../functions/functioninsegment.md)|
-| Aggregation | [avg](../functions/functionavg.md)|
-| Aggregation | [count](../functions/functioncount.md)|
-| Aggregation | [countOnlyNull](../functions/functioncountonlynull.md)|
-| Aggregation | [countWithNull](../functions/functioncountwithnull.md)|
-| Aggregation | [discountCount](../functions/functiondistinctcount.md)|
-| Aggregation | [discountCountwithNull](../functions/functiondistinctcountwithnull.md)|
-| Aggregation | [max](../functions/functionmax.md)|
-| Aggregation | [min](../functions/functionmax.md)|
-| Aggregation | [sum](../functions/functionsum.md)|
-| Conversion  | [toBool](../functions/functiontobool.md)|
-| Conversion  | [toDateTime](../functions/functiontodatetime.md)|
-| Conversion  | [toDateTimeOnly](../functions/functiontodatetimeonly.md)|
-| Conversion  | [toDecimal](../functions/functiontodecimal.md)|
-| Conversion  | [toDuration](../functions/functiontoduration.md)|
-| Conversion  | [toInteger](../functions/functiontointeger.md)|
-| Conversion  | [toString](../functions/functiontostring.md)|
-| Date        | [currentTime​InMillis](../functions/functioncurrenttimeinmillis.md)|
-| Date        | [inLastDays](../functions/functioninlastdays.md)|
-| Date        | [inLastHours](../functions/functioninlasthours.md)|
-| Date        | [inLastMonths](../functions/functioninlastmonths.md)|
-| Date        | [inLastYears](../functions/functioninlastyears.md)|
-| Date        | [inNextDays](../functions/functioninnextdays.md)|
-| Date        | [inNextHours](../functions/functioninnexthours.md)|
-| Date        | [inNextMonths](../functions/functioninnextmonths.md)|
-| Date        | [inNextYears](../functions/functioninnextyears.md)|
-| Date        | [now](../functions/functionnow.md)|
-| Date        | [nowWithDelta](../functions/functionnowwithdelta.md)|
-| Date        | [setHours](../functions/functionsethours.md)|
-| Date        | [setDays](../functions/functionsetdays.md)|
-| List        | [distinct](../functions/functiondistinct.md)|
-| List        | [distinctWithNull](../functions/functiondistinctcount.md)|
-| List        | [in](../functions/functionin.md)|
-| List        | [listSize](../functions/functionlistsize.md)|
-| List        | [serializeList](../functions/functionserializelist.md)|
-| List        | [sort](../functions/functionsort.md)|
-| Math        | [random](../functions/functionrandom.md)|
-| Math        | [round](../functions/functionround.md)|
-| String      | [concat](../functions/functionconcat.md)|
-| String      | [contain](../functions/functioncontain.md)|
-| String      | [containWithIgnoreCase](../functions/functioncontainwithignorecase.md)|
-| String      | [endWith](../functions/functionendwith.md)|
-| String      | [endWithIgnorecase](../functions/functionendwithignorecase.md)|
-| String      | [equalWithIgnoreCase](../functions/functionequalignorecase.md)|
-| String      | [indexOf](../functions/functionindexof.md)|
-| String      | [isEmpty](../functions/functionisempty.md)|
-| String      | [isNotEmpty](../functions/functionisnotempty.md)|
-| String      | [lastIndexOf](../functions/functionlastindexof.md)|
-| String      | [length](../functions/functionlength.md)|
-| String      | [lower](../functions/functionlower.md)|
-| String      | [matchRegExp](../functions/functionmatchregexp.md)|
-| String      | [notEqualWithIgnoreCase](../functions/functionnotequalignorecase.md)|
-| String      | [replace](../functions/functionreplace.md)|
-| String      | [replaceAll](../functions/functionreplaceall.md)|
-| String      | [startWith](../functions/functionstartwith.md)|
-| String      | [startWithIgnoreCase](../functions/functionstartwithignorecase.md)|
-| String      | [substr](../functions/functionsubstr.md)|
-| String      | [trim](../functions/functiontrim.md)|
-| String      | [upper](../functions/functionupper.md)|
-| String      | [uuid](../functions/functionuuid.md)|
+| Adobe Experience Platform | [](../functions/functiongetbestsendtime.md)|
+| Adobe Experience Platform | [](../functions/functioninsegment.md)|
+| Aggregation | [](../functions/functionavg.md)|
+| Aggregation | [](../functions/functioncount.md)|
+| Aggregation | [](../functions/functioncountonlynull.md)|
+| Aggregation | [](../functions/functioncountwithnull.md)|
+| Aggregation | [](../functions/functiondistinctcount.md)|
+| Aggregation | [](../functions/functiondistinctcountwithnull.md)|
+| Aggregation | [](../functions/functionmax.md)|
+| Aggregation | [](../functions/functionmax.md)|
+| Aggregation | [](../functions/functionsum.md)|
+| Conversion  | [](../functions/functiontobool.md)|
+| Conversion  | [](../functions/functiontodatetime.md)|
+| Conversion  | [](../functions/functiontodatetimeonly.md)|
+| Conversion  | [](../functions/functiontodecimal.md)|
+| Conversion  | [](../functions/functiontoduration.md)|
+| Conversion  | [](../functions/functiontointeger.md)|
+| Conversion  | [](../functions/functiontostring.md)|
+| Date        | [](../functions/functioncurrenttimeinmillis.md)|
+| Date        | [](../functions/functioninlastdays.md)|
+| Date        | [](../functions/functioninlasthours.md)|
+| Date        | [](../functions/functioninlastmonths.md)|
+| Date        | [](../functions/functioninlastyears.md)|
+| Date        | [](../functions/functioninnextdays.md)|
+| Date        | [](../functions/functioninnexthours.md)|
+| Date        | [](../functions/functioninnextmonths.md)|
+| Date        | [](../functions/functioninnextyears.md)|
+| Date        | [](../functions/functionnow.md)|
+| Date        | [](../functions/functionnowwithdelta.md)|
+| Date        | [](../functions/functionsethours.md)|
+| Date        | [](../functions/functionsetdays.md)|
+| List        | [](../functions/functiondistinct.md)|
+| List        | [](../functions/functiondistinctcount.md)|
+| List        | [](../functions/functionin.md)|
+| List        | [](../functions/functionlistsize.md)|
+| List        | [](../functions/functionserializelist.md)|
+| List        | [](../functions/functionsort.md)|
+| Math        | [](../functions/functionrandom.md)|
+| Math        | [](../functions/functionround.md)|
+| String      | [](../functions/functionconcat.md)|
+| String      | [](../functions/functioncontain.md)|
+| String      | [](../functions/functioncontainwithignorecase.md)|
+| String      | [](../functions/functionendwith.md)|
+| String      | [](../functions/functionendwithignorecase.md)|
+| String      | [](../functions/functionequalignorecase.md)|
+| String      | [](../functions/functionindexof.md)|
+| String      | [](../functions/functionisempty.md)|
+| String      | [](../functions/functionisnotempty.md)|
+| String      | [](../functions/functionlastindexof.md)|
+| String      | [](../functions/functionlength.md)|
+| String      | [](../functions/functionlower.md)|
+| String      | [](../functions/functionmatchregexp.md)|
+| String      | [](../functions/functionnotequalignorecase.md)|
+| String      | [](../functions/functionreplace.md)|
+| String      | [](../functions/functionreplaceall.md)|
+| String      | [](../functions/functionstartwith.md)|
+| String      | [](../functions/functionstartwithignorecase.md)|
+| String      | [](../functions/functionsubstr.md)|
+| String      | [](../functions/functiontrim.md)|
+| String      | [](../functions/functionupper.md)|
+| String      | [](../functions/functionuuid.md)|
 
 ## Collection management functions {#section_ig2_hb5_pgb}
 
 The expression language also introduces a set of functions to query collections.
 
-These functions are explained below. Let’s use the following event payload containing a collection for a few examples:
+These functions are explained below. In the following examples, let’s use the event payload containing a collection:
 
 ```
 
@@ -139,23 +142,27 @@ These functions are explained below. Let’s use the following event payload con
 
 The **all** function enables the definition of a filter on a given collection by using a boolean expression.
 
- For example, among all the app users, you can get the ones using IOS 13 (boolean expression “app used == IOS 13"). The result of this function is the filtered list containing items matching the boolean expression (example: app user 1, app user 34, app user 432).
+   ```
+   <listExpression>.all(<condition>)
+   ```
 
-You can then use this in a condition activity to check if the result of the **all** function is null or not. You can also combine this **all** function with other functions such as **count**.
+For example, among all the app users, you can get the ones using IOS 13 (boolean expression “app used == IOS 13"). The result of this function is the filtered list containing items matching the boolean expression (example: app user 1, app user 34, app user 432).
 
-**"All + Count" condition example 1:**
+In a Data Source Condition activity you can check if the result of the **all** function is null or not. You can also combine this **all** function with other functions such as **count**. For more information, see [Data Source Condition activity](../building-journeys/condition.md#data_source_condition).
 
-We want to check if a user has installed a specific version of an application. For this we get all the push notification tokens associated to mobile applications for which the version is 1.0. Then, we perform a condition with the count function to check that the returned list of tokens contains at least one element.
+**Example 1:**
+
+We want to check if a user has installed a specific version of an application. For this we get all the push notification tokens associated to mobile applications for which the version is 1.0. Then, we perform a condition with the **count** function to check that the returned list of tokens contains at least one element.
 
    ```
-   count(@{LobbyBeacon._experience.campaign.message.profile.pushNotificationTokens.all&#8203;(currentEventField.application.version == "1.0").token}) > 0
+   count(@{LobbyBeacon._experience.campaign.message.profile.pushNotificationTokens.all(currentEventField.application.version == "1.0").token}) > 0
    ```
 
 The result is true.
 
-**"All + Count" example 2:**
+**Example 2:**
 
-Here we use the count function in a condition to see if there is push notification tokens in the collection.
+Here we use the **count** function to check if there are push notification tokens in the collection.
 
    ```
    count(@{LobbyBeacon._experience.campaign.message.profile.pushNotificationTokens.all().token}) > 0
@@ -163,7 +170,7 @@ Here we use the count function in a condition to see if there is push notificati
 
 The result will be true.
 
-Alternatively, you can check if there is no token in the collection:
+<!--Alternatively, you can check if there is no token in the collection:
 
    ```
    count(@{LobbyBeacon._experience.campaign.message.profile.pushNotificationTokens.all().token}) == 0
@@ -171,7 +178,7 @@ Alternatively, you can check if there is no token in the collection:
 
 The result will be false.
 
-<!--Here we use the count function in a condition to count the number of push notification tokens in the event.
+Here we use the count function in a condition to count the number of push notification tokens in the event.
 
 `count(@{LobbyBeacon._experience.campaign.message.profile.pushNotificationTokens.all().token})`
 
@@ -186,25 +193,36 @@ In both cases, the result of the expression is **3**.
 A query of experience events recorded on the platform may or may not include the current event that triggered the current Journey. This will depend on the relative processing time with which Journey Orchestration sees an event and started evaluating conditions, versus the time it takes for that event to be ingested into the platform. For example, when using the .all() syntax to query experience events from the platform, we recommend enforcing the exclusion of the current event (by requiring an
 earlier timestamp) in order to only consider prior events.-->
 
-**"All + Count" example 3:**
+   >[!NOTE]
+   >
+   >When the filtering condition in the **all()** function is empty, the filter will return all the elements in the list. **However, in order to count the number of elements of a collection, the all function is not required.**
 
-Here we use the count function in a condition to see if an individual has not received any communication within the last 24 hours. We filter the collection of experience events retrieved from the ExperiencePlatform datasource, using two expressions based on two elements of the collection.
+
+   ```
+   count(@{LobbyBeacon._experience.campaign.message.profile.pushNotificationTokens.token})
+   ```
+
+   The result of the expression is **3**.
+
+**Example 3:**
+
+Here we check if an individual has not received any communication within the last 24 hours. We filter the collection of experience events retrieved from the ExperiencePlatform datasource, using two expressions based on two elements of the collection. In particular, the timestamp of the event is compared to the dateTime returned by the **nowWithDelta** function.
 
 ```
-count(#{ExperiencePlatformDataSource.MarltonExperience.experienceevent.all(
+count(#{ExperiencePlatform.MarltonExperience.experienceevent.all(
    currentDataPackField.directMarketing.sends.value > 0 and
    currentDataPackField.timestamp > nowWithDelta(-1, "days")).timestamp}) == 0
 ```
 
 The result will be true if there is no experience event matching the two conditions.
 
-**"All + Count" example 4:**
+**Example 4:**
 
 Here we want to check if an individual has launched at least once an application in the last 7 days, in order for instance to trigger a push notification inviting him to start a tutorial.
 
 ```
 count(
- #{ExperiencePlatformDataSource.AnalyticsData.experienceevent.all(
+ #{ExperiencePlatform.AnalyticsData.experienceevent.all(
  nowWithDelta(-7,"days") <= currentDataPackField.timestamp
  and currentDataPackField.application.firstLaunches.value > 0
 )._id}) > 0
@@ -230,17 +248,9 @@ The result will be:
 >[!NOTE]
 >
 >**currentEventField** is only available when manipulating event collections and **currentDataPackField** 
->when manipulating data source collections. When processing collections with all, first and last, we
+>when manipulating data source collections. When processing collections with **all**, **first** and **last**, we
 >loop on each element of the collection one by one. **currentEventField** and **currentDataPackField**
 >correspond to the element being looped.
->
->Note also that when the filtering condition in the all() function is empty, the filter will return all the elements in the list. However, in order to count the number of elements of a collection, the all function is not required.
-
-```
-count(@{LobbyBeacon._experience.campaign.message.profile.pushNotificationTokens.application.name})
-```
-
-The result of the expression is **3**.
 
 **The functions "first(`<condition>`)" and "last(`<condition>`)"**
 
@@ -248,20 +258,41 @@ The **first** and **last** functions also enable the definition of a filter on t
 
 _`<listExpression>.first(<condition>)`_
 
-_`<listExpression>.last(<condition>)` _
+_`<listExpression>.last(<condition>)`_
 
-**Example 1:** return the first push notification token associated to mobile applications for which the version is 1.0.
+**Example 1:** 
+
+This expression returns the first push notification token associated to mobile applications for which the version is 1.0.
 
    ```
    @{LobbyBeacon._experience.campaign.message.profile.pushNotificationTokens.first(currentEventField.application.version == "1.0").token
    ```
 
-The result will be "token_1".
+The result is "token_1".
 
-**Example 2:** return the last push notification token associated to mobile applications for which the version is 1.0.
+**Example 2:** 
+
+This expression returns the last push notification token associated to mobile applications for which the version is 1.0.
 
    ```
    @{LobbyBeacon._experience.campaign.message.profile.pushNotificationTokens.last&#8203;(currentEventField.application.version == "1.0").token}
+   ```
+
+   The result is "token_2".
+
+   >[!NOTE]
+   >
+   >The experience events are retrieved from the Experience Platform as a collection in reverse chronological order, hence :
+   >* **first** function will return the most recent event
+   >* **last** function will return the oldest one.
+
+**Example 3:**
+
+We check whether the first (most recent) Adobe Analytics event with a non-zero value for DMA ID has a value equal to 602.
+
+   ```
+   #{ExperiencePlatform.AnalyticsProd_EvarsProps.experienceevent.first(
+   currentDataPackField.placeContext.geo.dmaID > 0).placeContext.geo.dmaID} == 602
    ```
 
 **The function "at(`<index>`)"**
@@ -271,21 +302,23 @@ Index 0 is the first index of the collection.
 
 _`<listExpression>`.at(`<index>`)_
 
-**Example:** return the second push notification token of the list.
+**Example:** 
+
+This expression returns the second push notification token of the list.
 
    ```
    @{LobbyBeacon._experience.campaign.message.profile.pushNotificationTokens.at(1).token}
    ```
 
-The result will be "token_2".
+The result is "token_2".
 
 ## Conditional instruction (if, then, else){#section_cdz_lsk_w3b}
 
 The conditional instruction (if, then, else) is supported in the advanced editor. It allows to define more complex expressions. It is composed of the following elements:
 
-* **if**: the condition to be evaluated first.`
-* **then**: the expression to be evaluated in case the result of the condition evaluation is true.`
-* **else**: the expression to be evaluated in case the result of the condition evaluation is false.`
+* **if**: the condition to be evaluated first.
+* **then**: the expression to be evaluated in case the result of the condition evaluation is true.
+* **else**: the expression to be evaluated in case the result of the condition evaluation is false.
 
 >[!NOTE]
 >

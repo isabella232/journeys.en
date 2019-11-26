@@ -1,6 +1,6 @@
 ---
 title: Leveraging fatigue scores
-description: Learn how to leveraging fatigue scores in journeys
+description: Learn how to leverage fatigue scores in journeys
 page-status-flag: never-activated
 uuid: 269d590c-5a6d-40b9-a879-02f5033863fc
 contentOwner: sauviat
@@ -20,7 +20,7 @@ This use case will show you how to leverage fatigue scores to avoid over-solicit
 
 ## Configuring the event {#section_ptb_ws1_ffb}
 
-Follow the steps described in [Configuring an event](../event/event.md#concept_gfj_fqt_52b).
+Follow the steps described in [](../event/event.md).
 
 ## Configuring the data source {#section_o3n_4yy_wfb}
 
@@ -39,7 +39,7 @@ Perform the following steps to select the fatigue score fields in the built-in d
 
 ## Building the journey {#section_uzm_pyy_wfb}
 
-To create, validate and publish the journey, follow the steps described in [Building a journey.](../building-journeys/journey.md#concept_gq5_sqt_52b).
+To create, validate and publish the journey, follow the steps described in [](../building-journeys/journey.md).
 
 In our use case, we're leveraging the **fatigueLevel** field. You can also use the **fatigueScore** field.
 

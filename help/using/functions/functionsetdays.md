@@ -30,11 +30,11 @@ Date
 
 |Parameter|Type|
 |--- |--- |
-|dateTime||
-|dateTimeOnly||
+|date time|dateTime|
+|date time without considering time zone|dateTimeOnly|
 |days|integer|
 
-## Signatures and return type
+## Signatures and returned type
 
 `setDays(<dateTime>,<integer>)`
 
@@ -42,7 +42,7 @@ Returns a datetime.
 
 `setDays(<dateTimeOnly>,<integer>)`
 
-Returns a datetime without considering timezone.
+Returns a datetime without considering time zone.
 
 ## Examples
 

@@ -1,6 +1,6 @@
 ---
 title: Access management
-description: 
+description: Learn more on access management
 page-status-flag: never-activated
 uuid: 269d590c-5a6d-40b9-a879-02f5033863fc
 contentOwner: sauviat
@@ -18,47 +18,46 @@ snippet: y
 
 ## About access management {#about-access-management}
 
-Security groups are assigned to a set of users that share the same roles and rights within your organization.
+Product profiles are assigned to a set of users that share the same rights within your organization.
 
-In the Admin console, you can assign one of the following out-of-the-box security groups to your users:
+In the Admin console, you can assign one of the following out-of-the-box product profiles to your users:
 
-*   **[!UICONTROL Limited Access User]**: User with read only access to journeys, events and reports. This security group includes the following roles:
+*   **[!UICONTROL Limited Access User]**: user with read-only access to journeys and reports. This product profile includes the following rights:
     *   Read journeys
-    *   Read events and resources
     *   Read reports
-*   **[!UICONTROL Administrators]**: User with access to the administration menus with the possibility to manage journeys, events and reports. This security group includes the following roles:
+
+*   **[!UICONTROL Administrators]**: user with access to the administration menus with the possibility to manage journeys, events and reports. This product profile includes the following rights:
     *   Manage and execute journeys
-    *   Manage events, resources, and keys
+    *   Manage events, data sources and actions
     *   Manage reports
 
     >[!NOTE]
     >
-    >**[!UICONTROL Administrators]** is the only security group allowing creation, edition and publication of transactional messaging which allows message sending for Journey Orchestration.
+    >**[!UICONTROL Administrators]** is the only product profile which allows creation, edition and publication of transactional messaging (or messaging templates) in Adobe Campaign Standard. This product profile is needed if you use Adobe Campaign Standard to send messages in your journeys.
 
-*   **[!UICONTROL Standard User]**: User with basics access such as manage journeys. This security group includes the following roles:
+*   **[!UICONTROL Standard User]**: user with basic access such as journey management. This product profile includes the following rights:
     *   Manage and execute journeys
-    *   Read events and resources
     *   Manage reports
     
-You can find [here](../assets/acs_rights_journeys.pdf) the compatibility between roles and Journey Orchestration's different functionalities.
+You can find [here](../assets/acs_rights_journeys.pdf) the compatibility between rights and Journey Orchestration's different functionalities.
 
-## Assigning a security group {#assigning-security-group}
+## Assigning a product profile {#assigning-product-profile}
 
-Security groups are managed in the Admin console. For more on this, refer to the [Admin Console documentation](https://helpx.adobe.com/enterprise/managing/user-guide.html).
+Product profiles are managed in the Admin console. For more on this, refer to the [Admin Console documentation](https://helpx.adobe.com/enterprise/managing/user-guide.html).
 
-To assign a security group for a user to access Journey Orchestration:
+To assign a product profile for a user to access Journey Orchestration:
 
 1. In the Admin Console, select **[!UICONTROL Journey orchestration]**.
 
     ![](../assets/user_management.png)
 
-1. Select the security group to which your new user will be linked to.
+1. Select the product profile to which your new user will be linked to.
 
     ![](../assets/user_management_2.png)
 
 1. Click **[!UICONTROL Add user]**.
    
-   You can also add your new user to a user groups to fine tune the shared set of permissions. For more on this, refer to this [page](https://helpx.adobe.com/enterprise/using/user-groups.html).
+   You can also add your new user to a user group to fine-tune the shared set of permissions. For more on this, refer to this [page](https://helpx.adobe.com/enterprise/using/user-groups.html).
 
     ![](../assets/user_management_3.png)
 
@@ -66,4 +65,4 @@ To assign a security group for a user to access Journey Orchestration:
 
     ![](../assets/user_management_4.png)
 
-Your user should then receive an email redirecting to your Journey orchestration instance.
+Your user should then receive an email redirecting to your Journey orchestration.

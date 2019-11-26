@@ -1,6 +1,6 @@
 ---
 title: External data sources 
-description: Learn how to configure External data sources 
+description: Learn how to configure external data sources 
 page-status-flag: never-activated
 uuid: 269d590c-5a6d-40b9-a879-02f5033863fc
 contentOwner: sauviat
@@ -55,7 +55,7 @@ Here are the main steps to create and configure a new external data source:
 
     ![](../assets/journey27.png)
 
-1. Configure the authentication depending on the external service configuration: **No authentication**, **Basic**, **Custom** or **API key**. For more information on the custom authentication mode, see [Custom authentication mode](../datasource/dsexternal.md#section_wjp_nl5_nhb). In our example, we choose:
+1. Configure the authentication depending on the external service configuration: **No authentication**, **Basic**, **Custom** or **API key**. For more information on the custom authentication mode, see [](../datasource/dsexternal.md#section_wjp_nl5_nhb). In our example, we choose:
 
 
     * **Type**: "API key"
@@ -73,7 +73,7 @@ For the "long/lat" parameter set, we create a field group with the following inf
 * **Method**: select the POST or GET method. In our case, we select the GET method.
 * **Cache duration**: in our case, we want the weather to be cached for 10 minutes.
 * **Response Payload**: click inside the **Payload** field and paste an example of the payload returned by the call. For our example, we used a payload found on a weather API website. Verify that the field types are correct. Each time the API is called, the system will retrieve all the fields included in the payload example. Note that you can click on **Paste a new payload** if you want to change the payload currently passed.
-* **Dynamic Values**: enter the different parameters separated by a coma, "long,lat" in our example. Since the parameter values depend on the execution context, they will be defined in the journeys. See [Using the advanced expression editor](../expression/expressionadvanced.md#concept_uyj_trt_52b).
+* **Dynamic Values**: enter the different parameters separated by a coma, "long,lat" in our example. Since the parameter values depend on the execution context, they will be defined in the journeys. See [](../expression/expressionadvanced.md).
 * **Sent Payload**: this field does not appear in our example. It is only available if you select the POST method. Paste the payload that will be sent to the third-party system.
 
 In case of a GET call requiring parameter(s), you enter the parameter(s) in the **Parameters** field and they are automatically added at the end of the call. In case of a POST call, you need to:
@@ -139,9 +139,9 @@ The format of this authentication is:
     "authorizationType": "<value in 'bearer', 'header' or 'queryParam'>",
     (optional, mandatory if authorizationType is 'header' or 'queryParam') "tokenTarget": "<name of the header or queryParam if the authorizationType is 'header' or 'queryParam'>",
     "endpoint": "<URL of the authentication endpoint>",
-    "method": "&lt;HTTP method to call the authentication endpoint, in 'GET' or 'POST'>",
+    "method": "<HTTP method to call the authentication endpoint, in 'GET' or 'POST'>",
     (optional) "headers: {
-        "<header name>": "&lt;header value>",
+        "<header name>": "<header value>",
         ...
     },
     (optional, mandatory if method is 'POST') "body": {

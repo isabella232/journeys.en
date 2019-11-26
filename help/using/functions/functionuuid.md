@@ -16,7 +16,7 @@ snippet: y
 
 # uuid {#uuid}
 
-Generates a random UUID (Universal Unique Identifier).
+Generates a random UUID (Universal Unique IDentifier).
 
 ## Category
 
@@ -26,7 +26,7 @@ String
 
 `uuid(<parameters>)`
 
-## Signature and return type
+## Signature and returned type
 
 `uuid()`
 Return a string.

@@ -38,7 +38,7 @@ Aggregation
 * dateTime
 * dateTimeOnly
 
-## Signatures and return types
+## Signatures and returned types
 
 `max(<listDuration>)`
 
@@ -50,7 +50,7 @@ Returns a duration.
 
 `max(<listDateTimeOnly>)`
 
-Returns a datetime without considering timezone.
+Returns a datetime without considering time zone.
 
 `max(<listDateTime>)`
 
@@ -74,7 +74,7 @@ Returns a datetime.
 
 `max(<dateTimeOnly>,<dateTimeOnly>)`
 
-Returns a datetime without considering timezone.
+Returns a datetime without considering time zone.
 
 `max(<integer>,<integer>)`
 
@@ -82,7 +82,8 @@ Returns an integer.
 
 ## Examples
 
-`max({``@``BarBeacon.inventory},5)`
+`max(@{BarBeacon.inventory},5)`
+
 `max([10,3,8])`
 
 Returns 10.

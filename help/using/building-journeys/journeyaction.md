@@ -1,5 +1,5 @@
 ---
-title: Action activities
+title: About action activities
 description: Learn about action activities
 page-status-flag: never-activated
 uuid: 269d590c-5a6d-40b9-a879-02f5033863fc
@@ -14,7 +14,7 @@ internal: n
 snippet: y
 ---
 
-# Action activities {#concept_hbj_hrt_52b}
+# About action activities {#concept_hbj_hrt_52b}
 
 From the palette, on the left-hand side of the screen, below **Events** and **Orchestration**, you will find the **Actions** category.
 
@@ -22,9 +22,9 @@ From the palette, on the left-hand side of the screen, below **Events** and **Or
 
 These activities represent the different available communication channels. You can combine them to create a cross-channel scenario. 
 
-If you have Adobe Campaign Standard, the following out-of-the-box action activities are available: **Email**, **Push** and **SMS**. See [Action activities](../building-journeys/journeyactioncampaign.md). For this, you need to configure the built-in action. Refer to [Using Adobe Campaign Standard](../action/actioncampaign.md).
+If you have Adobe Campaign Standard, the following out-of-the-box action activities are available: **Email**, **Push** and **SMS**. See [](../building-journeys/journeyactioncampaign.md). 
 
-If you've configured custom actions, they will also appear here (see [Custom action configuration](../action/custom.md) and [Custom actions](../building-journeys/journeyactioncustom.md)).
+If you've configured custom actions, they will also appear here (see [](../building-journeys/journeyactioncustom.md)).
 
 When you drop an action activity in the canvas, you can define a **Label**. This allows you to add a suffix to the action name that will appear under your activity in the canvas. This is useful if you use the same action several times in your journey and want to identify them more easily. Reports will also be easier to read. You can also add an optional **Description**.
 

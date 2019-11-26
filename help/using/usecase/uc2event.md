@@ -1,6 +1,6 @@
 ---
 title: Configuring the events
-description: Learn how to configure the events for journey advanced use case
+description: Learn how to configure the events for the journey advanced use case
 page-status-flag: never-activated
 uuid: 269d590c-5a6d-40b9-a879-02f5033863fc
 contentOwner: sauviat
@@ -18,7 +18,7 @@ snippet: y
 
 In our scenario, we need to receive an event each time a person enters the Marlton hotel and the restaurant. The **technical user** needs to configure the two events we want the system to listen to in our journey.
 
-For additional information on event configuration, refer to [Configuring an event](../event/event.md#concept_gfj_fqt_52b).
+For additional information on event configuration, refer to [](../event/event.md).
 
 1. In the top menu, click the **Events** tab and click **Add** to create a new event.
 
@@ -42,7 +42,7 @@ For additional information on event configuration, refer to [Configuring an even
     >
     >The list of fields varies from one schema to another. According to the schema definition, some fields may be mandatory and pre-selected.
 
-1. We need to select a namespace. A namespace is preselected based on schema properties. You can keep the one preselected. For more information on namespaces, see [Selecting the namespace](../event/eventnamespace.md#concept_ckb_3qt_52b).
+1. We need to select a namespace. A namespace is preselected based on schema properties. You can keep the one preselected. For more information on namespaces, see [](../event/eventnamespace.md).
 
     ![](../assets/journeyuc2_4.png)
 
@@ -56,4 +56,4 @@ For additional information on event configuration, refer to [Configuring an even
 
     ![](../assets/journeyuc2_5.png)
 
-In the same way, create the "RestaurantBeacon" event. Your two beacon events are created and can now be used in our journey. You now need to configure the mobile application so that it can send the expected payload to the Streaming Ingestion APIs endpoint. See [Additional steps to send events to Journey Orchestration](../event/eventsteps.md#concept_xrz_n1q_y2b).
+In the same way, create the "RestaurantBeacon" event. Your two beacon events are created and can now be used in our journey. You now need to configure the mobile application so that it can send the expected payload to the Streaming Ingestion APIs endpoint. See [](../event/eventsteps.md).

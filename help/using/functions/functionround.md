@@ -31,24 +31,30 @@ Maths
 * decimal
 * integer
 
-## Signature and return type
+## Signature and returned type
 
 `round(<decimal>)`
+
 Returns a decimal.
 
 `round(<integer>)`
+
 Returns an integer.
 
 ## Example
 
 `round(3.14)`
+
 Returns 3.
 
 `round(3.54)`
+
 Returns 4.
 
 `round(-3.14)`
+
 Returns -3.
 
 `round(3)`
+
 Returns 3.

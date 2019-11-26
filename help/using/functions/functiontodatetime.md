@@ -36,9 +36,9 @@ Conversion
 
 >[!NOTE]
 >
->Time zone id must be a string constant. It cannot be a field reference nor an expression. For more informtation on data types, refer to [Data types](../expression/expressionconstants.md).
+>Time zone id must be a string constant. It cannot be a field reference nor an expression. For more informtation on data types, refer to [](../expression/expressionconstants.md).
 
-## Signatures and return types
+## Signatures and returned types
 
 `toDateTime(<string>)`
 
@@ -50,7 +50,7 @@ Return a **dateTime**.
 
 <!--`toDateTime(<year>,<month>,<dayOfMonth>,<hour>,<minute>,<second>)`
 
-Returns a date time with default timezone UTC.
+Returns a date time with default time zone UTC.
 
 `toDateTime(<year>,<month>,<dayOfMonth>)`
 `toDateTime(<stringified timeZone>,<year>,<month>,<dayOfMonth>)`

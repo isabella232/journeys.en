@@ -39,7 +39,7 @@ Aggregation
 * dateTime
 * dateTimeOnly
 
-## Signatures and return types
+## Signatures and returned types
 
 `min(<listDuration>)`
 
@@ -51,7 +51,7 @@ Returns a duration.
 
 `min(<listDateTimeOnly>)`
 
-Returns a datetime without considering timezone.
+Returns a datetime without considering time zone.
 
 `min(<listDateTime>)`
 
@@ -75,7 +75,7 @@ Returns a datetime.
 
 `min(<dateTimeOnly>,<dateTimeOnly>)`
 
-Returns a datetime without considering timezone.
+Returns a datetime without considering time zone.
 
 `min(<integer>,<integer>)`
 
@@ -83,7 +83,7 @@ Returns an integer.
 
 ## Examples
 
-`min({``@``BarBeacon.inventory},5)`
+`min(@{BarBeacon.inventory},5)`
 
 `min([10,3,8])`
 

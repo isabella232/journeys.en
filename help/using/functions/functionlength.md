@@ -30,7 +30,7 @@ String
 
 * string
 
-## Signature and return type
+## Signature and returned type
 
 `length(<string>)`
 

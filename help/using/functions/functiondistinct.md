@@ -38,7 +38,7 @@ List
 | List      | listDateTime     |
 | List      | listDateTimeOnly |
 
-## Signatures and return types
+## Signatures and returned types
 
 `distinct(<listInteger>)`
 
@@ -54,7 +54,7 @@ Returns a list of strings.
 
 `distinct(<listDateTimeOnly>)`
 
-Returns a list of datetimes without considering timezone.
+Returns a list of datetimes without considering time zone.
 
 `distinct(<listDateTime>)`
 
@@ -72,4 +72,4 @@ Returns a list of durations.
 
 `distinct([10,2,10,null])`
 
-Returns [10, 2].
+Returns `[10, 2]`.

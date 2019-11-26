@@ -1,6 +1,6 @@
 ---
-title: Testing and publishing the journey
-description: Learn about testing and publishing the journey
+title: Testing the journey
+description: Learn about journey testing 
 page-status-flag: never-activated
 uuid: 269d590c-5a6d-40b9-a879-02f5033863fc
 contentOwner: sauviat
@@ -16,13 +16,13 @@ snippet: y
 
 # Testing the journey{#testing_the_journey}
 
-Before being able to test your journey, you must resolve all errors if any. See [Checking for errors](../about/troubleshooting.md#section_h3q_kqk_fhb).
+Before being able to test your journey, you must resolve all errors if any. See [](../about/troubleshooting.md#section_h3q_kqk_fhb).
 
 You have the possibility to test your journey before its publication, using test profiles. This allows you to analyze how individuals flow in the journey and troubleshoot before publication.
 
 To use the test mode, follow these steps:
 
-1. Before testing your journey, verify that it is valid and that there is no error. You won’t be able to launch a test of a journey with errors. See [Checking for errors](../about/troubleshooting.md#section_h3q_kqk_fhb). A warning symbol is displayed when there are errors.
+1. Before testing your journey, verify that it is valid and that there is no error. You won’t be able to launch a test of a journey with errors. See [](../about/troubleshooting.md#section_h3q_kqk_fhb). A warning symbol is displayed when there are errors.
 
 1. To activate the test mode, click on the **Test** toggle, located in the top right corner.
 
@@ -36,7 +36,7 @@ To use the test mode, follow these steps:
 
     ![](../assets/journeyuctest2.png)
 
-1. If there is any error, deactivate the test mode, modify your journey and test it again. When the test is conclusive, you can publish your journey. See [Publishing the journey](../building-journeys/journeypublication.md).
+1. If there is any error, deactivate the test mode, modify your journey and test it again. When the test is conclusive, you can publish your journey. See [](../building-journeys/journeypublication.md).
 
 ## Important notes {#important_notes}
 

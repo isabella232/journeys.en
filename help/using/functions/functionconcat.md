@@ -26,7 +26,7 @@ String
 
 `concat(<parameters>)`
 
-## Signature and return type
+## Signature and returned type
 
 `concat(<string>,<string>)`
 

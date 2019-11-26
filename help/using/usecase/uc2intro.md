@@ -1,6 +1,6 @@
 ---
-title: Advanced use-case
-description: Journey advanced use-case
+title: About the advanced use case
+description: Lean more on the journey advanced use-case
 page-status-flag: never-activated
 uuid: 269d590c-5a6d-40b9-a879-02f5033863fc
 contentOwner: sauviat
@@ -14,7 +14,9 @@ internal: n
 snippet: y
 ---
 
-# About this use case {#concept_vzy_ncy_w2b}
+# About the advanced use case {#concept_vzy_ncy_w2b}
+
+## Purpose {#purpose}
 
 Let's take the example of a hotel brand named Marlton. In their hotels, they have positioned beacon devices near all the strategic areas: lobby, floors, restaurant, gym, pool, etc.
 
@@ -35,12 +37,24 @@ We then check two conditions:
 
 ![](../assets/journeyuc2_29.png)
 
-For this use case, we will need to create two events (see [creating events](uc2event.md)):
+For this use case, we will need to create two events (see [](../usecase/uc2event.md)):
 
 * The lobby beacon event that will be pushed to the system when a customer enters the hotel.
 * The restaurant beacon event that will be pushed when a customer enters the restaurant.
 
-We will need to configure a connection to two data sources (see [data sources](uc2ds.md)):
+We will need to configure a connection to two data sources (see [](../usecase/uc2ds.md)):
 
 * The build-in Experience Platform data source, to retrieve the information for our two conditions (loyalty membership and last contact date) as well as the message personalization information.
 * The hotel reservation system, to retrieve the reservation status information.
+
+## Pre-requisites {#prerequisites}
+
+For our use case, we have designed three Adobe Campaign Standard transactional messaging templates. We are using event transactional messaging templates. Refer to this [page](https://docs.adobe.com/content/help/en/campaign-standard/using/communication-channels/transactional-messaging/about-transactional-messaging.html).
+
+Adobe Campaign Standard is configured to send emails and push notifications.
+
+The Experience Cloud ID is used as the key to identify the customer in the hotel reservation system.
+
+Events are sent from the customers' mobile phone when they detected near a beacon. You need to design a mobile application to send events from the customer's mobile phone to the Mobile SDK.
+
+The Loyalty member field is a custom field and was added in XDM for our specific organization ID.

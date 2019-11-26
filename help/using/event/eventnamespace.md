@@ -1,6 +1,6 @@
 ---
 title: Selecting the namespace
-description: Learn about selecting the namespace
+description: Learn how to select the namespace
 page-status-flag: never-activated
 uuid: 269d590c-5a6d-40b9-a879-02f5033863fc
 contentOwner: sauviat
@@ -26,4 +26,4 @@ Select a namespace from the drop-down list.
 
 ![](../assets/journey17.png)
 
-Only one namespace is allowed per journey. If you use several events in the same journey, they need to use the same namespace. See [Building a journey](../building-journeys/journey.md).
+Only one namespace is allowed per journey. If you use several events in the same journey, they need to use the same namespace. See [](../building-journeys/journey.md).

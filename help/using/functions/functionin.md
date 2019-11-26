@@ -47,14 +47,20 @@ List
 | List      | listDateTime     |
 | List      | listDateTimeOnly |
 
-## Signature and return type
+## Signature and returned type
 
 `in(<integer>,<listInteger>)`
+
 `in(<decimal>,<listDecimal>)`
+
 `in(<string>,<listString>)`
+
 `in(<boolean>,<listBoolean>)`
+
 `in(<dateTimeOnly>,<listDateTimeOnly>)`
+
 `in(<dateTime>,<listDateTime>)`
+
 `in(<duration>,<listDuration>)`
 
 Return a boolean.

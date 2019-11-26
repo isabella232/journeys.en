@@ -33,7 +33,7 @@ String
 |  calling string | String   |
 |  specified value | String |
 
-## Signature and return type
+## Signature and returned type
 
 `indexOf(<string>,<string>)`
 
@@ -45,4 +45,6 @@ Returns an integer.
 
 Returns 2.
 
-Explanation: In "Hello", the first occurrence of “l” is at position 2.
+Explanation: 
+
+In "Hello", the first occurrence of “l” is at position 2.

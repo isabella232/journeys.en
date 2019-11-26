@@ -1,6 +1,6 @@
 ---
-title: Creating your Journey Orchestration reports
-description: Learn how to create your Journey Orchestration reports
+title: Creating your journey reports
+description: Learn how to create your journey reports
 page-status-flag: never-activated
 uuid: 269d590c-5a6d-40b9-a879-02f5033863fc
 contentOwner: sauviat
@@ -32,7 +32,7 @@ To access your journeys' reports and start tracking the success of your deliveri
 
     ![](../assets/dynamic_report_journey_2.png)
 
-1. The **[!UICONTROL Journey summary]** out-of-the box report appears on screen. To access custom report, click the **[!UICONTROL Close]** button.
+1. The **[!UICONTROL Journey summary]** out-of-the box report appears on screen. To access custom reports, click the **[!UICONTROL Close]** button.
 
     ![](../assets/dynamic_report_journey_12.png)
 
@@ -54,7 +54,7 @@ To access your journeys' reports and start tracking the success of your deliveri
 
 ### Adding a blank panel {#adding-a-blank-panel}
 
-To start your report, you can add a set of panels to an out of the box or custom report. Each panel contains different data sets and is composed of freeform tables and visualizations.
+To start your report, you can add a set of panels to an out-of-the-box or custom report. Each panel contains different data sets and is composed of freeform tables and visualizations.
 
 This panel allows you to build your reports as needed. You can add as many panels as you want in your reports in order to filter your data with different time periods.
 
@@ -95,7 +95,7 @@ Each table and visualization is resizable and can be moved to better customize y
    The **[!UICONTROL Column settings]** is composed of:
 
     * **[!UICONTROL Number]**: lets you show or hide summary numbers in the column.
-    * **[!UICONTROL Percent]**: lets you show or hide percent in the column.
+    * **[!UICONTROL Percent]**: lets you show or hide percents in the column.
     * **[!UICONTROL Interpret zero as no value]**: lets you show or hide when value equals zero.
     * **[!UICONTROL Background]**: lets you show or hide the horizontal progress bar in cells.
     * **[!UICONTROL Include retries]**: lets you include retries in the result. This is only available for **[!UICONTROL Sent]** and **[!UICONTROL Bounces + Errors]**.
@@ -116,10 +116,10 @@ Components help you customize your reports with different dimensions, metrics, a
 
 1. Each category presented in the **[!UICONTROL Components]** tab displays the five most used items, click the name of a category to access its full list of components.
 
-   The components table is divided into four categories:
+   The components table is divided into three categories:
 
     * **[!UICONTROL Dimensions]**: Get details from the deliveries log, such as the recipient's browser or domain, or the success of a delivery.
-    * **[!UICONTROL Metrics]**: Get details on the status of a message. For example, if a message was delivered and did the user open it.
+    * **[!UICONTROL Metrics]**: Get details on the status of a message. For example, if a message was delivered and the user opened it.
     * **[!UICONTROL Time]**: Set a time period for your table.
 
 1. Drag and drop components in a panel to start filtering your data.
@@ -135,19 +135,19 @@ The **[!UICONTROL Visualizations]** tab lets you drag and drop visualization ite
    ![](../assets/dynamic_report_visualization_1.png)
 
 1. After adding a visualization to your panel, your reports will automatically detect the data in your freeform table. Select the settings for your visualization.
-1. If you have more than one freeform table, choose the available data source to add in your graph in the **[!UICONTROL Data Source Settings** window. This window is also available by clicking on the colored dot next to your visualization title.
+1. If you have more than one freeform table, choose the available data source to add in your graph in the **[!UICONTROL Data Source Settings]** window. This window is also available by clicking on the colored dot next to your visualization title.
 
    ![](../assets/dynamic_report_visualization_2.png)
 
 1. Click the **[!UICONTROL Visualization]** settings button to directly change the graph type or what is displayed on it, such as:
 
     * **[!UICONTROL Percentages]**: Displays the values in percentage. 
-    * **[!UICONTROL Anchor Y Axis at Zero**: Forces the y axis to zero even if values range above zero. 
-    * **Legend visible**: Lets you hide the legend.
-    * **Normalization**: Forces values to match.
-    * **Display Dual Axis**: Adds another axis to your graph.
-    * **Limit Max Items**: Limits the number of graphs displayed.
-    * **Threshold**: Let you set a threshold to your graph. It appears as a black dotted line.
+    * **[!UICONTROL Anchor Y Axis at Zero]**: Forces the y axis to zero even if values range above zero. 
+    * **[!UICONTROL Legend visible]**: Lets you hide the legend.
+    * **[!UICONTROL Normalization]**: Forces values to match.
+    * **[!UICONTROL Display Dual Axis]**: Adds another axis to your graph.
+    * **[!UICONTROL Limit Max Items]**: Limits the number of graphs displayed.
+    * **[!UICONTROL Threshold]**: Lets you set a threshold to your graph. It appears as a black dotted line.
 
    ![](../assets/dynamic_report_visualization_3.png)
 

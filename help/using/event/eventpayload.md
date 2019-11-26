@@ -1,6 +1,6 @@
 ---
 title: Defining the payload fields
-description: Learn about defining the payload fields
+description: Learn about how to define the payload fields
 page-status-flag: never-activated
 uuid: 269d590c-5a6d-40b9-a879-02f5033863fc
 contentOwner: sauviat
@@ -30,13 +30,13 @@ The payload definition allows you to choose the information the system expects t
 
     ![](../assets/journey9.png)
 
-1. Select the fields you expect to receive from the event. These are the fields which the business user will leverage in the journey. They must also include the key that will be used to identify the person associated to the event (see [Defining the event key](../event/eventkey.md#concept_ond_hqt_52b)). An example of field that can be used in the journey is the phone model (__device > model__).
+1. Select the fields you expect to receive from the event. These are the fields which the business user will leverage in the journey. They must also include the key that will be used to identify the person associated to the event (see [](../event/eventkey.md).
 
     ![](../assets/journey10.png)
 
     >[!NOTE]
     >
-    >The **eventID** field is automatically added in the list of fields selected so that Journey Orchestration can identify the event. The system pushing the event should not generate an ID, it should use the one available in the payload preview. See [Previewing the payload](../event/eventpayloadpreview.md#concept_jgf_4yk_4fb).
+    >The **eventID** field is automatically added in the list of fields selected so that Journey Orchestration can identify the event. The system pushing the event should not generate an ID, it should use the one available in the payload preview. See [](../event/eventpayloadpreview.md).
 
 1. When you're done selecting the needed fields, click **Save** or press **Enter**.
 

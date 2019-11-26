@@ -26,7 +26,7 @@ String
 
 `containWithIgnoreCase(<parameters>)`
 
-## Signature and return type
+## Signature and returned type
 
 `containWithIgnoreCase(<string>,<string>)`
 

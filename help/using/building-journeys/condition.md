@@ -1,6 +1,6 @@
 ---
-title: Condition
-description: Learn about conditions
+title: Condition activity
+description: Learn about condition activities
 page-status-flag: never-activated
 uuid: 269d590c-5a6d-40b9-a879-02f5033863fc
 contentOwner: sauviat
@@ -46,17 +46,17 @@ The simple mode allows you to perform simple queries based on a combination of f
 
 >[!NOTE]
 >
->You cannot perform queries on time series (for example a list of purchases, past clicks on messages) with the simple editor. For this you’ll need to use the advanced editor. See [Using the advanced expression editor](../expression/expressionadvanced.md#concept_uyj_trt_52b).
+>You cannot perform queries on time series (for example a list of purchases, past clicks on messages) with the simple editor. For this you’ll need to use the advanced editor. See [](../expression/expressionadvanced.md).
 
 ## Data Source condition {#data_source_condition}
 
-This allows you to define a condition based on fields from the data sources or the events previously positioned in the journey. To learn how to use the expression editor, see [Using the advanced expression editor](../expression/expressionadvanced.md#concept_uyj_trt_52b). Using the advanced expression editor, you can setup more advanced conditions manipulating collections or using data sources requiring the passing of parameters. See [External data sources](../datasource/dsexternal.md#concept_t2s_kqt_52b) and [Using the advanced expression editor](../expression/expressionadvanced.md#concept_uyj_trt_52b).
+This allows you to define a condition based on fields from the data sources or the events previously positioned in the journey. To learn how to use the expression editor, see [](../expression/expressionadvanced.md). Using the advanced expression editor, you can setup more advanced conditions manipulating collections or using data sources requiring the passing of parameters. See [](../datasource/dsexternal.md)
 
 ![](../assets/journey50.png)
 
 ## Time condition{#time_condition}
 
-This allows you to perform different actions according to the hour of the day and/or the day of the week. For example, you can decide to send SMS messages during daytime and emails at night during weekdays. You can define a specific timezone for this condition. See [Time zone management](../building-journeys/journey.md#timezone_management).
+This allows you to perform different actions according to the hour of the day and/or the day of the week. For example, you can decide to send SMS messages during daytime and emails at night during weekdays. You can define a specific time zone for this condition. See [](../building-journeys/timezone.md).
 
 ![](../assets/journey51.png)
 
@@ -73,6 +73,6 @@ This option allows you to randomly split the audience to define a different acti
 
 ## Date condition {#date_condition}
 
-This allows you to define a different flow based on the date. For example, if the person enters the step during the "sales" period, you'll send him a specific message. The rest of the year, you'll send another message. When you define a date condition, you must specify a timezone. See [Time zone management](../building-journeys/journey.md#timezone_management).
+This allows you to define a different flow based on the date. For example, if the person enters the step during the "sales" period, you'll send him a specific message. The rest of the year, you'll send another message. When you define a date condition, you must specify a time zone. See [](../building-journeys/timezone.md).
 
 ![](../assets/journey53.png)

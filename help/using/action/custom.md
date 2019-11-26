@@ -1,5 +1,5 @@
 ---
-title: Configuring a custom action
+title: About custom action configuration
 description: Learn how to configure a custom action
 page-status-flag: never-activated
 uuid: 269d590c-5a6d-40b9-a879-02f5033863fc
@@ -16,8 +16,8 @@ snippet: y
 
 # About custom action configuration {#concept_sxy_bzs_dgb}
 
-If you're using a third-party system to send messages or if you want Journey Orchestration to send API calls to a third-party system, this is where you configure its connection to Journey Orchestration. The custom action defined by technical users will then be available in the left palette of your journey, in the **Action** category (see [Action activities](../building-journeys/journeyaction.md#concept_hbj_hrt_52b)). Here are a few examples of systems that you can connect to with custom actions: Epsilon, Facebook, Adobe.io, Firebase, etc.
-Limitations are listed here: [Custom action limitations](../action/customlimitations.md#concept_lh2_df1_2gb).
+If you're using a third-party system to send messages or if you want Journey Orchestration to send API calls to a third-party system, this is where you configure its connection to Journey Orchestration. The custom action defined by technical users will then be available in the left palette of your journey, in the **Action** category (see [](../building-journeys/journeyaction.md). Here are a few examples of systems that you can connect to with custom actions: Epsilon, Facebook, Adobe.io, Firebase, etc.
+Limitations are listed here: [](../action/customlimitations.md).
 
 Here are the main steps required to configure a custom action:
 
@@ -33,12 +33,12 @@ Here are the main steps required to configure a custom action:
 
 1. Add a description to your action. This step is optional.
 1. The number of journeys that use this action is displayed in the **Used in** field. You can click the **View journeys** button to display the list of  journeys using this action.
-1. Define the different **URL Configuration** parameters. See [URL configuration](../action/customurl.md#concept_gbg_1f1_2gb).
-1. Configure the **Authentication** section. See [Configuring the authentication](../action/customauthentication.md#concept_is4_cf1_2gb).
-1. Define the **Message parameters**. See [Defining the message parameters](../action/customparameters.md#concept_wy4_bf1_2gb).
+1. Define the different **URL Configuration** parameters. See [](../action/customurl.md).
+1. Configure the **Authentication** section. This configuation the same as for data sources.  See [](../datasource/dsexternal.md#section_wjp_nl5_nhb).
+1. Define the **Message parameters**. See [](../action/customparameters.md).
 1. Click **Save**.
 
-    The custom action is now configured and ready to be used in your journeys. See [Action activities](../building-journeys/journeyaction.md#concept_hbj_hrt_52b).
+    The custom action is now configured and ready to be used in your journeys. See [](../building-journeys/journeyaction.md).
 
     >[!NOTE]
     >

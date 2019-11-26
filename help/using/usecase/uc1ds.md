@@ -1,6 +1,6 @@
 ---
 title: Configuring the data source
-description: Learn how to configure the data source for journey simple use case
+description: Learn how to configure the data source for the journey simple use case
 page-status-flag: never-activated
 uuid: 269d590c-5a6d-40b9-a879-02f5033863fc
 contentOwner: sauviat
@@ -18,7 +18,7 @@ snippet: y
 
 In our use case, we want to use personalization data for our messages. We also need to check is the person is a woman. This information is stored in the Real-time Customer Profile database. The **technical user** needs to check that those fields are defined in the built-in Experience Platform data source.
 
-For additional information on data source configuration, refer to [Configuring a data source](../datasource/ds.md#concept_s1s_dqt_52b). 
+For additional information on data source configuration, refer to [](../datasource/ds.md). 
 
 1. In the top menu, click the **Data Sources** tab and select the build-in Experience Platform data source.
 

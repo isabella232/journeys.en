@@ -41,7 +41,7 @@ List
 | List      | listDateTime     |
 | List      | listDateTimeOnly |
 
-## Signature and return type
+## Signature and returned type
 
 `serializeList(<listInteger>,<string>,<boolean>)`
 

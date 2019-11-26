@@ -33,7 +33,7 @@ Conversion
 | date time without time zone in ISO-8601 format | string |
 | dateTime | dateTime|
 
-## Signatures and return types
+## Signatures and returned types
 
 `toDateTimeOnly(<dateTime>)`
 
@@ -41,7 +41,7 @@ Conversion
 <!--`toDateTimeOnly(<integer>,<integer>,<integer>)`
 `toDateTimeOnly(<integer>,<integer>,<integer>,<integer>,<integer>,<integer>)`-->
 
-Return a datetime without considering timezone.
+Return a datetime without considering time zone.
 
 ## Examples
 

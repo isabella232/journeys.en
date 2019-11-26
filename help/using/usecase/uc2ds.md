@@ -1,6 +1,6 @@
 ---
-title: Configuring the data source
-description: Learn how to configure the data source for journey advanced use case
+title: Configuring the data sources
+description: Learn how to configure the data source for the journey advanced use case
 page-status-flag: never-activated
 uuid: 269d590c-5a6d-40b9-a879-02f5033863fc
 contentOwner: sauviat
@@ -18,7 +18,7 @@ snippet: y
 
 In our use case, we want to use personalization data for our messages. We also need to check if the person is a loyalty member and has not been contacted in the last 24 hours. This information is stored in the Real-time Customer Profile database. The **technical user** needs to configure the Experience Platform data source to retrieve those fields.
 
-For additional information on data source configuration, refer to [](../datasource/ds.md#concept_s1s_dqt_52b).
+For additional information on data source configuration, refer to [](../datasource/ds.md).
 
 1. In the top menu, click the **Data Sources** tab and select the build-in Experience Platform data source.
 
@@ -46,7 +46,7 @@ We also need to check if the person has a reservation in the hotel reservation s
 
     ![](../assets/journeyuc2_9.png)
 
-1. Enter a name for your data source and the URL of the external service, for example: [https://marlton.com/reservation](https://marlton.com/reservation)
+1. Enter a name for your data source and the URL of the external service, for example: _https://marlton.com/reservation_
 
     >[!CAUTION]
     >

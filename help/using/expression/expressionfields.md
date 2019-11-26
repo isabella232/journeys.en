@@ -1,6 +1,6 @@
 ---
 title: Field references
-description: Learn about field references in advanced conditions
+description: Learn about field references in advanced expressions
 page-status-flag: never-activated
 uuid: 269d590c-5a6d-40b9-a879-02f5033863fc
 contentOwner: sauviat
@@ -35,10 +35,9 @@ For example if your field is _3h_: _#{OpenWeather.weatherData.rain.'3h'} > 0_
 
 // field group
 #{<data source name>.<field group name>.<path to the field>}
-#{ExperiencePlatformDataSource.ProfileFieldGroup.Profile.personalEmail.address}
+#{ExperiencePlatform.ProfileFieldGroup.profile.personalEmail.address}
 
 ```
-
 
 In the expression, event fields are referenced with "@" and data source fields are referenced with "#".
 
@@ -46,7 +45,7 @@ A syntax color is used to visually distinguish events fields (green) from field 
 
 **Default values for field references**
 
-A default value can be associated to a field name. the syntax is as follows:
+A default value can be associated to a field name. The syntax is as follows:
 
 
 ```
@@ -55,19 +54,18 @@ A default value can be associated to a field name. the syntax is as follows:
 @{LobbyBeacon.endUserIDs._experience.emailid.id, defaultValue: "example@adobe.com"}
 // field group
 #{<data source name>.<field group name>.<path to the field>, defaultValue: <default value expression>}
-#{ExperiencePlatformDataSource.ProfileFieldGroup.Profile.personalEmail.address, defaultValue: "example@adobe.com"}
+#{ExperiencePlatform.ProfileFieldGroup.profile.personalEmail.address, defaultValue: "example@adobe.com"}
 ```
-
 
 >[!NOTE]
 >
->The type of the field and the default value must be the same. For example, `@{LobbyBeacon.endUserIDs._experience.emailid.id, defaultValue : 2} will be invalid because the default value is an integer whereas the expected value should be a string.
+>The type of the field and the default value must be the same. For example, @{LobbyBeacon.endUserIDs._experience.emailid.id, defaultValue : 2} will be invalid because the default value is an integer whereas the expected value should be a string.
 
 **Parameter values of a data source (data source dynamic values)**
 
-If you select a field from an external data source requiring a parameter to be called, a new tab appears on the right to let you specify this parameter. See [Using the advanced expression editor](../expression/expressionadvanced.md#concept_uyj_trt_52b).
+If you select a field from an external data source requiring a parameter to be called, a new tab appears on the right to let you specify this parameter. See [](../expression/expressionadvanced.md).
 
-For more complex use cases, if you want to include the parameters of the data source in the main expression, you can define their values using the keyword _params_. A parameter can be any valid expression even from another data source that also include another parameter.
+For more complex use cases, if you want to include the parameters of the data source in the main expression, you can define their values using the keyword _params_. A parameter can be any valid expression even from another data source that also includes another parameter.
 
 >[!NOTE]
 >

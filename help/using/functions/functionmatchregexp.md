@@ -16,7 +16,7 @@ snippet: y
 
 # matchRegExp {#matchRegExp}
 
-Returns true if the string in the first parameter matches the regular expression in the second parameter.For more information, see[this page](https://docs.oracle.com/javase/7/docs/api/java/util/regex/Pattern.html).
+Returns true if the string in the first parameter matches the regular expression in the second parameter. For more information, see [this page](https://docs.oracle.com/javase/7/docs/api/java/util/regex/Pattern.html).
 
 ## Category
 
@@ -33,7 +33,7 @@ String
 |string|string|
 |regexp|string|
 
-## Signature and return type
+## Signature and returned type
 
 `matchRegExp(<string>,<string>)`
 
@@ -45,4 +45,6 @@ Returns a true.
 
 Returns true.
 
-Explanation: here you check if the string satisfies the regular expression (java syntax): starts with "Hello", then any kind of string and finishes with "World".
+Explanation: 
+
+Here you check if the string satisfies the regular expression (java syntax): starts with "Hello", then any kind of string and finishes with "World".

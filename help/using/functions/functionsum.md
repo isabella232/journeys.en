@@ -34,7 +34,7 @@ Aggregation
 * integer
 * decimal
 
-## Signatures and return types
+## Signatures and returned types
 
 `sum(<listDecimal>)`
 
@@ -58,7 +58,7 @@ Returns a decimal.
 
 ## Examples
 
-`sum({``@``BarBeacon.inventory},5)`
+`sum(@{BarBeacon.inventory},5)`
 
 `sum([10,3,8])`
 

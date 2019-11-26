@@ -38,7 +38,7 @@ List
 | List      | listDateTime     |
 | List      | listDateTimeOnly |
 
-## Signatures and return types
+## Signatures and returned types
 
 `distinctWithNull(<listInteger>)`
 
@@ -54,7 +54,7 @@ Returns a list of strings.
 
 `distinctWithNull(<listDateTimeOnly>)`
 
-Returns a list of datetimes without considering timezone.
+Returns a list of datetimes without considering time zone.
 
 `distinctWithNull(<listDateTime>)`
 

@@ -18,6 +18,9 @@ snippet: y
 
 When configuring a custom action, you need to define the following **URL Configuration** parameters:
 
+![](../assets/journeyurlconfiguration.png)
+
+
 1. Add the **URL** of the external service.
 
     >[!NOTE]

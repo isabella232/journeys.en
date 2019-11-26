@@ -37,7 +37,7 @@ Supported types:
 * decimal
 * integer
 
-## Signatures and return type
+## Signatures and returned type
 
 `avg(<listInteger>)`
 
@@ -57,7 +57,7 @@ Returns a decimal.
 
 ## Examples
 
-`avg({``@``BarBeacon.inventory},5)`
+`avg(@{BarBeacon.inventory},5)`
 
 `avg([10,3,8])`
 
