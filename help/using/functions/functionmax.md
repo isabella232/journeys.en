@@ -82,7 +82,8 @@ Returns an integer.
 
 ## Examples
 
-`max({``@``BarBeacon.inventory},5)`
+`max({@BarBeacon.inventory},5)`
+
 `max([10,3,8])`
 
 Returns 10.

@@ -74,7 +74,7 @@ index: n
       + [countOnlyNull](using/functions/functioncountonlynull.md)
       + [countWithNull](using/functions/functioncountwithnull.md)
       + [distinctCount](using/functions/functiondistinctcount.md)
-      + [distinctCountwithNull](using/functions/functiondistinctcountwithnull.md)
+      + [distinctCountWithNull](using/functions/functiondistinctcountwithnull.md)
       + [max](using/functions/functionmax.md)
       + [min](using/functions/functionmin.md)
       + [sum](using/functions/functionsum.md)
