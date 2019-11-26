@@ -49,7 +49,7 @@ Select the date for the execution of the next activity. When you define a fixed 
 
 ## Custom{#custom}
 
-This option lets you define a custom date, for example 12 July 2020 at 5pm, using an advanced expression based on a field coming from an event or a data source. It does not let you define a custom duration, for example, 7 days. The expression in the expression editor should provide a dateTimeOnly format. See [](../expression/expressionconstants.md)
+This option lets you define a custom date, for example 12 July 2020 at 5pm, using an advanced expression based on a field coming from an event or a data source. It does not let you define a custom duration, for example, 7 days. The expression in the expression editor should provide a dateTimeOnly format. See [](../expression/expressionconstants.md).
 
 >[!NOTE]
 >
