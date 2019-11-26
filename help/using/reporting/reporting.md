@@ -26,24 +26,24 @@ The top toolbar allows you, for example, to modify, save or print your report.
 
 Use the **[!UICONTROL Project]** tab to:
 
-* **[!UICONTROL Open]**: Opens a previously created report or a template.
-* **[!UICONTROL Save As]**: Duplicates templates to be able to modify them.
-* **[!UICONTROL Refresh project]**: Updates your report based upon new data and changes to filters.
-* **[!UICONTROL Download CSV]**: Exports your reports to a CSV file.
-* **[!UICONTROL Print]**: Prints your report.
+* **[!UICONTROL Open]**: opens a previously created report or template.
+* **[!UICONTROL Save As]**: duplicates templates to be able to modify them.
+* **[!UICONTROL Refresh project]**: updates your report based upon new data and changes to filters.
+* **[!UICONTROL Download CSV]**: exports your reports to a CSV file.
+* **[!UICONTROL Print]**: prints your report.
 
 The **[!UICONTROL Edit]** tab allows you to:
 
-* **[!UICONTROL Undo]**: Cancels your last action on your dashboard.
-* **[!UICONTROL Redo]**: Cancels your last **[!UICONTROL Undo]** action on your dashboard.
-* **[!UICONTROL Clear all]**: Deletes every panel on your dashboard.
+* **[!UICONTROL Undo]**: cancels your last action on your dashboard.
+* **[!UICONTROL Redo]**: cancels your last **[!UICONTROL Undo]** action on your dashboard.
+* **[!UICONTROL Clear all]**: deletes every panel on your dashboard.
 
 The **[!UICONTROL Insert]** table lets you customize your reports by adding graphs and tables to your dashboard:
 
-* **[!UICONTROL New Blank Panel]**: Adds a new blank panel to your dashboard.
-* **[!UICONTROL New Freeform]**: Adds a new freeform table to your dashboard.
-* **[!UICONTROL New Line]**: Adds a new line graph to your dashboard.
-* **[!UICONTROL New Bar]**: Adds a new bar graph to your dashboard.
+* **[!UICONTROL New Blank Panel]**: adds a new blank panel to your dashboard.
+* **[!UICONTROL New Freeform]**: adds a new freeform table to your dashboard.
+* **[!UICONTROL New Line]**: adds a new line graph to your dashboard.
+* **[!UICONTROL New Bar]**: adds a new bar graph to your dashboard.
 
 The left tabs let you build your report and filter your data as needed.
 
@@ -51,9 +51,9 @@ The left tabs let you build your report and filter your data as needed.
 
 These tabs give you access to the following items:
 
-* **[!UICONTROL Panels]**: add a blank panel or freeform to your report to start filtering your data. For more on this, refer to the Adding panels section
-* **[!UICONTROL Visualizations]**: drag and drop a selection of visualization items to give your report a graphical dimension. For more on this, refer to the Adding visualizations section.
-* **[!UICONTROL Components]**: customize your reports with different dimensions, metrics, segments and time periods.
+* **[!UICONTROL Panels]**: add a blank panel or freeform to your report to start filtering your data. For more on this, refer to the [Adding panels](../reporting/reportingcreating.md#adding-panels) section
+* **[!UICONTROL Visualizations]**: drag and drop a selection of visualization items to give your report a graphical dimension. For more on this, refer to the [Adding visualizations](../reporting/reportingcreating.md#adding-visualizations) section.
+* **[!UICONTROL Components]**: customize your reports with different dimensions, metrics, segments and time periods. For more on this, refer to the [Adding components](../reporting/reportingcreating.md#adding-components) section.
 
 ## Journey summary template {#ootb-template}
 
@@ -89,7 +89,7 @@ The **[!UICONTROL Journey summary]** table contains the data available for journ
 * **[!UICONTROL Failed]**: Total number of journeys that were not successfully executed.
 * **[!UICONTROL Failed rate]**: Total number of journeys that were not successfully executed compared to the number of run journeys.
 
-The **[!UICONTROL Top events]** table displays the most successful events and the **[!UICONTROL Top action]** the most successful actions in your journeys.
+The **[!UICONTROL Top events]** table displays the most successful events and the **[!UICONTROL Top action]**, the most successful actions in your journeys.
 
  ![](../assets/dynamic_report_journey_11.png)
 
