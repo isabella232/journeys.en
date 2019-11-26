@@ -46,11 +46,11 @@ Here are the main steps to create and publish a journey.
 
     ![](../assets/journey33.png)
 
-1. Drag and drop your other activities and configure them. See [](../building-journeys/journeyaction.md).
+1. Drag and drop your other activities and configure them. See [](../building-journeys/journeyevent.md), [](../building-journeys/journeyorchestration.md) and [](../building-journeys/journeyaction.md).
 
     ![](../assets/journey34.png)
 
-1. Your journey is automatically saved. Test your journey and publish it. See [](../building-journeys/journeypublication.md).
+1. Your journey is automatically saved. Test your journey and publish it. See [](../building-journeys/journeytesting.md) and [](../building-journeys/journeypublication.md).
 
     ![](../assets/journey36.png)
 

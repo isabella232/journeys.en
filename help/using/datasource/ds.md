@@ -42,7 +42,7 @@ Here are the main data source configuration steps:
 
     ![](../assets/journey18.png)
 
-1. Then you can either add field groups to the built-in data source (see [](../datasource/dsfield.md)).
+1. Then you can either add field groups to the built-in data source (see [](../datasource/dsplatform.md)) or create a new external data source (see [](../datasource/dsexternal.md)) and associated field groups (see [](../datasource/dsfield.md)).
 
     ![](../assets/journey23.png)
 
