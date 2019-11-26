@@ -51,3 +51,10 @@ Returns "World".
 `substr("Hello World", 0, 5)`
 
 Returns "Hello".
+
+`substr(@{MobileAppLaunch._myorganization.identification.crmid}, 1, lastIndexOf(@{MobileAppLaunch._myorganization.identification.crmid}, "}"))`
+
+Explanation:
+
+This expression uses substr and lastIndexOf functions to remove curly braces that enclose the CRM ID passed with a mobile app launch event.
+It can be used for instance in an action personalization field.
