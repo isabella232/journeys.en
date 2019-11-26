@@ -38,7 +38,7 @@ Find out how to manage your users' access with product profiles and rights.
     <br>
   </td>
   <td valign="top">
-    <a href="using/building-journeys/journey.md">
+    <a href="using/usecase/uc2intro.md">
       <img alt="build" src="using/assets/design.png"/>
     </a>
     <div>
