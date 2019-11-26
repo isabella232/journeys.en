@@ -32,7 +32,7 @@ The time zone can also be fixed. Clear the pre-defined time zone and pick one fr
 
 ![](../assets/journey72.png)
 
-Finally, the time zone can be dynamic for each person entering the step. In this case, you will use the expression editor to select where you want the system to get this information (it can be from an event or a data source). See [](../expression/expressionadvanced.md#concept_uyj_trt_52b). The custom time zone must follow this [format](https://docs.oracle.com/javase/8/docs/api/java/time/ZoneId.html#of-java.lang.String-).
+Finally, the time zone can be dynamic for each person entering the step. In this case, you will use the expression editor to select where you want the system to get this information (it can be from an event or a data source). See [](../expression/expressionadvanced.md).
 
 
 The start and end dates of a journey cannot be linked to a specific time zone. They are automatically associated to the instance's time zone.

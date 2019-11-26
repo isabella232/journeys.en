@@ -38,7 +38,7 @@ The Pipeline filters events which have a payload containing Journey Orchestratio
 
 Here are the main steps to configure a new event:
 
-1. In the top menu, click on the **Events** tab. The list of events is displayed. See [](../about/aboutinterface.md#concept_rcq_lqt_52b) for more information on the interface.
+1. In the top menu, click on the **Events** tab. The list of events is displayed. See [](../about/aboutinterface.md) for more information on the interface.
 
     ![](../assets/journey5.png)
 
@@ -53,13 +53,13 @@ Here are the main steps to configure a new event:
     >Do not use spaces or special characters. Do not use more than 30 characters.
 
 1. Add a description to your event. This step is optional.
-1. Define the schema and payload fields: this is where you select the event information (usually called a payload) Journey Orchestration expects to receive. You will then be able to use this information in your journey. See [](../event/eventpayload.md#concept_yrw_3qt_52b).
+1. Define the schema and payload fields: this is where you select the event information (usually called a payload) Journey Orchestration expects to receive. You will then be able to use this information in your journey. See [](../event/eventpayload.md).
 1. The number of journeys that use this event is displayed in the **Used in** field. You can click the **View journeys** icon to display the list of journeys using this event.
-1. Add a namespace. This step is optional but recommended as adding a namespace allows you to leverage information stored in the Real-time Customer Profile Service. It defines the type of key the event has. See [](../event/eventnamespace.md#concept_ckb_3qt_52b).
-1. Define the key: choose a field from your payload fields or define a formula to identify the person associated to the event. This key is automatically setup (but can still be edited) if you select a namespace. Indeed, Journey Orchestration picks the key that should correspond to the namespace (for example, if you select an email namespace, the email key will be selected). See [](../event/eventkey.md#concept_ond_hqt_52b). 
-1. Add a condition. This step is optional. This allows the system to only process the events that meet the condition. The condition can only be based on information contained in the event. See [](../event/eventcondition.md#concept_rbg_gqt_52b).
+1. Add a namespace. This step is optional but recommended as adding a namespace allows you to leverage information stored in the Real-time Customer Profile Service. It defines the type of key the event has. See [](../event/eventnamespace.md).
+1. Define the key: choose a field from your payload fields or define a formula to identify the person associated to the event. This key is automatically setup (but can still be edited) if you select a namespace. Indeed, Journey Orchestration picks the key that should correspond to the namespace (for example, if you select an email namespace, the email key will be selected). See [](../event/eventkey.md). 
+1. Add a condition. This step is optional. This allows the system to only process the events that meet the condition. The condition can only be based on information contained in the event. See [](../event/eventcondition.md).
 1. Click **Save**.
 
     ![](../assets/journey7.png)
 
-    The event is now configured and ready to be dropped into a journey. Additional configuration steps are required to receive events. See [](../event/eventsteps.md#concept_xrz_n1q_y2b).
+    The event is now configured and ready to be dropped into a journey. Additional configuration steps are required to receive events. See [](../event/eventsteps.md).

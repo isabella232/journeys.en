@@ -26,7 +26,7 @@ The **Filters** can be accessed by clicking on the filter icon on the top left o
 
 ![](../assets/journey74.png)
 
-All the versions of your journeys appear in the list with the version number. See [](../building-journeys/journeyversions.md#concept_ldc_k55_zgb).
+All the versions of your journeys appear in the list with the version number. See [](../building-journeys/journeyversions.md).
 
 ![](../assets/journey37.png)
 
@@ -66,7 +66,7 @@ Depending on the journey's status, you can perform different actions on your jou
 
 ## The use of paths in the canvas {#paths}
 
-Several activities (**Condition**, **Action** activities) allow you to define a fallback action in case of an error or timeout. In the activity configuration pane, check the box: **Add an alternative path in case of a timeout or an error**. Another path is added after the activity. The timeout duration is defined in the journey's properties (see [](../building-journeys/journeyproperty.md#concept_prq_wqt_52b)) by an admin user. For example, if an email takes too long to be sent or is in error, you can decide to send an SMS.
+Several activities (**Condition**, **Action** activities) allow you to define a fallback action in case of an error or timeout. In the activity configuration pane, check the box: **Add an alternative path in case of a timeout or an error**. Another path is added after the activity. The timeout duration is defined in the journey's properties (see [](../building-journeys/journeyproperty.md) by an admin user. For example, if an email takes too long to be sent or is in error, you can decide to send an SMS.
 
  ![](../assets/journey42.png)
 

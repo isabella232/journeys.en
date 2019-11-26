@@ -27,7 +27,7 @@ The **business user** can now build the journey. Our journey will only include o
 >
 >The **Push** and **Email** activities are only available in the palette if you have Adobe Campaign Standard.
 
-For additional information on how to build a journey, refer to [](../building-journeys/journey.md#concept_gq5_sqt_52b).
+For additional information on how to build a journey, refer to [](../building-journeys/journey.md).
 
 1. In the top menu, click the **Home** tab and **Create** to create a new journey.
 

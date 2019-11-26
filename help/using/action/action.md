@@ -18,9 +18,9 @@ snippet: y
 
 The configuration of custom actions is always performed by a **technical user**.
 
-This is where you define the connection to the system that will send messages. The actions defined here will then be available in the left palette of your journey, in the **Action** category (see [](../building-journeys/journeyaction.md#concept_hbj_hrt_52b)).
+This is where you define the connection to the system that will send messages. The actions defined here will then be available in the left palette of your journey, in the **Action** category (see [](../building-journeys/journeyaction.md).
 
-To view the action list or configure a new action, click **Actions** in the top menus. The list of actions is displayed. See [](../about/aboutinterface.md#concept_rcq_lqt_52b) for more information on the interface.
+To view the action list or configure a new action, click **Actions** in the top menus. The list of actions is displayed. See [](../about/aboutinterface.md) for more information on the interface.
 
 ![](../assets/custom1.png)
 

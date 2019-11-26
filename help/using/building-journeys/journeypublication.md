@@ -18,7 +18,7 @@ snippet: y
 
 You can publish a journey after testing its validity.
 
-If you need to make modifications to a published journey, you need to create a new version of your journey. See [](../building-journeys/journeyversions.md#concept_ldc_k55_zgb). When a journey is read-only, you can only modify the activity labels and descriptions, the journey's name and the journey's description.
+If you need to make modifications to a published journey, you need to create a new version of your journey. See [](../building-journeys/journeyversions.md). When a journey is read-only, you can only modify the activity labels and descriptions, the journey's name and the journey's description.
 
 If you stop a journey, it will be permanently stopped. All the persons flowing in the journey will be permanently stopped and the journey will stop allowing new entrances. If you need to use the journey again, you need to duplicate it and publish it.
 

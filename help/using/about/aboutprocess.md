@@ -24,7 +24,7 @@ Here are the main steps to configure and use Journey Orchestration:
 
     You need to define the expected information and how to process it. This configuration is mandatory. This step is performed by a **technical user**.
 
-    For more on this, refer to [](../event/event.md#concept_gfj_fqt_52b).
+    For more on this, refer to [](../event/event.md).
 
     ![](../assets/journey7.png)  
 
@@ -32,7 +32,7 @@ Here are the main steps to configure and use Journey Orchestration:
 
     You need to define a connection to a system to retrieve additional information that will be used in your journeys, for example in your conditions. A built-in Experience Platform data source is also configured at provisioning time. This step is not required if you only leverage data from the events in your journey. This step is performed by a **technical user**. 
 
-    For more on this, refer to [](../datasource/ds.md#concept_s1s_dqt_52b).
+    For more on this, refer to [](../datasource/ds.md).
     
     ![](../assets/journey22.png)  
 
@@ -50,7 +50,7 @@ Here are the main steps to configure and use Journey Orchestration:
 
      Combine the different event, orchestration and action activities to build your multi-step cross-channel scenarios. This step is performed by a **business user**. 
 
-     For more on this, see [](../building-journeys/journey.md#concept_gq5_sqt_52b).
+     For more on this, see [](../building-journeys/journey.md).
 
      ![](../assets/journeyuc2_24.png)
 
@@ -66,7 +66,7 @@ Here are the main steps to configure and use Journey Orchestration:
 
     Use the dedicated reporting tools to measure your journey's effectiveness. This step is performed by a **business user**. 
 
-    For more on this, see [](../reporting/reporting.md#concept_rfj_wpt_52b).
+    For more on this, see [](../reporting/reporting.md).
 
     ![](../assets/dynamic_report_journey_12.png)
 

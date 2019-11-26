@@ -33,4 +33,4 @@ The payload preview allows you to validate the payload definition.
 
 1. Check the preview to validate the payload definition.
 
-1. Then, you can share the payload preview with to the person responsible for the event sending. This payload can help him design the setup of an event pushing to Journey Orchestration. See [](../event/eventsteps.md#concept_xrz_n1q_y2b).
+1. Then, you can share the payload preview with to the person responsible for the event sending. This payload can help him design the setup of an event pushing to Journey Orchestration. See [](../event/eventsteps.md).

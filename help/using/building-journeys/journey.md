@@ -21,7 +21,7 @@ This step is performed by the **business user**. This is where you create your j
 
 The journey interface allows you to easily drag and drop activities from the palette into the canvas. You can also double-click on an activity to add it in the canvas at the next step available. Each activity has a specific role and place in the process. The activities are sequenced. When an activity is finished, the flow continues and processes the next activity, and so on.
 
-Only one namespace is allowed per journey. When you drop the first event, events with different namespaces will be grayed out. If the first event doesn't have a namespace, then all events with a namespace will be grayed out. See [](../event/eventnamespace.md#concept_ckb_3qt_52b). Also, Experience Platform field groups are grayed out if the journey has events without a namespace. And finally, if you use several events in the same journey, they need to use the same namespace.
+Only one namespace is allowed per journey. When you drop the first event, events with different namespaces will be grayed out. If the first event doesn't have a namespace, then all events with a namespace will be grayed out. See [](../event/eventnamespace.md). Also, Experience Platform field groups are grayed out if the journey has events without a namespace. And finally, if you use several events in the same journey, they need to use the same namespace.
 
 ## Quick start {#creating_journey}
 
@@ -29,7 +29,7 @@ Here are the main steps to create and publish a journey.
 
 1. In the top menu, click the **Home** tab. 
 
-    The list of journeys is displayed. See [](../building-journeys/journeyinterface.md#concept_m1g_5qt_52b) for more information on the interface.
+    The list of journeys is displayed. See [](../building-journeys/journeyinterface.md) for more information on the interface.
 
     ![](../assets/journey30.png)
 
@@ -37,7 +37,7 @@ Here are the main steps to create and publish a journey.
 
     ![](../assets/journey31.png)
 
-1. Edit the journey's properties in the configuration pane displayed on the right side. See [](../building-journeys/journeyproperty.md#concept_prq_wqt_52b).
+1. Edit the journey's properties in the configuration pane displayed on the right side. See [](../building-journeys/journeyproperty.md).
 
     ![](../assets/journey32.png)
 
@@ -46,7 +46,7 @@ Here are the main steps to create and publish a journey.
 
     ![](../assets/journey33.png)
 
-1. Drag and drop your other activities and configure them. See [](../building-journeys/journeyaction.md#concept_hbj_hrt_52b).
+1. Drag and drop your other activities and configure them. See [](../building-journeys/journeyaction.md).
 
     ![](../assets/journey34.png)
 
@@ -61,5 +61,5 @@ There are two ways to end a journey:
 * The person arrives at the last activity of a path. This last activity can be an end activity or another activity. There is no obligation to end a path with an end activity. See [](../building-journeys/end.md).
 * The person arrives at a condition activity (or a wait activity with a condition) and does not match any of the conditions.
 
-The person can then re-enter the journey if re-entrance is allowed. See [](../building-journeys/journeyproperty.md#concept_prq_wqt_52b).
+The person can then re-enter the journey if re-entrance is allowed. See [](../building-journeys/journeyproperty.md).
 
