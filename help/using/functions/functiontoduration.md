@@ -31,7 +31,7 @@ Conversion
 |Parameter|Description|
 |--- |--- |
 |string|formats based on the ISO-8601 duration format PnDTnHnMn.nS with days considered to be exactly 24 hours|
-|integer|number of milliseconds (epoch milliseconds)|
+|integer|number of milliseconds|
 
 If string expression: formats accepted are based on the ISO-8601 duration format PnDTnHnMn.nS with days considered to be exactly 24 hours.
 

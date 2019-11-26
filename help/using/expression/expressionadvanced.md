@@ -81,4 +81,4 @@ If you select a field from an external data source requiring a parameter to be c
 
 ![](../assets/journeyuc2_19.png)
 
-For more complex use cases, if you want to include the parameters of the data source in the main expression, you can define their values using the "params" keyword. See [](../expression/expressionfields.md).
+For more complex use cases, if you want to include the parameters of the data source in the main expression, you can define their values using the "params" keyword. See [this page](../expression/expressionfields.md).
