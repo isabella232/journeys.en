@@ -77,7 +77,7 @@ A syntax validation mechanism checks the integrity of your code. Errors are disp
 
 **Need for parameters when building conditions with the advanced expression editor**
 
-If you select a field from an external data source requiring a parameter to be called (see [](../datasource/dsexternal.md#concept_t2s_kqt_52b)), a new tab appears on the right to let you specify this parameter. The parameter value can come from the events positioned in the journey or the Experience Platform data source (and not from other external data sources). For example, in a weather-related data source, a frequently used parameter will be "city". As a result, you must select where you want to get this city parameter. Functions can also be applied to parameters to perform format changes or concatenations.
+If you select a field from an external data source requiring a parameter to be called (see [](../datasource/dsexternal.md). For example, in a weather-related data source, a frequently used parameter will be "city". As a result, you must select where you want to get this city parameter. Functions can also be applied to parameters to perform format changes or concatenations.
 
 ![](../assets/journeyuc2_19.png)
 
