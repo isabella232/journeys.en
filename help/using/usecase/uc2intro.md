@@ -16,6 +16,8 @@ snippet: y
 
 # About the advanced use case {#concept_vzy_ncy_w2b}
 
+## Purpose {#purpose}
+
 Let's take the example of a hotel brand named Marlton. In their hotels, they have positioned beacon devices near all the strategic areas: lobby, floors, restaurant, gym, pool, etc.
 
 >[!NOTE]
@@ -44,3 +46,15 @@ We will need to configure a connection to two data sources (see [](../usecase/uc
 
 * The build-in Experience Platform data source, to retrieve the information for our two conditions (loyalty membership and last contact date) as well as the message personalization information.
 * The hotel reservation system, to retrieve the reservation status information.
+
+## Pre-requisites {#prerequisites}
+
+For our use case, we have designed three Adobe Campaign Standard transactional messaging templates. We are using event transactional messaging templates. Refer to this [page](https://docs.adobe.com/content/help/en/campaign-standard/using/communication-channels/transactional-messaging/about-transactional-messaging.html).
+
+Adobe Campaign Standard is configured to send emails and push notifications.
+
+The Experience Cloud ID is used as the key to identify the customer in the hotel reservation system.
+
+Events are sent from the customers' mobile phone when they detected near a beacon. You need to design a mobile application to send events from the customer's mobile phone to the Mobile SDK.
+
+The Loyalty member field is a custom field and was added in XDM for our specific organization ID.
