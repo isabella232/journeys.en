@@ -34,10 +34,10 @@ You can stop a journey by clicking **Finish** while hovering over a journey in t
 
 You can also:
 
-1. In Home, click on the journey you want to finish.
+1. In **Home**, click on the journey you want to finish.
 1. On the top-right, click on the down arrow.
 
-  ![](../assets/finish_drop_down_list.png)
+    ![](../assets/finish_drop_down_list.png)
 
 1. Click **Finish**. A dialog box appears.
 1. Click **Finish** to confirm.
@@ -54,7 +54,7 @@ You can stop a journey when an emergency occured (for example if a marketer real
 
 You can also:
 
-1. Click on the journey you want to stop.
+1. In **Home**, click on the journey you want to stop.
 1. On the top-right, click on the down arrow.
 
   ![](../assets/finish_drop_down_list.png)
