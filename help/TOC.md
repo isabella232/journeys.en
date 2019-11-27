@@ -58,7 +58,7 @@ index: n
   + [Testing the journey](using/building-journeys/journeytesting.md)
   + [Publishing the journey](using/building-journeys/journeypublication.md)
 + Using the advanced expression editor {#building-advanced-conditions-journeys}
-  + [Using the advanced expression editor](using/expression/expressionadvanced.md)
+  + [About the advanced expression editor](using/expression/expressionadvanced.md)
   + [Generalities](using/expression/expressiongeneralities.md)
   + [Data types](using/expression/expressionconstants.md)
   + [Field references](using/expression/expressionfields.md)

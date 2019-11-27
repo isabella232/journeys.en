@@ -1,5 +1,5 @@
 ---
-title: Using the advanced expression editor
+title: About the advanced expression editor
 description: Learn how to build advanced expressions
 page-status-flag: never-activated
 uuid: 269d590c-5a6d-40b9-a879-02f5033863fc
@@ -14,9 +14,7 @@ internal: n
 snippet: y
 ---
 
-# Using the advanced expression editor {#concept_uyj_trt_52b}
-
-## About the advanced expression editor {#section_llg_vnj_cjb}
+# About the advanced expression editor {#concept_uyj_trt_52b}
 
 The advanced expression editor allows you to build advanced expressions in various screens of the interface, for example, when defining a data source condition.
 It is also available every time you need to define action parameters that require specific data manipulations. You can leverage data coming from the events or additional information retrieved from the data source. In a journey, the displayed list of event fields is contextual and varies according to the event(s) added in the journey.
