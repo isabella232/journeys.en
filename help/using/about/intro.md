@@ -16,7 +16,7 @@ snippet: y
 
 Build real-time orchestration use cases leveraging contextual data stored in events or data sources.
 
-Journey Orchestration is an application service integrated with the Experience Patform.
+Journey Orchestration is an application service integrated with the Experience Platform.
 
 ![](../assets/journeydiagram.png)
 
