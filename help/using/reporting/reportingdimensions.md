@@ -14,6 +14,10 @@ snippet: y
 
 # Metrics and dimensions {#concept_rfj_wpt_52b}
 
+>[!NOTE]
+>
+>Delivery data will only be populated if you have Adobe Campaign Standard.
+
 You can find here the list of every components available in Dynamic reports as well as their definitions.
 
 The table below gives you the list of dimensions used in journey reports and their definitions.
