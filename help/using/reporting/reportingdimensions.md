@@ -4,17 +4,19 @@ description: Learn about dimensions and metrics available for Journey Orchestrat
 page-status-flag: never-activated
 uuid: 269d590c-5a6d-40b9-a879-02f5033863fc
 contentOwner: sauviat
-products: SG_CAMPAIGN/CLASSIC
 audience: rns
 content-type: reference
 topic-tags: journeys
 discoiquuid: 5df34f55-135a-4ea8-afc2-f9427ce5ae7b
-index: n
 internal: n
 snippet: y
 ---
 
 # Metrics and dimensions {#concept_rfj_wpt_52b}
+
+>[!NOTE]
+>
+>Delivery data will only be populated if you have Adobe Campaign Standard.
 
 You can find here the list of every components available in Dynamic reports as well as their definitions.
 

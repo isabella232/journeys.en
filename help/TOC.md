@@ -8,7 +8,8 @@ index: n
 # Journey Orchestration Help {#using}
 
 + [Product documentation](journey-orchestration-home.md)
-+ [Release Notes](using/release-notes/release-notes.md)
++ Release Notes {#release-notes}
+  + [GA Release](using/release-notes/release-notes.md)
 + Starting with Journey Orchestration {#starting-with-journeys}
   + [About Journey Orchestration](using/about/intro.md)
   + [Get started](using/about/aboutprocess.md)
@@ -58,7 +59,7 @@ index: n
   + [Testing the journey](using/building-journeys/journeytesting.md)
   + [Publishing the journey](using/building-journeys/journeypublication.md)
 + Using the advanced expression editor {#building-advanced-conditions-journeys}
-  + [Using the advanced expression editor](using/expression/expressionadvanced.md)
+  + [About the advanced expression editor](using/expression/expressionadvanced.md)
   + [Generalities](using/expression/expressiongeneralities.md)
   + [Data types](using/expression/expressionconstants.md)
   + [Field references](using/expression/expressionfields.md)
