@@ -63,4 +63,4 @@ To assign a product profile for a user to access Journey Orchestration:
 
     ![](../assets/user_management_4.png)
 
-Your user should then receive an email redirecting to your Journey orchestration.
+Your user should then receive an email redirecting to your Journey Orchestration instance.

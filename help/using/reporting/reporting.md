@@ -68,16 +68,16 @@ Each table is represented by summary numbers and charts. You can change how the 
 
  The following KPIs are available at the top of your report:
 
-* **[!UICONTROL Journey - Entered]**: Total number of individuals who reached the entry event of the journey.
-* **[!UICONTROL Journey - Completion rate]**: Total number of individuals who reached the end of the journey (or in case of an individual not matching any condition) compared to the total number of individuals who entered the journey.
-* **[!UICONTROL Journey - Current]**: Total number of individuals currently in the journey.
-* **[!UICONTROL Journey - Failed rate]**: Total number of journeys that were not successfully executed compared to the number of run journeys.
-* **[!UICONTROL Delivery - Messages sent]**: Total number of messages sent.
-* **[!UICONTROL Delivery rate]**: Total number of messages successfully delivered compared to messages sent.
-* **[!UICONTROL Delivery - Bounce rate]**: Total number of messages that bounced compared to messages sent.
-* **[!UICONTROL Delivery - Unsubscribed rate]**: Total number of unsubscriptions by recipient compared to the delivered messages.
-* **[!UICONTROL Delivery - Open rate]**: Total number of opened messages compared to the number of delivered messages.
-* **[!UICONTROL Delivery - Click rate]**: Total number of clicks in a delivery compared to the number of delivered messages.
+* **[!UICONTROL Journey - Entered]**: total number of individuals who reached the entry event of the journey.
+* **[!UICONTROL Journey - Completion rate]**: total number of individuals who reached the end of the journey (or in case of an individual not matching any condition) compared to the total number of individuals who entered the journey.
+* **[!UICONTROL Journey - Current]**: total number of individuals currently in the journey.
+* **[!UICONTROL Journey - Failed rate]**: total number of journeys that were not successfully executed compared to the number of run journeys.
+* **[!UICONTROL Delivery - Messages sent]**: total number of messages sent.
+* **[!UICONTROL Delivery rate]**: total number of messages successfully delivered compared to messages sent.
+* **[!UICONTROL Delivery - Bounce rate]**: total number of messages that bounced compared to messages sent.
+* **[!UICONTROL Delivery - Unsubscribed rate]**: total number of unsubscriptions by recipient compared to the delivered messages.
+* **[!UICONTROL Delivery - Open rate]**: total number of opened messages compared to the number of delivered messages.
+* **[!UICONTROL Delivery - Click rate]**: total number of clicks in a delivery compared to the number of delivered messages.
 
 The Journey flow visualization allows you to see the path of your targeted profiles step-by-step through your journey. This is only available when targeting one journey. It is automatically generated and cannot be modified.
 
@@ -85,11 +85,11 @@ The Journey flow visualization allows you to see the path of your targeted profi
 
 The **[!UICONTROL Journey summary]** table contains the data available for your journey, such as:
 
-* **[!UICONTROL Entered]**: Total number of individuals who reached the entry event of the journey.
-* **[!UICONTROL Completion rate]**: Total number of individuals who reached the end flow control of the journey compared to the total number of individuals who entered the journey.
-* **[!UICONTROL Current]**: Total number of individuals currently in the journey.
-* **[!UICONTROL Failed]**: Total number of journeys that were not successfully executed.
-* **[!UICONTROL Failed rate]**: Total number of journeys that were not successfully executed compared to the number of run journeys.
+* **[!UICONTROL Entered]**: total number of individuals who reached the entry event of the journey.
+* **[!UICONTROL Completion rate]**: total number of individuals who reached the end flow control of the journey compared to the total number of individuals who entered the journey.
+* **[!UICONTROL Current]**: total number of individuals currently in the journey.
+* **[!UICONTROL Failed]**: total number of journeys that were not successfully executed.
+* **[!UICONTROL Failed rate]**: total number of journeys that were not successfully executed compared to the number of run journeys.
 
 The **[!UICONTROL Top events]** table displays the most successful events and the **[!UICONTROL Top action]**, the most successful actions in your journeys.
 
@@ -97,17 +97,17 @@ The **[!UICONTROL Top events]** table displays the most successful events and th
 
 The **[!UICONTROL Delivery - Sending summary]** table contains the data available for your journey's deliveries, such as:
 
-* **[!UICONTROL Processed/sent]**: Total number of messages sent.
-* **[!UICONTROL Delivered rate]**: Total number of messages successfully delivered compared to messages sent.
-* **[!UICONTROL Delivered]**: Number of messages successfully sent, in relation to the total number of sent messages.
-* **[!UICONTROL Bounce + error rate]**: Total number of messages that bounced compared to messages sent.
-* **[!UICONTROL Bounces + errors]**: Total of errors cumulated during delivery and automatic return processing in relation to the total number of sent messages.
+* **[!UICONTROL Processed/sent]**: total number of messages sent.
+* **[!UICONTROL Delivered rate]**: total number of messages successfully delivered compared to messages sent.
+* **[!UICONTROL Delivered]**: number of messages successfully sent, in relation to the total number of sent messages.
+* **[!UICONTROL Bounce + error rate]**: total number of messages that bounced compared to messages sent.
+* **[!UICONTROL Bounces + errors]**: total of errors cumulated during delivery and automatic return processing in relation to the total number of sent messages.
 
 The **[!UICONTROL Delivery - Tracking summary]** table contains the data available to track the success of your journeys' deliveries, such as:
 
-* **[!UICONTROL Open Rate]**: Percentage of opened messages.
-* **[!UICONTROL Open]**: Number of times a message was opened in a delivery.
-* **[!UICONTROL Click trough rate]**: Total number of clicks in a delivery compared to the number of delivered messages.
-* **[!UICONTROL Click]**: Number of times a content was clicked in a delivery.
-* **[!UICONTROL Unsubscribe rate]**: Percentage of unsubscriptions by recipient compared to the delivered messages.
-* **[!UICONTROL Unsubscribed]**: Total number of unsubscriptions by recipient compared to the delivered messages.
+* **[!UICONTROL Open Rate]**: percentage of opened messages.
+* **[!UICONTROL Open]**: number of times a message was opened in a delivery.
+* **[!UICONTROL Click trough rate]**: total number of clicks in a delivery compared to the number of delivered messages.
+* **[!UICONTROL Click]**: number of times a content was clicked in a delivery.
+* **[!UICONTROL Unsubscribe rate]**: percentage of unsubscriptions by recipient compared to the delivered messages.
+* **[!UICONTROL Unsubscribed]**: total number of unsubscriptions by recipient compared to the delivered messages.
