@@ -24,7 +24,9 @@ The table below gives you the list of dimensions used in journey reports and the
 
 To learn more on compatibility between dimensions and metrics, refer to [this page](../assets/dynamic_report_compatibility_journey.pdf).
 
-## Dimensions {#MBE_table_wk4_bnj_w2b}
+## Journey dimensions {#MBE_table_wk4_bnj_w2b}
+
+The table below gives you the list of dimensions used in journey reports, their definitions and formulas.
 
 |Dimensions|Definition|
 |--- |--- |
@@ -34,7 +36,27 @@ To learn more on compatibility between dimensions and metrics, refer to [this pa
 |**Field group**|List of field groups (**field group name**) used to enrich data in journeys e.g. Profile field group, Geometrixx reservation system.|
 |**Journey**|List of every journey (**journey name**) in test mode and live e.g. Cart abandonment, Hotel reservation notification.|
 |**Journey version**|List of every published version of a journey (**journey name + version's number**) e.g. Cart abandonment v1, Hotel reservation notification v2.|
-|**Orchestration**|List of every orchestration activity (**Condition, End, Wait**) defined and used in journeys. Condition: Data source condition (condition + number - label) e.g. Condition 1 - No credit card, Condition 2 - credit card holder. Time condition, date condition and split condition (condition number - split number - split details) e.g. Condition - split 1 - 50, Condition 2 - split 2 - 50.|
+|**Orchestration**|List of every orchestration activity (**Condition, End, Wait**) defined and used in journeys.|
+
+## Delivery dimensions {#delivery-dimensions}
+
+The table below gives you the list of delivery dimensions used in journey reports, their definitions and formulas.
+
+|Dimension|Definition|
+|--- |--- |
+|**Browser**|Browser from which the message was opened or clicked on.|
+|**Delivery Name**|Label and ID of the delivery.|
+|**Device**|Device from which the email/SMS/push notification was opened/viewed/clicked on.|
+|**Message type**|Channel used for the delivery, such as email, SMS, push notification or In-App.|
+|**Mobile App name**|Name of the mobile application|
+|**Platform**|Platform of the device from which the message was opened/viewed/clicked on.|
+|**Push platform**|Platform of the device from which the push notification was opened, such as iOS or Android.|
+|**Recipient domain**|Domain used to open the email.|
+|**Tracking URL**|URL that was clicked on by the user from the message.|
+|**Tracking URL category**|Category assigned to the tracking URL.|
+|**Tracking URL label**|Label given to the URL, such as mirror page, contact us or open.|
+|**Variant**|Variant of the email in case of A/B testing.|
+
 
 ## Journey metrics {#MBE_p_p22_c4j_w2b}
 
