@@ -24,6 +24,8 @@ To access your journeys' reports and start tracking the success of your deliveri
 
 1. Select the journey you want to report on.
 
+   Note that you can also access your reports by clicking **Report** while hovering over a journey in the list of journeys.
+
     ![](../assets/dynamic_report_journey.png)
 
 1. Click the **[!UICONTROL Report]** icon at the top right of your screen.
