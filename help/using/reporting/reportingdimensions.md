@@ -45,7 +45,7 @@ The table below gives you the list of metrics used in journey reports, their def
 |**Completed**|Total number of individuals that ended normally the journey.|
 |**Completion rate**|Total number of individuals that ended normally the journey compared to the total number of individuals who entered the journey.|
 |**Current**|Total number of individuals currently in the journey i.e. how many people entered minus people who exited, errors and timed out.|
-|**Current rat**e**|Total number of individuals currently in the journey compared to the number of individuals who entered the journey.|
+|**Current rate**|Total number of individuals currently in the journey compared to the number of individuals who entered the journey.|
 |**Entered**|Total number of events that occurred to start an individual entry in the journey.|
 |**Error**|Total number of errors that occurred during a journey but didn't prevent the journey from being successful.|
 |**Error in Action**|Total number of errors that occurred for actions.|
