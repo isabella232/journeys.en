@@ -46,7 +46,7 @@ You can stop a journey when an emergency occurred and all processing needs to be
 
 A stopped journey version cannot be restarted or manually deleted.
 
-You can stop a journey when an emergency occured (for example if a marketer realizes that the journey targets the wrong audience or a custom action supposed to deliver messages is not working correctly…) by clicking **Stop** while hovering over a journey in the list of journeys.
+You can stop a journey when an emergency occurred (for example if a marketer realizes that the journey targets the wrong audience or a custom action supposed to deliver messages is not working correctly…) by clicking **Stop** while hovering over a journey in the list of journeys.
 
 ![](../assets/journey-stop-quick-action.png)
 

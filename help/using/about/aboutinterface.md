@@ -87,7 +87,7 @@ _In the event, data source or action configuration pane:_
 
 _In the simple expression editor_
 
-* Double-click on a field, on the ledt, to add a query (equivalent to drag & drop).
+* Double-click on a field, on the left, to add a query (equivalent to drag & drop).
 
 _When browsing through XDM fields:_
 
