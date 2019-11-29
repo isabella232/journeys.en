@@ -59,6 +59,25 @@ A default value can be associated to a field name. The syntax is as follows:
 >
 >The type of the field and the default value must be the same. For example, @{LobbyBeacon.endUserIDs._experience.emailid.id, defaultValue : 2} will be invalid because the default value is an integer whereas the expected value should be a string.
 
+**Reference of a field within collections**
+
+The elements defined within collections are referenced using the specific functions all, first and last. For more information, see [](../expression/expressionfunctions.md#section_ig2_hb5_pgb).
+
+Example :
+
+```
+@{LobbyBeacon._experience.campaign.message.profile.pushNotificationTokens.all()
+```
+
+**Reference of a field defined in a map**
+In order to retrieve an element in a map, we use the entry function with a given key. For example, it is used when defining the key of an event, according to the selected namespace. See Selecting the namespace. For more information, see [](../event/eventnamespace.md).
+
+```
+@{MyEvent.identityMap.entry('Email').first().id}
+```
+
+In this expression, we are getting the entry for ‘Email’ key of the ‘IdentityMap’ field of an event. The ‘Email’ entry is a collection, from which we take the ‘id’ in the first element using ‘first()’. For more information, see [](../expression/expressionfunctions.md#section_ig2_hb5_pgb).
+
 **Parameter values of a data source (data source dynamic values)**
 
 If you select a field from an external data source requiring a parameter to be called, a new tab appears on the right to let you specify this parameter. See [](../expression/expressionadvanced.md).
@@ -71,20 +90,16 @@ For more complex use cases, if you want to include the parameters of the data so
 
 Use the following syntax:
 
-
 ```
 #{<datasource>.<field group>.fieldName, params: {<params-1-name>: <params-1-value>, <params-2-name>: <params-2-value>}}
 ```
-
 
 * **`<params-1-name>`**: exact name of the first parameter from the data source.
 * **`<params-1-value>`**: the value of the first parameter. It can be any valid expression.
 
 Example:
 
-
 ```
 #{Weather.main.temperature, params: {localisation: @{Profile.address.localisation}}}
 #{Weather.main.temperature, params: {localisation: #{GPSLocalisation.main.coordinates, params: {city: @{Profile.address.city}}}}}
 ```
-
