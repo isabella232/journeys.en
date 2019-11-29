@@ -38,7 +38,7 @@ To use the test mode, follow these steps:
 
 ## Important notes {#important_notes}
 
-* Events need to be sent to Journey Orchestration.
+* An interface is provided to fire events to the tested journey but events can also be sent by third-party systems such as Postman.
 * Only individuals flagged as "test profiles" in the Real-time Customer Profile Service will be allowed to enter the tested journey. The process to create a test profile is the same as the process to create a Profile in the Data Platform. You just have to make sure the test profile flag is true. You can use the Segments section in the Data Platform interface to create a segment of test profiles in your Data Platform and see a non-exhaustive list. The exhaustive list cannot be displayed for now.
 * The test mode is only available in draft journeys that use a namespace. Indeed, the test mode needs to check if a person entering the journey is a test profile or not and thus must be able to reach the Data Platform.
 * The maximum number of test profiles than can enter a journey during a test session is 100.
@@ -62,15 +62,13 @@ The interface allows you to pass simple event parameters. If you want to pass co
 
 A technical user can also use this interface to compose event payloads and trigger events without having to use a third-party tool.
 
-The business user can send events to Journey Orchestration one by one only.
-
 ## Viewing the logs {#viewing_logs}
 
-The **Show log** button allows you to view the test results. This page displays the journey’s current information in JSON format. A button allows you to copy entire nodes. You need to refresh the page to update the journey’s test results.
+The **Show log** button allows you to view the test results. This page displays the journey’s current information in JSON format. A button allows you to copy entire nodes. You need to manually refresh the page to update the journey’s test results.
 
 ![](../assets/journeytest3.png)
 
-The number of individuals (technically they are called instances) currently inside the journey are displayed. Here are examples of useful information that is displayed for each individual:
+The number of individuals (technically they are called instances) currently inside the journey are displayed. Here is useful information that is displayed for each individual:
 
 * _Id_: the individual’s internal ID in the journey. This can be used for debugging purposes.
 * _currentstep_: the step where the individual is at in the journey. We recommend adding labels to your activities to identify them more easily.
