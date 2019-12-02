@@ -52,7 +52,7 @@ Find out how to manage your users' access with product profiles and rights.
       <img alt="conditions" src="using/assets/dev.png"/>
     </a>
     <div>
-    <a href="using/expression/expressionadvanced.md"><strong>Building advanced expression</strong></a>
+    <a href="using/expression/expressionadvanced.md"><strong>Building advanced expressions</strong></a>
     </div>
     <em>Learn how to build complex expressions leveraging data from events and data sources. </em>
     <br>
