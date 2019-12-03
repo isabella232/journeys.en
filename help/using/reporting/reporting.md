@@ -16,7 +16,7 @@ snippet: y
 
 >[!NOTE]
 >
->Delivery data will only be populated if you have Adobe Campaign Standard.
+>Delivery data and Segments component will only be populated if you have Adobe Campaign Standard.
 
 This section will present you how to access and use reports to measure your journeys' effectiveness.
 
