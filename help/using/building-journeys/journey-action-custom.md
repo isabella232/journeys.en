@@ -14,7 +14,7 @@ snippet: y
 
 # Using custom actions {#section_f2c_hbg_nhb}
 
-If you're using a custom action, you will see, in read-only, the **URL Configuration** and **Authentication** parameters defined in the action configuration screen (see [](../action/custom.md)).
+If you're using a custom action, you will see, in read-only, the **URL Configuration** and **Authentication** parameters defined in the action configuration screen (see [](../action/custom-action-configuration.md)).
 
 >[!NOTE]
 >

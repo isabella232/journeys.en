@@ -14,7 +14,7 @@ snippet: y
 
 # toString {#toString}
 
-Converts an argument value into a string value, depending on its type. For more informtation on data types, refer to [](../expression/expressionconstants.md).
+Converts an argument value into a string value, depending on its type. For more informtation on data types, refer to [](../expression/data-types.md).
 
 ## Category
 

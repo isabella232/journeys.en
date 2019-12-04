@@ -48,13 +48,13 @@ The simple mode allows you to perform simple queries based on a combination of f
 
 ## Data Source condition {#data_source_condition}
 
-This allows you to define a condition based on fields from the data sources or the events previously positioned in the journey. To learn how to use the expression editor, see [](../expression/expressionadvanced.md). Using the advanced expression editor, you can setup more advanced conditions manipulating collections or using data sources requiring the passing of parameters. See [](../datasource/dsexternal.md)
+This allows you to define a condition based on fields from the data sources or the events previously positioned in the journey. To learn how to use the expression editor, see [](../expression/expressionadvanced.md). Using the advanced expression editor, you can setup more advanced conditions manipulating collections or using data sources requiring the passing of parameters. See [](../datasource/external-data-sources.md)
 
 ![](../assets/journey50.png)
 
 ## Time condition{#time_condition}
 
-This allows you to perform different actions according to the hour of the day and/or the day of the week. For example, you can decide to send SMS messages during daytime and emails at night during weekdays. You can define a specific time zone for this condition. See [](../building-journeys/timezone.md).
+This allows you to perform different actions according to the hour of the day and/or the day of the week. For example, you can decide to send SMS messages during daytime and emails at night during weekdays. You can define a specific time zone for this condition. See [](../building-journeys/timezone-management.md).
 
 ![](../assets/journey51.png)
 
@@ -71,6 +71,6 @@ This option allows you to randomly split the audience to define a different acti
 
 ## Date condition {#date_condition}
 
-This allows you to define a different flow based on the date. For example, if the person enters the step during the "sales" period, you'll send him a specific message. The rest of the year, you'll send another message. When you define a date condition, you must specify a time zone. See [](../building-journeys/timezone.md).
+This allows you to define a different flow based on the date. For example, if the person enters the step during the "sales" period, you'll send him a specific message. The rest of the year, you'll send another message. When you define a date condition, you must specify a time zone. See [](../building-journeys/timezone-management.md).
 
 ![](../assets/journey53.png)

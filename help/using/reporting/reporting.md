@@ -53,9 +53,9 @@ The left tabs let you build your report and filter your data as needed.
 
 These tabs give you access to the following items:
 
-* **[!UICONTROL Panels]**: add a blank panel or freeform to your report to start filtering your data. For more on this, refer to the [Adding panels](../reporting/reportingcreating.md#adding-panels) section
-* **[!UICONTROL Visualizations]**: drag and drop a selection of visualization items to give your report a graphical dimension. For more on this, refer to the [Adding visualizations](../reporting/reportingcreating.md#adding-visualizations) section.
-* **[!UICONTROL Components]**: customize your reports with different dimensions, metrics, segments and time periods. For more on this, refer to the [Adding components](../reporting/reportingcreating.md#adding-components) section.
+* **[!UICONTROL Panels]**: add a blank panel or freeform to your report to start filtering your data. For more on this, refer to the [Adding panels](../reporting/reporting-creating.md#adding-panels) section
+* **[!UICONTROL Visualizations]**: drag and drop a selection of visualization items to give your report a graphical dimension. For more on this, refer to the [Adding visualizations](../reporting/reporting-creating.md#adding-visualizations) section.
+* **[!UICONTROL Components]**: customize your reports with different dimensions, metrics, segments and time periods. For more on this, refer to the [Adding components](../reporting/reporting-creating.md#adding-components) section.
 
 ## Journey summary template {#ootb-template}
 

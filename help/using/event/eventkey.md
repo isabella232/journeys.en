@@ -30,7 +30,7 @@ If you need to use a different key, such as a CRM ID or an email address, you ne
 
     ![](../assets/journey20.png)
 
-When the event is received, the value of the key will allow the system to identify the person associated to the event. Associated to a namespace (see [](../event/eventnamespace.md)), the key can be used to perform queries on the Adobe Experience Platform. See [](../building-journeys/journeyorchestration.md).
+When the event is received, the value of the key will allow the system to identify the person associated to the event. Associated to a namespace (see [](../event/eventnamespace.md)), the key can be used to perform queries on the Adobe Experience Platform. See [](../building-journeys/journey-orchestration.md).
 The key is also used to check that a person is in a journey. Indeed, a person cannot be at two different places in the same journey. As a result, the system does not allow the same key, for example the key CRMID=3224, to be at different places in the same journey.
 
 You also have access to the advanced expression functions (**Advanced mode**) if you want to perform additional manipulations. These functions let you manipulate the values used to carry out specific queries such changing formats, performing field concatenations, taking into account only a part of a field (for example the 10 first characters). See [](../expression/expressionadvanced.md).  

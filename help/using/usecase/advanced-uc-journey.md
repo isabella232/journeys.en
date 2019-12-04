@@ -101,7 +101,7 @@ Two paths are created after your condition:
 
     ![](../assets/journeyuc2_18.png)
 
-1. When you select a field from an external data source, the right part of the screen displays the list of parameters that were defined when configuring the external data source (see [](../usecase/uc2ds.md)). Click on the parameter name and define the value of the reservation system key, the Experience Cloud ID, in our example:
+1. When you select a field from an external data source, the right part of the screen displays the list of parameters that were defined when configuring the external data source (see [](../usecase/advanced-uc-data-source.md)). Click on the parameter name and define the value of the reservation system key, the Experience Cloud ID, in our example:
 
     ```
     @{LobbyBeacon.endUserIDs._experience.mcid.id}
@@ -167,7 +167,7 @@ Two paths are created after your condition:
 
 1. Add an **End** activity.
 
-Click on the **Test** toggle and test your journey. If there is any error, deactivate the test mode, modify your journey and test it again. For more information on the test mode, refer to [](../building-journeys/journeytesting.md). 
+Click on the **Test** toggle and test your journey. If there is any error, deactivate the test mode, modify your journey and test it again. For more information on the test mode, refer to [](../building-journeys/testing-a-journey.md). 
 
 ![](../assets/journeyuc2_32bis.png)
 
