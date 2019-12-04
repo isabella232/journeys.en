@@ -35,7 +35,7 @@ We then check two conditions:
 
 ![](../assets/journeyuc2_29.png)
 
-For this use case, we will need to create two events (see [](../usecase/uc2event.md)):
+For this use case, we will need to create two events (see [](../usecase/advanced-uc-event.md)):
 
 * The lobby beacon event that will be pushed to the system when a customer enters the hotel.
 * The restaurant beacon event that will be pushed when a customer enters the restaurant.

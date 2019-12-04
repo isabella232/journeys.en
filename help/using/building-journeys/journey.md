@@ -48,7 +48,7 @@ Here are the main steps to create and publish a journey.
 
     ![](../assets/journey34.png)
 
-1. Your journey is automatically saved. Test your journey and publish it. See [](../building-journeys/testing-a-journey.md) and [](../building-journeys/journey-publication.md).
+1. Your journey is automatically saved. Test your journey and publish it. See [](../building-journeys/testing-a-journey.md) and [](../building-journeys/publishing-a-journey.md).
 
     ![](../assets/journey36.png)
 

@@ -26,7 +26,7 @@ Journey Orchestration comes with an out-of-the-box action which allows the conne
 
 1. Click the **Test the instance URL** to test the validity of the instance.
 
-When designing your journey, three actions will be available in the **Action** category: **Email**, **Push**, **SMS** (see [](../building-journeys/journeyaction-campaign.md)).
+When designing your journey, three actions will be available in the **Action** category: **Email**, **Push**, **SMS** (see [](../building-journeys/journey-action-campaign.md)).
 
 ![](../assets/journey58.png)
 

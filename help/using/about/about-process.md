@@ -56,7 +56,7 @@ Here are the main steps to configure and use Journey Orchestration:
 
     You need to validate and activate the journey. This step is performed by a **business user**. 
 
-    For more on this, see [](../building-journeys/testing-a-journey.md) and [](../building-journeys/journey-publication.md).
+    For more on this, see [](../building-journeys/testing-a-journey.md) and [](../building-journeys/publishing-a-journey.md).
 
     ![](../assets/journeyuc2_32bis.png)
 

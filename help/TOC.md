@@ -54,10 +54,10 @@ index: n
       + [Wait activity](using/building-journeys/wait.md)
     + Action activities {#action-activities}
       + [About action activities](using/building-journeys/journey-action.md)
-      + [Using Adobe Campaign actions](using/building-journeys/journeyaction-campaign.md)
-      + [Using custom actions](using/building-journeys/journeyactioncustom-action-configuration.md)
+      + [Using Adobe Campaign actions](using/building-journeys/journey-action-campaign.md)
+      + [Using custom actions](using/building-journeys/journey-action-custom.md)
   + [Testing the journey](using/building-journeys/testing-a-journey.md)
-  + [Publishing the journey](using/building-journeys/journey-publication.md)
+  + [Publishing the journey](using/building-journeys/publishing-a-journey.md)
 + Using the advanced expression editor {#building-advanced-conditions-journeys}
   + [About the advanced expression editor](using/expression/expressionadvanced.md)
   + [Generalities](using/expression/generalities.md)
