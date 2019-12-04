@@ -26,7 +26,7 @@ _The advanced expression editor interface_
 The advanced expression editor can be used to:
 
 * create [advanced conditions](../building-journeys/condition.md#about_condition) on data sources and event information
-* define custom [time zones](../building-journeys/timezone.md) in date conditions, fixed date wait activities, custom wait activities
+* define custom [time zones](../building-journeys/timezone-management.md) in date conditions, fixed date wait activities, custom wait activities
 * define custom [wait activities](../building-journeys/wait.md#custom)
 * define action parameters mapping
 
@@ -73,8 +73,8 @@ A syntax validation mechanism checks the integrity of your code. Errors are disp
 
 **Need for parameters when building conditions with the advanced expression editor**
 
-If you select a field from an external data source requiring a parameter to be called (see [](../datasource/dsexternal.md). For example, in a weather-related data source, a frequently used parameter will be "city". As a result, you must select where you want to get this city parameter. Functions can also be applied to parameters to perform format changes or concatenations.
+If you select a field from an external data source requiring a parameter to be called (see [](../datasource/external-data-sources.md). For example, in a weather-related data source, a frequently used parameter will be "city". As a result, you must select where you want to get this city parameter. Functions can also be applied to parameters to perform format changes or concatenations.
 
 ![](../assets/journeyuc2_19.png)
 
-For more complex use cases, if you want to include the parameters of the data source in the main expression, you can define their values using the "params" keyword. See [this page](../expression/expressionfields.md).
+For more complex use cases, if you want to include the parameters of the data source in the main expression, you can define their values using the "params" keyword. See [this page](../expression/field-references.md).

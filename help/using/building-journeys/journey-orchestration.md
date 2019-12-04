@@ -17,7 +17,7 @@ snippet: y
 From the palette, on the left-hand side of the screen, the following orchestration activities are available: 
 
 * [](../building-journeys/condition.md)
-* [](../building-journeys/end.md) 
-* [](../building-journeys/wait.md) 
+* [](../building-journeys/end.md)
+* [](../building-journeys/wait.md)
 
 ![](../assets/journey49.png)

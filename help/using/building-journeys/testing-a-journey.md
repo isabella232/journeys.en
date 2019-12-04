@@ -34,7 +34,7 @@ To use the test mode, follow these steps:
 
     ![](../assets/journeyuctest2.png)
 
-1. If there is any error, deactivate the test mode, modify your journey and test it again. When the test is conclusive, you can publish your journey. See [](../building-journeys/journeypublication.md).
+1. If there is any error, deactivate the test mode, modify your journey and test it again. When the test is conclusive, you can publish your journey. See [](../building-journeys/publishing-a-journey.md).
 
 ## Important notes {#important_notes}
 

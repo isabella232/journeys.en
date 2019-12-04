@@ -14,4 +14,4 @@ snippet: y
 
 # Configuring the authentication {#concept_is4_cf1_2gb}
 
-For this part, refer to [](../datasource/dsexternal.md#section_wjp_nl5_nhb).
+For this part, refer to [](../datasource/external-data-sources.md#section_wjp_nl5_nhb).

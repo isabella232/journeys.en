@@ -27,7 +27,7 @@ Here are the main steps to create and publish a journey.
 
 1. In the top menu, click the **Home** tab. 
 
-    The list of journeys is displayed. See [](../building-journeys/journeyinterface.md) for more information on the interface.
+    The list of journeys is displayed. See [](../building-journeys/journey-interface.md) for more information on the interface.
 
     ![](../assets/journey30.png)
 
@@ -35,7 +35,7 @@ Here are the main steps to create and publish a journey.
 
     ![](../assets/journey31.png)
 
-1. Edit the journey's properties in the configuration pane displayed on the right side. See [](../building-journeys/journeyproperty.md).
+1. Edit the journey's properties in the configuration pane displayed on the right side. See [](../building-journeys/journey-properties.md).
 
     ![](../assets/journey32.png)
 
@@ -44,11 +44,11 @@ Here are the main steps to create and publish a journey.
 
     ![](../assets/journey33.png)
 
-1. Drag and drop your other activities and configure them. See [](../building-journeys/journeyevent.md), [](../building-journeys/journeyorchestration.md) and [](../building-journeys/journeyaction.md).
+1. Drag and drop your other activities and configure them. See [](../building-journeys/journey-event.md), [](../building-journeys/journey-orchestration.md) and [](../building-journeys/journey-action.md).
 
     ![](../assets/journey34.png)
 
-1. Your journey is automatically saved. Test your journey and publish it. See [](../building-journeys/journeytesting.md) and [](../building-journeys/journeypublication.md).
+1. Your journey is automatically saved. Test your journey and publish it. See [](../building-journeys/testing-a-journey.md) and [](../building-journeys/publishing-a-journey.md).
 
     ![](../assets/journey36.png)
 
@@ -59,5 +59,5 @@ There are two ways to end a journey:
 * The person arrives at the last activity of a path. This last activity can be an end activity or another activity. There is no obligation to end a path with an end activity. See [](../building-journeys/end.md).
 * The person arrives at a condition activity (or a wait activity with a condition) and does not match any of the conditions.
 
-The person can then re-enter the journey if re-entrance is allowed. See [](../building-journeys/journeyproperty.md).
+The person can then re-enter the journey if re-entrance is allowed. See [](../building-journeys/journey-properties.md).
 

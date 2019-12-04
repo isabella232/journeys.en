@@ -67,7 +67,7 @@ For additional information on how to build a journey, refer to [](../building-jo
 
     ![](../assets/journeyuc1_17.png)
 
-1. Click on the **Test** toggle and test your journey using test profiles. If there is any error, deactivate the test mode, modify your journey and test it again. For more information on the test mode, refer to [](../building-journeys/journeytesting.md). 
+1. Click on the **Test** toggle and test your journey using test profiles. If there is any error, deactivate the test mode, modify your journey and test it again. For more information on the test mode, refer to [](../building-journeys/testing-a-journey.md). 
 
     ![](../assets/journeyuc1_18bis.png)
 

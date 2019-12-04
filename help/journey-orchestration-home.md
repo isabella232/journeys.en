@@ -14,13 +14,13 @@ topic: Premium
 * **[What is Journey Orchestration?](using/about/intro.md)**<br/>
 Learn more on Journey Orchestration.
 
-* **[Build your first journey](using/about/aboutprocess.md)**<br/>
+* **[Build your first journey](using/about/about-process.md)**<br/>
 Discover the main steps to set up Journey Orchestration and build your first journey.
 
 * **[Configure an event](using/event/event.md#section_tbk_5qt_pgb)**<br/>
 Learn how to configure the events that your journeys will listen to.
 
-* **[Grant access to Journey Orchestration](using/about/usermanagement.md)**<br/>
+* **[Grant access to Journey Orchestration](using/about/user-management.md)**<br/>
 Find out how to manage your users' access with product profiles and rights. 
 
 ## Top pages
@@ -38,11 +38,11 @@ Find out how to manage your users' access with product profiles and rights.
     <br>
   </td>
   <td valign="top">
-    <a href="using/usecase/uc2intro.md">
+    <a href="using/usecase/advanced-uc-intro.md">
       <img alt="build" src="using/assets/design.png"/>
     </a>
     <div>
-    <a href="using/usecase/uc2intro.md"><strong>Use case</strong></a>
+    <a href="using/usecase/advanced-uc-intro.md"><strong>Use case</strong></a>
     </div>
     <em>Learn how to create an advanced journey step-by-step.</em>
     <br>

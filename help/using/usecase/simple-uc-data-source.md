@@ -16,7 +16,7 @@ snippet: y
 
 In our use case, we want to use personalization data for our messages. We also need to check is the person is a woman. This information is stored in the Real-time Customer Profile database. The **technical user** needs to check that those fields are defined in the built-in Experience Platform data source.
 
-For additional information on data source configuration, refer to [](../datasource/ds.md). 
+For additional information on data source configuration, refer to [](../datasource/data-sources.md). 
 
 1. In the top menu, click the **Data Sources** tab and select the build-in Experience Platform data source.
 
