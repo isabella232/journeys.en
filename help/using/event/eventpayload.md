@@ -24,7 +24,7 @@ The payload definition allows you to choose the information the system expects t
 
     >[!NOTE]
     >
-    >Make sure that you have added the "orchestration" mixin to the XDM schema. This will ensure that your schema contains all the required nodes to work with Journey Orchestration.
+    >Make sure that you have added the "orchestration" mixin to the XDM schema. This will ensure that your schema contains all the required information to work with Journey Orchestration.
 
     ![](../assets/journey9.png)
 
