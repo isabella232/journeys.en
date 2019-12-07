@@ -14,7 +14,7 @@ snippet: y
 
 # currentTimeInMillis {#currentTimeInMillis}
 
-Current time in epoch milliseconds.
+Returns current time in epoch milliseconds.
 
 ## Category
 
@@ -25,10 +25,6 @@ Date
 `currentTimeInMillis(<parameter>)`
 
 ## Parameters
-
-|Parameter|Description|
-|--- |--- |
-|integer|number of milliseconds (epoch milliseconds)|
 
 ## Signatures and returned type
 

@@ -29,15 +29,13 @@ Maths
 * decimal
 * integer
 
-## Signature and returned type
+## Signatures and returned type
 
 `round(<decimal>)`
 
-Returns a decimal.
-
 `round(<integer>)`
 
-Returns an integer.
+Return an integer.
 
 ## Example
 

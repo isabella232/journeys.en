@@ -42,10 +42,6 @@ Returns a decimal.
 
 Returns an integer.
 
-`sum(<duration>,<duration>)`
-
-Returns a duration.
-
 `sum(<integer>,<integer>)`
 
 Returns an integer.

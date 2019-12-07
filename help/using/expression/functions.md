@@ -35,7 +35,7 @@ Here is the list of supported functions.
 | Aggregation | [](../functions/functiondistinctcount.md)|
 | Aggregation | [](../functions/functiondistinctcountwithnull.md)|
 | Aggregation | [](../functions/functionmax.md)|
-| Aggregation | [](../functions/functionmax.md)|
+| Aggregation | [](../functions/functionmin.md)|
 | Aggregation | [](../functions/functionsum.md)|
 | Conversion  | [](../functions/functiontobool.md)|
 | Conversion  | [](../functions/functiontodatetime.md)|
