@@ -52,7 +52,7 @@ Here are a few things and administrator should check:
 * Did you save your event before copying the payload from the payload preview?
 * Does your event payload contain an event id?
 * Did you hit the right URL?
-* Did you follow the Streaming Ingestion APIs payload structure, using the payload structure preview in the event configuration pane? See [](../event/eventpayloadpreview.md).
+* Did you follow the Streaming Ingestion APIs payload structure, using the payload structure preview in the event configuration pane? See [](../event/previewing-the-payload.md).
 * Did you use the right key/value pairs in the header of your event? 
 
     ```

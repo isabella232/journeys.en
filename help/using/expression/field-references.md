@@ -70,7 +70,7 @@ Example :
 ```
 
 **Reference of a field defined in a map**
-In order to retrieve an element in a map, we use the entry function with a given key. For example, it is used when defining the key of an event, according to the selected namespace. See Selecting the namespace. For more information, see [](../event/eventnamespace.md).
+In order to retrieve an element in a map, we use the entry function with a given key. For example, it is used when defining the key of an event, according to the selected namespace. See Selecting the namespace. For more information, see [](../event/selecting-the-namespace.md).
 
 ```
 @{MyEvent.identityMap.entry('Email').first().id}

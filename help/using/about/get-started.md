@@ -22,7 +22,7 @@ Here are the main steps to configure and use Journey Orchestration:
 
     You need to define the expected information and how to process it. This configuration is mandatory. This step is performed by a **technical user**.
 
-    For more on this, refer to [](../event/event.md).
+    For more on this, refer to [](../event/about-events.md).
 
     ![](../assets/journey7.png)  
 

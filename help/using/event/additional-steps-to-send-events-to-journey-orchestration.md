@@ -17,12 +17,12 @@ snippet: y
 
 >[!NOTE]
 >
->When creating an event, Journey Orchestration automatically generates an ID for this event. The system pushing the event should not generate an ID, it should use the one available in the payload preview. See [](../event/eventpayloadpreview.md).
+>When creating an event, Journey Orchestration automatically generates an ID for this event. The system pushing the event should not generate an ID, it should use the one available in the payload preview. See [](../event/previewing-the-payload.md).
 
 To configure events to be sent to **Streaming Ingestion APIs** and to be used in Journey Orchestration, you need to follow these steps:
 
 1. Get the inlet URL from the Data Platform APIs (see [Streaming Ingestion APIs](https://www.adobe.io/apis/cloudplatform/dataservices/data-ingestion/data-ingestion-services.html#!api-specification/markdown/narrative/technical_overview/streaming_ingest/getting_started_with_platform_streaming_ingestion.md)).
-1. Copy the payload from the payload preview in the **Event** menu. See [](../event/eventpayload.md).
+1. Copy the payload from the payload preview in the **Event** menu. See [](../event/defining-the-payload-fields.md).
 
 You then need to configure the data system that pushes events to Streaming Ingestion APIs using the payload you copied:
 

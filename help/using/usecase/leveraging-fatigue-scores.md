@@ -18,7 +18,7 @@ This use case will show you how to leverage fatigue scores to avoid over-solicit
 
 ## Configuring the event {#section_ptb_ws1_ffb}
 
-Follow the steps described in [](../event/event.md).
+Follow the steps described in [](../event/about-events.md).
 
 ## Configuring the data source {#section_o3n_4yy_wfb}
 

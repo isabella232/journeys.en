@@ -11,19 +11,19 @@ index: n
 + What's new {#release-notes}
   + [Release Notes](using/release-notes/release-notes.md)
 + Starting with Journey Orchestration {#starting-with-journeys}
-  + [About Journey Orchestration](using/about/about-about-orchestration-activities.md)
+  + [About Journey Orchestration](using/about/about-orchestration-activities.md)
   + [Get started](using/about/get-started.md)
   + [User interface](using/about/user-interface.md)
   + [Access management](using/about/access-management.md)
   + [Troubleshooting](using/about/troubleshooting.md)
 + Configuring an event {#events-journeys}
-  + [About events](using/event/event.md)
-  + [Defining the payload fields](using/event/eventpayload.md)
-  + [Selecting the namespace](using/event/eventnamespace.md)
-  + [Defining the event key](using/event/eventkey.md)
-  + [Adding a condition](using/event/eventcondition-activity.md)
-  + [Previewing the payload](using/event/eventpayloadpreview.md)
-  + [Additional steps to send events](using/event/eventsteps.md)
+  + [About events](using/event/about-events.md)
+  + [Defining the payload fields](using/event/defining-the-payload-fields.md)
+  + [Selecting the namespace](using/event/selecting-the-namespace.md)
+  + [Defining the event key](using/event/defining-the-event-key.md)
+  + [Adding a condition](using/event/condition-activity.md)
+  + [Previewing the payload](using/event/previewing-the-payload.md)
+  + [Additional steps to send events](using/event/additional-steps-to-send-events-to-journey-orchestration.md)
 + Configuring a data source {#data-source-journeys}
   + [About data sources](using/datasource/about-data-sources.md)
   + [Field groups](using/datasource/field-groups.md)
@@ -36,7 +36,7 @@ index: n
     + [About custom action configuration](using/action/about-custom-action-configuration.md)
     + [Custom action limitations](using/action/custom-action-limitations.md)
     + [URL configuration](using/action/url-configuration.md)
-    + [Defining the message parameters](using/action/defining-the-message-parameters.md.md)
+    + [Defining the message parameters](using/action/defining-the-message-parameters.md)
 + Building a journey {#building-journeys}
   + About journey building {#about-journey-building}
     + [Creating a journey](using/building-journeys/journey.md)
@@ -54,7 +54,7 @@ index: n
       + [Wait activity](using/building-journeys/wait-activity.md)
     + Action activities {#action-activities}
       + [About action activities](using/building-journeys/about-action-activities.md)
-      + [Using Adobe Campaign actions](using/building-journeys/journey-working-with-adobe-campaign.md)
+      + [Using Adobe Campaign actions](using/building-journeys/using-adobe-campaign-actions.md)
       + [Using custom actions](using/building-journeys/using-custom-actions.md)
   + [Testing the journey](using/building-journeys/testing-the-journey.md)
   + [Publishing the journey](using/building-journeys/publishing-the-journey.md)
@@ -140,13 +140,13 @@ index: n
   + [Metrics and dimensions](using/reporting/reporting-dimensions.md)
 + Use cases{#use-cases-journeys}
   + Simple use case{#use-case-simple}
-    + [About the simple use case](using/usecase/simple-uc-about-about-orchestration-activities.md)
-    + [Configuring the event](using/usecase/simple-uc-event.md)
+    + [About the simple use case](using/usecase/simple-uc-journey.md)
+    + [Configuring the event](using/usecase/simple-uc-about-events.md)
     + [Configuring the data source](using/usecase/simple-uc-data-source.md)
     + [Building the journey](using/usecase/simple-uc-journey.md)
   + Advanced use case{#use-case-advanced}
-    + [About the advanced use case](using/usecase/advanced-uc-about-about-orchestration-activities.md)
-    + [Configuring the events](using/usecase/advanced-uc-event.md)
+    + [About the advanced use case](using/usecase/advanced-uc-journey.md)
+    + [Configuring the events](using/usecase/advanced-uc-about-events.md)
     + [Configuring the data sources](using/usecase/advanced-uc-data-source.md)
     + [Building the journey](using/usecase/advanced-uc-journey.md)
   + [Leveraging fatigue scores](using/usecase/leveraging-fatigue-scores.md)

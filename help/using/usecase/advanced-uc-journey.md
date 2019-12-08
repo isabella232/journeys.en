@@ -76,7 +76,7 @@ For additional information on how to build a journey, refer to [](../building-jo
     >
     >In the second part of expression, "Profile" is optional.
 
-1. We need to select a namespace. A namespace is preselected based on schema properties. You can keep the one preselected. For more information on namespaces, see [](../event/eventnamespace.md).
+1. We need to select a namespace. A namespace is preselected based on schema properties. You can keep the one preselected. For more information on namespaces, see [](../event/selecting-the-namespace.md).
 
 In our use case, we only want to react to those two conditions, so we don't check the box **Show path for other cases than the one(s) above**.
 
