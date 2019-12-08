@@ -11,7 +11,7 @@ index: n
 + What's new {#release-notes}
   + [Release Notes](using/release-notes/release-notes.md)
 + Starting with Journey Orchestration {#starting-with-journeys}
-  + [About Journey Orchestration](using/about/working-with-adobe-campaign.md)
+  + [About Journey Orchestration](using/action/working-with-adobe-campaign.md)
   + [Get started](using/about/get-started.md)
   + [User interface](using/about/user-interface.md)
   + [Access management](using/about/access-management.md)
@@ -135,19 +135,19 @@ index: n
       + [upper](using/functions/functionupper.md)
       + [uuid](using/functions/functionuuid.md)
 + Building your reports{#journey-reports}
-  + [About journey reports](using/reporting/reporting.md)
-  + [Creating your journey reports](using/reporting/reporting-creating.md)
-  + [Metrics and dimensions](using/reporting/reporting-dimensions.md)
+  + [About journey reports](using/reporting/about-journey-reports.md)
+  + [Creating your journey reports](using/reporting/creating-your-journey-reports.md)
+  + [Metrics and dimensions](using/reporting/metrics-and-dimensions.md)
 + Use cases{#use-cases-journeys}
   + Simple use case{#use-case-simple}
-    + [About the simple use case](using/usecase/simple-uc-journey.md)
-    + [Configuring the event](using/usecase/simple-uc-event.md)
-    + [Configuring the data source](using/usecase/simple-uc-data-source.md)
-    + [Building the journey](using/usecase/simple-uc-journey.md)
+    + [About the simple use case](using/usecase/simple-uc-building-the-journey.md)
+    + [Configuring the event](using/usecase/configuring-the-event.md)
+    + [Configuring the data source](using/usecase/configuring-the-data-source.md)
+    + [Building the journey](using/usecase/simple-uc-building-the-journey.md)
   + Advanced use case{#use-case-advanced}
-    + [About the advanced use case](using/usecase/advanced-uc-journey.md)
-    + [Configuring the events](using/usecase/advanced-uc-event.md)
-    + [Configuring the data sources](using/usecase/advanced-uc-data-source.md)
-    + [Building the journey](using/usecase/advanced-uc-journey.md)
+    + [About the advanced use case](using/usecase/building-the-journey.md)
+    + [Configuring the events](using/usecase/configuring-the-events.md)
+    + [Configuring the data sources](using/usecase/configuring-the-data-sources.md)
+    + [Building the journey](using/usecase/building-the-journey.md)
   + [Leveraging fatigue scores](using/usecase/leveraging-fatigue-scores.md)
   

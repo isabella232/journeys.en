@@ -35,12 +35,12 @@ We then check two conditions:
 
 ![](../assets/journeyuc2_29.png)
 
-For this use case, we will need to create two events (see [](../usecase/advanced-uc-event.md)):
+For this use case, we will need to create two events (see [](../usecase/configuring-the-events.md)):
 
 * The lobby beacon event that will be pushed to the system when a customer enters the hotel.
 * The restaurant beacon event that will be pushed when a customer enters the restaurant.
 
-We will need to configure a connection to two data sources (see [](../usecase/advanced-uc-data-source.md)):
+We will need to configure a connection to two data sources (see [](../usecase/configuring-the-data-sources.md)):
 
 * The build-in Experience Platform data source, to retrieve the information for our two conditions (loyalty membership and last contact date) as well as the message personalization information.
 * The hotel reservation system, to retrieve the reservation status information.

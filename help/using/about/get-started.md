@@ -64,7 +64,7 @@ Here are the main steps to configure and use Journey Orchestration:
 
     Use the dedicated reporting tools to measure your journey's effectiveness. This step is performed by a **business user**. 
 
-    For more on this, see [](../reporting/reporting.md).
+    For more on this, see [](../reporting/about-journey-reports.md).
 
     ![](../assets/dynamic_report_journey_12.png)
 

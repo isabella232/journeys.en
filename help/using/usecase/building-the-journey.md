@@ -101,7 +101,7 @@ Two paths are created after your condition:
 
     ![](../assets/journeyuc2_18.png)
 
-1. When you select a field from an external data source, the right part of the screen displays the list of parameters that were defined when configuring the external data source (see [](../usecase/advanced-uc-data-source.md)). Click on the parameter name and define the value of the reservation system key, the Experience Cloud ID, in our example:
+1. When you select a field from an external data source, the right part of the screen displays the list of parameters that were defined when configuring the external data source (see [](../usecase/configuring-the-data-sources.md)). Click on the parameter name and define the value of the reservation system key, the Experience Cloud ID, in our example:
 
     ```
     @{LobbyBeacon.endUserIDs._experience.mcid.id}
