@@ -11,10 +11,10 @@ index: n
 + What's new {#release-notes}
   + [Release Notes](using/release-notes/release-notes.md)
 + Starting with Journey Orchestration {#starting-with-journeys}
-  + [About Journey Orchestration](using/about/intro.md)
-  + [Get started](using/about/about-process.md)
+  + [About Journey Orchestration](using/about/about-journey-orchestration.md)
+  + [Get started](using/about/get-started.md)
   + [User interface](using/about/user-interface.md)
-  + [Access management](using/about/user-management.md)
+  + [Access management](using/about/access-management.md)
   + [Troubleshooting](using/about/troubleshooting.md)
 + Configuring an event {#events-journeys}
   + [About events](using/event/event.md)
@@ -140,12 +140,12 @@ index: n
   + [Metrics and dimensions](using/reporting/reporting-dimensions.md)
 + Use cases{#use-cases-journeys}
   + Simple use case{#use-case-simple}
-    + [About the simple use case](using/usecase/simple-uc-intro.md)
+    + [About the simple use case](using/usecase/simple-uc-about-journey-orchestration.md)
     + [Configuring the event](using/usecase/simple-uc-event.md)
     + [Configuring the data source](using/usecase/simple-uc-data-source.md)
     + [Building the journey](using/usecase/simple-uc-journey.md)
   + Advanced use case{#use-case-advanced}
-    + [About the advanced use case](using/usecase/advanced-uc-intro.md)
+    + [About the advanced use case](using/usecase/advanced-uc-about-journey-orchestration.md)
     + [Configuring the events](using/usecase/advanced-uc-event.md)
     + [Configuring the data sources](using/usecase/advanced-uc-data-source.md)
     + [Building the journey](using/usecase/advanced-uc-journey.md)
