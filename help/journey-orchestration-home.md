@@ -11,7 +11,7 @@ topic: Premium
 
 ## Get started
 
-* **[What is Journey Orchestration?](using/about/about-orchestration-activities.md)**<br/>
+* **[What is Journey Orchestration?](using/about/working-with-adobe-campaign.md)**<br/>
 Learn more on Journey Orchestration.
 
 * **[Build your first journey](using/about/get-started.md)**<br/>

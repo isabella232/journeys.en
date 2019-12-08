@@ -11,7 +11,7 @@ index: n
 + What's new {#release-notes}
   + [Release Notes](using/release-notes/release-notes.md)
 + Starting with Journey Orchestration {#starting-with-journeys}
-  + [About Journey Orchestration](using/about/about-orchestration-activities.md)
+  + [About Journey Orchestration](using/about/working-with-adobe-campaign.md)
   + [Get started](using/about/get-started.md)
   + [User interface](using/about/user-interface.md)
   + [Access management](using/about/access-management.md)
@@ -21,7 +21,7 @@ index: n
   + [Defining the payload fields](using/event/defining-the-payload-fields.md)
   + [Selecting the namespace](using/event/selecting-the-namespace.md)
   + [Defining the event key](using/event/defining-the-event-key.md)
-  + [Adding a condition](using/event/condition-activity.md)
+  + [Adding a condition](using/event/adding-a-condition.md)
   + [Previewing the payload](using/event/previewing-the-payload.md)
   + [Additional steps to send events](using/event/additional-steps-to-send-events-to-journey-orchestration.md)
 + Configuring a data source {#data-source-journeys}
@@ -141,12 +141,12 @@ index: n
 + Use cases{#use-cases-journeys}
   + Simple use case{#use-case-simple}
     + [About the simple use case](using/usecase/simple-uc-journey.md)
-    + [Configuring the event](using/usecase/simple-uc-about-events.md)
+    + [Configuring the event](using/usecase/simple-uc-event.md)
     + [Configuring the data source](using/usecase/simple-uc-data-source.md)
     + [Building the journey](using/usecase/simple-uc-journey.md)
   + Advanced use case{#use-case-advanced}
     + [About the advanced use case](using/usecase/advanced-uc-journey.md)
-    + [Configuring the events](using/usecase/advanced-uc-about-events.md)
+    + [Configuring the events](using/usecase/advanced-uc-event.md)
     + [Configuring the data sources](using/usecase/advanced-uc-data-source.md)
     + [Building the journey](using/usecase/advanced-uc-journey.md)
   + [Leveraging fatigue scores](using/usecase/leveraging-fatigue-scores.md)
