@@ -167,7 +167,7 @@ Two paths are created after your condition:
 
 1. Add an **End** activity.
 
-Click on the **Test** toggle and test your journey. If there is any error, deactivate the test mode, modify your journey and test it again. For more information on the test mode, refer to [](../building-journeys/testing-a-journey.md). 
+Click on the **Test** toggle and test your journey. If there is any error, deactivate the test mode, modify your journey and test it again. For more information on the test mode, refer to [](../building-journeys/testing-the-journey.md). 
 
 ![](../assets/journeyuc2_32bis.png)
 

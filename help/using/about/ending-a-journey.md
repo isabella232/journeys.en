@@ -20,4 +20,4 @@ There are three ways to end a journey:
 * The person arrives at the last activity of a path.
 * The person arrives at a condition activity (or a wait activity with a condition) and does not match any of the conditions.
 
-The person can then re-enter the journey if re-entrance is allowed. See [](../building-journeys/journey-properties.md).
+The person can then re-enter the journey if re-entrance is allowed. See [](../building-journeys/changing-properties.md).

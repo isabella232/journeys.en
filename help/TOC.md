@@ -11,7 +11,7 @@ index: n
 + What's new {#release-notes}
   + [Release Notes](using/release-notes/release-notes.md)
 + Starting with Journey Orchestration {#starting-with-journeys}
-  + [About Journey Orchestration](using/about/about-journey-orchestration.md)
+  + [About Journey Orchestration](using/about/about-about-orchestration-activities.md)
   + [Get started](using/about/get-started.md)
   + [User interface](using/about/user-interface.md)
   + [Access management](using/about/access-management.md)
@@ -21,43 +21,43 @@ index: n
   + [Defining the payload fields](using/event/eventpayload.md)
   + [Selecting the namespace](using/event/eventnamespace.md)
   + [Defining the event key](using/event/eventkey.md)
-  + [Adding a condition](using/event/eventcondition.md)
+  + [Adding a condition](using/event/eventcondition-activity.md)
   + [Previewing the payload](using/event/eventpayloadpreview.md)
   + [Additional steps to send events](using/event/eventsteps.md)
 + Configuring a data source {#data-source-journeys}
-  + [About data sources](using/datasource/data-sources.md)
+  + [About data sources](using/datasource/about-data-sources.md)
   + [Field groups](using/datasource/field-groups.md)
-  + [Adobe Experience Platform data source](using/datasource/data-source-platform.md)
+  + [Adobe Experience Platform data source](using/datasource/adobe-experience-platform-data-source.md)
   + [External data sources](using/datasource/external-data-sources.md)
 + Configuring an action {#action-journeys}
   + [About actions](using/action/action.md)
-  + [Working with Adobe Campaign](using/action/action-campaign.md)
+  + [Working with Adobe Campaign](using/action/working-with-adobe-campaign.md)
   + Using a third-party system {#action-third-party}
-    + [About custom action configuration](using/action/custom-action-configuration.md)
+    + [About custom action configuration](using/action/about-custom-action-configuration.md)
     + [Custom action limitations](using/action/custom-action-limitations.md)
     + [URL configuration](using/action/url-configuration.md)
-    + [Defining the message parameters](using/action/custom-message-parameters.md)
+    + [Defining the message parameters](using/action/defining-the-message-parameters.md.md)
 + Building a journey {#building-journeys}
   + About journey building {#about-journey-building}
     + [Creating a journey](using/building-journeys/journey.md)
-    + [Using the journey designer](using/building-journeys/journey-interface.md)
-    + [Changing properties](using/building-journeys/journey-properties.md)
-    + [Journey versions](using/building-journeys/journeyversions.md)
+    + [Using the journey designer](using/building-journeys/using-the-journey-designer.md)
+    + [Changing properties](using/building-journeys/changing-properties.md)
+    + [Journey versions](using/building-journeys/journey-versions.md)
     + [Terminating a journey](using/building-journeys/terminating-a-journey.md)
     + [Time zone management](using/building-journeys/timezone-management.md)
   + Activities {#about-journey-building}
-    + [Events activities](using/building-journeys/journey-event.md)
+    + [Events activities](using/building-journeys/event-activities.md)
     + Orchestration activities {#orchestration-activities}
-      + [About orchestration activities](using/building-journeys/journey-orchestration.md)
-      + [Condition activity](using/building-journeys/condition.md)
-      + [End activity](using/building-journeys/end.md)
-      + [Wait activity](using/building-journeys/wait.md)
+      + [About orchestration activities](using/building-journeys/about-orchestration-activities.md)
+      + [Condition activity](using/building-journeys/condition-activity.md)
+      + [End activity](using/building-journeys/end-activity.md)
+      + [Wait activity](using/building-journeys/wait-activity.md)
     + Action activities {#action-activities}
-      + [About action activities](using/building-journeys/journey-action.md)
-      + [Using Adobe Campaign actions](using/building-journeys/journey-action-campaign.md)
-      + [Using custom actions](using/building-journeys/journey-action-custom.md)
-  + [Testing the journey](using/building-journeys/testing-a-journey.md)
-  + [Publishing the journey](using/building-journeys/publishing-a-journey.md)
+      + [About action activities](using/building-journeys/about-action-activities.md)
+      + [Using Adobe Campaign actions](using/building-journeys/journey-working-with-adobe-campaign.md)
+      + [Using custom actions](using/building-journeys/using-custom-actions.md)
+  + [Testing the journey](using/building-journeys/testing-the-journey.md)
+  + [Publishing the journey](using/building-journeys/publishing-the-journey.md)
 + Using the advanced expression editor {#building-advanced-conditions-journeys}
   + [About the advanced expression editor](using/expression/expressionadvanced.md)
   + [Generalities](using/expression/generalities.md)
@@ -140,12 +140,12 @@ index: n
   + [Metrics and dimensions](using/reporting/reporting-dimensions.md)
 + Use cases{#use-cases-journeys}
   + Simple use case{#use-case-simple}
-    + [About the simple use case](using/usecase/simple-uc-about-journey-orchestration.md)
+    + [About the simple use case](using/usecase/simple-uc-about-about-orchestration-activities.md)
     + [Configuring the event](using/usecase/simple-uc-event.md)
     + [Configuring the data source](using/usecase/simple-uc-data-source.md)
     + [Building the journey](using/usecase/simple-uc-journey.md)
   + Advanced use case{#use-case-advanced}
-    + [About the advanced use case](using/usecase/advanced-uc-about-journey-orchestration.md)
+    + [About the advanced use case](using/usecase/advanced-uc-about-about-orchestration-activities.md)
     + [Configuring the events](using/usecase/advanced-uc-event.md)
     + [Configuring the data sources](using/usecase/advanced-uc-data-source.md)
     + [Building the journey](using/usecase/advanced-uc-journey.md)

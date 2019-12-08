@@ -26,8 +26,8 @@ Journey Orchestration comes with an out-of-the-box action which allows the conne
 
 1. Click the **Test the instance URL** to test the validity of the instance.
 
-When designing your journey, three actions will be available in the **Action** category: **Email**, **Push**, **SMS** (see [](../building-journeys/journey-action-campaign.md)).
+When designing your journey, three actions will be available in the **Action** category: **Email**, **Push**, **SMS** (see [](../building-journeys/journey-working-with-adobe-campaign.md)).
 
 ![](../assets/journey58.png)
 
-If you're using a third-party system to send messages, you need to add and configure a custom action. Refer to [](../action/custom-action-configuration.md).
+If you're using a third-party system to send messages, you need to add and configure a custom action. Refer to [](../action/about-custom-action-configuration.md).

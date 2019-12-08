@@ -11,7 +11,7 @@ topic: Premium
 
 ## Get started
 
-* **[What is Journey Orchestration?](using/about/about-journey-orchestration.md)**<br/>
+* **[What is Journey Orchestration?](using/about/about-about-orchestration-activities.md)**<br/>
 Learn more on Journey Orchestration.
 
 * **[Build your first journey](using/about/get-started.md)**<br/>
@@ -38,11 +38,11 @@ Find out how to manage your users' access with product profiles and rights.
     <br>
   </td>
   <td valign="top">
-    <a href="using/usecase/advanced-uc-about-journey-orchestration.md">
+    <a href="using/usecase/advanced-uc-about-about-orchestration-activities.md">
       <img alt="build" src="using/assets/design.png"/>
     </a>
     <div>
-    <a href="using/usecase/advanced-uc-about-journey-orchestration.md"><strong>Use case</strong></a>
+    <a href="using/usecase/advanced-uc-about-about-orchestration-activities.md"><strong>Use case</strong></a>
     </div>
     <em>Learn how to create an advanced journey step-by-step.</em>
     <br>

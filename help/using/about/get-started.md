@@ -30,15 +30,15 @@ Here are the main steps to configure and use Journey Orchestration:
 
     You need to define a connection to a system to retrieve additional information that will be used in your journeys, for example in your conditions. A built-in Experience Platform data source is also configured at provisioning time. This step is not required if you only leverage data from the events in your journey. This step is performed by a **technical user**. 
 
-    For more on this, refer to [](../datasource/data-sources.md).
+    For more on this, refer to [](../datasource/about-data-sources.md).
     
     ![](../assets/journey22.png)  
 
 1. **Configure an action**
 
-    If you're using a third-party system to send your messages, you need to configure its connection with Journey Orchestration. See [](../action/custom-action-configuration.md). 
+    If you're using a third-party system to send your messages, you need to configure its connection with Journey Orchestration. See [](../action/about-custom-action-configuration.md). 
 
-    If you are using Adobe Campaign Standard to send messages, you need to configure the built-in action. See [](../action/action-campaign.md). 
+    If you are using Adobe Campaign Standard to send messages, you need to configure the built-in action. See [](../action/working-with-adobe-campaign.md). 
 
     These steps are performed by a **technical user**. 
 
@@ -56,7 +56,7 @@ Here are the main steps to configure and use Journey Orchestration:
 
     You need to validate and activate the journey. This step is performed by a **business user**. 
 
-    For more on this, see [](../building-journeys/testing-a-journey.md) and [](../building-journeys/publishing-a-journey.md).
+    For more on this, see [](../building-journeys/testing-the-journey.md) and [](../building-journeys/publishing-the-journey.md).
 
     ![](../assets/journeyuc2_32bis.png)
 

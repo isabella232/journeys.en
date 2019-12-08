@@ -146,7 +146,7 @@ The **all** function enables the definition of a filter on a given collection by
 
 For example, among all the app users, you can get the ones using IOS 13 (boolean expression “app used == IOS 13"). The result of this function is the filtered list containing items matching the boolean expression (example: app user 1, app user 34, app user 432).
 
-In a Data Source Condition activity you can check if the result of the **all** function is null or not. You can also combine this **all** function with other functions such as **count**. For more information, see [Data Source Condition activity](../building-journeys/condition.md#data_source_condition).
+In a Data Source Condition activity you can check if the result of the **all** function is null or not. You can also combine this **all** function with other functions such as **count**. For more information, see [Data Source Condition activity](../building-journeys/condition-activity.md#data_source_condition).
 
 **Example 1:**
 
