@@ -27,7 +27,7 @@ This configuration is not required if your journeys only leverage local data com
 
 There are two types of data sources:
 
-* The pre-configured Experience Platform data source that defines the connection to the Real-time Customer Profile Service. This is a built-in data source. See [](../datasource/data-source-platform.md).
+* The pre-configured Experience Platform data source that defines the connection to the Real-time Customer Profile Service. This is a built-in data source. See [](../datasource/adobe-experience-platform-data-source.md).
 * The external data sources that allow you to define a connection to external systems. These are the ones you can create. See [](../datasource/external-data-sources.md).
 
 For each data source, you define the information to retrieve using field groups. See [](../datasource/field-groups.md).
@@ -40,7 +40,7 @@ Here are the main data source configuration steps:
 
     ![](../assets/journey18.png)
 
-1. Then you can either add field groups to the built-in data source (see [](../datasource/data-source-platform.md)) or create a new external data source (see [](../datasource/external-data-sources.md)) and associated field groups (see [](../datasource/field-groups.md)).
+1. Then you can either add field groups to the built-in data source (see [](../datasource/adobe-experience-platform-data-source.md)) or create a new external data source (see [](../datasource/external-data-sources.md)) and associated field groups (see [](../datasource/field-groups.md)).
 
     ![](../assets/journey23.png)
 

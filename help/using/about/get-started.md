@@ -14,7 +14,7 @@ snippet: y
 
 # Get started{#concept_y4b_4qt_52b}
 
-In Journey Orchestration, there are two types of users, each of them performing specific tasks: the **technical user** and the **business user**. User access is managed via product profiles and rights. Refer to [](../about/user-management.md) to learn how to configure user access.
+In Journey Orchestration, there are two types of users, each of them performing specific tasks: the **technical user** and the **business user**. User access is managed via product profiles and rights. Refer to [](../about/access-management.md) to learn how to configure user access.
 
 Here are the main steps to configure and use Journey Orchestration:
 
@@ -22,7 +22,7 @@ Here are the main steps to configure and use Journey Orchestration:
 
     You need to define the expected information and how to process it. This configuration is mandatory. This step is performed by a **technical user**.
 
-    For more on this, refer to [](../event/event.md).
+    For more on this, refer to [](../event/about-events.md).
 
     ![](../assets/journey7.png)  
 
@@ -30,15 +30,15 @@ Here are the main steps to configure and use Journey Orchestration:
 
     You need to define a connection to a system to retrieve additional information that will be used in your journeys, for example in your conditions. A built-in Experience Platform data source is also configured at provisioning time. This step is not required if you only leverage data from the events in your journey. This step is performed by a **technical user**. 
 
-    For more on this, refer to [](../datasource/data-sources.md).
+    For more on this, refer to [](../datasource/about-data-sources.md).
     
     ![](../assets/journey22.png)  
 
 1. **Configure an action**
 
-    If you're using a third-party system to send your messages, you need to configure its connection with Journey Orchestration. See [](../action/custom-action-configuration.md). 
+    If you're using a third-party system to send your messages, you need to configure its connection with Journey Orchestration. See [](../action/about-custom-action-configuration.md). 
 
-    If you are using Adobe Campaign Standard to send messages, you need to configure the built-in action. See [](../action/action-campaign.md). 
+    If you are using Adobe Campaign Standard to send messages, you need to configure the built-in action. See [](../action/working-with-adobe-campaign.md). 
 
     These steps are performed by a **technical user**. 
 
@@ -56,7 +56,7 @@ Here are the main steps to configure and use Journey Orchestration:
 
     You need to validate and activate the journey. This step is performed by a **business user**. 
 
-    For more on this, see [](../building-journeys/testing-a-journey.md) and [](../building-journeys/publishing-a-journey.md).
+    For more on this, see [](../building-journeys/testing-the-journey.md) and [](../building-journeys/publishing-the-journey.md).
 
     ![](../assets/journeyuc2_32bis.png)
 
@@ -64,7 +64,7 @@ Here are the main steps to configure and use Journey Orchestration:
 
     Use the dedicated reporting tools to measure your journey's effectiveness. This step is performed by a **business user**. 
 
-    For more on this, see [](../reporting/reporting.md).
+    For more on this, see [](../reporting/about-journey-reports.md).
 
     ![](../assets/dynamic_report_journey_12.png)
 

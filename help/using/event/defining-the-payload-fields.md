@@ -28,13 +28,13 @@ The payload definition allows you to choose the information the system expects t
 
     ![](../assets/journey9.png)
 
-1. Select the fields you expect to receive from the event. These are the fields which the business user will leverage in the journey. They must also include the key that will be used to identify the person associated to the event (see [](../event/eventkey.md).
+1. Select the fields you expect to receive from the event. These are the fields which the business user will leverage in the journey. They must also include the key that will be used to identify the person associated to the event (see [](../event/defining-the-event-key.md).
 
     ![](../assets/journey10.png)
 
     >[!NOTE]
     >
-    >The **eventID** field is automatically added in the list of fields selected so that Journey Orchestration can identify the event. The system pushing the event should not generate an ID, it should use the one available in the payload preview. See [](../event/eventpayloadpreview.md).
+    >The **eventID** field is automatically added in the list of fields selected so that Journey Orchestration can identify the event. The system pushing the event should not generate an ID, it should use the one available in the payload preview. See [](../event/previewing-the-payload.md).
 
 1. When you're done selecting the needed fields, click **Save** or press **Enter**.
 

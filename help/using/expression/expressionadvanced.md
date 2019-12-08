@@ -25,12 +25,12 @@ _The advanced expression editor interface_
 
 The advanced expression editor can be used to:
 
-* create [advanced conditions](../building-journeys/condition.md#about_condition) on data sources and event information
+* create [advanced conditions](../building-journeys/condition-activity.md#about_condition) on data sources and event information
 * define custom [time zones](../building-journeys/timezone-management.md) in date conditions, fixed date wait activities, custom wait activities
-* define custom [wait activities](../building-journeys/wait.md#custom)
+* define custom [wait activities](../building-journeys/wait-activity.md#custom)
 * define action parameters mapping
 
-When possible, you can switch between the two modes using the **Advanced mode** / **Simple mode** button. The simple mode is described [here](../building-journeys/condition.md#about_condition).
+When possible, you can switch between the two modes using the **Advanced mode** / **Simple mode** button. The simple mode is described [here](../building-journeys/condition-activity.md#about_condition).
 
 >[!NOTE]
 >

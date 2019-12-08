@@ -28,13 +28,13 @@ Date
 
 |Parameter|Description|
 |--- |--- |
-|string|current date|
+|string||
 
 ## Signatures and returned type
 
 `now()`
 
-`now(<timeZone id>)`
+`"now(<timeZone id>")`
 
 Returns a dateTime.
 
@@ -42,4 +42,12 @@ Returns a dateTime.
 
 `now()`
 
-Returns 2019-06-03T06:30Z.
+ Returns 2019-06-03T06:30Z.
+
+`toString(now())`
+
+Returns "2019-06-03T06:30Z"
+
+`now("Europe/Paris")`
+
+Returns 2019-06-03T08:30+02:00.

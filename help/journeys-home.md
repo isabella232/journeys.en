@@ -14,7 +14,7 @@ topic: Premium
 * **[List of functions](using/expression/functions.md)**<br/>
 Discover the complete list of functions that you can use in the expression editor to build advanced conditions.
 
-* **[Simple expression editor](using/building-journeys/journey-orchestration.md)**<br/>
+* **[Simple expression editor](using/building-journeys/about-orchestration-activities.md)**<br/>
 Learn how to use the expression editor simple mode to perform simple queries based on a combination of fields.
 
 ## Top pages

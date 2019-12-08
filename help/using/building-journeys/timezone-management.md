@@ -17,10 +17,10 @@ snippet: y
 
 Time zone definition is available in the following activities:
 
-* [](../building-journeys/condition.md#time_condition)
-* [](../building-journeys/condition.md#date_condition)
-* [](../building-journeys/wait.md#custom)
-* [](../building-journeys/wait.md#fixed_date)
+* [](../building-journeys/condition-activity.md#time_condition)
+* [](../building-journeys/condition-activity.md#date_condition)
+* [](../building-journeys/wait-activity.md#custom)
+* [](../building-journeys/wait-activity.md#fixed_date)
 
 If the entry event of the journey has a namespace, meaning that the journey can reach the Real-time Customer Profile service of the Data Platform, the time zone is pre-defined with the one specified in the profile of the individual flowing in the journey. If the individual's profile does not contain a time zone, the instance's time zone is used. You can contact your administrator to know the instance time zone.
 

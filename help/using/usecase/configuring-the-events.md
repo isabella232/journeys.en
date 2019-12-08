@@ -16,7 +16,7 @@ snippet: y
 
 In our scenario, we need to receive an event each time a person enters the Marlton hotel and the restaurant. The **technical user** needs to configure the two events we want the system to listen to in our journey.
 
-For additional information on event configuration, refer to [](../event/event.md).
+For additional information on event configuration, refer to [](../event/about-events.md).
 
 1. In the top menu, click the **Events** tab and click **Add** to create a new event.
 
@@ -40,7 +40,7 @@ For additional information on event configuration, refer to [](../event/event.md
     >
     >The list of fields varies from one schema to another. According to the schema definition, some fields may be mandatory and pre-selected.
 
-1. We need to select a namespace. A namespace is preselected based on schema properties. You can keep the one preselected. For more information on namespaces, see [](../event/eventnamespace.md).
+1. We need to select a namespace. A namespace is preselected based on schema properties. You can keep the one preselected. For more information on namespaces, see [](../event/selecting-the-namespace.md).
 
     ![](../assets/journeyuc2_4.png)
 
@@ -54,4 +54,4 @@ For additional information on event configuration, refer to [](../event/event.md
 
     ![](../assets/journeyuc2_5.png)
 
-In the same way, create the "RestaurantBeacon" event. Your two beacon events are created and can now be used in our journey. You now need to configure the mobile application so that it can send the expected payload to the Streaming Ingestion APIs endpoint. See [](../event/eventsteps.md).
+In the same way, create the "RestaurantBeacon" event. Your two beacon events are created and can now be used in our journey. You now need to configure the mobile application so that it can send the expected payload to the Streaming Ingestion APIs endpoint. See [](../event/additional-steps-to-send-events-to-journey-orchestration.md).

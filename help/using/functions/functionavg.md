@@ -15,7 +15,7 @@ snippet: y
 # avg {#avg}
 
 Returns the average value among a set of expressions, given either as a list or two expressions. Null values are ignored.
-Supported types are decimal and integer.
+
 
 ## Category
 
@@ -29,7 +29,6 @@ Aggregation
 
 Supported types:
 
-* listInteger
 * listInteger
 * listDecimal
 * decimal

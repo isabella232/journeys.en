@@ -14,7 +14,7 @@ snippet: y
 
 # Troubleshooting{#concept_nlv_bcv_2fb}
 
-In this section, you will find how to troubleshoot journeys before testing or publishing. All the checks listed below can be performed when the journey is in test mode or when the journey is live. The recommendation is to make all the checks below in test mode and then proceed to publication. See [](../building-journeys/testing-a-journey.md).
+In this section, you will find how to troubleshoot journeys before testing or publishing. All the checks listed below can be performed when the journey is in test mode or when the journey is live. The recommendation is to make all the checks below in test mode and then proceed to publication. See [](../building-journeys/testing-the-journey.md).
 
 ## Checking for errors before testing{#section_h3q_kqk_fhb}
 
@@ -52,7 +52,7 @@ Here are a few things and administrator should check:
 * Did you save your event before copying the payload from the payload preview?
 * Does your event payload contain an event id?
 * Did you hit the right URL?
-* Did you follow the Streaming Ingestion APIs payload structure, using the payload structure preview in the event configuration pane? See [](../event/eventpayloadpreview.md).
+* Did you follow the Streaming Ingestion APIs payload structure, using the payload structure preview in the event configuration pane? See [](../event/previewing-the-payload.md).
 * Did you use the right key/value pairs in the header of your event? 
 
     ```
