@@ -62,6 +62,7 @@ index: n
   + [About the advanced expression editor](using/expression/expressionadvanced.md)
   + Syntax {#syntax}
       + [Generalities](using/expression/generalities.md)
+      + [Conditional instruction](using/expression/conditional-instruction.md)
       + [Data types](using/expression/data-types.md)
       + [Field references](using/expression/field-references.md)
       + [Collection management functions](using/expression/collection-management-functions.md)
