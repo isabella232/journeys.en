@@ -1,6 +1,6 @@
 ---
-title: Data types
-description: Learn about data types in advanced expressions
+title: Collection management functions
+description: Learn about data types in collection management functions
 page-status-flag: never-activated
 uuid: 269d590c-5a6d-40b9-a879-02f5033863fc
 contentOwner: sauviat
