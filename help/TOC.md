@@ -60,12 +60,13 @@ index: n
   + [Publishing the journey](using/building-journeys/publishing-the-journey.md)
 + Using the advanced expression editor {#building-advanced-conditions-journeys}
   + [About the advanced expression editor](using/expression/expressionadvanced.md)
-  + [Generalities](using/expression/generalities.md)
-  + [Data types](using/expression/data-types.md)
-  + [Field references](using/expression/field-references.md)
-  + [Operators](using/expression/operators.md)
-  + [Functions](using/expression/functions.md)
-  + Function details {#main-functions-journey}
+  + Syntax {#syntax}
+      + [Generalities](using/expression/generalities.md)
+      + [Data types](using/expression/data-types.md)
+      + [Field references](using/expression/field-references.md)
+      + [Operators](using/expression/operators.md)
+  + Functions {#main-functions-journey}
+    + [Main Functions](using/expression/functions.md)
     + Adobe Experience Platform {#adobe-experience-platform}
       + [getBestSendTime](using/functions/functiongetbestsendtime.md)
       + [inSegment](using/functions/functioninsegment.md)
