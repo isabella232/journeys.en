@@ -64,6 +64,7 @@ index: n
       + [Generalities](using/expression/generalities.md)
       + [Data types](using/expression/data-types.md)
       + [Field references](using/expression/field-references.md)
+      + [Collection management functions](using/expression/collection-management-functions.md)
       + [Operators](using/expression/operators.md)
   + Functions {#main-functions-journey}
     + [Main Functions](using/expression/functions.md)
