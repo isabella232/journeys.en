@@ -30,6 +30,7 @@ Date
 |-----------|------------------|
 | date time | dateTime    |
 | delta   | integer     |
+
 ## Signatures and returned type
 
 `inNextYears(<dateTime>,<integer>)`
