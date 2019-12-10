@@ -29,7 +29,7 @@ Find out how to manage your users' access with product profiles and rights.
 <tr>
     <td valign="top">
         <a href="using/about/troubleshooting.md">
-       <img alt="Developers" src="using/assets/FAQ.png" />
+       <img alt="Developers" src="using/assets/do-not-localize/FAQ.png" />
        </a>
     <div>
     <a href="using/about/troubleshooting.md"><strong>Troubleshooting</strong></a>
@@ -39,7 +39,7 @@ Find out how to manage your users' access with product profiles and rights.
   </td>
   <td valign="top">
     <a href="using/usecase/building-the-journey.md">
-      <img alt="build" src="using/assets/design.png"/>
+      <img alt="build" src="using/assets/do-not-localize/design.png"/>
     </a>
     <div>
     <a href="using/usecase/building-the-journey.md"><strong>Use case</strong></a>
@@ -49,7 +49,7 @@ Find out how to manage your users' access with product profiles and rights.
   </td>
   <td valign="top">
     <a href="using/expression/expressionadvanced.md">
-      <img alt="conditions" src="using/assets/dev.png"/>
+      <img alt="conditions" src="using/assets/do-not-localize/dev.png"/>
     </a>
     <div>
     <a href="using/expression/expressionadvanced.md"><strong>Building advanced expressions</strong></a>

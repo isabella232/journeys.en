@@ -23,7 +23,7 @@ Learn how to use the expression editor simple mode to perform simple queries bas
 <tr>
   <td valign="top">
     <a href="using/expression/expressionadvanced.md">
-      <img alt="conditions" src="using/assets/dev.png"/>
+      <img alt="conditions" src="using/assets/do-not-localize/dev.png"/>
     </a>
     <div>
     <a href="using/expression/expressionadvanced.md"><strong>Using the advanced expression editor</strong></a>
@@ -33,7 +33,7 @@ Learn how to use the expression editor simple mode to perform simple queries bas
   </td>
   <td valign="top">
     <a href="using/building-journeys/journey.md">
-      <img alt="build" src="using/assets/design.png"/>
+      <img alt="build" src="using/assets/do-not-localize/design.png"/>
     </a>
     <div>
     <a href="using/building-journeys/journey.md"><strong>Building your journeys</strong></a>
@@ -43,7 +43,7 @@ Learn how to use the expression editor simple mode to perform simple queries bas
   </td>
   <td valign="top">
         <a href="using/about/troubleshooting.md">
-       <img alt="Developers" src="using/assets/FAQ.png" />
+       <img alt="Developers" src="using/assets/do-not-localize/FAQ.png" />
        </a>
     <div>
     <a href="using/about/troubleshooting.md"><strong>Troubleshooting</strong></a>
