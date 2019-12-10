@@ -28,7 +28,7 @@ A finished journey version cannot be restarted or deleted. You can create a new 
 
 You can stop a journey by clicking **Finish** while hovering over a journey in the list of journeys.
 
-![](../assets/journey-finish-quick-action.png)
+![](../assets/do-not-localize/journey-finish-quick-action.png)
 
 You can also:
 
