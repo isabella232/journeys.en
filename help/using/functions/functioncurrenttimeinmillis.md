@@ -22,9 +22,11 @@ Date
 
 ## Function syntax
 
-`currentTimeInMillis(<parameter>)`
+`currentTimeInMillis()`
 
 ## Parameters
+
+This function uses no parameters.
 
 ## Signatures and returned type
 

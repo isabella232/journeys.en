@@ -14,7 +14,7 @@ snippet: y
 
 # startWithIgnoreCase {#startWithIgnoreCase}
 
-Returns true if the second parameter is a prefix of the first one.
+Returns true if the second parameter is a prefix of the first one without considering case.
 
 ## Category
 

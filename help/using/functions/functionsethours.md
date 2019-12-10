@@ -34,11 +34,11 @@ Date
 
 ## Signatures and returned type
 
-`setHours(<dateTime>,<integer>)`
+`setHours(<dateTime>,<hours>)`
 
 Returns a datetime.
 
-`setHours(<dateTimeOnly>,<integer>)`
+`setHours(<dateTimeOnly>,<hours>)`
 
 Returns a datetime without considering time zone.
 
