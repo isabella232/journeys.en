@@ -37,7 +37,7 @@ In the Admin console, you can assign one of the following out-of-the-box product
     *   Manage and execute journeys
     *   Manage reports
     
-You can find [here](../assets/acs_rights_journeys.pdf) the compatibility between rights and Journey Orchestration's different functionalities.
+You can find [here](../assets/do-not-localize/acs_rights_journeys.pdf) the compatibility between rights and Journey Orchestration's different functionalities.
 
 ## Assigning a product profile {#assigning-product-profile}
 
