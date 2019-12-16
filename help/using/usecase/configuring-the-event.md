@@ -12,7 +12,7 @@ internal: n
 snippet: y
 ---
 
-# Configuring the event {#concept_y44_hcy_w2b}
+# Configuring the event{#concept_y44_hcy_w2b}
 
 In our scenario, we need to receive an event each time a person walks near a beacon positioned next to the spa. The **technical user** needs to configure the event the system will listen to in our journey.
 

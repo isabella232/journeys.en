@@ -12,7 +12,7 @@ internal: n
 snippet: y
 ---
 
-# Building the journey {#concept_eyw_mcy_w2b}
+# Building the journey{#concept_eyw_mcy_w2b}
 
 The **business user** can now build the journey. Our journey will only include one path with the following activities:
 

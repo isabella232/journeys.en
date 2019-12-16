@@ -12,7 +12,7 @@ internal: n
 snippet: y
 ---
 
-# Configuring the events{#concept_sbp_5cy_w2b}
+# Configuring the events {#concept_sbp_5cy_w2b}
 
 In our scenario, we need to receive an event each time a person enters the Marlton hotel and the restaurant. The **technical user** needs to configure the two events we want the system to listen to in our journey.
 

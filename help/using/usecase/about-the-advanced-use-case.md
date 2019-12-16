@@ -12,7 +12,7 @@ internal: n
 snippet: y
 ---
 
-# About the advanced use case {#concept_vzy_ncy_w2b}
+# About the advanced use case{#concept_vzy_ncy_w2b}
 
 ## Purpose {#purpose}
 
