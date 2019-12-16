@@ -140,12 +140,12 @@ index: n
   + [Metrics and dimensions](using/reporting/metrics-and-dimensions.md)
 + Use cases{#use-cases-journeys}
   + Simple use case{#use-case-simple}
-    + [About the simple use case](using/usecase/simple-uc-building-the-journey.md)
+    + [About the simple use case](using/usecase/about-the-simple-use-case.md)
     + [Configuring the event](using/usecase/configuring-the-event.md)
     + [Configuring the data source](using/usecase/configuring-the-data-source.md)
     + [Building the journey](using/usecase/simple-uc-building-the-journey.md)
   + Advanced use case{#use-case-advanced}
-    + [About the advanced use case](using/usecase/building-the-journey.md)
+    + [About the advanced use case](using/usecase/about-the-advanced-use-case.md)
     + [Configuring the events](using/usecase/configuring-the-events.md)
     + [Configuring the data sources](using/usecase/configuring-the-data-sources.md)
     + [Building the journey](using/usecase/building-the-journey.md)
