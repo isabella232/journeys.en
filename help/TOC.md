@@ -148,7 +148,6 @@ index: n
     + [Configuring the data source](using/usecase/configuring-the-data-source.md)
     + [Building the journey](using/usecase/simple-uc-building-the-journey.md)
   + Advanced use case{#use-case-advanced}
-    + [About the advanced use case](using/usecase/about-the-advanced-use-case.md)
     + [Configuring the events](using/usecase/configuring-the-events.md)
     + [Configuring the data sources](using/usecase/configuring-the-data-sources.md)
     + [Building the journey](using/usecase/building-the-journey.md)
