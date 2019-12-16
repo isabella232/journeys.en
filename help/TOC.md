@@ -11,7 +11,7 @@ index: n
 + What's new {#release-notes}
   + [Release Notes](using/release-notes/release-notes.md)
 + Starting with Journey Orchestration {#starting-with-journeys}
-  + [About Journey Orchestration](using/action/about-journey-orchestration.md)
+  + [About Journey Orchestration](using/about/about-journey-orchestration.md)
   + [Get started](using/about/get-started.md)
   + [User interface](using/about/user-interface.md)
   + [Access management](using/about/access-management.md)
