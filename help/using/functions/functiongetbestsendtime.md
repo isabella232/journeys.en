@@ -37,7 +37,7 @@ Adobe Experience Platform
 |Parameter|Description|Type|
 |--- |--- |--- |
 |amount of time|Number of hours to consider from the current time (max : 168) to optimize email sending|`<integer>`|
-|interaction type|"open" or "click"|`<string>`|
+|optimization type|"open" or "click"|`<string>`|
 |default time in hours to wait|In case the predictive send time scores are not available|`<integer>`|
 
 ## Signature and returned type

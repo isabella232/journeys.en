@@ -22,12 +22,17 @@ String
 
 ## Function syntax
 
-`uuid(<parameters>)`
+`uuid()`
+
+## Parameters 
+
+This function does not require parameters.
 
 ## Signature and returned type
 
 `uuid()`
-Return a string.
+
+Returns a string.
 
 ## Example
 

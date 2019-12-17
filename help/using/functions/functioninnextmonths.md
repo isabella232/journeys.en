@@ -26,8 +26,10 @@ Date
 
 ## Parameters
 
-* dateTime
-* delta: integer
+| Parameter | Type             |
+|-----------|------------------|
+| date time | dateTime    |
+| delta   | integer     |
 
 ## Signatures and returned type
 
@@ -37,6 +39,6 @@ Returns a boolean.
 
 ## Examples
 
-`inNextMonths(toDateTime('2010-12-12T01:11:00Z'), 4))`
+`inNextMonths(toDateTime('2020-01-12T01:11:00Z'), 4))`
 
 Returns true.

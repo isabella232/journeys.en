@@ -26,8 +26,10 @@ Date
 
 ## Parameters
 
-* dateTime
-* delta: integer
+| Parameter | Type             |
+|-----------|------------------|
+| date time | dateTime    |
+| delta   | integer     |
 
 ## Signatures and returned type
 

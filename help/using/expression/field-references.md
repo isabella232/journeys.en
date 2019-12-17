@@ -61,7 +61,7 @@ A default value can be associated to a field name. The syntax is as follows:
 
 **Reference of a field within collections**
 
-The elements defined within collections are referenced using the specific functions all, first and last. For more information, see [](../expression/functions.md#section_ig2_hb5_pgb).
+The elements defined within collections are referenced using the specific functions all, first and last. For more information, see [](../expression/collection-management-functions.md).
 
 Example :
 
@@ -76,7 +76,7 @@ In order to retrieve an element in a map, we use the entry function with a given
 @{MyEvent.identityMap.entry('Email').first().id}
 ```
 
-In this expression, we are getting the entry for ‘Email’ key of the ‘IdentityMap’ field of an event. The ‘Email’ entry is a collection, from which we take the ‘id’ in the first element using ‘first()’. For more information, see [](../expression/functions.md#section_ig2_hb5_pgb).
+In this expression, we are getting the entry for ‘Email’ key of the ‘IdentityMap’ field of an event. The ‘Email’ entry is a collection, from which we take the ‘id’ in the first element using ‘first()’. For more information, see [](../expression/collection-management-functions.md).
 
 **Parameter values of a data source (data source dynamic values)**
 

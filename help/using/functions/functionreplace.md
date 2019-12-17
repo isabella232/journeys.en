@@ -36,7 +36,7 @@ String
 
 ## Signature and returned type
 
-`replace(<baseString>,<targetString>,<replacementString>)`
+`replace(<base>,<target>,<replacement>)`
 
 Return a string.
 
