@@ -59,6 +59,10 @@ This option lets you define a custom date, for example 12 July 2020 at 5pm, usin
 
 ## Email send time optimization{#email_send_time_optimization}
 
+>[!CAUTION]
+>
+>The email send time optimization capability is only available to customers who use the Adobe Campaign Data Service feature.
+
 This type of wait uses a score calculated in the Platform. The score calculates the propensity to click or open an email in the future based on past behavior. Note that the algorithm calculating the score needs a certain amount of data to work. As a result, when it does not have enough data, the default wait time will apply. At publication time, you’ll be notified that the default time applies.
 
 >[!NOTE]

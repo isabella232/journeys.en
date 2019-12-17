@@ -16,6 +16,10 @@ snippet: y
 
 This use case will show you how to leverage fatigue scores to avoid over-soliciting your customers in your journeys.
 
+>[!CAUTION]
+>
+>The predictive fatigue score capability is only available to customers who use the Adobe Campaign Data Service feature.
+
 ## Configuring the event {#section_ptb_ws1_ffb}
 
 Follow the steps described in [](../event/about-events.md).

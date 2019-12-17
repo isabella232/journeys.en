@@ -14,6 +14,9 @@ snippet: y
 
 # Release Notes {#release-notes}
 
+This page lists all the new features and improvements for Journey Orchestration.
+You can also consult the [Documentation Updates](../release-notes/documentation-updates.md).
+
 ## GA Release - December 2019 {#ga-release---december-2019}
 
 Journey Orchestration is now GA. 

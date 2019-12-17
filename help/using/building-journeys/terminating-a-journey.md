@@ -24,7 +24,7 @@ The **Stop** and **Finish** options allow you to terminate **live** journeys. Fi
 
 You can finish a journey manually to ensure that customers who already entered the journey can finish their path but new users are not able to enter the journey.
 
-A finished journey version cannot be restarted or deleted. You can create a new version of it or duplicate it.
+A finished journey version cannot be restarted. You can create a new version of it or duplicate it.
 
 You can stop a journey by clicking **Finish** while hovering over a journey in the list of journeys.
 
@@ -44,7 +44,7 @@ You can also:
 
 You can stop a journey when an emergency occurred and all processing needs to be ended immediately on a journey.
 
-A stopped journey version cannot be restarted or manually deleted.
+A stopped journey version cannot be restarted.
 
 You can stop a journey when an emergency occurred (for example if a marketer realizes that the journey targets the wrong audience or a custom action supposed to deliver messages is not working correctly…) by clicking **Stop** while hovering over a journey in the list of journeys.
 
