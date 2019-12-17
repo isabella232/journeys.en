@@ -39,6 +39,6 @@ Returns a boolean.
 
 ## Examples
 
-`inNextHours(toDateTime('2010-12-12T01:11:00Z'), 4))`
+`inNextHours(toDateTime('2010-12-12T01:11:00Z'), 4)`
 
 Returns true.

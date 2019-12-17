@@ -12,7 +12,7 @@ internal: n
 snippet: y
 ---
 
-# About the simple use case {#concept_grh_vby_w2b}
+# About the simple use case{#concept_grh_vby_w2b}
 
 ## Purpose {#purpose}
 

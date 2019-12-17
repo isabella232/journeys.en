@@ -28,7 +28,7 @@ The payload definition allows you to choose the information the system expects t
 
     ![](../assets/journey9.png)
 
-1. Select the fields you expect to receive from the event. These are the fields which the business user will leverage in the journey. They must also include the key that will be used to identify the person associated to the event (see [](../event/defining-the-event-key.md).
+1. Select the fields you expect to receive from the event. These are the fields which the business user will leverage in the journey. They must also include the key that will be used to identify the person associated to the event (see [](../event/defining-the-event-key.md)).
 
     ![](../assets/journey10.png)
 

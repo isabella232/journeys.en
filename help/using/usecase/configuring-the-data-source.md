@@ -12,7 +12,7 @@ internal: n
 snippet: y
 ---
 
-# Configuring the data source {#concept_ax3_bcy_w2b}
+# Configuring the data source{#concept_ax3_bcy_w2b}
 
 In our use case, we want to use personalization data for our messages. We also need to check is the person is a woman. This information is stored in the Real-time Customer Profile database. The **technical user** needs to check that those fields are defined in the built-in Experience Platform data source.
 
