@@ -28,4 +28,4 @@ You can also consult the Journey Orchestration [Release Notes](../release-notes/
 * [Conditional instruction](../expression/conditional-instruction.md) and [Collection management](../expression/collection-management-functions.md) sections have been moved and updated.
 * The [functions](../expression/functions.md) section has been updated with new examples. 
 * The [toDateTime function](../expression/functiontodatetime.md) documentation has been updated to reflect timezone syntax changes. 
-* Usage explanations have been added in the Adobe Experience Platform functions section. See [](../expression/functiongetbestsendtime.md) and [](../expression/functioninsegment.md).
+* Usage explanations have been added in the Adobe Experience Platform functions section. See [](../functions/functiongetbestsendtime.md) and [](../functions/functioninsegment.md).
