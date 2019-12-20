@@ -32,6 +32,8 @@ You can define a condition if you want to restrict the wait to a certain populat
 >[!NOTE]
 >
 >The maximum wait duration is 30 days.
+>
+>In test mode, all wait activities are automatically set to last 5 seconds. This allows you to access the test results quickly.
 
 ## Duration wait{#duration}
 
