@@ -60,7 +60,7 @@ In the different lists, you can perform basic actions on each element. For examp
 
 Here are the different shortcuts available in the Journey Orchestration's interface.
 
-_In the list of journeys, actions, data sources or events_
+_In the list of journeys, actions, data sources or events:_
 
 * Press **c** to create a new journey, action, data source or event.
 
