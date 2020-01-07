@@ -51,7 +51,7 @@ Here is how data type expressions are represented:
     </tr>
     <tr>
         <td>boolean</td>
-        <td>Boolean value written lowercase: true or falseJSON format: Boolean</td>
+        <td><p>Boolean value written lowercase: true or false</p><p>JSON format: Boolean</p></td>
         <td><p>true</p><p>false</p></td>
         <td><p><pre>true</pre></p></td>
     </tr>
