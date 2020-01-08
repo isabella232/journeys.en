@@ -16,6 +16,10 @@ snippet: y
 
 ## Accessing and creating your reports {#accessing-reports}
 
+>[!NOTE]
+>
+>After deleting a journey, all associated reports will not be available anymore.
+
 This section will present you how to create or use out-of-the-box reports. Combine panels, components and visualizations to better track the success of your journeys.
 
 To access your journeys' reports and start tracking the success of your deliveries:
