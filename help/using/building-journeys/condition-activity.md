@@ -25,7 +25,7 @@ Four types of conditions are available:
 
 ## About the Condition activity {#about_condition}
 
-Click **Add a path** if you want to define several conditions. For each condition, a new path is added in the canvas after the activity.
+Click **[!UICONTROL Add a path]** if you want to define several conditions. For each condition, a new path is added in the canvas after the activity.
 
 ![](../assets/journey47.png)
 
@@ -33,7 +33,7 @@ Note that the design of journeys has functional impacts. When several paths are 
 
 ![](../assets/journey48.png)
 
-You can create another path for audiences that are not eligible to the defined conditions by checking **Show path for other cases than the one(s) above**. Note that this option is not available in split conditions. See [Percentage split](#percentage_split).
+You can create another path for audiences that are not eligible to the defined conditions by checking **[!UICONTROL Show path for other cases than the one(s) above]**. Note that this option is not available in split conditions. See [Percentage split](#percentage_split).
 
 The simple mode allows you to perform simple queries based on a combination of fields. All the available fields are displayed on the left side of the screen. Drag and drop fields into the main zone. To combine the different elements, interlock them into one another to create different groups and/or group levels. You can then select a logical operator to combine elements on the same level:
 

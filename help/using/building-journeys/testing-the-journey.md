@@ -22,15 +22,15 @@ To use the test mode, follow these steps:
 
 1. Before testing your journey, verify that it is valid and that there is no error. You won’t be able to launch a test of a journey with errors. See [](../about/troubleshooting.md#section_h3q_kqk_fhb). A warning symbol is displayed when there are errors.
 
-1. To activate the test mode, click on the **Test** toggle, located in the top right corner.
+1. To activate the test mode, click on the **[!UICONTROL Test]** toggle, located in the top right corner.
 
     ![](../assets/journeytest1.png)
 
-1. Click **Trigger an event** to configure and send events to the journey. Make sure to send events related to test profiles. See [Firing your events](#firing_events).
+1. Click **[!UICONTROL Trigger an event]** to configure and send events to the journey. Make sure to send events related to test profiles. See [Firing your events](#firing_events).
 
     ![](../assets/journeyuctest1.png)
 
-1. After the events are received, click the **Show log** button to view the test result and verify them. See [Viewing the logs](#viewing_logs).
+1. After the events are received, click the **[!UICONTROL Show log]** button to view the test result and verify them. See [Viewing the logs](#viewing_logs).
 
     ![](../assets/journeyuctest2.png)
 
@@ -48,7 +48,7 @@ To use the test mode, follow these steps:
 
 ## Firing your events {#firing_events}
 
-The **Trigger an event** button allows you to configure an event that will make a person enter the journey.
+The **[!UICONTROL Trigger an event]** button allows you to configure an event that will make a person enter the journey.
 
 As a prerequisite, you must know which profiles are flagged as test profiles in the Data Platform. Indeed, the test mode only allows these profiles in the journey and the event must contain an ID. The expected ID depends on the event configuration. It can be an ECID for example.
 
@@ -56,7 +56,7 @@ This screen allows you to configure the fields passed in the event and the execu
 
 ![](../assets/journeytest4.png)
 
-The interface allows you to pass simple event parameters. If you want to pass collections or other advanced objects in the event, you can click on **Code View** to see the entire code of the payload and modify it. For example, you can copy and paste event information prepared by a technical user.
+The interface allows you to pass simple event parameters. If you want to pass collections or other advanced objects in the event, you can click on **[!UICONTROL Code View]** to see the entire code of the payload and modify it. For example, you can copy and paste event information prepared by a technical user.
 
 ![](../assets/journeytest5.png)
 
@@ -64,7 +64,7 @@ A technical user can also use this interface to compose event payloads and trigg
 
 ## Viewing the logs {#viewing_logs}
 
-The **Show log** button allows you to view the test results. This page displays the journey’s current information in JSON format. A button allows you to copy entire nodes. You need to manually refresh the page to update the journey’s test results.
+The **[!UICONTROL Show log]** button allows you to view the test results. This page displays the journey’s current information in JSON format. A button allows you to copy entire nodes. You need to manually refresh the page to update the journey’s test results.
 
 ![](../assets/journeytest3.png)
 
