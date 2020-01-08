@@ -46,4 +46,4 @@ Returns a boolean.
 
 Explanation:
 
-The function will return **true** if the individual within the journey instance is part of the platform segment named “men over 50”, **false** otherwise.
+The function will return **[!UICONTROL true]** if the individual within the journey instance is part of the platform segment named “men over 50”, **[!UICONTROL false]** otherwise.

@@ -62,7 +62,7 @@ These functions are explained below. In the following examples, let’s use the 
 
 **The function "all(`<condition>`)"**
 
-The **all** function enables the definition of a filter on a given collection by using a boolean expression.
+The **[!UICONTROL all]** function enables the definition of a filter on a given collection by using a boolean expression.
 
    ```
    <listExpression>.all(<condition>)
@@ -70,11 +70,11 @@ The **all** function enables the definition of a filter on a given collection by
 
 For example, among all the app users, you can get the ones using IOS 13 (boolean expression “app used == IOS 13"). The result of this function is the filtered list containing items matching the boolean expression (example: app user 1, app user 34, app user 432).
 
-In a Data Source Condition activity you can check if the result of the **all** function is null or not. You can also combine this **all** function with other functions such as **count**. For more information, see [Data Source Condition activity](../building-journeys/condition-activity.md#data_source_condition).
+In a Data Source Condition activity you can check if the result of the **[!UICONTROL all]** function is null or not. You can also combine this **[!UICONTROL all]** function with other functions such as **[!UICONTROL count]**. For more information, see [Data Source Condition activity](../building-journeys/condition-activity.md#data_source_condition).
 
 **Example 1:**
 
-We want to check if a user has installed a specific version of an application. For this we get all the push notification tokens associated to mobile applications for which the version is 1.0. Then, we perform a condition with the **count** function to check that the returned list of tokens contains at least one element.
+We want to check if a user has installed a specific version of an application. For this we get all the push notification tokens associated to mobile applications for which the version is 1.0. Then, we perform a condition with the **[!UICONTROL count]** function to check that the returned list of tokens contains at least one element.
 
    ```
    count(@{LobbyBeacon._experience.campaign.message.profile.pushNotificationTokens.all(currentEventField.application.version == "1.0").token}) > 0
@@ -84,7 +84,7 @@ The result is true.
 
 **Example 2:**
 
-Here we use the **count** function to check if there are push notification tokens in the collection.
+Here we use the **[!UICONTROL count]** function to check if there are push notification tokens in the collection.
 
    ```
    count(@{LobbyBeacon._experience.campaign.message.profile.pushNotificationTokens.all().token}) > 0
@@ -128,7 +128,7 @@ earlier timestamp) in order to only consider prior events.-->
 
 **Example 3:**
 
-Here we check if an individual has not received any communication within the last 24 hours. We filter the collection of experience events retrieved from the ExperiencePlatform datasource, using two expressions based on two elements of the collection. In particular, the timestamp of the event is compared to the dateTime returned by the **nowWithDelta** function.
+Here we check if an individual has not received any communication within the last 24 hours. We filter the collection of experience events retrieved from the ExperiencePlatform datasource, using two expressions based on two elements of the collection. In particular, the timestamp of the event is compared to the dateTime returned by the **[!UICONTROL nowWithDelta]** function.
 
 ```
 count(#{ExperiencePlatform.MarltonExperience.experienceevent.all(
@@ -169,14 +169,14 @@ The result will be:
 
 >[!NOTE]
 >
->**currentEventField** is only available when manipulating event collections and **currentDataPackField** 
->when manipulating data source collections. When processing collections with **all**, **first** and **last**, we
->loop on each element of the collection one by one. **currentEventField** and **currentDataPackField**
+>**[!UICONTROL currentEventField]** is only available when manipulating event collections and **currentDataPackField** 
+>when manipulating data source collections. When processing collections with **[!UICONTROL all]**, **[!UICONTROL first]** and **[!UICONTROL last]**, we
+>loop on each element of the collection one by one. **[!UICONTROL currentEventField]** and **currentDataPackField**
 >correspond to the element being looped.
 
 **The functions "first(`<condition>`)" and "last(`<condition>`)"**
 
-The **first** and **last** functions also enable the definition of a filter on the collection while returning the first/last element of the list that meets the filter.
+The **[!UICONTROL first]** and **[!UICONTROL last]** functions also enable the definition of a filter on the collection while returning the first/last element of the list that meets the filter.
 
 _`<listExpression>.first(<condition>)`_
 
@@ -205,8 +205,8 @@ This expression returns the last push notification token associated to mobile ap
    >[!NOTE]
    >
    >The experience events are retrieved from the Experience Platform as a collection in reverse chronological order, hence :
-   >* **first** function will return the most recent event
-   >* **last** function will return the oldest one.
+   >* **[!UICONTROL first]** function will return the most recent event
+   >* **[!UICONTROL last]** function will return the oldest one.
 
 **Example 3:**
 
@@ -219,7 +219,7 @@ We check whether the first (most recent) Adobe Analytics event with a non-zero v
 
 **The function "at(`<index>`)"**
 
-The **at** function allows you to reference a specific element in a collection according to an index.
+The **[!UICONTROL at]** function allows you to reference a specific element in a collection according to an index.
 Index 0 is the first index of the collection. 
 
 _`<listExpression>`.at(`<index>`)_

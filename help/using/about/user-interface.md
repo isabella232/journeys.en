@@ -69,18 +69,18 @@ _When configuring an activity in a journey:_
 The canvas is automatically saved. You can see, on the top left of the canvas, the saving status.
 
 * Press **escape** to close the configuration pane and discard the changes made. This is the equivalent of the **[!UICONTROL Cancel]** button.
-* Press **enter** or click outside the pane to close the configuration pane. Changes are saved. This is the equivalent of the **OK** button.
-* If you press **delete** or **backspace**, you can then press **enter** to confirm the deletion.
+* Press **[!UICONTROL Enter]** or click outside the pane to close the configuration pane. Changes are saved. This is the equivalent of the **[!UICONTROL Ok]** button.
+* If you press **[!UICONTROL Delete]** or **backspace**, you can then press **[!UICONTROL Enter]** to confirm the deletion.
 
 _In pop-ups:_
 
 * Press **escape** to close it (equivalent of the **Cancel** button).
-* Press **enter** to save or confirm (equivalent of the **OK** or **Save** button).
+* Press **[!UICONTROL Enter]** to save or confirm (equivalent of the **[!UICONTROL Ok]** or **[!UICONTROL Save]** button).
 
 _In the event, data source or action configuration pane:_
 
 * Press **escape** to close the configuration pane without saving.
-* Press **enter** to save modifications and close the configuration pane.
+* Press **[!UICONTROL Enter]** to save modifications and close the configuration pane.
 * Press **tab** to jump between the different fields to configure.
 
 _In the simple expression editor_
@@ -102,5 +102,5 @@ _In a screen with a search bar:_
 _In the canvas of a journey:_
 
 * Use the **Ctrl/Command + A** key combination to select all activities.
-* When one or several activities are selected, press **delete** or **backspace** to delete them. Then you can press **enter** to confirm in the confirmation pop-up.
+* When one or several activities are selected, press **[!UICONTROL Delete]** or **backspace** to delete them. Then you can press **[!UICONTROL Enter]** to confirm in the confirmation pop-up.
 * Double-click on an activity from the left palette to add it at the first available position (from top to bottom).

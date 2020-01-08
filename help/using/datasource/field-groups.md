@@ -25,9 +25,9 @@ Even though a default name is automatically added, we recommend that you give a 
 
 When a data source field is used in a journey, the system will retrieve all the fields defined for that field group. Therefore, selecting only the fields that you need for your journeys is a best practice. This will reduce the request latency in your journeys thus increasing performance. Note that you can easily add more fields in field groups later.
 
-**Cache duration** is also important as it will help you optimize performance. Cache duration means that in a journey, if data from a field group is retrieved once, the system will then cache it temporarily. If the same data is required later in the same journey, the system won't make another request to the data source. The configuration of the cache duration should be adapted for each use case. If you need to retrieve real-time data such as hotel reservation status, weather information or the number of loyalty points, you will associate the field group containing these fields with a short cache duration (1 second, for example). For fields that are updated less frequently (name, gender), you will create a second field group with a longer cache duration (5 days, for example).
+**[!UICONTROL Cache duration]** is also important as it will help you optimize performance. Cache duration means that in a journey, if data from a field group is retrieved once, the system will then cache it temporarily. If the same data is required later in the same journey, the system won't make another request to the data source. The configuration of the cache duration should be adapted for each use case. If you need to retrieve real-time data such as hotel reservation status, weather information or the number of loyalty points, you will associate the field group containing these fields with a short cache duration (1 second, for example). For fields that are updated less frequently (name, gender), you will create a second field group with a longer cache duration (5 days, for example).
 
-The number of journeys that use a field group is displayed in the **Used in** field. You can click the **View journeys** button to display the list of journeys using this field group.
+The number of journeys that use a field group is displayed in the **[!UICONTROL Used in]** field. You can click the **[!UICONTROL View journeys]** button to display the list of journeys using this field group.
 
 >[!NOTE]
 >
@@ -43,9 +43,9 @@ You can add but you cannot remove a field from a field group used in one or more
 
 To delete a field from a field group used in one or more journeys, follow these steps. Let's use an example of a field group named “Field Group A”.
 
-1. In the list of field groups, place the cursor on “Field Group A” and click on the **Duplicate** icon located on the right. Name the duplicated field group "Field Group B”, for example.
+1. In the list of field groups, place the cursor on “Field Group A” and click on the **[!UICONTROL Duplicate]** icon located on the right. Name the duplicated field group "Field Group B”, for example.
 1. In "Field Group B”, remove the fields you no longer want.
-1. In "Field Group A”, check where this field group is used. This information is displayed in the **Used in** field.
+1. In "Field Group A”, check where this field group is used. This information is displayed in the **[!UICONTROL Used in]** field.
 1. Open all the journeys which use "Field Group A”.
 1. Create new versions of each of these journeys. Edit all activities using "Field Group A” and select "Field Group B”.
 1. Stop old versions of journeys that use "Field Group A”. You should then have no journey using "Field Group A”.

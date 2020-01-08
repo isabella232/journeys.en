@@ -16,21 +16,21 @@ snippet: y
 
 The **business user** can now build the journey. Our journey will include the following activities:
 
-* two **Event** activities: "LobbyBeacon" and "RestaurantBeacon"
-* two **Condition** activities
-* three **Push** activities and one **Email** activity (using Adobe Campaign Standard)
-* a **Wait** activity
-* four **End** activities
+* two **[!UICONTROL Event]** activities: "LobbyBeacon" and "RestaurantBeacon"
+* two **[!UICONTROL Condition]** activities
+* three **[!UICONTROL Push]** activities and one **[!UICONTROL Email]** activity (using Adobe Campaign Standard)
+* a **[!UICONTROL Wait]** activity
+* four **[!UICONTROL End]** activities
 
 >[!NOTE]
 >
->The **Push** and **Email** activities are only available in the palette if you have Adobe Campaign Standard.
+>The **[!UICONTROL Push]** and **[!UICONTROL Email]** activities are only available in the palette if you have Adobe Campaign Standard.
 
 For additional information on how to build a journey, refer to [](../building-journeys/journey.md).
 
 ## First steps{#section_ntb_ws1_ffb}
 
-1. In the top menu, click the **Home** tab and **Create** to create a new journey.
+1. In the top menu, click the **[!UICONTROL Home]** tab and **[!UICONTROL Create]** to create a new journey.
 
     ![](../assets/journey31.png)
 
@@ -46,11 +46,11 @@ For additional information on how to build a journey, refer to [](../building-jo
 
     ![](../assets/journeyuc2_14.png)
 
-1. Choose the **Data Source Condition** type and click in the **Expression** field. You can also define a condition label that will appear on the arrow, in the canvas. In our example, we replace "Condition 1" with "Loyalty member".
+1. Choose the **[!UICONTROL Data Source Condition]** type and click in the **[!UICONTROL Expression]** field. You can also define a condition label that will appear on the arrow, in the canvas. In our example, we replace "Condition 1" with "Loyalty member".
 
     ![](../assets/journeyuc2_15.png)
 
-1. Click **Advanced mode** and define the following condition based on the "timestamp" and "directMarketing.sends.value" fields coming from the Experience Platform data source. The syntax of the expression is:
+1. Click **[!UICONTROL Advanced mode]** and define the following condition based on the "timestamp" and "directMarketing.sends.value" fields coming from the Experience Platform data source. The syntax of the expression is:
 
     ```
     count(#{ExperiencePlatformDataSource.MarltonExperience.experienceevent.all(
@@ -62,7 +62,7 @@ For additional information on how to build a journey, refer to [](../building-jo
 
     ![](../assets/journeyuc2_30.png)
 
-1. Click the **Add a path** button and create a second path for customers who have not been contacted in the last 24 hours and are not a loyalty member. Name the path "Not loyalty member". The syntax of the expression is:
+1. Click the **[!UICONTROL Add a path]** button and create a second path for customers who have not been contacted in the last 24 hours and are not a loyalty member. Name the path "Not loyalty member". The syntax of the expression is:
 
     ```
     count(#{ExperiencePlatformDataSource.MarltonExperience.experienceevent.all(
@@ -78,7 +78,7 @@ For additional information on how to build a journey, refer to [](../building-jo
 
 1. We need to select a namespace. A namespace is preselected based on schema properties. You can keep the one preselected. For more information on namespaces, see [](../event/selecting-the-namespace.md).
 
-In our use case, we only want to react to those two conditions, so we don't check the box **Show path for other cases than the one(s) above**.
+In our use case, we only want to react to those two conditions, so we don't check the box **[!UICONTROL Show path for other cases than the one(s) above]**.
 
 Two paths are created after your condition:
 
@@ -93,7 +93,7 @@ Two paths are created after your condition:
 
     ![](../assets/journeyuc2_17.png)
 
-1. Choose the **Data Source Condition** type, and define the condition based on the reservation status information retrieved from the reservation system:
+1. Choose the **[!UICONTROL Data Source Condition]** type, and define the condition based on the reservation status information retrieved from the reservation system:
 
     ```
     #{MarltonReservation.MarltonFieldGroup.reservation} == true
@@ -109,7 +109,7 @@ Two paths are created after your condition:
 
     ![](../assets/journeyuc2_19.png)
 
-1. Since we also want to react to customers who do not have a reservation, we need to check the box **Show path for other cases than the one(s) above**.
+1. Since we also want to react to customers who do not have a reservation, we need to check the box **[!UICONTROL Show path for other cases than the one(s) above]**.
 
     ![](../assets/journeyuc2_20.png)
 
@@ -120,14 +120,14 @@ Two paths are created after your condition:
 
     ![](../assets/journeyuc2_21.png)
 
-1. In the first path (room booked), drop a **Push** activity, select your mobile app and your "Welcome" template.
+1. In the first path (room booked), drop a **[!UICONTROL Push]** activity, select your mobile app and your "Welcome" template.
 
     ![](../assets/journeyuc2_22.png)
 
-1. Define the **Target** fields required by the system to send the push. 
+1. Define the **[!UICONTROL Target]** fields required by the system to send the push. 
 
-    * **Push platform**: select the platform: **Apple Push Notification Server** (Apple) or **Firebase Cloud Messaging** (Android).
-    * **Registration token**: add the following expression (based on the configured event) using the advanced mode:
+    * **[!UICONTROL Push platform]**: select the platform: **[!UICONTROL Apple Push Notification Server]** (Apple) or **[!UICONTROL Firebase Cloud Messaging]** (Android).
+    * **[!UICONTROL Registration token]**: add the following expression (based on the configured event) using the advanced mode:
 
         ```
         @{LobbyBeacon._experience.campaign.message.profileSnapshot.pushNotificationTokens.first().token}
@@ -139,25 +139,25 @@ Two paths are created after your condition:
 
     ![](../assets/journeyuc2_23.png)
 
-1. Add a new **Push** activity, select the "Meal discount" template and define the **Address** and **Personalization** fields. Add an **End** activity.
+1. Add a new **[!UICONTROL Push]** activity, select the "Meal discount" template and define the **[!UICONTROL Address]** and **[!UICONTROL Personalization]** fields. Add an **[!UICONTROL End]** activity.
 
     ![](../assets/journeyuc2_24.png)
 
-1. We want to send a meal discount push notification only if the person enters the restaurant within the next 6 hours after the welcome push. To do this, we need to use a wait activity. Place your cursor on the welcome push activity and click on the "+" symbol. In the new path, add a wait activity and define a duration of 6 hours. The first eligible activity will be chosen. If the restaurant event is received less than 6 hours after the welcome push, the push activity is sent. If no restaurant event is received within the next 6 hours, the wait is chosen. Place an **End** activity after the wait activity.
+1. We want to send a meal discount push notification only if the person enters the restaurant within the next 6 hours after the welcome push. To do this, we need to use a wait activity. Place your cursor on the welcome push activity and click on the "+" symbol. In the new path, add a wait activity and define a duration of 6 hours. The first eligible activity will be chosen. If the restaurant event is received less than 6 hours after the welcome push, the push activity is sent. If no restaurant event is received within the next 6 hours, the wait is chosen. Place an **[!UICONTROL End]** activity after the wait activity.
 
     ![](../assets/journeyuc2_31.png)
 
-1. In the second path that follows the reservation condition (no room booked), add a **Push** activity and select your "Room rates" template. Add an **End** activity.
+1. In the second path that follows the reservation condition (no room booked), add a **[!UICONTROL Push]** activity and select your "Room rates" template. Add an **[!UICONTROL End]** activity.
 
     ![](../assets/journeyuc2_25.png)
 
 ## Second path: the customer is not a loyalty member{#section_ptb_ws1_ffb}
 
-1. In the second path that follows the first condition (customer is not a loyalty member), add an **Email** activity and select your "Loyalty membership" template.
+1. In the second path that follows the first condition (customer is not a loyalty member), add an **[!UICONTROL Email]** activity and select your "Loyalty membership" template.
 
     ![](../assets/journeyuc2_26.png)
 
-1. In the **Address** field, select the email address from the data source.
+1. In the **[!UICONTROL Address]** field, select the email address from the data source.
 
     ![](../assets/journeyuc2_27.png)
 
@@ -165,9 +165,9 @@ Two paths are created after your condition:
 
     ![](../assets/journeyuc2_28.png)
 
-1. Add an **End** activity.
+1. Add an **[!UICONTROL End]** activity.
 
-Click on the **Test** toggle and test your journey. If there is any error, deactivate the test mode, modify your journey and test it again. For more information on the test mode, refer to [](../building-journeys/testing-the-journey.md). 
+Click on the **[!UICONTROL Test]** toggle and test your journey. If there is any error, deactivate the test mode, modify your journey and test it again. For more information on the test mode, refer to [](../building-journeys/testing-the-journey.md). 
 
 ![](../assets/journeyuc2_32bis.png)
 

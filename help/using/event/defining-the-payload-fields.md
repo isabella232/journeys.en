@@ -16,7 +16,7 @@ snippet: y
 
 The payload definition allows you to choose the information the system expects to receive from the event in your journey and the key to identify which person is associated to the event. The payload is based on the Experience Cloud XDM field definition. For more information on XDM, refer to this [page](https://www.adobe.io/apis/cloudplatform/dataservices/xdm.html).
 
-1. Select an XDM schema from the list and click on the **Payload** field or on the **Edit** icon.
+1. Select an XDM schema from the list and click on the **[!UICONTROL Payload]** field or on the **[!UICONTROL Edit]** icon.
 
     ![](../assets/journey8.png)
 
@@ -34,12 +34,12 @@ The payload definition allows you to choose the information the system expects t
 
     >[!NOTE]
     >
-    >The **eventID** field is automatically added in the list of fields selected so that Journey Orchestration can identify the event. The system pushing the event should not generate an ID, it should use the one available in the payload preview. See [](../event/previewing-the-payload.md).
+    >The **[!UICONTROL eventID]** field is automatically added in the list of fields selected so that Journey Orchestration can identify the event. The system pushing the event should not generate an ID, it should use the one available in the payload preview. See [](../event/previewing-the-payload.md).
 
-1. When you're done selecting the needed fields, click **Save** or press **Enter**.
+1. When you're done selecting the needed fields, click **[!UICONTROL Save]** or press **[!UICONTROL Enter]**.
 
     ![](../assets/journey11.png)
 
-    The number of selected fields appears in the **Payload** field.
+    The number of selected fields appears in the **[!UICONTROL Payload]** field.
 
     ![](../assets/journey12.png)

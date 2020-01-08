@@ -18,7 +18,7 @@ In our use case, we want to use personalization data for our messages. We also n
 
 For additional information on data source configuration, refer to [](../datasource/about-data-sources.md). 
 
-1. In the top menu, click the **Data Sources** tab and select the build-in Experience Platform data source.
+1. In the top menu, click the **[!UICONTROL Data Sources]** tab and select the build-in Experience Platform data source.
 
     ![](../assets/journey23.png)
 
@@ -29,6 +29,6 @@ For additional information on data source configuration, refer to [](../datasour
     * _person > gender_
     * _personalEmail > address_
 
-1. Click **Save**.
+1. Click **[!UICONTROL Save]**.
 
 The data source is now configured and ready to be used in your journey.
