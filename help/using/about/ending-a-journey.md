@@ -14,7 +14,7 @@ discoiquuid: 5df34f55-135a-4ea8-afc2-f9427ce5ae7b
 
 There are three ways to end a journey:
 
-* The person arrives at an **End** activity.
+* The person arrives at an **[!UICONTROL End]** activity.
 * The person arrives at the last activity of a path.
 * The person arrives at a condition activity (or a wait activity with a condition) and does not match any of the conditions.
 

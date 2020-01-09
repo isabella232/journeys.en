@@ -28,22 +28,22 @@ Follow the steps described in [](../event/about-events.md).
 
 Perform the following steps to select the fatigue score fields in the built-in data source:
 
-1. In the top menu, click the **Data Sources** tab and select the build-in Experience Platform data source.
+1. In the top menu, click the **[!UICONTROL Data Sources]** tab and select the build-in Experience Platform data source.
 
     ![](../assets/journey23.png)
 
 1. Check that the fields required for your use case are selected.
-1. Click **Add a New Field Group**, select the **Profiles** model and add the **fatigueLevel** and **fatigueScore** fields (under _journeyAI > emailScore > fatigue_).
+1. Click **[!UICONTROL Add a New Field Group]**, select the **[!UICONTROL Profiles]** model and add the **[!UICONTROL fatigueLevel]** and **[!UICONTROL fatigueScore]** fields (under _journeyAI > emailScore > fatigue_).
 
     ![](../assets/journeyuc3_1.png)
 
-1. Click **Save**.
+1. Click **[!UICONTROL Save]**.
 
 ## Building the journey {#section_uzm_pyy_wfb}
 
 To create, validate and publish the journey, follow the steps described in [](../building-journeys/journey.md).
 
-In our use case, we're leveraging the **fatigueLevel** field. You can also use the **fatigueScore** field.
+In our use case, we're leveraging the **[!UICONTROL fatigueLevel]** field. You can also use the **[!UICONTROL fatigueScore]** field.
 
 Perform the following steps to leverage the fatigue level in your journey:
 
@@ -51,11 +51,11 @@ Perform the following steps to leverage the fatigue level in your journey:
 
     ![](../assets/journeyuc2_14.png)
 
-1. Choose the **Data Source Condition** type and click in the **Expression** field.
+1. Choose the **[!UICONTROL Data Source Condition]** type and click in the **[!UICONTROL Expression]** field.
 
     ![](../assets/journeyuc3_2.png)
 
-1. Using the simple expression editor, look for the **fatigueLevel** field (_ExperiencePlatformDataSource > JourneyAIScores > Profile > journeyAI > emailScore > fatigue_), drop it to the right and create the following condition: "fatigueLevel is equal to "Low". Click **Ok**.
+1. Using the simple expression editor, look for the **[!UICONTROL fatigueLevel]** field (_ExperiencePlatformDataSource > JourneyAIScores > Profile > journeyAI > emailScore > fatigue_), drop it to the right and create the following condition: "fatigueLevel is equal to "Low". Click **[!UICONTROL Ok]**.
 
     ![](../assets/journeyuc3_3.png)
 

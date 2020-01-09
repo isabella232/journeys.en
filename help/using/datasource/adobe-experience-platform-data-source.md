@@ -28,13 +28,13 @@ Here are the main steps to add field groups to the build-in data source.
 
     ![](../assets/journey23.png)
 
-1. Click **Add a New Field Group** to define a new series of fields to retrieve. See [](../datasource/field-groups.md).
+1. Click **[!UICONTROL Add a New Field Group]** to define a new series of fields to retrieve. See [](../datasource/field-groups.md).
 
     ![](../assets/journey24.png)
 
-1. Select a schema from the **Schema** drop-down. This field lists Profile and Experience Events schemas available in the Platform. Schema creation is not performed in Journey Orchestration. It’s performed in the Data Platform.
+1. Select a schema from the **[!UICONTROL Schema]** drop-down. This field lists Profile and Experience Events schemas available in the Platform. Schema creation is not performed in Journey Orchestration. It’s performed in the Data Platform.
 1. Select the fields you want to use.
 1. Define the cache duration.
-1. Click on **Save**.
+1. Click on **[!UICONTROL Save]**.
 
-When you place the cursor on the name of a field group, you’ll see two icons on the right. They allow you to delete and duplicate the field group. Note that the **Delete** icon is only available if the field group is not used in any live or draft journey (information displayed in the **Used in** field).
+When you place the cursor on the name of a field group, you’ll see two icons on the right. They allow you to delete and duplicate the field group. Note that the **[!UICONTROL Delete]** icon is only available if the field group is not used in any live or draft journey (information displayed in the **[!UICONTROL Used in]** field).

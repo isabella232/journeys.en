@@ -16,7 +16,7 @@ snippet: y
 
 ![](../assets/messageparameterssection.png)
 
-In the **Message parameters** section, paste an example of the JSON payload to send to the external service.
+In the **[!UICONTROL Message parameters]** section, paste an example of the JSON payload to send to the external service.
 
 
 ![](../assets/customactionpayloadmessage.png)
