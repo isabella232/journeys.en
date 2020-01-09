@@ -42,13 +42,16 @@ Here is how data type expressions are represented:
     </tr>
     <tr>
         <td>decimal</td>
-        <td><p>Decimal number.</p>It represents a floating value:<ul><li>largest positive finite value of type double, (2-2^-52)x2^1023</li><li>smallest positive normal value of type double, 2-1022</li><li>smallest positive nonzero value of type double, 2 p-1074</li></ul></p><p>JSON format: Number</p><p>Serialization format: using '.' as the decimal separator.</p></td>
+        <td><p>Decimal number.</p><p>It represents a floating value:</p>
+        <p>- largest positive finite value of type double, (2-2^-52)x2^1023</p>
+        <p> - smallest positive normal value of type double, 2-1022</p>
+        <p> - smallest positive nonzero value of type double, 2 p-1074</p><p>JSON format: Number</p><p>Serialization format: using '.' as the decimal separator.</p></td>
         <td>&lt;integer value&gt;.&lt;integer value&gt;</td>
         <td><p><pre>3.14</pre></p></td>
     </tr>
     <tr>
         <td>boolean</td>
-        <td>Boolean value written lowercase: true or falseJSON format: Boolean</td>
+        <td><p>Boolean value written lowercase: true or false</p><p>JSON format: Boolean</p></td>
         <td><p>true</p><p>false</p></td>
         <td><p><pre>true</pre></p></td>
     </tr>
