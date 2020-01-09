@@ -12,9 +12,13 @@ internal: n
 snippet: y
 ---
 
-# Leveraging fatigue scores{#concept_dsh_1ry_wfb}
+# Leveraging fatigue scores {#concept_dsh_1ry_wfb}
 
 This use case will show you how to leverage fatigue scores to avoid over-soliciting your customers in your journeys.
+
+>[!CAUTION]
+>
+>The predictive fatigue score capability is only available to customers who use the Adobe Campaign Standard Data Service feature.
 
 ## Configuring the event {#section_ptb_ws1_ffb}
 

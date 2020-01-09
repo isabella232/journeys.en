@@ -12,7 +12,7 @@ internal: n
 snippet: y
 ---
 
-# Building the journey{#concept_owm_kdy_w2b}
+# Building the journey {#concept_owm_kdy_w2b}
 
 The **business user** can now build the journey. Our journey will include the following activities:
 

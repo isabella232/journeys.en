@@ -26,8 +26,10 @@ Date
 
 ## Parameters
 
-* dateTime
-* delta: integer
+| Parameter | Type             |
+|-----------|------------------|
+| date time | dateTime    |
+| delta   | integer     |
 
 ## Signatures and returned type
 
@@ -37,7 +39,7 @@ Returns a boolean.
 
 ## Examples
 
-`inLastHours(toDateTime('2010-12-12T01:11:00Z'), 4))`
+`inLastHours(toDateTime('2019-12-12T01:11:00Z'), 4))`
 
 Returns true.
 

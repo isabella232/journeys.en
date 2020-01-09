@@ -28,7 +28,7 @@ String
 
 | Parameter | Type             |
 |-----------|------------------|
-|  calling string | String   |
+|  string | String   |
 |  specified value | String |
 
 ## Signature and returned type

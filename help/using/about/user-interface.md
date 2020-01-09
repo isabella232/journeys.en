@@ -8,8 +8,6 @@ audience: rns
 content-type: reference
 topic-tags: journeys
 discoiquuid: 5df34f55-135a-4ea8-afc2-f9427ce5ae7b
-internal: n
-snippet: y
 ---
 
 # User interface {#concept_rcq_lqt_52b}
@@ -62,9 +60,9 @@ In the different lists, you can perform basic actions on each element. For examp
 
 Here are the different shortcuts available in the Journey Orchestration's interface.
 
-_In the list of journeys_
+_In the list of journeys, actions, data sources or events:_
 
-* Press **c** to create a new journey.
+* Press **c** to create a new journey, action, data source or event.
 
 _When configuring an activity in a journey:_
 

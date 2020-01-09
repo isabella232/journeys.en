@@ -34,9 +34,9 @@ String
 
 ## Signature and returned type
 
-`substr(<string>,beginIndex<integer>)`
+`substr(<string>,<beginIndex>)`
 
-`substr(<string>,beginIndex<integer>,endIndex<integer>)`
+`substr(<string>,<beginIndex>,<endIndex>)`
 
 Return a string.
 

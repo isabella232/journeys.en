@@ -14,7 +14,7 @@ snippet: y
 
 # indexOf {#indexOf}
 
-Checks if the first argument string ends with a specific string (second argument string), not taking into account the case.
+Checks if the first argument string ends with a specific string (second argument string). If the string is not found, return -1.
 
 ## Category
 
@@ -28,8 +28,8 @@ String
 
 | Parameter | Type             |
 |-----------|------------------|
-|  calling string | String   |
-|  specified value | String |
+| string | String   |
+| specified value | String |
 
 ## Signature and returned type
 
@@ -43,6 +43,6 @@ Returns an integer.
 
 Returns 2.
 
-Explanation: 
+Explanation:
 
 In "Hello", the first occurrence of “l” is at position 2.

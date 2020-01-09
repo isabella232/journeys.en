@@ -12,7 +12,7 @@ internal: n
 snippet: y
 ---
 
-# Simple use case pre-requisites {#concept_zkd_yby_w2b}
+# Simple use case pre-requisites{#concept_zkd_yby_w2b}
 
 For our use case, we have designed one email transactional messaging template in Adobe Campaign Standard. We are using an event transactional messaging template. Refer to this [page](https://docs.adobe.com/content/help/en/campaign-standard/using/communication-channels/transactional-messaging/about-transactional-messaging.html).
 
