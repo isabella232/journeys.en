@@ -24,6 +24,13 @@ String
 
 `endWithIgnoreCase(<parameters>)`
 
+## Parameters
+
+| Parameter | Type             |
+|-----------|------------------|
+| string   | string |
+| suffix  | string |
+
 ## Signature and returned type
 
 `endWithIgnoreCase(<string>,<string>)`

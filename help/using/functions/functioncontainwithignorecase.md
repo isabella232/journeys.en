@@ -24,6 +24,13 @@ String
 
 `containWithIgnoreCase(<parameters>)`
 
+## Parameters
+
+| Parameter | Type             |
+|-----------|------------------|
+| string   | string |
+| string searched   | string |
+
 ## Signature and returned type
 
 `containWithIgnoreCase(<string>,<string>)`
