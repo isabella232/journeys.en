@@ -24,6 +24,13 @@ String
 
 `endWith(<parameters>)`
 
+## Parameters
+
+| Parameter | Type             |
+|-----------|------------------|
+| string   | string |
+| suffix   | string |
+
 ## Signature and returned type
 
 `endWith(<string>,<string>)`

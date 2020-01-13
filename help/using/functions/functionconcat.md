@@ -24,6 +24,13 @@ String
 
 `concat(<parameters>)`
 
+## Parameters
+
+| Parameter | Type             |
+|-----------|------------------|
+| List      | listString       |
+| string   | string |
+
 ## Signature and returned type
 
 `concat(<string>,<string>)`
