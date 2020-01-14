@@ -18,6 +18,10 @@ Before being able to test your journey, you must resolve all errors if any. See 
 
 You have the possibility to test your journey before its publication, using test profiles. This allows you to analyze how individuals flow in the journey and troubleshoot before publication.
 
+>[!NOTE]
+>
+>In test mode, all wait activities are automatically set to last 5 seconds. This allows you to access the test results quickly.
+
 To use the test mode, follow these steps:
 
 1. Before testing your journey, verify that it is valid and that there is no error. You won’t be able to launch a test of a journey with errors. See [](../about/troubleshooting.md#section_h3q_kqk_fhb). A warning symbol is displayed when there are errors.
