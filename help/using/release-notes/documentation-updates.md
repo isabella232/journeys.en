@@ -17,6 +17,11 @@ snippet: y
 This page lists all the documentation updates for Journey Orchestration.
 You can also consult the Journey Orchestration [Release Notes](../release-notes/release-notes.md).
 
+## January 2020 {#january-2020}
+
+* Fetching limitations have been added for [experience events](../datasource/adobe-experience-platform-data-source.md) and [segments](../functions/functioninsegment.md).
+* The [getBestSendTime documentation](../functions/functiongetbestsendtime.md) has been updated.
+
 ## December 2019 {#december-2019}
 
 * All screenshots have been updated to reflect interface changes.
@@ -28,4 +33,3 @@ You can also consult the Journey Orchestration [Release Notes](../release-notes/
 * [Conditional instruction](../expression/conditional-instruction.md) and [Collection management](../expression/collection-management-functions.md) sections have been moved and updated.
 * The [functions](../expression/functions.md) section has been updated with new examples.
 * The [toDateTime function](../functions/functiontodatetime.md) documentation has been updated to reflect timezone syntax changes.
-
