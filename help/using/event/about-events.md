@@ -14,6 +14,11 @@ snippet: y
 
 # About events {#concept_gfj_fqt_52b}
 
+>[!CONTEXTUALHELP]
+>id="jo_events"
+>title="About events"
+>abstract="An event is linked to a person. It relates to the behavior of a person (for example, a person bought a product, visited a shop, exited a website, etc.) or something happening linked to a person (for example, a person reached 10 000 loyalty points). This is what Journey Orchestration will listen to in journeys to orchestrate the best next actions."
+
 An event is linked to a person. It relates to the behavior of a person (for example, a person bought a product, visited a shop, exited a website, etc.) or something happening linked to a person (for example, a person reached 10 000 loyalty points). This is what Journey Orchestration will listen to in journeys to orchestrate the best next actions.
 
 This configuration is **mandatory**, as Journey Orchestration is designed to listen to events, and always performed by a **technical user**.
