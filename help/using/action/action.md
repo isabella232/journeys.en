@@ -30,3 +30,5 @@ To view the action list or configure a new action, click **[!UICONTROL Actions]*
 If you have Adobe Campaign Standard, you need to configure the out-of-the box action. Refer to [](../action/working-with-adobe-campaign.md).
 
 If you're using a third-party system to send messages, you need to add and configure a custom action. Refer to [](../action/about-custom-action-configuration.md).
+
+This is a test.
