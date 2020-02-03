@@ -17,7 +17,7 @@ snippet: y
 >[!CONTEXTUALHELP]
 >id="jo_actions"
 >title="About actions"
->abstract="This is where you define the connection to the system that will send messages. The actions defined here will then be available in the left palette of your journey, in the Action category."
+>abstract="This is where you define the connection to the system that will send messages. The actions defined here will then be available in the left palette of your journey, in the Action category. "
 
 The configuration of custom actions is always performed by a **technical user**.
 
