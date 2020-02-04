@@ -21,7 +21,7 @@ snippet: y
 
 The configuration of custom actions is always performed by a **technical user**.
 
-This is where you define the connection to the system that will send messages. The actions defined here will then be available in the left palette of your journey, in the **[!UICONTROL Action]** category (see [](../building-journeys/about-action-activities.md).
+This is where you define the connection to the system that will send messages. The actions defined here will then be available in the left palette of your journey, in the **[!UICONTROL Action]** category (see [](../building-journeys/about-action-activities.md)).
 
 To view the action list or configure a new action, click **[!UICONTROL Actions]** in the top menus. The list of actions is displayed. See [](../about/user-interface.md) for more information on the interface.
 
@@ -30,5 +30,3 @@ To view the action list or configure a new action, click **[!UICONTROL Actions]*
 If you have Adobe Campaign Standard, you need to configure the out-of-the box action. Refer to [](../action/working-with-adobe-campaign.md).
 
 If you're using a third-party system to send messages, you need to add and configure a custom action. Refer to [](../action/about-custom-action-configuration.md).
-
-This is a test.
