@@ -33,7 +33,7 @@ There are two types of data sources:
 * The pre-configured Experience Platform data source that defines the connection to the Real-time Customer Profile Service. This is a built-in data source. See [](../datasource/adobe-experience-platform-data-source.md).
 * The external data sources that allow you to define a connection to external systems. These are the ones you can create. See [](../datasource/external-data-sources.md).
 
-For each data source, you define the information to retrieve using field groups. See [](../datasource/field-groups.md).
+For each data source, you define the information to retrieve using field groups. Field groups are sets of fields that can be retrieved from a data source. See [](../datasource/field-groups.md).
 
 For more information on how to configure an Experience Platform Data Source and an external data source and how to find and use data in a journey, watch this [tutorial video](https://docs.adobe.com/content/help/en/platform-learn/tutorials/journey-orchestration/configure-data-sources.html).
 
