@@ -21,10 +21,10 @@ snippet: y
 
 The data source configuration allows you to define a connection to a system to retrieve additional information that will be used in your journeys, for:
 
-* condition definition
-* parameter and personalization data in actions
-* custom wait definition
-* custom time zone definition
+* [condition definition](../building-journeys/condition-activity.md)
+* parameter and personalization data in [actions](../action/action.md)
+* [custom wait definition](../building-journeys/wait-activity.md#custom)
+* [custom time zone definition](../building-journeys/timezone-management.md)
 
 This configuration is not required if your journeys only leverage local data coming from an event payload. For example, if your journey is composed of an event followed by an email activity that only uses data from the event, there is no need to configure a data source.
 
