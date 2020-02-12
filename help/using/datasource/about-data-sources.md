@@ -19,8 +19,6 @@ snippet: y
 >title="About data sources"
 >abstract="The data source configuration is always performed by a technical user. The data source configuration allows you to define a connection to a system to retrieve additional information that will be used in your journeys, for: condition definition, parameter and personalization data in actions, custom wait definition,custom time zone definition."
 
-The data source configuration is always performed by a **technical user**.
-
 The data source configuration allows you to define a connection to a system to retrieve additional information that will be used in your journeys, for:
 
 * condition definition
@@ -37,7 +35,13 @@ There are two types of data sources:
 
 For each data source, you define the information to retrieve using field groups. See [](../datasource/field-groups.md).
 
+For more information on how to configure an Experience Platform Data Source and an external data source and how to find and use data in a journey, watch this [tutorial video](https://docs.adobe.com/content/help/en/platform-learn/tutorials/journey-orchestration/configure-data-sources.html).
+
 Here are the main data source configuration steps:
+
+>[!NOTE]
+>
+>The data source configuration is always performed by a **technical user**.
 
 1. In the top menu, click the **[!UICONTROL Data Sources]** tab.
 
@@ -49,6 +53,6 @@ Here are the main data source configuration steps:
 
     ![](../assets/journey23.png)
 
-1. Click **[!UICONTROL Save]**. 
+1. Click **[!UICONTROL Save]**.
 
     The data source is now configured and ready to be used in your journeys.
