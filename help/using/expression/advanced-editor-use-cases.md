@@ -94,7 +94,7 @@ This expression returns a boolean.
 From there you can add another path in your journey and send notification with engagement offer. Configure messages accordingly and use personalization data to enhance the message target.
 
 
-## Examples of string manipulation 
+## Examples of string manipulations with the advanced expression editor
 
 **In conditions**
 
