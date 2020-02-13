@@ -33,55 +33,52 @@ For example, let's say you want to target customers with a cart abandonment in t
 
 First of all, target customers browsed the online store but did not finalize order in the last 7 days.
 
-Then create an event “arrive at store” as well as a condition ”checks any abandoned cart” looking for an experience event so need to use advanced mode.
+Then create an event “arrive at store” as well as a condition to check any abandoned cart looking for an experience event so need to use advanced mode.
 
-## Creating an event
-
-
-## Creating a condition 
-
-In string value look for and specified value.
+**This expression looks for a specified value in a string value:**
 
 `In (“addToCart”, #{field reference from experience event})`
 
-Looking for all experience events for this user specified in the last 7 days, returns a Boolean.
+**The following expression looks for all  events for this user specified in the last 7 days:**
+
+Then it selects all the addtocart events that did not transform into a completePurchase. 
 
 The specified timestamp is acting as the date time value, the second is number of days.
 
-```
-In ( “addToCart”, #{ExperiencePlatformDataSource
-.ExperienceEventFieldGroupDemoCommons
-.experienceevent
-.all(
-inLastDays(currentDataPackField.timestamp, 7 ))
-._acpevangelists1
-.productData
-.productInteraction } )
+    ```
+    In ( “addToCart”, #{ExperiencePlatformDataSource
+                    .ExperienceEventFieldGroupDemoCommons
+                    .experienceevent
+                    .all(
+                    inLastDays(currentDataPackField.timestamp, 7 ))
+                    ._acpevangelists1
+                    .productData
+                    .productInteraction } )
 
-And
-Not(In ( “completePurchase”, #{ExperiencePlatformDataSource
-.ExperienceEventFieldGroupDemoCommons
-.experienceevent
-.all(
-inLastDays(currentDataPackField.timestamp, s7 ))
-._acpevangelists1
-.productData
-.productInteraction } )
-```
+    And
+    Not(In ( “completePurchase”, #{ExperiencePlatformDataSource
+                    .ExperienceEventFieldGroupDemoCommons
+                    .experienceevent
+                    .all(
+                    inLastDays(currentDataPackField.timestamp, s7 ))
+                    ._acpevangelists1
+                    .productData
+                    .productInteraction } )
+    ```
 
-## Checking that a product is in store
+This expression returns a boolean.
 
-And checking that the product is in stock.
+**Now let's build an expression checking that the product is in stock**
 
-1. In Inventory, look for quantity field and specify that it should be greater than 0.
+* In Inventory, this expression looks for quantity field of a product and specify that it should be greater than 0.
 
 `#{Inventory.fieldgroup3.quantity} > 0`
 
-1. Then specify the location
+* This expression specifies the location.
 
 `#{ArriveLumaStudio._acpevangelists1.location.location}`
 
-1. Then specify SKU:  
+* Then specify SKU:  
 
     ```
     #{ExperiencePlatformDataSource
@@ -94,21 +91,4 @@ And checking that the product is in stock.
                     .SKU}
     ```
 
-1. Add another path.
-
-1. If so, send notification with engagement offer.Configure messages accordingly and use personalization data to enhance the message target.
-
-    ```
-
-    In (“completePurchase”, #{ExperiencePlatformDataSource
-                            .ExperienceEventFieldGroupDemoCommons
-                            .experienceevent
-                            .all(
-                            inLastDays(currentDataPackField.timestamp, 7 ))
-                            ._acpevangelists1
-                            .productData
-                            .productInteraction })
-
-    ```
-
-    
+From there you can add another path in your journey and send notification with engagement offer. Configure messages accordingly and use personalization data to enhance the message target.
