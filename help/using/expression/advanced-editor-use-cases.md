@@ -92,3 +92,32 @@ This expression returns a boolean.
     ```
 
 From there you can add another path in your journey and send notification with engagement offer. Configure messages accordingly and use personalization data to enhance the message target.
+
+
+## Examples of string manipulation 
+
+**In conditions**
+
+Condition that checks the place from which the geofence event has been triggered is "Arlington":
+
+    ```
+    @{GeofenceEntry.placeContext.POIinteraction.POIDetail.name} == "Arlington"
+    ```
+
+Explanation: This is a strict string comparison (case sensitive), equivalent to a query in simple mode that uses ‘equal to’ with ‘Is sensitive’ checked.
+
+The same query with ‘Is sensitive’ unchecked will generate the following expression in advanced mode:
+
+    ```
+    equalIgnoreCase(@{GeofenceEntry.placeContext.POIinteraction.POIDetail.name}, "Arlington")
+    ```
+
+**In actions**
+
+The following expression allows you to define the CRM ID in an action personalization field :
+
+    ```
+    substr(@{MobileAppLaunch._myorganization.identification.crmid}, 1, lastIndexOf(@{MobileAppLaunch._myorganization.identification.crmid}, "}"))
+    ```
+
+Explanation: This example uses substr and lastIndexOf functions to remove curly braces that enclose the CRM ID passed with a mobile app launch event.
