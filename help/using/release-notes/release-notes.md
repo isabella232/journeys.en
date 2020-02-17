@@ -31,10 +31,11 @@ You can also consult the [Documentation Updates](../release-notes/documentation-
  <tbody> 
   <tr> 
    <td> <p>Timezones are now managed at journey level. Two parameters have been added in the journey properties:</p>
-   	      <img src="../assets/rn-timezone.png"/>
    	      <ul>
     <li>The <stong>Timezone</strong> drop-down allows you to select a specific timezone. By default, the browser's timezone is used. </li>
     <li>The <strong>Profile Timezone</strong> checkbox allows you to use the Experience Platform Profile timezone of the person entering the journey, if available. If not, the timezone defined in the drop-down will be used. This feature is not compatible with journeys with no namespace.</li>
+</ul>
+       	      <img src="../assets/rn-timezone.png"/>
     <p>For more information, refer to the <a href="../building-journeys/building-journeys/changing-properties.md">detailed documentation</a>.</p>
    </td> 
   </tr> 
@@ -58,7 +59,7 @@ You can also consult the [Documentation Updates](../release-notes/documentation-
 </table>
 
 
-**Other changes**
+**Other improvements**
 
 * In test mode, a new parameter allows you to define the time peafiner.  time wait activities can last. This allows you to access the test results quickly.
 
