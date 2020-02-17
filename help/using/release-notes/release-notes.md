@@ -83,27 +83,25 @@ You can also consult the [Documentation Updates](../release-notes/documentation-
 
 **Other improvements**
 
-Journeys Orchestration is now available in EMEA.
+Journeys Orchestration is now available in **EMEA**.
 
-The journey palette, on the left side of the journey canvas has been enchanced:
+The journey **palette**, on the left side of the journey canvas has been enchanced:
 
-* A new icon, in the top left corner, allows you to hide or display unavailable elements in the palette, for example the events that use a different namespade than the ones used in your journey. By default, unavailable items are hidden.
+* A new icon, in the top left corner, allows you to hide or display unavailable elements in the palette, for example the events that use a different namespace than the ones used in your journey. By default, unavailable items are hidden.
 
-* When using the Search field, we now display the number of results for each category.
+* When using the **Search** field, we now display the number of results for each category.
 
 * The display of the categories has been improved. They now unfold from the top.
 
-In the journey canvas, when two activities are disconnected, a warning message now appears.
+In the journey **canvas**, when two activities are disconnected, we now display a warning message.
 
 The **C** keyboard shortcut is now available in all list screens: journeys, data sources, actions, events.
 
-Pouvoir capper les call a des APIS externes (data sources ou actions). marque n'accepte que 500 calls par seconde, elle pourra mettre un capping a 500 calls seconds qui evite de surcharger system de loyalty tiers
+In the **test logs**, we now display the error code and error response for third-party calls. 
 
-In the test logs, we now display the error code and error response for third-party calls. 
+We now allow the **deletion** of stopped journeys. Reports associated to these deleted journeys will not be available.
 
-We now allow the deletion of stopped journeys. Reports associated to these deleted journeys will not be available.
-
-When there is only one version of a journey, we now display the fact that it is the latest version, next to its name. 
+When there is only one **version** of a journey, we now display the fact that it is the latest version, next to its name. 
 
 ## GA Release - December 2019 {#ga-release---december-2019}
 
