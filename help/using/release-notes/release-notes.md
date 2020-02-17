@@ -52,8 +52,8 @@ You can also consult the [Documentation Updates](../release-notes/documentation-
  <tbody> 
   <tr> 
    <td> 
-    <p>A contextual help function is now available across the different Journey Orchestration screens. This means that, in a single click, you can directly access the documentation on the functionality that you are currently using. </p>
-   	<p>To display contextual help, click the "i" icon in the upper-right corner of the screen. </p>
+    <p>A contextual help is now available across the different Journey Orchestration screens. This allows to view a quick description of the current functionality and access related articles and videos. </p>
+   	<p>To display the contextual help, click the <img src="../assets/icon-context.png"/> icon in the upper-right corner of the screen. </p>
    	   	<img src="../assets/rn-context.png"/>
     <p>For now, this feature is available in the <strong>Home</strong>, <strong>Data Sources</strong>, <strong>Events</strong> and <strong>Actions</strong> list screens.</p>
    </td> 
@@ -72,7 +72,7 @@ You can also consult the [Documentation Updates](../release-notes/documentation-
    <td> 
     <p>Two enhancements have been made to the test mode:</p>
     <ul>
-    <li>When your journey uses several events, you can now simulate the firing of each events using a drop-down, in the <strong>Event configuration</strong> screen of the test mode.</li>
+    <li>When your journey uses several events, you can now trigger the firing of each events using a drop-down, in the <strong>Event configuration</strong> screen of the test mode.</li>
     <li>When one ore more<strong>Wait</strong> activities are used in a journey, you can now define the time that each of these activities will last in test mode. The default time is 10 seconds. You can change this usig the <strong>Wait time in test</strong> parameter, in the bottom left corner. </li>
     </ul>
         <img src="../assets/rn-test.png"/>
@@ -81,16 +81,15 @@ You can also consult the [Documentation Updates](../release-notes/documentation-
  </tbody> 
 </table>
 
-
 **Other improvements**
 
 * Journeys Orchestration is now available in EMEA.
 
-* New icon in palette, to display r notunavailble items. sans namespace. par default .
+* In your journeys, a new icon, in the top left corner, allows you to hide or display unavailable elements in the palette. By default, 
 
 * canvas, deconnection, petite icone, qui dit disconnected node.
 
-* short cut C ttes les listes
+* The **C** keyboard shortcut is now available in all list screens: journeys, data sources, actions, events.
 
 * palette UI, icone de search resultats
 
