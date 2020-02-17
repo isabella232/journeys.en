@@ -17,6 +17,56 @@ snippet: y
 This page lists all the new features and improvements for Journey Orchestration.
 You can also consult the [Documentation Updates](../release-notes/documentation-updates.md).
 
+## Q1 Release - february 2019 {#q1-release---february-2019}
+
+**Timezone management**
+
+Timezones are now managed at journey level. Two parameters have been added in the journey properties:
+
+![](../assets/rn-timezone.png)
+
+* The **Timezone** drop-down allows you to select a specific timezone. By default, the browser's timezone is used. 
+
+* The **Profile Timezone** checkbox allows you to use the Experience Platform Profile timezone of the person entering the journey, if available. If not, the timezone defined in the drop-down will be used. This feature is not compatible with journeys with no namespace.
+
+**Contextual Help**
+
+A contextual help function is now available across the different Journey Orchestration screens. This means that, in a single click, you can directly access the documentation on the functionality that you are currently using. 
+
+To display contextual help, click the ‘i’ icon in the upper-right corner of the screen. 
+
+For now, this feature is avaible in the Home, Data Sources, Events and Actions list screens.
+
+**Other changes**
+
+* In test mode, a new parameter allows you to define the time peafiner.  time wait activities can last. This allows you to access the test results quickly.
+
+* In test mode, you can now trigger all events of the journey. 
+
+
+* a new parameter allows you to define the time peafiner.  time wait activities can last. This allows you to access the test results quickly.
+
+* Journeys Orchestration is now available in EMEA.
+
+* New icon in palette, to display r notunavailble items. sans namespace. par default .
+
+* canvas, deconnection, petite icone, qui dit disconnected node.
+
+* short cut C ttes les listes
+
+* palette UI, icone de search resultats
+
+* Pouvoir capper les call a des APIS externes (data sources ou actions). marque n'accepte que 500 calls par seconde, elle pourra mettre un capping a 500 calls seconds qui evite de surcharger system de loyalty tiers
+
+* logs du test log. Avant status = error. quand on appalle systemtieds. Possibilityé de voir code erreur phrase qu'à renvoyé le systeme. -> ds un test en cas d'erreur, systeme tiers, error code, error response. 
+
+* stopped delete journey
+
+* journey: version 1 il te met si latest
+
+1er mars.
+
+
 ## GA Release - December 2019 {#ga-release---december-2019}
 
 Journey Orchestration is now GA. 
