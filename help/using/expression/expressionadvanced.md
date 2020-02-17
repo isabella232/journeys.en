@@ -30,7 +30,7 @@ The advanced expression editor can be used to:
 * define custom [wait activities](../building-journeys/wait-activity.md#custom)
 * define action parameters mapping
 
-When possible, you can switch between the two modes using the **Advanced mode** / **Simple mode** button. The simple mode is described [here](../building-journeys/condition-activity.md#about_condition).
+When possible, you can switch between the two modes using the **[!UICONTROL Advanced mode]** / **[!UICONTROL Simple mode]** button. The simple mode is described [here](../building-journeys/condition-activity.md#about_condition).
 
 >[!NOTE]
 >
@@ -42,12 +42,12 @@ When possible, you can switch between the two modes using the **Advanced mode** 
 
 You can access the advanced expression editor in different ways:
 
-* When you create a data source condition, you can access the advanced editor by clicking on **Advanced mode**.
+* When you create a data source condition, you can access the advanced editor by clicking on **[!UICONTROL Advanced mode]**.
 
     ![](../assets/journeyuc2_33.png)
 
 * When you create a custom time zone or a custom timer, the advanced editor will be directly displayed.
-* When you map action parameter, click on **Advanced mode**.
+* When you map action parameter, click on **[!UICONTROL Advanced mode]**.
 
 ## Discovering the interface{#section_otq_tnj_cjb}
 
@@ -57,9 +57,9 @@ This screen allows you to manually write your expression.
 
 On the left part of the screen are displayed available fields and functions:
 
-* **Events**: choose one of the fields received from the inbound event. The displayed list of event fields is contextual and varies according to the event(s) added in the journey.
-* **Data Sources**: choose from the list of fields available from your data sources' field groups.
-* **Functions**: choose from the a list of built-in functions that allow to carry out complex filtering. Functions are organized by categories.
+* **[!UICONTROL Events]**: choose one of the fields received from the inbound event. The displayed list of event fields is contextual and varies according to the event(s) added in the journey.
+* **[!UICONTROL Data Sources]**: choose from the list of fields available from your data sources' field groups.
+* **[!UICONTROL Functions]**: choose from the a list of built-in functions that allow to carry out complex filtering. Functions are organized by categories.
 
 ![](../assets/journey65.png)
 

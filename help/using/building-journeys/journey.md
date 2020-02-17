@@ -25,13 +25,13 @@ Only one namespace is allowed per journey. When you drop the first event, events
 
 Here are the main steps to create and publish a journey.
 
-1. In the top menu, click the **Home** tab. 
+1. In the top menu, click the **[!UICONTROL Home]** tab. 
 
     The list of journeys is displayed. See [](../building-journeys/using-the-journey-designer.md) for more information on the interface.
 
     ![](../assets/journey30.png)
 
-1. Click **Create** to create a new journey.
+1. Click **[!UICONTROL Create]** to create a new journey.
 
     ![](../assets/journey31.png)
 

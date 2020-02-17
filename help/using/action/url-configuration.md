@@ -14,20 +14,20 @@ snippet: y
 
 # URL configuration {#concept_gbg_1f1_2gb}
 
-When configuring a custom action, you need to define the following **URL Configuration** parameters:
+When configuring a custom action, you need to define the following **[!UICONTROL URL Configuration]** parameters:
 
 ![](../assets/journeyurlconfiguration.png)
 
-1. Add the **URL** of the external service.
+1. Add the **[!UICONTROL URL]** of the external service.
 
     >[!NOTE]
     >
     >We strongly recommend using HTTPS for security reasons. We don't allow the use of Adobe addresses that are not public and the use of IP addresses.
 
-1. Select the call **Method**: it can be either **POST** or **PUT**.
-1. In the **Headers** section, click **Add a header field** to define a new key/value pair. They correspond to the HTTP headers of the request made to the external service. To delete key/value pairs, place your cursor on the **Headers** field and click on the **Delete** icon.
+1. Select the call **[!UICONTROL Method]**: it can be either **[!UICONTROL POST]** or **[!UICONTROL PUT]**.
+1. In the **[!UICONTROL Headers]** section, click **[!UICONTROL Add a header field]** to define a new key/value pair. They correspond to the HTTP headers of the request made to the external service. To delete key/value pairs, place your cursor on the **[!UICONTROL Headers]** field and click on the **[!UICONTROL Delete]** icon.
 
-    **Content-Type** and **Charset** are set by default and cannot be deleted or overridden.
+    **[!UICONTROL Content-Type]** and **[!UICONTROL Charset]** are set by default and cannot be deleted or overridden.
 
     >[!NOTE]
     >

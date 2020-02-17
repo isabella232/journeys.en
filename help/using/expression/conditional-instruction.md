@@ -16,9 +16,9 @@ snippet: y
 
 The conditional instruction (if, then, else) is supported in the advanced editor. It allows to define more complex expressions. It is composed of the following elements:
 
-* **if**: the condition to be evaluated first.
-* **then**: the expression to be evaluated in case the result of the condition evaluation is true.
-* **else**: the expression to be evaluated in case the result of the condition evaluation is false.
+* **[!UICONTROL if]**: the condition to be evaluated first.
+* **[!UICONTROL then]**: the expression to be evaluated in case the result of the condition evaluation is true.
+* **[!UICONTROL else]**: the expression to be evaluated in case the result of the condition evaluation is false.
 
 >[!NOTE]
 >

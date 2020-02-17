@@ -20,6 +20,10 @@ The segment name must be a string constant. It cannot be a field reference nor a
 
 Segments are defined in the [Adobe Experience Platform](https://platform.adobe.com/segment/overview). The expression editor provides an autocompleted list of segments.
 
+>[!NOTE]
+>
+>You can retrieve up to 100 segments.
+
 ## Category
 
 Adobe Experience Platform
@@ -46,4 +50,4 @@ Returns a boolean.
 
 Explanation:
 
-The function will return **true** if the individual within the journey instance is part of the platform segment named “men over 50”, **false** otherwise.
+The function will return **[!UICONTROL true]** if the individual within the journey instance is part of the platform segment named “men over 50”, **[!UICONTROL false]** otherwise.

@@ -18,15 +18,15 @@ You can send emails, push notifications and SMS using the Adobe Campaign Standar
 
 Journey Orchestration comes with an out-of-the-box action which allows the connection to Adobe Campaign Standard. Here are the steps to configure it:
 
-1. From the **Actions** list, click the built-in **AdobeCampaignStandard** action. The action configuration pane opens on the right side of the screen.
+1. From the **[!UICONTROL Actions]** list, click the built-in **[!UICONTROL AdobeCampaignStandard]** action. The action configuration pane opens on the right side of the screen.
 
     ![](../assets/actioncampaign.png)
 
-1. Copy your Adobe Campaign Standard instance URL and paste it in the **URL** field. 
+1. Copy your Adobe Campaign Standard instance URL and paste it in the **[!UICONTROL URL]** field. 
 
-1. Click the **Test the instance URL** to test the validity of the instance.
+1. Click the **[!UICONTROL Test the instance URL]** to test the validity of the instance.
 
-When designing your journey, three actions will be available in the **Action** category: **Email**, **Push**, **SMS** (see [](../building-journeys/using-adobe-campaign-actions.md)).
+When designing your journey, three actions will be available in the **[!UICONTROL Action]** category: **[!UICONTROL Email]**, **[!UICONTROL Push]**, **[!UICONTROL SMS]** (see [](../building-journeys/using-adobe-campaign-actions.md)).
 
 ![](../assets/journey58.png)
 

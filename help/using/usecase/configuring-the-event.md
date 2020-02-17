@@ -18,7 +18,7 @@ In our scenario, we need to receive an event each time a person walks near a bea
 
 For additional information on event configuration, refer to [](../event/about-events.md).
 
-1. In the top menu, click the **Events** tab and click **Add** to create a new event.
+1. In the top menu, click the **[!UICONTROL Events]** tab and click **[!UICONTROL Add]** to create a new event.
 
     ![](../assets/journeyuc1_1.png)
 
@@ -26,9 +26,9 @@ For additional information on event configuration, refer to [](../event/about-ev
 
     ![](../assets/journeyuc1_2.png)
 
-    <!--li>Select the **Mobile - Streaming Ingestion APIs** event type. Events are sent from the customers' mobile phone through the Mobile SDK.![](../assets/journeyuc1_4.png" placement="break" width="800" id="image_qgr_2mn_z2b"/></li-->
+    <!--li>Select the **[!UICONTROL Mobile - Streaming Ingestion APIs]** event type. Events are sent from the customers' mobile phone through the Mobile SDK.![](../assets/journeyuc1_4.png" placement="break" width="800" id="image_qgr_2mn_z2b"/></li-->
 
-1. We then select the schema and define the payload expected for this event. We select the fields needed from the XDM normalized model. We need the Experience Cloud ID to identify the person in the Real-time Customer Profile database: _endUserIDs > experience > mcid > id_. An ID is automatically generated for this event. This ID is stored in the **eventID** field (_experience > campaign > orchestration > eventID_). The system pushing the event should not generate an ID, it should use the one available in the payload preview. In our use case, this ID is used to identify the beacon location. Each time a person walks near the spa beacon, an event will be sent containing this specific event ID. This allows the system to know which beacon triggered the event sending.
+1. We then select the schema and define the payload expected for this event. We select the fields needed from the XDM normalized model. We need the Experience Cloud ID to identify the person in the Real-time Customer Profile database: _endUserIDs > experience > mcid > id_. An ID is automatically generated for this event. This ID is stored in the **[!UICONTROL eventID]** field (_experience > campaign > orchestration > eventID_). The system pushing the event should not generate an ID, it should use the one available in the payload preview. In our use case, this ID is used to identify the beacon location. Each time a person walks near the spa beacon, an event will be sent containing this specific event ID. This allows the system to know which beacon triggered the event sending.
 
     ![](../assets/journeyuc1_3.png)
 
@@ -44,9 +44,9 @@ For additional information on event configuration, refer to [](../event/about-ev
 
     ![](../assets/journeyuc1_5.png)
 
-1. Click **Save**.
+1. Click **[!UICONTROL Save]**.
 
-1. Click the **View payload** icon to preview the payload expected by the system and share it with to the person responsible for the event sending. This payload will need to be configured in the postback of the Mobile Services administration console. 
+1. Click the **[!UICONTROL View Payload]** icon to preview the payload expected by the system and share it with to the person responsible for the event sending. This payload will need to be configured in the postback of the Mobile Services administration console. 
 
     ![](../assets/journeyuc1_7.png)
 

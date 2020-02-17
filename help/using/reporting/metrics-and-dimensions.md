@@ -32,7 +32,7 @@ The table below gives you the list of dimensions used in journey reports, their 
 |--- |--- |
 |**Action**|List of every action (**action name - action label**) used in journeys e.g. Push - Check out confirmation, Email - Rewards fidelity.|
 |**Data source**|List of data sources (**data source name**) used to enrich data in a journey e.g. Experience platform, Reservation system.|
-|**Event**|List of every event (**event name - event label**) used in journeys e.g. Geometrixx event - Geometrixx check out.|
+|**[!UICONTROL Event]**|List of every event (**event name - event label**) used in journeys e.g. Geometrixx event - Geometrixx check out.|
 |**Field group**|List of field groups (**field group name**) used to enrich data in journeys e.g. Profile field group, Geometrixx reservation system.|
 |**Journey**|List of every journey (**journey name**) in test mode and live e.g. Cart abandonment, Hotel reservation notification.|
 |**Journey version**|List of every published version of a journey (**journey name + version's number**) e.g. Cart abandonment v1, Hotel reservation notification v2.|
@@ -50,7 +50,7 @@ The table below gives you the list of delivery dimensions used in journey report
 |**Message type**|Channel used for the delivery, such as email, SMS, push notification or In-App.|
 |**Mobile App name**|Name of the mobile application|
 |**Platform**|Platform of the device from which the message was opened/viewed/clicked on.|
-|**Push platform**|Platform of the device from which the push notification was opened, such as iOS or Android.|
+|**[!UICONTROL Push platform]**|Platform of the device from which the push notification was opened, such as iOS or Android.|
 |**Recipient domain**|Domain used to open the email.|
 |**Tracking URL**|URL that was clicked on by the user from the message.|
 |**Tracking URL category**|Category assigned to the tracking URL.|

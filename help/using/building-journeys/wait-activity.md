@@ -14,7 +14,7 @@ snippet: y
 
 # Wait activity{#section_rlm_nft_dgb}
 
-If you want to wait before executing the next activity in the path, you can use a **Wait** activity. It allows you to define the moment when the next activity will be executed. Four options are available:
+If you want to wait before executing the next activity in the path, you can use a **[!UICONTROL Wait]** activity. It allows you to define the moment when the next activity will be executed. Four options are available:
 
 * [Duration](#duration) 
 * [Fixed date](#fixed_date) 
@@ -71,10 +71,10 @@ This type of wait uses a score calculated in the Platform. The score calculates 
 >
 >The first event of your journey must have a namespace.
 >
->This capability is only available after an **Email** activity. You need to have Adobe Campaign Standard.
+>This capability is only available after an **[!UICONTROL Email]** activity. You need to have Adobe Campaign Standard.
 
-1. In the **Amount of time** field, define the number of hours to consider to optimize email sending.
-1. In the **Optimization type** field, choose if the optimization should increase clicks or opens.
+1. In the **[!UICONTROL Amount of time]** field, define the number of hours to consider to optimize email sending.
+1. In the **[!UICONTROL Optimization type]** field, choose if the optimization should increase clicks or opens.
 1. In the **Default time** field, define the default time to wait if the predictive send time score is not available.
 
     >[!NOTE]

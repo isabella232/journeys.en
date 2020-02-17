@@ -22,7 +22,7 @@ Always start your journey by drag and dropping an event activity. You can also d
 
  ![](../assets/journey44.png)
 
-When you click on the event activity in the canvas, the activity configuration pane is displayed. By default, when you use the same event several times, an incremented number is added to the event name in the canvas. In addition, you can use the **Label** field to add a suffix to the event name that will appear under your activity in the canvas. This is useful to identify your events in the canvas, especially if you use the same event several times. It will also make debugging easier in case of errors and it will make reports easier to read.
+When you click on the event activity in the canvas, the activity configuration pane is displayed. By default, when you use the same event several times, an incremented number is added to the event name in the canvas. In addition, you can use the **[!UICONTROL Label]** field to add a suffix to the event name that will appear under your activity in the canvas. This is useful to identify your events in the canvas, especially if you use the same event several times. It will also make debugging easier in case of errors and it will make reports easier to read.
 
  ![](../assets/journey33.png)
 
@@ -44,7 +44,7 @@ See [](../building-journeys/about-action-activities.md).
 
 Here are the different steps to configure the reaction events:
 
-1. Add a **label** to the reaction. This step is optional.
+1. Add a **[!UICONTROL Label]** to the reaction. This step is optional.
 1. From the drop-down list, select the action activity you want to react to. You can select any action activity positioned in the previous steps of the path.
 1. Depending on the action you selected (an email, SMS or a push notification), choose what you want to react to. 
 1. You can define a condition as an optional step. For example, after an email action, you can decide to create two paths, one with a reaction event to track clicks only for VIP customers and one with a reaction event to track clicks performed by women.

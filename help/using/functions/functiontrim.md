@@ -24,6 +24,12 @@ String
 
 `trim(<parameters>)`
 
+## Parameter
+
+| Parameter | Type             |
+|-----------|------------------|
+| string   | string |
+
 ## Signature and returned type
 
 `trim(<string>)`

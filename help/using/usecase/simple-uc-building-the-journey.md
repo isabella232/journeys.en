@@ -16,18 +16,18 @@ snippet: y
 
 The **business user** can now build the journey. Our journey will only include one path with the following activities:
 
-* the "SpaBeacon" **event**: when a person walks near the spa beacon, the system will receive an event and the journey will start for that person.
-* a **Condition** activity to check that the person is a woman
-* an **Email** activity (using Adobe Campaign Standard)
-* an **End** activity
+* the "SpaBeacon" **[!UICONTROL Event]**: when a person walks near the spa beacon, the system will receive an event and the journey will start for that person.
+* a **[!UICONTROL Condition]** activity to check that the person is a woman
+* an **[!UICONTROL Email]** activity (using Adobe Campaign Standard)
+* an **[!UICONTROL End]** activity
 
 >[!NOTE]
 >
->The **Push** and **Email** activities are only available in the palette if you have Adobe Campaign Standard.
+>The **[!UICONTROL Push]** and **[!UICONTROL Email]** activities are only available in the palette if you have Adobe Campaign Standard.
 
 For additional information on how to build a journey, refer to [](../building-journeys/journey.md).
 
-1. In the top menu, click the **Home** tab and **Create** to create a new journey.
+1. In the top menu, click the **[!UICONTROL Home]** tab and **[!UICONTROL Create]** to create a new journey.
 
     ![](../assets/journey31.png)
 
@@ -43,7 +43,7 @@ For additional information on how to build a journey, refer to [](../building-jo
 
     ![](../assets/journeyuc1_10.png)
 
-1. Choose the **Data Source Condition** type and click in the **Expression** field. You can also define a condition label that will appear on the arrow, in the canvas.
+1. Choose the **[!UICONTROL Data Source Condition]** type and click in the **[!UICONTROL Expression]** field. You can also define a condition label that will appear on the arrow, in the canvas.
 
     ![](../assets/journeyuc1_11.png)
 
@@ -51,11 +51,11 @@ For additional information on how to build a journey, refer to [](../building-jo
 
     ![](../assets/journeyuc1_12.png)
 
-1. Drop an **Email** activity and select your "Spa discount" transactional messaging template. This template was designed using Adobe Campaign. Refer to this [page](https://docs.adobe.com/content/help/en/campaign-standard/using/communication-channels/transactional-messaging/about-transactional-messaging.html).
+1. Drop an **[!UICONTROL Email]** activity and select your "Spa discount" transactional messaging template. This template was designed using Adobe Campaign. Refer to this [page](https://docs.adobe.com/content/help/en/campaign-standard/using/communication-channels/transactional-messaging/about-transactional-messaging.html).
 
     ![](../assets/journeyuc1_13.png)
 
-1. Click inside the **Email** field and select the email address from the data source.
+1. Click inside the **[!UICONTROL Email]** field and select the email address from the data source.
 
     ![](../assets/journeyuc1_14.png)
 
@@ -63,11 +63,11 @@ For additional information on how to build a journey, refer to [](../building-jo
 
     ![](../assets/journeyuc1_15.png)
 
-1. Drop an **End** activity.
+1. Drop an **[!UICONTROL End]** activity.
 
     ![](../assets/journeyuc1_17.png)
 
-1. Click on the **Test** toggle and test your journey using test profiles. If there is any error, deactivate the test mode, modify your journey and test it again. For more information on the test mode, refer to [](../building-journeys/testing-the-journey.md). 
+1. Click on the **[!UICONTROL Test]** toggle and test your journey using test profiles. If there is any error, deactivate the test mode, modify your journey and test it again. For more information on the test mode, refer to [](../building-journeys/testing-the-journey.md). 
 
     ![](../assets/journeyuc1_18bis.png)
 

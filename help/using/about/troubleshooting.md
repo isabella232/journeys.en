@@ -22,15 +22,15 @@ Errors appear with a warning symbol displayed on the activities themselves on th
 
  ![](../assets/journey63.png)
 
-Next to the **Test** toggle and the **Publish** button, a warning sign can be displayed. This warning sign displays errors detected by the system and prevents test mode activation or journey publication. Most of the time, errors detected by the system are linked to errors visible on the activities but sometimes they are linked to other issues. In this case, you can display them, try to identify the issue using to the error description. If you can’t identify the issue, you can copy the details and send them to the administrator or to support. Note that errors blocking the test and errors blocking the publication are similar.
+Next to the **[!UICONTROL Test]** toggle and the **[!UICONTROL Publish]** button, a warning sign can be displayed. This warning sign displays errors detected by the system and prevents test mode activation or journey publication. Most of the time, errors detected by the system are linked to errors visible on the activities but sometimes they are linked to other issues. In this case, you can display them, try to identify the issue using to the error description. If you can’t identify the issue, you can copy the details and send them to the administrator or to support. Note that errors blocking the test and errors blocking the publication are similar.
 
 The system detects two kinds of issues: errors and warnings. Errors block publication and test activation. Warnings indicate potential issues that are not blocking test activation or publication. You will see a description of the issue and an issue log ID of the type ERR_XXX_XXX. This will help technical support identify the issue.
 
-Two different colors can be displayed on the sign next to the **Test** toggle and the **Publish** button. The sign is displayed in red in case of errors. It is displayed in orange in case of warnings.
+Two different colors can be displayed on the sign next to the **[!UICONTROL Test]** toggle and the **[!UICONTROL Publish]** button. The sign is displayed in red in case of errors. It is displayed in orange in case of warnings.
 
  ![](../assets/journey75.png)
 
-Errors and warnings that are global to the journey appear first in the list. Error and warnings related to specific activities are listed after, by activity order or appearance in the journey from left to right. The **Copy details** button copies technical information about the journey which the support team can use to troubleshoot.
+Errors and warnings that are global to the journey appear first in the list. Error and warnings related to specific activities are listed after, by activity order or appearance in the journey from left to right. The **[!UICONTROL Copy details]** button copies technical information about the journey which the support team can use to troubleshoot.
 
 ## Checking that events are properly sent{#section_rqz_11t_dgb}
 
