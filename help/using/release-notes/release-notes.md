@@ -55,7 +55,27 @@ You can also consult the [Documentation Updates](../release-notes/documentation-
     <p>A contextual help function is now available across the different Journey Orchestration screens. This means that, in a single click, you can directly access the documentation on the functionality that you are currently using. </p>
    	<p>To display contextual help, click the ‘i’ icon in the upper-right corner of the screen. </p>
    	   	<img src="../assets/rn-context.png"/>
-    <p>For now, this feature is avaible in the Home, Data Sources, Events and Actions list screens.</p>
+    <p>For now, this feature is available in the Home, Data Sources, Events and Actions list screens.</p>
+   </td> 
+  </tr> 
+ </tbody> 
+</table>
+
+<table> 
+ <thead> 
+  <tr> 
+   <th> <strong>Test mode enhancements</strong><br /> </th> 
+  </tr> 
+ </thead> 
+ <tbody> 
+  <tr> 
+   <td> 
+    <p>Two enhancements have been made in test mode:</p>
+    <img src="../assets/rn-test.png"/>
+    <ul>
+    <li>When your journey uses several events, you can now simulate the firing of all events using a drop-down, in the <strong>Event configuration</strong> screen of the test mode.</li>
+    <li>When one ore more<strong>Wait</strong> activities are used in a journey, you can now define the time that each of these activities will last in test mode. The default time is 10 seconds. You can change this usig the <strong>Wait time in test</strong> parameter, in the bottom left corner. </li>
+    </ul>
    </td> 
   </tr> 
  </tbody> 
@@ -63,13 +83,6 @@ You can also consult the [Documentation Updates](../release-notes/documentation-
 
 
 **Other improvements**
-
-* In test mode, a new parameter allows you to define the time peafiner.  time wait activities can last. This allows you to access the test results quickly.
-
-* In test mode, you can now trigger all events of the journey. 
-
-
-* a new parameter allows you to define the time peafiner.  time wait activities can last. This allows you to access the test results quickly.
 
 * Journeys Orchestration is now available in EMEA.
 
