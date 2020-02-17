@@ -50,22 +50,21 @@ Then it selects all the addtocart events that did not transform into a completeP
 The specified timestamp is acting as the date time value, the second is number of days.
 
     ```
-    In ( “addToCart”, #{ExperiencePlatformDataSource
-                    .ExperienceEventFieldGroup
-                    .experienceevent
-                    .all(
-                    inLastDays(currentDataPackField.timestamp, 7 ))
-                    .productData
-                    .productInteraction})
-
-    And
-    Not(In ( “completePurchase”, #{ExperiencePlatformDataSource
-                    .ExperienceEventFieldGroup
-                    .experienceevent
-                    .all(
-                    inLastDays(currentDataPackField.timestamp, 7 ))
-                    .productData
-                    .productInteraction})
+        In ( “addToCart”, #{ExperiencePlatformDataSource
+                        .ExperienceEventFieldGroup
+                        .experienceevent
+                        .all(
+                        inLastDays(currentDataPackField.timestamp, 7 ))
+                        .productData
+                        .productInteraction})
+        And
+        Not(In ( “completePurchase”, #{ExperiencePlatformDataSource
+                        .ExperienceEventFieldGroup
+                        .experienceevent
+                        .all(
+                        inLastDays(currentDataPackField.timestamp, 7 ))
+                        .productData
+                        .productInteraction})
     ```
 
 This expression returns a boolean.
@@ -83,15 +82,15 @@ This expression returns a boolean.
 * And specify SKU, using the function `first` to retrieve the most recent "addToCart" interaction:  
 
     ```
-    #{ExperiencePlatformDataSource
-                    .ExperienceEventFieldGroup
-                    .experienceevent
-	                .first(
-                     currentDataPackField
-                    .productData
-                    .productInteraction == “addToCart”
-                    )
-                    .SKU}
+        #{ExperiencePlatformDataSource
+                        .ExperienceEventFieldGroup
+                        .experienceevent
+                        .first(
+                        currentDataPackField
+                        .productData
+                        .productInteraction == “addToCart”
+                        )
+                        .SKU}
     ```
 
 From there you can add another path in your journey for when the product is not in store and send notification with engagement offer. Configure messages accordingly and use personalization data to enhance the message target.
@@ -100,31 +99,31 @@ From there you can add another path in your journey for when the product is not 
 
 **In conditions**
 
-Condition that checks the place from which the geofence event has been triggered is "Arlington":
+This condition retrieve only the geofence events triggered in "Arlington":
 
     ```
-    @{GeofenceEntry
-                .placeContext
-                .POIinteraction
-                .POIDetail
-                .name} == "Arlington"
-    ```
-
-Explanation: This is a strict string comparison (case sensitive), equivalent to a query in simple mode that uses ‘equal to’ with ‘Is sensitive’ checked.
-
-The same query with ‘Is sensitive’ unchecked will generate the following expression in advanced mode:
-
-    ```
-    equalIgnoreCase(@{GeofenceEntry
+        @{GeofenceEntry
                     .placeContext
                     .POIinteraction
                     .POIDetail
-                    .name}, "Arlington")
+                    .name} == "Arlington"
+    ```
+
+Explanation: This is a strict string comparison (case sensitive), equivalent to a query in simple mode that uses `equal to` with `Is sensitive` checked.
+
+The same query with `Is sensitive` unchecked will generate the following expression in advanced mode:
+
+    ```
+        equalIgnoreCase(@{GeofenceEntry
+                        .placeContext
+                        .POIinteraction
+                        .POIDetail
+                        .name}, "Arlington")
     ```
 
 **In actions**
 
-The following expression allows you to define the CRM ID in an action personalization field :
+The following expression allows you to define the CRM ID in an action personalization field:
 
     ```
     substr(@{MobileAppLaunch
@@ -139,6 +138,6 @@ The following expression allows you to define the CRM ID in an action personaliz
                          "))
     ```
 
-Explanation: This example uses substr and lastIndexOf functions to remove curly braces that enclose the CRM ID passed with a mobile app launch event.
+Explanation: This example uses `substr` and `lastIndexOf` functions to remove curly braces that enclose the CRM ID passed with a mobile app launch event.
 
-For more on how to use the advanced expression editor, watch[this video](https://docs.adobe.com/content/help/en/platform-learn/tutorials/journey-orchestration/create-a-journey.html).
+For more on how to use the advanced expression editor, watch [this video](https://docs.adobe.com/content/help/en/platform-learn/tutorials/journey-orchestration/create-a-journey.html).
