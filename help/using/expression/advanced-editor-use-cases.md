@@ -50,7 +50,7 @@ Then it selects all the addtocart events that did not transform into a completeP
 The specified timestamp is acting as the date time value, the second is number of days.
 
     ```
-        In ( “addToCart”, #{ExperiencePlatformDataSource
+        In( “addToCart”, #{ExperiencePlatformDataSource
                         .ExperienceEventFieldGroup
                         .experienceevent
                         .all(
@@ -58,13 +58,14 @@ The specified timestamp is acting as the date time value, the second is number o
                         .productData
                         .productInteraction})
         And
-        Not(In ( “completePurchase”, #{ExperiencePlatformDataSource
+        Not(In( “completePurchase”, #{ExperiencePlatformDataSource
                         .ExperienceEventFieldGroup
                         .experienceevent
                         .all(
                         inLastDays(currentDataPackField.timestamp, 7 ))
                         .productData
                         .productInteraction})
+
     ```
 
 This expression returns a boolean.
@@ -119,6 +120,7 @@ The same query with `Is sensitive` unchecked will generate the following express
                         .POIinteraction
                         .POIDetail
                         .name}, "Arlington")
+
     ```
 
 **In actions**
@@ -133,9 +135,10 @@ The following expression allows you to define the CRM ID in an action personaliz
             lastIndexOf(@{MobileAppLaunch
                         ._myorganization
                         .identification
-                        .crmid},
-                         "}
-                         "))
+                        .crmid}
+                         }
+                         ))
+
     ```
 
 Explanation: This example uses `substr` and `lastIndexOf` functions to remove curly braces that enclose the CRM ID passed with a mobile app launch event.
