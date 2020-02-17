@@ -34,7 +34,7 @@ You can also consult the [Documentation Updates](../release-notes/documentation-
    	<p>Timezones are now managed at journey level. Two parameters have been added in the journey properties:</p>
    	<img src="../assets/rn-timezone.png"/>
    	<ul>
-    <li>The <stong>Timezone</strong> drop-down allows you to select a specific timezone. By default, the browser's timezone is used. </li>
+    <li>The <strong>Timezone</strong> drop-down allows you to select a specific timezone. By default, the browser's timezone is used. </li>
     <li>The <strong>Profile Timezone</strong> checkbox allows you to use the Experience Platform Profile timezone of the person entering the journey, if available. If not, the timezone defined in the drop-down will be used. This feature is not compatible with journeys with no namespace.</li>
     </ul>
     <p>For more information, refer to the <a href="../building-journeys/building-journeys/changing-properties.md">detailed documentation</a>.</p>
@@ -53,9 +53,9 @@ You can also consult the [Documentation Updates](../release-notes/documentation-
   <tr> 
    <td> 
     <p>A contextual help function is now available across the different Journey Orchestration screens. This means that, in a single click, you can directly access the documentation on the functionality that you are currently using. </p>
-   	<p>To display contextual help, click the ‘i’ icon in the upper-right corner of the screen. </p>
+   	<p>To display contextual help, click the "i" icon in the upper-right corner of the screen. </p>
    	   	<img src="../assets/rn-context.png"/>
-    <p>For now, this feature is available in the Home, Data Sources, Events and Actions list screens.</p>
+    <p>For now, this feature is available in the <strong>Home</strong>, <strong>Data Sources</strong>, <strong>Events</strong> and <strong>Actions</strong> list screens.</p>
    </td> 
   </tr> 
  </tbody> 
@@ -70,12 +70,12 @@ You can also consult the [Documentation Updates](../release-notes/documentation-
  <tbody> 
   <tr> 
    <td> 
-    <p>Two enhancements have been made in test mode:</p>
-    <img src="../assets/rn-test.png"/>
+    <p>Two enhancements have been made to the test mode:</p>
     <ul>
-    <li>When your journey uses several events, you can now simulate the firing of all events using a drop-down, in the <strong>Event configuration</strong> screen of the test mode.</li>
+    <li>When your journey uses several events, you can now simulate the firing of each events using a drop-down, in the <strong>Event configuration</strong> screen of the test mode.</li>
     <li>When one ore more<strong>Wait</strong> activities are used in a journey, you can now define the time that each of these activities will last in test mode. The default time is 10 seconds. You can change this usig the <strong>Wait time in test</strong> parameter, in the bottom left corner. </li>
     </ul>
+        <img src="../assets/rn-test.png"/>
    </td> 
   </tr> 
  </tbody> 
