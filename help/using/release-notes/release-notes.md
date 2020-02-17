@@ -21,7 +21,6 @@ You can also consult the [Documentation Updates](../release-notes/documentation-
 
 **What's new?**
 
-
 <table>
 <thead>
 <tr>
@@ -35,9 +34,9 @@ You can also consult the [Documentation Updates](../release-notes/documentation-
 <img src="../assets/rn-timezone.png"/>
 <ul>
 <li>The <strong>Timezone</strong> drop-down allows you to select a specific timezone. By default, the browser's timezone is used.</li>
-<li>The <strong>Profile Timezone</strong> checkbox allows you to use the Experience Platform Profile timezone of the person entering the journey, if available. If not, the timezone defined in the drop-down is be used. This feature is not compatible with journeys with no namespace.</li>
+<li>The <strong>Profile Timezone</strong> checkbox allows you to use the Experience Platform Profile timezone of the person entering the journey, if available. If not, the timezone defined in the drop-down is be used. This feature is not compatible with journeys with using events that do not have a namespace.</li>
 </ul>
-<p>For more information, refer to the <a href="../building-journeys/building-journeys/changing-properties.md">detailed documentation</a>.</p>
+<p>For more information, refer to the <a href="../building-journeys/changing-properties.md">detailed documentation</a>.</p>
 </td>
 </tr>
 </tbody>
@@ -91,19 +90,21 @@ The journey **palette**, on the left side of the journey canvas has been enhance
 
 * When using the **Search** field, we now display the number of results for each category.
 
-* The display of the categories has been improved. They now unfold from the top.
+* The display of the different categories has been improved. They now unfold from the top.
 
 In the journey **canvas**, when two activities are disconnected, we now display a warning message.
 
-The **C** keyboard shortcut is now available in all list screens: journeys, data sources, actions, events.
+In the journey **canvas**, we now indicate if it is the latest version of the journey.
 
-In the **test logs**, we now display the error code and error response for third-party calls. 
+In the **test logs**, in case of an error when calling a third-party system (data source or action), we now display the error code and error response.
+
+The **C** keyboard shortcut is now available in all list screens: journeys, data sources, actions, events.
 
 We now allow the **deletion** of stopped journeys. Reports associated to these deleted journeys will not be available.
 
-In the journey canvas, we now indicate if it is the latest version of the journey.
+When browsing through **XDM fields**, we now display the friendly name, when it is available, in addition to the technical name.
 
-When browsing through XDM fields, we now display the friendly name, when it is available, in addition to the technical name.
+We now give you the possibility to **cap calls** to external APIs (data sources or actions). For example, if you're connected to a third-party loyalty system, you can define a capping of 500 calls per seconds. This avoids to overload the external system.
 
 ## GA Release - December 2019 {#ga-release---december-2019}
 
