@@ -35,7 +35,7 @@ You can also consult the [Documentation Updates](../release-notes/documentation-
    	<img src="../assets/rn-timezone.png"/>
    	<ul>
     <li>The <strong>Timezone</strong> drop-down allows you to select a specific timezone. By default, the browser's timezone is used. </li>
-    <li>The <strong>Profile Timezone</strong> checkbox allows you to use the Experience Platform Profile timezone of the person entering the journey, if available. If not, the timezone defined in the drop-down will be used. This feature is not compatible with journeys with no namespace.</li>
+    <li>The <strong>Profile Timezone</strong> checkbox allows you to use the Experience Platform Profile timezone of the person entering the journey, if available. If not, the timezone defined in the drop-down is be used. This feature is not compatible with journeys with no namespace.</li>
     </ul>
     <p>For more information, refer to the <a href="../building-journeys/building-journeys/changing-properties.md">detailed documentation</a>.</p>
    </td> 
@@ -83,26 +83,27 @@ You can also consult the [Documentation Updates](../release-notes/documentation-
 
 **Other improvements**
 
-* Journeys Orchestration is now available in EMEA.
+Journeys Orchestration is now available in EMEA.
 
-* In your journeys, a new icon, in the top left corner, allows you to hide or display unavailable elements in the palette. By default, 
+The journey palette, on the left side of the journey canvas has been enchanced:
 
-* canvas, deconnection, petite icone, qui dit disconnected node.
+* A new icon, in the top left corner, allows you to hide or display unavailable elements in the palette, for example the events that use a different namespade than the ones used in your journey. By default, unavailable items are hidden.
 
-* The **C** keyboard shortcut is now available in all list screens: journeys, data sources, actions, events.
+* When using the Search field, we now display the number of results for each category.
 
-* palette UI, icone de search resultats
+* The display of the categories has been improved. They now unfold from the top.
 
-* Pouvoir capper les call a des APIS externes (data sources ou actions). marque n'accepte que 500 calls par seconde, elle pourra mettre un capping a 500 calls seconds qui evite de surcharger system de loyalty tiers
+In the journey canvas, when two activities are disconnected, a warning message now appears.
 
-* logs du test log. Avant status = error. quand on appalle systemtieds. Possibilityé de voir code erreur phrase qu'à renvoyé le systeme. -> ds un test en cas d'erreur, systeme tiers, error code, error response. 
+The **C** keyboard shortcut is now available in all list screens: journeys, data sources, actions, events.
 
-* stopped delete journey
+Pouvoir capper les call a des APIS externes (data sources ou actions). marque n'accepte que 500 calls par seconde, elle pourra mettre un capping a 500 calls seconds qui evite de surcharger system de loyalty tiers
 
-* journey: version 1 il te met si latest
+In the test logs, we now display the error code and error response for third-party calls. 
 
-1er mars.
+We now allow the deletion of stopped journeys. Reports associated to these deleted journeys will not be available.
 
+When there is only one version of a journey, we now display the fact that it is the latest version, next to its name. 
 
 ## GA Release - December 2019 {#ga-release---december-2019}
 
