@@ -22,63 +22,63 @@ You can also consult the [Documentation Updates](../release-notes/documentation-
 **What's new?**
 
 
-<table> 
- <thead> 
-  <tr> 
-   <th> <strong>Timezone management</strong><br /> </th> 
-  </tr> 
- </thead> 
- <tbody> 
-  <tr> 
-   <td> 
-   	<p>Timezones are now managed at journey level. Two parameters have been added in the journey properties:</p>
-   	<img src="../assets/rn-timezone.png"/>
-   	<ul>
-    <li>The <strong>Timezone</strong> drop-down allows you to select a specific timezone. By default, the browser's timezone is used. </li>
-    <li>The <strong>Profile Timezone</strong> checkbox allows you to use the Experience Platform Profile timezone of the person entering the journey, if available. If not, the timezone defined in the drop-down is be used. This feature is not compatible with journeys with no namespace.</li>
-    </ul>
-    <p>For more information, refer to the <a href="../building-journeys/building-journeys/changing-properties.md">detailed documentation</a>.</p>
-   </td> 
-  </tr> 
- </tbody> 
+<table>
+<thead>
+<tr>
+<th><strong>Timezone management</strong><br/></th>
+</tr>
+</thead>
+<tbody>
+<tr> 
+<td>
+<p>Timezones are now managed at journey level. Two parameters have been added in the journey properties:</p>
+<img src="../assets/rn-timezone.png"/>
+<ul>
+<li>The <strong>Timezone</strong> drop-down allows you to select a specific timezone. By default, the browser's timezone is used.</li>
+<li>The <strong>Profile Timezone</strong> checkbox allows you to use the Experience Platform Profile timezone of the person entering the journey, if available. If not, the timezone defined in the drop-down is be used. This feature is not compatible with journeys with no namespace.</li>
+</ul>
+<p>For more information, refer to the <a href="../building-journeys/building-journeys/changing-properties.md">detailed documentation</a>.</p>
+</td>
+</tr>
+</tbody>
 </table>
 
-<table> 
- <thead> 
-  <tr> 
-   <th> <strong>Contextual Help</strong><br /> </th> 
-  </tr> 
- </thead> 
- <tbody> 
-  <tr> 
-   <td> 
-    <p>A contextual help is now available across the different Journey Orchestration screens. This allows to view a quick description of the current functionality and access related articles and videos. </p>
-   	<p>To display the contextual help, click the <img src="../assets/icon-context.png"/> icon in the upper-right corner of the screen. </p>
-   	   	<img src="../assets/rn-context.png"/>
-    <p>For now, this feature is available in the <strong>Home</strong>, <strong>Data Sources</strong>, <strong>Events</strong> and <strong>Actions</strong> list screens.</p>
-   </td> 
-  </tr> 
- </tbody> 
+<table>
+<thead>
+<tr>
+<th><strong>Contextual Help</strong><br/></th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td>
+<p>A contextual help is now available across the different Journey Orchestration screens. This allows to view a quick description of the current functionality and access related articles and videos.</p>
+<p>To display the contextual help, click the <img src="../assets/icon-context.png"/> icon in the upper-right corner of the screen. </p>
+<img src="../assets/rn-context.png"/>
+<p>For now, this feature is available in the <strong>Home</strong>, <strong>Data Sources</strong>, <strong>Events</strong> and <strong>Actions</strong> list screens.</p>
+</td>
+</tr>
+</tbody>
 </table>
 
-<table> 
- <thead> 
-  <tr> 
-   <th> <strong>Test mode enhancements</strong><br /> </th> 
-  </tr> 
- </thead> 
- <tbody> 
-  <tr> 
-   <td> 
-    <p>Two enhancements have been made to the test mode:</p>
-    <ul>
-    <li>When your journey uses several events, you can now trigger the firing of each events using a drop-down, in the <strong>Event configuration</strong> screen of the test mode.</li>
-    <li>When one ore more <strong>Wait</strong> activities are used in a journey, you can now define the time that each of these activities will last in test mode. The default time is 10 seconds. You can change this using the <strong>Wait time in test</strong> parameter, in the bottom left corner. </li>
-    </ul>
-        <img src="../assets/rn-test.png"/>
-   </td> 
-  </tr> 
- </tbody> 
+<table>
+<thead>
+<tr>
+<th><strong>Test mode enhancements</strong><br/></th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td>
+<p>Two enhancements have been made to the test mode:</p>
+<ul>
+<li>When your journey uses several events, you can now trigger the firing of each events using a drop-down, in the <strong>Event configuration</strong> screen of the test mode.</li>
+<li>When one ore more <strong>Wait</strong> activities are used in a journey, you can now define the time that each of these activities will last in test mode. The default time is 10 seconds. You can change this using the <strong>Wait time in test</strong> parameter, in the bottom left corner. </li>
+</ul>
+<img src="../assets/rn-test.png"/>
+</td>
+</tr>
+</tbody>
 </table>
 
 **Other improvements**
@@ -101,7 +101,9 @@ In the **test logs**, we now display the error code and error response for third
 
 We now allow the **deletion** of stopped journeys. Reports associated to these deleted journeys will not be available.
 
-When there is only one **version** of a journey, we now display the fact that it is the latest version, next to its name. 
+In the journey canvas, we now indicate if it is the latest version of the journey.
+
+When browsing through XDM fields, we now display the friendly name, when it is available, in addition to the technical name.
 
 ## GA Release - December 2019 {#ga-release---december-2019}
 
