@@ -23,9 +23,9 @@ You can also consult the [Documentation Updates](../release-notes/documentation-
 
 * APIs
 
-* Copy/paster
+* Copy/paste activities in journeys ?
 
-* Filter events in journeys. 
+* Filter events in journeys
 
 * Multi region?
 
