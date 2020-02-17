@@ -21,6 +21,8 @@ You can also consult the [Documentation Updates](../release-notes/documentation-
 
 * A contextual help function is now available across the different Journey Orchestration screens. This means that, in a single click, you can directly access the documentation on the functionality that you are currently using. To display contextual help, click the ‘i’ icon in the upper-right corner of the screen. For now, this feature is avaible in the Home, Data Sources, Events and Actions list screens.
 
+* In test mode, all wait activities are now automatically set to last 5 seconds. This allows you to access the test results quickly.
+
 * APIs
 
 * Copy/paste activities in journeys ?
@@ -28,8 +30,6 @@ You can also consult the [Documentation Updates](../release-notes/documentation-
 * Filter events in journeys
 
 * Multi region?
-
-* Timer in test mode
 
 * Test multi event
 
