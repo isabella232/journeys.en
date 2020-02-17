@@ -17,7 +17,7 @@ snippet: y
 This page lists all the new features and improvements for Journey Orchestration.
 You can also consult the [Documentation Updates](../release-notes/documentation-updates.md).
 
-## Q1 Release - february 2019 {#q1-release---february-2019}
+## Q1 Release - February 2019 {#q1-release---february-2019}
 
 **What's new?**
 
@@ -73,7 +73,7 @@ You can also consult the [Documentation Updates](../release-notes/documentation-
     <p>Two enhancements have been made to the test mode:</p>
     <ul>
     <li>When your journey uses several events, you can now trigger the firing of each events using a drop-down, in the <strong>Event configuration</strong> screen of the test mode.</li>
-    <li>When one ore more<strong>Wait</strong> activities are used in a journey, you can now define the time that each of these activities will last in test mode. The default time is 10 seconds. You can change this usig the <strong>Wait time in test</strong> parameter, in the bottom left corner. </li>
+    <li>When one ore more <strong>Wait</strong> activities are used in a journey, you can now define the time that each of these activities will last in test mode. The default time is 10 seconds. You can change this using the <strong>Wait time in test</strong> parameter, in the bottom left corner. </li>
     </ul>
         <img src="../assets/rn-test.png"/>
    </td> 
@@ -85,7 +85,7 @@ You can also consult the [Documentation Updates](../release-notes/documentation-
 
 Journeys Orchestration is now available in **EMEA**.
 
-The journey **palette**, on the left side of the journey canvas has been enchanced:
+The journey **palette**, on the left side of the journey canvas has been enhanced:
 
 * A new icon, in the top left corner, allows you to hide or display unavailable elements in the palette, for example the events that use a different namespace than the ones used in your journey. By default, unavailable items are hidden.
 
