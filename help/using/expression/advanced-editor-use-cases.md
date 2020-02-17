@@ -14,7 +14,7 @@ snippet: y
 
 # Using the advanced expression editor
 
-The Advanced expression editor can be used to create conditions to allow you to filter users in your journeys. These conditions enable you to target users on time, date, localization duration, or action such as purchase or abandonment of carts so that they can be retargeted in the journey.
+The Advanced expression editor can be used to create conditions to allow you to filter users in your journeys. These conditions enable you to target users on time, date, location, duration, or actions such as purchase or abandonment of carts so that they can be retargeted in the journey.
 
 >[!NOTE]
 >
@@ -45,7 +45,7 @@ Then it selects all the addtocart events that did not transform into a completeP
 
 >[!NOTE]
 >
->To insert fields in the expression easily, you can click on the field in thez left panel of the box. 
+>To insert fields in the expression quickly, double-click on the field in the left panel of the editor.
 
 The specified timestamp is acting as the date time value, the second is number of days.
 
