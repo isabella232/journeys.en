@@ -82,7 +82,7 @@ You can also consult the [Documentation Updates](../release-notes/documentation-
 <p>In the journey designer, we now indicate if it is the latest version of the journey. This information is displayed next to the version number.</p>
 <p>In the journey <strong>canvas</strong>, when two activities are disconnected, we now display a warning message.</p>
 <img src="../assets/rn-canvas.png"/>
-<p>For more information, refer to the <a href="../building-journeys/using-the-journey-designer.htmls.md">detailed documentation</a>.</p>
+<p>For more information, refer to the <a href="../building-journeys/using-the-journey-designer.md">detailed documentation</a>.</p>
 </td>
 </tr>
 </tbody>
