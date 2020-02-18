@@ -17,7 +17,7 @@ snippet: y
 This page lists all the documentation updates for Journey Orchestration.
 You can also consult the Journey Orchestration [Release Notes](../release-notes/release-notes.md).
 
-## January 2020 {#january-2020}
+## March 2020 {#march-2020}
 
 * The triggering of multiple events has been added to the Test mode section [Read more](../building-journeys/testing-the-journey.md#firing_events)
 * The Test mode section has been updated regarding the new **Wait time in test** parameter. [Read more](../building-journeys/testing-the-journey.md)
@@ -27,6 +27,9 @@ You can also consult the Journey Orchestration [Release Notes](../release-notes/
 * The interface description has been updated with information on contextual help. [Read more](../about/user-interface.md#section_ksq_zr1_ffb)
 * The ability to cap calls to has been documented. XX
 * When browsing **XDM fields**, the friendly name is now displayed. Related sections have been updated. XXX
+
+## February 2020 {#february-2020}
+
 * The shortcut section has been udpated. The **C** keyboard shortcut allows you to create a new item in all list screens. [Read more](../about/user-interface.md#section_ksq_zr1_ffb)
 
 ## January 2020 {#january-2020}
