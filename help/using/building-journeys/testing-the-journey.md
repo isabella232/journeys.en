@@ -18,10 +18,6 @@ Before being able to test your journey, you must resolve all errors if any. See 
 
 You have the possibility to test your journey before its publication, using test profiles. This allows you to analyze how individuals flow in the journey and troubleshoot before publication.
 
->[!NOTE]
->
->In test mode, all wait activities are automatically set to last 5 seconds. This allows you to access the test results quickly.
-
 To use the test mode, follow these steps:
 
 1. Before testing your journey, verify that it is valid and that there is no error. You won’t be able to launch a test of a journey with errors. See [](../about/troubleshooting.md#section_h3q_kqk_fhb). A warning symbol is displayed when there are errors.
@@ -29,6 +25,10 @@ To use the test mode, follow these steps:
 1. To activate the test mode, click on the **[!UICONTROL Test]** toggle, located in the top right corner.
 
     ![](../assets/journeytest1.png)
+
+1. Use the **Wait time in test** parameter, in the bottom left corner, to define the time that each wait activity will last in test mode. The default time is 10 seconds. This will ensure that you get the test results quickly.
+
+    ![](../assets/journeyuctest1.png)
 
 1. Click **[!UICONTROL Trigger an event]** to configure and send events to the journey. Make sure to send events related to test profiles. See [Firing your events](#firing_events).
 
