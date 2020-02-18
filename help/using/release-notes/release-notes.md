@@ -73,14 +73,14 @@ You can also consult the [Documentation Updates](../release-notes/documentation-
 <tbody>
 <tr> 
 <td>
-<p>The journey **palette**, on the left side of the journey canvas has been enhanced:</p>
+<p>The journey <strong>palette</strong>, on the left side of the journey canvas has been enhanced:</p>
 <ul>
 <li>A new icon, in the top left corner, allows you to hide or display unavailable elements in the palette, for example the events that use a different namespace than the ones used in your journey. By default, unavailable items are hidden.</li>
 <li>When using the <strong>Search</strong> field, we now display the number of results for each canvas activity category.</li>
 <li>The navigation between the different activity categories has been improved.</li>
 </ul>
-<p>In the journey **canvas**, when two activities are disconnected, we now display a warning message.</p>
-<p>In the journey **canvas**, we now indicate if it is the latest version of the journey. This information is displayed next to the version number.</p>
+<p>In the journey <strong>canvas</strong>, when two activities are disconnected, we now display a warning message.</p>
+<p>In the journey <strong>canvas</strong>, we now indicate if it is the latest version of the journey. This information is displayed next to the version number.</p>
 <p>For more information, refer to the <a href="../building-journeys/changing-properties.md">detailed documentation</a>.</p>
 </td>
 </tr>
