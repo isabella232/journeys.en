@@ -51,7 +51,7 @@ Here are the main steps to create and publish a journey.
 
     ![](../assets/journey36.png)
 
-## Ending a journey{#ending_a_journey}
+## Ending a journey {#ending_a_journey}
 
 There are two ways to end a journey:
 
