@@ -48,9 +48,9 @@ The **canvas** is the central zone in the journey designer. It is in this zone t
 
  ![](../assets/journey39.png)
 
-In the canvas, when two activities are disconnected, a warning is displayed. Place your cursor on the warning icon to display the error message.
+In the canvas, when two activities are disconnected, a warning is displayed. Place your cursor on the warning icon to display the error message. To fix the issue, simply move the disconnected activity to connect it to the previous activity.
 
- ![](../assets/rn-canvas.png)
+ ![](../assets/canvas-disconnected.png)
 
 ## The activity configuration pane {#configuration_pane}
 

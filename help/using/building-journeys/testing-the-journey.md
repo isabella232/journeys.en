@@ -26,9 +26,9 @@ To use the test mode, follow these steps:
 
     ![](../assets/journeytest1.png)
 
-1. Use the **Wait time in test** parameter, in the bottom left corner, to define the time that each wait activity will last in test mode. The default time is 10 seconds. This will ensure that you get the test results quickly.
+1. Use the **Wait time in test** parameter, in the bottom left corner, to define the time that each wait activity will last in test mode. The default time is 10 seconds. This will ensure that you get the test results quickly. This parameter only appears if you have dropped one or more wait activities in your journey.
 
-    ![](../assets/journeyuctest1.png)
+    ![](../assets/journeytest_wait.png)
 
 1. Click **[!UICONTROL Trigger an event]** to configure and send events to the journey. Make sure to send events related to test profiles. See [Firing your events](#firing_events).
 
