@@ -16,7 +16,7 @@ discoiquuid: 5df34f55-135a-4ea8-afc2-f9427ce5ae7b
 >[!CONTEXTUALHELP]
 >id="jo_home"
 >title="About Journey list"
->abstract="The journey list allows you to view all your journeys at once, see their status and perform basic actions. You can duplicate, stop or delete your journeys. Depending on the journey, certain actions might not be available. For example, you can't stop or delete a stopped journey. You can also use the search bar to search for a journey."
+>abstract="The journey list allows you to view all your journeys at once, see their status and perform basic actions. You can duplicate, stop or delete your journeys. Depending on the journey, certain actions might not be available. For example, you can't stop or delete a journey that is finished. You can also use the search bar to search for a journey."
 >additional-url="https://images-tv.adobe.com/mpcv3/38af62cb-9390-4bc0-a576-d336849adb97_1574809570.1920x1080at3000_h264.mp4" text="Watch demo video"
 
 
