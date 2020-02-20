@@ -56,9 +56,9 @@ You can also consult the [Documentation Updates](../release-notes/documentation-
 <img src="../assets/rn-timezone.png"/>
 <ul>
 <li>The <strong>Timezone</strong> drop-down list allows you to select a specific timezone. By default, the browser's timezone is used.</li>
-<li>The <strong>Profile Timezone</strong> checkbox allows you to use the Experience Platform Profile timezone of the person entering the journey, if available. If not, the timezone defined in the drop-down list is used. This feature is not compatible with journeys  using events that do not have a namespace.</li>
+<li>The <strong>Profile Timezone</strong> checkbox allows you to use the Experience Platform Profile timezone of the person entering the journey, if available. If not, the timezone defined in the drop-down list is used. This feature is not compatible with journeys using events that do not have a namespace.</li>
 </ul>
-<p>For more information, refer to the <a href="../building-journeys/changing-properties.md">detailed documentation</a>.</p>
+<p>For more information, refer to the <a href="../building-journeys/changing-properties.md#timezone">Changing properties</a> and <a href="../building-journeys/timezone-management.md">Timezone management</a> sections.</p>
 </td>
 </tr>
 </tbody>
@@ -115,9 +115,9 @@ The **C** keyboard shortcut, which allows you to create a new item, is now avail
 
 You can now **delete** stopped journeys. Reports associated to these deleted journeys will not be available.
 
-When browsing through **XDM fields**, you will now see the display name in addition to the field name. This information is retrieved from the schema definition in the Experience Data Model. When available, the alternate display name appears. This user-friendly description, especially useful in the case of eVar fields, allows you identify your fields more easily. Read more XXX
+When browsing through **XDM fields**, you will now see the display name in addition to the field name. This information is retrieved from the schema definition in the Experience Data Model. When available, the alternate display name appears. This user-friendly description, especially useful in the case of eVar fields, allows you identify your fields more easily. Read more TBD
 
-To avoid overloading the external system, you can now **cap calls** to external APIs (data sources or actions). For example, if you're connected to a third-party loyalty system, you can define a capping of 500 calls per second. Read more XXX
+To avoid overloading the external system, you can now **cap calls** to external APIs (data sources or actions). For example, if you're connected to a third-party loyalty system, you can define a capping of 500 calls per second. Read more TBD
 
 ## GA Release - December 2019 {#ga-release---december-2019}
 

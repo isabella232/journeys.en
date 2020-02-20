@@ -22,11 +22,11 @@ You can also consult the Journey Orchestration [Release Notes](../release-notes/
 * The triggering of multiple events has been added to the Test mode section [Read more](../building-journeys/testing-the-journey.md#firing_events)
 * The Test mode section has been updated regarding the new **Wait time in test** parameter. [Read more](../building-journeys/testing-the-journey.md)
 * The Test log section has been updated with external call error codes and responses. [Read more](../building-journeys/testing-the-journey.md#viewing_logs)
-* Timezone management is now centralized in the journey properties panel. [Read more](../building-journeys/changing-properties.md)
-* The Journey designer section has been updated to reflect the enhancements. [Read more](../building-journeys/using-the-journey-designer.md)
+* Timezone management is now centralized in the journey properties panel. Read more [here](../building-journeys/changing-properties.md#timezone) and [here](../building-journeys/timezone-management.md)
+* The Journey designer section has been updated to reflect recent enhancements. [Read more](../building-journeys/using-the-journey-designer.md)
 * The interface description has been updated with information on contextual help. [Read more](../about/user-interface.md#section_ksq_zr1_ffb)
-* The ability to cap calls to has been documented. XX
-* When browsing **XDM fields**, the friendly name is now displayed. Related sections have been updated. XXX
+* The ability to cap calls to has been documented. Read more TBD
+* When browsing **XDM fields**, the friendly name is now displayed. Related sections have been updated. Read more TBD
 
 ## February 2020 {#february-2020}
 
