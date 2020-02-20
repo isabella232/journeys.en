@@ -7,7 +7,7 @@ topic: Premium
 
 # Help Center {#journeys-documentation}
 
-![](using/assets/bannerjourney.png) 
+![](using/assets/do-not-localize/bannerjourney.png) 
 
 ## What's New
 
