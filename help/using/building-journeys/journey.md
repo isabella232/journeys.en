@@ -41,7 +41,6 @@ Here are the main steps to create and publish a journey.
 
 1. Start by drag and dropping an event activity from the palette into the canvas. You can also double-click on an activity to add it to the canvas.
 
-
     ![](../assets/journey33.png)
 
 1. Drag and drop your other activities and configure them. See [](../building-journeys/event-activities.md), [](../building-journeys/about-orchestration-activities.md) and [](../building-journeys/about-action-activities.md).
@@ -60,4 +59,3 @@ There are two ways to end a journey:
 * The person arrives at a condition activity (or a wait activity with a condition) and does not match any of the conditions.
 
 The person can then re-enter the journey if re-entrance is allowed. See [](../building-journeys/changing-properties.md).
-
