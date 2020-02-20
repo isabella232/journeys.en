@@ -48,6 +48,10 @@ The **canvas** is the central zone in the journey designer. It is in this zone t
 
  ![](../assets/journey39.png)
 
+In the canvas, when two activities are disconnected, a warning is displayed. Place your cursor on the warning icon to display the error message.
+
+ ![](../assets/rn-canvas.png)
+
 ## The activity configuration pane {#configuration_pane}
 
 The **activity configuration pane** appears when you click on an activity in the palette. Fill in the required fields. Click on the **[!UICONTROL Delete]** icon to delete the activity. Click on **[!UICONTROL Cancel]** to cancel the modifications or **[!UICONTROL Ok]** to confirm. To delete activities, you can also select one activity (or several) and press the backspace key. Pressing the escape key will close the activity configuration pane.
