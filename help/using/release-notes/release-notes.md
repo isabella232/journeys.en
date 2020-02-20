@@ -97,7 +97,7 @@ You can also consult the [Documentation Updates](../release-notes/documentation-
 <tbody>
 <tr>
 <td>
-<p>A contextual help is now available across the different Journey Orchestration list screens (journeys, events, actions and data sources). This allows to view a quick description of the current functionality and access related articles and videos.</p>
+<p>A contextual help is now available across the different Journey Orchestration list screens (journeys, events, actions and data sources). This allows you to view a quick description of the current functionality and access related articles and videos.</p>
 <p>To display the contextual help, click the <img src="../assets/icon-context.png"/> icon in the upper-right corner of the screen. </p>
 <img src="../assets/rn-context.png"/>
 </td>
@@ -116,8 +116,6 @@ The **C** keyboard shortcut, which allows you to create a new item, is now avail
 You can now **delete** stopped journeys. Reports associated to these deleted journeys will not be available.
 
 When browsing through **XDM fields**, you will now see the display name in addition to the field name. This information is retrieved from the schema definition in the Experience Data Model. When available, the alternate display name appears. This user-friendly description, especially useful in the case of eVar fields, allows you identify your fields more easily. Read more TBD
-
-To avoid overloading the external system, you can now **cap calls** to external APIs (data sources or actions). For example, if you're connected to a third-party loyalty system, you can define a capping of 500 calls per second. Read more TBD
 
 ## GA Release - December 2019 {#ga-release---december-2019}
 

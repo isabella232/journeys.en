@@ -40,7 +40,7 @@ The top menus allow you to navigate through the different functionalities of Jou
 
 ![](../assets/journey2.png)  
 
-Click the ![](../assets/icon-context.png) icon in the upper-right corner of the screen to display the contextual help. It is available across the different Journey Orchestration list screens (journeys, events, actions and data sources). This allows to view a quick description of the current functionality and access related articles and videos. 
+Click the ![](../assets/icon-context.png) icon in the upper-right corner of the screen to display the contextual help. It is available across the different Journey Orchestration list screens (journeys, events, actions and data sources). This allows you to view a quick description of the current functionality and access related articles and videos. 
 
 ![](../assets/journey2bis.png)  
 
