@@ -109,13 +109,13 @@ You can also consult the [Documentation Updates](../release-notes/documentation-
 
 In addition to US, Journeys Orchestration is now available in **EMEA**. The application and documentation are available in French and German.
 
-Experience League is now integrated into the product, allowing you to search for information among various help content types (documentation, community forums, videos). This simplifies the access to related content and helps you get the most out of Experience Cloud. Additionally, click Help > Feedback to report issues or share your ideas with Adobe.
+Experience League is now integrated into the product. This simplifies the access to related content and helps you get the most out of Experience Cloud. Direct access to Journey Orchestration documentation is available at the bottom of the Help tab. Additionally, click Help > Feedback to report issues or share your ideas with Adobe.
 
 The **C** keyboard shortcut, which allows you to create a new item, is now available in all list screens: journeys, data sources, actions and events. [Read more](../about/user-interface.md#section_ksq_zr1_ffb)
 
 You can now **delete** stopped journeys. Reports associated to these deleted journeys will not be available.
 
-When browsing through **XDM fields**, a friendly name is now displayed, when it is available, in addition to the technical name.
+When browsing through **XDM fields**, you will now see the display name in addition to the field name. This information is retrieved from the schema definition in the Experience Data Model. When available, the alternate display name appears. This user-friendly description, especially useful in the case of eVar fields, allows you identify your fields more easily.
 
 To avoid overloading the external system, you can now **cap calls** to external APIs (data sources or actions). For example, if you're connected to a third-party loyalty system, you can define a capping of 500 calls per second. 
 
