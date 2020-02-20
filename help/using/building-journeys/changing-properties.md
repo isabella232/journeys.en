@@ -47,7 +47,7 @@ In addition to the [timeout](#timeout_and_error) used in journey activitites, th
 
 Due to the 30-day journey timeout, when journey re-entrance is not allowed, we cannot make sure the re-entrance blocking will work more than 30 days. Indeed, as we remove all information about persons who entered the journey 30 days after they enter, we cannot know the person entered previously, more than 30 days ago.
 
-## Timezone and profile timezone. 
+## Timezone and profile timezone {#timezone} 
 
 Timezone are defined at journey level.
 

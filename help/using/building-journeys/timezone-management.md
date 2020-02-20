@@ -15,7 +15,7 @@ snippet: y
 
 # Time zone management {#timezone_management}
 
-You can define a time zone in the [properties](../../building-journeys/changing-properties.md) of your journey.
+You can define a time zone in the [properties](../building-journeys/changing-properties.md) of your journey.
 
 To access Properties,click on the pencil icon in the top-right of the screen.
 
