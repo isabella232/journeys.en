@@ -115,9 +115,9 @@ The **C** keyboard shortcut, which allows you to create a new item, is now avail
 
 You can now **delete** stopped journeys. Reports associated to these deleted journeys will not be available.
 
-When browsing through **XDM fields**, you will now see the display name in addition to the field name. This information is retrieved from the schema definition in the Experience Data Model. When available, the alternate display name appears. This user-friendly description, especially useful in the case of eVar fields, allows you identify your fields more easily.
+When browsing through **XDM fields**, you will now see the display name in addition to the field name. This information is retrieved from the schema definition in the Experience Data Model. When available, the alternate display name appears. This user-friendly description, especially useful in the case of eVar fields, allows you identify your fields more easily. Read more XXX
 
-To avoid overloading the external system, you can now **cap calls** to external APIs (data sources or actions). For example, if you're connected to a third-party loyalty system, you can define a capping of 500 calls per second. 
+To avoid overloading the external system, you can now **cap calls** to external APIs (data sources or actions). For example, if you're connected to a third-party loyalty system, you can define a capping of 500 calls per second. Read more XXX
 
 ## GA Release - December 2019 {#ga-release---december-2019}
 

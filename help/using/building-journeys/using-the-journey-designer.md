@@ -42,15 +42,17 @@ The **palette** is on the left-hand side of the screen. All available activities
 
  ![](../assets/journey38.png)
 
+The **Show disabled items** icon in the top left corner allows you to hide or display unavailable elements in the palette, for example the events that use a different namespace than the ones used in your journey. By default, unavailable items are hidden. If you choose to display them, they will appear greyed out. 
+
+When using the **Search** field, the number of results is displayed for each canvas activity category.
+
+ ![](../assets/palette-filter.png)
+
 ## The canvas {#canvas}
 
 The **canvas** is the central zone in the journey designer. It is in this zone that you can drop your activities and configure them. Click on an activity in the canvas to configure it. This opens the activity configuration pane on the right-hand side. You can zoom in and out by using the "+" and "-" buttons on the top right. In the canvas, all activities allow you to add a next step after them, except **[!UICONTROL End]** activities (see [](../building-journeys/end-activity.md)). 
 
  ![](../assets/journey39.png)
-
-In the canvas, when two activities are disconnected, a warning is displayed. Place your cursor on the warning icon to display the error message. To fix the issue, simply move the disconnected activity to connect it to the previous activity.
-
- ![](../assets/canvas-disconnected.png)
 
 ## The activity configuration pane {#configuration_pane}
 
@@ -79,3 +81,7 @@ When listening to an event, we recommend that you do not wait for the event inde
 To delete the path, place your cursor on it and click the **[!UICONTROL Delete arrow]** icon.
 
  ![](../assets/journey42ter.png)
+
+In the canvas, when two activities are disconnected, a warning is displayed. Place your cursor on the warning icon to display the error message. To fix the issue, simply move the disconnected activity and connect it to the previous activity.
+
+ ![](../assets/canvas-disconnected.png)

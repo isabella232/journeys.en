@@ -72,6 +72,10 @@ The **[!UICONTROL Show log]** button allows you to view the test results. This p
 
 ![](../assets/journeytest3.png)
 
+>[!NOTE]
+>
+>In the test logs, in case of an error when calling a third-party system (data source or action), the error code and error response are displayed.
+
 The number of individuals (technically they are called instances) currently inside the journey are displayed. Here is useful information that is displayed for each individual:
 
 * _Id_: the individual’s internal ID in the journey. This can be used for debugging purposes.
