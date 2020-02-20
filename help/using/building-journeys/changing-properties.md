@@ -46,3 +46,11 @@ In addition to the [timeout](#timeout_and_error) used in journey activitites, th
 >Journey Orchestration does not directly react to privacy opt-out, access or delete requests. However, the global timeout ensures that individuals never stay more than 30 days in any journey. 
 
 Due to the 30-day journey timeout, when journey re-entrance is not allowed, we cannot make sure the re-entrance blocking will work more than 30 days. Indeed, as we remove all information about persons who entered the journey 30 days after they enter, we cannot know the person entered previously, more than 30 days ago.
+
+## Timezone and profile timezone. 
+
+Timezone are defined at journey level.
+
+You can enter a fixed time zone or use Experience Platform profiles to define the journey time zone. 
+
+For more information on timezone management, see [](../building-journeys/timezone-management.md).
