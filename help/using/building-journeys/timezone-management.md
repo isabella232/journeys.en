@@ -32,7 +32,7 @@ You can select a time zone or choose to use the time zone defined in the user pr
 
 The time zone can also be fixed. Clear the pre-defined time zone and pick one from the drop-down list. If you use a fixed time zone, it will be the same for all individuals entering the journey.
 
-To do so, in **[!UI CONTROL Properties]**, select a time zone.
+To do so, in **[!UICONTROL Properties]**, select a time zone. 
 
 ![](../assets/journey73.png)
 
@@ -44,7 +44,7 @@ If a time zone is defined in the Experience Platform profile, it can be retrieve
 
 If the individual's profile does not contain a time zone, the timezone retrieved will be the one defined in the timezone field.
 
-To do so, in **[!UI CONTROL Properties]**, check **[!UI CONTROL Use Profile timezone in timers and conditions]**.
+To do so, in **[!UICONTROL Properties]**, check **[!UICONTROL Use Profile timezone in timers and conditions]**.
 
 ![](../assets/journey72.png)
 

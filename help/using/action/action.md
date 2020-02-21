@@ -29,7 +29,7 @@ The actions are available in the left palette of your journey, in the **[!UICONT
 >
 >The configuration of custom actions is always performed by a **technical user**.
 
-In the list of **Actions**, you can press c to create a new journey, action, data source or event. For more information on shortcuts in Journey Orchestration, see [](https://docs.adobe.com/content/help/en/journeys/using/starting-with-journeys/user-interface.html#section_ksq_zr1_ffb).
+In the list of **Actions**, you can press c to create a new journey, action, data source or event. For more information on shortcuts in Journey Orchestration, see [](../../about/user-interface.md#section_ksq_zr1_ffb).
 
 To view the action list or configure a new action, click **[!UICONTROL Actions]** in the top menus. The list of actions is displayed. See [](../about/user-interface.md) for more information on the interface.
 
