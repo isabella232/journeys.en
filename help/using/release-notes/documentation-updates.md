@@ -25,7 +25,7 @@ You can also consult the Journey Orchestration [Release Notes](../release-notes/
 * Timezone management is now centralized in the journey properties panel. Read more [here](../building-journeys/changing-properties.md#timezone) and [here](../building-journeys/timezone-management.md)
 * The Journey designer section has been updated to reflect recent enhancements. [Read more](../building-journeys/using-the-journey-designer.md)
 * The interface description has been updated with information on contextual help. [Read more](../about/user-interface.md#section_ksq_zr1_ffb)
-* When browsing **XDM fields**, the friendly name is now displayed. Related sections have been updated. Read more TBD
+* When browsing **XDM fields**, the friendly name is now displayed. Related sections have been updated. [Read more](../event/defining-the-payload-fields.md)
 
 ## February 2020 {#february-2020}
 
