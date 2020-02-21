@@ -115,7 +115,7 @@ You can also consult the [Documentation Updates](../release-notes/documentation-
 
 * You can now **delete** stopped journeys. Reports associated to these deleted journeys will not be available.
 
-* When browsing through **Data Platform fields** (XDM format), you will now see the display name in addition to the field name. This information is retrieved from the schema definition in the Experience Data Model. When available, the alternate display name appears. This user-friendly description, especially useful in the case of eVar fields, allows you identify your fields more easily. Read more TBD
+* When browsing through **Data Platform fields** (XDM format), you will now see the display name in addition to the field name. This information is retrieved from the schema definition in the Experience Data Model. When available, the alternate display name appears. This user-friendly description, especially useful in the case of eVar fields, allows you identify your fields more easily. [Read more](../event/defining-the-payload-fields.md)
 
 ## GA Release - December 2019 {#ga-release---december-2019}
 
