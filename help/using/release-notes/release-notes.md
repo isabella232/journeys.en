@@ -17,7 +17,7 @@ snippet: y
 This page lists all the new features and improvements for Journey Orchestration.
 You can also consult the [Documentation Updates](../release-notes/documentation-updates.md).
 
-## Q1 Release - February 2020 {#q1-release---february-2020}
+## Q1 Release - March 2020 {#q1-release---march-2020}
 
 **What's new?**
 
@@ -33,7 +33,7 @@ You can also consult the [Documentation Updates](../release-notes/documentation-
 <p>The following enhancements have been made to the test mode:</p>
 <ul>
 <li>When a journey uses several events, you can now trigger each of them individually from a drop-down list, in the <strong>Event configuration</strong> screen of the test mode. <a href="../building-journeys/testing-the-journey.md#firing_events">Read more</a></p></li>
-<li><p>When one ore more <strong>Wait</strong> activities are used in a journey, you can now define the time that each of these activities will last in test mode. The default time is 10 seconds. You can change this using the <strong>Wait time in test</strong> parameter, in the bottom left corner. <a href="../building-journeys/testing-the-journey.md">Read more</a></p><img src="../assets/rn-test.png"/>
+<li><p>When one or more <strong>Wait</strong> activities are used in a journey, you can now define the time that each of these activities will last in test mode. The default time is 10 seconds. You can change this using the <strong>Wait time in test</strong> parameter, in the bottom left corner. <a href="../building-journeys/testing-the-journey.md">Read more</a></p><img src="../assets/rn-test.png"/>
 </li>
 <li>In the <strong>test logs</strong>, in case of an error when calling a third-party system (data source or action), the error code and error response are now displayed. <a href="../building-journeys/testing-the-journey.md#viewing_logs">Read more</a>
 </li>
@@ -75,7 +75,7 @@ You can also consult the [Documentation Updates](../release-notes/documentation-
 <td>
 <p>The journey <strong>palette</strong>, on the left side of the journey designer has been enhanced:</p>
 <ul>
-<li>A new icon, in the top left corner, allows you to hide or display unavailable elements in the palette, for example the events that use a different namespace than the ones used in your journey. By default, unavailable items are hidden.</li>
+<li>A new icon, next to the **Search** bar, allows you to hide or display unavailable elements in the palette, for example the events that use a different namespace than the ones used in your journey. By default, unavailable items are hidden.</li>
 <li>When using the <strong>Search</strong> field, the number of results for each canvas activity category is now displayed.</li>
 <li>The navigation between the different activity categories has been improved.</li>
 </ul>
@@ -107,15 +107,15 @@ You can also consult the [Documentation Updates](../release-notes/documentation-
 
 **Other improvements**
 
-In addition to US, Journeys Orchestration is now available in **EMEA**. The application and documentation are available in French and German.
+* In addition to US, Journeys Orchestration is now available in **EMEA**. The application and documentation are available in French and German.
 
-Experience League is now integrated into the product. This simplifies the access to related content and helps you get the most out of Experience Cloud. Direct access to Journey Orchestration documentation is available at the bottom of the Help tab. Additionally, click Help > Feedback to report issues or share your ideas with Adobe.
+* Experience League is now integrated into the product. This simplifies the access to related content and helps you get the most out of Experience Cloud. Direct access to Journey Orchestration documentation is available at the bottom of the Help tab. Additionally, click Help > Feedback to report issues or share your ideas with Adobe.
 
-The **C** keyboard shortcut, which allows you to create a new item, is now available in all list screens: journeys, data sources, actions and events. [Read more](../about/user-interface.md#section_ksq_zr1_ffb)
+* The **C** keyboard shortcut, which allows you to create a new item, is now available in all list screens: journeys, data sources, actions and events. [Read more](../about/user-interface.md#section_ksq_zr1_ffb)
 
-You can now **delete** stopped journeys. Reports associated to these deleted journeys will not be available.
+* You can now **delete** stopped journeys. Reports associated to these deleted journeys will not be available.
 
-When browsing through **XDM fields**, you will now see the display name in addition to the field name. This information is retrieved from the schema definition in the Experience Data Model. When available, the alternate display name appears. This user-friendly description, especially useful in the case of eVar fields, allows you identify your fields more easily. Read more TBD
+* When browsing through **Data Platform fields** (XDM format), you will now see the display name in addition to the field name. This information is retrieved from the schema definition in the Experience Data Model. When available, the alternate display name appears. This user-friendly description, especially useful in the case of eVar fields, allows you identify your fields more easily. Read more TBD
 
 ## GA Release - December 2019 {#ga-release---december-2019}
 
