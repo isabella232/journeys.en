@@ -10,7 +10,7 @@ topic-tags: journeys
 discoiquuid: 5df34f55-135a-4ea8-afc2-f9427ce5ae7b
 ---
 
-# User interface {#concept_rcq_lqt_52b}
+# User interface{#concept_rcq_lqt_52b}
 
 
 >[!CONTEXTUALHELP]
@@ -65,7 +65,7 @@ In the different lists, you can perform basic actions on each element. For examp
 
 ![](../assets/journey4.png)
 
-## XDM Field names display {#friendly-names-display}
+## XDM Field names display{#friendly-names-display}
 
 XDM fields names are defined in schemas under field names and display names when defining [event payload](../event/defining-the-payload-fields.md), [field group payload](../datasource/field-groups.md) and selecting fields in the [expression editor](../expression/expressionadvanced.md).
 When selecting a field, their technical name is displayed as well as a more user-friendly name of the field.
