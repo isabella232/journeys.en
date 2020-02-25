@@ -76,6 +76,10 @@ If a friendly name is available, then the field will be displayed as "<friendly
 
 You can configure friendly name descriptors via an API call. For more information, see the[Schema Registry developer guide](https://www.adobe.io/apis/experienceplatform/home/xdm/xdmservices.html#!api-specification/markdown/narrative/technical_overview/schema_registry/schema_registry_developer_guide.md#defining-descriptors-in-the-api).
 
+>[!NOTE]
+>
+>Friendly names are not retrieved when you select fields from a union of schemas. 
+
 ## Using the different shortcuts{#section_ksq_zr1_ffb}
 
 Here are the different shortcuts available in the Journey Orchestration's interface.
