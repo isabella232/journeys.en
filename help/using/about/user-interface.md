@@ -74,13 +74,11 @@ You can provide descriptors such as "xdm:alternateDisplayInfo" while setting up 
 
 If a friendly name is available, then the field will be displayed as `<friendly-name>(<name>)`. If no friendly name is available, the display name will appear, for example `<friendly-name>(<name>)`. If none of them are defined, only the technical name of the field will be displayed `<name>`. 
 
-You can configure friendly name descriptors via an API call.
-
-For more information, see the [Schema Registry developer guide](https://www.adobe.io/apis/experienceplatform/home/xdm/xdmservices.html#!api-specification/markdown/narrative/technical_overview/schema_registry/schema_registry_developer_guide.md#defining-descriptors-in-the-api).
+You can configure friendly name descriptors via an API call. For more information, see the [Schema Registry developer guide](https://www.adobe.io/apis/experienceplatform/home/xdm/xdmservices.html#!api-specification/markdown/narrative/technical_overview/schema_registry/schema_registry_developer_guide.md).
 
 >[!NOTE]
 >
->Friendly names are not retrieved when you select fields from a union of schemas. 
+>Friendly names are not retrieved when you select fields from a union of schemas.
 
 ## Using the different shortcuts{#section_ksq_zr1_ffb}
 
