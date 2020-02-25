@@ -65,17 +65,14 @@ In the different lists, you can perform basic actions on each element. For examp
 
 ## XDM Field names display {#friendly-names-display}
 
-XDM fields names are defined in schemas under field names and display names when defining event payload, field group payload and selecting fields. 
-When selecting a field, their technical name is displayed as well as a more user-friendly name of the field. 
+XDM fields names are defined in schemas under field names and display names when defining [event payload](../event/defining-the-payload-fields.md), [field group payload](../datasource/field-groups.md) and selecting fields in the [expression editor](../expression/expressionadvanced.md).
+When selecting a field, their technical name is displayed as well as a more user-friendly name of the field.
 
-You can provide descriptors such as "xdm:alternateDisplayInfo" while setting up schemas to define friendly names that will replace display names. It also allows you to modify the "title" and "description" values of the schema fields. 
+You can provide descriptors such as "xdm:alternateDisplayInfo" while setting up schemas to define friendly names that will replace display names. It also allows you to modify the "title" and "description" values of the schema fields.
 
-If a friendly name is available, then the field will be displayed as "<friendly-name> (<name>)". If no friendly name is available, the display name will appear, for example "<friendly-name> (<name>)". If none of them are defined, only the technical name of the field will be displayed "<name>". 
+If a friendly name is available, then the field will be displayed as "<friendly-name>(<name>)". If no friendly name is available, the display name will appear, for example "<friendly-name>(<name>)". If none of them are defined, only the technical name of the field will be displayed "<name>". 
 
-You can configure friendly name descriptors via an API call. For more information, see 
-https://www.adobe.io/apis/experienceplatform/home/xdm/xdmservices.html#!api-specification/markdown/narrative/technical_overview/schema_registry/schema_registry_developer_guide.md#defining-descriptors-in-the-api
-
-Fields names appears when you want to select fields for example in the advanced expression editor. 
+You can configure friendly name descriptors via an API call. For more information, see the[Schema Registry developer guide](https://www.adobe.io/apis/experienceplatform/home/xdm/xdmservices.html#!api-specification/markdown/narrative/technical_overview/schema_registry/schema_registry_developer_guide.md#defining-descriptors-in-the-api).
 
 ## Using the different shortcuts{#section_ksq_zr1_ffb}
 
