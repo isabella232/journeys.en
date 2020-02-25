@@ -18,6 +18,10 @@ Before being able to test your journey, you must resolve all errors if any. See 
 
 You have the possibility to test your journey before its publication, using test profiles. This allows you to analyze how individuals flow in the journey and troubleshoot before publication.
 
+>[!NOTE]
+>
+>In test mode, all wait activities are automatically set to last 5 seconds. This allows you to access the test results quickly.
+
 To use the test mode, follow these steps:
 
 1. Before testing your journey, verify that it is valid and that there is no error. You won’t be able to launch a test of a journey with errors. See [](../about/troubleshooting.md#section_h3q_kqk_fhb). A warning symbol is displayed when there are errors.
@@ -25,10 +29,6 @@ To use the test mode, follow these steps:
 1. To activate the test mode, click on the **[!UICONTROL Test]** toggle, located in the top right corner.
 
     ![](../assets/journeytest1.png)
-
-1. Use the **Wait time in test** parameter, in the bottom left corner, to define the time that each wait activity will last in test mode. The default time is 10 seconds. This will ensure that you get the test results quickly. This parameter only appears if you have dropped one or more wait activities in your journey.
-
-    ![](../assets/journeytest_wait.png)
 
 1. Click **[!UICONTROL Trigger an event]** to configure and send events to the journey. Make sure to send events related to test profiles. See [Firing your events](#firing_events).
 
@@ -56,7 +56,7 @@ The **[!UICONTROL Trigger an event]** button allows you to configure an event th
 
 As a prerequisite, you must know which profiles are flagged as test profiles in the Data Platform. Indeed, the test mode only allows these profiles in the journey and the event must contain an ID. The expected ID depends on the event configuration. It can be an ECID for example.
 
-If your journey contains several events, use the drop-down list to select an event. Then, for each event, configure the fields passed and the execution of the event sending. The interface helps you pass the right information in the event payload and make sure the information type is correct. The test mode saves the last parameters used in a test session for later use. 
+This screen allows you to configure the fields passed in the event and the execution of the event sending. The interface helps you pass the right information in the event payload and make sure the information type is correct. The test mode saves the last parameters used in a test session for later use. 
 
 ![](../assets/journeytest4.png)
 
@@ -71,10 +71,6 @@ A technical user can also use this interface to compose event payloads and trigg
 The **[!UICONTROL Show log]** button allows you to view the test results. This page displays the journey’s current information in JSON format. A button allows you to copy entire nodes. You need to manually refresh the page to update the journey’s test results.
 
 ![](../assets/journeytest3.png)
-
->[!NOTE]
->
->In the test logs, in case of an error when calling a third-party system (data source or action), the error code and error response are displayed.
 
 The number of individuals (technically they are called instances) currently inside the journey are displayed. Here is useful information that is displayed for each individual:
 

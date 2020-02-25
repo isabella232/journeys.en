@@ -33,7 +33,7 @@ You can define a condition if you want to restrict the wait to a certain populat
 >
 >The maximum wait duration is 30 days.
 >
->In test mode, the **Wait time in test** parameter allows you to define the time that each wait activity will last. The default time is 10 seconds. This will ensure that you get the test results quickly. See [](../building-journeys/testing-the-journey.md) 
+>In test mode, all wait activities are automatically set to last 5 seconds. This allows you to access the test results quickly.
 
 ## Duration wait{#duration}
 

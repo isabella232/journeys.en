@@ -20,6 +20,11 @@ You can either use one of the predefined ones or create a new one using the Iden
 
 If you select a schema that has a primary identity, then the **[!UICONTROL Key]** and **[!UICONTROL Namespace]** fields are pre-filled. If there is no identity defined, we select _identityMap > id_ as the primary key. Then you have to select a namespace and the key will be pre-filled (below the **[!UICONTROL Namespace]** field) using _identityMap > id_.
 
+When selecting fields, primary identity fields are tagged. 
+
+![](../assets/primary-identity.png)
+
+
 Select a namespace from the drop-down list.
 
 ![](../assets/journey17.png)
