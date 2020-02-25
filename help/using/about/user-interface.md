@@ -19,7 +19,6 @@ discoiquuid: 5df34f55-135a-4ea8-afc2-f9427ce5ae7b
 >abstract="The journey list allows you to view all your journeys at once, see their status and perform basic actions. You can duplicate, stop or delete your journeys. Depending on the journey, certain actions might not be available. For example, you can't stop or delete a stopped journey. You can also use the search bar to search for a journey."
 >additional-url="https://images-tv.adobe.com/mpcv3/38af62cb-9390-4bc0-a576-d336849adb97_1574809570.1920x1080at3000_h264.mp4" text="Watch demo video"
 
-
 >[!NOTE]
 >
 >To get the best out of Journey Orchestration, we recommend using Chrome as your Internet browser.
@@ -63,6 +62,20 @@ In the event, data source and action configuration panes, the **[!UICONTROL Used
 In the different lists, you can perform basic actions on each element. For example, you can duplicate or delete an item.
 
 ![](../assets/journey4.png)
+
+## XDM Field names display {#friendly-names-display}
+
+XDM fields names are defined in schemas under field names and display names when defining event payload, field group payload and selecting fields. 
+When selecting a field, their technical name is displayed as well as a more user-friendly name of the field. 
+
+You can provide descriptors such as "xdm:alternateDisplayInfo" while setting up schemas to define friendly names that will replace display names. It also allows you to modify the "title" and "description" values of the schema fields. 
+
+If a friendly name is available, then the field will be displayed as "<friendly-name> (<name>)". If no friendly name is available, the display name will appear, for example "<friendly-name> (<name>)". If none of them are defined, only the technical name of the field will be displayed "<name>". 
+
+You can configure friendly name descriptors via an API call. For more information, see 
+https://www.adobe.io/apis/experienceplatform/home/xdm/xdmservices.html#!api-specification/markdown/narrative/technical_overview/schema_registry/schema_registry_developer_guide.md#defining-descriptors-in-the-api
+
+Fields names appears when you want to select fields for example in the advanced expression editor. 
 
 ## Using the different shortcuts{#section_ksq_zr1_ffb}
 
