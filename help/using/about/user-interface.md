@@ -10,7 +10,7 @@ topic-tags: journeys
 discoiquuid: 5df34f55-135a-4ea8-afc2-f9427ce5ae7b
 ---
 
-# User interface {#concept_rcq_lqt_52b}
+# User interface{#concept_rcq_lqt_52b}
 
 
 >[!CONTEXTUALHELP]
@@ -18,7 +18,6 @@ discoiquuid: 5df34f55-135a-4ea8-afc2-f9427ce5ae7b
 >title="About Journey list"
 >abstract="The journey list allows you to view all your journeys at once, see their status and perform basic actions. You can duplicate, stop or delete your journeys. Depending on the journey, certain actions might not be available. For example, you can't stop or delete a journey that is finished. You can also use the search bar to search for a journey."
 >additional-url="https://images-tv.adobe.com/mpcv3/38af62cb-9390-4bc0-a576-d336849adb97_1574809570.1920x1080at3000_h264.mp4" text="Watch demo video"
-
 
 >[!NOTE]
 >
@@ -52,11 +51,13 @@ The **[!UICONTROL Filters]** can be accessed by clicking on the filter icon on t
 
 In the **[!UICONTROL Data Sources]**, **[!UICONTROL Events]** and **[!UICONTROL Actions]** lists, use the **Creation filters** to filter on the creation date and user. You can choose, for example, to only display the events that you created in the past 30 days.
 
-In the journey list (under **[!UICONTROL Home]**), in addition to the **[!UICONTROL Creation filters]**, you can also filter the displayed journeys according to their status and version (**[!UICONTROL Status and version filters]**). You can also choose to only display the journeys that use a particular event, field group or action (**[!UICONTROL Activity filters]** and **[!UICONTROL Data filters]**). The **[!UICONTROL Publication filters]** let you select a publication date or user. You can choose, for example, to only display the latest versions of live journeys that were published yesterday. See [](../building-journeys/using-the-journey-designer.md).
+In the journey list (under **[!UICONTROL Home]**), in addition to the **[!UICONTROL Creation filters]**, you can also filter the displayed journeys according to their status and version (**[!UICONTROL Status and version filters]**). You can also choose to only display the journeys that use a particular event, field group or action (**[!UICONTROL Activity filters]** and **[!UICONTROL Data filters]**).The **[!UICONTROL Publication filters]** let you select a publication date or user. You can choose, for example, to only display the latest versions of live journeys that were published yesterday. See [](../building-journeys/using-the-journey-designer.md).
 
 >[!NOTE]
 >
 >Note that columns displayed can be personalized using the configuration button on the top right of the lists. Personalization is saved for each user.
+
+The **[!UICONTROL Last update]** and **[!UICONTROL Last update by]** columns allow you to display when has the last update of your journeys occured and which user operated it.
 
 ![](../assets/journey74.png)
 
@@ -67,6 +68,21 @@ In the event, data source and action configuration panes, the **[!UICONTROL Used
 In the different lists, you can perform basic actions on each element. For example, you can duplicate or delete an item.
 
 ![](../assets/journey4.png)
+
+## XDM Field names display{#friendly-names-display}
+
+XDM fields names are defined in schemas under field names and display names when defining [event payload](../event/defining-the-payload-fields.md), [field group payload](../datasource/field-groups.md) and selecting fields in the [expression editor](../expression/expressionadvanced.md).
+When selecting a field, their technical name is displayed as well as a more user-friendly name of the field.
+
+You can provide descriptors such as "xdm:alternateDisplayInfo" while setting up schemas to define friendly names that will replace display names. It also allows you to modify the "title" and "description" values of the schema fields.
+
+If a friendly name is available, then the field will be displayed as `<friendly-name>(<name>)`. If no friendly name is available, the display name will appear, for example `<friendly-name>(<name>)`. If none of them are defined, only the technical name of the field will be displayed `<name>`. 
+
+You can configure friendly name descriptors via an API call. For more information, see the [Schema Registry developer guide](https://www.adobe.io/apis/experienceplatform/home/xdm/xdmservices.html#!api-specification/markdown/narrative/technical_overview/schema_registry/schema_registry_developer_guide.md).
+
+>[!NOTE]
+>
+>Friendly names are not retrieved when you select fields from a union of schemas.
 
 ## Using the different shortcuts{#section_ksq_zr1_ffb}
 

@@ -27,6 +27,7 @@ You can also consult the Journey Orchestration [Release Notes](../release-notes/
 * The interface description has been updated with information on contextual help. [Read more](../about/user-interface.md#section_ksq_zr1_ffb)
 * When browsing **XDM fields**, the friendly name is now displayed. Related sections have been updated. [Read more](../event/defining-the-payload-fields.md)
 
+
 ## February 2020 {#february-2020}
 
 * The shortcut section has been udpated. The **C** keyboard shortcut allows you to create a new item in all list screens. [Read more](../about/user-interface.md#section_ksq_zr1_ffb)
