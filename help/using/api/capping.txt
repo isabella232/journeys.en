@@ -1,0 +1,109 @@
+---
+title: Capping API description
+description: Learn more about the Capping API.
+contentOwner: sauviat
+products: journeys
+audience: audiences
+content-type: reference
+topic-tags: journeys
+internal: n
+snippet: y
+---
+
+# Capping
+
+## Introduction
+
+Journey Orchestration's APIs support 5000?10000? event/seconds but some external systems or API could not have an equivalent throughput. That's why Journey Orchestration comes with a dedicated feature called Capping API to monitor and limit the rate that we impose to external systems.
+For example, ...
+
+The capping mechanim is rejecting the API call before attempting it.
+Each time an API call is performed by JO, the capping API is interrogeted, the call comes to the API engine, if there is a limit defined, the call is rejected and the external system will nnot be overloaded.
+
+When the capping API rejects some calls, a 409 error is returned.(Too Many Requests)
+ 
+
+## Authentification
+
+### Setting up API access
+
+Journey Orchestration API access is set up through the steps below. Each of these steps is detailed in the [Adobe IO documentation](https://www.adobe.io/authentication/auth-methods.html#!AdobeDocs/adobeio-auth/master/AuthenticationOverview/ServiceAccountIntegration.md).
+
+>[!CAUTION]
+>
+>To manage certificates in Adobe IO, make sure you have <b>System administrator</b> rights on the organization or a <a href="https://helpx.adobe.com/enterprise/using/manage-developers.html">developer account</a> in the Admin console.
+
+1. **Check you have a digital certificate**, or create one if necessary. The public and private keys provided with the certificate are needed in the following steps.
+1. **Create a new integration to Adobe Campaign Service** in Adobe IO and configure it. Your credentials will then be generated (API Key, Client secret...).
+1. **Create a JSON Web Token (JWT)** from the credentials previously generated and sign it with your private key. The JWT encodes all of the identity and security information that is needed by Adobe to verify your identity and grant you access to the API.
+1. **Exchange your JWT for an Access Token** through a POST request. This Access Token will have to be used in each header of your API requests.
+
+To establish a secure service-to-service Adobe I/O API session, every request to an Adobe service must include in the Authorization header the information below.
+
+```
+
+-X GET https://journey.adobe.io/<ORGANIZATION>/authoring/ \
+-H 'Content-Type: application/json' \
+-H 'Authorization: Bearer <ACCESS_TOKEN>' \
+-H 'Cache-Control: no-cache' \
+-H 'X-Api-Key: <API_KEY>'
+
+```
+
+* **&lt;ORGANIZATION&gt;**: This is your personal ORGANIZATION ID, one ORGANIZATION ID is provided by Adobe for each of your instances :
+
+    * &lt;ORGANIZATION&gt; : your production instance,
+    * &lt;ORGANIZATION-journey-stage&gt;: your stage instance.
+
+    To obtain your ORGANIZATION ID value, refer to your administrator or your Adobe technical contact. You can also retrieve it into Adobe I/O when creating a new integration, in the licenses list (see the <a href="https://www.adobe.io/authentication.html">Adobe IO documentation</a>).
+
+* **<ACCESS_TOKEN>**: Your personal access token, that was retrieved when exchanging your JSON Web Token through a POST request.
+
+* **<API_KEY>**: your personal API Key. It is provided in Adobe I/O after creating a new integration to Adobe Campaign Service.
+
+    ![alt text](assets/tenant.png)
+
+
+## Capping API description
+
+The Capping API proposes to help you to create, configure and monitor your capping configurations.
+
+POST list/endpointConfigs: get a list of the endpoints configuration
+POST /endpointConfigs: Create the configuration of a given endpoint for the current IMS organization
+POST /endpointConfigs/{uid}/deploy: deploy the endpoint configuration
+POST /endpointConfigs/{uid}/undeploy :undeploy the endpoint configuration
+POST /endpointConfigs/{uid}/canDeploy: check the configuration validity
+PUT /endpointConfigs/{uid}: update ann endpoint configuration
+GET /endpointConfigs/{uid}: retrieve an endpoint configuration by its given uid
+DELETE /endpointConfigs/{uid}: delete an enpoint config. Only an undeployed endpoint can be deleted.
+
+
+When a configuration is deployed, a check is automatically performed to guarantee the syntax and the integrity of the payload.
+If some problems occur, the operation returns warning or errors to help you to correct the configuration.
+
+## Endpoint configuration
+
+{
+    "url": "<endpoint URL>",
+    "methods": [ "<HTTP method such as GET, POST, >, ...],
+    "services": {
+        "<service name>": {
+            "strategy": "capping",
+            "maxHttpConnections": <max connections count to the endpoint> (if no value, 0 or <1 = warning, no max connections defined)
+            "rating": {          
+                "maxCallsCount": <max calls to be performed in the period defined by period/timeUnit>,
+                "periodInMs": <integer value greater than 0>
+            }
+        },
+        ...
+    }
+}
+
+
+##Example
+
+I want to modify an existing endpoint config 
+1° list 
+Flag
+ "hasBeenDeployed": true,
+ "strategy": "capping" is mandatory
