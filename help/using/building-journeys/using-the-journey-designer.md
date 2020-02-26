@@ -18,7 +18,7 @@ The journey Home menu allows you to view the **list of journeys**. Create a new 
 
 ## The journey list {#journey_list}
 
-The **journey list** allows you to view all your journeys at once, see their status and perform basic actions. You can duplicate, stop or delete your journeys. Depending on the journey, certain actions might not be available. For example, you can't stop or delete a journey that is finished. You can also use the search bar to search for a journey.
+The **journey list** allows you to view all your journeys at once, see their status and perform basic actions. You can duplicate, stop or delete your journeys. Depending on the journey, certain actions might not be available. For example, you can't stop a stopped journey. You can also use the search bar to search for a journey.
 
 The **[!UICONTROL Filters]** can be accessed by clicking on the filter icon on the top left of the list. The filters menu allows you to filter the displayed journeys according to different criteria (status, the ones you created, the ones modified in the last 30 days, latest versions only etc.). You can also choose to only display the journeys that use a particular event, field group or action. Columns displayed on the list can be configured. All filters and columns are saved per user.
 
@@ -41,12 +41,6 @@ The **palette** is on the left-hand side of the screen. All available activities
 >Note that there are rules when setting up a journey. Unallowed configuration will be discarded. For example, you cannot place actions in parallel, link an activity to a previous step to create a loop, start a journey with something else than an event, etc.
 
  ![](../assets/journey38.png)
-
-The **Show disabled items** icon in the top left corner allows you to hide or display unavailable elements in the palette, for example the events that use a different namespace than the ones used in your journey. By default, unavailable items are hidden. If you choose to display them, they will appear greyed out. 
-
-When using the **Search** field, the number of results is displayed for each canvas activity category.
-
- ![](../assets/palette-filter.png)
 
 ## The canvas {#canvas}
 
@@ -81,7 +75,3 @@ When listening to an event, we recommend that you do not wait for the event inde
 To delete the path, place your cursor on it and click the **[!UICONTROL Delete arrow]** icon.
 
  ![](../assets/journey42ter.png)
-
-In the canvas, when two activities are disconnected, a warning is displayed. Place your cursor on the warning icon to display the error message. To fix the issue, simply move the disconnected activity and connect it to the previous activity.
-
- ![](../assets/canvas-disconnected.png)
