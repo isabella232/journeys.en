@@ -16,7 +16,7 @@ discoiquuid: 5df34f55-135a-4ea8-afc2-f9427ce5ae7b
 >[!CONTEXTUALHELP]
 >id="jo_home"
 >title="About Journey list"
->abstract="The journey list allows you to view all your journeys at once, see their status and perform basic actions. You can duplicate, stop or delete your journeys. Depending on the journey, certain actions might not be available. For example, you can't stop or delete a stopped journey. You can also use the search bar to search for a journey."
+>abstract="The journey list allows you to view all your journeys at once, see their status and perform basic actions. You can duplicate, stop or delete your journeys. Depending on the journey, certain actions might not be available. For example, you can't stop or delete a journey that is finished. You can also use the search bar to search for a journey."
 >additional-url="https://images-tv.adobe.com/mpcv3/38af62cb-9390-4bc0-a576-d336849adb97_1574809570.1920x1080at3000_h264.mp4" text="Watch demo video"
 
 
@@ -36,9 +36,13 @@ You can also access Journey Orchestration from the Experience Cloud home page, i
 
 ![](../assets/journey1bis.png)  
 
-The top menus allows you to navigate through the different functionalities of Journey Orchestration: **[!UICONTROL Home]**(the journeys),**[!UICONTROL Data Sources]**, **[!UICONTROL Events]**, **[!UICONTROL Actions]**.
+The top menus allow you to navigate through the different functionalities of Journey Orchestration: **[!UICONTROL Home]**(the journeys),**[!UICONTROL Data Sources]**, **[!UICONTROL Events]**, **[!UICONTROL Actions]**.
 
 ![](../assets/journey2.png)  
+
+Click the ![](../assets/icon-context.png) icon in the upper-right corner of the screen to display the contextual help. It is available across the different Journey Orchestration list screens (journeys, events, actions and data sources). This allows you to view a quick description of the current functionality and access related articles and videos. 
+
+![](../assets/journey2bis.png)  
 
 ## Searching and filtering{#section_lgm_hpz_pgb}
 
