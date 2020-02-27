@@ -72,7 +72,7 @@ When selecting a field, their technical name is displayed as well as a more user
 
 You can provide descriptors such as "xdm:alternateDisplayInfo" while setting up schemas to define friendly names that will replace display names. It also allows you to modify the "title" and "description" values of the schema fields.
 
-If a friendly name is available, then the field will be displayed as `<friendly-name>(<name>)`. If no friendly name is available, the display name will appear, for example `<friendly-name>(<name>)`. If none of them are defined, only the technical name of the field will be displayed `<name>`.
+If a friendly name is available, then the field will be displayed as `<friendly-name>(<name>)`. If no friendly name is available, the display name will appear, for example `<display-name>(<name>)`. If none of them are defined, only the technical name of the field will be displayed `<name>`.
 
 You can configure friendly name descriptors via an API call. For more information, see the [Schema Registry developer guide](https://www.adobe.io/apis/experienceplatform/home/xdm/xdmservices.html#!api-specification/markdown/narrative/technical_overview/schema_registry/schema_registry_developer_guide.md).
 
