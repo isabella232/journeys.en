@@ -20,6 +20,10 @@ If you plan to leverage data stored in the Real-time Customer Profile database, 
 
 It will allow the system to perform the reconciliation between the event and the individual's profile. If you select a schema that has a primary identity, then the **[!UICONTROL Key]** and **[!UICONTROL Namespace]** fields are pre-filled. If there is no identity defined, we select _identityMap > id_ as the primary key. Then you have to select a namespace and the key will be pre-filled (below the **[!UICONTROL Namespace]** field) using _identityMap > id_.
 
+When selecting fields, primary identity fields are tagged. 
+
+![](../assets/primary-identity.png)
+
 If you need to use a different key, such as a CRM ID or an email address, you need to add it manually:
 
 1. Click inside the **[!UICONTROL Key]** field or on the pencil icon.

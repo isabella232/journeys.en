@@ -15,9 +15,11 @@ snippet: y
 
 # Field groups {#concept_ntl_ypt_52b}
 
+Field groups are sets of fields that you can retrieve from a data source and use in a journey.
+
 ## Defining field groups {#section_dsz_kjd_fjb}
 
-For each data source, you can define several field groups, each of them with a specific cache duration. They allow you to choose the fields to retrieve from the data source to be used in your journeys.
+For each data source, you can define several field groups, each of them with a specific cache duration.
 
 For example, you can create a field group with the telephone number, the email, the first name and the address of the profile. You will then be able to use this data in your journey to create conditions. For example, you can decide to send an SMS only if the profile's telephone number is not empty. If it is empty, you can send an email.
 
