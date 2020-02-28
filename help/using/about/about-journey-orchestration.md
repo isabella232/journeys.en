@@ -44,4 +44,3 @@ As Journey Orchestration is multistep, you can create advanced scenarios. For ex
 >[!NOTE]
 >
 >This documentation is frequently updated to reflect recent changes in the product. However, some screenshots can slightly differ from the product's interface. 
-
