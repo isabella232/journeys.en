@@ -75,7 +75,7 @@ You can also consult the [Documentation Updates](../release-notes/documentation-
 <td>
 <p>The journey <strong>palette</strong>, on the left side of the journey designer has been enhanced:</p>
 <ul>
-<li>A new icon, next to the **Search** bar, allows you to hide or display unavailable elements in the palette, for example the events that use a different namespace than the ones used in your journey. By default, unavailable items are hidden.</li>
+<li>A new icon, next to the <strong>Search</strong>  bar, allows you to hide or display unavailable elements in the palette, for example the events that use a different namespace than the ones used in your journey. By default, unavailable items are hidden.</li>
 <li>When using the <strong>Search</strong> field, the number of results for each canvas activity category is now displayed.</li>
 <li>The navigation between the different activity categories has been improved.</li>
 </ul>
