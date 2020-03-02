@@ -39,7 +39,7 @@ Returns an integer.
 
 ## Example
 
-`indexOf("Hello, "l"))`
+`indexOf("Hello", "l")`
 
 Returns 2.
 
