@@ -80,7 +80,7 @@ In case of a GET call requiring parameter(s), you enter the parameter(s) in the 
 * specify them also with the exact same syntax in the body of the sent payload. To do so, you need to add: "param": “name of your parameter” (in the example below: “identifier”). Follow the syntax below:
 
     ```
-    {“id”:{“param”:“identifier”}}
+    {"id":{"param":"identifier"}}
     ```
 
 ![](../assets/journey29.png)
@@ -138,7 +138,7 @@ The format of this authentication is:
     (optional, mandatory if authorizationType is 'header' or 'queryParam') "tokenTarget": "<name of the header or queryParam if the authorizationType is 'header' or 'queryParam'>",
     "endpoint": "<URL of the authentication endpoint>",
     "method": "<HTTP method to call the authentication endpoint, in 'GET' or 'POST'>",
-    (optional) "headers: {
+    (optional) "headers": {
         "<header name>": "<header value>",
         ...
     },
