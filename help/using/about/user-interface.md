@@ -12,20 +12,13 @@ discoiquuid: 5df34f55-135a-4ea8-afc2-f9427ce5ae7b
 
 # User interface{#concept_rcq_lqt_52b}
 
-
->[!CONTEXTUALHELP]
->id="jo_home"
->title="About Journey list"
->abstract="The journey list allows you to view all your journeys at once, see their status and perform basic actions. You can duplicate, stop or delete your journeys. Depending on the journey, certain actions might not be available. For example, you can't restart a journey that is finished. You can create a new version from it or duplicate it. You can also use the search bar to search for a journey."
->additional-url="https://images-tv.adobe.com/mpcv3/38af62cb-9390-4bc0-a576-d336849adb97_1574809570.1920x1080at3000_h264.mp4" text="Watch demo video"
-
 >[!NOTE]
 >
 >To get the best out of Journey Orchestration, we recommend using Chrome as your Internet browser.
 >
 >This documentation is frequently updated to reflect recent changes in the product. However, some screenshots can slightly differ from the product's interface.
 
-## Discovering the interface{#section_jsq_zr1_ffb}
+## Accessing Journey Orchestration{#accessing_journey_orchestration}
 
 To access the Journey Orchestration's interface, click the **[!UICONTROL App Selector]** icon, in the top right. Then click **[!UICONTROL Journey Orchestration]**, on the right side, below "Experience Platform".
 
@@ -34,6 +27,14 @@ To access the Journey Orchestration's interface, click the **[!UICONTROL App Sel
 You can also access Journey Orchestration from the Experience Cloud home page, in the **[!UICONTROL Quick access]** section.
 
 ![](../assets/journey1bis.png)  
+
+## Discovering the interface{#section_jsq_zr1_ffb}
+
+>[!CONTEXTUALHELP]
+>id="jo_home"
+>title="About Journey list"
+>abstract="The journey list allows you to view all your journeys at once, see their status and perform basic actions. You can duplicate, stop or delete your journeys. Depending on the journey, certain actions might not be available. For example, you can't delete or restart a journey that is finished. You can create a new version from it or duplicate it. You can also use the search bar to search for a journey."
+>additional-url="https://images-tv.adobe.com/mpcv3/38af62cb-9390-4bc0-a576-d336849adb97_1574809570.1920x1080at3000_h264.mp4" text="Watch demo video"
 
 The top menus allow you to navigate through the different functionalities of Journey Orchestration: **[!UICONTROL Home]**(the journeys),**[!UICONTROL Data Sources]**, **[!UICONTROL Events]**, **[!UICONTROL Actions]**.
 
