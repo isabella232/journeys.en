@@ -20,13 +20,9 @@ You can also consult the Journey Orchestration [Release Notes](../release-notes/
 ## March 2020 {#march-2020}
 
 * The limitations on custom actions used in a journey have been updated. You can also modify the **URL** field and the **Authentication** parameters. [Read more](../action/about-custom-action-configuration.md)
-
-* New contexual help entries have been added. The custom authentication payload pane (in actions and data sources) now includes a help icon that links to this [section](../datasource/external-data-sources.md#custom-authentication-modesection_wjp_nl5_nhb). The Journey list help icon now also links to this [section](../building-journeys/using-the-journey-designer.md#the-journey-list-journey_list).
-
+* New contexual help entries have been added. The custom authentication payload pane (in actions and data sources) now includes a help icon that links to this [section](../datasource/external-data-sources.md#section_wjp_nl5_nhb). The Journey list help icon now also links to this [section](../building-journeys/using-the-journey-designer.md#journey_list).
 * Finished journeys can now be stopped. [Read more](../building-journeys/using-the-journey-designer.md)
-
 * The interface description section has been reorganized. [Read more](../about/user-interface.md)
-
 * The triggering of multiple events has been added to the Test mode section [Read more](../building-journeys/testing-the-journey.md#firing_events)
 * The Test mode section has been updated regarding the new **Wait time in test** parameter. [Read more](../building-journeys/testing-the-journey.md)
 * The Test log section has been updated with external call error codes and responses. [Read more](../building-journeys/testing-the-journey.md#viewing_logs)
