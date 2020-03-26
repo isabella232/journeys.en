@@ -94,7 +94,7 @@ The data source is now configured and ready to be used in your journeys, for exa
 >[!CONTEXTUALHELP]
 >id="jo_authentication_payload"
 >title="About custom authentication"
->abstract="The custom authentication mode is used for complex authentication to call API wrapping protocols such as OAuth2. The action execution is a two-step process: First, a call to the endpoint is performed to generate the access token. Then, the access token is injected in the the HTTP request of the action."
+>abstract="The custom authentication mode is used for complex authentication to call API wrapping protocols such as OAuth2. The action execution is a two-step process. First, a call to the endpoint is performed to generate the access token. Then, the access token is injected in the the HTTP request of the action."
 
 This authentication mode is used for complex authentication, frequently used to call API wrapping protocols such as OAuth2, to retrieve an access token to be injected in the real HTTP request for the action.
 
