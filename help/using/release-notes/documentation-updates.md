@@ -19,6 +19,7 @@ You can also consult the Journey Orchestration [Release Notes](../release-notes/
 
 ## March 2020 {#march-2020}
 
+* Added parameter descriptions for _actionExecutionErrors_ and _fetchErrors_ in test logs section. [Read more](../action/testing-the-journey.md#viewing_logs)
 * The limitations on custom actions used in a journey have been updated. You can also modify the **URL** field and the **Authentication** parameters. [Read more](../action/about-custom-action-configuration.md)
 * New contexual help entries have been added. The custom authentication payload pane (in actions and data sources) now includes a help icon that links to this [section](../datasource/external-data-sources.md#section_wjp_nl5_nhb). 
 * Finished journeys can now be stopped. [Read more](../building-journeys/using-the-journey-designer.md)
