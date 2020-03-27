@@ -82,7 +82,9 @@ The number of individuals (technically they are called instances) currently insi
 * _currentstep_: the step where the individual is at in the journey. We recommend adding labels to your activities to identify them more easily.
 * _currentstep_ > phase: the status of the individual’s journey (running, finished, error or timed out). See below for more information.
 * _currentstep_ > _extraInfo_: description of the error and other contextual information.
+* _currentstep_ > _fetchErrors_: information on fetch data errors that occurred during this step.
 * _externalKeys_: the value for the key formula defined in the event.
 * _enrichedData_: the data that the journey has retrieved if the journey uses data sources.
 * _transitionHistory_: the list of steps that the individual followed. For events, the payload is displayed.
+* _actionExecutionErrors_ : information on the errors that occurred.
 
