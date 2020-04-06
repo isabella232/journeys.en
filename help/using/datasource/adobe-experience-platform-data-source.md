@@ -14,7 +14,7 @@ snippet: y
 
 # Adobe Experience Platform data source {#concept_zrb_nqt_52b}
 
-The Experience Platform data source defines the connection to the Real-time Customer Profile Service. This data source is built-in and pre-configured. It cannot be deleted. This data source is designed to retrieve and use data from the Real-time Customer Profile Service (for example, check if the person who entered a journey is a female). It allows you to use Profile data and Experience Events data. For more information on the Real-time Customer Profile Service, refer to this [page](https://www.adobe.io/apis/cloudplatform/dataservices/profile-identity-segmentation/profile-identity-segmentation-services.html#!api-specification/markdown/narrative/technical_overview/unified_profile_architectural_overview/unified_profile_architectural_overview.md).
+The Experience Platform data source defines the connection to the Real-time Customer Profile Service. This data source is built-in and pre-configured. It cannot be deleted. This data source is designed to retrieve and use data from the Real-time Customer Profile Service (for example, check if the person who entered a journey is a female). It allows you to use Profile data and Experience Events data. For more information on the Real-time Customer Profile Service, refer to this [page](https://docs.adobe.com/content/help/en/experience-platform/profile/home.html).
 
 >[!NOTE]
 >

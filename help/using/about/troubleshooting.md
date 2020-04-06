@@ -42,7 +42,7 @@ The starting point of a journey is always an event. You can perform tests using 
 
 You can check if the API call you send through these tools is sent correctly or not. If you get an error back, it means that your call has an issue. Check the payload again, the header (and especially the organization ID) and the destination URL. You can ask your administrator what is the right URL to hit.
 
-Events are not pushed directly from the source to Journey Orchestration. Indeed, Journey Orchestration relies on Experience Platform’s streaming ingestion APIs. As a result, in case of event related issues, you can refer to this [page](https://www.adobe.io/apis/experienceplatform/home/data-ingestion/data-ingestion-services.html#!api-specification/markdown/narrative/technical_overview/streaming_ingest/streaming_ingestion_FAQ.md) for Streaming ingestion APIs troubleshooting.
+Events are not pushed directly from the source to Journey Orchestration. Indeed, Journey Orchestration relies on Experience Platform’s streaming ingestion APIs. As a result, in case of event related issues, you can refer to this [page](https://docs.adobe.com/content/help/en/experience-platform/ingestion/streaming/troubleshooting.html) for Streaming ingestion APIs troubleshooting.
 
 ## Checking if people enter the journey{#section_x4v_zzs_dgb}
 
