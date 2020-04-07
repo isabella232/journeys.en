@@ -23,6 +23,9 @@ Learn how to configure the events that your journeys will listen to.
 * **[Grant access to Journey Orchestration](using/about/access-management.md)**<br/>
 Find out how to manage your users' access with product profiles and rights. 
 
+* **[Discover what's new](using/release-notes/release-notes.md)**<br/>
+Find out details about the lastest releases. 
+
 ## Top pages
 
  <table>
@@ -62,9 +65,9 @@ Find out how to manage your users' access with product profiles and rights.
 
 ## Additional Resources
 
-* [Experience Platform](https://www.adobe.com/experience-platform/documentation-and-developer-resources.html)
-* [Real-time Customer Profile](https://www.adobe.io/apis/cloudplatform/dataservices/profile-identity-segmentation/profile-identity-segmentation-services.html#!api-specification/markdown/narrative/technical_overview/unified_profile_architectural_overview/unified_profile_architectural_overview.md)
-* [Experience Cloud XDM field definition](https://www.adobe.io/apis/cloudplatform/dataservices/xdm.html)
-* [Identity Namespace](https://www.adobe.io/apis/cloudplatform/dataservices/profile-identity-segmentation/profile-identity-segmentation-services.html#!api-specification/markdown/narrative/technical_overview/identity_namespace_overview/identity_namespace_overview.md)
-* [Streaming Ingestion APIs](https://www.adobe.io/apis/cloudplatform/dataservices/data-ingestion/data-ingestion-services.html#!api-specification/markdown/narrative/technical_overview/streaming_ingest/getting_started_with_platform_streaming_ingestion.md)
-* [Adobe Campaign Standard transactional messaging](https://docs.adobe.com/content/help/en/campaign-standard/using/communication-channels/transactional-messaging/about-transactional-messaging.html)
+* [Experience Platform documentation](https://www.adobe.com/experience-platform/documentation-and-developer-resources.html)
+* [Real-time Customer Profile documentation](https://docs.adobe.com/content/help/en/experience-platform/profile/home.html)
+* [Experience Cloud XDM field definition](https://docs.adobe.com/content/help/en/experience-platform/xdm/home.html)
+* [Identity Namespace documentation](https://docs.adobe.com/content/help/en/experience-platform/identity/home.html)
+* [Streaming Ingestion APIs](https://docs.adobe.com/content/help/en/experience-platform/ingestion/streaming/overview.html)
+* [Campaign Standard transactional messaging documentation](https://docs.adobe.com/content/help/en/campaign-standard/using/communication-channels/transactional-messaging/about-transactional-messaging.html)

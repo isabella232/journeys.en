@@ -21,7 +21,7 @@ snippet: y
 
 To configure events to be sent to **[!UICONTROL Streaming Ingestion APIs]** and to be used in Journey Orchestration, you need to follow these steps:
 
-1. Get the inlet URL from the Data Platform APIs (see [Streaming Ingestion APIs](https://www.adobe.io/apis/cloudplatform/dataservices/data-ingestion/data-ingestion-services.html#!api-specification/markdown/narrative/technical_overview/streaming_ingest/getting_started_with_platform_streaming_ingestion.md)).
+1. Get the inlet URL from the Data Platform APIs (see [Streaming Ingestion APIs](https://docs.adobe.com/content/help/en/experience-platform/ingestion/streaming/overview.html)).
 1. Copy the payload from the payload preview in the **[!UICONTROL Event]** menu. See [](../event/defining-the-payload-fields.md).
 
 You then need to configure the data system that pushes events to Streaming Ingestion APIs using the payload you copied:
@@ -91,4 +91,4 @@ Here is an example of a Streaming Ingestion APIs event:
 
 To facilitate the identification of the place where to paste the "data" part, you can use a JSON visualization tool such as [https://jsonformatter.curiousconcept.com](https://jsonformatter.curiousconcept.com)
 
-To troubleshoot Streaming Ingestion APIs, refer to this [page](https://www.adobe.io/apis/experienceplatform/home/data-ingestion/data-ingestion-services.html#!api-specification/markdown/narrative/technical_overview/streaming_ingest/streaming_ingestion_FAQ.md).
+To troubleshoot Streaming Ingestion APIs, refer to this [page](https://docs.adobe.com/content/help/en/experience-platform/ingestion/streaming/troubleshooting.html).
