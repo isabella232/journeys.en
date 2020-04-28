@@ -19,6 +19,7 @@ index: yes
   + [Troubleshooting](using/about/troubleshooting.md)
 + Configuring an event {#events-journeys}
   + [About events](using/event/about-events.md)
+  + [About ExperienceEvent Schemas](using/event/experience-event-schema.md)
   + [Defining the payload fields](using/event/defining-the-payload-fields.md)
   + [Selecting the namespace](using/event/selecting-the-namespace.md)
   + [Defining the event key](using/event/defining-the-event-key.md)
