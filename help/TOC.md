@@ -69,6 +69,7 @@ index: yes
       + [Field references](using/expression/field-references.md)
       + [Collection management functions](using/expression/collection-management-functions.md)
       + [Operators](using/expression/operators.md)
+      + [Examples](using/expression/advanced-editor-use-cases.md)
   + Functions {#main-functions-journey}
     + [Main Functions](using/expression/functions.md)
     + Adobe Experience Platform {#adobe-experience-platform}
