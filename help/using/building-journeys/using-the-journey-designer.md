@@ -85,3 +85,5 @@ To delete the path, place your cursor on it and click the **[!UICONTROL Delete a
 In the canvas, when two activities are disconnected, a warning is displayed. Place your cursor on the warning icon to display the error message. To fix the issue, simply move the disconnected activity and connect it to the previous activity.
 
  ![](../assets/canvas-disconnected.png)
+
+ ## Copying and pasting activities {#copy-paste}

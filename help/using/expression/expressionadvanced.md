@@ -26,7 +26,6 @@ _The advanced expression editor interface_
 The advanced expression editor can be used to:
 
 * create [advanced conditions](../building-journeys/condition-activity.md#about_condition) on data sources and event information
-* define custom [time zones](../building-journeys/timezone-management.md) in date conditions, fixed date wait activities, custom wait activities
 * define custom [wait activities](../building-journeys/wait-activity.md#custom)
 * define action parameters mapping
 
@@ -46,7 +45,7 @@ You can access the advanced expression editor in different ways:
 
     ![](../assets/journeyuc2_33.png)
 
-* When you create a custom time zone or a custom timer, the advanced editor will be directly displayed.
+* When you create a custom timer, the advanced editor will be directly displayed.
 * When you map action parameter, click on **[!UICONTROL Advanced mode]**.
 
 ## Discovering the interface{#section_otq_tnj_cjb}
