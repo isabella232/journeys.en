@@ -66,7 +66,7 @@ The interface allows you to pass simple event parameters. If you want to pass co
 
 A technical user can also use this interface to compose event payloads and trigger events without having to use a third-party tool.
 
-When clicking the **Send** button, the test begins. The progression of the individual in the journey is represented by a visual flow. The path progressively turns green as the indivudial moves across the journey. If an error occurs, a warning symbol is displayed on the corresponding step. You can place the cursor on it to display more information about the error and access full details (when available). The visual flow starts again each time you run the test. When opening a journey in test, the displayed path corresponds to the last test executed.
+When clicking the **Send** button, the test begins. The progression of the individual in the journey is represented by a visual flow. The path progressively turns green as the individual moves across the journey. If an error occurs, a warning symbol is displayed on the corresponding step. You can place the cursor on it to display more information about the error and access full details (when available). The visual flow starts again each time you run the test. When opening a journey in test, the displayed path corresponds to the last test executed.
 
 ![](../assets/journeytest6.png)
 
