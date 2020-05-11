@@ -93,10 +93,11 @@ In the canvas, when two activities are disconnected, a warning is displayed. Pla
  **Important notes**
 
  * You can copy/paste across different tabs and browsers. You can only copy/paste activities within the same instance. 
- * There is no restriction to which activities you can copy/paste. Pasted activities may reference data that no not exist in the destination journey, for example if you copy/paste accross different sandboxes. Always perform a verification and make the required adjustements. 
+ * You cannot only copy/paste an event if the destination journey has an event that used a different namespace.
+ * Pasted activities may reference data that no not exist in the destination journey, for example if you copy/paste accross different sandboxes. Always check for errors and make the required adjustements. 
  * Be aware that you cannot undo an action. To delete pasted activities, you will need to select and delete them. Therefore, make sure you only select the activities you need before copying them.
  * You can copy activities from any journey, even ones that are in read-only.
- * You can select any activity, even ones that are not linked.
+ * You can select any activity, even ones that are not linked. Linked activities will stay linked after being pasted.
 
  Here are the steps to copy/paste activities:
 
