@@ -17,6 +17,38 @@ snippet: y
 This page lists all the new features and improvements for Journey Orchestration.
 You can also consult the [Documentation Updates](../release-notes/documentation-updates.md).
 
+## Q2 Release - June 2020 {#q2-release---june-2020}
+
+**Platform integration enhancements**
+
+A new activity allows the listening of Platform segment entrance/exit to make people enter or move forward in a journey. 
+
+Platform segments can now be created and edited without leaving the Journey Orchestration interface, thanks to a new "Segments" tab.  
+
+In the simple expression editor, Platform segments are now directly listed in the navigation tree to allow easy setup of conditions such as "does this person belongs to segment A?"
+ 
+Journey Orchestration is now passing automatically the path of people in journeys, including potential errors encountered to the Adobe Data Platform. This information can used for analysis or segmentation purposes.
+
+Journey Orchestration can now be connected to non-production Platform Sandbox. 
+
+**Journey designer and test mode enhancements**
+
+You can now copy paste activities from one journey to another, selecting 1 or N journey activities.
+
+The "Finished" journey state has been nenamed "Closed" to better reflect what this state means.  
+
+After firing an event to make a test profile enter a journey, you can now see its progress along the journey thanks to a colored visual flow. In case of error in the journey, details of errors are also displayed. 
+
+**Event, data source and action enhancements**
+
+A new type of events allows the creation of events that no longer need an event id. This new type complements the current event type, where the the id is required and generated with Journey Orchestration. 
+
+To avoid sending too many API calls to third-party systems, we introduce a new public API to setup "capping" rules. Capping rules allow the definition of a maximum number of calls to an API endpoint per millisecond. 
+
+**Other improvements**
+
+Journey Orchestration is now available in APAC (Australian data centers) and the intrerface is available in Japanese.
+
 ## Q1 Release - March 2020 {#q1-release---march-2020}
 
 **What's new?**
