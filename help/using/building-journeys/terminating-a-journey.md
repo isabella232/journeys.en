@@ -18,13 +18,13 @@ The **[!UICONTROL Stop]** and **[!UICONTROL Finish]** options allow you to termi
 
 >[!NOTE]
 >
->Note that you cannot resume a finished or stopped journey.
+>Note that you cannot resume a closed or stopped journey.
 
 ## Finishing a journey
 
 You can finish a journey manually to ensure that customers who already entered the journey can finish their path but new users are not able to enter the journey.
 
-A finished journey version cannot be restarted or deleted. You can create a new version of it or duplicate it.
+A closed journey version cannot be restarted or deleted. You can create a new version of it or duplicate it.
 
 You can stop a journey by clicking **[!UICONTROL Finish]** while hovering over a journey in the list of journeys.
 

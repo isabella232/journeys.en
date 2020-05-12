@@ -25,7 +25,7 @@ You can change the name of the journey, add a description, allow re-entrance, ch
 
 By default, new journeys allow re-entrance. You can uncheck the option for “one shot” journeys, for example if you want to offer a one-time gift when a person enters a shop. In that case, you don't want the customer to be able to re-enter the journey and receive the offer again.
 
-When a journey "ends", it will have the status **[!UICONTROL Finished]**. The journey will stop letting new individuals enter the journey. Persons already in the journey will finish the journey normally.
+When a journey "ends", it will have the status **[!UICONTROL Closed (no entrance)]**. The journey will stop letting new individuals enter the journey. Persons already in the journey will finish the journey normally.
 
 ## Timeout and error in journey activitites {#timeout_and_error}
 
