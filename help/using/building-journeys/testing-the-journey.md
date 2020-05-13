@@ -92,3 +92,9 @@ The number of individuals (technically they are called instances) currently insi
 * _transitionHistory_: the list of steps that the individual followed. For events, the payload is displayed.
 * _actionExecutionErrors_ : information on the errors that occurred.
 
+Here are the different statuses of an individual's journey:
+
+* _Running_: the individual is currently in the journey.
+* _Finished_: the individual is at the end of the journey.
+* _Error_: the individual is stopped in the journey because of an error.
+* _Timed out_: the individual is stopped in the journey because of a step which took too much time.
