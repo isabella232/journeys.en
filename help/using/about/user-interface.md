@@ -14,7 +14,7 @@ discoiquuid: 5df34f55-135a-4ea8-afc2-f9427ce5ae7b
 
 >[!NOTE]
 >
->To get the best out of Journey Orchestration, we recommend using Chrome as your Internet browser.
+>To get the best out of Journey Orchestration, we recommend using Chrome as your Internet browser. The interface is displayed in the language defined in IMS. If your IMS language is not supported by Journey Orchestration, the interface is displayed in English. 
 >
 >This documentation is frequently updated to reflect recent changes in the product. However, some screenshots can slightly differ from the product's interface.
 
