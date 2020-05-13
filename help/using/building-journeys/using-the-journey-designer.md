@@ -93,8 +93,8 @@ In the canvas, when two activities are disconnected, a warning is displayed. Pla
  **Important notes**
 
  * You can copy/paste across different tabs and browsers. You can only copy/paste activities within the same instance. 
- * You can copy/paste an event if the destination journey has an event that uses a different namespace.
- * Pasted activities may reference data that no not exist in the destination journey, for example if you copy/paste across different sandboxes. Always check for errors and make the required adjustments. 
+ * You can not copy/paste an event if the destination journey has an event that uses a different namespace.
+ * Pasted activities may reference data that do not exist in the destination journey, for example if you copy/paste across different sandboxes. Always check for errors and make the required adjustments. 
  * Be aware that you cannot undo an action. To delete pasted activities, you will need to select and delete them. Therefore, make sure you only select the activities you need before copying them.
  * You can copy activities from any journey, even ones that are in read-only.
  * You can select any activity, even ones that are not linked. Linked activities will stay linked after being pasted.
@@ -111,7 +111,7 @@ In the canvas, when two activities are disconnected, a warning is displayed. Pla
 
    ![](../assets/copy-paste2.png)
 
- 1. In any journey, press **Ctrl/Command + V** to paste the activities without linking them to an existing node. Pasted activities are placed in the same order. After being pasted, activities stay selected so you can easily move them. You can also place the cursor on an empty place holder at the end of a disconnected node and hit **Ctrl/Command + V**. Pasted activities will be linked to the node. 
+ 1. In any journey, press **Ctrl/Command + V** to paste the activities without linking them to an existing node. Pasted activities are placed in the same order. After being pasted, activities stay selected so you can easily move them. You can also place the cursor on an empty place holder and hit **Ctrl/Command + V**. Pasted activities will be linked to the node. 
 
    ![](../assets/copy-paste3.png)
 

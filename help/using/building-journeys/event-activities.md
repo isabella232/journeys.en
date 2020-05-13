@@ -67,7 +67,7 @@ Let's say you have a "silver customer" segment. With this activity, you can make
 
 This type of event can be positioned as the first step or later in the journey.
 
-If the segment is streamed, entrance is received in real time. If the segment is not streamed, segments are received at calculation time.
+If the segment is streamed with the High Frequency Audiences option of Platform, entrance and exits are listened to in real time. If the segment is not streamed, entrances and exits are taken into account at segment calculation time.
 
 1. Unfold the **Events** category and drop a **Segment qualification** activity into your canvas.
 
