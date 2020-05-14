@@ -21,21 +21,21 @@ You can also consult the [Documentation Updates](../release-notes/documentation-
 
 **Platform integration enhancements**
 
-A new activity allows the listening of Platform segment entrance/exit to make people enter or move forward in a journey. 
+A new activity allows the listening of Platform segment entrances/exits to make people enter or move forward in a journey. [Read more](../building-journeys/event-activities.md#segment-qualification).
 
-Platform segments can now be created and edited without leaving the Journey Orchestration interface, thanks to a new "Segments" tab.  
+Platform segments can now be created and edited without leaving the Journey Orchestration interface, thanks to a new **Segments** tab. [Read more](../segment/about-segments.md). 
 
-In the simple expression editor, Platform segments are now directly listed in the navigation tree to allow easy setup of conditions such as "does this person belongs to segment A?"
+In the simple expression editor, Platform segments are now directly listed in the navigation tree to allow easy setup of conditions such as "does this person belongs to segment A?". [Read more](../segment/using-a-segment.md).
  
-Journey Orchestration is now passing automatically the path of people in journeys, including potential errors encountered to the Adobe Data Platform. This information can used for analysis or segmentation purposes.
+Journey Orchestration is now automatically passing the steps followed by individuals in journeys to the Adobe Data Platform. This includes potential errors encountered. This information can be used for analysis or segmentation purposes.
 
-Journey Orchestration can now be connected to non-production Platform Sandbox. 
+--SHIFT-- Journey Orchestration can now be connected to non-production Platform Sandbox. 
 
 **Journey designer and test mode enhancements**
 
-You can now copy paste activities from one journey to another, selecting 1 or N journey activities.
+You can now copy paste activities from one journey to another, selecting 1 or N journey activities. [Read more](../building-journeys/using-the-journey-designer.md#copy-paste).
 
-The "Finished" journey state has been nenamed "Closed" to better reflect what this state means.  
+The **Finished** journey state has been nenamed **Closed (no entrance)** to better reflect what this state means.  
 
 After firing an event to make a test profile enter a journey, you can now see its progress along the journey thanks to a colored visual flow. In case of error in the journey, details of errors are also displayed. 
 

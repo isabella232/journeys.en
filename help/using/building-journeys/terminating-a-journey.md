@@ -26,7 +26,7 @@ You can close a journey manually to ensure that customers who already entered th
 
 A closed journey version cannot be restarted or deleted. You can create a new version of it or duplicate it.
 
-You can stop a journey by clicking **[!UICONTROL Close to new entrances]** while hovering over a journey in the list of journeys.
+You can close a journey by clicking **[!UICONTROL Close to new entrances]** while hovering over a journey in the list of journeys.
 
 ![](../assets/do-not-localize/journey-finish-quick-action.png)
 
@@ -46,7 +46,7 @@ You can stop a journey when an emergency occurred and all processing needs to be
 
 A stopped journey version cannot be restarted.
 
-You can stop a journey when an emergency occurred (for example if a marketer realizes that the journey targets the wrong audience or a custom action supposed to deliver messages is not working correctly…) by clicking **[!UICONTROL Stop]** while hovering over a journey in the list of journeys.
+You can stop a journey (for example if a marketer realizes that the journey targets the wrong audience or a custom action supposed to deliver messages is not working correctly…) by clicking **[!UICONTROL Stop]** while hovering over a journey in the list of journeys.
 
 ![](../assets/do-not-localize/journey-stop-quick-action.png)
 
