@@ -17,7 +17,9 @@ snippet: y
 
 You can either create a segment using the [Platform Segmentation Service](https://docs.adobe.com/content/help/en/experience-platform/segmentation/home.html) or you can access and create them directly in Journey Orchestration.
 
-1. In the top menu, click on the **[!UICONTROL Segments]** tab. The list of Platform segements is displayed. You can search for a specific segment in the list.
+1. In the top menu, click on the **[!UICONTROL Segments]** tab. The list of Platform segments is displayed. You can search for a specific segment in the list.
+
+![](../assets/segment.png)
 
 1. Click **[!UICONTROL Add]** to create a new segment. The segment definition screen allows you to configure all the required fields to define your segment. Refer to the [Segment Builder user guide](https://docs.adobe.com/content/help/en/experience-platform/segmentation/ui/overview.html)
 

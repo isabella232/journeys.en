@@ -14,7 +14,7 @@ snippet: y
 
 # About Plaform segments {#about-segments}
 
-If you're using the [Platform Segmentation Service](https://docs.adobe.com/content/help/en/experience-platform/segmentation/home.html)to create your segments, you can leverage them in Journey Orchestration. This allows you to make individuals enter or move forward in a journey based on Platform segment entrances and exits. This also allows you to build complex conditions in your journeys using the simple or advanced expression editor.
+If you're using the [Platform Segmentation Service](https://docs.adobe.com/content/help/en/experience-platform/segmentation/home.html) to create your segments, you can leverage them in Journey Orchestration. This allows you to make individuals enter or move forward in a journey based on Platform segment entrances and exits. This also allows you to build complex conditions in your journeys using the simple or advanced expression editor.
 
 Here are the possibilities Journey Orchestration offer you with segments:
 
