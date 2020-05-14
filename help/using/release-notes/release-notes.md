@@ -37,13 +37,13 @@ You can now copy paste activities from one journey to another, selecting 1 or N 
 
 The **Finished** journey state has been nenamed **Closed (no entrance)** to better reflect what this state means.  
 
-After firing an event to make a test profile enter a journey, you can now see its progress along the journey thanks to a colored visual flow. In case of error in the journey, details of errors are also displayed. 
+After firing an event to make a test profile enter a journey, you can now see its progress along the journey thanks to a colored visual flow. In case of error in the journey, details of errors are also displayed. [Read more](../building-journeys/testing-the-journey.md#firing_events).
 
 **Event, data source and action enhancements**
 
-A new type of events allows the creation of events that no longer need an event id. This new type complements the current event type, where the the id is required and generated with Journey Orchestration. 
+--SHIFT-- A new type of event allows the creation of events that no longer need an event id. This new type complements the current event type, where the id is required and generated with Journey Orchestration. 
 
-To avoid sending too many API calls to third-party systems, we introduce a new public API to setup "capping" rules. Capping rules allow the definition of a maximum number of calls to an API endpoint per millisecond. 
+To avoid sending too many API calls to third-party systems, we introduce a new public API to setup "capping" rules. Capping rules allow the definition of a maximum number of calls to an API endpoint per milliseconds. 
 
 **Other improvements**
 
