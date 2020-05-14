@@ -21,6 +21,6 @@ You can either create a segment using the [Platform Segmentation Service](https:
 
 ![](../assets/segment.png)
 
-1. Click **[!UICONTROL Add]** to create a new segment. The segment definition screen allows you to configure all the required fields to define your segment. Refer to the [Segment Builder user guide](https://docs.adobe.com/content/help/en/experience-platform/segmentation/ui/overview.html)
+1. Click **[!UICONTROL Add]** to create a new segment. The segment definition screen allows you to configure all the required fields to define your segment. The configuration is the same as in the Segmentation Service. Refer to the [Segment Builder user guide](https://docs.adobe.com/content/help/en/experience-platform/segmentation/ui/overview.html)
 
-Your segment can now be used in your journeys to build conditions or add a **Segment qualification** event. See [](../segment/using-a-segment.md) and [](../building-journeys/event-activities.md#segment-qualification).
+Your segment can now be used in your journeys to build conditions or add a **Segment qualification** event. See [Using a segment](../segment/using-a-segment.md) and [Events activities](../building-journeys/event-activities.md#segment-qualification).

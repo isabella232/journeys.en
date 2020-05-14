@@ -16,7 +16,7 @@ snippet: y
 # Using a segment {#using-a-segment}
 
 This sections explains how to use a segment in a journey condition.
-To learn how to use a **Segment qualification** event in your journey, refer to [](../building-journeys/event-activities.md#segment-qualification).
+To learn how to use a **Segment qualification** event in your journey, refer to [Events activities](../building-journeys/event-activities.md#segment-qualification).
 
 To use a segment in a journey condition, follow these steps:
 
@@ -28,4 +28,4 @@ To use a segment in a journey condition, follow these steps:
 
 ![](../assets/conditoon-segment.png)
 
-For more information on journey conditions and how to use the simple expression editor, refer to [](../building-journeys/condition-activity.md#about_condition).
+For more information on journey conditions and how to use the simple expression editor, refer to [Condition acivities](../building-journeys/condition-activity.md#about_condition).
