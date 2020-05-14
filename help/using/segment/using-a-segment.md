@@ -26,6 +26,6 @@ To use a segment in a journey condition, follow these steps:
 1. For each path, click the Expression field.
 1. On the left side, unfold the Segments node. Drag and drop the segment you want to use for your condition. By default, the condition on the segment is true.
 
-![](../assets/conditoon-segment.png)
+![](../assets/condition-segment.png)
 
-For more information on journey conditions and how to use the simple expression editor, refer to [Condition acivities](../building-journeys/condition-activity.md#about_condition).
+For more information on journey conditions and how to use the simple expression editor, refer to [Condition activities](../building-journeys/condition-activity.md#about_condition).
