@@ -133,7 +133,7 @@ _In the canvas of a journey:_
 * When one or several activities are selected, press **[!UICONTROL Delete]** or **backspace** to delete them. Then you can press **[!UICONTROL Enter]** to confirm in the confirmation pop-up.
 * Double-click on an activity from the left palette to add it at the first available position (from top to bottom).
 
-# Using sandboxes {#sandboxes}
+## Using sandboxes {#sandboxes}
 
 Journey Orchestration allows you to partition your instance into separated virtual environments called sandboxes.
 Sandboxes are assigned through product profiles in the Admin console. For more information on how to assign sandboxes, refer to this [page](../../about/using/access-management.md#create-product-profile).
