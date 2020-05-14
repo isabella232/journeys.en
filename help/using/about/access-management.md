@@ -74,7 +74,7 @@ To create a product profile and assign a set of rights and sandboxes:
 
     ![](../assets/user_management_6.png)
 
-1. Select your new product profile to start managing permissions. In the **[!UICONTROL Users]** tab, add users to your product profile. For more on this, refer to this [page](../../about/using/access-management.md#assigning-product-profile).
+1. Select your new product profile to start managing permissions. In the **[!UICONTROL Users]** tab, add users to your product profile. For more on this, refer to this [page](../../about/access-management.md#assigning-product-profile).
 
 1. Carry out the same steps as detailed above to add **[!UICONTROL Admin]** to your product profile.
 
@@ -91,7 +91,7 @@ To create a product profile and assign a set of rights and sandboxes:
     ![](../assets/user_management_9.png)
 
 1. From the **[!UICONTROL Authoring]** permission category, carry out the same steps as above to add rights to your product profile.
-<br>For more information on rights and compatibility between rights and Journey Orchestration's different functionalities, refer to this [section](../../about/using/access-management.md#about-access-management).
+<br>For more information on rights and compatibility between rights and Journey Orchestration's different functionalities, refer to this [section](../../about/access-management.md#about-access-management).
 
     ![](../assets/user_management_10.png)
 

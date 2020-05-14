@@ -136,7 +136,7 @@ _In the canvas of a journey:_
 ## Using sandboxes {#sandboxes}
 
 Journey Orchestration allows you to partition your instance into separated virtual environments called sandboxes.
-Sandboxes are assigned through product profiles in the Admin console. For more information on how to assign sandboxes, refer to this [page](../../about/using/access-management.md#create-product-profile).
+Sandboxes are assigned through product profiles in the Admin console. For more information on how to assign sandboxes, refer to this [page](../../about/access-management.md#create-product-profile).
 
 Sandboxes can be created or reset from your Adobe Experience Platform instance. Refer to the [Sandbox user guide](https://docs.adobe.com/content/help/en/experience-platform/sandbox/ui/user-guide.html) for the detailed steps.
 
