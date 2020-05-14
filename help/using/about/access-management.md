@@ -16,7 +16,7 @@ discoiquuid: 5df34f55-135a-4ea8-afc2-f9427ce5ae7b
 
 Journey orchestration allows you to assign a set of rights and sandboxes to your users to define which part of the interface they can access.
 
-They can be managed by Administrators that have access the Admin console. For more information on the Admin console, refer to this documentation.
+They can be managed by Administrators that have access the Admin console. For more information on the Admin console, refer to this [documentation](https://helpx.adobe.com/enterprise/managing/user-guide.html).
 
 In the Admin console, you can assign one of the following out-of-the-box product profiles to your users:
 
