@@ -52,7 +52,7 @@ Users must always be linked to a product profile allowing you to assign them spe
 
 You can find below the compatibility between rights and Journey Orchestration's different functionalities.
 
-![](../assets/journey-permission.png)
+![](../assets/journey_permission.png)
 
 ## Creating a product profile {#create-product-profile}
 
