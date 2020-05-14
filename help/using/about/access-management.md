@@ -25,7 +25,8 @@ In the Admin console, you can assign one of the following out-of-the-box product
     *   Read reports
 
 *   **[!UICONTROL Administrators]**: user with access to the administration menus with the possibility to manage journeys, events and reports. This product profile includes the following rights:
-    *   Manage and execute journeys
+    *   Manage journeys
+    *   Publish journeys
     *   Manage events, data sources and actions
     *   Manage reports
 
@@ -34,7 +35,8 @@ In the Admin console, you can assign one of the following out-of-the-box product
     >**[!UICONTROL Administrators]** is the only product profile which allows creation, edition and publication of transactional messaging (or messaging templates) in Adobe Campaign Standard. This product profile is needed if you use Adobe Campaign Standard to send messages in your journeys.
 
 *   **[!UICONTROL Standard User]**: user with basic access such as journey management. This product profile includes the following rights:
-    *   Manage and execute journeys
+    *   Manage journeys
+    *   Publish journeys
     *   Manage reports
 
 You can also create your own product profiles if the out-of-the-box profiles are not enough to manage your users.
@@ -54,11 +56,48 @@ You can find below the compatibility between rights and Journey Orchestration's 
 
 ## Creating a product profile {#create-product-profile}
 
-Journeys Orchestration allows you to create your own product profiles and assign a set of rights and sandboxes to your users. With product profiles, you can authorize or deny access to certain functionalities or objects in the interface.
+Journey Orchestration allows you to create your own product profiles and assign a set of rights and sandboxes to your users. With product profiles, you can authorize or deny access to certain functionalities or objects in the interface.
 
-For more information on how to create and manage sandboxes, refer to Adobe Experience Platform documentation.
+For more information on how to create and manage sandboxes, refer to [Adobe Experience Platform documentation](https://docs.adobe.com/content/help/en/experience-platform/sandbox/ui/user-guide.html).
 
 To create a product profile and assign a set of rights and sandboxes:
+
+1. In the Admin Console, select **[!UICONTROL Journey orchestration]**. From the **[!UICONTROL Product profile]** tab, click **[!UICONTROL New Profile]**.
+
+    ![](../assets/user_management_5.png)
+
+1. Add a **[!UICONTROL Profile Name]** and **[!UICONTROL Description]** for your new product profile. If you want your profile's **[!UICONTROL Display name]** to be different, uncheck **[!UICONTROL Same as Profile Name]** and type in your **[!UICONTROL Display name]**.
+
+1. In the **[!UICONTROL User Notifications]** category, choose whether users will be notified by email when they are added or removed from this product profile.
+
+1. When finished, click **[!UICONTROL Done]**. Your new product profile is now created.
+
+    ![](../assets/user_management_6.png)
+
+1. Select your new product profile to start managing permissions. In the **[!UICONTROL Users]** tab, add users to your product profile. For more on this, refer to this [page](../../about/using/access-management.md#assigning-product-profile).
+
+1. Carry out the same steps as detailed above to add **[!UICONTROL Admin]** to your product profile.
+
+1. From the **[!UICONTROL Permissions]** tab, select one of the two categories **[!UICONTROL Sandbox]** or **[!UICONTROL Authoring]** to open the **[!UICONTROL Edit Permissions]** page and add or remove permissions for your product profile.
+
+    ![](../assets/user_management_7.png)
+
+1. In the **[!UICONTROL Sandbox]** permission category, choose which sandbox(es) to assign to your product profile. Under **[!UICONTROL Available Permissions Items]**, click the plus (+) icon to assign sandboxes to your profile.
+
+    ![](../assets/user_management_8.png)
+
+1. If needed, under **[!UICONTROL Included Permission Items]**, click the X icon next to remove permissions to your product profile.
+
+    ![](../assets/user_management_9.png)
+
+1. From the **[!UICONTROL Authoring]** permission category, carry out the same steps as above to add rights to your product profile.
+<br>For more information on rights and compatibility between rights and Journey Orchestration's different functionalities, refer to this [section](../../about/using/access-management.md#about-access-management).
+
+    ![](../assets/user_management_10.png)
+
+1. When finished, click **[!UICONTROL Save]**.
+
+Your product profile is now created and configured. Users linked to this profile can now connect to Journey orchestration.
 
 ## Assigning a product profile {#assigning-product-profile}
 
