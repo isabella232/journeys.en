@@ -42,7 +42,7 @@ index: yes
 + Using Plaform segments {#configuring-segment}
   + [About Plaform segments](using/action/about-segments.md)
   + [Creating a segment](using/action/about-segments.md)
-  + [Using a segment](using/action/using-a-segment.md)
+  + [Using segments in conditions](using/action/using-a-segment.md)
 + Building a journey {#building-journeys}
   + About journey building {#about-journey-building}
     + [Creating a journey](using/building-journeys/journey.md)
