@@ -29,7 +29,7 @@ In the simple expression editor, Platform segments are now directly listed in th
  
 Journey Orchestration is now automatically passing the steps followed by individuals in journeys to the Adobe Data Platform. This includes potential errors encountered. This information can be used for analysis or segmentation purposes.
 
---SHIFT-- Journey Orchestration can now be connected to non-production Platform Sandbox. 
+Journey Orchestration can now be connected to non-production Platform Sandbox. Effective availability: June, 15 2020.
 
 **Journey designer and test mode enhancements**
 
@@ -39,7 +39,7 @@ The **Finished** journey state has been nenamed **Closed (no entrance)** to bett
 
 After firing an event to make a test profile enter a journey, you can now see its progress along the journey thanks to a colored visual flow. In case of error in the journey, details of errors are also displayed. [Read more](../building-journeys/testing-the-journey.md#firing_events).
 
-**Event, data source and action enhancements**
+**Data source and action enhancements**
 
 --SHIFT-- A new type of event allows the creation of events that no longer need an event id. This new type complements the current event type, where the id is required and generated with Journey Orchestration. 
 
@@ -47,7 +47,8 @@ To avoid sending too many API calls to third-party systems, we introduce a new p
 
 **Other improvements**
 
-Journey Orchestration is now available in APAC (Australian data centers) and the intrerface is available in Japanese.
+Journey Orchestration is now available in APAC (Australian data centers) and the intrerface is available in Japanese. Effective availability: June, 15 2020
+Journey Orchestration intrerface is available in Japanese.
 
 ## Q1 Release - March 2020 {#q1-release---march-2020}
 
