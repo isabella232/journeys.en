@@ -10,20 +10,21 @@ internal: n
 snippet: y
 ---
 
-# Capping
+# Capping API
 
 ## Introduction
 
-Journey Orchestration's APIs support 5000?10000? event/seconds but some external systems or API could not have an equivalent throughput. That's why Journey Orchestration comes with a dedicated feature called Capping API to monitor and limit the rate that we impose to external systems.
-For example, ...
+Journey Orchestration's APIs support 5000 event/seconds but some external systems or API could not have an equivalent throughput. That's why Journey Orchestration comes with a dedicated feature called Capping API to monitor and limit the rate that we impose to external systems.
+For example, ...système de réservation pour hotel, il scale moins donc pour le protéger on place un seuil à 2000/s 
 
-During a datasource configuration, you will define a connection to a system to retrieve additional information that will be used in your journeys, or for an action definition, you will configure connection of a third-party system to send messages or API calls. Each time an API call is performed by Journey, the capping API is interrogated, the call comes to the API engine, if there is a limit defined, the call is rejected and the external system will not be overloaded.
+During a datasource configuration, you will define a connection to a system to retrieve additional information that will be used in your journeys, or for an action definition, you will configure connection of a third-party system to send messages or API calls. Each time an API call is performed by Journey, the capping API is interrogated, the call comes through the API engine. If there is a limit defined, the call is rejected and the external system will not be overloaded.
 
-To know more about datasource and action configuration: read:
-https://docs.adobe.com/content/help/en/journeys/using/action-journeys/action.html
-https://docs.adobe.com/content/help/en/journeys/using/data-source-journeys/about-data-sources.html
+To learn more on action or datasource configuration, see [About actions](https://docs.adobe.com/content/help/en/journeys/using/action-journeys/action.html) or [About data sources](https://docs.adobe.com/content/help/en/journeys/using/data-source-journeys/about-data-sources.html)
 
-(Si l'action comporte une phase d'authentication et une phase d'écriture/lecture, alors on peut définir un capping différent sur l'auth et sur la phase de lecture/écriture sur le système externe.)
+
+## Resources
+The Journey Orchestration Capping API is described within a Swagger file. => Link 
+To use this API with your Journey Orchestration instance, you need to use the AdobeIO Console. You can start by following this [Getting Started with Adobe Developer Console](https://www.adobe.io/apis/experienceplatform/console/docs.html#!AdobeDocs/adobeio-console/master/getting-started.md) and then use the sections in this page.
 
 ## Authentification
 
@@ -53,8 +54,7 @@ curl -X GET https://journey.adobe.io/authoring/XXX \
 
 * **&lt;ORGANIZATION&gt;**: This is your personal ORGANIZATION ID, one ORGANIZATION ID is provided by Adobe for each of your instances :
 
-    * &lt;ORGANIZATION&gt; : your production instance,
-    * &lt;ORGANIZATION-journey-stage&gt;: your stage instance.  ???
+    * &lt;ORGANIZATION&gt; : your production instance
 
     To obtain your ORGANIZATION ID value, refer to your administrator or your Adobe technical contact. You can also retrieve it into Adobe I/O when creating a new integration, in the licenses list (see the <a href="https://www.adobe.io/authentication.html">Adobe IO documentation</a>).
 
@@ -131,32 +131,37 @@ Here is the basic structure of an endpoint configuration:
 
 When a **canDeploy** method is called, the process validates the configuration and returns the validation status identified by its Unique ID, either:
 
-"ok"
-"error"
+```
+
+"ok" or "error"
+
+```
 
 The potential errors are:
 
-ERR_ENDPOINTCONFIG_100: capping config: missing or invalid url
-ERR_ENDPOINTCONFIG_101: capping config: malformed url
-ERR_ENDPOINTCONFIG_102: capping config: malformed url: wildchar in url not allowed in host:port
-ERR_ENDPOINTCONFIG_103: capping config: missing HTTP methods
-ERR_ENDPOINTCONFIG_104: capping config: no call rating defined
-ERR_ENDPOINTCONFIG_107: capping config: invalid max calls count (maxCallsCount)
-ERR_ENDPOINTCONFIG_108: capping config: invalid max calls count (periodInMs)
-ERR_ENDPOINTCONFIG_111: capping config: can't create endpoint config: invalid payload
-ERR_ENDPOINTCONFIG_112: capping config: can't create endpoint config: expecting a JSON payload
-ERR_AUTHORING_ENDPOINTCONFIG_1: invalid service name '<given value>': must be 'dataSource' or 'action'
+**ERR_ENDPOINTCONFIG_100**: capping config: missing or invalid url
+**ERR_ENDPOINTCONFIG_101**: capping config: malformed url
+**ERR_ENDPOINTCONFIG_102**: capping config: malformed url: wildchar in url not allowed in host:port
+**ERR_ENDPOINTCONFIG_103**: capping config: missing HTTP methods
+**ERR_ENDPOINTCONFIG_104**: capping config: no call rating defined
+**ERR_ENDPOINTCONFIG_107**: capping config: invalid max calls count (maxCallsCount)
+**ERR_ENDPOINTCONFIG_108**: capping config: invalid max calls count (periodInMs)
+**ERR_ENDPOINTCONFIG_111**: capping config: can't create endpoint config: invalid payload
+**ERR_ENDPOINTCONFIG_112**: capping config: can't create endpoint config: expecting a JSON payload
+**ERR_AUTHORING_ENDPOINTCONFIG_1**: invalid service name '<given value>': must be 'dataSource' or 'action'
 
 The potential warning is:
 
-ERR_ENDPOINTCONFIG_106: capping config: max HTTP connections not defined: no limitation by default
+**ERR_ENDPOINTCONFIG_106**: capping config: max HTTP connections not defined: no limitation by default
 
 
 
 ##Use-cases
 
 In this section, you will find the five main use-cases that you can perform to manage the capping configuration.
-For each use-case, a simple request/response is proposed to facilitate the understanding.
+(For each use-case, a simple request/response is proposed to facilitate the understanding.)??
+Link vers le Postman collection
+
 
 UC1 : creation and deployment of a new config:
 list
@@ -187,6 +192,12 @@ update
 undeploy
 (candeploy)
 deploy
+
+
+
+
+(Si l'action comporte une phase d'authentication et une phase d'écriture/lecture, alors on peut définir un capping différent sur l'auth et sur la phase de lecture/écriture sur le système externe.)
+
 
 
 
