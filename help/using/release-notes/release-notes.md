@@ -47,8 +47,9 @@ To avoid sending too many API calls to third-party systems, we introduce a new p
 
 **Other improvements**
 
-Journey Orchestration is now available in APAC (Australian data centers) and the intrerface is available in Japanese. Effective availability: June, 15 2020
-Journey Orchestration intrerface is available in Japanese.
+Journey Orchestration is now available in APAC (Australian data centers). Effective availability: June, 15 2020
+
+Journey Orchestration interface is available in Japanese.
 
 ## Q1 Release - March 2020 {#q1-release---march-2020}
 
