@@ -158,40 +158,44 @@ The potential warning is:
 
 ##Use-cases
 
-In this section, you will find the five main use-cases that you can perform to manage the capping configuration.
-(For each use-case, a simple request/response is proposed to facilitate the understanding.)??
-Link vers le Postman collection
+In this section, you will find the five main use-cases that you can perform to manage your capping configuration in Journey Orchestration.
+To help you in your testing and configuration, a Postman environemennt annd collection are available here:
+
+Once downloaded and uploaded into Postman, you need to add two variables: `{JO_HOST}` and `{Base_Path}`.
+* `{JO_HOST}` :
+* `{Base_Path}` :
 
 
-UC1 : creation and deployment of a new config:
-list
-create
-(candeploy)
-deploy
 
-UC2 : update and deploy a config not deployed yet:
-list
-get
-update
-(candeploy)
-deploy
+Use-Case n°1: creation and deployment of a new capping configuration
+1.list
+1.create
+1.candeploy
+1.deploy
 
-UC3.1 : undeploy and delete a deployed config:
-list
-undeploy
-delete
+Use-Case n°2: update and deploy a capping configuration not deployed yet
+1.list
+1.get
+1.update
+1.candeploy
+1.deploy
 
-UC3.2 : delete a deployed config (will undeploy and delete the config):
-list
-delete, with forceDelete param
+Use-Case n°3: undeploy and delete a deployed capping configuration
+1.list
+1.undeploy
+1.delete
 
-UC4 : update config already deployed :
-list
-get
-update
-undeploy
-(candeploy)
-deploy
+Use-Case n°4: delete a deployed configuration (will undeploy and delete the config)
+1.list
+1.delete, with forceDelete param
+
+Use-Case n°5: update a capping configuration already deployed
+1.list
+1.get
+1.update
+1.undeploy
+1.(candeploy)
+1.deploy
 
 
 
