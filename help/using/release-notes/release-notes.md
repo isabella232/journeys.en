@@ -35,17 +35,17 @@ Journey Orchestration can now be connected to non-production Platform Sandbox. E
 
 You can now copy paste activities from one journey to another, selecting 1 or N journey activities. [Read more](../building-journeys/using-the-journey-designer.md#copy-paste).
 
-The **Finished** journey state has been nenamed **Closed (no entrance)** to better reflect what this state means.  
+The **Finished** journey state has been renamed **Closed (no entrance)** to better reflect what this state means.  
 
 After firing an event to make a test profile enter a journey, you can now see its progress along the journey thanks to a colored visual flow. In case of error in the journey, details of errors are also displayed. [Read more](../building-journeys/testing-the-journey.md#firing_events).
 
 **Other improvements**
 
-To avoid sending too many API calls to third-party systems, we introduce a new public API to setup "capping" rules. Capping rules allow the definition of a maximum number of calls to an API endpoint per milliseconds. 
+To avoid sending too many API calls to third-party systems, we're introducing a new public API to setup "capping" rules. Capping rules allow the definition of a maximum number of calls to an API endpoint per milliseconds. 
 
 Journey Orchestration is now available in APAC (Australian data centers). Effective availability: June, 15 2020
 
-Journey Orchestration interface is available in Japanese.
+The Journey Orchestration interface is available in Japanese.
 
 ## Q1 Release - March 2020 {#q1-release---march-2020}
 
