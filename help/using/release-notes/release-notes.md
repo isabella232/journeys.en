@@ -25,9 +25,9 @@ A new activity allows the listening of Platform segment entrances/exits to make 
 
 Platform segments can now be created and edited without leaving the Journey Orchestration interface, thanks to a new **Segments** tab. [Read more](../segment/about-segments.md). 
 
-In the simple expression editor, Platform segments are now directly listed in the navigation tree to allow easy setup of conditions such as "does this person belongs to segment A?". [Read more](../segment/using-a-segment.md).
+In the simple expression editor, Platform segments are now directly listed in the navigation tree to allow easy setup of conditions such as "does this person belong to segment A?". [Read more](../segment/using-a-segment.md).
  
-Journey Orchestration is now automatically passing the steps followed by individuals in journeys to the Adobe Data Platform. This includes potential errors encountered. This information can be used for analysis or segmentation purposes.
+Journey Orchestration is now automatically passing, to the Adobe Data Platform, the steps followed by individuals in journeys. This includes potential errors encountered. This information can be used for analysis or segmentation purposes.
 
 Journey Orchestration can now be connected to non-production Platform Sandbox. Effective availability: June, 15 2020.
 
@@ -39,9 +39,7 @@ The **Finished** journey state has been nenamed **Closed (no entrance)** to bett
 
 After firing an event to make a test profile enter a journey, you can now see its progress along the journey thanks to a colored visual flow. In case of error in the journey, details of errors are also displayed. [Read more](../building-journeys/testing-the-journey.md#firing_events).
 
-**Data source and action enhancements**
-
---SHIFT-- A new type of event allows the creation of events that no longer need an event id. This new type complements the current event type, where the id is required and generated with Journey Orchestration. 
+**Data source and action enhancement**
 
 To avoid sending too many API calls to third-party systems, we introduce a new public API to setup "capping" rules. Capping rules allow the definition of a maximum number of calls to an API endpoint per milliseconds. 
 
