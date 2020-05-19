@@ -172,38 +172,38 @@ Once downloaded and uploaded into Postman, you need to add two variables: `{JO_H
 
 Use-Case n°1: creation and deployment of a new capping configuration
 
-1.list
-1.create
-1.candeploy
-1.deploy
+1. list
+1. create
+1. candeploy
+1. deploy
 
 Use-Case n°2: update and deploy a capping configuration not deployed yet
 
-1.list
-1.get
-1.update
-1.candeploy
-1.deploy
+1. list
+1. get
+1. update
+1. candeploy
+1. deploy
 
 Use-Case n°3: undeploy and delete a deployed capping configuration
 
-1.list
-1.undeploy
-1.delete
+1. list
+1. undeploy
+1. delete
 
 Use-Case n°4: delete a deployed configuration (will undeploy and delete the config)
 
-1.list
-1.delete, with forceDelete param
+1. list
+1. delete, with forceDelete param
 
 Use-Case n°5: update a capping configuration already deployed
 
-1.list
-1.get
-1.update
-1.undeploy
-1.(candeploy)
-1.deploy
+1. list
+1. get
+1. update
+1. undeploy
+1. candeploy
+1. deploy
 
 
 
