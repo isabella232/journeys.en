@@ -21,23 +21,23 @@ You can also consult the [Documentation Updates](../release-notes/documentation-
 
 **Platform integration enhancements**
 
-A new activity allows the listening of Platform segment entrances/exits to make people enter or move forward in a journey. [Read more](../building-journeys/event-activities.md#segment-qualification).
+A new activity allows the listening of Platform segment entrances/exits to make people enter or move forward in a journey. [Read more](../building-journeys/event-activities.md#segment-qualification)
 
-Platform segments can now be created and edited without leaving the Journey Orchestration interface, thanks to a new **Segments** tab. [Read more](../segment/about-segments.md). 
+Platform segments can now be created and edited without leaving the Journey Orchestration interface, thanks to a new **Segments** tab. [Read more](../segment/about-segments.md)
 
-In the simple expression editor, Platform segments are now directly listed in the navigation tree to allow easy setup of conditions such as "does this person belong to segment A?". [Read more](../segment/using-a-segment.md).
+In the simple expression editor, Platform segments are now directly listed in the navigation tree to allow easy setup of conditions such as "does this person belong to segment A?". [Read more](../segment/using-a-segment.md)
  
 Journey Orchestration is now automatically passing, to the Adobe Data Platform, the steps followed by individuals in journeys. This includes potential errors encountered. This information can be used for analysis or segmentation purposes.
 
-Journey Orchestration can now be connected to non-production Platform Sandbox. Effective availability: June, 15 2020.
+Journey Orchestration can now be connected to production and non-production Platform Sandbox. Effective availability: June, 15 2020.
 
 **Journey designer and test mode enhancements** 
 
-You can now copy paste activities from one journey to another, selecting 1 or N journey activities. [Read more](../building-journeys/using-the-journey-designer.md#copy-paste).
+You can now copy paste activities from one journey to another, selecting 1 or N journey activities. [Read more](../building-journeys/using-the-journey-designer.md#copy-paste)
 
 The **Finished** journey state has been renamed **Closed (no entrance)** to better reflect what this state means.  
 
-After firing an event to make a test profile enter a journey, you can now see its progress along the journey thanks to a colored visual flow. In case of error in the journey, details of errors are also displayed. [Read more](../building-journeys/testing-the-journey.md#firing_events).
+After firing an event to make a test profile enter a journey, you can now see its progress along the journey thanks to a colored visual flow. In case of error in the journey, details of errors are also displayed. [Read more](../building-journeys/testing-the-journey.md#firing_events)
 
 **Other improvements**
 
@@ -46,6 +46,8 @@ To avoid sending too many API calls to third-party systems, we're introducing a 
 Journey Orchestration is now available in APAC (Australian data centers). Effective availability: June, 15 2020
 
 The Journey Orchestration interface is available in Japanese.
+
+Access control now allows more granularity in user access management. [Read more](../about/access-management.md)
 
 ## Q1 Release - March 2020 {#q1-release---march-2020}
 
