@@ -16,7 +16,7 @@ snippet: y
 
 This mixin will be shared by the journeyStepEvent and journeyStepProfileEvent.
 
-These are the common XDM fields that Jouney Orchestration sends to Adobe Data Platform. Common fields will be sent for every step that is processed in a journey. More specific fields are used for custom actions and enrichments.
+These are the common XDM fields that Journey Orchestration sends to Adobe Data Platform. Common fields will be sent for every step that is processed in a journey. More specific fields are used for custom actions and enrichments.
 
 Some of those fields are only available in specific processing patterns (action execution, data fetch, etc.) in order to limit the size of events.
 
@@ -38,7 +38,7 @@ Values: true/false
 
 #### instanceEnded
 
-Indicates if the instance has ended (sucessfully or not).
+Indicates if the instance has ended (successfully or not).
 
 Type: boolean
 
@@ -158,7 +158,7 @@ Type: string
 
 Indicated if this journey is in test mode or not.
 
-Type: boolen
+Type: boolean
 
 #### processingTime
 

@@ -59,7 +59,7 @@ A timeout can occur, in two cases:
 * at the first attempt the action is executed. In this case, the execution is not finished, so there is no underlying error
 * on a retry: in this case, the actionExecOrigError/actionExecOrigErrorCode describes the error encountered on the attempt before the retry.
 
-For instance, ldata is being fetched from Unified Profile Service and and an HTTP 500 error is returned at the first attempt. The fetch is retried, but the duration of the 2 attempts exceeds the timeout. Then the action execution is tagged as timedout. The action part will look like:
+For instance, data is being fetched from Unified Profile Service and an HTTP 500 error is returned at the first attempt. The fetch is retried, but the duration of the 2 attempts exceeds the timeout. Then the action execution is tagged as timedout. The action part will look like:
 
 ```
     ...
