@@ -30,3 +30,21 @@ The following datasets are passed:
 * Journey Step Events
 * Journeys
 
+A specific list of fields is sent to Adobe Data Platform from Journey Orchestration. Common fields will be sent for every step that is processed in a journey. More specific fields are used for custom actions and enrichments.
+
+The lists of fields are detailed here:
+
+* journeySteps events common fields
+
+* journeyStep events action execution fields
+
+* journeyStep events data fetch fields
+
+* journeyStep event identity fields
+
+* journey fields
+
+
+
+
+Some of those fields are only present in specific processing patterns (action execution, data fetch, ...). We want to limit the size of events, not to put any useless info contextually.
