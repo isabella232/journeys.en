@@ -14,8 +14,8 @@ snippet: y
 
 # journeysteps events common fields {#sharing-common-fields}
 
-The following fields are the ones deduced from the usecases  (see "Use Cases section)  representing the different patterns in a journey:
-						
+These are the common fields that will be sent for every step that is processed in a journey.
+
 #### entrance
 
 Indicate if the user has entered the journey. If not present, assuming that the value is false

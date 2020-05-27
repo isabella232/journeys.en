@@ -64,6 +64,12 @@ index: yes
       + [Using custom actions](using/building-journeys/using-custom-actions.md)
   + [Testing the journey](using/building-journeys/testing-the-journey.md)
   + [Publishing the journey](using/building-journeys/publishing-the-journey.md)
++ [Sharing journey steps with Platform](using/building-journeys/sharing-journey-steps-with-Platform.md)
+  + [journeySteps events common fields](using/building-journeys/sharing-common-fields.md)
+  + [journeyStep events action execution fields](using/building-journeys/sharing-execution-fields.md)
+  + [journeyStep events data fetch fields](using/building-journeys/sharing-fetch-fields.md)
+  + [journeyStep event identity fields](using/building-journeys/sharing-identity-fields.md)
+  + [journey fields](using/building-journeys/sharing-journey-fields.md)
 + Using the advanced expression editor {#building-advanced-conditions-journeys}
   + [About the advanced expression editor](using/expression/expressionadvanced.md)
   + Syntax {#syntax}
