@@ -40,7 +40,7 @@ Type: boolean
 
 Values: true/false
 
-## reentrance** (Boolean)
+### reentrance** (Boolean)
 
 true/false
 
