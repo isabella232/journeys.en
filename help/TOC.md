@@ -64,7 +64,8 @@ index: yes
       + [Using custom actions](using/building-journeys/using-custom-actions.md)
   + [Testing the journey](using/building-journeys/testing-the-journey.md)
   + [Publishing the journey](using/building-journeys/publishing-the-journey.md)
-+ [Sharing journey steps with Platform](using/building-journeys/sharing-journey-steps-with-Platform.md)
++ [Sharing journey steps with Platform] {#sharing-journey-steps}
+  + [Journey step sharing overview](using/building-journeys/sharing-overview.md)
   + [journeySteps events common fields](using/building-journeys/sharing-common-fields.md)
   + [journeyStep events action execution fields](using/building-journeys/sharing-execution-fields.md)
   + [journeyStep events data fetch fields](using/building-journeys/sharing-fetch-fields.md)

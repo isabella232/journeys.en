@@ -16,22 +16,17 @@ snippet: y
 
 This mixin will be shared by the journeyStepEvent and journeyStepProfileEvent.
 
-During a step processing, we can have N data fetch on field groups AEP or custom. We have tried not to surface the field group notion and granularity, to capture:
-
-* global data fetch time on all potential field groups
-* global error and code, to ease aggregation computation instead of dealing with custom and AEP properties
-* global data fetch count
-* same information, but at source type granularity
+During a step processing, we can have N data fetch on field groups.
 						
 #### fetchTotalTime 
 
-total amount of time spent in data fetch in millis during the step processing
+Total amount of time spent in data fetch in millis during the step processing.
 
 Type: long
 
 #### fetchTypeInError
 
-define if the fetch in error is on the platform or on a custom data source
+Defines if the fetch in error is on the platform or on a custom data source.
 
 Type: string
 
@@ -53,7 +48,7 @@ Values:
   
 #### fetchErrorCode  
   
-Code for fetch error. Present if the error has a code, such as an HTTP one. For instance, if the actionExecError is http, the code 404 represents the HTTP 404 error
+Code for fetch error. Present if the error has a code, such as an HTTP one. For instance, if the actionExecError is http, the code 404 represents the HTTP 404 error.
 
 Type: string
 
@@ -61,10 +56,10 @@ Type: string
   
 A timeout can occur, in two cases:
 
-* at the first attempt to execute the action. In this case, the execution is not finished, so there is no underlying error
-* on a retry: in this case, the actionExecOrigError/actionExecOrigErrorCode describes the error encountered on the attempt before the retry
+* at the first attempt the action is executed. In this case, the execution is not finished, so there is no underlying error
+* on a retry: in this case, the actionExecOrigError/actionExecOrigErrorCode describes the error encountered on the attempt before the retry.
 
-For instance, let's say that we are trying to fetch data from UPS and we get a HTTP 500 error at the first attempt. We will retry the fetch, but the duration of the 2 attempts exceeds the timeout. Then the action execution is tagged as timedout. In order not to loose the fact that this timedout has been raised because of a HTTP 500, the action part will look like:
+For instance, ldata is being fetched from Unified Profile Service and and an HTTP 500 error is returned at the first attempt. The fetch is retried, but the duration of the 2 attempts exceeds the timeout. Then the action execution is tagged as timedout. The action part will look like:
 
 ```
     ...
@@ -83,29 +78,30 @@ Type: string
   
 #### fetchCount
 
-How many times the data is fetched, regardless of the type of source (AEP, custom)
+How many times the data is fetched, regardless of the type of source.
 
 Type: long
 
 #### fetchAepTotalTime
-The total amount of time taken to fetch the data from Data Platform in millis. Remark: this time is computed from the time the engine sends the enrichment event to the enrichment service and receive the response
+
+The total amount of time taken to fetch the data from Data Platform in millis. Remark: this amount of time is computed from the time the engine sends the enrichment event to the enrichment service and receives the response.
 
 Type: long
 
 #### fetchAepCount
 
-How many times the data is fetched from Platform
+How many times the data is fetched from Platform.
 
 Type: long
 
 #### fetchCustomTotalTime
 
-Time to fetch the custom data in millis. Remark: this time is computed from the time the engine sends the enrichment event to the enrichment service and receive the response
+Amount of time to fetch the custom data in millis. Remark: this amount of time is computed from the time the engine sends the enrichment event to the enrichment service and receives the response
 
 Type: long
 
 #### fetchCustomCount
 
-How many times the custom data is fetched from external systems
+How many times the custom data is fetched from external systems.
 
 Type: long

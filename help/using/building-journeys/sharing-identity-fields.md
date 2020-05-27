@@ -14,18 +14,18 @@ snippet: y
 
 # journeyStep event identity fields {#sharing-identity-fields}
 
-This mixin is specific to journeyStepEvent: this event is in relation with journey, and doesn't have the identityMap, describing the profile identity (if any).
+This mixin is specific to journeyStepEvent: this event is in relation with journey, and doesn't have the identityMap, describing the profile identity, if any.
 
 For journeyStepEvent, we need also to add fields related to the identity:
 
 #### profileId
 
-profile identifier
+Profile identifier
 
 Type: string
 
 #### profileNamespace
 
-profile identifier namespace
+Profile identifier namespace
 
 Type: string
