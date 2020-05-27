@@ -32,7 +32,7 @@ The following datasets are passed:
 
 journeyStep events common fields
 						
-##entrance
+## entrance
 
 Indicate if the user has entered the journey. If not present, assuming that the value is false
 
@@ -40,7 +40,7 @@ Type: boolean
 
 Values: true/false
 
-##reentrance** (Boolean)
+## reentrance** (Boolean)
 
 true/false
 
