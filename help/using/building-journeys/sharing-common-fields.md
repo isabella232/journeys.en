@@ -64,7 +64,7 @@ Type: string
 
 Name of the step that is currently being processed.
 
-Type: string							
+Type: string
 
 #### stepType
 
@@ -74,10 +74,10 @@ Type: string
 
 Possible values:
 
-* Condition										
-* Action										
-* Scheduler										
-* Timer										
+* Condition
+* Action
+* Scheduler
+* Timer
 
 #### stepStatus
 
@@ -93,7 +93,7 @@ The status can be:
 * capped: the step has failed on a capping error, raised during an action or enrichment.
 * timedout: the step has failed on a timeout error, raised during an action or enrichment.
 * instanceTimedout: the step has stopped its processing, because the instance has reached its timeout.
-						
+
 #### journeyId
 
 ID of the journey.
@@ -114,15 +114,15 @@ Type: string
 
 #### journeyVersion
 
-Version of the journey version.	
+Version of the journey version.
 
-Type: string						
+Type: string
 
 #### instanceId
 
 Internal ID of the journey instance.
 
-Type: string						
+Type: string
 
 #### externalKey
 
@@ -173,7 +173,7 @@ Indicates the instance type, if it is batch or unitary.
 Type: string
 
 Values: batch/unitary
-							
+
 #### recurrenceIndex
 
 Index of the recurrence if the journey is batch and recurring (first run has recurrenceIndex = 1).

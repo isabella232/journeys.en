@@ -34,13 +34,13 @@ Name of the journey.
 
 Type: string
 
-#### description	
+#### description
 
 Description of the journey.
 
 Type: string
 
-#### version	
+#### version
 
 Version, represented as `major`.`minor`
 

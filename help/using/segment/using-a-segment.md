@@ -21,8 +21,8 @@ To learn how to use a **Segment qualification** event in your journey, refer to 
 To use a segment in a journey condition, follow these steps:
 
 1. Open a journey.
-1. Drop a **Condition** activity. 
-1. Click **Add a path** for each needed path.
+1. Drop a **Condition** activity and choose the **Data Source Condition**.
+1. Click **Add a path** for each extra path needed.
 1. For each path, click the Expression field.
 1. On the left side, unfold the Segments node. Drag and drop the segment you want to use for your condition. By default, the condition on the segment is true.
 

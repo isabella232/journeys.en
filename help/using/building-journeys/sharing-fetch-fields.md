@@ -17,7 +17,7 @@ snippet: y
 This mixin will be shared by the journeyStepEvent and journeyStepProfileEvent.
 
 During a step processing, we can have N data fetch on field groups.
-						
+
 #### fetchTotalTime 
 
 Total amount of time spent in data fetch in millis during the step processing.

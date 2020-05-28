@@ -17,7 +17,7 @@ snippet: y
 This mixin will be shared by the journeyStepEvent and journeyStepProfileEvent.
 
 If the step has an action to be processed, those fields will be added to the event payload. 
-						
+
 #### actionId
 
 Id of the action that is being executed.
@@ -59,7 +59,7 @@ Values:
 * capping
 * timeout
 * error
-	
+
 #### actionExecErrorCode
 
 Code for action execution error. Present if the error has a code, such as an HTTP one. For instance, if the actionExecError is http, the code 404 represents the HTTP 404 error.
@@ -67,7 +67,7 @@ Code for action execution error. Present if the error has a code, such as an HTT
 Type: string
 
 #### actionExecOrigError
-	
+
 A timeout can occur, in two cases:
 
 * at the first attempt an action is executed. In this case, the execution is not finished, so there is no underlying error
@@ -89,12 +89,12 @@ For instance, an email is being sent and an HTTP 500 error is returned at the fi
 Type: string
 
 #### actionExecOrigErrorCode
-	
+
 Error code of the actionExecOrigError.
 
 Type: string
 
-#### actionBusinessType	
+#### actionBusinessType
 
 Indicates the type of action. 
 
@@ -109,7 +109,7 @@ Values:
  * ...
 
 Type: string
-	
+
 #### actionSchedulerCount
 
 Count of scheduler notification requests sent to the scheduler service during the step processing.
