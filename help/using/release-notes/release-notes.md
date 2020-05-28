@@ -41,7 +41,7 @@ After firing an event to make a test profile enter a journey, you can now see it
 
 **Other improvements**
 
-To avoid sending too many API calls to third-party systems, we're introducing a new public API to setup "capping" rules. Capping rules allow the definition of a maximum number of calls to an API endpoint per milliseconds. 
+To avoid sending too many API calls to third-party systems, we're introducing a new public API to setup "capping" rules. Capping rules allow the definition of a maximum number of calls to an API endpoint per milliseconds. [Read more](../api/capping.md)
 
 Journey Orchestration is now available in APAC (Australian data centers). Effective availability: June, 15 2020
 
