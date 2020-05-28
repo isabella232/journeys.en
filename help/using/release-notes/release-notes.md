@@ -19,25 +19,58 @@ You can also consult the [Documentation Updates](../release-notes/documentation-
 
 ## Q2 Release - June 2020 {#q2-release---june-2020}
 
-**Platform integration enhancements**
+<table>
+<thead>
+<tr>
+<th><strong>Platform integration enhancements</strong><br/></th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td>
+<p>The following Platform integration enhancements have been made:</p>
+<ul>
+<li><p>A new activity allows the listening of Platform segment entrances/exits to make people enter or move forward in a journey. <a href="../building-journeys/event-activities.md#segment-qualification">Read more</a></p>
+<img src="../assets/rn-segment7.png"/>
+</li>
+<li><p>Platform segments can now be created and edited without leaving the Journey Orchestration interface, thanks to a new <strong>Segments</strong> tab. <a href="../segment/about-segments.md">Read more</a></p>
+<img src="../assets/rn-segment1.png"/>
+</li>
+<li><p>In the simple expression editor, Platform segments are now directly listed in the navigation tree to allow easy setup of conditions such as "does this person belong to segment A?". <a href="../segment/using-a-segment.md">Read more</a></p>
+<img src="../assets/rn-segment4.png"/>
+</li>
+<li>Journey Orchestration is now automatically passing, to the Adobe Data Platform, the steps followed by individuals in journeys. This includes potential errors encountered. This information can be used for analysis or segmentation purposes. <a href="../building-journeys/sharing-overview.md">Read more</a>
+</li>
+<li>Journey Orchestration can now be connected to production and non-production Platform Sandbox. Effective availability: June, 15 2020.
+</li>
+</td>
+</tr>
+</tbody>
+</table>
 
-A new activity allows the listening of Platform segment entrances/exits to make people enter or move forward in a journey. [Read more](../building-journeys/event-activities.md#segment-qualification)
-
-Platform segments can now be created and edited without leaving the Journey Orchestration interface, thanks to a new **Segments** tab. [Read more](../segment/about-segments.md)
-
-In the simple expression editor, Platform segments are now directly listed in the navigation tree to allow easy setup of conditions such as "does this person belong to segment A?". [Read more](../segment/using-a-segment.md)
- 
-Journey Orchestration is now automatically passing, to the Adobe Data Platform, the steps followed by individuals in journeys. This includes potential errors encountered. This information can be used for analysis or segmentation purposes. [Read more](../building-journeys/sharing-overview.md)
-
-Journey Orchestration can now be connected to production and non-production Platform Sandbox. Effective availability: June, 15 2020.
-
-**Journey designer and test mode enhancements** 
-
-You can now copy paste activities from one journey to another, selecting 1 or N journey activities. [Read more](../building-journeys/using-the-journey-designer.md#copy-paste)
-
-The **Finished** journey state has been renamed **Closed (no entrance)** to better reflect what this state means.  
-
-After firing an event to make a test profile enter a journey, you can now see its progress along the journey thanks to a colored visual flow. In case of error in the journey, details of errors are also displayed. [Read more](../building-journeys/testing-the-journey.md#firing_events)
+<table>
+<thead>
+<tr>
+<th><strong>Journey designer and test mode enhancements</strong><br/></th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td>
+<p>The following Platform integration enhancements have been made:</p>
+<ul>
+<li><p>You can now copy paste activities from one journey to another, selecting 1 or N journey activities. <a href="../building-journeys/using-the-journey-designer.md#copy-paste">Read more</a></p>
+<img src="../assets/rn-copy-paste1.png"/>
+</li>
+</ul>
+<li>The **Finished** journey state has been renamed **Closed (no entrance)** to better reflect what this state means.</li>
+<li><p>After firing an event to make a test profile enter a journey, you can now see its progress along the journey thanks to a colored visual flow. In case of error in the journey, details of errors are also displayed. <a href="../building-journeys/testing-the-journey.md#firing_events">Read more</a></p>
+<img src="../assets/rn-journeytest6.png"/>
+</li>
+</td>
+</tr>
+</tbody>
+</table>
 
 **Other improvements**
 
