@@ -163,7 +163,7 @@ The potential warning is:
 
 In this section, you will find the five main use-cases that you can perform to manage your capping configuration in Journey Orchestration.
 
-To help you in your testing and configuration, a Postman collection is available here:
+To help you in your testing and configuration, a Postman collection is available [here](https://github.com/AdobeDocs/JourneyAPI/postman-collections/Journey-Orchestration_Capping-API_postman-collection.json).
 
 This Postman Collection has been set up to share the Postman Variable collection generated via __[Adobe I/O Console's Integrations](https://console.adobe.io/integrations) > Try it out > Download for Postman__, which generates a Postman Environment file with the selected integrations values.
 
@@ -173,14 +173,14 @@ Once downloaded and uploaded into Postman, you need to add two variables: `{JO_H
 
 
 
-Use-Case n°1: creation and deployment of a new capping configuration
+Use-Case n°1: **Creation and deployment of a new capping configuration**
 
 1. list
 1. create
 1. candeploy
 1. deploy
 
-Use-Case n°2: update and deploy a capping configuration not deployed yet
+Use-Case n°2: **Update and deploy a capping configuration not deployed yet**
 
 1. list
 1. get
@@ -188,18 +188,19 @@ Use-Case n°2: update and deploy a capping configuration not deployed yet
 1. candeploy
 1. deploy
 
-Use-Case n°3: undeploy and delete a deployed capping configuration
+Use-Case n°3: **Undeploy and delete a deployed capping configuration**
 
 1. list
 1. undeploy
 1. delete
 
-Use-Case n°4: delete a deployed capping configuration. With one call, this will undeploy and delete the configuration ///!!!
+Use-Case n°4: **Delete a deployed capping configuration.**
 
+In only one API call, you can undeploy and delete the configuration with the use of the forceDelete parameter.
 1. list
 1. delete, with forceDelete param
 
-Use-Case n°5: update a capping configuration already deployed
+Use-Case n°5: **Update a capping configuration already deployed**
 
 1. list
 1. get
