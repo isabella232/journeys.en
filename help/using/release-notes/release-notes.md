@@ -57,13 +57,13 @@ You can also consult the [Documentation Updates](../release-notes/documentation-
 <tbody>
 <tr>
 <td>
-<p>The following Platform integration enhancements have been made:</p>
+<p>The following enhancements have been made to the journey designer and the test mode:</p>
 <ul>
 <li><p>You can now copy paste activities from one journey to another, selecting 1 or N journey activities. <a href="../building-journeys/using-the-journey-designer.md#copy-paste">Read more</a></p>
 <img src="../assets/rn-copy-paste1.png"/>
 </li>
 </ul>
-<li>The **Finished** journey state has been renamed **Closed (no entrance)** to better reflect what this state means.</li>
+<li>The <strong>Finished</strong> journey state has been renamed <strong>Closed (no entrance)</strong> to better reflect what this state means.</li>
 <li><p>After firing an event to make a test profile enter a journey, you can now see its progress along the journey thanks to a colored visual flow. In case of error in the journey, details of errors are also displayed. <a href="../building-journeys/testing-the-journey.md#firing_events">Read more</a></p>
 <img src="../assets/rn-journeytest6.png"/>
 </li>
