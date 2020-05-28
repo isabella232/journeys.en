@@ -167,4 +167,6 @@ index: yes
     + [Configuring the data sources](using/usecase/configuring-the-data-sources.md)
     + [Building the journey](using/usecase/building-the-journey.md)
   + [Leveraging fatigue scores](using/usecase/leveraging-fatigue-scores.md)
++ Working with APIs{#working-with-apis}
+  + [Capping APIs](using/api/capping.md)
   
