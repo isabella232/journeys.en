@@ -71,13 +71,19 @@ If the segment is streamed with the High Frequency Audiences option of Platform,
 
 1. Unfold the **Events** category and drop a **Segment qualification** activity into your canvas.
 
+   ![](../assets/segment5.png)
+
 1. Add a **Label** to the activity. This step is optional.
 
-1. In the **Segment** field, select the segments you want to leverage. 
+1. Click in the **Segment** field and select the segments you want to leverage. 
+
+   ![](../assets/segment6.png)
 
 1. In the **Behavior** field, choose is you want to listen to segment entrances, exits or both.
 
 1. Select a namespace. This is only needed if the event is positionned as the first step of the journey.
+
+   ![](../assets/segment7.png)
 
 The payload contains the following context information, which you can use in conditions and actions:
 
