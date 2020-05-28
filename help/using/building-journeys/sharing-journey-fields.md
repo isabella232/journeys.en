@@ -16,31 +16,31 @@ snippet: y
 
 This mixin is used in the journey schema (in relation with journeyStepEvent). It contains the following fields:
 
-#### journeyId
+## journeyId
 
 Id of the main journey.
 
 Type: string
 
-#### journeyVersionId
+## journeyVersionId
 
 Id of the journey version. This id represents the identity of a journey.
 
 Type: string
 
-#### name
+## name
 
 Name of the journey.
 
 Type: string
 
-#### description
+## description
 
 Description of the journey.
 
 Type: string
 
-#### version
+## version
 
 Version, represented as `major`.`minor`
 

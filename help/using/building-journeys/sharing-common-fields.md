@@ -20,7 +20,7 @@ These are the common XDM fields that Journey Orchestration sends to Adobe Data P
 
 Some of those fields are only available in specific processing patterns (action execution, data fetch, etc.) in order to limit the size of events.
 
-#### entrance
+## entrance
 
 Indicates if the user has entered the journey. If not present, we assume that the value is false.
 
@@ -28,7 +28,7 @@ Type: boolean
 
 Values: true/false
 
-#### reentrance
+## reentrance
 
 Indicates if the user has reentered the journey with the same instance. If not present, we assume that the value is false.
 
@@ -36,37 +36,37 @@ Type: boolean
 
 Values: true/false
 
-#### instanceEnded
+## instanceEnded
 
 Indicates if the instance has ended (successfully or not).
 
 Type: boolean
 
-#### eventId
+## eventId
 
 Event Id in processing, for the step processing. If the event is an external one, the value is its eventId. If the event is an internal one, the value is the internal eventId (such as scheduledNotificationReceived, executedAction, etc.).
 
 Type: string
 
-#### nodeId
+## nodeId
 
 Client node id (from the canvas). 
 
 Type: string
 
-#### stepId
+## stepId
 
 Unique id of the step that is currently being processed.
 
 Type: string
 
-#### stepName
+## stepName
 
 Name of the step that is currently being processed.
 
 Type: string
 
-#### stepType
+## stepType
 
 Type of the step.
 
@@ -79,7 +79,7 @@ Possible values:
 * Scheduler
 * Timer
 
-#### stepStatus
+## stepStatus
 
 Status of the step, representing the status of the step, when its processing has been done (and the step event fired).
 
@@ -94,79 +94,79 @@ The status can be:
 * timedout: the step has failed on a timeout error, raised during an action or enrichment.
 * instanceTimedout: the step has stopped its processing, because the instance has reached its timeout.
 
-#### journeyId
+## journeyId
 
 ID of the journey.
 
 Type: string
 
-#### journeyVersionId
+## journeyVersionId
 
 ID of the journey version. This id represents the identity reference to the journey, in the case of the journeyStepEvent.
 
 Type: string
 
-#### journeyVersionName
+## journeyVersionName
 
 Name of the journey version.
 
 Type: string
 
-#### journeyVersion
+## journeyVersion
 
 Version of the journey version.
 
 Type: string
 
-#### instanceId
+## instanceId
 
 Internal ID of the journey instance.
 
 Type: string
 
-#### externalKey
+## externalKey
 
 External key extracted from the event to process it.
 
 Type: string
 
-#### parentStepId
+## parentStepId
 
 Step ID of the parent of the current processed step in the instance.
 
 Type: string
 
-#### parentStepName
+## parentStepName
 
 Step name of the parent of the current step.
 
 Type: string
 
-#### parentTransitionId
+## parentTransitionId
 
 Id of the transition which has brought the instance to the processed step.
 
 Type: string
 
-#### parentTransitionName
+## parentTransitionName
 
 Name of the transition which has brought the instance to the processed step.
 
 Type: string
 
-#### inTest
+## inTest
 
 Indicated if this journey is in test mode or not.
 
 Type: boolean
 
-#### processingTime
+## processingTime
 
 Total amount of time in millis from the instance step entrance to the end of the processing.
 
 Type: long
 
-#### instanceType
+## instanceType
 
 Indicates the instance type, if it is batch or unitary.
 
@@ -174,31 +174,31 @@ Type: string
 
 Values: batch/unitary
 
-#### recurrenceIndex
+## recurrenceIndex
 
 Index of the recurrence if the journey is batch and recurring (first run has recurrenceIndex = 1).
 
 Type: long
 
-#### isBatchToUnitary
+## isBatchToUnitary
 
 Indicates if this unitary instance has been triggered from a batch instance.
 
 Type: boolean
 
-#### batchExternalKey
+## batchExternalKey
 
 If the instance has been triggered from a batch instance, batch external key.
 
 Type: string
 
-#### batchInstanceId
+## batchInstanceId
 
 If the instance has been triggered from a batch instance, batch instance id.
 
 Type: string
 
-#### batchUnitaryBranchId
+## batchUnitaryBranchId
 
 if the instance has been triggered from a batch instance, unitary branch id.
 

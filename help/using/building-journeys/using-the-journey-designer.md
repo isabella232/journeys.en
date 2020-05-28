@@ -86,25 +86,25 @@ In the canvas, when two activities are disconnected, a warning is displayed. Pla
 
  ![](../assets/canvas-disconnected.png)
 
- ## Copying and pasting activities {#copy-paste}
+## Copying and pasting activities {#copy-paste}
 
- You can copy one or several activities of a journey and paste them either in the same journey or a different one. This allows you to save time if you want to reuse numerous activities that have been already configured in a previous journey. 
+You can copy one or several activities of a journey and paste them either in the same journey or a different one. This allows you to save time if you want to reuse numerous activities that have been already configured in a previous journey. 
 
- **Important notes**
+**Important notes**
 
- * You can copy/paste across different tabs and browsers. You can only copy/paste activities within the same instance. 
- * You can not copy/paste an event if the destination journey has an event that uses a different namespace.
- * Pasted activities may reference data that do not exist in the destination journey, for example if you copy/paste across different sandboxes. Always check for errors and make the required adjustments. 
- * Be aware that you cannot undo an action. To delete pasted activities, you will need to select and delete them. Therefore, make sure you only select the activities you need before copying them.
- * You can copy activities from any journey, even ones that are in read-only.
- * You can select any activity, even ones that are not linked. Linked activities will stay linked after being pasted.
+* You can copy/paste across different tabs and browsers. You can only copy/paste activities within the same instance. 
+* You can not copy/paste an event if the destination journey has an event that uses a different namespace.
+* Pasted activities may reference data that do not exist in the destination journey, for example if you copy/paste across different sandboxes. Always check for errors and make the required adjustments. 
+* Be aware that you cannot undo an action. To delete pasted activities, you will need to select and delete them. Therefore, make sure you only select the activities you need before copying them.
+* You can copy activities from any journey, even ones that are in read-only.
+* You can select any activity, even ones that are not linked. Linked activities will stay linked after being pasted.
 
- Here are the steps to copy/paste activities:
+Here are the steps to copy/paste activities:
 
- 1. Open a journey.
- 1. Select the activities you want to copy by moving your mouse while clicking. You can also click on each activity while pressing the **Ctrl/Command** key. Use **Ctrl/Command + A** if you want to select all activities.
+1. Open a journey.
+1. Select the activities you want to copy by moving your mouse while clicking. You can also click on each activity while pressing the **Ctrl/Command** key. Use **Ctrl/Command + A** if you want to select all activities.
     ![](../assets/copy-paste1.png)
- 1. Press **Ctrl/Command + C**. 
- 1. In any journey, press **Ctrl/Command + V** to paste the activities without linking them to an existing node. Pasted activities are placed in the same order. After being pasted, activities stay selected so you can easily move them. You can also place the cursor on an empty place holder and hit **Ctrl/Command + V**. Pasted activities will be linked to the node. 
+1. Press **Ctrl/Command + C**. 
+1. In any journey, press **Ctrl/Command + V** to paste the activities without linking them to an existing node. Pasted activities are placed in the same order. After being pasted, activities stay selected so you can easily move them. You can also place the cursor on an empty place holder and hit **Ctrl/Command + V**. Pasted activities will be linked to the node. 
     ![](../assets/copy-paste3.png)
 

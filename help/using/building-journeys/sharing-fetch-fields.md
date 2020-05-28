@@ -18,13 +18,13 @@ This mixin will be shared by the journeyStepEvent and journeyStepProfileEvent.
 
 During a step processing, we can have N data fetch on field groups.
 
-#### fetchTotalTime 
+## fetchTotalTime 
 
 Total amount of time spent in data fetch in millis during the step processing.
 
 Type: long
 
-#### fetchTypeInError
+## fetchTypeInError
 
 Defines if the fetch in error is on the platform or on a custom data source.
 
@@ -34,7 +34,7 @@ Values:
 * aep
 * custom
   
-#### fetchError
+## fetchError
 
 Type of error that happens when the data fetch is processed.
 
@@ -46,13 +46,13 @@ Values:
 * timedout
 * error
   
-#### fetchErrorCode  
+## fetchErrorCode  
   
 Code for fetch error. Present if the error has a code, such as an HTTP one. For instance, if the actionExecError is http, the code 404 represents the HTTP 404 error.
 
 Type: string
 
-#### fetchOrigError
+## fetchOrigError
   
 A timeout can occur, in two cases:
 
@@ -72,35 +72,35 @@ For instance, data is being fetched from Unified Profile Service and an HTTP 500
 
 Type: string
 
-#### fetchOrigErrorCode
+## fetchOrigErrorCode
 
 Type: string
   
-#### fetchCount
+## fetchCount
 
 How many times the data is fetched, regardless of the type of source.
 
 Type: long
 
-#### fetchAepTotalTime
+## fetchAepTotalTime
 
 The total amount of time taken to fetch the data from Data Platform in millis. Remark: this amount of time is computed from the time the engine sends the enrichment event to the enrichment service and receives the response.
 
 Type: long
 
-#### fetchAepCount
+## fetchAepCount
 
 How many times the data is fetched from Platform.
 
 Type: long
 
-#### fetchCustomTotalTime
+## fetchCustomTotalTime
 
 Amount of time to fetch the custom data in millis. Remark: this amount of time is computed from the time the engine sends the enrichment event to the enrichment service and receives the response
 
 Type: long
 
-#### fetchCustomCount
+## fetchCustomCount
 
 How many times the custom data is fetched from external systems.
 

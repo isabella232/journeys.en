@@ -18,37 +18,37 @@ This mixin will be shared by the journeyStepEvent and journeyStepProfileEvent.
 
 If the step has an action to be processed, those fields will be added to the event payload. 
 
-#### actionId
+## actionId
 
 Id of the action that is being executed.
 
 Type: string
 
-#### actionName
+## actionName
 
 Name of the action. If no name has been set, the stepName will be taken.
 
 Type: string
 
-#### actionType
+## actionType
 
 Type of the action.
 
 Type: string
 
-#### actionParameterized
+## actionParameterized
 
 Indicates if the action is parameterized or not.
 
 Type: boolean
 
-#### actionExecTime
+## actionExecTime
 
 The amount of time (in millis) taken to execute a current action.
 
 Type: long
 
-#### actionExecError
+## actionExecError
 
 Type of error that happens when the action is called.
 
@@ -60,13 +60,13 @@ Values:
 * timeout
 * error
 
-#### actionExecErrorCode
+## actionExecErrorCode
 
 Code for action execution error. Present if the error has a code, such as an HTTP one. For instance, if the actionExecError is http, the code 404 represents the HTTP 404 error.
 
 Type: string
 
-#### actionExecOrigError
+## actionExecOrigError
 
 A timeout can occur, in two cases:
 
@@ -88,13 +88,13 @@ For instance, an email is being sent and an HTTP 500 error is returned at the fi
 
 Type: string
 
-#### actionExecOrigErrorCode
+## actionExecOrigErrorCode
 
 Error code of the actionExecOrigError.
 
 Type: string
 
-#### actionBusinessType
+## actionBusinessType
 
 Indicates the type of action. 
 
@@ -110,7 +110,7 @@ Values:
 
 Type: string
 
-#### actionSchedulerCount
+## actionSchedulerCount
 
 Count of scheduler notification requests sent to the scheduler service during the step processing.
 
