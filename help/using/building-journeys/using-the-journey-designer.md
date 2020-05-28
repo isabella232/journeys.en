@@ -105,7 +105,7 @@ In the canvas, when two activities are disconnected, a warning is displayed. Pla
 
  1. Select the activities you want to copy by moving your mouse while clicking. You can also click on each activity while pressing the **Ctrl/Command** key. Use **Ctrl/Command + A** if you want to select all activities.
 
-  ![](../assets/copy-paste1.png)
+   ![](../assets/copy-paste1.png)
 
  1. Press **Ctrl/Command + C**. 
 
