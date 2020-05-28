@@ -40,9 +40,9 @@ index: yes
     + [URL configuration](using/action/url-configuration.md)
     + [Defining the message parameters](using/action/defining-the-message-parameters.md)
 + Using Plaform segments {#configuring-segment}
-  + [About Plaform segments](using/action/about-segments.md)
-  + [Creating a segment](using/action/about-segments.md)
-  + [Using segments in conditions](using/action/using-a-segment.md)
+  + [About Plaform segments](using/segment/about-segments.md)
+  + [Creating a segment](using/segment/creating-a-segment.md)
+  + [Using segments in conditions](using/segment/using-a-segment.md)
 + Building a journey {#building-journeys}
   + About journey building {#about-journey-building}
     + [Creating a journey](using/building-journeys/journey.md)
