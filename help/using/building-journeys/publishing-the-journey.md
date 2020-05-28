@@ -26,10 +26,3 @@ If you stop a journey, it will be permanently stopped. All the persons flowing i
     ![](../assets/journeyuc1_18.png)
 
 When the journey is published, it is in read-only mode.
-
-Here are the different statuses of an individual's journey:
-
-* _Running_: the individual is currently in the journey.
-* _Finished_: the individual is at the end of the journey.
-* _Error_: the individual is stopped in the journey because of an error.
-* _Timed out_: the individual is stopped in the journey because of a step which took too much time.

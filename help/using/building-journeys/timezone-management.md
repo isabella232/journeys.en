@@ -50,6 +50,4 @@ To do so, in **[!UICONTROL Properties]**, check **[!UICONTROL Use Profile timezo
 
 ## Using time zones in expressions {#timezone-in-expressions}
 
-Time zones are used to build expression with the advanced expression editor. In this case, you will use the expression editor to select where you want the system to get this information. See [](../expression/expressionadvanced.md).
-
 The start and end dates of a journey cannot be linked to a specific time zone. They are automatically associated to the instance's time zone.
