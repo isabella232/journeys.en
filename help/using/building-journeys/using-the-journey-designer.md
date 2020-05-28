@@ -102,14 +102,9 @@ In the canvas, when two activities are disconnected, a warning is displayed. Pla
  Here are the steps to copy/paste activities:
 
  1. Open a journey.
-
  1. Select the activities you want to copy by moving your mouse while clicking. You can also click on each activity while pressing the **Ctrl/Command** key. Use **Ctrl/Command + A** if you want to select all activities.
-
-   ![](../assets/copy-paste1.png)
-
+    ![](../assets/copy-paste1.png)
  1. Press **Ctrl/Command + C**. 
-
  1. In any journey, press **Ctrl/Command + V** to paste the activities without linking them to an existing node. Pasted activities are placed in the same order. After being pasted, activities stay selected so you can easily move them. You can also place the cursor on an empty place holder and hit **Ctrl/Command + V**. Pasted activities will be linked to the node. 
-
-   ![](../assets/copy-paste3.png)
+    ![](../assets/copy-paste3.png)
 
