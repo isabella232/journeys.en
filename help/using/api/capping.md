@@ -22,6 +22,7 @@ To learn more on action or datasource configuration, see [About actions](https:/
 
 
 ## Resources
+
 The Journey Orchestration Capping API is described within a Swagger file available [here](https://adobedocs.github.io/JourneyAPI/docs/).
 
 To use this API with your Journey Orchestration instance, you need to use the AdobeIO Console. You can start by following this [Getting Started with Adobe Developer Console](https://www.adobe.io/apis/experienceplatform/console/docs.html#!AdobeDocs/adobeio-console/master/getting-started.md) and then use the sections in this page.
