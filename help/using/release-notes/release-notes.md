@@ -27,7 +27,7 @@ Platform segments can now be created and edited without leaving the Journey Orch
 
 In the simple expression editor, Platform segments are now directly listed in the navigation tree to allow easy setup of conditions such as "does this person belong to segment A?". [Read more](../segment/using-a-segment.md)
  
-Journey Orchestration is now automatically passing, to the Adobe Data Platform, the steps followed by individuals in journeys. This includes potential errors encountered. This information can be used for analysis or segmentation purposes.
+Journey Orchestration is now automatically passing, to the Adobe Data Platform, the steps followed by individuals in journeys. This includes potential errors encountered. This information can be used for analysis or segmentation purposes. [Read more](../building-journeys/sharing-overview.md)
 
 Journey Orchestration can now be connected to production and non-production Platform Sandbox. Effective availability: June, 15 2020.
 
