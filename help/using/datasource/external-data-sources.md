@@ -80,7 +80,7 @@ In case of a GET call requiring parameter(s), you enter the parameter(s) in the 
 * specify them also with the exact same syntax in the body of the sent payload. To do so, you need to add: "param": “name of your parameter” (in the example below: “identifier”). Follow the syntax below:
 
     ```
-    {“id”:{“param”:“identifier”}}
+    {"id":{"param":"identifier"}}
     ```
 
 ![](../assets/journey29.png)
@@ -90,6 +90,11 @@ Click **[!UICONTROL Save]**.
 The data source is now configured and ready to be used in your journeys, for example in your conditions or to personalize an email. If the temperature is above 30°C, you can decide to send a specific communication.
 
 ## Custom authentication mode{#section_wjp_nl5_nhb}
+
+>[!CONTEXTUALHELP]
+>id="jo_authentication_payload"
+>title="About custom authentication"
+>abstract="The custom authentication mode is used for complex authentication to call API wrapping protocols such as OAuth2. The action execution is a two-step process. First, a call to the endpoint is performed to generate the access token. Then, the access token is injected in the the HTTP request of the action."
 
 This authentication mode is used for complex authentication, frequently used to call API wrapping protocols such as OAuth2, to retrieve an access token to be injected in the real HTTP request for the action.
 
@@ -101,7 +106,7 @@ If the test is successful, the button turns green.
 
 ![](../assets/journey29-ter.png)
 
-With this authentication, the action execution is a two-steps process:
+With this authentication, the action execution is a two-step process:
 
 1. Call the endpoint to generate the access token.
 1. Call the REST API by injecting in the proper way the access token.
@@ -138,7 +143,7 @@ The format of this authentication is:
     (optional, mandatory if authorizationType is 'header' or 'queryParam') "tokenTarget": "<name of the header or queryParam if the authorizationType is 'header' or 'queryParam'>",
     "endpoint": "<URL of the authentication endpoint>",
     "method": "<HTTP method to call the authentication endpoint, in 'GET' or 'POST'>",
-    (optional) "headers: {
+    (optional) "headers": {
         "<header name>": "<header value>",
         ...
     },

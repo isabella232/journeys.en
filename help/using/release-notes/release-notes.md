@@ -55,7 +55,7 @@ You can also consult the [Documentation Updates](../release-notes/documentation-
 <p>Timezone management is now centralized in the journey properties panel. Two parameters have been added in the journey properties:</p>
 <img src="../assets/rn-timezone.png"/>
 <ul>
-<li>The <strong>Timezone</strong> drop-down list allows you to select a specific timezone. By default, the browser's timezone is used.</li>
+<li>The <strong>Timezone</strong> drop-down list allows you to select a specific timezone. By default, the browser's timezone is used. </li>
 <li>The <strong>Profile Timezone</strong> checkbox allows you to use the Experience Platform Profile timezone of the person entering the journey, if available. If not, the timezone defined in the drop-down list is used. This feature is not compatible with journeys using events that do not have a namespace.</li>
 </ul>
 <p>For more information, refer to the <a href="../building-journeys/changing-properties.md#timezone">Changing properties</a> and <a href="../building-journeys/timezone-management.md">Timezone management</a> sections.</p>

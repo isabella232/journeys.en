@@ -18,7 +18,7 @@ The journey Home menu allows you to view the **list of journeys**. Create a new 
 
 ## The journey list {#journey_list}
 
-The **journey list** allows you to view all your journeys at once, see their status and perform basic actions. You can duplicate, stop or delete your journeys. Depending on the journey, certain actions might not be available. For example, you can't stop or delete a journey that is finished. You can also use the search bar to search for a journey.
+The **journey list** allows you to view all your journeys at once, see their status and perform basic actions. You can duplicate, stop or delete your journeys. Depending on the journey, certain actions might not be available. For example, you can't delete or restart a journey that is finished. You can create a new version from it, duplicate it or stop it. You can also use the search bar to search for a journey.
 
 The **[!UICONTROL Filters]** can be accessed by clicking on the filter icon on the top left of the list. The filters menu allows you to filter the displayed journeys according to different criteria (status, the ones you created, the ones modified in the last 30 days, latest versions only etc.). You can also choose to only display the journeys that use a particular event, field group or action. Columns displayed on the list can be configured. All filters and columns are saved per user.
 
