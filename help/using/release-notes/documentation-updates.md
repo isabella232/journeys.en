@@ -17,6 +17,18 @@ snippet: y
 This page lists all the documentation updates for Journey Orchestration.
 You can also consult the Journey Orchestration [Release Notes](../release-notes/release-notes.md).
 
+## June 2020 {#june-2020}
+
+* Added information on how to change the cache duration of the token for a custom authentication datasource. [Read more](../datasource/external-data-sources.md#section_wjp_nl5_nhb)
+* Updated screenshots and text to reflect the renaming of the **Finished** which has been changed to **Closed (no entrance)**.
+* Added information on how the language is defined for the interface. [Read more](../about/user-interface.md)
+* The list of statuses of an individual's journey has been moved to the [Test mode logs](../building-journeys/testing-the-journey.md#viewing_logs) section. 
+
+## April 2020 {#april-2020}
+
+* Added a new section on experience event schema definition to help users configure their first event. [Read more](../event/experience-event-schema.md)
+* The home page for Journey Orchestration documentation has been updated with additionnal useful links. [Read more](../../journey-orchestration-home.md)
+
 ## March 2020 {#march-2020}
 
 * Added parameter descriptions for _actionExecutionErrors_ and _fetchErrors_ in test logs section. [Read more](../building-journeys/testing-the-journey.md#viewing_logs)
@@ -32,10 +44,10 @@ You can also consult the Journey Orchestration [Release Notes](../release-notes/
 * The interface description has been updated with information on contextual help. [Read more](../about/user-interface.md#section_ksq_zr1_ffb)
 * When browsing **XDM fields**, the friendly name is now displayed. Related sections have been updated. [Read more](../about/user-interface.md#friendly-names-display)
 
-
 ## February 2020 {#february-2020}
 
 * The shortcut section has been udpated. The **C** keyboard shortcut allows you to create a new item in all list screens. [Read more](../about/user-interface.md#section_ksq_zr1_ffb)
+* The [data source](../datasource/about-data-sources.md) and [action](../action/action.md) overview pages have been improved.
 
 ## January 2020 {#january-2020}
 
