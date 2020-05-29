@@ -18,7 +18,7 @@ This mixin is specific to journeyStepEvent: this event is in relation with journ
 
 For journeyStepEvent, we need also to add fields related to the identity:
 
-## profileId
+## profileID
 
 Profile identifier
 

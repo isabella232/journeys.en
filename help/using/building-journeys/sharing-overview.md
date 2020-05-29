@@ -24,7 +24,9 @@ The list of XDM fields that are passed is comprehensive. Some contain system gen
 
 >[!CAUTION]
 >
->By default, datasets are not turned on for real time profile service. If you want a dataset in profile service, you need to turn it on (**Profile** toggle). Be aware that a high volume of events will take up storage in your quota. Please proceed carefully before activating a dataset for profiles.
+>By default, datasets are not turned on for real time profile service. If you want a dataset in profile service, you need to turn it on (**Profile** toggle). Be aware that a high volume of events will take up storage in your quota. Please proceed carefully before activating a dataset for profiles
+>
+>![](../assets/sharing4.png)
 
 Journeys sends data as it occurs, in a streaming way. You can query this data using the Query Service. You can connect to Customer Journey Analytics or other BI tools to view data related to these steps.
 
@@ -34,11 +36,17 @@ The following schemas are created:
 * Journey Step Event schema for Journey Orchestration – Journey step event that is tied to a Journey Metadata.
 * Journey schema with Journey Fields for Journey Orchestration – Journey Metadata to describe Journeys.
 
+![](../assets/sharing1.png)
+
+![](../assets/sharing2.png)
+
 The following datasets are passed:
 
 * Journey Step Profile Event schema for Journey Orchestration
 * Journey Step Events
 * Journeys
+
+![](../assets/sharing3.png)
 
 The lists of XDM fields passed to the Platform are detailed here:
 

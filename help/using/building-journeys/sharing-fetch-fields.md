@@ -52,7 +52,7 @@ Code for fetch error. Present if the error has a code, such as an HTTP one. For 
 
 Type: string
 
-## fetchOrigError
+## fetchOriginError
   
 A timeout can occur, in two cases:
 
@@ -72,7 +72,9 @@ For instance, data is being fetched from Unified Profile Service and an HTTP 500
 
 Type: string
 
-## fetchOrigErrorCode
+## fetchOriginErrorCode
+
+The Error code provided by the system Journey Orchestration is querying. For example it can be a 404, 500, etc.
 
 Type: string
   
@@ -82,13 +84,13 @@ How many times the data is fetched, regardless of the type of source.
 
 Type: long
 
-## fetchAepTotalTime
+## fetchPlatformTotalTime
 
 The total amount of time taken to fetch the data from Data Platform in millis. Remark: this amount of time is computed from the time the engine sends the enrichment event to the enrichment service and receives the response.
 
 Type: long
 
-## fetchAepCount
+## fetchPlatformCount
 
 How many times the data is fetched from Platform.
 

@@ -18,9 +18,9 @@ This mixin will be shared by the journeyStepEvent and journeyStepProfileEvent.
 
 If the step has an action to be processed, those fields will be added to the event payload. 
 
-## actionId
+## actionID
 
-Id of the action that is being executed.
+ID of the action that is being executed.
 
 Type: string
 
@@ -42,13 +42,13 @@ Indicates if the action is parameterized or not.
 
 Type: boolean
 
-## actionExecTime
+## actionExecutionTime
 
-The amount of time (in millis) taken to execute a current action.
+The amount of time (in milliseconds) taken to execute a current action.
 
 Type: long
 
-## actionExecError
+## actionExecutionError
 
 Type of error that happens when the action is called.
 
@@ -60,13 +60,13 @@ Values:
 * timeout
 * error
 
-## actionExecErrorCode
+## actionExecutionErrorCode
 
-Code for action execution error. Present if the error has a code, such as an HTTP one. For instance, if the actionExecError is http, the code 404 represents the HTTP 404 error.
+Code for action execution error. Present if the error has a code, such as an HTTP one. 
 
 Type: string
 
-## actionExecOrigError
+## actionExecutionOriginError
 
 A timeout can occur, in two cases:
 
@@ -88,7 +88,7 @@ For instance, an email is being sent and an HTTP 500 error is returned at the fi
 
 Type: string
 
-## actionExecOrigErrorCode
+## actionExecutionOriginCode
 
 Error code of the actionExecOrigError.
 
@@ -109,6 +109,24 @@ Values:
  * ...
 
 Type: string
+
+## deliveryJobID
+
+This describes the delivery Job Id for the batch Journey.
+
+Type: string
+
+## batchDeliveryID
+
+This describes the delivery Id for the batch Journey.
+
+Type: string
+
+## fromSegmentTrigger
+
+This describes if the Batch Journey is triggered from Audience Segment.
+
+Type: boolean
 
 ## actionSchedulerCount
 

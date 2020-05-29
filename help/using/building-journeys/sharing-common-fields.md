@@ -42,19 +42,19 @@ Indicates if the instance has ended (successfully or not).
 
 Type: boolean
 
-## eventId
+## eventID
 
-Event Id in processing, for the step processing. If the event is an external one, the value is its eventId. If the event is an internal one, the value is the internal eventId (such as scheduledNotificationReceived, executedAction, etc.).
+Event id in processing, for the step processing. If the event is an external one, the value is its eventId. If the event is an internal one, the value is the internal eventId (such as scheduledNotificationReceived, executedAction, etc.).
 
 Type: string
 
-## nodeId
+## nodeID
 
 Client node id (from the canvas). 
 
 Type: string
 
-## stepId
+## stepID
 
 Unique id of the step that is currently being processed.
 
@@ -94,13 +94,13 @@ The status can be:
 * timedout: the step has failed on a timeout error, raised during an action or enrichment.
 * instanceTimedout: the step has stopped its processing, because the instance has reached its timeout.
 
-## journeyId
+## journeyID
 
 ID of the journey.
 
 Type: string
 
-## journeyVersionId
+## journeyVersionID
 
 ID of the journey version. This id represents the identity reference to the journey, in the case of the journeyStepEvent.
 
@@ -118,7 +118,7 @@ Version of the journey version.
 
 Type: string
 
-## instanceId
+## instanceID
 
 Internal ID of the journey instance.
 
@@ -130,7 +130,7 @@ External key extracted from the event to process it.
 
 Type: string
 
-## parentStepId
+## parentStepID
 
 Step ID of the parent of the current processed step in the instance.
 
@@ -142,7 +142,7 @@ Step name of the parent of the current step.
 
 Type: string
 
-## parentTransitionId
+## parentTransitionID
 
 Id of the transition which has brought the instance to the processed step.
 
@@ -162,7 +162,7 @@ Type: boolean
 
 ## processingTime
 
-Total amount of time in millis from the instance step entrance to the end of the processing.
+Total amount of time in milliseconds from the instance step entrance to the end of the processing.
 
 Type: long
 
@@ -188,18 +188,18 @@ Type: boolean
 
 ## batchExternalKey
 
-If the instance has been triggered from a batch instance, batch external key.
+External Key for batch event.
 
 Type: string
 
-## batchInstanceId
+## batchInstanceID
 
-If the instance has been triggered from a batch instance, batch instance id.
+this is the batch instance ID.
 
 Type: string
 
-## batchUnitaryBranchId
+## batchUnitaryBranchID
 
-if the instance has been triggered from a batch instance, unitary branch id.
+if the instance has been triggered from a batch instance, unitary branch ID.
 
 Type: string

@@ -20,7 +20,7 @@ You can also consult the Journey Orchestration [Release Notes](../release-notes/
 ## June 2020 {#june-2020}
 
 * Added information on how to change the cache duration of the token for a custom authentication datasource. [Read more](../datasource/external-data-sources.md#section_wjp_nl5_nhb)
-* Updated screenshots and text to reflect the renaming of the **Finished** which has been changed to **Closed (no entrance)**.
+* Updated screenshots and text to reflect the renaming of the **Finished** journey state which has been changed to **Closed (no entrance)**.
 * Added information on how the language is defined for the interface. [Read more](../about/user-interface.md)
 * The list of statuses of an individual's journey has been moved to the [Test mode logs](../building-journeys/testing-the-journey.md#viewing_logs) section. 
 
