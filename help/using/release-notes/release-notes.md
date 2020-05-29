@@ -40,6 +40,7 @@ You can also consult the [Documentation Updates](../release-notes/documentation-
 <img src="../assets/rn-segment4.png"/>
 </li>
 <li>Journey Orchestration is now automatically passing, to the Adobe Data Platform, the steps followed by individuals in journeys. This includes potential errors encountered. This information can be used for analysis or segmentation purposes. <a href="../building-journeys/sharing-overview.md">Read more</a>
+<img src="../assets/rn-sharing.png"/>
 </li>
 <li>Journey Orchestration can now be connected to production and non-production Platform Sandbox. Effective availability: June, 15 2020.
 </li>
