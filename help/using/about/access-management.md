@@ -81,6 +81,7 @@ To create a product profile and assign a set of rights and sandboxes:
     >[!NOTE]
     >
     >Journey Orchestration can now be connected to production and non-production Platform Sandbox. Effective availability: June, 15 2020.
+    <br>For more information on sandboxes, refer to this [section](../about/access-management.md#sandboxes).
 
 1. If needed, under **[!UICONTROL Included Permission Items]**, click the X icon next to remove permissions to your product profile.
 
