@@ -56,10 +56,6 @@ You can find below the compatibility between rights and Journey Orchestration's 
 
 ## Creating a product profile {#create-product-profile}
 
->[!NOTE]
->
->Journey Orchestration can now be connected to production and non-production Platform Sandbox. Effective availability: June, 15 2020.
-
 Journey Orchestration allows you to create your own product profiles and assign a set of rights and sandboxes to your users. With product profiles, you can authorize or deny access to certain functionalities or objects in the interface.
 
 For more information on how to create and manage sandboxes, refer to [Adobe Experience Platform documentation](https://docs.adobe.com/content/help/en/experience-platform/sandbox/ui/user-guide.html).
@@ -81,6 +77,10 @@ To create a product profile and assign a set of rights and sandboxes:
 1. From the **[!UICONTROL Permissions]** tab, select one of the two categories **[!UICONTROL Sandbox]** or **[!UICONTROL Authoring]** to open the **[!UICONTROL Edit Permissions]** page and add or remove permissions for your product profile.
 
 1. In the **[!UICONTROL Sandbox]** permission category, choose which sandbox(es) to assign to your product profile. Under **[!UICONTROL Available Permissions Items]**, click the plus (+) icon to assign sandboxes to your profile.
+
+    >[!NOTE]
+    >
+    >Journey Orchestration can now be connected to production and non-production Platform Sandbox. Effective availability: June, 15 2020.
 
 1. If needed, under **[!UICONTROL Included Permission Items]**, click the X icon next to remove permissions to your product profile.
 
@@ -117,3 +117,17 @@ To assign a product profile for a user to access Journey Orchestration:
     ![](../assets/user_management_4.png)
 
 Your user should then receive an email redirecting to your Journey Orchestration instance.
+
+## Using sandboxes {#sandboxes}
+
+>[!NOTE]
+>
+>Journey Orchestration can now be connected to production and non-production Platform Sandbox. Effective availability: June, 15 2020.
+
+Journey Orchestration allows you to partition your instance into separated virtual environments called sandboxes.
+Sandboxes are assigned through product profiles in the Admin console. For more information on how to assign sandboxes, refer to this [section](../about/access-management.md#create-product-profile).
+
+Journey Orchestration reflects the Platform sandboxes which were created for a given organization.
+Platform sandboxes can be created or reset from your Adobe Experience Platform instance. Refer to the [Sandbox user guide](https://docs.adobe.com/content/help/en/experience-platform/sandbox/ui/user-guide.html) for the detailed steps.
+
+You can find the sandbox switcher control at the top-left of your screen. To switch from one sandbox to another, click the currently active sandbox in the switcher and select another sandbox from the drop-down list.
