@@ -42,6 +42,9 @@ The simple mode allows you to perform simple queries based on a combination of f
 
 ![](../assets/journey64.png)
 
+If you're using the [Platform Segmentation Service](https://docs.adobe.com/content/help/en/experience-platform/segmentation/home.html) to create your segments, you can leverage them in your journey conditions. Refer to [Using segments in conditions](../segment/using-a-segment.md).
+
+
 >[!NOTE]
 >
 >You cannot perform queries on time series (for example a list of purchases, past clicks on messages) with the simple editor. For this you’ll need to use the advanced editor. See [](../expression/expressionadvanced.md).

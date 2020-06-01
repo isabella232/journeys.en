@@ -66,6 +66,16 @@ The interface allows you to pass simple event parameters. If you want to pass co
 
 A technical user can also use this interface to compose event payloads and trigger events without having to use a third-party tool.
 
+When clicking the **Send** button, the test begins. The progression of the individual in the journey is represented by a visual flow. The path progressively turns green as the individual moves across the journey. If an error occurs, a warning symbol is displayed on the corresponding step. You can place the cursor on it to display more information about the error and access full details (when available). 
+
+![](../assets/journeytest6.png)
+
+When you select a different test profile in the event configuration screen and run the test again, the visual flow is cleared and shows the path of the new individual.
+
+When opening a journey in test, the displayed path corresponds to the last test executed.
+
+The visual flow is only displayed when the event sent to the journey is defined in the event configuration screen. If the event is defined externally, for example using Postman, the visual flow is not displayed.
+
 ## Viewing the logs {#viewing_logs}
 
 The **[!UICONTROL Show log]** button allows you to view the test results. This page displays the journey’s current information in JSON format. A button allows you to copy entire nodes. You need to manually refresh the page to update the journey’s test results.
@@ -88,3 +98,9 @@ The number of individuals (technically they are called instances) currently insi
 * _transitionHistory_: the list of steps that the individual followed. For events, the payload is displayed.
 * _actionExecutionErrors_ : information on the errors that occurred.
 
+Here are the different statuses of an individual's journey:
+
+* _Running_: the individual is currently in the journey.
+* _Finished_: the individual is at the end of the journey.
+* _Error_: the individual is stopped in the journey because of an error.
+* _Timed out_: the individual is stopped in the journey because of a step which took too much time.
