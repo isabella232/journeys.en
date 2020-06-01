@@ -77,7 +77,7 @@ You can also consult the [Documentation Updates](../release-notes/documentation-
 
 To avoid sending too many API calls to third-party systems, we're introducing a new public API to setup "capping" rules. Capping rules allow the definition of a maximum number of calls to an API endpoint per milliseconds. [Read more](../api/capping.md)
 
-Access control now allows more granularity in user access management. [Read more](../about/access-management.md#create-product-profile)
+Access control now allows more granularity in user access management. Effective availability: June, 15 2020. [Read more](../about/access-management.md#create-product-profile)
 
 Journey Orchestration is now available in APAC (Australian data center). Effective availability: June, 15 2020
 
