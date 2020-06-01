@@ -132,3 +132,16 @@ _In the canvas of a journey:_
 * Use the **Ctrl/Command + A** key combination to select all activities.
 * When one or several activities are selected, press **[!UICONTROL Delete]** or **backspace** to delete them. Then you can press **[!UICONTROL Enter]** to confirm in the confirmation pop-up.
 * Double-click on an activity from the left palette to add it at the first available position (from top to bottom).
+
+## Using sandboxes {#sandboxes}
+
+>[!NOTE]
+>
+>Journey Orchestration can now be connected to production and non-production Platform Sandbox. Effective availability: June, 15 2020.
+
+Journey Orchestration allows you to partition your instance into separated virtual environments called sandboxes.
+Sandboxes are assigned through product profiles in the Admin console. For more information on how to assign sandboxes, refer to this [page](../about/access-management.md#create-product-profile).
+
+Sandboxes can be created or reset from your Adobe Experience Platform instance. Refer to the [Sandbox user guide](https://docs.adobe.com/content/help/en/experience-platform/sandbox/ui/user-guide.html) for the detailed steps.
+
+You can find the sandbox switcher control at the top-left of your screen. To switch from one sandbox to another, click the currently active sandbox in the switcher and select another sandbox from the drop-down list.
