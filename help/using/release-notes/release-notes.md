@@ -22,7 +22,7 @@ You can also consult the [Documentation Updates](../release-notes/documentation-
 <table>
 <thead>
 <tr>
-<th><strong>Platform integration enhancements</strong><br/></th>
+<th><strong>Adobe Experience Platform integration enhancements</strong><br/></th>
 </tr>
 </thead>
 <tbody>
@@ -63,10 +63,10 @@ You can also consult the [Documentation Updates](../release-notes/documentation-
 <li><p>You can now copy paste activities from one journey to another, selecting 1 or N journey activities. <a href="../building-journeys/using-the-journey-designer.md#copy-paste">Read more</a></p>
 <img src="../assets/rn-copy-paste1.png"/>
 </li>
-<li>The <strong>Finished</strong> journey state has been renamed <strong>Closed (no entrance)</strong> to better reflect what this state means.</li>
 <li><p>After firing an event to make a test profile enter a journey, you can now see its progress along the journey thanks to a colored visual flow. In case of error in the journey, details of errors are also displayed. <a href="../building-journeys/testing-the-journey.md#firing_events">Read more</a></p>
 <img src="../assets/rn-journeytest6.png"/>
 </li>
+<li>The <strong>Finished</strong> journey state has been renamed <strong>Closed (no entrance)</strong> to better reflect what this state means.</li>
 </ul>
 </td>
 </tr>
@@ -77,11 +77,11 @@ You can also consult the [Documentation Updates](../release-notes/documentation-
 
 To avoid sending too many API calls to third-party systems, we're introducing a new public API to setup "capping" rules. Capping rules allow the definition of a maximum number of calls to an API endpoint per milliseconds. [Read more](../api/capping.md)
 
-Journey Orchestration is now available in APAC (Australian data centers). Effective availability: June, 15 2020
+Access control now allows more granularity in user access management. [Read more](../about/access-management.md)
+
+Journey Orchestration is now available in APAC (Australian data center). Effective availability: June, 15 2020
 
 The Journey Orchestration interface is available in Japanese.
-
-Access control now allows more granularity in user access management. [Read more](../about/access-management.md)
 
 ## Q1 Release - March 2020 {#q1-release---march-2020}
 
