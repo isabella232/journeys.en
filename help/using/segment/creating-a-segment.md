@@ -15,7 +15,7 @@ snippet: y
 
 # Creating a segment {#creating-a-segment}
 
->The segment tab and the creation/modification of segments will be available on June 15th.
+>The segment tab and the creation/modification of segments in Journey Orchestration will be available on June 15th.
 
 You can either create a segment using the [Platform Segmentation Service](https://docs.adobe.com/content/help/en/experience-platform/segmentation/home.html) or you can access and create them directly in Journey Orchestration.
 
