@@ -39,6 +39,10 @@ index: yes
     + [Custom action limitations](using/action/custom-action-limitations.md)
     + [URL configuration](using/action/url-configuration.md)
     + [Defining the message parameters](using/action/defining-the-message-parameters.md)
++ Using Plaform segments {#configuring-segment}
+  + [About Plaform segments](using/segment/about-segments.md)
+  + [Creating a segment](using/segment/creating-a-segment.md)
+  + [Using segments in conditions](using/segment/using-a-segment.md)
 + Building a journey {#building-journeys}
   + About journey building {#about-journey-building}
     + [Creating a journey](using/building-journeys/journey.md)
@@ -60,6 +64,13 @@ index: yes
       + [Using custom actions](using/building-journeys/using-custom-actions.md)
   + [Testing the journey](using/building-journeys/testing-the-journey.md)
   + [Publishing the journey](using/building-journeys/publishing-the-journey.md)
+  + Sharing journey steps with Platform {#sharing-journey-steps}
+      + [Journey step sharing overview](using/building-journeys/sharing-overview.md)
+      + [journeySteps events common fields](using/building-journeys/sharing-common-fields.md)
+      + [journeyStep events action execution fields](using/building-journeys/sharing-execution-fields.md)
+      + [journeyStep events data fetch fields](using/building-journeys/sharing-fetch-fields.md)
+      + [journeyStep event identity fields](using/building-journeys/sharing-identity-fields.md)
+      + [journey fields](using/building-journeys/sharing-journey-fields.md)
 + Using the advanced expression editor {#building-advanced-conditions-journeys}
   + [About the advanced expression editor](using/expression/expressionadvanced.md)
   + Syntax {#syntax}
@@ -156,4 +167,6 @@ index: yes
     + [Configuring the data sources](using/usecase/configuring-the-data-sources.md)
     + [Building the journey](using/usecase/building-the-journey.md)
   + [Leveraging fatigue scores](using/usecase/leveraging-fatigue-scores.md)
++ Working with APIs{#working-with-apis}
+  + [Capping APIs](using/api/capping.md)
   

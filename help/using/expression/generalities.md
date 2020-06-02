@@ -43,5 +43,4 @@ Depending on the context of use, the expression editor can return different valu
 |--- |--- |
 |Condition (data source condition, date condition)|boolean|
 |Custom timer|dateTimeOnly|
-|Custom time zone|timeZone or string (e.g. Europe/Paris)|
 |Action parameters mapping|Any|

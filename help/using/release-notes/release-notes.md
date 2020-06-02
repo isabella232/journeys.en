@@ -17,6 +17,72 @@ snippet: y
 This page lists all the new features and improvements for Journey Orchestration.
 You can also consult the [Documentation Updates](../release-notes/documentation-updates.md).
 
+## Q2 Release - June 2020 {#q2-release---june-2020}
+
+<table>
+<thead>
+<tr>
+<th><strong>Adobe Experience Platform integration enhancements</strong><br/></th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td>
+<p>The following Platform integration enhancements have been made:</p>
+<ul>
+<li><p>A new activity allows the listening of Platform segment entrances/exits to make people enter or move forward in a journey. <a href="../building-journeys/event-activities.md#segment-qualification">Read more</a></p>
+<img src="../assets/rn-segment7.png"/>
+</li>
+<li><p>Platform segments can now be created and edited without leaving the Journey Orchestration interface, thanks to a new <strong>Segments</strong> tab. Effective availability: June, 15 2020. <a href="../segment/about-segments.md">Read more</a></p>
+<img src="../assets/rn-segment1.png"/>
+</li>
+<li><p>In the simple expression editor, Platform segments are now directly listed in the navigation tree to allow easy setup of conditions such as "does this person belong to segment A?". <a href="../segment/using-a-segment.md">Read more</a></p>
+<img src="../assets/rn-segment4.png"/>
+</li>
+<li><p>Journey Orchestration is now automatically passing, to the Adobe Data Platform, the steps followed by individuals in journeys. This includes potential errors encountered. This information can be used for analysis or segmentation purposes. <a href="../building-journeys/sharing-overview.md">Read more</a></p>
+<img src="../assets/rn-sharing.png"/>
+</li>
+<li><p>Journey Orchestration can now be connected to production and non-production Platform Sandbox. Effective availability: June, 15 2020. <a href="../about/access-management.md#sandboxes">Read more</a></p>
+</li>
+</td>
+</tr>
+</tbody>
+</table>
+
+<table>
+<thead>
+<tr>
+<th><strong>Journey designer and test mode enhancements</strong><br/></th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td>
+<p>The following enhancements have been made to the journey designer and the test mode:</p>
+<ul>
+<li><p>You can now copy paste activities from one journey to another, selecting 1 or N journey activities. <a href="../building-journeys/using-the-journey-designer.md#copy-paste">Read more</a></p>
+<img src="../assets/rn-copy-paste1.png"/>
+</li>
+<li><p>After firing an event to make a test profile enter a journey, you can now see its progress along the journey thanks to a colored visual flow. In case of error in the journey, details of errors are also displayed. <a href="../building-journeys/testing-the-journey.md#firing_events">Read more</a></p>
+<img src="../assets/rn-journeytest6.png"/>
+</li>
+<li>The <strong>Finished</strong> journey state has been renamed <strong>Closed (no entrance)</strong> to better reflect what this state means.</li>
+</ul>
+</td>
+</tr>
+</tbody>
+</table>
+
+**Other improvements**
+
+To avoid sending too many API calls to third-party systems, we're introducing a new public API to setup "capping" rules. Capping rules allow the definition of a maximum number of calls to an API endpoint per milliseconds. [Read more](../api/capping.md)
+
+Access control now allows more granularity in user access management. Effective availability: June, 15 2020. [Read more](../about/access-management.md#create-product-profile)
+
+Journey Orchestration is now available in APAC (Australian data center). Effective availability: June, 15 2020
+
+The Journey Orchestration interface is available in Japanese.
+
 ## Q1 Release - March 2020 {#q1-release---march-2020}
 
 **What's new?**
