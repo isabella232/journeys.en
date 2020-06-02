@@ -33,7 +33,7 @@ You can also consult the [Documentation Updates](../release-notes/documentation-
 <li><p>A new activity allows the listening of Platform segment entrances/exits to make people enter or move forward in a journey. <a href="../building-journeys/event-activities.md#segment-qualification">Read more</a></p>
 <img src="../assets/rn-segment7.png"/>
 </li>
-<li><p>Platform segments can now be created and edited without leaving the Journey Orchestration interface, thanks to a new <strong>Segments</strong> tab. <a href="../segment/about-segments.md">Read more</a></p>
+<li><p>Platform segments can now be created and edited without leaving the Journey Orchestration interface, thanks to a new <strong>Segments</strong> tab. Effective availability: June, 15 2020. <a href="../segment/about-segments.md">Read more</a></p>
 <img src="../assets/rn-segment1.png"/>
 </li>
 <li><p>In the simple expression editor, Platform segments are now directly listed in the navigation tree to allow easy setup of conditions such as "does this person belong to segment A?". <a href="../segment/using-a-segment.md">Read more</a></p>
