@@ -16,7 +16,7 @@ snippet: y
 
 You can send emails, push notifications and SMS using the Adobe Campaign Standard's Transactional Messaging capabilities. 
 
-Journey Orchestration comes with an out-of-the-box action which allows the connection to Adobe Campaign Standard. Here are the steps to configure it:
+[!DNL Journey Orchestration] comes with an out-of-the-box action which allows the connection to Adobe Campaign Standard. Here are the steps to configure it:
 
 1. From the **[!UICONTROL Actions]** list, click the built-in **[!UICONTROL AdobeCampaignStandard]** action. The action configuration pane opens on the right side of the screen.
 

@@ -14,7 +14,7 @@ snippet: y
 
 # About custom action configuration {#concept_sxy_bzs_dgb}
 
-If you're using a third-party system to send messages or if you want Journey Orchestration to send API calls to a third-party system, this is where you configure its connection to Journey Orchestration. The custom action defined by technical users will then be available in the left palette of your journey, in the **[!UICONTROL Action]** category (see [](../building-journeys/about-action-activities.md). Here are a few examples of systems that you can connect to with custom actions: Epsilon, Facebook, Adobe.io, Firebase, etc.
+If you're using a third-party system to send messages or if you want [!DNL Journey Orchestration] to send API calls to a third-party system, this is where you configure its connection to [!DNL Journey Orchestration]. The custom action defined by technical users will then be available in the left palette of your journey, in the **[!UICONTROL Action]** category (see [](../building-journeys/about-action-activities.md). Here are a few examples of systems that you can connect to with custom actions: Epsilon, Facebook, Adobe.io, Firebase, etc.
 Limitations are listed here: [](../action/custom-action-limitations.md).
 
 Here are the main steps required to configure a custom action:

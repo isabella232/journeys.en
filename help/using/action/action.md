@@ -29,7 +29,7 @@ The actions are available in the left palette of your journey, in the **[!UICONT
 >
 >The configuration of custom actions is always performed by a **technical user**.
 
-In the list of **Actions**, you can press c to create a new journey, action, data source or event. For more information on shortcuts in Journey Orchestration, see [](../about/user-interface.md#section_ksq_zr1_ffb).
+In the list of **Actions**, you can press c to create a new journey, action, data source or event. For more information on shortcuts in [!DNL Journey Orchestration], see [](../about/user-interface.md#section_ksq_zr1_ffb).
 
 To view the action list or configure a new action, click **[!UICONTROL Actions]** in the top menus. The list of actions is displayed. See [](../about/user-interface.md) for more information on the interface.
 
@@ -39,4 +39,4 @@ If you have Adobe Campaign Standard, you need to configure the out-of-the box ac
 
 If you're using a third-party system to send messages such as Epsilon, Facebook, Adobe.io, Firebase, etc, you need to add and configure a custom action. Refer to [](../action/about-custom-action-configuration.md).
 
-For more information on how to configure an Action for Journey Orchestration and how to use it in a journey, watch this [video tutorial](https://docs.adobe.com/content/help/en/platform-learn/tutorials/journey-orchestration/configure-actions.html).
+For more information on how to configure an Action for [!DNL Journey Orchestration] and how to use it in a journey, watch this [video tutorial](https://docs.adobe.com/content/help/en/platform-learn/tutorials/journey-orchestration/configure-actions.html).

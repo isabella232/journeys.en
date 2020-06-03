@@ -35,7 +35,7 @@ Authorized values are between 1 and 30 seconds.
 
 We recommend that you define a very short **[!UICONTROL Timeout and error]** value if your journey is time sensitive (example: reacting to the real-time location of a person) because you cannot delay your action for more than a few seconds. If your journey is less time sensitive, you can use a longer value to give more time to the system called to send a valid response.
 
-Journey Orchestration also uses a global timeout. See the [next section](#global_timeout).
+[!DNL Journey Orchestration] also uses a global timeout. See the [next section](#global_timeout).
 
 ## Global journey timeout {#global_timeout}
 
@@ -43,7 +43,7 @@ In addition to the [timeout](#timeout_and_error) used in journey activitites, th
 
 >[!NOTE]
 >
->Journey Orchestration does not directly react to privacy opt-out, access or delete requests. However, the global timeout ensures that individuals never stay more than 30 days in any journey.
+>[!DNL Journey Orchestration] does not directly react to privacy opt-out, access or delete requests. However, the global timeout ensures that individuals never stay more than 30 days in any journey.
 
 Due to the 30-day journey timeout, when journey re-entrance is not allowed, we cannot make sure the re-entrance blocking will work more than 30 days. Indeed, as we remove all information about persons who entered the journey 30 days after they enter, we cannot know the person entered previously, more than 30 days ago.
 
