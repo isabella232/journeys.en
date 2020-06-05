@@ -36,13 +36,11 @@ You can also consult the [Documentation Updates](../release-notes/documentation-
 <li><p>Platform segments can now be created and edited without leaving the Journey Orchestration interface, thanks to a new <strong>Segments</strong> tab. Effective availability: June, 15 2020. <a href="../segment/about-segments.md">Read more</a></p>
 <img src="../assets/rn-segment1.png"/>
 </li>
-<li><p>In the simple expression editor, Platform segments are now directly listed in the navigation tree to allow easy setup of conditions such as "does this person belong to segment A?". <a href="../segment/using-a-segment.md">Read more</a></p>
+<li><p>In the simple expression editor, Platform segments are now directly listed in the navigation tree to allow easy setup of conditions such as "does this person belong to segment A?". Effective availability: June, 15 2020. <a href="../segment/using-a-segment.md">Read more</a></p>
 <img src="../assets/rn-segment4.png"/>
 </li>
 <li><p>Journey Orchestration is now automatically passing, to the Adobe Data Platform, the steps followed by individuals in journeys. This includes potential errors encountered. This information can be used for analysis or segmentation purposes. <a href="../building-journeys/sharing-overview.md">Read more</a></p>
 <img src="../assets/rn-sharing.png"/>
-</li>
-<li><p>Journey Orchestration can now be connected to production and non-production Platform Sandbox. Effective availability: June, 15 2020. <a href="../about/access-management.md#sandboxes">Read more</a></p>
 </li>
 </td>
 </tr>
@@ -76,8 +74,6 @@ You can also consult the [Documentation Updates](../release-notes/documentation-
 **Other improvements**
 
 To avoid sending too many API calls to third-party systems, we're introducing a new public API to setup "capping" rules. Capping rules allow the definition of a maximum number of calls to an API endpoint per milliseconds. [Read more](../api/capping.md)
-
-Access control now allows more granularity in user access management. Effective availability: June, 15 2020. [Read more](../about/access-management.md#create-product-profile)
 
 Journey Orchestration is now available in APAC (Australian data center). Effective availability: June, 15 2020
 
