@@ -42,11 +42,11 @@ The starting point of a journey is always an event. You can perform tests using 
 
 You can check if the API call you send through these tools is sent correctly or not. If you get an error back, it means that your call has an issue. Check the payload again, the header (and especially the organization ID) and the destination URL. You can ask your administrator what is the right URL to hit.
 
-Events are not pushed directly from the source to Journey Orchestration. Indeed, Journey Orchestration relies on Experience Platform’s streaming ingestion APIs. As a result, in case of event related issues, you can refer to this [page](https://docs.adobe.com/content/help/en/experience-platform/ingestion/streaming/troubleshooting.html) for Streaming ingestion APIs troubleshooting.
+Events are not pushed directly from the source to [!DNL Journey Orchestration]. Indeed, [!DNL Journey Orchestration] relies on Experience Platform’s streaming ingestion APIs. As a result, in case of event related issues, you can refer to this [page](https://docs.adobe.com/content/help/en/experience-platform/ingestion/streaming/troubleshooting.html) for Streaming ingestion APIs troubleshooting.
 
 ## Checking if people enter the journey{#section_x4v_zzs_dgb}
 
-Journey Orchestration reporting measures people's entrances in a journey in real-time.
+[!DNL Journey Orchestration] reporting measures people's entrances in a journey in real-time.
 
 If you're successfully sending the event but see no entrance in the journey, it means that something goes wrong between the event sending and the event reception in the journey.
 
@@ -66,7 +66,7 @@ Here are a few things and administrator should check:
 
 ## Checking how people navigate through the journey{#section_l5y_yzs_dgb}
 
-Journey Orchestration reporting measures the progress of individuals inside a journey. It's easy to identify where and why a person got stopped.
+[!DNL Journey Orchestration] reporting measures the progress of individuals inside a journey. It's easy to identify where and why a person got stopped.
 
 Here are a few things to check:
 

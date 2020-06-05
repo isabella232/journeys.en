@@ -14,8 +14,8 @@ snippet: y
 
 # Documentation Updates
 
-This page lists all the documentation updates for Journey Orchestration.
-You can also consult the Journey Orchestration [Release Notes](../release-notes/release-notes.md).
+This page lists all the documentation updates for [!DNL Journey Orchestration].
+You can also consult the [!DNL Journey Orchestration] [Release Notes](../release-notes/release-notes.md).
 
 ## June 2020 {#june-2020}
 
@@ -27,7 +27,7 @@ You can also consult the Journey Orchestration [Release Notes](../release-notes/
 ## April 2020 {#april-2020}
 
 * Added a new section on experience event schema definition to help users configure their first event. [Read more](../event/experience-event-schema.md)
-* The home page for Journey Orchestration documentation has been updated with additionnal useful links. [Read more](../../journey-orchestration-home.md)
+* The home page for [!DNL Journey Orchestration] documentation has been updated with additionnal useful links. [Read more](../../journey-orchestration-home.md)
 
 ## March 2020 {#march-2020}
 

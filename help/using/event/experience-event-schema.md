@@ -13,25 +13,25 @@ snippet: y
 ---
 
 
-# About ExperienceEvent Schemas for Journey Orchestration Events 
+# About ExperienceEvent Schemas for [!DNL Journey Orchestration] Events 
 
-Journey Orchestration events are XDM Experience Events that are sent to the Adobe Experience Platform via Streaming Ingestion.
+[!DNL Journey Orchestration] events are XDM Experience Events that are sent to the Adobe Experience Platform via Streaming Ingestion.
 
-As such, an important prerequisite for setting up events for Journey Orchestration is that you are familiar with the Platform’s Experience Data Model (or XDM) and how to compose XDM Experience Event schemas, as well as how to stream XDM-formatted data to the Platform.
+As such, an important prerequisite for setting up events for [!DNL Journey Orchestration] is that you are familiar with the Platform’s Experience Data Model (or XDM) and how to compose XDM Experience Event schemas, as well as how to stream XDM-formatted data to the Platform.
 
-## Schema requirements for Journey Orchestration Events 
+## Schema requirements for [!DNL Journey Orchestration] Events 
 
-The first step in setting up an event for Journey Orchestration is to ensure that you have an XDM schema defined to represent the event, and a dataset created to record instances of the event on the Platform. Having a dataset for your events is not strictly necessary, but sending the events to a specific dataset will allow you to maintain users’ event history for future reference and analysis, so it is always a good idea. If you do not already have a suitable schema and dataset for your event, both of those tasks can be done in the Platform web interface. 
+The first step in setting up an event for [!DNL Journey Orchestration] is to ensure that you have an XDM schema defined to represent the event, and a dataset created to record instances of the event on the Platform. Having a dataset for your events is not strictly necessary, but sending the events to a specific dataset will allow you to maintain users’ event history for future reference and analysis, so it is always a good idea. If you do not already have a suitable schema and dataset for your event, both of those tasks can be done in the Platform web interface. 
 
 ![](../assets/schema1.png)
 
-Any XDM schema that will be used for Journey Orchestration events should meet the following requirements:  
+Any XDM schema that will be used for [!DNL Journey Orchestration] events should meet the following requirements:  
 
 * The schema must be of the XDM ExperienceEvent class. 
 
 ![](../assets/schema2.png)
 
-* The schema must include the Orchestration eventID mixin. Journey Orchestration uses this field to identify events used in journeys.
+* The schema must include the Orchestration eventID mixin. [!DNL Journey Orchestration] uses this field to identify events used in journeys.
 
 ![](../assets/schema3.png)
 

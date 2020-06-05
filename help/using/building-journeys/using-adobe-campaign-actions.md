@@ -20,7 +20,7 @@ If you have Adobe Campaign Standard, the following out-of-the-box action activit
 >
 >For this, you need to configure the built-in action. Refer to [](../action/working-with-adobe-campaign.md).
 
-For each of these channels, you select an Adobe Campaign Standard Transactional Messaging **template**. Indeed, Journey Orchestration is not a message sending solution. For the built-in email, SMS and push channels, we rely on Transactional Messaging to execute message sending. It means that if you want to use a certain message template in your journeys, you must publish it in Adobe Campaign Standard. Refer to this [page](https://docs.adobe.com/content/help/en/campaign-standard/using/communication-channels/transactional-messaging/about-transactional-messaging.html) to learn how to use this feature.
+For each of these channels, you select an Adobe Campaign Standard Transactional Messaging **template**. Indeed, [!DNL Journey Orchestration] is not a message sending solution. For the built-in email, SMS and push channels, we rely on Transactional Messaging to execute message sending. It means that if you want to use a certain message template in your journeys, you must publish it in Adobe Campaign Standard. Refer to this [page](https://docs.adobe.com/content/help/en/campaign-standard/using/communication-channels/transactional-messaging/about-transactional-messaging.html) to learn how to use this feature.
 
 ![](../assets/journey59.png)
 
@@ -86,7 +86,7 @@ Two categories are available: **[!UICONTROL Target]** and **[!UICONTROL Personal
 
 In this section, you need to define the **[!UICONTROL Push platform]**. The drop-down list allows you to select **[!UICONTROL Apple Push Notification Server]** (iOS) or **[!UICONTROL Firebase Cloud Messaging]** (Android). You can alternatively select a specific field from an event or a data source, or define an advanced expression.
 
-You also need to define the **[!UICONTROL Registration Token]**. The expression depends on how the token is defined in the event payload or in other Journey Orchestration information. It can be a simple field or a more complex expression in case the token is defined in a collection for instance:
+You also need to define the **[!UICONTROL Registration Token]**. The expression depends on how the token is defined in the event payload or in other [!DNL Journey Orchestration] information. It can be a simple field or a more complex expression in case the token is defined in a collection for instance:
 
 ```
 @{Event_push._experience.campaign.message.profileSnapshot.pushNotificationTokens.first().token}
