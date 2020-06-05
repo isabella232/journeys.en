@@ -15,7 +15,9 @@ snippet: y
 
 # Creating a segment {#creating-a-segment}
 
->The segment tab and the creation/modification of segments in [!DNL Journey Orchestration] will be available on June 15th.
+>[!NOTE]
+>
+>The segment tab, the creation/modification of segments in Journey Orchestration and the use of segments in the expression editor will be available on June 15th.
 
 You can either create a segment using the [Platform Segmentation Service](https://docs.adobe.com/content/help/en/experience-platform/segmentation/home.html) or you can access and create them directly in [!DNL Journey Orchestration].
 
