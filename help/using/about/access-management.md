@@ -93,6 +93,7 @@ To create a product profile and assign a set of rights and sandboxes:
 
 Your product profile is now created and configured. Users linked to this profile can now connect to [!DNL Journey Orchestration].
 -->
+
 ## Assigning a product profile {#assigning-product-profile}
 
 Product profiles are assigned to a set of users that share the same rights within your organization.
