@@ -25,7 +25,8 @@ In the Admin console, you can assign one of the following out-of-the-box product
     *   Read reports
 
 *   **[!UICONTROL Administrators]**: user with access to the administration menus with the possibility to manage journeys, events and reports. This product profile includes the following rights:
-    *   Manage and execute journeys
+    *   Manage journeys
+    *   Publish journeys
     *   Manage events, data sources and actions
     *   Manage reports
 
@@ -34,10 +35,11 @@ In the Admin console, you can assign one of the following out-of-the-box product
     >**[!UICONTROL Administrators]** is the only product profile which allows creation, edition and publication of transactional messaging (or messaging templates) in Adobe Campaign Standard. This product profile is needed if you use Adobe Campaign Standard to send messages in your journeys.
 
 *   **[!UICONTROL Standard User]**: user with basic access such as journey management. This product profile includes the following rights:
-    *   Manage and execute journeys
+    *   Manage journeys
+    *   Publish journeys
     *   Manage reports
 
-<!--You can also create your own product profiles if the out-of-the-box profiles are not enough to manage your users.
+You can also create your own product profiles if the out-of-the-box profiles are not enough to manage your users.
 Users must always be linked to a product profile allowing you to assign them specific build-in rights such as:
 
 *   **[!UICONTROL Read journeys]**
@@ -51,11 +53,8 @@ Users must always be linked to a product profile allowing you to assign them spe
 You can find below the compatibility between rights and [!DNL Journey Orchestration]'s different functionalities.
 
 ![](../assets/journey_permission.png)
--->
 
-You can find [here](../assets/do-not-localize/acs_rights_journeys.pdf) the compatibility between rights and Journey Orchestration's different functionalities.
-
-<!--## Creating a product profile {#create-product-profile}
+## Creating a product profile {#create-product-profile}
 
 [!DNL Journey Orchestration] allows you to create your own product profiles and assign a set of rights and sandboxes to your users. With product profiles, you can authorize or deny access to certain functionalities or objects in the interface.
 
@@ -92,7 +91,6 @@ To create a product profile and assign a set of rights and sandboxes:
 1. When finished, click **[!UICONTROL Save]**.
 
 Your product profile is now created and configured. Users linked to this profile can now connect to [!DNL Journey Orchestration].
--->
 
 ## Assigning a product profile {#assigning-product-profile}
 
@@ -121,7 +119,7 @@ To assign a product profile for a user to access [!DNL Journey Orchestration]:
 
 Your user should then receive an email redirecting to your [!DNL Journey Orchestration] instance.
 
-<!--## Using sandboxes {#sandboxes}
+## Using sandboxes {#sandboxes}
 
 >[!NOTE]
 >
@@ -134,4 +132,3 @@ Sandboxes are assigned through product profiles in the Admin console. For more i
 Platform sandboxes can be created or reset from your Adobe Experience Platform instance. Refer to the [Sandbox user guide](https://docs.adobe.com/content/help/en/experience-platform/sandbox/ui/user-guide.html) for the detailed steps.
 
 You can find the sandbox switcher control at the top-left of your screen. To switch from one sandbox to another, click the currently active sandbox in the switcher and select another sandbox from the drop-down list.
--->
