@@ -28,6 +28,12 @@ The list of XDM fields that are passed is comprehensive. Some contain system gen
 >
 >![](../assets/sharing4.png)
 
+>[!]
+>
+>Journeys also has the capability whether to send the Journey Step Profile event to platform or not.  Journeys maintains a techtoggle to decide this.  
+>
+>![](../assets/techtoggle.png)
+
 Journeys sends data as it occurs, in a streaming way. You can query this data using the Query Service. You can connect to Customer Journey Analytics or other BI tools to view data related to these steps.
 
 The following schemas are created:
