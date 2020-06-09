@@ -30,7 +30,7 @@ The list of XDM fields that are passed is comprehensive. Some contain system gen
 
 >[!NOTE]
 >
->Journeys also has the capability whether to send the Journey Step Profile event to platform or not. Journeys maintains a techtoggle to decide this.  
+>Journeys also has the capability whether to send the Journey Step Profile event to Platform or not. Journeys maintains a techtoggle to decide this.  
 >
 >![](../assets/techtoggle.png)
 
