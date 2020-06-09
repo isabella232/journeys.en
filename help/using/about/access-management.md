@@ -123,7 +123,7 @@ Your user should then receive an email redirecting to your [!DNL Journey Orchest
 
 >[!NOTE]
 >
-> Platform Sandbox is a beta feature.
+>Platform Sandbox is a beta feature.
 
 [!DNL Journey Orchestration] allows you to partition your instance into separated virtual environments called sandboxes.
 Sandboxes are assigned through product profiles in the Admin console. For more information on how to assign sandboxes, refer to this [section](../about/access-management.md#create-product-profile).
