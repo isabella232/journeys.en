@@ -14,10 +14,6 @@ snippet: y
 
 # About Platform segments {#about-segments}
 
->[!NOTE]
->
->The segment tab, the creation/modification of segments in Journey Orchestration and the use of segments in the expression editor will be available on June 15th.
-
 If you're using the [Platform Segmentation Service](https://docs.adobe.com/content/help/en/experience-platform/segmentation/home.html) to create your segments, you can leverage them in [!DNL Journey Orchestration]. Thanks to a dedicated event activity, you can make individuals enter or move forward in a journey based on Platform segment entrances and exits. This also allows you to build complex conditions in your journeys using the simple or advanced expression editor.
 
 Let's say you have a "silver customer" segment. With this activity, you can make all new silver customers enter a journey and send them a series of personalized messages. You can alsdo easily build conditions based on this segment.
