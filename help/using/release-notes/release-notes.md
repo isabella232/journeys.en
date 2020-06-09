@@ -39,7 +39,7 @@ You can also consult the [Documentation Updates](../release-notes/documentation-
 <li><p>In the simple expression editor, Platform segments are now directly listed in the navigation tree to allow easy setup of conditions such as "does this person belong to segment A?".<a href="../segment/using-a-segment.md">Read more</a></p>
 <img src="../assets/rn-segment4.png"/>
 </li>
-<li><p>Journey Orchestration is now automatically passing, to the Adobe Data Platform, the steps followed by individuals in journeys. This includes potential errors encountered. This information can be used for analysis or segmentation purposes. <a href="../building-journeys/sharing-overview.md">Read more</a></p>
+<li><p>Journey Orchestration is now automatically passing, to the Adobe Data Platform, the steps followed by individuals in journeys. This includes potential errors encountered. This information can be used for analysis purposes. <a href="../building-journeys/sharing-overview.md">Read more</a></p>
 <img src="../assets/rn-sharing.png"/>
 </li>
 </li>
