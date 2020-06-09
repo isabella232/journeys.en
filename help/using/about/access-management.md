@@ -80,7 +80,7 @@ To create a product profile and assign a set of rights and sandboxes:
 
     >[!NOTE]
     >
-    >[!DNL Journey Orchestration] can now be connected to production and non-production Platform Sandbox. Effective availability: June, 15 2020.
+    >Platform Sandbox is a beta feature.
     <br>For more information on sandboxes, refer to this [section](../about/access-management.md#sandboxes).
 
 1. If needed, under **[!UICONTROL Included Permission Items]**, click the X icon next to remove permissions to your product profile.
@@ -123,7 +123,7 @@ Your user should then receive an email redirecting to your [!DNL Journey Orchest
 
 >[!NOTE]
 >
->[!DNL Journey Orchestration] can now be connected to production and non-production Platform Sandbox. Effective availability: June, 15 2020.
+> Platform Sandbox is a beta feature.
 
 [!DNL Journey Orchestration] allows you to partition your instance into separated virtual environments called sandboxes.
 Sandboxes are assigned through product profiles in the Admin console. For more information on how to assign sandboxes, refer to this [section](../about/access-management.md#create-product-profile).
