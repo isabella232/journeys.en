@@ -14,17 +14,17 @@ discoiquuid: 5df34f55-135a-4ea8-afc2-f9427ce5ae7b
 
 >[!NOTE]
 >
->To get the best out of Journey Orchestration, we recommend using Chrome as your Internet browser. The interface is displayed in the language defined in IMS. If your IMS language is not supported by Journey Orchestration, the interface is displayed in English. 
+>To get the best out of [!DNL Journey Orchestration], we recommend using Chrome as your Internet browser. The interface is displayed in the language defined in IMS. If your IMS language is not supported by [!DNL Journey Orchestration], the interface is displayed in English. 
 >
 >This documentation is frequently updated to reflect recent changes in the product. However, some screenshots can slightly differ from the product's interface.
 
-## Accessing Journey Orchestration{#accessing_journey_orchestration}
+## Accessing [!DNL Journey Orchestration]{#accessing_journey_orchestration}
 
-To access the Journey Orchestration's interface, click the **[!UICONTROL App Selector]** icon, in the top right. Then click **[!UICONTROL Journey Orchestration]**, on the right side, below "Experience Platform".
+To access the [!DNL Journey Orchestration]'s interface, click the **[!UICONTROL App Selector]** icon, in the top right. Then click **[!UICONTROL Journey Orchestration]**, on the right side, below "Experience Platform".
 
 ![](../assets/journey1.png)  
 
-You can also access Journey Orchestration from the Experience Cloud home page, in the **[!UICONTROL Quick access]** section.
+You can also access [!DNL Journey Orchestration] from the Experience Cloud home page, in the **[!UICONTROL Quick access]** section.
 
 ![](../assets/journey1bis.png)  
 
@@ -36,11 +36,11 @@ You can also access Journey Orchestration from the Experience Cloud home page, i
 >abstract="The journey list allows you to view all your journeys at once, see their status and perform basic actions. You can duplicate, stop or delete your journeys. Depending on the journey, certain actions might not be available. For example, you can't delete or restart a journey that is closed. You can create a new version from it or duplicate it. You can also use the search bar to search for a journey."
 >additional-url="https://images-tv.adobe.com/mpcv3/38af62cb-9390-4bc0-a576-d336849adb97_1574809570.1920x1080at3000_h264.mp4" text="Watch demo video"
 
-The top menus allow you to navigate through the different functionalities of Journey Orchestration: **[!UICONTROL Home]**(the journeys),**[!UICONTROL Data Sources]**, **[!UICONTROL Events]**, **[!UICONTROL Actions]**.
+The top menus allow you to navigate through the different functionalities of [!DNL Journey Orchestration]: **[!UICONTROL Home]**(the journeys),**[!UICONTROL Data Sources]**, **[!UICONTROL Events]**, **[!UICONTROL Actions]**.
 
 ![](../assets/journey2.png)  
 
-Click the ![](../assets/icon-context.png) icon in the upper-right corner of the screen to display the contextual help. It is available across the different Journey Orchestration list screens (journeys, events, actions and data sources). This allows you to view a quick description of the current functionality and access related articles and videos. 
+Click the ![](../assets/icon-context.png) icon in the upper-right corner of the screen to display the contextual help. It is available across the different [!DNL Journey Orchestration] list screens (journeys, events, actions and data sources). This allows you to view a quick description of the current functionality and access related articles and videos. 
 
 ![](../assets/journey2bis.png)  
 
@@ -86,7 +86,7 @@ If a friendly name is available, then the field will be displayed as `<friendly
 
 ## Using the different shortcuts{#section_ksq_zr1_ffb}
 
-Here are the different shortcuts available in the Journey Orchestration's interface.
+Here are the different shortcuts available in the [!DNL Journey Orchestration]'s interface.
 
 _In the list of journeys, actions, data sources or events:_
 

@@ -15,8 +15,6 @@ snippet: y
 
 # Using segments in conditions {#using-a-segment}
 
->The segment tab and the creation/modification of segments in Journey Orchestration will be available on June 15th.
-
 This section explains how to use a segment in a journey condition.
 To learn how to use a **Segment qualification** event in your journey, refer to [Events activities](../building-journeys/event-activities.md#segment-qualification).
 
