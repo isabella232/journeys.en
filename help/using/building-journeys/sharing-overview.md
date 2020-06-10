@@ -24,15 +24,9 @@ The list of XDM fields that are passed is comprehensive. Some contain system gen
 
 >[!CAUTION]
 >
->By default, datasets are not turned on for real time profile service. If you want a dataset in profile service, you need to turn it on (**Profile** toggle). Be aware that a high volume of events will take up storage in your quota. Please proceed carefully before activating a dataset for profiles
+>By default, datasets are not turned on for real time profile service. We do not recommend turning this dataset on for profile due to the high volume of events that will take up storage in your quota. 
 >
 >![](../assets/sharing4.png)
-
->[!NOTE]
->
->Journeys also has the capability whether to send the Journey Step Profile event to Platform or not. Journeys maintains a techtoggle to decide this.  
->
->![](../assets/techtoggle.png)
 
 Journeys sends data as it occurs, in a streaming way. You can query this data using the Query Service. You can connect to Customer Journey Analytics or other BI tools to view data related to these steps.
 
