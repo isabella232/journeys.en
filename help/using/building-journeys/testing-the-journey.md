@@ -74,7 +74,7 @@ When you select a different test profile in the event configuration screen and r
 
 When opening a journey in test, the displayed path corresponds to the last test executed.
 
-The visual flow works whether the event is triggered via the interface or exernally (using Postman, for example). 
+The visual flow works whether the event is triggered via the interface or externally (using Postman, for example). 
 
 ## Viewing the logs {#viewing_logs}
 
