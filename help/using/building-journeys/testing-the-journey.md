@@ -74,7 +74,7 @@ When you select a different test profile in the event configuration screen and r
 
 When opening a journey in test, the displayed path corresponds to the last test executed.
 
-The visual flow is only displayed when the event sent to the journey is defined in the event configuration screen. If the event is defined externally, for example using Postman, the visual flow is not displayed.
+The visual flow works whether the event is triggered via the interface or externally (using Postman, for example). 
 
 ## Viewing the logs {#viewing_logs}
 
