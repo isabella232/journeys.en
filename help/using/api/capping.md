@@ -23,11 +23,13 @@ To learn more on action or datasource configuration, see [About actions](https:/
 
 ## Resources
 
-The [!DNL Journey Orchestration] Capping API is described within a Swagger file available [here](https://adobedocs.github.io/JourneyAPI/docs/).
+>[!NOTE]
+>
+>The [!DNL Journey Orchestration] Capping API is described within a Swagger file available [here](https://adobedocs.github.io/JourneyAPI/docs/).
 
 To use this API with your [!DNL Journey Orchestration] instance, you need to use the AdobeIO Console. You can start by following this [Getting Started with Adobe Developer Console](https://www.adobe.io/apis/experienceplatform/console/docs.html#!AdobeDocs/adobeio-console/master/getting-started.md) and then use the sections in this page.
 
-To test and prepare your integration, a Postman collection is available [here](https://github.com/AdobeDocs/JourneyAPI/postman-collections/Journey-Orchestration_Capping-API_postman-collection.json). 
+To test and prepare your integration, a Postman collection is available [here](https://raw.githubusercontent.com/AdobeDocs/JourneyAPI/master/postman-collections/Journey-Orchestration_Capping-API_postman-collection.json). 
 
 ## Authentification
 
@@ -37,7 +39,7 @@ To test and prepare your integration, a Postman collection is available [here](h
 
 >[!CAUTION]
 >
->To manage certificates in Adobe IO, make sure you have <b>System administrator</b> rights on the organization or a <a href="https://helpx.adobe.com/enterprise/using/manage-developers.html">developer account</a> in the Admin console.
+>To manage certificates in Adobe IO, make sure you have <b>System administrator</b> rights on the organization or a [developer account](https://helpx.adobe.com/enterprise/using/manage-developers.html) in the Admin console.
 
 1. **Check you have a digital certificate**, or create one if necessary. The public and private keys provided with the certificate are needed in the following steps.
 1. **Create a new integration to [!DNL Journey Orchestration] Service** in Adobe IO and configure it. The product profile access is needed for [!DNL Journey Orchestration] and Adobe Experience Platform. Your credentials will then be generated (API Key, Client secret...).
@@ -164,7 +166,7 @@ The potential warning is:
 
 In this section, you will find the five main use-cases that you can perform to manage your capping configuration in [!DNL Journey Orchestration].
 
-To help you in your testing and configuration, a Postman collection is available [here](https://github.com/AdobeDocs/JourneyAPI/postman-collections/Journey-Orchestration_Capping-API_postman-collection.json).
+To help you in your testing and configuration, a Postman collection is available [here](https://raw.githubusercontent.com/AdobeDocs/JourneyAPI/master/postman-collections/Journey-Orchestration_Capping-API_postman-collection.json).
 
 This Postman Collection has been set up to share the Postman Variable collection generated via __[Adobe I/O Console's Integrations](https://console.adobe.io/integrations) > Try it out > Download for Postman__, which generates a Postman Environment file with the selected integrations values.
 
@@ -172,7 +174,7 @@ Once downloaded and uploaded into Postman, you need to add two variables: `{JO_H
 * `{JO_HOST}` : [!DNL Journey Orchestration] Gateway URL
 * `{BASE_PATH}` : entry point for the API. The value is '/authoring'
 
-
+In the following section, you will find the Rest API calls ordered list to perform the use-case.
 
 Use-Case n°1: **Creation and deployment of a new capping configuration**
 
