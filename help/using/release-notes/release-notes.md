@@ -15,7 +15,7 @@ snippet: y
 # Release Notes {#release-notes}
 
 This page lists all the new features and improvements for Journey Orchestration.
-You can also consult the [Documentation Updates](../release-notes/documentation-updates.md).
+You can also consult the [Documentation Updates](../release-notes/documentation-updates.md). 
 
 ## Q2 Release - June 2020 {#q2-release---june-2020}
 
