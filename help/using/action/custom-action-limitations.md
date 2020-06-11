@@ -16,9 +16,9 @@ snippet: y
 
 Here are a few limitations regarding the use of custom actions:
 
-* There is no capping or sending volume buffering/smoothing.
+* There is no sending volume buffering/smoothing.
 * Two retries are systematically performed in case of an error. You cannot adjust the number of retries according to the error message received. 
-* The built-in **[!UICONTROL Reaction]** event allows you to react to out-of-the-box actions (see [](../building-journeys/event-activities.md). If you want to react to a message sent via a custom action, you need to configure a dedicated event.
+* The built-in **[!UICONTROL Reaction]** event allows you to react to out-of-the-box actions (see [](../building-journeys/event-activities.md)). If you want to react to a message sent via a custom action, you need to configure a dedicated event.
 * The custom action URL does not support dynamic parameters.
 * Only POST and PUT call methods are supported.
 * The name of the query parameter or header must not start with "." or "$".
