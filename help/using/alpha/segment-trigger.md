@@ -14,22 +14,42 @@ snippet: y
 
 # Segment Trigger activity {#segment-trigger-activity}
 
-## About {#xxxx}
+## About the Segment Trigger activity {#about-segment-trigger-actvitiy}
 
-in alpha, interface and navigation enhanced. aim: xxxx
+The Segment Trigger activity allows you to make all individuals belonging to an Experience Platform segment enter a journey.
 
-section below presents new interface and navigation. Generic concepts are presented in the standard section: how to access journeys, browse through data platform fields, use shortcuts
+Let's say you have a Gold customer segment on Experience Platform. With the Segment Trigger activity, you can make all individuals belonging to the Gold customer segment enter a journey and send them a series of personalized messages, and build conditions based on this segment.
 
-## Accessing Journeys functionaities {#xxxx}
+>[!NOTE]
+>
+>Note that it is currently not possible to test a journey starting with a Segment Trigger activity.
 
-by default on journeys menu
+## Configuring the activity {#configuring-segment-trigger-activity}
 
-left menus. can enlarge the menu to display the menus names
+1. Unfold the **[!UICONTROL Orchestration]** category and drop a **[!UICONTROL Segment Trigger]** activity into your canvas.
 
-- journeys: list of journeys (link journeys)
-- segments: list of segments (link segments)
-- admin: control dashboard for admin users. Cards allowing to access journeys setup functionalities (link rights)
-    - data sources (link setup data sources) 
-    - events (link setup events)
-    - actions (link actions setup). once in a card, click the Admin control dashboard link or admin icon to go back to the dashboard
-    
+    The activity must be positioned as the first step of a journey.
+
+1. Configure the activity **[!UICONTROL Scheduler type]**.
+
+    By default, the segment will enter the journey 1 hour after it is published. If you want to make the segment enter the journey on a specific date/time or on a recurring basis, select the desired option from the list.
+
+    Several options are available for each option to help you refine the segment entry time (start date, repetition, time zone, etc.)
+
+    ![](../assets/segment-trigger-schedule.png)
+
+1. In the **!UICONTROL Segment]** field, choose one or multiple Experience Platform segment that will enter the journey, the click **!UICONTROL Save]**.
+
+    ![](../assets/segment-trigger-segment-selection.png)
+
+1. In the **[!UICONTROL Namespace]** field, choose the key to associate to the namespace in order to identify the individuals. For more on namespaces, refer to [this section](../event/selecting-the-namespace.md).
+
+    >[!NOTE]
+    >
+    >Only the individuals configured with the selected key will be picked to enter the journey. For example, if you choose "ECID" as the namespace key, individuals with the "email address" key will not be taken into account to enter the journey.
+
+1. Click **[!UICONTROL Ok]** to confirm.
+
+You can then leverage available activities to build your journey and publish it. Individuals belonging to the segment will enter the journey at the date/time specified in the Segment Trigger activity scheduler.
+
+Keep in mind that Experience Platform segments are calculated either once a day >(**batch** segments) or in real-time (**streamed** segments). If the selected segment is streamed, the individuals belonging to this segment will be calculated in real-time. If the segment is not streamed, only the individuals belonging to the segment at its calculation time will enter the journey.
