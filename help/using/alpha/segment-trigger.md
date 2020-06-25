@@ -16,13 +16,13 @@ snippet: y
 
 ## About the Segment Trigger activity {#about-segment-trigger-actvitiy}
 
-The Segment Trigger activity allows you to make all individuals belonging to an Experience Platform segment enter a journey.
+The Segment Trigger activity allows you to make all individuals belonging to an Experience Platform segment enter a journey. Entrance into a journey can be executed either once, or on a regular basis.
 
-Let's say you have a Gold customer segment on Experience Platform. With the Segment Trigger activity, you can make all individuals belonging to the Gold customer segment enter a journey and send them a series of personalized messages, and build conditions based on this segment.
+Let's say you have a Gold customer segment on Experience Platform. With the Segment Trigger activity, you can make all individuals belonging to the Gold customer segment enter a journey and make them flow into individualized journeys that will leverage all journey functionalities: conditions, times, events, actions.
 
 >[!NOTE]
 >
->Note that it is currently not possible to test a journey starting with a Segment Trigger activity.
+>Note that it is currently not possible to activate the test mode for journeys starting with a Segment Trigger activity.
 
 ## Configuring the activity {#configuring-segment-trigger-activity}
 
@@ -34,22 +34,22 @@ Let's say you have a Gold customer segment on Experience Platform. With the Segm
 
     By default, the segment will enter the journey 1 hour after it is published. If you want to make the segment enter the journey on a specific date/time or on a recurring basis, select the desired option from the list.
 
-    Several options are available for each option to help you refine the segment entry time (start date, repetition, time zone, etc.)
+    In case of recurring journeys, you can also define the start and end of the journey.
 
     ![](../assets/segment-trigger-schedule.png)
 
-1. In the **!UICONTROL Segment]** field, choose one or multiple Experience Platform segment that will enter the journey, the click **!UICONTROL Save]**.
+1. In the **!UICONTROL Segment]** field, choose the Experience Platform segment that will enter the journey, then click **!UICONTROL Save]**.
 
     ![](../assets/segment-trigger-segment-selection.png)
 
-1. In the **[!UICONTROL Namespace]** field, choose the key to associate to the namespace in order to identify the individuals. For more on namespaces, refer to [this section](../event/selecting-the-namespace.md).
+1. In the **[!UICONTROL Namespace]** field, choose the namespace to use in order to identify the individuals. For more on namespaces, refer to [this section](../event/selecting-the-namespace.md).
 
     >[!NOTE]
     >
-    >Only the individuals configured with the selected key will be picked to enter the journey. For example, if you choose "ECID" as the namespace key, individuals with the "email address" key will not be taken into account to enter the journey.
+    >Individuals belonging to a segment that doesn't have the selected identity (namespace) among their different identities cannot enter the journey.
 
 1. Click **[!UICONTROL Ok]** to confirm.
 
-You can then leverage available activities to build your journey and publish it. Individuals belonging to the segment will enter the journey at the date/time specified in the Segment Trigger activity scheduler.
+You can then leverage available activities to build your journey and publish it. Individuals belonging to the segment will enter the journey on the date/time specified in the Segment Trigger activity scheduler.
 
-Keep in mind that Experience Platform segments are calculated either once a day >(**batch** segments) or in real-time (**streamed** segments). If the selected segment is streamed, the individuals belonging to this segment will be calculated in real-time. If the segment is not streamed, only the individuals belonging to the segment at its calculation time will enter the journey.
+Keep in mind that Experience Platform segments are calculated either once a day (**batch** segments) or in real-time (**streamed** segments). If the selected segment is streamed, the individuals belonging to this segment will be potentially enter the journey in real-time. If the segment is batch, people newly qualified for this segment will potentially enter the journey when the segment calculation is executed on the Experience Platform.
