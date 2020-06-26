@@ -1,6 +1,6 @@
 ---
-title: xxxx
-description: Learn xxxx
+title: Discovering the interface
+description: Learn more about Journey Orchestration new interface.
 page-status-flag: never-activated
 uuid: 269d590c-5a6d-40b9-a879-02f5033863fc
 contentOwner: sauviat
@@ -12,24 +12,27 @@ internal: n
 snippet: y
 ---
 
-# xxxx {#xxxx}
+# Discovering the interface {#discovering-interface}
 
-## About {#xxxx}
+## About the new interface {#about-interface}
 
-in alpha, interface and navigation enhanced. aim: xxxx
+Navigation within Journey Orchestration menus has been enhanced, in order to provide a constant interface with Adobe Experience Platform. Changes include:
 
-section below presents new interface and navigation. Generic concepts are presented in the standard section: how to access journeys, browse through data platform fields, use shortcuts
+* Menus moved from the top to the left-hand side of the interface,
+* Grouping of admin functionalities into a single dashboard.
 
-## Accessing Journeys functionaities {#xxxx}
+Global concepts on how to use and navigate in the interface (searching and filtering, browsing through Data Platform fields, shortcuts) are presented in [this section](../about/user-interface.md).
 
-by default on journeys menu
+## Accessing Journey Orchestration functionalities {#accessing-journey-orchestration-functionalities}
 
-left menus. can enlarge the menu to display the menus names
+When you access Journey Orchestration, the **[!UICONTROL Journeys]** menu is displayed, allowing you to access existing journeys or create new ones. See [Using the journey designer](../building-journeys/using-the-journey-designer.md).
 
-- journeys: list of journeys (link journeys)
-- segments: list of segments (link segments)
-- admin: control dashboard for admin users. Cards allowing to access journeys setup functionalities (link rights)
-    - data sources (link setup data sources) 
-    - events (link setup events)
-    - actions (link actions setup). once in a card, click the Admin control dashboard link or admin icon to go back to the dashboard
-    
+![](../assets/interface-journeys.png)
+
+The **[!UICONTROL Segments]** menu allows you to access and create Experience Platform segments. See [About Platform segments](../segment/about-segments.md).
+
+![](../assets/interface-segments.png)
+
+The **[!UICONTROL Admin]** menu is available to all users with Administrator rights (see [Access management](../about/access-management.md)). It provides a dashboard which allows you to setup [data sources](../datasource/about-data-sources.md), [events](../event/about-events.md) and [actions](../action/action.md).
+
+![](../assets/interface-admin-dashboard.png)

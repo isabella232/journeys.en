@@ -18,7 +18,7 @@ snippet: y
 
 The Segment Trigger activity allows you to make all individuals belonging to an Experience Platform segment enter a journey. Entrance into a journey can be executed either once, or on a regular basis.
 
-Let's say you have a Gold customer segment on Experience Platform. With the Segment Trigger activity, you can make all individuals belonging to the Gold customer segment enter a journey and make them flow into individualized journeys that will leverage all journey functionalities: conditions, times, events, actions.
+Let's say you have a Gold customer segment on Experience Platform. With the Segment Trigger activity, you can make all individuals belonging to the Gold customer segment enter a journey and make them flow into individualized journeys that will leverage all journey functionalities: conditions, timers, events, actions.
 
 >[!NOTE]
 >
@@ -38,7 +38,7 @@ Let's say you have a Gold customer segment on Experience Platform. With the Segm
 
     ![](../assets/segment-trigger-schedule.png)
 
-1. In the **!UICONTROL Segment]** field, choose the Experience Platform segment that will enter the journey, then click **!UICONTROL Save]**.
+1. In the **!UICONTROL Segment]** field, choose the Experience Platform segment that will enter the journey, then click **[!UICONTROL Save]**.
 
     ![](../assets/segment-trigger-segment-selection.png)
 
