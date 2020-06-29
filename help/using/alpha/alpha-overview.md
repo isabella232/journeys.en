@@ -1,5 +1,5 @@
 ---
-title: Alpha overview
+title: Alpha features overview
 description: Learn more about the Alpha version of Journey Orchestration.
 page-status-flag: never-activated
 uuid: 269d590c-5a6d-40b9-a879-02f5033863fc
@@ -12,7 +12,7 @@ internal: n
 snippet: y
 ---
 
-# What is the Alpha version of Journey Orchestration?
+# Alpha features overview
 
 The Alpha version of Journey Orchestration offers features that are currently tested among a limited set of customers. This allows us to improve our product based on the feedback received. These features are not available to all Journey Orchestration customers.
 
