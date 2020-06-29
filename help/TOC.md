@@ -171,7 +171,7 @@ index: yes
   + [Capping APIs](using/api/capping.md)
 + Alpha features {#alpha}
   + [Alpha features overview](using/alpha/alpha-overview.md)
-  + [User interface](using/alpha/interface.md)
-  + [Segment Trigger activity](using/alpha/segment-trigger.md)
+  + [User interface](using/alpha/alpha-interface.md)
+  + [Segment Trigger activity](using/alpha/alpha-segment-trigger.md)
   + [Simplified events](using/alpha/alpha-events.md)
   

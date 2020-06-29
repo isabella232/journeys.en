@@ -1,5 +1,5 @@
 ---
-title: Discovering the interface
+title: Discovering the Alpha version interface
 description: Learn more about Journey Orchestration new interface.
 page-status-flag: never-activated
 uuid: 269d590c-5a6d-40b9-a879-02f5033863fc
@@ -12,9 +12,9 @@ internal: n
 snippet: y
 ---
 
-# Discovering the interface {#discovering-interface}
+# Discovering the Alpha version interface {#discovering-alpha-interface}
 
-## About the new interface {#about-interface}
+## About the Alpha version interface {#about-alpha-interface}
 
 Navigation within Journey Orchestration menus has been enhanced, in order to provide a consistant interface with Adobe Experience Platform. Changes include:
 
