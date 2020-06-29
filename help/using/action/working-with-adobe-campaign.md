@@ -14,7 +14,7 @@ snippet: y
 
 # Working with Adobe Campaign {#using_adobe_campaign_standard}
 
-You can send emails, push notifications and SMS using the Adobe Campaign Standard's Transactional Messaging capabilities. 
+You can send emails, push notifications and SMS using the Adobe Campaign Standard's Transactional Messaging capabilities.
 
 [!DNL Journey Orchestration] comes with an out-of-the-box action which allows the connection to Adobe Campaign Standard. Here are the steps to configure it:
 
@@ -22,11 +22,19 @@ You can send emails, push notifications and SMS using the Adobe Campaign Standar
 
     ![](../assets/actioncampaign.png)
 
-1. Copy your Adobe Campaign Standard instance URL and paste it in the **[!UICONTROL URL]** field. 
+1. Copy your Adobe Campaign Standard instance URL and paste it in the **[!UICONTROL URL]** field.
 
 1. Click the **[!UICONTROL Test the instance URL]** to test the validity of the instance.
 
-When designing your journey, three actions will be available in the **[!UICONTROL Action]** category: **[!UICONTROL Email]**, **[!UICONTROL Push]**, **[!UICONTROL SMS]** (see [](../building-journeys/using-adobe-campaign-actions.md)).
+    >[!NOTE]
+    >
+    >This test verifies that:
+    >
+    >* The host is ".campaign.adobe.com" or ".campaign-sandbox.adobe.com",
+    >* The URL starts with https,
+    >* The ORG associated to this Adobe Campaign Standard's instance is the same as the Journey Orchestration's ORG.
+
+When designing your journey, three actions will be available in the **[!UICONTROL Action]** category: **[!UICONTROL Email]**, **[!UICONTROL Push]**, **[!UICONTROL SMS]** (see [Using Adobe Campaign actions](../building-journeys/using-adobe-campaign-actions.md)).
 
 ![](../assets/journey58.png)
 

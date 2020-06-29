@@ -11,6 +11,9 @@ index: yes
 + What's new {#release-notes}
   + [Release Notes](using/release-notes/release-notes.md)
   + [Documentation Updates](using/release-notes/documentation-updates.md)
++ Alpha {#alpha}
+  + [User interface](using/alpha/interface.md)
+  + [Segment Trigger activity](using/alpha/segment-trigger.md)
 + Starting with [!DNL Journey Orchestration] {#starting-with-journeys}
   + [About [!DNL Journey Orchestration]](using/about/about-journey-orchestration.md)
   + [Get started](using/about/get-started.md)
