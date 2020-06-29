@@ -12,6 +12,6 @@ internal: n
 snippet: y
 ---
 
-# Alpha overview
+# What is the Alpha version of Journey Orchestration?
 
-Alpha features are features currently tested among a limited set of customers to get feedbacks. They are not available to all Journey Orchestration customers. (edited) 
+Alpha features are features currently tested among a limited set of customers to get feedbacks. They are not available to all Journey Orchestration customers.
