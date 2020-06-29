@@ -18,7 +18,6 @@ The Alpha version of Journey Orchestration offers features that are currently te
 
 This section only focuses on the Alpha features. If you're not part of the Alpha program or if you want to know more about the other Journey Orchestration features, refer to the other sections of this documentation.
 
-If you're interested in participating in this Alpha programm, fill out this form and we'll get back to you.
+If you're interested in participating in this Alpha programm, fill out [this form](https://forms.office.com/Pages/ResponsePage.aspx?id=Wht7-jR7h0OUrtLBeN7O4Xrbcj1K4T9KpHa6N23Hv11UOTRVOEZaVkg2U1BDWENHOFMxS01IUkkxWC4u) and we'll get back to you.
 
-https://forms.office.com/Pages/ResponsePage.aspx?id=Wht7-jR7h0OUrtLBeN7O4Xrbcj1K4T9KpHa6N23Hv11UOTRVOEZaVkg2U1BDWENHOFMxS01IUkkxWC4u
  
