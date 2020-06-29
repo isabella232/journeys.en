@@ -16,7 +16,7 @@ snippet: y
 
 ## About the new interface {#about-interface}
 
-Navigation within Journey Orchestration menus has been enhanced, in order to provide a constant interface with Adobe Experience Platform. Changes include:
+Navigation within Journey Orchestration menus has been enhanced, in order to provide a consistant interface with Adobe Experience Platform. Changes include:
 
 * Menus moved from the top to the left-hand side of the interface,
 * Grouping of admin functionalities into a single dashboard.

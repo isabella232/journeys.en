@@ -23,6 +23,8 @@ Let's say you have a Gold customer segment on Experience Platform. With the Segm
 >[!NOTE]
 >
 >Note that it is currently not possible to activate the test mode for journeys starting with a Segment Trigger activity.
+>
+>Due to segment export latencies, it is not possible to trigger a segment-based journey in a shorter timeframe than 1 hour.
 
 ## Configuring the activity {#configuring-segment-trigger-activity}
 
