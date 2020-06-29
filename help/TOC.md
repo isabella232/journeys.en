@@ -11,9 +11,6 @@ index: yes
 + What's new {#release-notes}
   + [Release Notes](using/release-notes/release-notes.md)
   + [Documentation Updates](using/release-notes/documentation-updates.md)
-+ Alpha {#alpha}
-  + [User interface](using/alpha/interface.md)
-  + [Segment Trigger activity](using/alpha/segment-trigger.md)
 + Starting with [!DNL Journey Orchestration] {#starting-with-journeys}
   + [About [!DNL Journey Orchestration]](using/about/about-journey-orchestration.md)
   + [Get started](using/about/get-started.md)
@@ -172,4 +169,9 @@ index: yes
   + [Leveraging fatigue scores](using/usecase/leveraging-fatigue-scores.md)
 + Working with APIs{#working-with-apis}
   + [Capping APIs](using/api/capping.md)
++ Alpha features {#alpha}
+  + [Alpha features overview](using/alpha/alpha-overview.md)
+  + [User interface](using/alpha/interface.md)
+  + [Segment Trigger activity](using/alpha/segment-trigger.md)
+  + [Simplified events](using/alpha/alpha-events.md)
   
