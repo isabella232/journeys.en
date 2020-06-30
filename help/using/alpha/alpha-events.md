@@ -22,7 +22,7 @@ This new method is mostly transparent for users. The only change is a new field 
 
 1. From the left menu, click the **Admin** icon, then click **Events**. The list of events is displayed. 
 
-  ![](../assets/alpha-event1.png)
+   ![](../assets/alpha-event1.png)
 
 1. Click **Add** to create a new event. The event configuration pane opens on the right side of the screen.
 
@@ -30,9 +30,9 @@ This new method is mostly transparent for users. The only change is a new field 
 
 1. In the **Event ID type** field, select **Rule Based**. 
 
-  >[!NOTE]
-  >
-  >The **System Generated** type is the existing method that requires an eventID. See: [this section](../event/about-events.md).
+   >[!NOTE]
+   >
+   >The **System Generated** type is the existing method that requires an eventID. See: [this section](../event/about-events.md).
 
 1. Define the **Schema** and payload **Fields**. See [this section](../event/defining-the-payload-fields.md).
 
