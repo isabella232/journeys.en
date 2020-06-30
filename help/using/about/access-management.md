@@ -64,11 +64,15 @@ To create a product profile and assign a set of rights and sandboxes:
 
 1. In the Admin Console, select **[!UICONTROL Journey Orchestration]**. From the **[!UICONTROL Product profile]** tab, click **[!UICONTROL New Profile]**.
 
+    ![](../assets/user_management_5.png)
+
 1. Add a **[!UICONTROL Profile Name]** and **[!UICONTROL Description]** for your new product profile. If you want your profile's **[!UICONTROL Display name]** to be different, uncheck **[!UICONTROL Same as Profile Name]** and type in your **[!UICONTROL Display name]**.
 
 1. In the **[!UICONTROL User Notifications]** category, choose whether users will be notified by email when they are added or removed from this product profile.
 
 1. When finished, click **[!UICONTROL Done]**. Your new product profile is now created.
+
+    ![](../assets/user_management_6.png)
 
 1. Select your new product profile to start managing permissions. In the **[!UICONTROL Users]** tab, add users to your product profile. For more on this, refer to this [page](../about/access-management.md#assigning-product-profile).
 
@@ -76,17 +80,20 @@ To create a product profile and assign a set of rights and sandboxes:
 
 1. From the **[!UICONTROL Permissions]** tab, select one of the two categories **[!UICONTROL Sandbox]** or **[!UICONTROL Authoring]** to open the **[!UICONTROL Edit Permissions]** page and add or remove permissions for your product profile.
 
-1. In the **[!UICONTROL Sandbox]** permission category, choose which sandbox(es) to assign to your product profile. Under **[!UICONTROL Available Permissions Items]**, click the plus (+) icon to assign sandboxes to your profile.
+    ![](../assets/user_management_7.png)
 
-    >[!NOTE]
-    >
-    >Platform Sandbox is a beta feature.
-    <br>For more information on sandboxes, refer to this [section](../about/access-management.md#sandboxes).
+1. In the **[!UICONTROL Sandbox]** permission category, choose which sandbox(es) to assign to your product profile. Under **[!UICONTROL Available Permissions Items]**, click the plus (+) icon to assign sandboxes to your profile. For more information on sandboxes, refer to this [section](../about/access-management.md#sandboxes).
+
+    ![](../assets/user_management_8.png)
 
 1. If needed, under **[!UICONTROL Included Permission Items]**, click the X icon next to remove permissions to your product profile.
 
+    ![](../assets/user_management_9.png)
+
 1. From the **[!UICONTROL Authoring]** permission category, carry out the same steps as above to add rights to your product profile.
 <br>For more information on rights and compatibility between rights and [!DNL Journey Orchestration]'s different functionalities, refer to this [section](../about/access-management.md#about-access-management).
+
+    ![](../assets/user_management_10.png)
 
 1. When finished, click **[!UICONTROL Save]**.
 
@@ -108,7 +115,7 @@ To assign a product profile for a user to access [!DNL Journey Orchestration]:
     ![](../assets/user_management_2.png)
 
 1. Click **[!UICONTROL Add user]**.
-   
+
    You can also add your new user to a user group to fine-tune the shared set of permissions. For more on this, refer to this [page](https://helpx.adobe.com/enterprise/using/user-groups.html).
 
     ![](../assets/user_management_3.png)
@@ -120,10 +127,6 @@ To assign a product profile for a user to access [!DNL Journey Orchestration]:
 Your user should then receive an email redirecting to your [!DNL Journey Orchestration] instance.
 
 ## Using sandboxes {#sandboxes}
-
->[!NOTE]
->
->Platform Sandbox is a beta feature.
 
 [!DNL Journey Orchestration] allows you to partition your instance into separated virtual environments called sandboxes.
 Sandboxes are assigned through product profiles in the Admin console. For more information on how to assign sandboxes, refer to this [section](../about/access-management.md#create-product-profile).
