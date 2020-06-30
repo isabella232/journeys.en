@@ -72,7 +72,7 @@ To create a product profile and assign a set of rights and sandboxes:
 
 1. When finished, click **[!UICONTROL Done]**. Your new product profile is now created.
 
-    ![](../assets/user_management_6.png)
+    ![](../assets/user_management_1.png)
 
 1. Select your new product profile to start managing permissions. In the **[!UICONTROL Users]** tab, add users to your product profile. For more on this, refer to this [page](../about/access-management.md#assigning-product-profile).
 
@@ -82,7 +82,7 @@ To create a product profile and assign a set of rights and sandboxes:
 
     ![](../assets/user_management_7.png)
 
-1. In the **[!UICONTROL Sandbox]** permission category, choose which sandbox(es) to assign to your product profile. Under **[!UICONTROL Available Permissions Items]**, click the plus (+) icon to assign sandboxes to your profile. For more information on sandboxes, refer to this [section](../about/access-management.md#sandboxes).
+1. In the **[!UICONTROL Sandboxes]** permission category, choose which sandbox(es) to assign to your product profile. Under **[!UICONTROL Available Permissions Items]**, click the plus (+) icon to assign sandboxes to your profile. For more information on sandboxes, refer to this [section](../about/access-management.md#sandboxes).
 
     ![](../assets/user_management_8.png)
 
