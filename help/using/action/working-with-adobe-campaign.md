@@ -38,4 +38,4 @@ When designing your journey, three actions will be available in the **[!UICONTRO
 
 ![](../assets/journey58.png)
 
-If you're using a third-party system to send messages, you need to add and configure a custom action. Refer to [](../action/about-custom-action-configuration.md).
+If you're using a third-party system to send messages, you need to add and configure a custom action. See [About custom action configuration](../action/about-custom-action-configuration.md).
