@@ -38,7 +38,7 @@ You can also use this mechanism to perform an action when there is no reaction t
 
 Note that you can only use a reaction activity in the canvas if there is an email, push or SMS activity before.
 
-See [](../building-journeys/about-action-activities.md).
+See [About action activities](../building-journeys/about-action-activities.md).
 
  ![](../assets/journey45.png)
 
