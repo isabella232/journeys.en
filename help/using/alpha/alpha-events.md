@@ -16,7 +16,7 @@ snippet: y
 
 We have simplified the way you set up Experience events. We're introducing a new method that does not require the use of an eventID. When you set up your event in Journey Orchestration, you can now define a rule-based event.
 
-This new type of event does not generate an eventID. Using the simple expression editor, you now simply define a rule which will be used by the system identify the relevant events that will trigger your journeys. This rule can be based on any field available in the event payload, for example the profile's location or the number of items added to the profile's cart.
+This new type of event does not generate an eventID. Using the simple expression editor, you now simply define a rule which will be used by the system to identify the relevant events that will trigger your journeys. This rule can be based on any field available in the event payload, for example the profile's location or the number of items added to the profile's cart.
 
 This new method is mostly transparent for users. The only change is a new field in the event definition screen.
 
