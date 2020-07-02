@@ -166,7 +166,9 @@ index: yes
     + [Configuring the events](using/usecase/configuring-the-events.md)
     + [Configuring the data sources](using/usecase/configuring-the-data-sources.md)
     + [Building the journey](using/usecase/building-the-journey.md)
-  + [Leveraging fatigue scores](using/usecase/leveraging-fatigue-scores.md)
+  + Using Intelligent Services{#use-case-advanced}
+    + [Leveraging Journey AI](using/usecase/leveraging-fatigue-scores.md)
+    + [Leveraging Customer AI](using/usecase/leveraging-customer-ai.md)
 + Working with APIs{#working-with-apis}
   + [Capping APIs](using/api/capping.md)
 + Alpha features {#alpha}
