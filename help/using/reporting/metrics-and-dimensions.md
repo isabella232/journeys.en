@@ -88,8 +88,8 @@ reports, their definitions and formulas.
 
 |Metric|Definition|
 |--- |--- |
-|**Blacklisted**|Number of recipients who have declared an email as spam or junk.|
-|**Blacklisted rate**|Total number of messages marked as blacklisted compared to messages sent.|
+|**On block list**|Number of recipients who have declared an email as spam or junk.|
+|**Block list rate**|Total number of messages on blocklist compared to messages sent.|
 |**Bounces + errors**|Total of errors cumulated during delivery and automatic return processing in relation to the total number of sent messages.|
 |**Bounce + error rate**|Total number of messages that bounced compared to messages sent.|
 |**Click**|Number of times a content was clicked in a delivery.|
