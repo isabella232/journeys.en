@@ -15,7 +15,7 @@ snippet: y
 # Release Notes {#release-notes}
 
 This page lists all the new features and improvements for Journey Orchestration.
-You can also consult the [Documentation Updates](../release-notes/documentation-updates.md).
+You can also consult the [Documentation Updates](../release-notes/documentation-updates.md). 
 
 ## Q2 Release - June 2020 {#q2-release---june-2020}
 
@@ -43,7 +43,7 @@ You can also consult the [Documentation Updates](../release-notes/documentation-
 <img src="../assets/rn-journeystepevent.png"/>
 </li>
 </li>
-<li><p>Journey Orchestration can now be connected to production and non-production Platform sandboxes. Note that sandboxes is a beta feature. Effective availability: June, 30 2020. <a href="../about/access-management.md#sandboxes">Read more</a></p>
+<li><p>Journey Orchestration can now be connected to production and non-production Platform sandboxes. Note that sandboxes is a beta feature. <a href="../about/access-management.md#sandboxes">Read more</a></p>
 </li>
 </td>
 </tr>
