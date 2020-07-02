@@ -44,7 +44,7 @@ Here are the steps to configure it:
     >* The URL starts with https,
     >* The ORG associated to this Adobe Campaign Standard's instance is the same as the Journey Orchestration's ORG.
 
-When designing your journey, three actions will be available in the **[!UICONTROL Action]** category: **[!UICONTROL Email]**, **[!UICONTROL Push]**, **[!UICONTROL SMS]** (see [Using Adobe Campaign actions](../building-journeys/using-adobe-campaign-actions.md)). **Reactions event** will also allow you to react on message clicks, opens, etc. (see [Reactions events](../using/building-journeys/event-activities.md#section_dhx_gss_dgb)).
+When designing your journey, three actions will be available in the **[!UICONTROL Action]** category: **[!UICONTROL Email]**, **[!UICONTROL Push]**, **[!UICONTROL SMS]** (see [Using Adobe Campaign actions](../building-journeys/using-adobe-campaign-actions.md)). **Reactions event** will also allow you to react on message clicks, opens, etc. (see [Reactions events](../building-journeys/event-activities.md#section_dhx_gss_dgb)).
 
 ![](../assets/journey58.png)
 
