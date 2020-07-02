@@ -12,7 +12,7 @@ internal: n
 snippet: y
 ---
 
-# Leveraging fatigue scores {#concept_dsh_1ry_wfb}
+# Leveraging Journey AI {#concept_dsh_1ry_wfb}
 
 This use case will show you how to leverage fatigue scores to avoid over-soliciting your customers in your journeys.
 
