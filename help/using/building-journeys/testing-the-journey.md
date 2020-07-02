@@ -63,46 +63,44 @@ Note that you can also update an existing profile to change its testProfile flag
 Here is an example of an API call to create a test profile:
 
 ```
-
 curl -X POST \
-  'https://example.adobe.com/collection/xxxxxxxxxxxxxx' \
-  -H 'Cache-Control: no-cache' \
-  -H 'Content-Type: application/json' \
-  -H 'Postman-Token: xxxxx' \
-  -H 'cache-control: no-cache' \
-  -H 'x-api-key: xxxxx' \
-  -H 'x-gw-ims-org-id: xxxxx' \
-  -d '{
-    "header": {
-        "msgType": "xdmEntityCreate",
-		"msgId": "xxxxx",
-		"msgVersion": "xxxxx",
-		"xactionid":"xxxxx",
-        "datasetId": "xxxxx",
-        "imsOrgId": "xxxxx",
-        "source": {
-            "name": "Postman"
-        },
-        "schemaRef": {
-            "id": "https://example.adobe.com/mobile/schemas/xxxxx",
-            "contentType": "application/vnd.adobe.xed-full+json;version=1"
-        }
-    },
-    "body": {
-        "xdmMeta": {
-            "schemaRef": {
-                "id": "https://example.adobe.com/mobile/schemas/xxxxx",
-                "contentType": "application/vnd.adobe.xed-full+json;version=1"
-            }
-        },
-        "xdmEntity": {
-            "_id": "xxxxx",
-            "_mobile":{
-            	"ECID": "xxxxx"
-            },
-            "testProfile":true
-        }
-    }
+'https://example.adobe.com/collection/xxxxxxxxxxxxxx' \
+-H 'Cache-Control: no-cache' \
+-H 'Content-Type: application/json' \
+-H 'Postman-Token: xxxxx' \
+-H 'cache-control: no-cache' \
+-H 'x-api-key: xxxxx' \
+-H 'x-gw-ims-org-id: xxxxx' \
+-d '{
+"header": {
+"msgType": "xdmEntityCreate",
+"msgId": "xxxxx",
+"msgVersion": "xxxxx",
+"xactionid":"xxxxx",
+"datasetId": "xxxxx",
+"imsOrgId": "xxxxx",
+"source": {
+"name": "Postman"
+},
+"schemaRef": {
+"id": "https://example.adobe.com/mobile/schemas/xxxxx",
+"contentType": "application/vnd.adobe.xed-full+json;version=1"
+}
+},
+"body": {
+"xdmMeta": {
+"schemaRef": {
+"contentType": "application/vnd.adobe.xed-full+json;version=1"
+}
+},
+"xdmEntity": {
+"_id": "xxxxx",
+"_mobile":{
+"ECID": "xxxxx"
+},
+"testProfile":true
+}
+}
 }'
 ```
 
