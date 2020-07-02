@@ -46,7 +46,7 @@ This new method is mostly transparent for users. The only change is a new field 
 
    >[!NOTE]
    >
-   >When you select the **System Generated type**, only schemas that have the eventID type mixin are available. When you select the **Rule Based** type, all schemas are available.
+   >When you select the **System Generated type**, only schemas that have the eventID type mixin are available. When you select the **Rule Based** type, all Experience Event schemas are available.
 
 1. Click inside the **Event ID condition** field. Using the simple expression editor, define the condition that will be used by the system to identify the events that will trigger your journey.
 
