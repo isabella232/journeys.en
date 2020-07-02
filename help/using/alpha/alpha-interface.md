@@ -1,5 +1,5 @@
 ---
-title: Discovering the interface
+title: Discovering the Alpha version interface
 description: Learn more about Journey Orchestration new interface.
 page-status-flag: never-activated
 uuid: 269d590c-5a6d-40b9-a879-02f5033863fc
@@ -12,20 +12,20 @@ internal: n
 snippet: y
 ---
 
-# Discovering the interface {#discovering-interface}
+# Discovering the Alpha version interface {#discovering-alpha-interface}
 
-## About the new interface {#about-interface}
+## About the Alpha version interface {#about-alpha-interface}
 
-Navigation within Journey Orchestration menus has been enhanced, in order to provide a consistant interface with Adobe Experience Platform. Changes include:
+Navigation within [!DNL Journey Orchestration] menus has been enhanced, in order to provide a consistant interface with Adobe Experience Platform. Changes include:
 
 * Menus moved from the top to the left-hand side of the interface,
 * Grouping of admin functionalities into a single dashboard.
 
 Global concepts on how to use and navigate in the interface (searching and filtering, browsing through Data Platform fields, shortcuts) are presented in [this section](../about/user-interface.md).
 
-## Accessing Journey Orchestration functionalities {#accessing-journey-orchestration-functionalities}
+## Accessing [!DNL Journey Orchestration] functionalities {#accessing-journey-orchestration-functionalities}
 
-When you access Journey Orchestration, the **[!UICONTROL Journeys]** menu is displayed, allowing you to access existing journeys or create new ones. See [Using the journey designer](../building-journeys/using-the-journey-designer.md).
+When you access [!DNL Journey Orchestration], the **[!UICONTROL Journeys]** menu is displayed, allowing you to access existing journeys or create new ones. See [Using the journey designer](../building-journeys/using-the-journey-designer.md).
 
 ![](../assets/interface-journeys.png)
 

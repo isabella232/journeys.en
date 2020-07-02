@@ -108,6 +108,10 @@ curl -X POST \
 
 The **[!UICONTROL Trigger an event]** button allows you to configure an event that will make a person enter the journey.
 
+>[!NOTE]
+>
+>When you trigger an event in test mode, a real event is generated, meaning it will also hit other journey listening to this event.
+
 As a prerequisite, you must know which profiles are flagged as test profiles in the Data Platform. Indeed, the test mode only allows these profiles in the journey and the event must contain an ID. The expected ID depends on the event configuration. It can be an ECID for example.
 
 If your journey contains several events, use the drop-down list to select an event. Then, for each event, configure the fields passed and the execution of the event sending. The interface helps you pass the right information in the event payload and make sure the information type is correct. The test mode saves the last parameters used in a test session for later use. 

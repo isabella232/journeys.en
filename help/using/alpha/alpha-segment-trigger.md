@@ -22,8 +22,6 @@ Let's say you have a Gold customer segment on Experience Platform. With the Segm
 
 >[!NOTE]
 >
->Note that it is currently not possible to activate the test mode for journeys starting with a Segment Trigger activity.
->
 >Due to segment export latencies, it is not possible to trigger a segment-based journey in a shorter timeframe than 1 hour.
 
 ## Configuring the activity {#configuring-segment-trigger-activity}
@@ -34,7 +32,7 @@ Let's say you have a Gold customer segment on Experience Platform. With the Segm
 
 1. Configure the activity **[!UICONTROL Scheduler type]**.
 
-    By default, the segment will enter the journey 1 hour after it is published. If you want to make the segment enter the journey on a specific date/time or on a recurring basis, select the desired option from the list.
+    By default, the segment will enter the journey **[!UICONTROL As soon as possible]**, meaning 1 hour after the journey is published. If you want to make the segment enter the journey on a specific date/time or on a recurring basis, select the desired option from the list.
 
     In case of recurring journeys, you can also define the start and end of the journey.
 
@@ -50,8 +48,20 @@ Let's say you have a Gold customer segment on Experience Platform. With the Segm
     >
     >Individuals belonging to a segment that doesn't have the selected identity (namespace) among their different identities cannot enter the journey.
 
-1. Click **[!UICONTROL Ok]** to confirm.
+1. Click **[!UICONTROL Ok]** to confirm. You can then leverage available activities to build your journey.
 
-You can then leverage available activities to build your journey and publish it. Individuals belonging to the segment will enter the journey on the date/time specified in the Segment Trigger activity scheduler.
+1. Once the journey is ready, you can potentially test it (see [Testing the journey](../building-journeys/testing-the-journey.md)).
 
-Keep in mind that Experience Platform segments are calculated either once a day (**batch** segments) or in real-time (**streamed** segments). If the selected segment is streamed, the individuals belonging to this segment will be potentially enter the journey in real-time. If the segment is batch, people newly qualified for this segment will potentially enter the journey when the segment calculation is executed on the Experience Platform.
+    When the test mode is activated on a journey starting with a **[!UICONTROL Segment Trigger]** activity, 100 test profiles will be randomly selected among the profiles qualified for the selected segment. The test logs will allow you to see the path of individuals in the journey and potential encountered errors (see [Viewing the logs](../building-journeys/testing-the-journey.md#viewing_logs)).
+
+    >[!NOTE]
+    >
+    >Note that you will not be able to see the 100 persons following the journey using the visual flow feature existing in unitary journeys.
+
+1. You can then publish your journey (see [Publishing the journey](../building-journeys/publishing-the-journey.md)). Individuals belonging to the segment will enter the journey on the date/time specified in the Segment Trigger activity scheduler.
+
+    >[!IMPORTANT]
+    >
+    >Keep in mind that Experience Platform segments are calculated either once a day (**batch** segments) or in real-time (**streamed** segments).
+    >
+    >If the selected segment is streamed, the individuals belonging to this segment will be potentially enter the journey in real-time. If the segment is batch, people newly qualified for this segment will potentially enter the journey when the segment calculation is executed on the Experience Platform.
