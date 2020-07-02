@@ -12,7 +12,7 @@ internal: n
 snippet: y
 ---
 
-# Simplified events{simplified-events}
+# Simplified events{#simplified-events}
 
 We have simplified the way you set up Experience events. We're introducing a new method that does not require the use of an eventID. When you set up your event in Journey Orchestration, you can now define a rule-based event.
 
