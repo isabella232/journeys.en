@@ -16,6 +16,12 @@ snippet: y
 
 You can send emails, push notifications and SMS using the Adobe Campaign Standard's Transactional Messaging capabilities.
 
+>[!NOTE]
+>
+>To avoid overloading Adobe Campaign Standard Transactional Messaging, it is recommended to setup a **capping rule** for the Campaign Standard integration.
+>
+>Read more about transactional messaging SLAs in [Adobe Campaign Standard Product Description](https://helpx.adobe.com/legal/product-descriptions/campaign-standard.html).
+
 [!DNL Journey Orchestration] comes with an out-of-the-box action which allows the connection to Adobe Campaign Standard. Here are the steps to configure it:
 
 1. From the **[!UICONTROL Actions]** list, click the built-in **[!UICONTROL AdobeCampaignStandard]** action. The action configuration pane opens on the right side of the screen.
