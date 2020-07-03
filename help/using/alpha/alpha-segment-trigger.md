@@ -38,7 +38,7 @@ Let's say you have a Gold customer segment on Experience Platform. With the Segm
 
     ![](../assets/segment-trigger-schedule.png)
 
-1. In the **!UICONTROL Segment]** field, choose the Experience Platform segment that will enter the journey, then click **[!UICONTROL Save]**.
+1. In the **[!UICONTROL Segment]** field, choose the Experience Platform segment that will enter the journey, then click **[!UICONTROL Save]**.
 
     ![](../assets/segment-trigger-segment-selection.png)
 
@@ -46,7 +46,7 @@ Let's say you have a Gold customer segment on Experience Platform. With the Segm
 
     >[!NOTE]
     >
-    >Individuals belonging to a segment that doesn't have the selected identity (namespace) among their different identities cannot enter the journey.
+    >Individuals belonging to a segment that does not have the selected identity (namespace) among their different identities cannot enter the journey.
 
 1. Click **[!UICONTROL Ok]** to confirm. You can then leverage available activities to build your journey.
 
