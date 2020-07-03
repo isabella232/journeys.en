@@ -23,6 +23,10 @@ You can also consult the [!DNL Journey Orchestration] [Release Notes](../release
 * Added a new section on the test profile creation. [Read more](../building-journeys/testing-the-journey.md#create-test-profile).
 * Added information on how to use the **SegmentQualification** node in a journey condition or action. [Read more](../segment/using-a-segment.md).
 * A note has been added on Campaign transactional message and event publication. See [](../action/working-with-adobe-campaign.md) and [](../building-journeys/using-adobe-campaign-actions.md).
+* Information has been added on the checks that are performed when testing the Campaign Standard instance URL. [Read more](../action/working-with-adobe-campaign.md)
+* Information has been added on reaction events compatibility with Campaign Standard instances hosted on AWS or Azure servers. [Read more](../building-journeys/event-activities.md#section_dhx_gss_dgb)
+* A note has been added on the need to setup a capping rule when working with Campaign Standard transactional messaging. [Read more](../working-with-adobe-campaign.md)
+* A note has been added on the generation of reals events when triggering an events using the test mode. [Read more](../testing-the-journey.md#firing_events)
 
 ## June 2020 {#june-2020}
 
