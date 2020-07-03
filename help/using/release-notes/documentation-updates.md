@@ -17,6 +17,13 @@ snippet: y
 This page lists all the documentation updates for [!DNL Journey Orchestration].
 You can also consult the [!DNL Journey Orchestration] [Release Notes](../release-notes/release-notes.md).
 
+## July 2020 {#july-2020}
+
+* Added a new section on the integration with Intelligent Services. [Read more](../ai-services/ai-services-overview.md)
+* Added a new section on the test profile creation. [Read more](../building-journeys/testing-the-journey.md#create-test-profile).
+* Added information on how to use the **SegmentQualification** node in a journey condition or action. [Read more](../segment/using-a-segment.md).
+* A note has been added on Campaign transactional message and event publication. See [](../action/working-with-adobe-campaign.md) and [](../building-journeys/using-adobe-campaign-actions.md).
+
 ## June 2020 {#june-2020}
 
 * Added information on how to change the cache duration of the token for a custom authentication data source. [Read more](../datasource/external-data-sources.md#section_wjp_nl5_nhb)

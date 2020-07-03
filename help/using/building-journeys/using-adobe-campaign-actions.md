@@ -22,6 +22,10 @@ If you have Adobe Campaign Standard, the following out-of-the-box action activit
 
 For each of these channels, you select an Adobe Campaign Standard Transactional Messaging **template**. Indeed, [!DNL Journey Orchestration] is not a message sending solution. For the built-in email, SMS and push channels, we rely on Transactional Messaging to execute message sending. It means that if you want to use a certain message template in your journeys, you must publish it in Adobe Campaign Standard. Refer to this [page](https://docs.adobe.com/content/help/en/campaign-standard/using/communication-channels/transactional-messaging/about-transactional-messaging.html) to learn how to use this feature.
 
+>[!NOTE]
+>
+>The Campaign Standard transactional message and its associated event must be published in order to be used in Journey Orchestration. If the event is published but the message is not, it will not be visible in the Journey Orchestration interface. If the message is published but its associated event is not, it will be visible in the Journey Orchestration interface but it will not be usable.
+
 ![](../assets/journey59.png)
 
 You can use an event (also known as real-time) or profile transactional messaging template.
