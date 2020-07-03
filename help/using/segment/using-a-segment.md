@@ -30,7 +30,7 @@ The following steps allow you to use a segment in a journey condition. For journ
 
   From the **SegmentQualification** node, you can choose between the **Last qualification time** and the **status** (enter or exit).
 
-  ![](../assets/segment4.png)
+  ![](../assets/segment8.png)
 
   When you drop an element from the **Segments** node, the condition on the segment is true by default.
 
