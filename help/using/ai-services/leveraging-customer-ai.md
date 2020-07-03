@@ -1,6 +1,6 @@
 ---
-title: Leveraging fatigue scores
-description: Learn how to leverage fatigue scores in journeys
+title: Leveraging customer AI scores
+description: Leveraging customer AI scores
 page-status-flag: never-activated
 uuid: 269d590c-5a6d-40b9-a879-02f5033863fc
 contentOwner: sauviat

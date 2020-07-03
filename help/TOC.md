@@ -155,6 +155,10 @@ index: yes
   + [About journey reports](using/reporting/about-journey-reports.md)
   + [Creating your journey reports](using/reporting/creating-your-journey-reports.md)
   + [Metrics and dimensions](using/reporting/metrics-and-dimensions.md)
++ Integrating with Intelligent Services{#use-case-advanced}
+    + [About AI integration](using/ai-services/ai-services-overview.md)
+    + [Leveraging Journey AI](using/ai-services/leveraging-fatigue-scores.md)
+    + [Leveraging Customer AI](using/ai-services/leveraging-customer-ai.md)
 + Use cases{#use-cases-journeys}
   + Simple use case{#use-case-simple}
     + [About the simple use case](using/usecase/about-the-simple-use-case.md)
@@ -166,9 +170,6 @@ index: yes
     + [Configuring the events](using/usecase/configuring-the-events.md)
     + [Configuring the data sources](using/usecase/configuring-the-data-sources.md)
     + [Building the journey](using/usecase/building-the-journey.md)
-  + Using Intelligent Services{#use-case-advanced}
-    + [Leveraging Journey AI](using/usecase/leveraging-fatigue-scores.md)
-    + [Leveraging Customer AI](using/usecase/leveraging-customer-ai.md)
 + Working with APIs{#working-with-apis}
   + [Capping APIs](using/api/capping.md)
 + Alpha features {#alpha}
