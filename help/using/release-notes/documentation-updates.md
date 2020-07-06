@@ -19,6 +19,7 @@ You can also consult the [!DNL Journey Orchestration] [Release Notes](../release
 
 ## July 2020 {#july-2020}
 
+* Added a new section on the Alpha features that are tested among a limited set of customers. [Read more](../alpha/alpha-overview.md)
 * Added a new section on the integration with Intelligent Services. [Read more](../ai-services/ai-services-overview.md)
 * Added a new section on the test profile creation. [Read more](../building-journeys/testing-the-journey.md#create-test-profile).
 * Added information on how to use the **SegmentQualification** node in a journey condition or action. [Read more](../segment/using-a-segment.md).
