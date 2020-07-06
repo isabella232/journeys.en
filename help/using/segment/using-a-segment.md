@@ -29,4 +29,4 @@ To use a segment in a journey condition, follow these steps:
 
    ![](../assets/segment4.png)
 
-For more information on journey conditions and how to use the simple expression editor, refer to [Condition activities](../building-journeys/condition-activity.md#about_condition).
+For more information on journey conditions and how to use the simple expression editor, refer to [Condition activity](../building-journeys/condition-activity.md#about_condition).

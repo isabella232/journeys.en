@@ -95,6 +95,8 @@ The payload contains the following context information, which you can use in con
 
 When using the expression editor in a condition or action that follows a **Segment qualification**, you have access to the **SegmentQualification** node. You can choose between the **Last qualification time** and the **status** (enter or exit).
 
+See [Condition activity](../building-journeys/condition-activity.md#about_condition).
+
 ![](../assets/segment8.png)
 
 ## Advanced usage: events with a wait in parallel{#section_vxv_h25_pgb}
