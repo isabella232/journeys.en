@@ -93,6 +93,10 @@ The payload contains the following context information, which you can use in con
 * the timestamp of qualification
 * the segment id
 
+When using the expression editor in a condition or action that follows a **Segment qualification**, you have access to the **SegmentQualification** node. You can choose between the **Last qualification time** and the **status** (enter or exit).
+
+![](../assets/segment8.png)
+
 ## Advanced usage: events with a wait in parallel{#section_vxv_h25_pgb}
 
 **How can you listen to an event only during a certain time?**

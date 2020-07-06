@@ -12,12 +12,11 @@ internal: n
 snippet: y
 ---
 
-# Using segments in your journeys {#using-a-segment}
+# Using segments in conditions {#using-a-segment}
 
-This section explains how to use a segment in a journey condition or action.
-To learn how to use a **Segment qualification** event in your journey, refer to [Events activities](../building-journeys/event-activities.md#segment-qualification).
+This section explains how to use a segment in a journey condition. To learn how to use a **Segment qualification** event in your journey, refer to [Events activities](../building-journeys/event-activities.md#segment-qualification).
 
-The following steps allow you to use a segment in a journey condition. For journey action mapping, the principle is similar.
+To use a segment in a journey condition, follow these steps:
 
 1. Open a journey, drop a **Condition** activity and choose the **Data Source Condition**.
    ![](../assets/journey47.png)
@@ -26,13 +25,7 @@ The following steps allow you to use a segment in a journey condition. For journ
 
    ![](../assets/segment3.png)
 
-1. On the left side, unfold the **SegmentQualification** or **Segments** node. Drag and drop the segment you want to use for your condition. 
-
-   From the **SegmentQualification** node, you can choose between the **Last qualification time** and the **status** (enter or exit).
-
-   ![](../assets/segment8.png)
-
-   When you drop an element from the **Segments** node, the condition on the segment is true by default.
+1. On the left side, unfold **Segments** node. Drag and drop the segment you want to use for your condition. By default, the condition on the segment is true.
 
    ![](../assets/segment4.png)
 
