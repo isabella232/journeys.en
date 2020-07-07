@@ -43,16 +43,74 @@ To use the test mode, follow these steps:
 ## Important notes {#important_notes}
 
 * An interface is provided to fire events to the tested journey but events can also be sent by third-party systems such as Postman.
-* Only individuals flagged as "test profiles" in the Real-time Customer Profile Service will be allowed to enter the tested journey. The process to create a test profile is the same as the process to create a Profile in the Data Platform. You just have to make sure the test profile flag is true. You can use the Segments section in the Data Platform interface to create a segment of test profiles in your Data Platform and see a non-exhaustive list. The exhaustive list cannot be displayed for now.
+* Only individuals flagged as "test profiles" in the Real-time Customer Profile Service will be allowed to enter the tested journey. See [](../building-journeys/testing-the-journey.md#create-test-profile).
 * The test mode is only available in draft journeys that use a namespace. Indeed, the test mode needs to check if a person entering the journey is a test profile or not and thus must be able to reach the Data Platform.
 * The maximum number of test profiles than can enter a journey during a test session is 100.
 * When you disable the test mode, it empties the journeys from all people who entered it in the past or who are currently in it.
 * You can enable/disable the test mode as many times as needed.
 * You cannot modify your journey when the test mode is activated. When in test mode, you can directly publish the journey, no need to deactivate the test mode before.
 
+## Creating a test profile{#create-test-profile}
+
+The process to create a test profile is the same as when you create a profile in the Experience Platform. It is performed through API calls. See this [page](https://docs.adobe.com/content/help/en/experience-platform/profile/home.html)
+
+You must use a Profile schema that contains the "profile test details" mixin. Indeed, the testProfile flag is part of this mixin.
+
+When creating a profile, make sure you pass the value: testprofile = true.
+
+Note that you can also update an existing profile to change its testProfile flag to "true".
+
+Here is an example of an API call to create a test profile:
+
+```
+curl -X POST \
+'https://example.adobe.com/collection/xxxxxxxxxxxxxx' \
+-H 'Cache-Control: no-cache' \
+-H 'Content-Type: application/json' \
+-H 'Postman-Token: xxxxx' \
+-H 'cache-control: no-cache' \
+-H 'x-api-key: xxxxx' \
+-H 'x-gw-ims-org-id: xxxxx' \
+-d '{
+"header": {
+"msgType": "xdmEntityCreate",
+"msgId": "xxxxx",
+"msgVersion": "xxxxx",
+"xactionid":"xxxxx",
+"datasetId": "xxxxx",
+"imsOrgId": "xxxxx",
+"source": {
+"name": "Postman"
+},
+"schemaRef": {
+"id": "https://example.adobe.com/mobile/schemas/xxxxx",
+"contentType": "application/vnd.adobe.xed-full+json;version=1"
+}
+},
+"body": {
+"xdmMeta": {
+"schemaRef": {
+"contentType": "application/vnd.adobe.xed-full+json;version=1"
+}
+},
+"xdmEntity": {
+"_id": "xxxxx",
+"_mobile":{
+"ECID": "xxxxx"
+},
+"testProfile":true
+}
+}
+}'
+```
+
 ## Firing your events {#firing_events}
 
 The **[!UICONTROL Trigger an event]** button allows you to configure an event that will make a person enter the journey.
+
+>[!NOTE]
+>
+>When you trigger an event in test mode, a real event is generated, meaning it will also hit other journey listening to this event.
 
 As a prerequisite, you must know which profiles are flagged as test profiles in the Data Platform. Indeed, the test mode only allows these profiles in the journey and the event must contain an ID. The expected ID depends on the event configuration. It can be an ECID for example.
 

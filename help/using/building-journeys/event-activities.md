@@ -38,7 +38,7 @@ You can also use this mechanism to perform an action when there is no reaction t
 
 Note that you can only use a reaction activity in the canvas if there is an email, push or SMS activity before.
 
-See [](../building-journeys/about-action-activities.md).
+See [About action activities](../building-journeys/about-action-activities.md).
 
  ![](../assets/journey45.png)
 
@@ -51,11 +51,13 @@ Here are the different steps to configure the reaction events:
 
 >[!NOTE]
 >
->Reaction events cannot track email, SMS or push actions that take place in a different journey. 
+>Reactions events work with Adobe Campaign Standard, wether it's deployed on AWS or Azure servers.
+>
+>Reaction events cannot track email, SMS or push actions that take place in a different journey.
 >
 >Reaction events track clicks on links of the type "tracked" (see this [page](https://docs.adobe.com/content/help/en/campaign-standard/using/designing-content/links.html#about-tracked-urls)). Unsubscription and mirror page links are not taken into account.
 
->[!CAUTION]
+>[!IMPORTANT]
 >
 >Email clients such as Gmail allow image blocking. Emails opens are tracked using a 0-pixel image included in the email. If images are blocked, email opens will not be taken into account.
 
@@ -90,6 +92,12 @@ The payload contains the following context information, which you can use in con
 * the behavior (entrance, exit)
 * the timestamp of qualification
 * the segment id
+
+When using the expression editor in a condition or action that follows a **Segment qualification** activity, you have access to the **SegmentQualification** node. You can choose between the **Last qualification time** and the **status** (enter or exit).
+
+See [Condition activity](../building-journeys/condition-activity.md#about_condition).
+
+![](../assets/segment8.png)
 
 ## Advanced usage: events with a wait in parallel{#section_vxv_h25_pgb}
 
