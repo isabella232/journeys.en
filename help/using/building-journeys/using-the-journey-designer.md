@@ -76,7 +76,7 @@ Several activities (**[!UICONTROL Condition]**, **[!UICONTROL Action]** activiti
 
 Various activities (event, action, wait) allow you to add several paths after them. To do this, place your cursor on the activity and click on the "+" symbol. Only event and wait activities can be set in parallel. If several events are set in parallel, the chosen path will be the one of the first event happening. 
 
-When listening to an event, we recommend that you do not wait for the event indefinitely. It is not mandatory, just a best practice. If you want to listen to one or several events only during a certain time, you will place one or several events and a wait activity in parallel. See [](../building-journeys/event-activities.md#section_vxv_h25_pgb).
+When listening to an event, we recommend that you do not wait for the event indefinitely. It is not mandatory, just a best practice. If you want to listen to one or several events only during a certain time, you will place one or several events and a wait activity in parallel. See [](../building-journeys/advanced-usage.md).
 
 To delete the path, place your cursor on it and click the **[!UICONTROL Delete arrow]** icon.
 

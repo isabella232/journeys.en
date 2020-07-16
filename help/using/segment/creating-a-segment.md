@@ -25,4 +25,4 @@ You can either create a segment using the [Platform Segmentation Service](https:
 
  ![](../assets/segment2.png)
 
-Your segment can now be used in your journeys to build conditions or add a **Segment qualification** event. See [Using segments in conditions](../segment/using-a-segment.md) and [Events activities](../building-journeys/event-activities.md#segment-qualification).
+Your segment can now be used in your journeys to build conditions or add a **Segment qualification** event. See [Using segments in conditions](../segment/using-a-segment.md) and [Events activities](../building-journeys/segment-qualification-events.md).

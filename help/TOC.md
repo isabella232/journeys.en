@@ -52,7 +52,11 @@ index: yes
     + [Terminating a journey](using/building-journeys/terminating-a-journey.md)
     + [Time zone management](using/building-journeys/timezone-management.md)
   + Activities {#about-journey-building}
-    + [Events activities](using/building-journeys/event-activities.md)
+    + Events activities {#events-activities}
+      + [About events activities](using/building-journeys/event-activities.md)
+      + [Reaction events](using/building-journeys/reaction-events.md)
+      + [Segment qualification events](using/building-journeys/segment-qualification-events.md)
+      + [Advanced usage](using/building-journeys/advanced-usage.md)
     + Orchestration activities {#orchestration-activities}
       + [About orchestration activities](using/building-journeys/about-orchestration-activities.md)
       + [Condition activity](using/building-journeys/condition-activity.md)
