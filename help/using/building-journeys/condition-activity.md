@@ -42,7 +42,7 @@ The simple mode allows you to perform simple queries based on a combination of f
 
 ![](../assets/journey64.png)
 
-If you're using the [Platform Segmentation Service](https://docs.adobe.com/content/help/en/experience-platform/segmentation/home.html) to create your segments, you can leverage them in your journey conditions. Refer to [Using segments in conditions](../segment/using-a-segment.md).
+If you're using the [Adobe Experience Platform Segmentation Service](https://docs.adobe.com/content/help/en/experience-platform/segmentation/home.html) to create your segments, you can leverage them in your journey conditions. Refer to [Using segments in conditions](../segment/using-a-segment.md).
 
 
 >[!NOTE]
@@ -50,7 +50,7 @@ If you're using the [Platform Segmentation Service](https://docs.adobe.com/conte
 >You cannot perform queries on time series (for example a list of purchases, past clicks on messages) with the simple editor. For this you’ll need to use the advanced editor. See [](../expression/expressionadvanced.md).
 
 
-When an error occurs in an action or a condition, the journey of an individual stops. The only way to make it continue is to check the box **Add an alternative path in case of a timeout or an error**. See [](../building-journeys/using-the-journey-designer.md#paths).
+When an error occurs in an action or a condition, the journey of an individual stops. The only way to make it continue is to check the box **[!UICONTROL Add an alternative path in case of a timeout or an error]**. See [](../building-journeys/using-the-journey-designer.md#paths).
 
 ## Data Source condition {#data_source_condition}
 

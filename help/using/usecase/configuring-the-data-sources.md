@@ -14,11 +14,11 @@ snippet: y
 
 # Configuring the data sources {#concept_vml_hdy_w2b}
 
-In our use case, we want to use personalization data for our messages. We also need to check if the person is a loyalty member and has not been contacted in the last 24 hours. This information is stored in the Real-time Customer Profile database. The **technical user** needs to configure the Experience Platform data source to retrieve those fields.
+In our use case, we want to use personalization data for our messages. We also need to check if the person is a loyalty member and has not been contacted in the last 24 hours. This information is stored in the Real-time Customer Profile database. The **technical user** needs to configure the Adobe Experience Platform data source to retrieve those fields.
 
 For additional information on data source configuration, refer to [](../datasource/about-data-sources.md).
 
-1. In the top menu, click the **[!UICONTROL Data Sources]** tab and select the build-in Experience Platform data source.
+1. In the top menu, click the **[!UICONTROL Data Sources]** tab and select the build-in Adobe Experience Platform data source.
 
     ![](../assets/journey23.png)
 

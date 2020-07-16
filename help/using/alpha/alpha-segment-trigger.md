@@ -16,9 +16,9 @@ snippet: y
 
 ## About the Segment Trigger activity {#about-segment-trigger-actvitiy}
 
-The Segment Trigger activity allows you to make all individuals belonging to an Experience Platform segment enter a journey. Entrance into a journey can be executed either once, or on a regular basis.
+The Segment Trigger activity allows you to make all individuals belonging to an Adobe Experience Platform segment enter a journey. Entrance into a journey can be executed either once, or on a regular basis.
 
-Let's say you have a Gold customer segment on Experience Platform. With the Segment Trigger activity, you can make all individuals belonging to the Gold customer segment enter a journey and make them flow into individualized journeys that will leverage all journey functionalities: conditions, timers, events, actions.
+Let's say you have a Gold customer segment on Adobe Experience Platform. With the Segment Trigger activity, you can make all individuals belonging to the Gold customer segment enter a journey and make them flow into individualized journeys that will leverage all journey functionalities: conditions, timers, events, actions.
 
 >[!NOTE]
 >
@@ -38,7 +38,7 @@ Let's say you have a Gold customer segment on Experience Platform. With the Segm
 
     ![](../assets/segment-trigger-schedule.png)
 
-1. In the **[!UICONTROL Segment]** field, choose the Experience Platform segment that will enter the journey, then click **[!UICONTROL Save]**.
+1. In the **[!UICONTROL Segment]** field, choose the Adobe Experience Platform segment that will enter the journey, then click **[!UICONTROL Save]**.
 
     ![](../assets/segment-trigger-segment-selection.png)
 
@@ -62,6 +62,6 @@ Let's say you have a Gold customer segment on Experience Platform. With the Segm
 
     >[!IMPORTANT]
     >
-    >Keep in mind that Experience Platform segments are calculated either once a day (**batch** segments) or in real-time (**streamed** segments).
+    >Keep in mind that Adobe Experience Platform segments are calculated either once a day (**batch** segments) or in real-time (**streamed** segments).
     >
-    >If the selected segment is streamed, the individuals belonging to this segment will be potentially enter the journey in real-time. If the segment is batch, people newly qualified for this segment will potentially enter the journey when the segment calculation is executed on the Experience Platform.
+    >If the selected segment is streamed, the individuals belonging to this segment will be potentially enter the journey in real-time. If the segment is batch, people newly qualified for this segment will potentially enter the journey when the segment calculation is executed on the Adobe Experience Platform.

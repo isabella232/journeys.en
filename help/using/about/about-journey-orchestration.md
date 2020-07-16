@@ -14,7 +14,7 @@ discoiquuid: 5df34f55-135a-4ea8-afc2-f9427ce5ae7b
 
 Build real-time orchestration use cases leveraging contextual data stored in events or data sources.
 
-[!DNL Journey Orchestration] is an application service integrated with the Experience Platform.
+[!DNL Journey Orchestration] is an application service integrated with the Adobe Experience Platform.
 
 ![](../assets/journeydiagram.png)
 

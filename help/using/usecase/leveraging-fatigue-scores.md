@@ -28,7 +28,7 @@ Follow the steps described in [](../event/about-events.md).
 
 Perform the following steps to select the fatigue score fields in the built-in data source:
 
-1. In the top menu, click the **[!UICONTROL Data Sources]** tab and select the build-in Experience Platform data source.
+1. In the top menu, click the **[!UICONTROL Data Sources]** tab and select the build-in Adobe Experience Platform data source.
 
     ![](../assets/journey23.png)
 

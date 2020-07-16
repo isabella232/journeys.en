@@ -36,7 +36,7 @@ Two different colors can be displayed on the sign next to the **[!UICONTROL Test
 
 Errors and warnings that are global to the journey appear first in the list. Error and warnings related to specific activities are listed after, by activity order or appearance in the journey from left to right. The **[!UICONTROL Copy details]** button copies technical information about the journey which the support team can use to troubleshoot.
 
-When an error occurs in an action or a condition, the journey of an individual stops. The only way to make it continue is to check the box **Add an alternative path in case of a timeout or an error**. See [](../building-journeys/using-the-journey-designer.md#paths).
+When an error occurs in an action or a condition, the journey of an individual stops. The only way to make it continue is to check the box **[!UICONTROL Add an alternative path in case of a timeout or an error]**. See [](../building-journeys/using-the-journey-designer.md#paths).
 
 ## Checking that events are properly sent{#section_rqz_11t_dgb}
 
@@ -44,7 +44,7 @@ The starting point of a journey is always an event. You can perform tests using 
 
 You can check if the API call you send through these tools is sent correctly or not. If you get an error back, it means that your call has an issue. Check the payload again, the header (and especially the organization ID) and the destination URL. You can ask your administrator what is the right URL to hit.
 
-Events are not pushed directly from the source to [!DNL Journey Orchestration]. Indeed, [!DNL Journey Orchestration] relies on Experience Platform’s streaming ingestion APIs. As a result, in case of event related issues, you can refer to this [page](https://docs.adobe.com/content/help/en/experience-platform/ingestion/streaming/troubleshooting.html) for Streaming ingestion APIs troubleshooting.
+Events are not pushed directly from the source to [!DNL Journey Orchestration]. Indeed, [!DNL Journey Orchestration] relies on Adobe Experience Platform’s streaming ingestion APIs. As a result, in case of event related issues, you can refer to this [page](https://docs.adobe.com/content/help/en/experience-platform/ingestion/streaming/troubleshooting.html) for Streaming ingestion APIs troubleshooting.
 
 ## Checking if people enter the journey{#section_x4v_zzs_dgb}
 

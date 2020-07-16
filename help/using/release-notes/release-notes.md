@@ -28,22 +28,22 @@ You can also consult the [Documentation Updates](../release-notes/documentation-
 <tbody>
 <tr>
 <td>
-<p>The following Platform integration enhancements have been made:</p>
+<p>The following Adobe Experience Platform integration enhancements have been made:</p>
 <ul>
-<li><p>A new activity allows the listening of Platform segment entrances/exits to make people enter or move forward in a journey. <a href="../building-journeys/segment-qualification-events.md">Read more</a></p>
+<li><p>A new activity allows the listening of Adobe Experience Platform segment entrances/exits to make people enter or move forward in a journey. <a href="../building-journeys/segment-qualification-events.md">Read more</a></p>
 <img src="../assets/rn-segment7.png"/>
 </li>
-<li><p>Platform segments can now be created and edited without leaving the Journey Orchestration interface, thanks to a new <strong>Segments</strong> tab.<a href="../segment/about-segments.md">Read more</a></p>
+<li><p>Adobe Experience Platform segments can now be created and edited without leaving the Journey Orchestration interface, thanks to a new <strong>Segments</strong> tab.<a href="../segment/about-segments.md">Read more</a></p>
 <img src="../assets/rn-segment1.png"/>
 </li>
-<li><p>In the simple expression editor, Platform segments are now directly listed in the navigation tree to allow easy setup of conditions such as "does this person belong to segment A?".<a href="../segment/using-a-segment.md">Read more</a></p>
+<li><p>In the simple expression editor, Adobe Experience Platform segments are now directly listed in the navigation tree to allow easy setup of conditions such as "does this person belong to segment A?".<a href="../segment/using-a-segment.md">Read more</a></p>
 <img src="../assets/rn-segment4.png"/>
 </li>
-<li><p>Journey Orchestration is now automatically passing, to the Adobe Data Platform, the steps executed in journeys. This includes potential errors encountered. This information can be used for achieving reporting and troubleshooting by executing queries on the Journey Step events for a particular journey or for all journeys. <a href="../building-journeys/sharing-overview.md">Read more</a></p>
+<li><p>Journey Orchestration is now automatically passing, to the Adobe Experience Platform, the steps executed in journeys. This includes potential errors encountered. This information can be used for achieving reporting and troubleshooting by executing queries on the Journey Step events for a particular journey or for all journeys. <a href="../building-journeys/sharing-overview.md">Read more</a></p>
 <img src="../assets/rn-journeystepevent.png"/>
 </li>
 </li>
-<li><p>Journey Orchestration can now be connected to production and non-production Platform sandboxes. Note that sandboxes is a beta feature. <a href="../about/access-management.md#sandboxes">Read more</a></p>
+<li><p>Journey Orchestration can now be connected to production and non-production Adobe Experience Platform sandboxes. Note that sandboxes is a beta feature. <a href="../about/access-management.md#sandboxes">Read more</a></p>
 </li>
 </td>
 </tr>
@@ -123,7 +123,7 @@ The Journey Orchestration interface is available in Japanese.
 <img src="../assets/rn-timezone.png"/>
 <ul>
 <li>The <strong>Timezone</strong> drop-down list allows you to select a specific timezone. By default, the browser's timezone is used. </li>
-<li>The <strong>Profile Timezone</strong> checkbox allows you to use the Experience Platform Profile timezone of the person entering the journey, if available. If not, the timezone defined in the drop-down list is used. This feature is not compatible with journeys using events that do not have a namespace.</li>
+<li>The <strong>Profile Timezone</strong> checkbox allows you to use the Adobe Experience Platform Profile timezone of the person entering the journey, if available. If not, the timezone defined in the drop-down list is used. This feature is not compatible with journeys using events that do not have a namespace.</li>
 </ul>
 <p>For more information, refer to the <a href="../building-journeys/changing-properties.md#timezone">Changing properties</a> and <a href="../building-journeys/timezone-management.md">Timezone management</a> sections.</p>
 </td>
@@ -182,7 +182,7 @@ The Journey Orchestration interface is available in Japanese.
 
 * You can now **delete** stopped journeys. Reports associated to these deleted journeys will not be available.
 
-* When browsing through **Data Platform fields** (XDM format), you will now see the display name in addition to the field name. This information is retrieved from the schema definition in the Experience Data Model. When available, the alternate display name appears. This user-friendly description, especially useful in the case of eVar fields, allows you identify your fields more easily. [Read more](../about/user-interface.md#friendly-names-display)
+* When browsing through **Adobe Experience Platform fields** (XDM format), you will now see the display name in addition to the field name. This information is retrieved from the schema definition in the Experience Data Model. When available, the alternate display name appears. This user-friendly description, especially useful in the case of eVar fields, allows you identify your fields more easily. [Read more](../about/user-interface.md#friendly-names-display)
 
 ## GA Release - December 2019 {#ga-release---december-2019}
 
