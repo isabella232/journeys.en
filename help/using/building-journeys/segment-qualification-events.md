@@ -52,7 +52,7 @@ See [Condition activity](../building-journeys/condition-activity.md#about_condit
 
 ![](../assets/segment8.png)
 
-## Speed of segment entrance or exit{#speed-segment-qualification}
+## Best practices on segments {#best-practices-segments}
 
 The **[!UICONTROL Segment Qualification]** activity enables the immediate entrance in journeys of individuals getting qualified or disqualified from an Adobe Experience Platform segment.
 

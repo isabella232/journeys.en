@@ -70,7 +70,7 @@ In the different lists, you can perform basic actions on each element. For examp
 
 ![](../assets/journey4.png)
 
-## Browsing through Data Platform fields {#friendly-names-display}
+## Browsing through Adobe Experience Platform fields {#friendly-names-display}
 
 When defining [event payload](../event/defining-the-payload-fields.md), [field group payload](../datasource/field-groups.md) and selecting fields in the [expression editor](../expression/expressionadvanced.md), the display name is displayed in addition to the field name. This information is retrieved from the schema definition in the Experience Data Model.
 
@@ -98,7 +98,7 @@ The canvas is automatically saved. You can see, on the top left of the canvas, t
 
 * Press **escape** to close the configuration pane and discard the changes made. This is the equivalent of the **[!UICONTROL Cancel]** button.
 * Press **Enter** or click outside the pane to close the configuration pane. Changes are saved. This is the equivalent of the **[!UICONTROL Ok]** button.
-* If you press ** Delete** or **backspace**, you can then press **Enter** to confirm the deletion.
+* If you press **Delete** or **backspace**, you can then press **Enter** to confirm the deletion.
 
 _In pop-ups:_
 
