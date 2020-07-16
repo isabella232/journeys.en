@@ -54,7 +54,7 @@ index: yes
   + Activities {#about-journey-building}
     + Events activities {#events-activities}
       + [About events activities](using/building-journeys/event-activities.md)
-      + [General events](using/build-journeys/general-events.md)
+      + [General events](using/building-journeys/general-events.md)
       + [Reaction events](using/building-journeys/reaction-events.md)
       + [Segment qualification events](using/building-journeys/segment-qualification-events.md)
     + Orchestration activities {#orchestration-activities}
