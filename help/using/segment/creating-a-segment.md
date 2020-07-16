@@ -15,9 +15,9 @@ snippet: y
 
 # Creating a segment {#creating-a-segment}
 
-You can either create a segment using the [Platform Segmentation Service](https://docs.adobe.com/content/help/en/experience-platform/segmentation/home.html) or you can access and create them directly in [!DNL Journey Orchestration].
+You can either create a segment using the [Adobe Experience Platform Segmentation Service](https://docs.adobe.com/content/help/en/experience-platform/segmentation/home.html) or you can access and create them directly in [!DNL Journey Orchestration].
 
-1. In the top menu, click on the **[!UICONTROL Segments]** tab. The list of Platform segments is displayed. You can search for a specific segment in the list.
+1. In the top menu, click on the **[!UICONTROL Segments]** tab. The list of Adobe Experience Platform segments is displayed. You can search for a specific segment in the list.
 
  ![](../assets/segment1.png)
 

@@ -44,7 +44,7 @@ To use the test mode, follow these steps:
 
 * An interface is provided to fire events to the tested journey but events can also be sent by third-party systems such as Postman.
 * Only individuals flagged as "test profiles" in the Real-time Customer Profile Service will be allowed to enter the tested journey. See [](../building-journeys/testing-the-journey.md#create-test-profile).
-* The test mode is only available in draft journeys that use a namespace. Test mode needs to check if a person entering the journey is a test profile or not and thus must be able to reach the Data Platform.
+* The test mode is only available in draft journeys that use a namespace. Test mode needs to check if a person entering the journey is a test profile or not and thus must be able to reach the Adobe Experience Platform.
 * The maximum number of test profiles than can enter a journey during a test session is 100.
 * When you disable the test mode, it empties the journeys from all people who entered it in the past or who are currently in it. It also clears the reporting.
 * You can enable/disable the test mode as many times as needed.
@@ -52,7 +52,7 @@ To use the test mode, follow these steps:
 
 ## Creating a test profile{#create-test-profile}
 
-The process to create a test profile is the same as when you create a profile in the Experience Platform. It is performed through API calls. See this [page](https://docs.adobe.com/content/help/en/experience-platform/profile/home.html)
+The process to create a test profile is the same as when you create a profile in the Adobe Experience Platform. It is performed through API calls. See this [page](https://docs.adobe.com/content/help/en/experience-platform/profile/home.html)
 
 You must use a Profile schema that contains the "profile test details" mixin. The testProfile flag is part of this mixin.
 
@@ -112,7 +112,7 @@ The **[!UICONTROL Trigger an event]** button allows you to configure an event th
 >
 >When you trigger an event in test mode, a real event is generated, meaning it will also hit other journey listening to this event.
 
-As a prerequisite, you must know which profiles are flagged as test profiles in the Data Platform. Indeed, the test mode only allows these profiles in the journey and the event must contain an ID. The expected ID depends on the event configuration. It can be an ECID for example.
+As a prerequisite, you must know which profiles are flagged as test profiles in the Adobe Experience Platform. Indeed, the test mode only allows these profiles in the journey and the event must contain an ID. The expected ID depends on the event configuration. It can be an ECID for example.
 
 If your journey contains several events, use the drop-down list to select an event. Then, for each event, configure the fields passed and the execution of the event sending. The interface helps you pass the right information in the event payload and make sure the information type is correct. The test mode saves the last parameters used in a test session for later use. 
 

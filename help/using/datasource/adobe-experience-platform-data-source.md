@@ -14,7 +14,7 @@ snippet: y
 
 # Adobe Experience Platform data source {#concept_zrb_nqt_52b}
 
-The Experience Platform data source defines the connection to the Real-time Customer Profile Service. This data source is built-in and pre-configured. It cannot be deleted. This data source is designed to retrieve and use data from the Real-time Customer Profile Service (for example, check if the person who entered a journey is a female). It allows you to use Profile data and Experience Events data. For more information on the Real-time Customer Profile Service, refer to this [page](https://docs.adobe.com/content/help/en/experience-platform/profile/home.html).
+The Adobe Experience Platform data source defines the connection to the Real-time Customer Profile Service. This data source is built-in and pre-configured. It cannot be deleted. This data source is designed to retrieve and use data from the Real-time Customer Profile Service (for example, check if the person who entered a journey is a female). It allows you to use Profile data and Experience Events data. For more information on the Real-time Customer Profile Service, refer to this [page](https://docs.adobe.com/content/help/en/experience-platform/profile/home.html).
 
 >[!NOTE]
 >
@@ -26,7 +26,7 @@ You can edit the pre-configured field group named “ProfileFieldGroup”, add n
 
 Here are the main steps to add field groups to the build-in data source.
 
-1. From the list of data sources, select the build-in Experience Platform data source.
+1. From the list of data sources, select the build-in Adobe Experience Platform data source.
 
     This opens the data source configuration pane on the right-hand side of the screen.
 
@@ -36,7 +36,7 @@ Here are the main steps to add field groups to the build-in data source.
 
     ![](../assets/journey24.png)
 
-1. Select a schema from the **[!UICONTROL Schema]** drop-down. This field lists Profile and Experience Events schemas available in the Platform. Schema creation is not performed in [!DNL Journey Orchestration]. It’s performed in the Data Platform.
+1. Select a schema from the **[!UICONTROL Schema]** drop-down. This field lists Profile and Experience Events schemas available in the Adobe Experience Platform. Schema creation is not performed in [!DNL Journey Orchestration]. It’s performed in the Adobe Experience Platform.
 1. Select the fields you want to use.
 1. Define the cache duration.
 1. Click on **[!UICONTROL Save]**.

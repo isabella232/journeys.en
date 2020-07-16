@@ -16,7 +16,7 @@ snippet: y
 
 This mixin will be shared by the journeyStepEvent and journeyStepProfileEvent.
 
-These are the common XDM fields that [!DNL Journey Orchestration] sends to Adobe Data Platform. Common fields will be sent for every step that is processed in a journey. More specific fields are used for custom actions and enrichments.
+These are the common XDM fields that [!DNL Journey Orchestration] sends to Adobe Experience Platform. Common fields will be sent for every step that is processed in a journey. More specific fields are used for custom actions and enrichments.
 
 Some of those fields are only available in specific processing patterns (action execution, data fetch, etc.) in order to limit the size of events.
 

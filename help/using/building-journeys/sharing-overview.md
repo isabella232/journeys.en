@@ -16,9 +16,9 @@ snippet: y
 
 [!DNL Journey Orchestration] automatically sends journey performance data to the Adobe Experience Platform so it can be combined with other data for analysis purposes. 
 
-For example, you have set up a journey that sends multiple emails. This capability allows you to combine [!DNL Journey Orchestration] data with downstream event data like how many conversions occurred, how much engagement happened on the website, or how many transactions happened in the store. The journey information can be combined with data on the Platform, either from other digital properties or from offline properties to give a more comprehensive view of performance.
+For example, you have set up a journey that sends multiple emails. This capability allows you to combine [!DNL Journey Orchestration] data with downstream event data like how many conversions occurred, how much engagement happened on the website, or how many transactions happened in the store. The journey information can be combined with data on the Adobe Experience Platform, either from other digital properties or from offline properties to give a more comprehensive view of performance.
 
-[!DNL Journey Orchestration] automatically creates the necessary schemas and streams into datasets to the Platform for each step an individual takes in a journey. A step event corresponds to an individual moving from one node to another in a journey. For example, in a journey that has an event, a condition and an action, three step events are sent to the Platform. 
+[!DNL Journey Orchestration] automatically creates the necessary schemas and streams into datasets to the Adobe Experience Platform for each step an individual takes in a journey. A step event corresponds to an individual moving from one node to another in a journey. For example, in a journey that has an event, a condition and an action, three step events are sent to the Adobe Experience Platform. 
 
 The list of XDM fields that are passed is comprehensive. Some contain system generated codes and others have human readable friendly names. Examples include the label of the journey activity or the step status: how many times an action timed out or ended in error.
 
@@ -46,7 +46,7 @@ The following datasets are passed:
 
 ![](../assets/sharing3.png)
 
-The lists of XDM fields passed to the Platform are detailed here:
+The lists of XDM fields passed to the Adobe Experience Platform are detailed here:
 
 * [journeySteps events common fields](../building-journeys/sharing-common-fields.md)
 * [journeyStep events action execution fields](../building-journeys/sharing-execution-fields.md)
@@ -54,4 +54,4 @@ The lists of XDM fields passed to the Platform are detailed here:
 * [journeyStep event identity fields](../building-journeys/sharing-identity-fields.md)
 * [journey fields](../building-journeys/sharing-journey-fields.md)
 
-For more information on journey step events and the data steps that are automatically created on Experience Platform, watch this [tutorial video](https://docs.adobe.com/content/help/en/journey-orchestration-learn/tutorials/reporting-step-events-to-adobe-experience-platform.html).
+For more information on journey step events and the data steps that are automatically created on Adobe Experience Platform, watch this [tutorial video](https://docs.adobe.com/content/help/en/journey-orchestration-learn/tutorials/reporting-step-events-to-adobe-experience-platform.html).

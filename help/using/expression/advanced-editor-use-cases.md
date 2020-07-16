@@ -24,7 +24,7 @@ The Advanced expression editor can be used to create conditions to allow you to 
 
 The advanced expression editor is mandatory to perform queries on time series such as a list of purchases or past clicks on messages. Such queries cannot be performed using the simple editor.
 
-The experience events are retrieved from the Experience Platform as a collection in reverse chronological order, hence:
+The experience events are retrieved from the Adobe Experience Platform as a collection in reverse chronological order, hence:
 
 * first function will return the most recent event
 * last function will return the oldest one.

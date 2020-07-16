@@ -38,9 +38,9 @@ To do so, in **[!UICONTROL Properties]**, select a time zone.
 
 ## Using profiles to define the journey time zone {#timezone-from-profiles}
 
-If the entry event of the journey has a namespace, meaning that the journey can reach the Real-time Customer Profile service of the Data Platform, the time zone is pre-defined with the one specified in the profile of the individual flowing in the journey.
+If the entry event of the journey has a namespace, meaning that the journey can reach the Real-time Customer Profile service of the Adobe Experience Platform, the time zone is pre-defined with the one specified in the profile of the individual flowing in the journey.
 
-If a time zone is defined in the Experience Platform profile, it can be retrieved in the journey.
+If a time zone is defined in the Adobe Experience Platform profile, it can be retrieved in the journey.
 
 If the individual's profile does not contain a time zone, the timezone retrieved will be the one defined in the timezone field.
 
