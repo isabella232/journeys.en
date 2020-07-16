@@ -23,4 +23,4 @@ Here are the possibilities [!DNL Journey Orchestration] offer you with segments:
 * Access the list of Adobe Experience Platform segments. See [Creating a segment](../segment/creating-a-segment.md).
 * Create segments directly in [!DNL Journey Orchestration] the same way you create them using the Segmentation Service. See [Creating a segment](../segment/creating-a-segment.md).
 * Leverage segments in your journey's conditions using the simple or advanced expression editor. See [Using segments in conditions](../segment/using-a-segment.md).
-* Add a **Segment qualification** event to your journey in order to listen to the entrances and exits of profiles in Adobe Experience Platform segments. See [Events activities](../building-journeys/segment-qualification-events.md).
+* Add a **[!UICONTROL Segment qualification]** event to your journey in order to listen to the entrances and exits of profiles in Adobe Experience Platform segments. See [Events activities](../building-journeys/segment-qualification-events.md).

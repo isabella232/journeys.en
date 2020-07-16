@@ -26,7 +26,7 @@ To use the test mode, follow these steps:
 
     ![](../assets/journeytest1.png)
 
-1. Use the **Wait time in test** parameter, in the bottom left corner, to define the time that each wait activity will last in test mode. The default time is 10 seconds. This will ensure that you get the test results quickly. This parameter only appears if you have dropped one or more wait activities in your journey.
+1. Use the **[!UICONTROL Wait time in test]** parameter, in the bottom left corner, to define the time that each wait activity will last in test mode. The default time is 10 seconds. This will ensure that you get the test results quickly. This parameter only appears if you have dropped one or more wait activities in your journey.
 
     ![](../assets/journeytest_wait.png)
 
@@ -124,7 +124,7 @@ The interface allows you to pass simple event parameters. If you want to pass co
 
 A technical user can also use this interface to compose event payloads and trigger events without having to use a third-party tool.
 
-When clicking the **Send** button, the test begins. The progression of the individual in the journey is represented by a visual flow. The path progressively turns green as the individual moves across the journey. If an error occurs, a warning symbol is displayed on the corresponding step. You can place the cursor on it to display more information about the error and access full details (when available). 
+When clicking the **[!UICONTROL Send]** button, the test begins. The progression of the individual in the journey is represented by a visual flow. The path progressively turns green as the individual moves across the journey. If an error occurs, a warning symbol is displayed on the corresponding step. You can place the cursor on it to display more information about the error and access full details (when available). 
 
 ![](../assets/journeytest6.png)
 

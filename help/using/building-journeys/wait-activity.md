@@ -33,7 +33,7 @@ You can define a condition if you want to restrict the wait to a certain populat
 >
 >The maximum wait duration is 30 days.
 >
->In test mode, the **Wait time in test** parameter allows you to define the time that each wait activity will last. The default time is 10 seconds. This will ensure that you get the test results quickly. See [](../building-journeys/testing-the-journey.md) 
+>In test mode, the **[!UICONTROL Wait time in test]** parameter allows you to define the time that each wait activity will last. The default time is 10 seconds. This will ensure that you get the test results quickly. See [](../building-journeys/testing-the-journey.md) 
 
 ## Duration wait{#duration}
 
@@ -75,7 +75,7 @@ This type of wait uses a score calculated in the Adobe Experience Platform. The 
 
 1. In the **[!UICONTROL Amount of time]** field, define the number of hours to consider to optimize email sending.
 1. In the **[!UICONTROL Optimization type]** field, choose if the optimization should increase clicks or opens.
-1. In the **Default time** field, define the default time to wait if the predictive send time score is not available.
+1. In the **[!UICONTROL Default time]** field, define the default time to wait if the predictive send time score is not available.
 
     >[!NOTE]
     >

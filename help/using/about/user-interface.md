@@ -50,7 +50,7 @@ In the **[!UICONTROL Home]**,**[!UICONTROL Data Sources]**, **[!UICONTROL Events
 
 The **[!UICONTROL Filters]** can be accessed by clicking on the filter icon on the top left of the list. The filters menu allows you to filter the displayed elements according to different criteria. You can choose to only display the elements of a certain type or status, the ones you created, or the ones modified in the last 30 days.
 
-In the **[!UICONTROL Data Sources]**, **[!UICONTROL Events]** and **[!UICONTROL Actions]** lists, use the **Creation filters** to filter on the creation date and user. You can choose, for example, to only display the events that you created in the past 30 days.
+In the **[!UICONTROL Data Sources]**, **[!UICONTROL Events]** and **[!UICONTROL Actions]** lists, use the **[!UICONTROL Creation filters]** to filter on the creation date and user. You can choose, for example, to only display the events that you created in the past 30 days.
 
 In the journey list (under **[!UICONTROL Home]**), in addition to the **[!UICONTROL Creation filters]**, you can also filter the displayed journeys according to their status and version (**[!UICONTROL Status and version filters]**). You can also choose to only display the journeys that use a particular event, field group or action (**[!UICONTROL Activity filters]** and **[!UICONTROL Data filters]**).The **[!UICONTROL Publication filters]** let you select a publication date or user. You can choose, for example, to only display the latest versions of live journeys that were published yesterday. See [](../building-journeys/using-the-journey-designer.md).
 
@@ -97,18 +97,18 @@ _When configuring an activity in a journey:_
 The canvas is automatically saved. You can see, on the top left of the canvas, the saving status.
 
 * Press **escape** to close the configuration pane and discard the changes made. This is the equivalent of the **[!UICONTROL Cancel]** button.
-* Press **[!UICONTROL Enter]** or click outside the pane to close the configuration pane. Changes are saved. This is the equivalent of the **[!UICONTROL Ok]** button.
-* If you press **[!UICONTROL Delete]** or **backspace**, you can then press **[!UICONTROL Enter]** to confirm the deletion.
+* Press **Enter** or click outside the pane to close the configuration pane. Changes are saved. This is the equivalent of the **[!UICONTROL Ok]** button.
+* If you press ** Delete** or **backspace**, you can then press **Enter** to confirm the deletion.
 
 _In pop-ups:_
 
-* Press **escape** to close it (equivalent of the **Cancel** button).
-* Press **[!UICONTROL Enter]** to save or confirm (equivalent of the **[!UICONTROL Ok]** or **[!UICONTROL Save]** button).
+* Press **escape** to close it (equivalent of the **[!UICONTROL Cancel]** button).
+* Press **Enter** to save or confirm (equivalent of the **[!UICONTROL Ok]** or **[!UICONTROL Save]** button).
 
 _In the event, data source or action configuration pane:_
 
 * Press **escape** to close the configuration pane without saving.
-* Press **[!UICONTROL Enter]** to save modifications and close the configuration pane.
+* Press **Enter** to save modifications and close the configuration pane.
 * Press **tab** to jump between the different fields to configure.
 
 _In the simple expression editor_
@@ -130,5 +130,5 @@ _In a screen with a search bar:_
 _In the canvas of a journey:_
 
 * Use the **Ctrl/Command + A** key combination to select all activities.
-* When one or several activities are selected, press **[!UICONTROL Delete]** or **backspace** to delete them. Then you can press **[!UICONTROL Enter]** to confirm in the confirmation pop-up.
+* When one or several activities are selected, press **Delete** or **backspace** to delete them. Then you can press **Enter** to confirm in the confirmation pop-up.
 * Double-click on an activity from the left palette to add it at the first available position (from top to bottom).
