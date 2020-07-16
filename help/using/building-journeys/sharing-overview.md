@@ -24,7 +24,7 @@ The list of XDM fields that are passed is comprehensive. Some contain system gen
 
 >[!CAUTION]
 >
->Datasets cannot not be turned on for real time profile service. Please make sure that the **Profile** toggle is turned off 
+>Datasets cannot not be turned on for real time profile service. Please make sure that the **[!UICONTROL Profile]** toggle is turned off 
 
 Journeys sends data as it occurs, in a streaming way. You can query this data using the Query Service. You can connect to Customer Journey Analytics or other BI tools to view data related to these steps.
 

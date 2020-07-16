@@ -36,7 +36,7 @@ Two different colors can be displayed on the sign next to the **[!UICONTROL Test
 
 Errors and warnings that are global to the journey appear first in the list. Error and warnings related to specific activities are listed after, by activity order or appearance in the journey from left to right. The **[!UICONTROL Copy details]** button copies technical information about the journey which the support team can use to troubleshoot.
 
-When an error occurs in an action or a condition, the journey of an individual stops. The only way to make it continue is to check the box **Add an alternative path in case of a timeout or an error**. See [](../building-journeys/using-the-journey-designer.md#paths).
+When an error occurs in an action or a condition, the journey of an individual stops. The only way to make it continue is to check the box **[!UICONTROL Add an alternative path in case of a timeout or an error]**. See [](../building-journeys/using-the-journey-designer.md#paths).
 
 ## Checking that events are properly sent{#section_rqz_11t_dgb}
 

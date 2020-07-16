@@ -28,4 +28,4 @@ When you drop an action activity in the canvas, you can define a **[!UICONTROL L
 
 ![](../assets/journey59bis.png)
 
-When an error occurs in an action or a condition, the journey of an individual stops. The only way to make it continue is to check the box **Add an alternative path in case of a timeout or an error**. See [](../building-journeys/using-the-journey-designer.md#paths).
+When an error occurs in an action or a condition, the journey of an individual stops. The only way to make it continue is to check the box **[!UICONTROL Add an alternative path in case of a timeout or an error]**. See [](../building-journeys/using-the-journey-designer.md#paths).

@@ -24,7 +24,7 @@ You can also consult the [!DNL Journey Orchestration] [Release Notes](../release
 * Added a new section on the Alpha features that are tested among a limited set of customers. [Read more](../alpha/alpha-overview.md)
 * Added a new section on the integration with Intelligent Services. [Read more](../ai-services/ai-services-overview.md)
 * Added a new section on the test profile creation. [Read more](../building-journeys/testing-the-journey.md#create-test-profile)
-* Added information on how to use the **SegmentQualification** node in a journey condition or action. [Read more](../building-journeys/segment-qualification-events.md)
+* Added information on how to use the **[!UICONTROL SegmentQualification]** node in a journey condition or action. [Read more](../building-journeys/segment-qualification-events.md)
 * A note has been added on Campaign transactional message and event publication. See [Working with Adobe Campaign](../action/working-with-adobe-campaign.md) and [Using Adobe Campaign actions](../building-journeys/using-adobe-campaign-actions.md).
 * Information has been added on the checks that are performed when testing the Campaign Standard instance URL. [Read more](../action/working-with-adobe-campaign.md)
 * Information has been added on reaction events compatibility with Campaign Standard instances hosted on AWS or Azure servers. [Read more](../building-journeys/reaction-events.md)
@@ -34,7 +34,7 @@ You can also consult the [!DNL Journey Orchestration] [Release Notes](../release
 ## June 2020 {#june-2020}
 
 * Added information on how to change the cache duration of the token for a custom authentication data source. [Read more](../datasource/external-data-sources.md#section_wjp_nl5_nhb)
-* Updated screenshots and text to reflect the renaming of the **Finished** journey state which has been changed to **Closed (no entrance)**.
+* Updated screenshots and text to reflect the renaming of the **[!UICONTROL Finished]** journey state which has been changed to **[!UICONTROL Closed (no entrance)]**.
 * Added information on how the language is defined for the interface. [Read more](../about/user-interface.md)
 * The list of statuses of an individual's journey has been moved to the [Test mode logs](../building-journeys/testing-the-journey.md#viewing_logs) section. 
 
@@ -46,12 +46,12 @@ You can also consult the [!DNL Journey Orchestration] [Release Notes](../release
 ## March 2020 {#march-2020}
 
 * Added parameter descriptions for _actionExecutionErrors_ and _fetchErrors_ in test logs section. [Read more](../building-journeys/testing-the-journey.md#viewing_logs)
-* The limitations on custom actions used in a journey have been updated. You can also modify the **URL** field and the **Authentication** parameters. [Read more](../action/about-custom-action-configuration.md)
+* The limitations on custom actions used in a journey have been updated. You can also modify the **[!UICONTROL URL]** field and the **[!UICONTROL Authentication]** parameters. [Read more](../action/about-custom-action-configuration.md)
 * New contexual help entries have been added. The custom authentication payload pane (in actions and data sources) now includes a help icon that links to this [section](../datasource/external-data-sources.md#section_wjp_nl5_nhb). 
 * Closed journeys can now be stopped. [Read more](../building-journeys/using-the-journey-designer.md)
 * The interface description section has been reorganized. [Read more](../about/user-interface.md)
 * The triggering of multiple events has been added to the Test mode section [Read more](../building-journeys/testing-the-journey.md#firing_events)
-* The Test mode section has been updated regarding the new **Wait time in test** parameter. [Read more](../building-journeys/testing-the-journey.md)
+* The Test mode section has been updated regarding the new **[!UICONTROL Wait time in test]** parameter. [Read more](../building-journeys/testing-the-journey.md)
 * The Test log section has been updated with external call error codes and responses. [Read more](../building-journeys/testing-the-journey.md#viewing_logs)
 * Timezone management is now centralized in the journey properties panel. Read more [here](../building-journeys/changing-properties.md#timezone) and [here](../building-journeys/timezone-management.md)
 * The Journey designer section has been updated to reflect recent enhancements. [Read more](../building-journeys/using-the-journey-designer.md)
