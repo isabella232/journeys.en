@@ -54,26 +54,30 @@ See [Condition activity](../building-journeys/condition-activity.md#about_condit
 
 ## Speed of segment entrance or exit{#speed-segment-qualification}
 
-The **Segment Qualification** activity enables the immediate entrance in journeys of individuals getting qualified or disqualified from a Platform segment.
+The **Segment Qualification** activity enables the immediate entrance in journeys of individuals getting qualified or disqualified from an Experience Platform segment.
 
-The speed of reception of this information is high. Measurement made shows a speed of 10 000 events received per seconds. As a result, you should make sure to understand how peak of entrance might happen, how to avoid them and how to make your journey ready for them.
+The reception speed of this information is high. Measurements made show a speed of 10 000 events received per seconds. As a result, you should make sure you understand how peaks of entrance might happen, how to avoid them and how to make your journey ready for them.
 
-### Case of batch segment{#batch-speed-segment-qualification}
+### Batch segments{#batch-speed-segment-qualification}
 
-When using segment qualification activity for a batch segment, note that a peak of entrance will happen at the time of daily calculation. The size of the peak will depend on the number of people entering (or exiting) of the segment daily.
+When using segment qualification for a batch segment, note that a peak of entrance will happen at the time of the daily calculation. The size of the peak will depend on the number of individuals entering (or exiting) the segment daily.
 
-Moreover, if the batch segment is newly created and immediately used in a journey, the first batch of calculation might make a very big number of people enter the journey.
+Moreover, if the batch segment is newly created and immediately used in a journey, the first batch of calculation might make a very large number of individuals enter the journey.
 
-### Case of streamed segments{#streamed-speed-segment-qualification}
+### Streamed segments{#streamed-speed-segment-qualification}
 
-When using segment qualification for streamed segments, there is less risk to get a big peaks of entrancse/exits due to the continuous evaluation of the segment. Still, if the segment definition leads to making a large volume of customers qualifying at the same time, there might be a peak too. 
+When using segment qualification for streamed segments, there is less risk of getting large peaks of entrances/exits due to the continuous evaluation of the segment. Still, if the segment definition leads to making a large volume of customers qualify at the same time, there might be a peak too. 
 
 ### How to avoid overloads{#overloads-speed-segment-qualification}
 
-To avoid overloading systems leveraged in journeys (data sources, custom actions, Adobe Campaign Standard actions), a couple of best practices could help:
+Here are a few best practices that will help to avoid overloading systems leveraged in journeys (data sources, custom actions, Adobe Campaign Standard actions).
 
-Do not use in a Segment Qualification activity a batch segment immediately after creation. it will avoid the first calculation peak. Note that there will be a yellow warning in the canvas UI if you're about to use a segment that has never been calculated (see screenshot below)
+Do not use, in a **Segment Qualification** activity, a batch segment immediately after its creation. It will avoid the first calculation peak. Note that there will be a yellow warning in the journey canvas if you're about to use a segment that has never been calculated.
 
+![](../assets/segment-error.png)
 
-Put in place a capping rule for data sources and actions used in journeys to avoid overloading them (link to capping documentation). Note that the capping rule has no retry. If you want to retry, you must use an alternative path in the journey checking the box "Add an alternative path in case of a timeout or an error" in conditions or actions.
-Try to understand the volume of people qualifying for this segment every day before using it in a production journey. To do so, you can check the Segments section in Platform and check this graph on the right (screenshot below).
+Put in place a capping rule for data sources and actions used in journeys to avoid overloading them (refer to this [section](../api/capping.md)). Note that the capping rule has no retry. If you need to retry, you must use an alternative path in the journey by checking the box **Add an alternative path in case of a timeout or an error** in conditions or actions.
+
+Before using the segment in a production journey, always evaluate first the volume of individuals qualifying for this segment every day. To do so, you can check the **Segments** section in the Experience Platform and look at the graph on the right side.
+
+![](../assets/segment-overload.png)
