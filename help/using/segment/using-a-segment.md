@@ -14,7 +14,7 @@ snippet: y
 
 # Using segments in conditions {#using-a-segment}
 
-This section explains how to use a segment in a journey condition. To learn how to use a **Segment qualification** event in your journey, refer to [Events activities](../building-journeys/event-activities.md#segment-qualification).
+This section explains how to use a segment in a journey condition. To learn how to use a **Segment qualification** event in your journey, refer to [Events activities](../building-journeys/segment-qualification-events.md).
 
 To use a segment in a journey condition, follow these steps:
 

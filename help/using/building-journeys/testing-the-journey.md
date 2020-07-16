@@ -44,9 +44,9 @@ To use the test mode, follow these steps:
 
 * An interface is provided to fire events to the tested journey but events can also be sent by third-party systems such as Postman.
 * Only individuals flagged as "test profiles" in the Real-time Customer Profile Service will be allowed to enter the tested journey. See [](../building-journeys/testing-the-journey.md#create-test-profile).
-* The test mode is only available in draft journeys that use a namespace. Indeed, the test mode needs to check if a person entering the journey is a test profile or not and thus must be able to reach the Data Platform.
+* The test mode is only available in draft journeys that use a namespace. Test mode needs to check if a person entering the journey is a test profile or not and thus must be able to reach the Data Platform.
 * The maximum number of test profiles than can enter a journey during a test session is 100.
-* When you disable the test mode, it empties the journeys from all people who entered it in the past or who are currently in it.
+* When you disable the test mode, it empties the journeys from all people who entered it in the past or who are currently in it. It also clears the reporting.
 * You can enable/disable the test mode as many times as needed.
 * You cannot modify your journey when the test mode is activated. When in test mode, you can directly publish the journey, no need to deactivate the test mode before.
 
@@ -54,7 +54,7 @@ To use the test mode, follow these steps:
 
 The process to create a test profile is the same as when you create a profile in the Experience Platform. It is performed through API calls. See this [page](https://docs.adobe.com/content/help/en/experience-platform/profile/home.html)
 
-You must use a Profile schema that contains the "profile test details" mixin. Indeed, the testProfile flag is part of this mixin.
+You must use a Profile schema that contains the "profile test details" mixin. The testProfile flag is part of this mixin.
 
 When creating a profile, make sure you pass the value: testprofile = true.
 
@@ -64,7 +64,7 @@ Here is an example of an API call to create a test profile:
 
 ```
 curl -X POST \
-'https://example.adobe.com/collection/xxxxxxxxxxxxxx' \
+'https://dcs.adobedc.net/collection/xxxxxxxxxxxxxx' \
 -H 'Cache-Control: no-cache' \
 -H 'Content-Type: application/json' \
 -H 'Postman-Token: xxxxx' \
