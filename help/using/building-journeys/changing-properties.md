@@ -51,6 +51,6 @@ Due to the 30-day journey timeout, when journey re-entrance is not allowed, we c
 
 Timezone are defined at journey level.
 
-You can enter a fixed time zone or use Experience Platform profiles to define the journey time zone.
+You can enter a fixed time zone or use Adobe Experience Platform profiles to define the journey time zone.
 
 For more information on timezone management, see [](../building-journeys/timezone-management.md).

@@ -27,3 +27,5 @@ If you've configured custom actions, they will also appear here (see [](../build
 When you drop an action activity in the canvas, you can define a **[!UICONTROL Label]**. This allows you to add a suffix to the action name that will appear under your activity in the canvas. This is useful if you use the same action several times in your journey and want to identify them more easily. Reports will also be easier to read. You can also add an optional **[!UICONTROL Description]**.
 
 ![](../assets/journey59bis.png)
+
+When an error occurs in an action or a condition, the journey of an individual stops. The only way to make it continue is to check the box **[!UICONTROL Add an alternative path in case of a timeout or an error]**. See [](../building-journeys/using-the-journey-designer.md#paths).

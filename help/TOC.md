@@ -52,7 +52,11 @@ index: yes
     + [Terminating a journey](using/building-journeys/terminating-a-journey.md)
     + [Time zone management](using/building-journeys/timezone-management.md)
   + Activities {#about-journey-building}
-    + [Events activities](using/building-journeys/event-activities.md)
+    + Events activities {#events-activities}
+      + [About events activities](using/building-journeys/event-activities.md)
+      + [General events](using/building-journeys/general-events.md)
+      + [Reaction events](using/building-journeys/reaction-events.md)
+      + [Segment qualification events](using/building-journeys/segment-qualification-events.md)
     + Orchestration activities {#orchestration-activities}
       + [About orchestration activities](using/building-journeys/about-orchestration-activities.md)
       + [Condition activity](using/building-journeys/condition-activity.md)
@@ -64,7 +68,7 @@ index: yes
       + [Using custom actions](using/building-journeys/using-custom-actions.md)
   + [Testing the journey](using/building-journeys/testing-the-journey.md)
   + [Publishing the journey](using/building-journeys/publishing-the-journey.md)
-  + Sharing journey steps with Platform {#sharing-journey-steps}
+  + Sharing journey steps with Adobe Experience Platform {#sharing-journey-steps}
       + [Journey step sharing overview](using/building-journeys/sharing-overview.md)
       + [journeySteps events common fields](using/building-journeys/sharing-common-fields.md)
       + [journeyStep events action execution fields](using/building-journeys/sharing-execution-fields.md)

@@ -26,7 +26,7 @@ Type: long
 
 ## fetchTypeInError
 
-Defines if the fetch in error is on the platform or on a custom data source.
+Defines if the fetch in error is on the Adobe Experience Platform or on a custom data source.
 
 Type: string
 
@@ -86,13 +86,13 @@ Type: long
 
 ## fetchPlatformTotalTime
 
-The total amount of time taken to fetch the data from Data Platform in millis. Remark: this amount of time is computed from the time the engine sends the enrichment event to the enrichment service and receives the response.
+The total amount of time taken to fetch the data from Adobe Experience Platform in millis. Remark: this amount of time is computed from the time the engine sends the enrichment event to the enrichment service and receives the response.
 
 Type: long
 
 ## fetchPlatformCount
 
-How many times the data is fetched from Platform.
+How many times the data is fetched from Adobe Experience Platform.
 
 Type: long
 

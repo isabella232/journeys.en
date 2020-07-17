@@ -21,7 +21,7 @@ Navigation within [!DNL Journey Orchestration] menus has been enhanced, in order
 * Menus moved from the top to the left-hand side of the interface,
 * Grouping of admin functionalities into a single dashboard.
 
-Global concepts on how to use and navigate in the interface (searching and filtering, browsing through Data Platform fields, shortcuts) are presented in [this section](../about/user-interface.md).
+Global concepts on how to use and navigate in the interface (searching and filtering, browsing through Adobe Experience Platform fields, shortcuts) are presented in [this section](../about/user-interface.md).
 
 ## Accessing [!DNL Journey Orchestration] functionalities {#accessing-journey-orchestration-functionalities}
 
@@ -29,7 +29,7 @@ When you access [!DNL Journey Orchestration], the **[!UICONTROL Journeys]** menu
 
 ![](../assets/interface-journeys.png)
 
-The **[!UICONTROL Segments]** menu allows you to access and create Experience Platform segments. See [About Platform segments](../segment/about-segments.md).
+The **[!UICONTROL Segments]** menu allows you to access and create Adobe Experience Platform segments. See [About Adobe Experience Platform segments](../segment/about-segments.md).
 
 ![](../assets/interface-segments.png)
 

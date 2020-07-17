@@ -30,7 +30,7 @@ All the versions of your journeys appear in the list with the version number. Se
 
 >[!NOTE]
 >
->To open a journey's canvas in a different browser tab, hold the **Control** or **Command key** and click on the journey.
+>To open a journey's canvas in a different browser tab, hold the **Control** or **Command** key and click on the journey.
 
 ## The palette {#palette}
 
@@ -42,9 +42,9 @@ The **palette** is on the left-hand side of the screen. All available activities
 
  ![](../assets/journey38.png)
 
-The **Show disabled items** icon in the top left corner allows you to hide or display unavailable elements in the palette, for example the events that use a different namespace than the ones used in your journey. By default, unavailable items are hidden. If you choose to display them, they will appear greyed out. 
+The **[!UICONTROL Show disabled items]** icon in the top left corner allows you to hide or display unavailable elements in the palette, for example the events that use a different namespace than the ones used in your journey. By default, unavailable items are hidden. If you choose to display them, they will appear greyed out. 
 
-When using the **Search** field, the number of results is displayed for each canvas activity category.
+When using the **[!UICONTROL Search]** field, the number of results is displayed for each canvas activity category.
 
  ![](../assets/palette-filter.png)
 

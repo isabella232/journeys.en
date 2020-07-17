@@ -20,11 +20,11 @@ This new type of event does not generate an eventID. Using the simple expression
 
 This new method is mostly transparent for users. The only change is a new field in the event definition screen.
 
-1. From the left menu, click the **Admin** icon, then click **Events**. The list of events is displayed. 
+1. From the left menu, click the **[!UICONTROL Admin]** icon, then click **[!UICONTROL Events]**. The list of events is displayed. 
 
    ![](../assets/alpha-event1.png)
 
-1. Click **Add** to create a new event. The event configuration pane opens on the right side of the screen.
+1. Click **[!UICONTROL Add]** to create a new event. The event configuration pane opens on the right side of the screen.
 
    ![](../assets/alpha-event2.png)
 
@@ -32,29 +32,29 @@ This new method is mostly transparent for users. The only change is a new field 
 
    ![](../assets/alpha-event3.png)
 
-1. In the new **Event ID type** field, select **Rule Based**. 
+1. In the new **[!UICONTROL Event ID type]** field, select **[!UICONTROL Rule Based]**. 
 
    ![](../assets/alpha-event4.png)
 
    >[!NOTE]
    >
-   >The **System Generated** type is the existing method that requires an eventID. See [this section](../event/about-events.md).
+   >The **[!UICONTROL System Generated]** type is the existing method that requires an eventID. See [this section](../event/about-events.md).
 
-1. Define the **Schema** and payload **Fields**. See [this section](../event/defining-the-payload-fields.md).
+1. Define the **[!UICONTROL Schema]** and payload **[!UICONTROL Fields]**. See [this section](../event/defining-the-payload-fields.md).
 
    ![](../assets/alpha-event5.png)
 
    >[!NOTE]
    >
-   >When you select the **System Generated type**, only schemas that have the eventID type mixin are available. When you select the **Rule Based** type, all Experience Event schemas are available.
+   >When you select the **[!UICONTROL System Generated type]**, only schemas that have the eventID type mixin are available. When you select the **[!UICONTROL Rule Based]** type, all Experience Event schemas are available.
 
-1. Click inside the **Event ID condition** field. Using the simple expression editor, define the condition that will be used by the system to identify the events that will trigger your journey.
+1. Click inside the **[!UICONTROL Event ID condition]** field. Using the simple expression editor, define the condition that will be used by the system to identify the events that will trigger your journey.
 
    ![](../assets/alpha-event6.png)
 
-   In our example, we wrote a condition based on the profile's city. This means that whenever the system receives an event that matches this condition (**City** field and **Paris** value), it will pass it to Journey Orchestration.
+   In our example, we wrote a condition based on the profile's city. This means that whenever the system receives an event that matches this condition (**[!UICONTROL City]** field and **[!UICONTROL Paris]** value), it will pass it to Journey Orchestration.
 
-1. Define the **Namespace** and **Key**. See [Selecting the namespace](../event/selecting-the-namespace.md) and [Defining the event key](../event/defining-the-event-key.md).
+1. Define the **[!UICONTROL Namespace]** and **[!UICONTROL Key]**. See [Selecting the namespace](../event/selecting-the-namespace.md) and [Defining the event key](../event/defining-the-event-key.md).
 
    ![](../assets/alpha-event7.png)
 

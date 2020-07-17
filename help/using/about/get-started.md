@@ -26,7 +26,7 @@ Here are the main steps to configure and use [!DNL Journey Orchestration]:
 
 1. **Configure the data source**
 
-    You need to define a connection to a system to retrieve additional information that will be used in your journeys, for example in your conditions. A built-in Experience Platform data source is also configured at provisioning time. This step is not required if you only leverage data from the events in your journey. This step is performed by a **technical user**. 
+    You need to define a connection to a system to retrieve additional information that will be used in your journeys, for example in your conditions. A built-in Adobe Experience Platform data source is also configured at provisioning time. This step is not required if you only leverage data from the events in your journey. This step is performed by a **technical user**. 
 
     For more on this, refer to [](../datasource/about-data-sources.md).
     

@@ -42,7 +42,7 @@ For this use case, we will need to create two events (see [](../usecase/configur
 
 We will need to configure a connection to two data sources (see [](../usecase/configuring-the-data-sources.md)):
 
-* The build-in Experience Platform data source, to retrieve the information for our two conditions (loyalty membership and last contact date) as well as the message personalization information.
+* The build-in Adobe Experience Platform data source, to retrieve the information for our two conditions (loyalty membership and last contact date) as well as the message personalization information.
 * The hotel reservation system, to retrieve the reservation status information.
 
 ## Pre-requisites {#prerequisites}

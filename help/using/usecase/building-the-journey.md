@@ -50,7 +50,7 @@ For additional information on how to build a journey, refer to [](../building-jo
 
     ![](../assets/journeyuc2_15.png)
 
-1. Click **[!UICONTROL Advanced mode]** and define the following condition based on the "timestamp" and "directMarketing.sends.value" fields coming from the Experience Platform data source. The syntax of the expression is:
+1. Click **[!UICONTROL Advanced mode]** and define the following condition based on the "timestamp" and "directMarketing.sends.value" fields coming from the Adobe Experience Platform data source. The syntax of the expression is:
 
     ```
     count(#{ExperiencePlatformDataSource.MarltonExperience.experienceevent.all(
