@@ -14,7 +14,7 @@ snippet: y
 
 # About events activities {#concept_rws_1rt_52b}
 
-The events configured by the technical user (see [](../event/about-events.md) are all displayed in the first category of the palette, on the left side of the screen.
+The events configured by the technical user (see [](../event/about-events.md)) are all displayed in the first category of the palette, on the left side of the screen.
 
  ![](../assets/journey43.png)
 
