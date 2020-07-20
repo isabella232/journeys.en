@@ -57,7 +57,7 @@ Users must always be linked to a product profile allowing you to assign them spe
 
 You can find below the compatibility between permissions and [!DNL Journey Orchestration]'s different functionalities.
 
-![](../assets/journey_permission.png)
+![](../assets/do-not-localize/journey_permission.png)
 
 ## Creating a product profile {#create-product-profile}
 
@@ -69,7 +69,7 @@ To create a product profile and assign a set of permissions and sandboxes:
 
 1. In the Admin Console, select **[!UICONTROL Journey Orchestration]**. From the **[!UICONTROL Product profile]** tab, click **[!UICONTROL New Profile]**.
 
-    ![](../assets/user_management_5.png)
+    ![](../assets/do-not-localize/user_management_5.png)
 
 1. Add a **[!UICONTROL Profile Name]** and **[!UICONTROL Description]** for your new product profile. If you want your profile's **[!UICONTROL Display name]** to be different, uncheck **[!UICONTROL Same as Profile Name]** and type in your **[!UICONTROL Display name]**.
 
@@ -77,7 +77,7 @@ To create a product profile and assign a set of permissions and sandboxes:
 
 1. When finished, click **[!UICONTROL Done]**. Your new product profile is now created.
 
-    ![](../assets/user_management_1.png)
+    ![](../assets/do-not-localize/user_management_1.png)
 
 1. Select your new product profile to start managing permissions. In the **[!UICONTROL Users]** tab, add users to your product profile. For more on this, refer to this [page](../about/access-management.md#assigning-product-profile).
 
@@ -85,20 +85,20 @@ To create a product profile and assign a set of permissions and sandboxes:
 
 1. From the **[!UICONTROL Permissions]** tab, select one of the two categories **[!UICONTROL Sandbox]** or **[!UICONTROL Authoring]** to open the **[!UICONTROL Edit Permissions]** page and add or remove permissions for your product profile.
 
-    ![](../assets/user_management_7.png)
+    ![](../assets/do-not-localize/user_management_7.png)
 
 1. In the **[!UICONTROL Sandboxes]** permission category, choose which sandbox(es) to assign to your product profile. Under **[!UICONTROL Available Permissions Items]**, click the plus (+) icon to assign sandboxes to your profile. For more information on sandboxes, refer to this [section](../about/access-management.md#sandboxes).
 
-    ![](../assets/user_management_8.png)
+    ![](../assets/do-not-localize/user_management_8.png)
 
 1. If needed, under **[!UICONTROL Included Permission Items]**, click the X icon next to remove permissions to your product profile.
 
-    ![](../assets/user_management_9.png)
+    ![](../assets/do-not-localize/user_management_9.png)
 
 1. From the **[!UICONTROL Authoring]** permission category, carry out the same steps as above to add permissions to your product profile.
 <br>For more information on permissions and compatibility between permissions and [!DNL Journey Orchestration]'s different functionalities, refer to this [section](../about/access-management.md#about-access-management).
 
-    ![](../assets/user_management_10.png)
+    ![](../assets/do-not-localize/user_management_10.png)
 
 1. When finished, click **[!UICONTROL Save]**.
 
@@ -113,21 +113,21 @@ To assign a product profile for a user to access [!DNL Journey Orchestration]:
 
 1. In the Admin Console, select **[!UICONTROL Journey Orchestration]**.
 
-    ![](../assets/user_management.png)
+    ![](../assets/do-not-localize/user_management.png)
 
 1. Select the product profile to which your new user will be linked to.
 
-    ![](../assets/user_management_2.png)
+    ![](../assets/do-not-localize/user_management_2.png)
 
 1. Click **[!UICONTROL Add user]**.
 
    You can also add your new user to a user group to fine-tune the shared set of permissions. For more on this, refer to this [page](https://helpx.adobe.com/enterprise/using/user-groups.html).
 
-    ![](../assets/user_management_3.png)
+    ![](../assets/do-not-localize/user_management_3.png)
 
 1. Type in the email address of your new user then click **[!UICONTROL Save]**.
 
-    ![](../assets/user_management_4.png)
+    ![](../assets/do-not-localize/user_management_4.png)
 
 Your user should then receive an email redirecting to your [!DNL Journey Orchestration] instance.
 
