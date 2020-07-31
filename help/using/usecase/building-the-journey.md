@@ -131,7 +131,7 @@ Two paths are created after your condition:
 
         ```
         @{LobbyBeacon._experience.campaign.message.profileSnapshot.pushNotificationTokens.first().token}
-        ``
+        ```
 
 1. Define the Push notification personalization fields. In our example: first name and last name.
 
