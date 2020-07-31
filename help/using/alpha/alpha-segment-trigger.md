@@ -1,6 +1,6 @@
 ---
 title: Segment Trigger activity
-description: Learn xxxx
+description: Learn more about Segment Trigger
 page-status-flag: never-activated
 uuid: 269d590c-5a6d-40b9-a879-02f5033863fc
 contentOwner: sauviat
@@ -16,15 +16,19 @@ snippet: y
 
 ## About the Segment Trigger activity {#about-segment-trigger-actvitiy}
 
+>[!NOTE]
+>
+>If an Adobe Campaign Standard out-of-the-box action activity is present in the canvas at publication time or test mode activation time, the journey will be throttled at 13 entrances per second. <br>If no Adobe Campaign Standard out-of-the-box action activity is present in the canvas at publication time or test mode activation time, the journey will be throttled at 1000 events per second.
+
 The Segment Trigger activity allows you to make all individuals belonging to an Adobe Experience Platform segment enter a journey. Entrance into a journey can be executed either once, or on a regular basis.
 
 Let's say you have a Gold customer segment on Adobe Experience Platform. With the Segment Trigger activity, you can make all individuals belonging to the Gold customer segment enter a journey and make them flow into individualized journeys that will leverage all journey functionalities: conditions, timers, events, actions.
 
+## Configuring the activity {#configuring-segment-trigger-activity}
+
 >[!NOTE]
 >
 >Due to segment export latencies, it is not possible to trigger a segment-based journey in a shorter timeframe than 1 hour.
-
-## Configuring the activity {#configuring-segment-trigger-activity}
 
 1. Unfold the **[!UICONTROL Orchestration]** category and drop a **[!UICONTROL Segment Trigger]** activity into your canvas.
 
