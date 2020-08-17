@@ -34,6 +34,8 @@ Let's say you have a Gold customer segment on Adobe Experience Platform. With th
 
     The activity must be positioned as the first step of a journey.
 
+1. Add a **[!UICONTROL Label]** to the activity. This step is optional.
+
 1. Configure the activity **[!UICONTROL Scheduler type]**.
 
     By default, the segment will enter the journey **[!UICONTROL As soon as possible]**, meaning 1 hour after the journey is published. If you want to make the segment enter the journey on a specific date/time or on a recurring basis, select the desired option from the list.
@@ -44,7 +46,17 @@ Let's say you have a Gold customer segment on Adobe Experience Platform. With th
 
 1. In the **[!UICONTROL Segment]** field, choose the Adobe Experience Platform segment that will enter the journey, then click **[!UICONTROL Save]**.
 
+   >[!NOTE]
+   >
+   >Note that you can customize the columns displayed in the list and sort them.
+
     ![](../assets/segment-trigger-segment-selection.png)
+
+   Once the segment is added, the **[!UICONTROL Copy]** button allows you to copy its name and ID:
+
+   `{"name":"Gold customers,”id":"8597c5dc-70e3-4b05-8fb9-7e938f5c07a3"}`
+
+   ![](../assets/segment-trigger-copy.png)
 
 1. In the **[!UICONTROL Namespace]** field, choose the namespace to use in order to identify the individuals. For more on namespaces, refer to [this section](../event/selecting-the-namespace.md).
 

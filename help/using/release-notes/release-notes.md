@@ -174,7 +174,7 @@ The Journey Orchestration interface is available in Japanese.
 
 **Other improvements**
 
-* In addition to US, Journeys Orchestration is now available in **EMEA**. The application and documentation are available in French and German.
+* In addition to US, Journey Orchestration is now available in **EMEA**. The application and documentation are available in French and German.
 
 * Experience League is now integrated into the product. This simplifies the access to related content and helps you get the most out of Experience Cloud. Direct access to Journey Orchestration documentation is available at the bottom of the Help tab. Additionally, click Help > Feedback to report issues or share your ideas with Adobe.
 

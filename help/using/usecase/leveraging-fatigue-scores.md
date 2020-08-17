@@ -18,7 +18,7 @@ This use case will show you how to leverage fatigue scores to avoid over-solicit
 
 >[!NOTE]
 >
->The predictive fatigue score capability is only available to customers who use the Adobe Campaign Standard Data Service feature.
+>The predictive fatigue score capability is only available to customers who use the [Adobe Experience Platform Data Connector](https://docs.adobe.com/content/help/en/campaign-standard/using/developing/mapping-campaign-and-aep-data/aep-about-data-connector.html).
 
 ## Configuring the event {#section_ptb_ws1_ffb}
 

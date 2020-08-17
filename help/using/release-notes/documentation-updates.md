@@ -17,6 +17,12 @@ snippet: y
 This page lists all the documentation updates for [!DNL Journey Orchestration].
 You can also consult the [!DNL Journey Orchestration] [Release Notes](../release-notes/release-notes.md).
 
+## August 2020 {#august-2020}
+
+* Added information on how to sort and choose the columns to display in the segments list. [Read more](../building-journeys/segment-qualification-events.md)
+* Added information on how to copy a segment's name and ID after it has been selected. [Read more](../building-journeys/segment-qualification-events.md)
+* Occurences of Experience Platform have been harmonized accross the different pages.
+
 ## July 2020 {#july-2020}
 
 * Added a link to a new tutorial video on step events reporting to Adobe Experience Platform. [Read more](../building-journeys/sharing-overview.md)
@@ -74,7 +80,7 @@ You can also consult the [!DNL Journey Orchestration] [Release Notes](../release
 
 * All screenshots have been updated to reflect interface changes.
 * The test mode section has been updated. [Read more](../building-journeys/testing-the-journey.md)
-* A warning has been added in the [email send time optimization](../building-journeys/wait-activity.md) and [predictive fatigue scores](../ai-services/leveraging-fatigue-scores.md) sections. These capabilities are only available to customers who use the Adobe Campaign Standard Data Service feature.
+* A warning has been added in the [email send time optimization](../building-journeys/wait-activity.md) and [predictive fatigue scores](../ai-services/leveraging-fatigue-scores.md) sections. These capabilities are only available to customers who use the [Adobe Experience Platform Data Connector](https://docs.adobe.com/content/help/en/campaign-standard/using/developing/mapping-campaign-and-aep-data/aep-about-data-connector.html).
 * Stopped journeys can now be deleted. Related documentation pages have been updated.
 * Two colors are now displayed when issues are detected in a journey. Red for errors and orange for warnings. [Read more](../about/troubleshooting.md)
 * The advanced expression editor section has been updated. [Read more](../expression/expressionadvanced.md).
