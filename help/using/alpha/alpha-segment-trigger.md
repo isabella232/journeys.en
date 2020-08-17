@@ -44,6 +44,10 @@ Let's say you have a Gold customer segment on Adobe Experience Platform. With th
 
 1. In the **[!UICONTROL Segment]** field, choose the Adobe Experience Platform segment that will enter the journey, then click **[!UICONTROL Save]**.
 
+   >[!NOTE]
+   >
+   >Note that you can customize the columns displayed in the list and sort them.
+
     ![](../assets/segment-trigger-segment-selection.png)
 
 1. In the **[!UICONTROL Namespace]** field, choose the namespace to use in order to identify the individuals. For more on namespaces, refer to [this section](../event/selecting-the-namespace.md).

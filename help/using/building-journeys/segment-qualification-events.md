@@ -32,6 +32,10 @@ If the segment is streamed with the High Frequency Audiences option of Adobe Exp
 
 1. Click in the **[!UICONTROL Segment]** field and select the segments you want to leverage.
 
+   >[!NOTE]
+   >
+   >Note that you can customize the columns displayed in the list and sort them.
+
    ![](../assets/segment6.png)
 
    Once the segment is added, the **[!UICONTROL Copy]** button allows you to copy its name and ID:
