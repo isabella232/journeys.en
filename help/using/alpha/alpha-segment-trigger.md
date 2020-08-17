@@ -34,6 +34,8 @@ Let's say you have a Gold customer segment on Adobe Experience Platform. With th
 
     The activity must be positioned as the first step of a journey.
 
+1. Add a **[!UICONTROL Label]** to the activity. This step is optional.
+
 1. Configure the activity **[!UICONTROL Scheduler type]**.
 
     By default, the segment will enter the journey **[!UICONTROL As soon as possible]**, meaning 1 hour after the journey is published. If you want to make the segment enter the journey on a specific date/time or on a recurring basis, select the desired option from the list.
