@@ -50,6 +50,12 @@ Let's say you have a Gold customer segment on Adobe Experience Platform. With th
 
     ![](../assets/segment-trigger-segment-selection.png)
 
+   Once the segment is added, the **[!UICONTROL Copy]** button allows you to copy its name and ID:
+
+   `{"name":"Gold customers,”id":"8597c5dc-70e3-4b05-8fb9-7e938f5c07a3"}`
+
+   ![](../assets/segment-trigger-copy.png)
+
 1. In the **[!UICONTROL Namespace]** field, choose the namespace to use in order to identify the individuals. For more on namespaces, refer to [this section](../event/selecting-the-namespace.md).
 
     >[!NOTE]
