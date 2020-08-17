@@ -17,6 +17,11 @@ snippet: y
 This page lists all the documentation updates for [!DNL Journey Orchestration].
 You can also consult the [!DNL Journey Orchestration] [Release Notes](../release-notes/release-notes.md).
 
+## August 2020 {#august-2020}
+
+* Added information on how to sort and choose the columns to display in the segments list. [Read more](../building-journeys/segment-qualification-events.md)
+* Added information on how to copy a segment's name and ID after it has been selected. [Read more](../building-journeys/segment-qualification-events.md)
+
 ## July 2020 {#july-2020}
 
 * Added a link to a new tutorial video on step events reporting to Adobe Experience Platform. [Read more](../building-journeys/sharing-overview.md)
