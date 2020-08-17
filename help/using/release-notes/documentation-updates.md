@@ -21,6 +21,7 @@ You can also consult the [!DNL Journey Orchestration] [Release Notes](../release
 
 * Added information on how to sort and choose the columns to display in the segments list. [Read more](../building-journeys/segment-qualification-events.md)
 * Added information on how to copy a segment's name and ID after it has been selected. [Read more](../building-journeys/segment-qualification-events.md)
+* Occurences of Experience Platform have been harmonized accross the different pages.
 
 ## July 2020 {#july-2020}
 
