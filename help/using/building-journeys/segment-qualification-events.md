@@ -30,9 +30,19 @@ If the segment is streamed with the High Frequency Audiences option of Adobe Exp
 
 1. Add a **[!UICONTROL Label]** to the activity. This step is optional.
 
-1. Click in the **[!UICONTROL Segment]** field and select the segments you want to leverage. 
+1. Click in the **[!UICONTROL Segment]** field and select the segments you want to leverage.
+
+   >[!NOTE]
+   >
+   >Note that you can customize the columns displayed in the list and sort them.
 
    ![](../assets/segment6.png)
+
+   Once the segment is added, the **[!UICONTROL Copy]** button allows you to copy its name and ID:
+
+   `{"name":"Loyalty membership“,”id":"8597c5dc-70e3-4b05-8fb9-7e938f5c07a3"}`
+
+   ![](../assets/segment-copy.png)
 
 1. In the **[!UICONTROL Behavior]** field, choose is you want to listen to segment entrances, exits or both.
 
