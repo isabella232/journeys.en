@@ -36,7 +36,7 @@ For this to work, you need to activate, in Adobe Experience Platform, the report
 
 1. Share the source Data ID with your Alpha program point of contact. 
 
-This enables the Analytics data connector for that report suite. Whenever the data comes in, it is transformed into an Experience event and sent into Adobe Experience Platform. 
+This enables the Analytics source connector for that report suite. Whenever the data comes in, it is transformed into an Experience event and sent into Adobe Experience Platform. 
 
 ![](../assets/alpha-event9.png)
 
@@ -94,5 +94,5 @@ When triggering an event, the **Event configuration** screen allows you to defin
 
 ![](../assets/alpha-event8.png)
 
-For more information on how to use the test mode, refer to [](../building-journeys/testing-the-journey.md)
+For more information on how to use the test mode, refer to [](../building-journeys/testing-the-journey.md).
 

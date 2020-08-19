@@ -27,7 +27,7 @@ The segment trigger section (Alpha) has been updated to reflect the following en
 The rule-based events section (Alpha) has been updated to reflect the following enhancements:
 
 * You can now leverage all of the Adobe Analytics behavioral event data that you are already capturing and streaming into the Platform in order to trigger journeys and automate experiences for your customers. [Read more](../alpha/alpha-events.md#analytics-data)
-* When triggering a rule based event in test mode, you can now directy view the event ID condition. Also, a tooltip has been added next to each field that is part of the rule evaluation. [Read more](../alpha/alpha-events.md#configuring-rule-based)
+* When triggering a rule-based event in test mode, you can now directy view the event ID condition. Also, a tooltip has been added next to each field that is part of the rule evaluation. [Read more](../alpha/alpha-events.md#configuring-rule-based)
 * The rule-based event definition screen has been reorgnized for an improved experience. [Read more](../alpha/alpha-events.md#test-rule-based)
 
 Here are the other updates:
