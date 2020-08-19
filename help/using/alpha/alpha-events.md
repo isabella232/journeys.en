@@ -38,7 +38,7 @@ For this to work, you need to activate, in Adobe Experience Platform, the report
 
 This enables the Analytics data connector for that report suite. Whenever the data comes in, it is transformed into an Experience event and sent into Adobe Experience Platform. 
 
-![](../assets/alpha-event1.png)
+![](../assets/alpha-event9.png)
 
 For more information on the Adobe Analytics source connector, refer to the [documentation](https://docs.adobe.com/help/en/experience-platform/sources/connectors/adobe-applications/analytics.html) and [tutorial](.https://docs.adobe.com/content/help/en/experience-platform/sources/ui-tutorials/create/adobe-applications/analytics.html).
 
@@ -86,7 +86,7 @@ The other steps for event configuration and journey creation remain unchanged.
 
 The event is now configured and ready to be dropped into a journey like any other event. Every time an event that matches the rule is sent to the system, it is passed to Journey Orchestration to trigger your journeys.  
 
-## Test mode for rule-based events{#configuring-rule-based}
+## Test mode for rule-based events{#test-rule-based}
 
 The test mode is also available for journeys that use a rule-based event.
 
