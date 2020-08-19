@@ -17,6 +17,28 @@ snippet: y
 This page lists all the new features and improvements for Journey Orchestration.
 You can also consult the [Documentation Updates](../release-notes/documentation-updates.md). 
 
+## August 2020 Release {#august-release}
+
+<table>
+<thead>
+<tr>
+<th><strong>Export/import API</strong><br/></th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td>
+<p>We're introducing a new public API to export and import your journeys.
+</p>
+</td>
+</tr>
+</tbody>
+</table>
+
+**Other improvements**
+
+xxx
+
 ## Q2 Release - June 2020 {#q2-release---june-2020}
 
 <table>

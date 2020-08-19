@@ -20,6 +20,30 @@ This new type of event does not generate an eventID. Using the simple expression
 
 This new method is mostly transparent for users. The only change is a new field in the event definition screen.
 
+## Leveraging Adobe Analytics data{#analytics-data}
+
+>[!NOTE]
+>
+>This section only applies for customers who need to use Adobe Analytics data.
+
+You can leverage all of the Adobe Analytics behavioral event data that you are already capturing and streaming into the Platform in order to trigger journeys and automate experiences for your customers.
+
+For this to work, you need to activate, in Adobe Experience Platform, the report suite that you want to leverage:
+
+1. In Adobe Experience Platform, select **[!UICONTROL Sources]** then **[!UICONTROL Add data]** in the Adobe Analytics section. The list of available Adobe Analytics report suites is displayed.
+
+1. Pick the report suite you want to enable, click **[!UICONTROL Next]** and click **[!UICONTROL Finish]**. 
+
+1. Share the source Data ID with your Alpha program point of contact. 
+
+This enables the Analytics data connector for that report suite. Whenever the data comes in, it is transformed into an Experience event and sent into Adobe Experience Platform. 
+
+![](../assets/alpha-event1.png)
+
+For more information on the Adobe Analytics source connector, refer to the [documentation](https://docs.adobe.com/help/en/experience-platform/sources/connectors/adobe-applications/analytics.html) and [tutorial](.https://docs.adobe.com/content/help/en/experience-platform/sources/ui-tutorials/create/adobe-applications/analytics.html).
+
+## Configuring a rule-based event{#configuring-rule-based}
+
 1. From the left menu, click the **[!UICONTROL Admin]** icon, then click **[!UICONTROL Events]**. The list of events is displayed. 
 
    ![](../assets/alpha-event1.png)
@@ -61,4 +85,14 @@ This new method is mostly transparent for users. The only change is a new field 
 The other steps for event configuration and journey creation remain unchanged. 
 
 The event is now configured and ready to be dropped into a journey like any other event. Every time an event that matches the rule is sent to the system, it is passed to Journey Orchestration to trigger your journeys.  
+
+## Test mode for rule-based events{#configuring-rule-based}
+
+The test mode is also available for journeys that use a rule-based event.
+
+When triggering an event, the **Event configuration** screen allows you to define the event parameters to pass in the test. You can view the event ID condition by clicking the tooltip icon in the top right corner. A tooltip is also available next to each field that is part of the rule evaluation.
+
+![](../assets/alpha-event8.png)
+
+For more information on how to use the test mode, refer to [](../building-journeys/testing-the-journey.md)
 
