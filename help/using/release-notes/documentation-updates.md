@@ -21,7 +21,7 @@ You can also consult the [!DNL Journey Orchestration] [Release Notes](../release
 
 The segment trigger section (Alpha) has been updated to reflect the following enhancements:
 
-* The **[!UICONTROL Scheduler]** field has been removed from the activity’s properties. It is now accessible directly from the Journey's properties, in a dedicated section that will display if a Segment Trigger activity has been dropped into the canvas.
+* The configuration of the journey scheduler has been removed from the activity’s properties. It is now accessible directly from the Journey's properties, in a dedicated section that will display if a Segment Trigger activity has been dropped into the canvas.
 * You can now test the journey on a unitary profile, as well as track its progress in the journey using the visual flow.
 
 The rule-based events section (Alpha) has been updated to reflect the following enhancements:
