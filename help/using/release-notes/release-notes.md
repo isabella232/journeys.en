@@ -32,7 +32,7 @@ You can also consult the [Documentation Updates](../release-notes/documentation-
 <td>
 <p>Export or import a journey version and all the related objects (journey, events, data providers, data entities, custom actions) by its uid. The export resulting payload can be used to import the journey version in another environment.
 </p>
-<p>This feature allows you to manage your journeys across multiple instances or for multiple test environnements workflows. For more information, refer to the [Import export APIs](../../api/using/import-export.md) section.</p>
+<p>This feature allows you to manage your journeys across multiple instances or for multiple test environnements workflows. <a href="../../api/using/import-export.md">Read more</a></p>
 </td>
 </tr>
 </tbody>
@@ -108,7 +108,7 @@ These features are described in a dedicated [section](../alpha/alpha-overview.md
 <tbody>
 <tr>
 <td>
-<p>Navigation within Journey Orchestration menus has been enhanced, in order to provide a consistant interface with Adobe Experience Platform:
+<p>Navigation within Journey Orchestration menus has been enhanced, in order to provide a consistent interface with Adobe Experience Platform:
 </p>
 <ul>
 <li><p>Menus moved from the top to the left-hand side of the interface. </p>
