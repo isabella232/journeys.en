@@ -39,7 +39,7 @@ You can also consult the [Documentation Updates](../release-notes/documentation-
 
 **Other improvements**
 
-The payload of Segment Qualification events now contain the following context information, which you can use in conditions and actions: the behavior (entrance, exit), the timestamp of qualification and the segment id. [Read mode](../building-journeys/segment-qualification-events.md)
+The payload of Segment Qualification events now contains the following context information, which you can use in conditions and actions: the behavior (entrance, exit), the timestamp of qualification and the segment id. [Read mode](../building-journeys/segment-qualification-events.md)
 
 ### Alpha updates
 
@@ -60,7 +60,7 @@ The payload of Segment Qualification events now contain the following context in
 <li><p>You can now test the journey on a unitary profile, as well as track its progress in the journey using the visual flow.</p>
 </li>
 </ul>
-<p>For more information, refer to the <a href="../alpha/alpha-segment-trigger.md">detailed documentation</a></p>
+<p>For more information, refer to the <a href="../alpha/alpha-segment-trigger.md">detailed documentation</a>.</p>
 </td>
 </tr>
 </tbody>
@@ -75,7 +75,7 @@ The payload of Segment Qualification events now contain the following context in
 <tbody>
 <tr>
 <td>
-<p>The rule-based events section (Alpha) has been updated to reflect the following enhancements:
+<p>Rule-based events have been updated to reflect the following enhancements:
 </p>
 <ul>
 <li><p>You can now leverage all of the Adobe Analytics behavioral event data that you are already capturing and streaming into the Platform in order to trigger journeys and automate experiences for your customers. <a href="../alpha/alpha-events.md#analytics-data">Read more</a></p>
@@ -113,7 +113,7 @@ These features are described in a dedicated [section](../alpha/alpha-overview.md
 <li><p>Grouping of admin functionalities into a single dashboard.</p>
 </li>
 </ul>
-<p>For more information, refer to the <a href="../alpha/alpha-interface.md">detailed documentation</a></p>
+<p>For more information, refer to the <a href="../alpha/alpha-interface.md">detailed documentation</a>.</p>
 </td>
 </tr>
 </tbody>
