@@ -30,8 +30,9 @@ You can also consult the [Documentation Updates](../release-notes/documentation-
 <tbody>
 <tr>
 <td>
-<p>We're introducing a new public API to export and import your journeys.
+<p>Export or import a journey version and all the related objects (journey, events, data providers, data entities, custom actions) by its uid. The export resulting payload can be used to import the journey version in another environment.
 </p>
+<p>This feature allows you to manage your journeys across multiple instances or for multiple test environnements workflows. For more information, refer to the [Import export APIs](../../api/using/import-export.md) section.</p>
 </td>
 </tr>
 </tbody>
@@ -42,6 +43,8 @@ You can also consult the [Documentation Updates](../release-notes/documentation-
 The payload of Segment Qualification events now contains the following context information, which you can use in conditions and actions: the behavior (entrance, exit), the timestamp of qualification and the segment id. [Read more](../building-journeys/segment-qualification-events.md)
 
 ### Alpha updates{#august-alpha-update}
+
+To discover the scope of the Alpha, refer to this [section](../alpha/alpha-overview.md).
 
 <table>
 <thead>
