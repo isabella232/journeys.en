@@ -1,6 +1,6 @@
 ---
 title: Segment Trigger activity
-description: Learn xxxx
+description: Learn more about Segment Trigger
 page-status-flag: never-activated
 uuid: 269d590c-5a6d-40b9-a879-02f5033863fc
 contentOwner: sauviat
@@ -16,19 +16,25 @@ snippet: y
 
 ## About the Segment Trigger activity {#about-segment-trigger-actvitiy}
 
+>[!NOTE]
+>
+>If an Adobe Campaign Standard out-of-the-box action activity is present in the canvas at publication time or test mode activation time, the journey will be throttled at 13 entrances per second. <br>If no Adobe Campaign Standard out-of-the-box action activity is present in the canvas at publication time or test mode activation time, the journey will be throttled at 1000 events per second.
+
 The Segment Trigger activity allows you to make all individuals belonging to an Adobe Experience Platform segment enter a journey. Entrance into a journey can be executed either once, or on a regular basis.
 
 Let's say you have a Gold customer segment on Adobe Experience Platform. With the Segment Trigger activity, you can make all individuals belonging to the Gold customer segment enter a journey and make them flow into individualized journeys that will leverage all journey functionalities: conditions, timers, events, actions.
+
+## Configuring the activity {#configuring-segment-trigger-activity}
 
 >[!NOTE]
 >
 >Due to segment export latencies, it is not possible to trigger a segment-based journey in a shorter timeframe than 1 hour.
 
-## Configuring the activity {#configuring-segment-trigger-activity}
-
 1. Unfold the **[!UICONTROL Orchestration]** category and drop a **[!UICONTROL Segment Trigger]** activity into your canvas.
 
     The activity must be positioned as the first step of a journey.
+
+1. Add a **[!UICONTROL Label]** to the activity. This step is optional.
 
 1. Configure the activity **[!UICONTROL Scheduler type]**.
 
@@ -40,7 +46,17 @@ Let's say you have a Gold customer segment on Adobe Experience Platform. With th
 
 1. In the **[!UICONTROL Segment]** field, choose the Adobe Experience Platform segment that will enter the journey, then click **[!UICONTROL Save]**.
 
+   >[!NOTE]
+   >
+   >Note that you can customize the columns displayed in the list and sort them.
+
     ![](../assets/segment-trigger-segment-selection.png)
+
+   Once the segment is added, the **[!UICONTROL Copy]** button allows you to copy its name and ID:
+
+   `{"name":"Gold customers,”id":"8597c5dc-70e3-4b05-8fb9-7e938f5c07a3"}`
+
+   ![](../assets/segment-trigger-copy.png)
 
 1. In the **[!UICONTROL Namespace]** field, choose the namespace to use in order to identify the individuals. For more on namespaces, refer to [this section](../event/selecting-the-namespace.md).
 

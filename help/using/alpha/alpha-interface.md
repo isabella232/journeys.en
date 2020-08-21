@@ -25,6 +25,10 @@ Global concepts on how to use and navigate in the interface (searching and filte
 
 ## Accessing [!DNL Journey Orchestration] functionalities {#accessing-journey-orchestration-functionalities}
 
+The menu bar located on the left-hand side give you access to the different functionalities. Click on an icon to access the corresponding menu. You can click the arrow at the bottom left to expand or collapse the menu bar.
+
+![](../assets/interface-journeys2.png)
+
 When you access [!DNL Journey Orchestration], the **[!UICONTROL Journeys]** menu is displayed, allowing you to access existing journeys or create new ones. See [Using the journey designer](../building-journeys/using-the-journey-designer.md).
 
 ![](../assets/interface-journeys.png)
@@ -36,3 +40,4 @@ The **[!UICONTROL Segments]** menu allows you to access and create Adobe Experie
 The **[!UICONTROL Admin]** menu is available to all users with Administrator rights (see [Access management](../about/access-management.md)). It provides a dashboard which allows you to setup [data sources](../datasource/about-data-sources.md), [events](../event/about-events.md) and [actions](../action/action.md).
 
 ![](../assets/interface-admin-dashboard.png)
+

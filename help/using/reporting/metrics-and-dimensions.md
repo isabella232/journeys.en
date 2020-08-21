@@ -31,7 +31,7 @@ The table below gives you the list of dimensions used in journey reports, their 
 |Dimensions|Definition|
 |--- |--- |
 |**Action**|List of every action (**action name - action label**) used in journeys e.g. Push - Check out confirmation, Email - Rewards fidelity.|
-|**Data source**|List of data sources (**data source name**) used to enrich data in a journey e.g. Adobe Experience platform, Reservation system.|
+|**Data source**|List of data sources (**data source name**) used to enrich data in a journey e.g. Adobe Experience Platform, Reservation system.|
 |**[!UICONTROL Event]**|List of every event (**event name - event label**) used in journeys e.g. Geometrixx event - Geometrixx check out.|
 |**Field group**|List of field groups (**field group name**) used to enrich data in journeys e.g. Profile field group, Geometrixx reservation system.|
 |**Journey**|List of every journey (**journey name**) in test mode and live e.g. Cart abandonment, Hotel reservation notification.|

@@ -63,7 +63,7 @@ This option lets you define a custom date, for example 12 July 2020 at 5pm, usin
 
 >[!CAUTION]
 >
->The email send time optimization capability is only available to customers who use the Adobe Campaign Standard Data Service feature.
+>The email send time optimization capability is only available to customers who use the [Adobe Experience Platform Data Connector](https://docs.adobe.com/content/help/en/campaign-standard/using/developing/mapping-campaign-and-aep-data/aep-about-data-connector.html).
 
 This type of wait uses a score calculated in the Adobe Experience Platform. The score calculates the propensity to click or open an email in the future based on past behavior. Note that the algorithm calculating the score needs a certain amount of data to work. As a result, when it does not have enough data, the default wait time will apply. At publication time, you’ll be notified that the default time applies.
 
