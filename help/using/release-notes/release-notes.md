@@ -60,6 +60,7 @@ The payload of Segment Qualification events now contain the following context in
 <li><p>You can now test the journey on a unitary profile, as well as track its progress in the journey using the visual flow.</p>
 </li>
 </ul>
+<p>For more information, refer to the <a href="../alpha/alpha-segment-trigger.md">detailed documentation</a></p>
 </td>
 </tr>
 </tbody>
@@ -112,7 +113,7 @@ These features are described in a dedicated [section](../alpha/alpha-overview.md
 <li><p>Grouping of admin functionalities into a single dashboard.</p>
 </li>
 </ul>
-<p><a href="../alpha/alpha-interface.md">Read more</a></p>
+<p><a href="../alpha/alpha-interface.md">detailed documentation</a></p>
 </td>
 </tr>
 </tbody>
