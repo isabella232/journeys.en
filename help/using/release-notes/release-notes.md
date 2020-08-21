@@ -113,7 +113,7 @@ These features are described in a dedicated [section](../alpha/alpha-overview.md
 <li><p>Grouping of admin functionalities into a single dashboard.</p>
 </li>
 </ul>
-<p><a href="../alpha/alpha-interface.md">detailed documentation</a></p>
+<p>For more information, refer to the <a href="../alpha/alpha-interface.md">detailed documentation</a></p>
 </td>
 </tr>
 </tbody>
