@@ -90,7 +90,7 @@ The payload of Segment Qualification events now contains the following context i
 </tbody>
 </table>
 
-## Alpha Release - July 2020 {#alpha-release---june-2020}
+## Alpha Release - July 2020 {#alpha-release---july-2020}
 
 The Alpha program offers features that are currently tested among a limited set of customers. This allows us to improve our product based on the feedback received. These features are not available to all Journey Orchestration customers.
 
