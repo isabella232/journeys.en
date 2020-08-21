@@ -19,19 +19,6 @@ You can also consult the [!DNL Journey Orchestration] [Release Notes](../release
 
 ## August 2020 {#august-2020}
 
-The segment trigger section (Alpha) has been updated to reflect the following enhancements:
-
-* The configuration of the journey scheduler has been removed from the activity’s properties. It is now accessible directly from the Journey's properties, in a dedicated section that will display if a Segment Trigger activity has been dropped into the canvas.
-* You can now test the journey on a unitary profile, as well as track its progress in the journey using the visual flow.
-
-The rule-based events section (Alpha) has been updated to reflect the following enhancements:
-
-* You can now leverage all of the Adobe Analytics behavioral event data that you are already capturing and streaming into the Platform in order to trigger journeys and automate experiences for your customers. [Read more](../alpha/alpha-events.md#analytics-data)
-* When triggering a rule-based event in test mode, you can now directly view the event ID condition. Also, a tooltip has been added next to each field that is part of the rule evaluation. [Read more](../alpha/alpha-events.md#configuring-rule-based)
-* The rule-based event definition screen has been reorganized for an improved experience. [Read more](../alpha/alpha-events.md#test-rule-based)
-
-Here are the other updates:
-
 * Added information on how to sort and choose the columns to display in the segments list. [Read more](../building-journeys/segment-qualification-events.md)
 * Added information on how to copy a segment's name and ID after it has been selected. [Read more](../building-journeys/segment-qualification-events.md)
 * Occurrences of Experience Platform have been harmonized accross the different pages.
