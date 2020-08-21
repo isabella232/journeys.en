@@ -19,7 +19,7 @@ You can also consult the [Documentation Updates](../release-notes/documentation-
 
 ## August 2020 Release {#august-release}
 
-### GA updates
+### GA updates{#august-ga-update}
 
 <table>
 <thead>
@@ -39,9 +39,9 @@ You can also consult the [Documentation Updates](../release-notes/documentation-
 
 **Other improvements**
 
-The payload of Segment Qualification events now contains the following context information, which you can use in conditions and actions: the behavior (entrance, exit), the timestamp of qualification and the segment id. [Read mode](../building-journeys/segment-qualification-events.md)
+The payload of Segment Qualification events now contains the following context information, which you can use in conditions and actions: the behavior (entrance, exit), the timestamp of qualification and the segment id. [Read more](../building-journeys/segment-qualification-events.md)
 
-### Alpha updates
+### Alpha updates{#august-alpha-update}
 
 <table>
 <thead>
@@ -52,7 +52,7 @@ The payload of Segment Qualification events now contains the following context i
 <tbody>
 <tr>
 <td>
-<p>The Segment Trigger activity has been updated to reflect the following enhancements:
+<p>The following improvements have been made to the Segment Trigger activity:
 </p>
 <ul>
 <li><p>The configuration of the journey scheduler has been removed from the activity’s properties. It is now accessible directly from the Journey's properties, in a dedicated section that will display if a Segment Trigger activity has been dropped into the canvas. </p>
@@ -75,7 +75,7 @@ The payload of Segment Qualification events now contains the following context i
 <tbody>
 <tr>
 <td>
-<p>Rule-based events have been updated to reflect the following enhancements:
+<p>The following improvements have been made to rule-based events:
 </p>
 <ul>
 <li><p>You can now leverage all of the Adobe Analytics behavioral event data that you are already capturing and streaming into the Platform in order to trigger journeys and automate experiences for your customers. <a href="../alpha/alpha-events.md#analytics-data">Read more</a></p>
@@ -90,7 +90,7 @@ The payload of Segment Qualification events now contains the following context i
 </tbody>
 </table>
 
-## Alpha Release - June 2020 {#q2-release---june-2020}
+## Alpha Release - July 2020 {#alpha-release---june-2020}
 
 The Alpha program offers features that are currently tested among a limited set of customers. This allows us to improve our product based on the feedback received. These features are not available to all Journey Orchestration customers.
 
