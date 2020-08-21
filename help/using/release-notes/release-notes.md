@@ -19,6 +19,8 @@ You can also consult the [Documentation Updates](../release-notes/documentation-
 
 ## August 2020 Release {#august-release}
 
+### GA updates
+
 <table>
 <thead>
 <tr>
@@ -37,7 +39,117 @@ You can also consult the [Documentation Updates](../release-notes/documentation-
 
 **Other improvements**
 
-xxx
+The payload of Segment Qualification events now contain the following context information, which you can use in conditions and actions: the behavior (entrance, exit), the timestamp of qualification and the segment id. [Read mode](../building-journeys/segment-qualification-events.md)
+
+### Alpha updates
+
+<table>
+<thead>
+<tr>
+<th><strong>Segment Trigger activity</strong><br/></th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td>
+<p>The Segment Trigger activity has been updated to reflect the following enhancements:
+</p>
+<ul>
+<li><p>The configuration of the journey scheduler has been removed from the activity’s properties. It is now accessible directly from the Journey's properties, in a dedicated section that will display if a Segment Trigger activity has been dropped into the canvas. </p>
+</li>
+<li><p>You can now test the journey on a unitary profile, as well as track its progress in the journey using the visual flow.</p>
+</li>
+</ul>
+</td>
+</tr>
+</tbody>
+</table>
+
+<table>
+<thead>
+<tr>
+<th><strong>Rule-based events</strong><br/></th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td>
+<p>The rule-based events section (Alpha) has been updated to reflect the following enhancements:
+</p>
+<ul>
+<li><p>The configuration of the journey scheduler has been removed from the activity’s properties. It is now accessible directly from the Journey's properties, in a dedicated section that will display if a Segment Trigger activity has been dropped into the canvas. <a href="../alpha/alpha-events.md#analytics-data">Read more</a></p>
+</li>
+<li><p>When triggering a rule-based event in test mode, you can now directly view the event ID condition. Also, a tooltip has been added next to each field that is part of the rule evaluation. <a href="../alpha/alpha-events.md#configuring-rule-based">Read more</a></p>
+</li>
+<li><p>The rule-based event definition screen has been reorganized for an improved experience. <a href="../alpha/alpha-events.md#test-rule-based">Read more</a></p>
+</li>
+</ul>
+</td>
+</tr>
+</tbody>
+</table>
+
+## Alpha Release - June 2020 {#q2-release---june-2020}
+
+The Alpha program offers features that are currently tested among a limited set of customers. This allows us to improve our product based on the feedback received. These features are not available to all Journey Orchestration customers.
+
+These features are described in a dedicated [section](../alpha/alpha-overview.md).
+
+<table>
+<thead>
+<tr>
+<th><strong>Enhanced user interface</strong><br/></th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td>
+<p>Navigation within Journey Orchestration menus has been enhanced, in order to provide a consistant interface with Adobe Experience Platform:
+</p>
+<ul>
+<li><p>Menus moved from the top to the left-hand side of the interface. </p>
+</li>
+<li><p>Grouping of admin functionalities into a single dashboard.</p>
+</li>
+</ul>
+<p><a href="../alpha/alpha-interface.md">Read more</a></p>
+</td>
+</tr>
+</tbody>
+</table>
+
+<table>
+<thead>
+<tr>
+<th><strong>Segment Trigger activity</strong><br/></th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td>
+<p>The Segment Trigger activity allows you to make all individuals belonging to an Adobe Experience Platform segment enter a journey. Entrance into a journey can be executed either once, or on a regular basis. <a href="../alpha/alpha-segment-trigger.md">Read more</a>
+</p>
+</td>
+</tr>
+</tbody>
+</table>
+
+<table>
+<thead>
+<tr>
+<th><strong>Rule-based events</strong><br/></th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td>
+<p>We have simplified the way you set up Experience events. We're introducing a new method that does not require the use of an eventID. When you set up your event in Journey Orchestration, you can now define a rule-based event. <a href="../alpha/alpha-events.md">Read more</a>
+</p>
+</td>
+</tr>
+</tbody>
+</table>
+
 
 ## Q2 Release - June 2020 {#q2-release---june-2020}
 
@@ -64,9 +176,9 @@ xxx
 <li><p>Journey Orchestration is now automatically passing, to the Adobe Experience Platform, the steps executed in journeys. This includes potential errors encountered. This information can be used for achieving reporting and troubleshooting by executing queries on the Journey Step events for a particular journey or for all journeys. <a href="../building-journeys/sharing-overview.md">Read more</a></p>
 <img src="../assets/rn-journeystepevent.png"/>
 </li>
-</li>
 <li><p>Journey Orchestration can now be connected to production and non-production Adobe Experience Platform sandboxes. Note that sandboxes is a beta feature. <a href="../about/access-management.md#sandboxes">Read more</a></p>
 </li>
+</ul>
 </td>
 </tr>
 </tbody>
