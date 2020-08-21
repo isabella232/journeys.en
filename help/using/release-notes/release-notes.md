@@ -77,7 +77,7 @@ The payload of Segment Qualification events now contain the following context in
 <p>The rule-based events section (Alpha) has been updated to reflect the following enhancements:
 </p>
 <ul>
-<li><p>The configuration of the journey scheduler has been removed from the activity’s properties. It is now accessible directly from the Journey's properties, in a dedicated section that will display if a Segment Trigger activity has been dropped into the canvas. <a href="../alpha/alpha-events.md#analytics-data">Read more</a></p>
+<li><p>You can now leverage all of the Adobe Analytics behavioral event data that you are already capturing and streaming into the Platform in order to trigger journeys and automate experiences for your customers. <a href="../alpha/alpha-events.md#analytics-data">Read more</a></p>
 </li>
 <li><p>When triggering a rule-based event in test mode, you can now directly view the event ID condition. Also, a tooltip has been added next to each field that is part of the rule evaluation. <a href="../alpha/alpha-events.md#configuring-rule-based">Read more</a></p>
 </li>
