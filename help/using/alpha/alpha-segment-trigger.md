@@ -18,7 +18,7 @@ snippet: y
 
 >[!NOTE]
 >
->If an Adobe Campaign Standard out-of-the-box action activity is present in the canvas at publication time or test mode activation time, the journey will be throttled at 13 entrances per second. <br>If no Adobe Campaign Standard out-of-the-box action activity is present in the canvas at publication time or test mode activation time, the journey will be throttled at 1000 events per second.
+>If an Adobe Campaign Standard out-of-the-box action activity is present in the canvas at publication time or test mode activation time, the journey will be throttled at 13 entrances per second. <br>Otherwise, the journey will be throttled at 1000 events per second.
 
 The Segment Trigger activity allows you to make all individuals belonging to an Adobe Experience Platform segment enter a journey. Entrance into a journey can be executed either once, or on a regular basis.
 
@@ -34,15 +34,15 @@ Let's say you have a Gold customer segment on Adobe Experience Platform. With th
 
     The activity must be positioned as the first step of a journey.
 
-1. Add a **[!UICONTROL Label]** to the activity. This step is optional.
-
-1. Configure the activity **[!UICONTROL Scheduler type]**.
+1. Once a **[!UICONTROL Segment Trigger]** is dropped in the canvas, a **[!UICONTROL Scheduler]** section displays in the journey's properties.
 
     By default, the segment will enter the journey **[!UICONTROL As soon as possible]**, meaning 1 hour after the journey is published. If you want to make the segment enter the journey on a specific date/time or on a recurring basis, select the desired option from the list.
 
-    In case of recurring journeys, you can also define the start and end of the journey.
+     In case of recurring journeys, you can also define the start and end of the journey. <!-- to check-->
 
-    ![](../assets/segment-trigger-schedule.png)
+1. Select the **[Segment Trigger]** to configure it, then add a **[!UICONTROL Label]** to the activity (optional).
+
+    ![](assets/) <!-- add screenshot>
 
 1. In the **[!UICONTROL Segment]** field, choose the Adobe Experience Platform segment that will enter the journey, then click **[!UICONTROL Save]**.
 
@@ -66,18 +66,28 @@ Let's say you have a Gold customer segment on Adobe Experience Platform. With th
 
 1. Click **[!UICONTROL Ok]** to confirm. You can then leverage available activities to build your journey.
 
-1. Once the journey is ready, you can potentially test it (see [Testing the journey](../building-journeys/testing-the-journey.md)).
+## Testing and publishing the journey {testing-publishing}
 
-    When the test mode is activated on a journey starting with a **[!UICONTROL Segment Trigger]** activity, 100 test profiles will be randomly selected among the profiles qualified for the selected segment. The test logs will allow you to see the path of individuals in the journey and potential encountered errors (see [Viewing the logs](../building-journeys/testing-the-journey.md#viewing_logs)).
+The **[Segment Trigger]** activity allows you to test the journey either on a unitary profile, or on 100 randomly selected test profiles.
 
-    >[!NOTE]
-    >
-    >Note that you will not be able to see the 100 persons following the journey using the visual flow feature existing in unitary journeys.
+* To test the journey on a unitary profile, activate the test mode then click the **[!UICONTROL xxx]** button from the left pane. You can then configure the test mode as usual, as well as track the progress of the test profile in the journey using the visual flow.
 
-1. You can then publish your journey (see [Publishing the journey](../building-journeys/publishing-the-journey.md)). Individuals belonging to the segment will enter the journey on the date/time specified in the Segment Trigger activity scheduler.
+    Detailed steps on how to test a journey are presented in [this section](../building-journeys/testing-the-journey.md).
 
-    >[!IMPORTANT]
-    >
-    >Keep in mind that Adobe Experience Platform segments are calculated either once a day (**batch** segments) or in real-time (**streamed** segments).
-    >
-    >If the selected segment is streamed, the individuals belonging to this segment will be potentially enter the journey in real-time. If the segment is batch, people newly qualified for this segment will potentially enter the journey when the segment calculation is executed on the Adobe Experience Platform.
+    ![](assets/xxx) <!-- add screenshot>
+
+* To test the journey or 100 random test profiles, activate the test mode, then click the **[!UICONTROL xxx]** button from the left pane.
+
+    100 test profiles will be randomly selected among the test profiles profiles qualified for the selected segment. Note that you will not be able to track the progress of the 100 persons in the journey using the visual flow feature.
+
+    ![](assets/xxx) <!-- add screenshot>
+
+Once the tests are successfull, you can  publish your journey (see [Publishing the journey](../building-journeys/publishing-the-journey.md)).
+
+Individuals belonging to the segment will enter the journey on the date/time specified in the journey's properties **[!UICONTROL xxxx]** section.
+
+>[!IMPORTANT]
+>
+>Keep in mind that Adobe Experience Platform segments are calculated either once a day (**batch** segments) or in real-time (**streamed** segments).
+>
+>If the selected segment is streamed, the individuals belonging to this segment will be potentially enter the journey in real-time. If the segment is batch, people newly qualified for this segment will potentially enter the journey when the segment calculation is executed on the Adobe Experience Platform.
