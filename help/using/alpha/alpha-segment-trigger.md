@@ -1,6 +1,6 @@
 ---
-title: Segment Trigger activity
-description: Learn more about Segment Trigger
+title: Read Segment activity
+description: Learn more about the Read Segment activity.
 page-status-flag: never-activated
 uuid: 269d590c-5a6d-40b9-a879-02f5033863fc
 contentOwner: sauviat
@@ -12,17 +12,17 @@ internal: n
 snippet: y
 ---
 
-# Segment Trigger activity {#segment-trigger-activity}
+# Read Segment activity {#segment-trigger-activity}
 
-## About the Segment Trigger activity {#about-segment-trigger-actvitiy}
+## About the Read Segment activity {#about-segment-trigger-actvitiy}
 
 >[!NOTE]
 >
 >If an Adobe Campaign Standard out-of-the-box action activity is present in the canvas at publication time or test mode activation time, the journey will be throttled at 13 entrances per second. <br>Otherwise, the journey will be throttled at 1000 events per second.
 
-The Segment Trigger activity allows you to make all individuals belonging to an Adobe Experience Platform segment enter a journey. Entrance into a journey can be executed either once, or on a regular basis.
+The Read Segment activity allows you to make all individuals belonging to an Adobe Experience Platform segment enter a journey. Entrance into a journey can be executed either once, or on a regular basis.
 
-Let's say you have a Gold customer segment on Adobe Experience Platform. With the Segment Trigger activity, you can make all individuals belonging to the Gold customer segment enter a journey and make them flow into individualized journeys that will leverage all journey functionalities: conditions, timers, events, actions.
+Let's say you have a Gold customer segment on Adobe Experience Platform. With the Read Segment activity, you can make all individuals belonging to the Gold customer segment enter a journey and make them flow into individualized journeys that will leverage all journey functionalities: conditions, timers, events, actions.
 
 ## Configuring the activity {#configuring-segment-trigger-activity}
 
@@ -30,17 +30,17 @@ Let's say you have a Gold customer segment on Adobe Experience Platform. With th
 >
 >Due to segment export latencies, it is not possible to trigger a segment-based journey in a shorter timeframe than 1 hour.
 
-1. Unfold the **[!UICONTROL Orchestration]** category and drop a **[!UICONTROL Segment Trigger]** activity into your canvas.
+1. Unfold the **[!UICONTROL Orchestration]** category and drop a **[!UICONTROL Read Segment]** activity into your canvas.
 
     The activity must be positioned as the first step of a journey.
 
-1. Once a **[!UICONTROL Segment Trigger]** is dropped in the canvas, a **[!UICONTROL Scheduler]** section displays in the journey's properties.
+1. Once a **[!UICONTROL Read Segment]** is dropped in the canvas, a **[!UICONTROL Scheduler]** section displays in the journey's properties.
 
     By default, the segment will enter the journey **[!UICONTROL As soon as possible]**, meaning 1 hour after the journey is published. If you want to make the segment enter the journey on a specific date/time or on a recurring basis, select the desired option from the list.
 
      In case of recurring journeys, you can also define the start and end of the journey. <!-- to check-->
 
-1. Select the **[Segment Trigger]** to configure it, then add a **[!UICONTROL Label]** to the activity (optional).
+1. Select the **[Read Segment]** to configure it, then add a **[!UICONTROL Label]** to the activity (optional).
 
     ![](assets/) <!-- add screenshot>
 
@@ -68,7 +68,7 @@ Let's say you have a Gold customer segment on Adobe Experience Platform. With th
 
 ## Testing and publishing the journey {testing-publishing}
 
-The **[Segment Trigger]** activity allows you to test the journey either on a unitary profile, or on 100 randomly selected test profiles.
+The **[Read Segment]** activity allows you to test the journey either on a unitary profile, or on 100 randomly selected test profiles.
 
 * To test the journey on a unitary profile, activate the test mode then click the **[!UICONTROL xxx]** button from the left pane. You can then configure the test mode as usual, as well as track the progress of the test profile in the journey using the visual flow.
 
