@@ -56,7 +56,7 @@ Let's say you have a Gold customer segment on Adobe Experience Platform. With th
     >
     >Individuals belonging to a segment that does not have the selected identity (namespace) among their different identities cannot enter the journey.
 
-1. The **[!UICONTROL Read Segment]** activity allows you to specify the time at which the segment will enter the journey. To do this, click the **[!UICONTROL Edit journey schedule]** link to access the journey's properties, then configure the **[!UICONTROL Scheduler]** field.
+1. The **[!UICONTROL Read Segment]** activity allows you to specify the time at which the segment will enter the journey. To do this, click the **[!UICONTROL Edit journey schedule]** link to access the journey's properties, then configure the **[!UICONTROL Scheduler type]** field.
 
     ![](../assets/segment-trigger-schedule.png)
 
@@ -64,7 +64,9 @@ Let's say you have a Gold customer segment on Adobe Experience Platform. With th
 
     >[!NOTE]
     >
-    >Note that the **[!UICONTROL Scheduler]** section is only available when a **[!UICONTROL Read Segment]** activity has been dropped in the canvas.
+    >Note that the **[!UICONTROL Schedule]** section is only available when a **[!UICONTROL Read Segment]** activity has been dropped in the canvas.
+
+    ![](../assets/segment-trigger-properties.png)
 
 ## Testing and publishing the journey {testing-publishing}
 
