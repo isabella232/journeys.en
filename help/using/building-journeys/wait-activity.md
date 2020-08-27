@@ -19,7 +19,7 @@ If you want to wait before executing the next activity in the path, you can use 
 * [Duration](#duration) 
 * [Fixed date](#fixed_date) 
 * [Custom](#custom) 
-* [Email send time optimization](#email_send_time_optimization) 
+<!--* [Email send time optimization](#email_send_time_optimization)-->
 
 ## About the Wait activity{#about_wait}
 
@@ -59,7 +59,7 @@ This option lets you define a custom date, for example 12 July 2020 at 5pm, usin
 
 ![](../assets/journey57.png)
 
-## Email send time optimization{#email_send_time_optimization}
+<!--## Email send time optimization{#email_send_time_optimization}
 
 >[!CAUTION]
 >
@@ -81,4 +81,4 @@ This type of wait uses a score calculated in the Adobe Experience Platform. The 
     >
     >Note that the send time score can be unavailable because there is not enough data to perform the calculation. In this case, you will be informed, at publication time, that the default time applies.
 
-![](../assets/journey57bis.png)
+![](../assets/journey57bis.png)-->
