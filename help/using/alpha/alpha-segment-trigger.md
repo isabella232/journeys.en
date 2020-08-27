@@ -18,7 +18,7 @@ snippet: y
 
 >[!NOTE]
 >
->If an Adobe Campaign Standard out-of-the-box action activity is present in the canvas at publication time or test mode activation time, the journey will be throttled at 13 entrances per second. <br>Otherwise, the journey will be throttled at 1000 events per second.
+>If an Adobe Campaign Standard out-of-the-box action activity is present in the canvas at publication time or test mode activation time, the journey will be throttled at 13 entrances per second. Otherwise, the journey will be throttled at 1000 events per second.
 
 The Read Segment activity allows you to make all individuals belonging to an Adobe Experience Platform segment enter a journey. Entrance into a journey can be executed either once, or on a regular basis.
 
@@ -56,14 +56,15 @@ Let's say you have a Gold customer segment on Adobe Experience Platform. With th
     >
     >Individuals belonging to a segment that does not have the selected identity (namespace) among their different identities cannot enter the journey.
 
-1. Click **[!UICONTROL Ok]** to confirm.
+1. The **[!UICONTROL Read Segment]** activity allows you to specify the time at which the segment will enter the journey. To do this, click the **[!UICONTROL Edit journey schedule]** link to access the journey's properties, then configure the **[!UICONTROL Scheduler]** field.
 
-1. Once the activity is dropped in the canvas, a **[!UICONTROL Scheduler]** section displays in the [journey's properties](../building-journeys/changing-properties.md).
+    ![](../assets/segment-trigger-schedule.png)
 
     By default, segments enter the journey **[!UICONTROL As soon as possible]**, meaning 1 hour after the journey is published. If you want to make the segment enter the journey on a specific date/time or on a recurring basis, select the desired value from the list.
-    You can then leverage available activities to build your journey.
 
-    <!-- add screenshot -->
+    >[!NOTE]
+    >
+    >Note that the **[!UICONTROL Scheduler]** section is only available when a **[!UICONTROL Read Segment]** activity has been dropped in the canvas.
 
 ## Testing and publishing the journey {testing-publishing}
 
@@ -71,7 +72,7 @@ The **[Read Segment]** activity allows you to test the journey either on a unita
 
 To do this, activate the test mode, then select the desired test mode.
 
-<!-- add screenshot -->
+![](../assets/segment-trigger-test-modes.png)
 
 You can then configure the test mode as usual, as well as track the progress of the test profile in the journey using the visual flow. Detailed steps on how to test a journey are presented in [this section](../building-journeys/testing-the-journey.md).
 
