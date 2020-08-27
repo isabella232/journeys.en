@@ -161,7 +161,7 @@ index: yes
   + [Metrics and dimensions](using/reporting/metrics-and-dimensions.md)
 + Integrating with Intelligent Services{#use-case-advanced}
     + [About AI integration](using/ai-services/ai-services-overview.md)
-    + [Leveraging Journey AI](using/ai-services/leveraging-fatigue-scores.md)
+    <!--+ [Leveraging Journey AI](using/ai-services/leveraging-fatigue-scores.md)-->
     + [Leveraging Customer AI](using/ai-services/leveraging-customer-ai.md)
 + Use cases{#use-cases-journeys}
   + Simple use case{#use-case-simple}
