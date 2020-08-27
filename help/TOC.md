@@ -88,7 +88,6 @@ index: yes
   + Functions {#main-functions-journey}
     + [Main Functions](using/expression/functions.md)
     + Adobe Experience Platform {#adobe-experience-platform}
-      + [getBestSendTime](using/functions/functiongetbestsendtime.md)
       + [inSegment](using/functions/functioninsegment.md)
     + Aggregation {#aggregation}
       + [avg](using/functions/functionavg.md)

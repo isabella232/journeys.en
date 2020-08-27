@@ -74,7 +74,7 @@ You can also consult the [!DNL Journey Orchestration] [Release Notes](../release
 ## January 2020 {#january-2020}
 
 * Fetching limitations have been added for [experience events](../datasource/adobe-experience-platform-data-source.md) and [segments](../functions/functioninsegment.md).
-* The [getBestSendTime documentation](../functions/functiongetbestsendtime.md) has been updated.
+<!--* The [getBestSendTime documentation](../functions/functiongetbestsendtime.md) has been updated.-->
 
 ## December 2019 {#december-2019}
 
