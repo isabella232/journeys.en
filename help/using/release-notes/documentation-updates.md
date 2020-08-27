@@ -74,13 +74,13 @@ You can also consult the [!DNL Journey Orchestration] [Release Notes](../release
 ## January 2020 {#january-2020}
 
 * Fetching limitations have been added for [experience events](../datasource/adobe-experience-platform-data-source.md) and [segments](../functions/functioninsegment.md).
-* The [getBestSendTime documentation](../functions/functiongetbestsendtime.md) has been updated.
+<!--* The [getBestSendTime documentation](../functions/functiongetbestsendtime.md) has been updated.-->
 
 ## December 2019 {#december-2019}
 
 * All screenshots have been updated to reflect interface changes.
 * The test mode section has been updated. [Read more](../building-journeys/testing-the-journey.md)
-* A warning has been added in the [email send time optimization](../building-journeys/wait-activity.md) and [predictive fatigue scores](../ai-services/leveraging-fatigue-scores.md) sections. These capabilities are only available to customers who use the [Adobe Experience Platform Data Connector](https://docs.adobe.com/content/help/en/campaign-standard/using/developing/mapping-campaign-and-aep-data/aep-about-data-connector.html).
+<!--* A warning has been added in the [email send time optimization](../building-journeys/wait-activity.md) and [predictive fatigue scores](../ai-services/leveraging-fatigue-scores.md) sections. These capabilities are only available to customers who use the [Adobe Experience Platform Data Connector](https://docs.adobe.com/content/help/en/campaign-standard/using/developing/mapping-campaign-and-aep-data/aep-about-data-connector.html).-->
 * Stopped journeys can now be deleted. Related documentation pages have been updated.
 * Two colors are now displayed when issues are detected in a journey. Red for errors and orange for warnings. [Read more](../about/troubleshooting.md)
 * The advanced expression editor section has been updated. [Read more](../expression/expressionadvanced.md).
