@@ -34,15 +34,7 @@ Let's say you have a Gold customer segment on Adobe Experience Platform. With th
 
     The activity must be positioned as the first step of a journey.
 
-1. Once a **[!UICONTROL Read Segment]** is dropped in the canvas, a **[!UICONTROL Scheduler]** section displays in the journey's properties.
-
-    By default, the segment will enter the journey **[!UICONTROL As soon as possible]**, meaning 1 hour after the journey is published. If you want to make the segment enter the journey on a specific date/time or on a recurring basis, select the desired option from the list.
-
-     In case of recurring journeys, you can also define the start and end of the journey. <!-- to check-->
-
-1. Select the **[Read Segment]** to configure it, then add a **[!UICONTROL Label]** to the activity (optional).
-
-    ![](assets/) <!-- add screenshot>
+1. Add a **[!UICONTROL Label]** to the activity (optional).
 
 1. In the **[!UICONTROL Segment]** field, choose the Adobe Experience Platform segment that will enter the journey, then click **[!UICONTROL Save]**.
 
@@ -64,27 +56,28 @@ Let's say you have a Gold customer segment on Adobe Experience Platform. With th
     >
     >Individuals belonging to a segment that does not have the selected identity (namespace) among their different identities cannot enter the journey.
 
-1. Click **[!UICONTROL Ok]** to confirm. You can then leverage available activities to build your journey.
+1. Click **[!UICONTROL Ok]** to confirm.
+
+1. Once the activity is dropped in the canvas, a **[!UICONTROL Scheduler]** section displays in the [journey's properties](../building-journeys/changing-properties.md).
+
+    By default, segments enter the journey **[!UICONTROL As soon as possible]**, meaning 1 hour after the journey is published. If you want to make the segment enter the journey on a specific date/time or on a recurring basis, select the desired value from the list.
+    You can then leverage available activities to build your journey.
+
+    <!-- add screenshot -->
 
 ## Testing and publishing the journey {testing-publishing}
 
-The **[Read Segment]** activity allows you to test the journey either on a unitary profile, or on 100 randomly selected test profiles.
+The **[Read Segment]** activity allows you to test the journey either on a unitary profile, or on 100 randomly test profiles selected among the profiles qualified for the segment.
 
-* To test the journey on a unitary profile, activate the test mode then click the **[!UICONTROL xxx]** button from the left pane. You can then configure the test mode as usual, as well as track the progress of the test profile in the journey using the visual flow.
+To do this, activate the test mode, then select the desired test mode.
 
-    Detailed steps on how to test a journey are presented in [this section](../building-journeys/testing-the-journey.md).
+<!-- add screenshot -->
 
-    ![](assets/xxx) <!-- add screenshot>
+You can then configure the test mode as usual, as well as track the progress of the test profile in the journey using the visual flow. Detailed steps on how to test a journey are presented in [this section](../building-journeys/testing-the-journey.md).
 
-* To test the journey or 100 random test profiles, activate the test mode, then click the **[!UICONTROL xxx]** button from the left pane.
+Once the tests are successfull, you can publish your journey (see [Publishing the journey](../building-journeys/publishing-the-journey.md)).
 
-    100 test profiles will be randomly selected among the test profiles profiles qualified for the selected segment. Note that you will not be able to track the progress of the 100 persons in the journey using the visual flow feature.
-
-    ![](assets/xxx) <!-- add screenshot>
-
-Once the tests are successfull, you can  publish your journey (see [Publishing the journey](../building-journeys/publishing-the-journey.md)).
-
-Individuals belonging to the segment will enter the journey on the date/time specified in the journey's properties **[!UICONTROL xxxx]** section.
+Individuals belonging to the segment will enter the journey on the date/time specified in the journey's properties **[!UICONTROL Scheduler]** section.
 
 >[!IMPORTANT]
 >
