@@ -70,7 +70,7 @@ Let's say you have a Gold customer segment on Adobe Experience Platform. With th
 
 The **[Read Segment]** activity allows you to test the journey either on a unitary profile, or on 100 randomly test profiles selected among the profiles qualified for the segment.
 
-To do this, activate the test mode, then select the desired test mode.
+To do this, activate the test mode, then select the desired option from the left pane.
 
 ![](../assets/segment-trigger-test-modes.png)
 
