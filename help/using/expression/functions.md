@@ -26,7 +26,6 @@ Here is the list of supported functions.
 
 | Category    | Function              |
 |-------------|-----------------------|
-| Adobe Experience Platform | [](../functions/functiongetbestsendtime.md)|
 | Adobe Experience Platform | [](../functions/functioninsegment.md)|
 | Aggregation | [](../functions/functionavg.md)|
 | Aggregation | [](../functions/functioncount.md)|
