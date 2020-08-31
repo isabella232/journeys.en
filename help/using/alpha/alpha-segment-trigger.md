@@ -68,7 +68,7 @@ Let's say you have a Gold customer segment on Adobe Experience Platform. With th
 
     ![](../assets/segment-trigger-properties.png)
 
-## Testing and publishing the journey {testing-publishing}
+## Testing and publishing the journey {#testing-publishing}
 
 The **[Read Segment]** activity allows you to test the journey either on a unitary profile, or on 100 randomly test profiles selected among the profiles qualified for the segment.
 
