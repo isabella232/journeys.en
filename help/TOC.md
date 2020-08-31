@@ -88,7 +88,6 @@ index: yes
   + Functions {#main-functions-journey}
     + [Main Functions](using/expression/functions.md)
     + Adobe Experience Platform {#adobe-experience-platform}
-      + [getBestSendTime](using/functions/functiongetbestsendtime.md)
       + [inSegment](using/functions/functioninsegment.md)
     + Aggregation {#aggregation}
       + [avg](using/functions/functionavg.md)
@@ -161,7 +160,6 @@ index: yes
   + [Metrics and dimensions](using/reporting/metrics-and-dimensions.md)
 + Integrating with Intelligent Services{#use-case-advanced}
     + [About AI integration](using/ai-services/ai-services-overview.md)
-    + [Leveraging Journey AI](using/ai-services/leveraging-fatigue-scores.md)
     + [Leveraging Customer AI](using/ai-services/leveraging-customer-ai.md)
 + Use cases{#use-cases-journeys}
   + Simple use case{#use-case-simple}
@@ -179,6 +177,6 @@ index: yes
 + Alpha features {#alpha}
   + [Alpha features overview](using/alpha/alpha-overview.md)
   + [User interface](using/alpha/alpha-interface.md)
-  + [Segment Trigger activity](using/alpha/alpha-segment-trigger.md)
+  + [Read Segment activity](using/alpha/alpha-segment-trigger.md)
   + [Rule-based events](using/alpha/alpha-events.md)
   
