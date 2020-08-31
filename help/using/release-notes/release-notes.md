@@ -39,9 +39,11 @@ To discover the scope of the Alpha, refer to this [section](../alpha/alpha-overv
 <p>The following improvements have been made to the Segment Trigger activity:
 </p>
 <ul>
-<li><p>The configuration of the journey scheduler has been removed from the activity’s properties. It is now accessible directly from the Journey's properties, in a dedicated section that will display if a Segment Trigger activity has been dropped into the canvas. </p>
+<li><p>The activity's name has been changed to "Read Segment". </p>
 </li>
-<li><p>You can now test the journey on a unitary profile, as well as track its progress in the journey using the visual flow.</p>
+<li><p>The configuration of the journey scheduler has been removed from the activity’s properties. It is now accessible directly from the Journey's properties, in a dedicated section that will display if a Read Segment activity has been dropped into the canvas. </p>
+</li>
+<li><p>You can now test the journey on a unitary profile and track its progress in the journey using the visual flow.</p>
 </li>
 </ul>
 <p>For more information, refer to the <a href="../alpha/alpha-segment-trigger.md">detailed documentation</a>.</p>
