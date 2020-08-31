@@ -76,7 +76,11 @@ To do this, activate the test mode, then select the desired option from the left
 
 ![](../assets/segment-trigger-test-modes.png)
 
-You can then configure the test mode as usual, as well as track the progress of the test profile in the journey using the visual flow. Detailed steps on how to test a journey are presented in [this section](../building-journeys/testing-the-journey.md).
+You can then configure the test mode as usual. Detailed steps on how to test a journey are presented in [this section](../building-journeys/testing-the-journey.md).
+
+>[!NOTE]
+>
+>Note that testing the journey using up to profiles at once does not allow you to track the progress of the individuals in the journey using the visual flow.
 
 Once the tests are successfull, you can publish your journey (see [Publishing the journey](../building-journeys/publishing-the-journey.md)).
 
